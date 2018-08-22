@@ -1,0 +1,88 @@
+institution_shortname,institution_dept,institution_name,institution_street,institution_city_or_municipal,institution_state_or_province,institution_country,institution_postal,author_list_id (leave blank for now),old_string,ldap_o
+Aachen,III. Physikalisches Institut,RWTH Aachen University,,Aachen,,Germany,D-52056,IceCube,"III. Physikalisches Institut, RWTH Aachen University, D-52056 Aachen, Germany",rwth
+Adelaideold,School of Chemistry & Physics,University of Adelaide,,Adelaide,South Australia,Australia,5005,IceCube,"School of Chemistry & Physics, University of Adelaide, Adelaide SA, 5005 Australia",adelaide
+Adelaide,Department of Physics,University of Adelaide,,Adelaide,,Australia,5005,IceCube,"Department of Physics, University of Adelaide, Adelaide, 5005, Australia",adelaide
+Anchorage,Dept. of Physics and Astronomy,University of Alaska Anchorage,,Anchorage,Alaska,USA,99508,IceCube,"Dept. of Physics and Astronomy, University of Alaska Anchorage, 3211 Providence Dr., Anchorage, AK 99508, USA",uaa
+Arlington,Dept. of Physics,University of Texas at Arlington,"502 Yates St., Science Hall Rm 108, Box 19059",Arlington,Texas,USA,76019,IceCube,"Dept. of Physics, University of Texas at Arlington, 502 Yates St., Science Hall Rm 108, Box 19059, Arlington, TX 76019, USA",uta
+Atlanta,CTSPS,Clark-Atlanta University,,Atlanta,Georgia,USA,30314,IceCube,"CTSPS, Clark-Atlanta University, Atlanta, GA 30314, USA",cau
+GeorgiaOld,School of Physics,Georgia Institute of Technology,,Atlanta,Georgia,USA,30332,IceCube,"School of Physics, Georgia Institute of Technology, Atlanta, GA 30332. USA",gatech
+Georgia,School of Physics and Center for Relativistic Astrophysics,Georgia Institute of Technology,,Atlanta,Georgia,USA,30332,IceCube,"School of Physics and Center for Relativistic Astrophysics, Georgia Institute of Technology, Atlanta, GA 30332, USA",gatech
+Southern,Dept. of Physics,Southern University,,Baton Rouge,Louisiana,USA,70813,IceCube,"Dept. of Physics, Southern University, Baton Rouge, LA 70813, USA",southern
+Berkeley,Dept. of Physics,University of California,,Berkeley,California,USA,94720,IceCube,"Dept. of Physics, University of California, Berkeley, CA 94720, USA",ucb
+LBNL,,Lawrence Berkeley National Laboratory,,Berkeley,California,USA,94720,IceCube,"Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA",lbl
+Berlin,Institut für Physik,Humboldt-Universität zu Berlin,,Berlin,,Germany,D-12489,IceCube,"Institut für Physik, Humboldt-Universität zu Berlin, D-12489 Berlin, Germany",humboldt
+Bochum,Fakultät für Physik & Astronomie,Ruhr-Universität Bochum,,Bochum,,Germany,D-44780,IceCube,"Fakultät für Physik & Astronomie, Ruhr-Universität Bochum, D-44780 Bochum, Germany",rub
+Bonn,Physikalisches Institut,Universität Bonn,Nussallee 12,Bonn,,Germany,D-53115,IceCube,"Physikalisches Institut, Universität Bonn, Nussallee 12, D-53115 Bonn, Germany",bonn
+Barbados,Dept. of Physics,University of the West Indies,Cave Hill Campus,Bridgetown,,Barbados,BB11000,IceCube,"Dept. of Physics, University of the West Indies, Cave Hill Campus, Bridgetown BB11000, Barbados",uwi
+BrusselsLibre,Science Faculty CP230,Université Libre de Bruxelles,,Brussels,,Belgium,B-1050,IceCube,"Université Libre de Bruxelles, Science Faculty CP230, B-1050 Brussels, Belgium",ulb
+BrusselsVrije,Dienst ELEM,Vrije Universiteit Brussel (VUB),,Brussels,,Belgium,B-1050,IceCube,"Vrije Universiteit Brussel (VUB), Dienst ELEM, B-1050 Brussels, Belgium",vub
+MIT,Dept. of Physics,Massachusetts Institute of Technology,,Cambridge,Massachusetts,USA,2139,IceCube,"Dept. of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",mit
+Chibaold,Dept. of Physics,Chiba University,,Chiba,,Japan,263-8522,IceCube,"Dept. of Physics, Chiba University, Chiba 263-8522, Japan",chiba
+Chiba,Dept. of Physics and Institute for Global Prominent Research,Chiba University,,Chiba,,Japan,263-8522,IceCube,"Dept. of Physics and Institute for Global Prominent Research, Chiba University, Chiba 263-8522, Japan",chiba
+Christchurch,Dept. of Physics and Astronomy,University of Canterbury,Private Bag 4800,Christchurch,,New Zealand,,IceCube,"Dept. of Physics and Astronomy, University of Canterbury, Private Bag 4800, Christchurch, New Zealand",canterbury
+Maryland,Dept. of Physics,University of Maryland,,College Park,Maryland,USA,20742,IceCube,"Dept. of Physics, University of Maryland, College Park, MD 20742, USA",umd
+Ohioold,Dept. of Physics and Center for Cosmology and Astro-Particle Physics,The Ohio State University,191 W. Woodruff Ave.,Columbus,Ohio,USA,43210,IceCube,"Dept. of Physics and Center for Cosmology and Astro-Particle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA",osu
+Ohio,Dept. of Physics and Center for Cosmology and Astro-Particle Physics,Ohio State University,,Columbus,Ohio,USA,43210,IceCube,"Dept. of Physics and Center for Cosmology and Astro-Particle Physics, Ohio State University, Columbus, OH 43210, USA",osu
+OhioAstro,Dept. of Astronomy,Ohio State University,,Columbus,Ohio,USA,43210,IceCube,"Dept. of Astronomy, Ohio State University, Columbus, OH 43210, USA",osu
+Copenhagenold,"Discovery Center, Niels Bohr Institute",University of Copenhagen,,Copenhagen,Blegdamsvej 17,Denmark,,PINGU,"Discovery Center, Niels Bohr Institute, University of Copenhagen, Blegdamsvej 17, Copenhagen, Denmark",nbi
+Copenhagen,Niels Bohr Institute,University of Copenhagen,,Copenhagen,,Denmark,DK-2100,IceCube,"Niels Bohr Institute, University of Copenhagen, DK-2100 Copenhagen, Denmark",nbi
+DortmundOld,Dept. of Physics,Universität Dortmund,,Dortmund,,Germany,D-44221,IceCube,"Dept. of Physics, Universität Dortmund, D-44221 Dortmund, Germany",dortmund
+Dortmund,Dept. of Physics,TU Dortmund University,,Dortmund,,Germany,D-44221,IceCube,"Dept. of Physics, TU Dortmund University, D-44221 Dortmund, Germany",dortmund
+Michigan,Dept. of Physics and Astronomy,Michigan State University,,East Lansing,Michigan,USA,48824,IceCube,"Dept. of Physics and Astronomy, Michigan State University, East Lansing, MI 48824, USA",msu
+EdmontonOld,Dept. of Physics,University of Alberta,,Edmonton,Alberta,Canada,T6G 2G7,IceCube,"Dept. of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2G7",alberta
+Edmonton,Dept. of Physics,University of Alberta,,Edmonton,Alberta,Canada,T6G 2E1,IceCube,"Dept. of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2E1",alberta
+Erlangenvold,Erlangen Centre for Astroparticle Physics,University of Erlangen-Nürnberg,,Erlangen,,Germany,,PINGU,"Erlangen Centre for Astroparticle Physics, University of Erlangen-Nürnberg, Germany",erlangen
+Erlangenold,Erlangen Centre for Astroparticle Physics,Friedrich-Alexander-Universität Erlangen-Nürnberg,Erwin-Rommel-Str. 1,Erlangen,,Germany,D-91058,IceCube,"Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen Centre for Astroparticle Physics, Erwin-Rommel-Str. 1, D-91058 Erlangen, Germany",erlangen
+Erlangen,Friedrich-Alexander-Universität Erlangen-Nürnberg,Erlangen Centre for Astroparticle Physics,,Erlangen,,Germany,D-91058,IceCube,"Erlangen Centre for Astroparticle Physics, Friedrich-Alexander-Universität Erlangen-Nürnberg, D-91058 Erlangen, Germany",erlangen
+Geneva,Département de physique nucléaire et corpusculaire,Université de Genève,,Geneva,,Switzerland,CH-1211,IceCube,"Département de physique nucléaire et corpusculaire, Université de Genève, CH-1211 Genève, Switzerland",geneva
+Gentold,Dept. of Subatomic and Radiation Physics,University of Gent,,Gent,,Belgium,B-9000,IceCube,"Dept. of Subatomic and Radiation Physics, University of Gent, B-9000 Gent, Belgium",ugent
+Gent,Dept. of Physics and Astronomy,University of Gent,,Gent,,Belgium,B-9000,IceCube,"Dept. of Physics and Astronomy, University of Gent, B-9000 Gent, Belgium",ugent
+Heidelberg,,Max-Planck-Institut für Kernphysik,,Heidelberg,,Germany,D-69177,IceCube,"Max-Planck-Institut für Kernphysik, D-69177 Heidelberg, Germany",mpik-hd
+Irvine,Dept. of Physics and Astronomy,University of California,,Irvine,California,USA,92697,IceCube,"Dept. of Physics and Astronomy, University of California, Irvine, CA 92697, USA",uci
+Lausanne,Laboratory for High Energy Physics,École Polytechnique Fédérale,,Lausanne,,Switzerland,CH-1015,IceCube,"Laboratory for High Energy Physics, École Polytechnique Fédérale, CH-1015 Lausanne, Switzerland",epfl
+Kansas,Dept. of Physics and Astronomy,University of Kansas,,Lawrence,Kansas,USA,66045,IceCube,"Dept. of Physics and Astronomy, University of Kansas, Lawrence, KS 66045, USA",ku
+Karlsruhe,Institut für Kernphysik,Karlsruhe Institute of Technology,,Karlsruhe,,Germany,D-76021,IceCube," Institut für Kernphysik, Karlsruhe Institute of Technology, D-76021 Karlsruhe, Germany",
+SNOLAB,,SNOLAB,"1039 Regional Road 24, Creighton Mine 9",Lively,Ontario,Canada,P3Y 1N2,IceCube,"SNOLAB, 1039 Regional Road 24, Creighton Mine 9, Lively, ON, Canada P3Y 1N2",queens-snolab
+London,Blackett Laboratory,Imperial College,,London,,UK,SW7 2BW,IceCube,"Blackett Laboratory, Imperial College, London SW7 2BW, UK",
+QMLondon,School of Physics and Astronomy,Queen Mary University of London,,London,,UK,E1 4NS,IceCube,"School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, United Kingdom",queenmary
+UCLA,Department of Physics and Astronomy,University of California-Los Angeles,,Los Angeles,California,USA,90095,IceCube,"Department of Physics and Astronomy, UCLA, Los Angeles, CA 90095, USA",
+A3RI,A3RI,University of Wisconsin,,Madison,Wisconsin,USA,53706,IceCube,"A3RI, University of Wisconsin, Madison, WI 53706, USA",
+MadisonAstro,Dept. of Astronomy,University of Wisconsin,,Madison,Wisconsin,USA,53706,IceCube,"Dept. of Astronomy, University of Wisconsin, Madison, WI 53706, USA",uwmad
+Madison,Dept. of Physics,University of Wisconsin,,Madison,Wisconsin,USA,53706,IceCube,"Dept. of Physics, University of Wisconsin, Madison, WI 53706, USA",uwmad
+MadisonPAC,Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center,University of Wisconsin,,Madison,Wisconsin,USA,53706,IceCube,"Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin, Madison, WI 53706, USA",uwmad
+Mainz,Institute of Physics,University of Mainz,Staudinger Weg 7,Mainz,,Germany,D-55099,IceCube,"Institute of Physics, University of Mainz, Staudinger Weg 7, D-55099 Mainz, Germany",sdsmt
+Manchester,School of Physics and Astronomy,The University of Manchester,Oxford Road,Manchester,,United Kingdom,M13 9PL,PINGU,"School of Physics and Astronomy, The University of Manchester, Oxford Road, Manchester, M13 9PL, United Kingdom",manchester
+Marquette,Department of Physics,Marquette University,,Milwaukee,Wisconsin,USA,53201,IceCube,"Department of Physics, Marquette University, Milwaukee, WI, 53201, USA",marquette
+Monsold,,University of Mons-Hainaut,,Mons,,Belgium,7000,IceCube,"University of Mons-Hainaut, 7000 Mons, Belgium",umh
+Mons,,Université de Mons,,Mons,,Belgium,7000,IceCube,"Université de Mons, 7000 Mons, Belgium",umh
+Montreal,,McGill University,3600 rue University,Montréal,Quebec,Canada,H2A 2T8,IceCube,"McGill University, 3600 rue University, Montréal, QC, H2A 2T8, Canada",
+MEPhI,,National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),,Moscow,,Russia,,IceCube,"National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), Moscow, Russia",mephi
+Munichold,,T.U. Munich,,Munich,,Germany,D-85748,IceCube,"T.U. Munich, D-85748 Garching, Germany",munchen
+Munich,Physik-department,Technische Universität München,,Munich,,Germany,D-85748,IceCube,"Physik-department, Technische Universität München, D-85748 Garching, Germany",munchen
+MunichMPI,,Max-Planck-Institut für Physik (Werner Heisenberg Institut),Föhringer Ring 6,Munich,,Germany,D-80805,IceCube,"Max-Planck-Institut für Physik (Werner Heisenberg Institut), Föhringer Ring 6, D-80805 München, Germany",munchen
+Munster,Institut für Kernphysik,Westfälische Wilhelms-Universität Münster,,Münster,,Germany,D-48149,IceCube,"Institut für Kernphysik, Westfälische Wilhelms-Universität Münster, D-48149 Münster, Germany",wwum
+BartolOld,Bartol Research Institute,University of Delaware,,Newark,Delaware,USA,19716,IceCube,"Bartol Research Institute, University of Delaware, Newark, DE 19716, USA",udel
+Bartol,Bartol Research Institute and Dept. of Physics and Astronomy,University of Delaware,,Newark,Delaware,USA,19716,IceCube,"Bartol Research Institute and Dept. of Physics and Astronomy, University of Delaware, Newark, DE 19716, USA",udel
+Yale,Dept. of Physics,Yale University,,New Haven,Connecticut,USA,6520,IceCube,"Dept. of Physics, Yale University, New Haven, CT 06520, USA",yale
+Columbia,Columbia Astrophysics and Nevis Laboratories,Columbia University,,New York,New York,USA,10027,IceCube,"Columbia Astrophysics and Nevis Laboratories, Columbia University, New York, NY 10027, USA",columbia
+NotreDame,Dept. of Physics,University of Notre Dame du Lac,225 Nieuwland Science Hall,Notre Dame,Indiana,USA,46556-5670,IceCube,"Dept. of Physics, University of Notre Dame du Lac, 225 Nieuwland Science Hall, Notre Dame, IN 46556-5670, USA",notredame
+Oxford,Dept. of Physics,University of Oxford,1 Keble Road,Oxford,,UK,OX1 3NP,IceCube,"Dept. of Physics, University of Oxford, 1 Keble Road, Oxford OX1 3NP, UK",oxford
+Drexel,Dept. of Physics,Drexel University,3141 Chestnut Street,Philadelphia,Pennsylvania,USA,19104,IceCube,"Dept. of Physics, Drexel University, 3141 Chestnut Street, Philadelphia, PA 19104, USA",drexel
+Princeton,,Institute for Advanced Study,,Princeton,New Jersey,USA,8540,IceCube,"Institute for Advanced Study, Princeton, NJ 08540, USA",ias
+SouthDakota,Physics Department,South Dakota School of Mines and Technology,,Rapid City,South Dakota,USA,57701,IceCube,"Physics Department, South Dakota School of Mines and Technology, Rapid City, SD 57701, USA",sdsmt
+RiverFalls,Dept. of Physics,University of Wisconsin,,River Falls,Wisconsin,USA,54022,IceCube,"Dept. of Physics, University of Wisconsin, River Falls, WI 54022, USA",uwrf
+Stockholm,Dept. of Physics,Stockholm University,,Stockholm,,Sweden,SE-10691,IceCube,"Dept. of Physics, Stockholm University, SE-10691 Stockholm, Sweden",stockholm
+StockholmOKC,Oskar Klein Centre and Dept. of Physics,Stockholm University,,Stockholm,,Sweden,SE-10691,IceCube,"Oskar Klein Centre and Dept. of Physics, Stockholm University, SE-10691 Stockholm, Sweden",stockholm
+StonyBrook,Dept. of Physics and Astronomy,Stony Brook University,,Stony Brook,New York,USA,11794-3800,IceCube,"Dept. of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794-3800, USA",stonybrook
+SKKU,Dept. of Physics,Sungkyunkwan University,,Suwon,,Korea,440-746,IceCube,"Dept. of Physics, Sungkyunkwan University, Suwon 440-746, Korea",sungkyunkwan
+Tokyo,Earthquake Research Institute,University of Tokyo,,Bunkyo,,Japan,113-0032,PINGU,"Earthquake Research Institute, University of Tokyo, Bunkyo, Tokyo 113-0032, Japan",earthquake
+Toronto,Dept. of Physics,University of Toronto,,Toronto,Ontario,Canada,M5S 1A7,IceCube,"Dept. of Physics, University of Toronto, Toronto, Ontario, Canada, M5S 1A7",toronto
+Alabama,Dept. of Physics and Astronomy,University of Alabama,,Tuscaloosa,Alabama,USA,35487,IceCube,"Dept. of Physics and Astronomy, University of Alabama, Tuscaloosa, AL 35487, USA",ua
+PennAstro,Dept. of Astronomy and Astrophysics,Pennsylvania State University,,University Park,Pennsylvania,USA,16802,IceCube,"Dept. of Astronomy and Astrophysics, Pennsylvania State University, University Park, PA 16802, USA",psu
+PennPhys,Dept. of Physics,Pennsylvania State University,,University Park,Pennsylvania,USA,16802,IceCube,"Dept. of Physics, Pennsylvania State University, University Park, PA 16802, USA",psu
+Rochester,Dept. of Physics,University of Rochester,,Rochester,New York,USA,14627,IceCube,"Dept. of Physics and Astronomy, University of Rochester, Rochester, NY 14627, USA",rochester
+Uppsalaold,Division of High Energy Physics,Uppsala University,,Uppsala,,Sweden,S-75121,IceCube,"Division of High Energy Physics, Uppsala University, S-75121 Uppsala, Sweden",uppsala
+Uppsala,Dept. of Physics and Astronomy,Uppsala University,Box 516,Uppsala,,Sweden,S-75120,IceCube,"Dept. of Physics and Astronomy, Uppsala University, Box 516, S-75120 Uppsala, Sweden",uppsala
+Utrecht,Dept. of Physics and Astronomy,Utrecht University/SRON,,Utrecht,,The Netherlands,NL-3584 CC,IceCube,"Dept. of Physics and Astronomy, Utrecht University/SRON, NL-3584 CC Utrecht, The Netherlands",
+Wuppertal,Dept. of Physics,University of Wuppertal,,Wuppertal,,Germany,D-42119,IceCube,"Dept. of Physics, University of Wuppertal, D-42119 Wuppertal, Germany",wuppertal
+Zeuthen,,DESY,,Zeuthen,,Germany,D-15738,IceCube,"DESY, D-15738 Zeuthen, Germany",desy-zeuthen

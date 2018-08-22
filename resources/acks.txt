@@ -1,0 +1,140 @@
+% Sun-WIMP
+Ack:20000101:20030101:The U.S.\ National Science Foundation,
+Ack:20000101:20030101:the University of Wisconsin Alumni Research Foundation,
+Ack:20000101:20030101:the U.S.\ DoE,
+Ack:20000101:20030101:the U.S.\ NERS Computing Centre,
+Ack:20000101:20030101:the UCI AENEAS Supercomputer Facility,
+Ack:20000101:20030101:the Swedish Research Council,
+Ack:20000101:20030101:the Swedish Polar Research Secretariat,
+Ack:20000101:20030101:the Knut and Alice Wallenberg Foundation (Sweden),
+Ack:20000101:20030101:the German Federal Ministry of Education and Research,
+Ack:20000101:20030101:the Deutsche Forschungsgemeinschaft,
+Ack:20000101:20030101:the IWT (Belgium),
+Ack:20000101:20030101:the FWO (Belgium),
+Ack:20000101:20030101:the FNRS (Belgium)
+Ack:20000101:20030101:and the OSTC (Belgium).
+Ack:20000101:20030101:D.~F.~Cowen acknowledges the support of the NSF CAREER program.
+Ack:20000101:20030101:M.~Ribordy acknowledges the support of the SNF (Switzerland).
+% Earth WIMP
+Ack:20030102:20030102:National Science Foundation-Office of Polar Programs,
+Ack:20030102:20030102:National Science Foundation--Physics Division,
+Ack:20030102:20030102:University of Wisconsin Alumni Research Foundation,
+Ack:20030102:20030102:Department of Energy, and National Energy Research Scientific Computing Center
+Ack:20030102:20030102:(supported by the Office of Energy Research of the Department of Energy),
+Ack:20030102:20030102:UC-Irvine AENEAS Supercomputer Facility, USA;
+Ack:20030102:20030102:Swedish Research Council,
+Ack:20030102:20030102:Swedish Polar Research Secretariat,
+Ack:20030102:20030102:High Performance Computing Center North (HPC2N),
+Ack:20030102:20030102:National Supercomputer Centre,
+Ack:20030102:20030102:and Knut and Alice Wallenberg Foundation, Sweden;
+Ack:20030102:20030102:German Ministry for Education and Research,
+Ack:20030102:20030102:Deutsche Forschungsgemeinschaft (DFG), Germany;
+Ack:20030102:20030102:Fund for Scientific Research (FNRS-FWO),
+Ack:20030102:20030102:Flanders Institute to encourage scientific and technological research in industry (IWT),
+Ack:20030102:20030102:and Belgian Federal Office for Scientific, Technical and Cultural affairs (OSTC), Belgium;
+Ack:20030102:20030102:M.~Ribordy acknowledges the support of the SNF (Switzerland).
+% USA
+Ack:20030103:20171212:U.S. National Science Foundation-Office of Polar Programs,
+Ack:20030103:20171212:U.S. National Science Foundation-Physics Division,
+Ack:20030103:20171212:University of Wisconsin Alumni Research Foundation,
+Ack:20030103:20081008:U.S. Department of Energy, and National Energy Research Scientific Computing Center
+Ack:20030103:20081008:(supported by the Office of Energy Research of the Department of Energy),
+Ack:20030103:20081008:the NSF-supported TeraGrid system at the San Diego Supercomputer Center (SDSC),
+Ack:20030103:20081008:and the National Center for Supercomputing Applications (NCSA);
+Ack:20081009:20081021:U.S. Department of Energy, and National Energy Research Scientific Computing Center;
+Ack:20100824:20171212:the Grid Laboratory Of Wisconsin (GLOW) grid infrastructure at the University of Wisconsin - Madison, the Open Science Grid (OSG) grid infrastructure;
+Ack:20081022:20171212:U.S. Department of Energy, and National Energy Research Scientific Computing Center,
+Ack:20081022:20171212:the Louisiana Optical Network Initiative (LONI) grid computing resources;
+% Canada
+Ack:20100616:20130210:National Science and Engineering Research Council of Canada;
+Ack:20130211:20171212:Natural Sciences and Engineering Research Council of Canada,
+Ack:20130211:20130510:Compute Canada and Compute West High Performance Computing;
+Ack:20130511:20171212:WestGrid and Compute/Calcul Canada;
+% Sweden
+Ack:20030103:20171212:Swedish Research Council,
+Ack:20030103:20171212:Swedish Polar Research Secretariat,
+Ack:20051220:20051220:High Performance Computing Center North (HPC2N),
+Ack:20051220:20051220:National Supercomputer Centre,
+Ack:20100209:20171212:Swedish National Infrastructure for Computing (SNIC),
+Ack:20030103:20171212:and Knut and Alice Wallenberg Foundation, Sweden;
+% Germany
+Ack:20030103:20081022:German Ministry for Education and Research,
+Ack:20081023:20171212:German Ministry for Education and Research (BMBF),
+Ack:20030103:20090913:Deutsche Forschungsgemeinschaft (DFG), Germany;
+Ack:20090914:20171212:Deutsche Forschungsgemeinschaft (DFG), 
+Ack:20121214:20171212:Helmholtz Alliance for Astroparticle Physics (HAP),
+Ack:20170310:20171212:Initiative and Networking Fund of the Helmholtz Association,
+Ack:20090914:20170329:Research Department of Plasmas with Complex Interactions (Bochum), Germany;
+% Belgium
+Ack:20170330:20171212: Germany;
+Ack:20030103:20171212:Fund for Scientific Research (FNRS-FWO),
+Ack:20091007:20171212:FWO Odysseus programme,
+Ack:20030103:20171212:Flanders Institute to encourage scientific and technological research in industry (IWT),
+Ack:20030103:20080121:Belgian Federal Office for Scientific, Technical and Cultural affairs (OSTC);
+Ack:20080122:20081009:Belgian Federal Science Policy Office;
+Ack:20081010:20171212:Belgian Federal Science Policy Office (Belspo);
+% The Netherlands
+Ack:20030103:20091007:the Netherlands Organisation for Scientific Research (NWO);
+% United Kingdom
+Ack:20100902:20170329:University of Oxford, United Kingdom;
+% New Zealand
+Ack:20090515:20171212:Marsden Fund, New Zealand;
+% Australia
+Ack:20120216:20171212:Australian Research Council;
+% Japan
+Ack:20100406:20171212:Japan Society for Promotion of Science (JSPS);
+% Next for D. Cowen
+Ack:20050901:20051215:D.~F.~Cowen acknowledges the support of the NSF CAREER program;
+% Next for M. Ribordy
+Ack:20050901:20100328:M.~Ribordy acknowledges the support of the SNF (Switzerland);
+Ack:20100329:20171212:the Swiss National Science Foundation (SNSF), Switzerland;
+% Korea
+Ack:20130618:20171212:National Research Foundation of Korea (NRF);
+% Denmark
+Ack:20131027:20160205:Danish National Research Foundation, Denmark (DNRF)
+Ack:20160206:20171212:Villum Fonden, Danish National Research Foundation (DNRF), Denmark
+% Next for J. D. Zornoza
+Ack:20051023:20070318:J.~D.~Zornoza acknowledges the Marie Curie OIF Program (contract 007921);
+Ack:20070319:20080331:A.~Kappes and J.~D.~Zornoza acknowledge support by the EU Marie Curie OIF Program;
+Ack:20080401:20081009:A.~Kappes acknowledges support by the EU Marie Curie OIF Program;
+Ack:20081010:20100607:A.~Kappes and A.~Gro{\ss} acknowledge support by the EU Marie Curie OIF Program;
+Ack:20110520:20110520:D. Boersma acknowledges support by the EU Marie Curie IRG Program;
+Ack:20100608:20111130:A.~Gro{\ss} acknowledges support by the EU Marie Curie OIF Program;
+Ack:20090323:20111231:J.~P.~Rodrigues acknowledges support by the Capes Foundation, Ministry of Education of Brazil;
+Ack:20110520:20110520:A. Schukraft acknowledges the support by the German Telekom Foundation;
+Ack:20110520:20110520:N. Whitehorn acknowledges support by the NSF Graduate Research Fellowships Program;
+% Completely new/revised acknowledgements as decided by ICB 2017-12-13
+Ack:20171213:99999999:The authors gratefully acknowledge the support from the following agencies and institutions: 
+Ack:20171213:99999999:USA -- U.S. National Science Foundation-Office of Polar Programs, 
+Ack:20171213:99999999:U.S. National Science Foundation-Physics Division, 
+Ack:20171213:99999999:Wisconsin Alumni Research Foundation, 
+Ack:20171213:99999999:Center for High Throughput Computing (CHTC) at the University of Wisconsin-Madison, 
+Ack:20171213:99999999:Open Science Grid (OSG), 
+Ack:20171213:99999999:Extreme Science and Engineering Discovery Environment (XSEDE), 
+Ack:20171213:99999999:U.S. Department of Energy-National Energy Research Scientific Computing Center, 
+Ack:20171213:99999999:Particle astrophysics research computing center at the University of Maryland, 
+Ack:20171213:99999999:Institute for Cyber-Enabled Research at Michigan State University, 
+Ack:20171213:99999999:and Astroparticle physics computational facility at Marquette University; 
+Ack:20171213:99999999:Belgium -- Funds for Scientific Research (FRS-FNRS and FWO), 
+Ack:20171213:99999999:FWO Odysseus and Big Science programmes, 
+Ack:20171213:99999999:and Belgian Federal Science Policy Office (Belspo); 
+Ack:20171213:99999999:Germany -- Bundesministerium f\"ur Bildung und Forschung (BMBF), 
+Ack:20171213:99999999:Deutsche Forschungsgemeinschaft (DFG), 
+Ack:20171213:99999999:Helmholtz Alliance for Astroparticle Physics (HAP), 
+Ack:20171213:99999999:Initiative and Networking Fund of the Helmholtz Association, 
+Ack:20171213:99999999:Deutsches Elektronen Synchrotron (DESY), 
+Ack:20171213:99999999:and High Performance Computing cluster of the RWTH Aachen; 
+Ack:20171213:99999999:Sweden -- Swedish Research Council, 
+Ack:20171213:99999999:Swedish Polar Research Secretariat, 
+Ack:20171213:99999999:Swedish National Infrastructure for Computing (SNIC), 
+Ack:20171213:99999999:and Knut and Alice Wallenberg Foundation; 
+Ack:20171213:99999999:Australia -- Australian Research Council; 
+Ack:20171213:99999999:Canada -- Natural Sciences and Engineering Research Council of Canada, 
+Ack:20171213:99999999:Calcul Qu\'ebec, Compute Ontario, Canada Foundation for Innovation, WestGrid, and Compute Canada; 
+Ack:20171213:99999999:Denmark -- Villum Fonden, Danish National Research Foundation (DNRF); 
+Ack:20171213:99999999:New Zealand -- Marsden Fund; 
+Ack:20171213:99999999:Japan -- Japan Society for Promotion of Science (JSPS) 
+Ack:20171213:99999999:and Institute for Global Prominent Research (IGPR) of Chiba University; 
+Ack:20171213:99999999:Korea -- National Research Foundation of Korea (NRF); 
+Ack:20171213:99999999:Switzerland -- Swiss National Science Foundation (SNSF).
+
