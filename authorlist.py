@@ -131,7 +131,7 @@ class MainHandler(tornado.web.RequestHandler):
 
             self.write('<sup>')
             comma2 = False
-            for a in authors[authname]:
+            for a in sorted(authors[authname], key=lambda a:sorted_inst.index(a['instname'])):
                 if a['instname']:
                     if comma2:
                         self.write(',')
