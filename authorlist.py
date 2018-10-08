@@ -6,6 +6,7 @@ from __future__ import print_function
 import json
 from collections import defaultdict
 import itertools
+from datetime import datetime
 
 import unidecode
 import tornado.web
@@ -15,11 +16,15 @@ import tornado.ioloop
 PINGU_START_DATE = '2013-06-25'
 GEN2_START_DATE = '2014-12-16'
 
-def website(authors, institutions, thanks, port=8888):
+def today():
+    return datetime.utcnow().date().isoformat()
+
+def website(authors, institutions, thanks, acknowledgements, port=8888):
     args = {
         'authors': authors,
         'institutions': institutions,
         'thanks': thanks,
+        'acknowledgements': acknowledgements,
     }
     app = tornado.web.Application([
         (r'/', MainHandler, args),
@@ -28,10 +33,11 @@ def website(authors, institutions, thanks, port=8888):
     tornado.ioloop.IOLoop.current().start()
 
 class MainHandler(tornado.web.RequestHandler):
-    def initialize(self, authors, institutions, thanks):
+    def initialize(self, authors, institutions, thanks, acknowledgements):
         self.authors = authors
         self.institutions = institutions
         self.thanks = thanks
+        self.acknowledgements = acknowledgements
 
     def get(self):
         self.write("""
@@ -58,6 +64,8 @@ class MainHandler(tornado.web.RequestHandler):
     def post(self):
         collab = self.get_argument('collaboration', '')
         date = self.get_argument('date', '')
+        if not date:
+            date = today()
 
         authors = defaultdict(list)
         if (collab == 'IceCube-Gen2' and date != '' and date < GEN2_START_DATE or
@@ -93,9 +101,10 @@ class MainHandler(tornado.web.RequestHandler):
         for a in itertools.chain(*authors.values()):
             if a['instname']:
                 instname[a['instname']] = self.institutions[a['instname']]
-        def ordering_inst(name):
-            return instname[name]['city']
-        sorted_inst = sorted(instname, key=ordering_inst)
+        #def ordering_inst(name):
+        #    return instname[name]['city']
+        #sorted_inst = sorted(instname, key=ordering_inst)
+        sorted_inst = sorted(instname)
         
         thanks = {}
         for a in itertools.chain(*authors.values()):

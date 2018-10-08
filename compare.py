@@ -10,7 +10,7 @@ import requests
 import latexcodec
 
 try:
-    import html.unescape as unescape
+    from html import unescape as unescape
 except ImportError:
     from HTMLParser import HTMLParser
     unescape = HTMLParser().unescape
@@ -24,7 +24,12 @@ def get_orig(date):
     if start == -1 or end == -1:
         print(r.text)
         raise Exception()
-    return process(r.text[start+14:end+9].decode('latex'))
+    text = r.text[start+14:end+9]
+    try:
+        text = text.encode('ascii')
+    except Exception:
+        pass
+    return process(text.decode('latex'))
 
 def get_mine(date):
     url = 'http://localhost:19372/'
@@ -38,6 +43,8 @@ def process(input):
     for x in unescape(input).rsplit('(',1)[0].strip().split(', '):
         if '<SUP>' in x:
             x = x.split('<SUP>')[0]
+        if '<sup>' in x:
+            x = x.split('<sup>')[0]
         x = x.replace(u'\xa0', u' ').strip()
         if x:
             ret.append(x)
