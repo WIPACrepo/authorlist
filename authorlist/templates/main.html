@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>{% block title %}Authorlist{% end %}</title>
+        <link rel="stylesheet" href="/static/style.css" type="text/css" />
+    </head>
+    <body class="{% block bodyclass %}main{% end %}">
+        <header>
+            <h1>Authorlist</h1>
+        </header>
+        <main>
+        {% block content %}
+            <h3>Collaborations:</h3>
+            <ul>
+                {% for c in collabs %}
+                    <li><a href="/{{ c }}">{{ collabs[c] }}</a></li>
+                {% end %}
+            </ul>
+        {% end %}
+        </main>
+    </body>
+</html>

@@ -1,8 +1,11 @@
 """
-Authorlist website
+Website core.
+
+Define routes and start up the server.
 """
 from __future__ import print_function
 
+import os
 import json
 from collections import defaultdict
 import itertools
@@ -12,6 +15,48 @@ import unidecode
 import tornado.web
 import tornado.ioloop
 
+from .state import State
+
+#from .handlers import IceCubeHander, PINGUHander, Gen2Hander
+
+def get_template_path():
+    return os.path.join(os.path.dirname(__file__),'templates')
+
+def get_static_path():
+    return os.path.join(os.path.dirname(__file__),'static')
+
+class WebServer:
+    def __init__(self, json, port=8888, debug=True):
+        self.port = port
+        
+        collabs = {
+            'icecube': 'IceCube',
+            'pingu': 'IceCube-PINGU',
+            'icecube-gen2': 'IceCube-Gen2',
+        }
+        self.app = tornado.web.Application([
+            (r'/', MainHandler, {'collabs': collabs}),
+#            (r'/icecube', IceCubeHandler, {'state': State(json, collab='icecube')}),
+#            (r'/pingu', PINGUHandler, {'state': State(json, collab='pingu')}),
+#            (r'/icecube-gen2', Gen2Handler, {'state': State(json, collab='icecube-gen2')}),
+        ], template_path=get_template_path(),
+           template_whitespace='all' if debug else 'oneline',
+           static_path=get_static_path(),
+           debug=debug)
+
+    def start(self):
+        self.app.listen(self.port)
+        tornado.ioloop.IOLoop.current().start()
+
+
+class MainHandler(tornado.web.RequestHandler):
+    def initialize(self, collabs):
+        self.collabs = collabs
+
+    def get(self):
+        return self.render('main.html', collabs=self.collabs)
+        
+
 
 PINGU_START_DATE = '2013-06-25'
 GEN2_START_DATE = '2014-12-16'
@@ -19,20 +64,8 @@ GEN2_START_DATE = '2014-12-16'
 def today():
     return datetime.utcnow().date().isoformat()
 
-def website(authors, institutions, thanks, acknowledgements, port=8888):
-    args = {
-        'authors': authors,
-        'institutions': institutions,
-        'thanks': thanks,
-        'acknowledgements': acknowledgements,
-    }
-    app = tornado.web.Application([
-        (r'/', MainHandler, args),
-    ], debug=True)
-    app.listen(port)
-    tornado.ioloop.IOLoop.current().start()
 
-class MainHandler(tornado.web.RequestHandler):
+class MainHandler2(tornado.web.RequestHandler):
     def initialize(self, authors, institutions, thanks, acknowledgements):
         self.authors = authors
         self.institutions = institutions
@@ -169,19 +202,3 @@ class MainHandler(tornado.web.RequestHandler):
             self.write('</div>')
         self.write("""</div></body></html>""")
         
-
-def main():
-    import argparse
-    parser = argparse.ArgumentParser(description='Authorlist website')
-    parser.add_argument('json',help='authorlist json file')
-    parser.add_argument('-p','--port',type=int,default=8888,help='port to listen on')
-    args = parser.parse_args()
-
-    with open(args.json) as f:
-        data = json.load(f)
-
-    website(port=args.port, **data)
-
-
-if __name__ == '__main__':
-    main()
