@@ -33,7 +33,7 @@ class State:
                 self._authors.append(author)
             self._institutions = {}
             for name in data['institutions']:
-                inst = data['institutions']
+                inst = data['institutions'][name]
                 if 'collabs' in inst and collab not in inst['collabs']:
                     continue
                 self._institutions[name] = inst
@@ -45,7 +45,7 @@ class State:
             self._thanks = data['thanks']
             self._acknowledgements = data['acknowledgements']
 
-    def authors(date):
+    def authors(self, date):
         """
         List all valid authors on a date.
 
@@ -56,11 +56,11 @@ class State:
         """
         ret = []
         for author in self._authors:
-            if author['from'] <= date and author['to'] >= date:
+            if author['from'] <= date and (author['to'] >= date or not author['to']):
                 ret.append(author)
         return ret
 
-    def institutions(date):
+    def institutions(self, date):
         """
         List all valid institutions on a date.
 
@@ -69,16 +69,15 @@ class State:
 
         Returns: dict of dicts
         """
-        return self._institutions
+        insts = {}
+        for a in itertools.chain(self.authors(date)):
+            if 'instnames' in a and a['instnames']:
+                for inst in a['instnames']:
+                    insts[inst] = self._institutions[inst]
+        return insts
         ## TODO: actually support dates for institutions
-        ret = {}
-        for name in self._institutions:
-            inst = self._institutions[name]
-            if inst['from'] <= date and inst['to'] >= date:
-                ret[name] = inst
-        return ret
 
-    def thanks(date):
+    def thanks(self, date):
         """
         List all valid thanks on a date.
 
@@ -87,10 +86,15 @@ class State:
 
         Returns: dict
         """
-        return self._thanks
+        thanks = {}
+        for a in itertools.chain(self.authors(date)):
+            if 'thanks' in a and a['thanks']:
+                for t in a['thanks']:
+                    thanks[t] = self._thanks[t]
+        return thanks
         ## TODO: actually support dates for thanks
 
-    def acknowledgements(date):
+    def acknowledgements(self, date):
         """
         List all valid acknowledgements on a date.
 
@@ -101,6 +105,6 @@ class State:
         """
         ret = []
         for ack in self._acknowledgements:
-            if ack['from'] <= date and ack['to'] >= date:
+            if ack['from'] <= date and (ack['to'] >= date or not ack['to']):
                 ret.append(ack['value'])
         return ret

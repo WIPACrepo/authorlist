@@ -62,20 +62,21 @@ def author_reader(input_lines):
             parts = [x for x in line.split(':') if x]
             author = {
                 'authname': '',
-                'instname': '',
+                'instnames': [],
+                'thanks': [],
                 'collab': '',
                 'from': '',
                 'to': '',
-                'thanks': '',
             }
             labs = []
+            thanks = []
             for p in parts[1:]:
                 name,value = p.split(' ',1)
                 value = replace_tex(value)
                 if name.startswith('lab'):
                     labs.append(value)
                 elif name == 'thanks':
-                    author['thanks'] = value.lower()
+                    thanks.append(value)
                 elif name == 'from':
                     author['from'] = parse_date(value)
                 elif name == 'to':
@@ -91,12 +92,12 @@ def author_reader(input_lines):
             #while name[-1].isdigit():
             #    name = name[:-1]
             author['authname'] = name
-            for l in labs:
-                for c in collabs:
-                    a = dict(author)
-                    a['collab'] = c.lower()
-                    a['instname'] = l.lower()
-                    authors.append(a)
+            author['instnames'] = [l.lower() for l in labs]
+            author['thanks'] = [t.lower() for t in thanks]
+            for c in collabs:
+                a = dict(author)
+                a['collab'] = c.lower()
+                authors.append(a)
     for a in authors:
         if a['collab'] == 'pingu' and a['from'] < PINGU_START_DATE:
             a['from'] = PINGU_START_DATE
@@ -106,6 +107,7 @@ def author_reader(input_lines):
 
 def labs_reader(input_lines):
     labs = {}
+    not_city = set(['canada','ontario','alberta'])
     for line in input_lines:
         parts = line.split(':',1)
         name,collabs = parse_name(parts[0])
@@ -115,10 +117,24 @@ def labs_reader(input_lines):
         # TODO: fix BartolOld
         cite = replace_tex(parts[1].strip())
         cite = cite.replace('Dept.~','Dept. ')
+        # find city from cite name
+        city = ''
+        parts2 = cite.split(',')
+        for p in reversed(parts2[:-1]):
+            p = p.strip()
+            if p.startswith('University of'):
+                p = p[13:]
+            for p2 in reversed(p.split()):
+                if (len(p2) > 2 and p2.lower() not in not_city
+                    and not any(p3.isdigit() for p3 in p2)):
+                    city = p2+' '+city if city else p2
+            if city:
+                break
         labs[name.lower()] = {
             'collabs': [c.lower() for c in collabs],
             'name': name,
             'cite': cite,
+            'city': city,
         }
     return labs
 
@@ -149,9 +165,10 @@ def ack_reader(input_lines):
 
 def check(authors, institutions):
     for a in authors:
-        if a['instname'] not in institutions:
-            print(a['authname'],a['instname'])
-            raise Exception('bad instname')
+        for inst in a['instnames']:
+            if inst not in institutions:
+                print(a['authname'],inst)
+                raise Exception('bad instname')
 
 def main():
     import argparse

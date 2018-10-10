@@ -30,6 +30,9 @@ header h1 {
 main {
     padding: 1em;
 }
+section {
+    padding-bottom: 1em;
+}
 
 
 body.main ul {
@@ -37,4 +40,18 @@ body.main ul {
 }
 body.main ul li {
     padding: .2em;
+}
+
+body.collab ul.authors, body.collab ul.authors ul {
+    list-style-type: none;
+    padding: 0;
+}
+body.collab ul.authors li, body.collab ul.authors ul, body.collab ul.authors ul li {
+    display: inline-block;
+}
+body.collab ul.comma li:not(:last-child):after {
+    content: ',';
+}
+body.collab ol.thanks {
+    list-style-type: lower-alpha;
 }
