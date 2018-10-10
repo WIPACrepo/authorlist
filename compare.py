@@ -32,11 +32,11 @@ def get_orig(date):
     return process(text.decode('latex'))
 
 def get_mine(date):
-    url = 'http://localhost:19372/'
-    r = requests.post(url, data={'collaboration':'IceCube','date':date})
-    start = r.text.find('</h2><div>')
-    end = r.text.find('authors)')
-    return process(r.text[start+10:end+9])
+    url = 'http://localhost:8888/icecube'
+    r = requests.post(url, data={'date':date})
+    start = r.text.find('<div class="authors">')
+    end = r.text.find('</div>', start)
+    return process(r.text[start+21:end])
 
 def process(input):
     ret = []
