@@ -1,0 +1,1402 @@
+% <?php
+%
+%  Database for handling of IceCube author lists
+%
+%                                            / Christian Walck 2005-10-26
+%                                              Pingu option    2013-06-25
+%                                              Gen2 option     2015-06-20
+%                                              last changes    2018-10-17
+%
+M. G. Aartsen:lab Adelaideold:from 20120920:to 20150703
+M. G. Aartsen:lab Adelaide:from 20150704:to 20171213
+M. G. Aartsen:lab Christchurch:from 20171214:to 99999999
+R. Abbasi:lab Madison:from 20071210:to 20120625
+R. Abbasi:lab MadisonPAC:from 20120626:to 20140309
+Y. Abdou:lab Gentold:from 20081101:to 20110110
+Y. Abdou:lab Gent:from 20110111:to 20130831
+K. Abraham:lab Munich:from 20150506:to 20161010
+T. Abu-Zayyad:lab RiverFalls:from 20090610:to 20120628
+A. Achterberg:lab Utrecht:from 20040101:to 20070524
+M. Ackermann:lab Zeuthen:from 20030101:to 20090523
+M. Ackermann:lab Zeuthen:from 20110520:to 99999999
+J. Adams:lab Christchurch:from 20050916:to 99999999
+J. A. Aguilar:lab Madison:from 20090403:to 20110928
+J. A. Aguilar:lab Geneva:from 20110929:to 20141130
+J. A. Aguilar:lab BrusselsLibre:from 20141201:to 99999999
+M. Ahlers:lab Oxford:from 20080101:to 20111120
+M. Ahlers:lab Madison:from 20111121:to 20120625
+M. Ahlers:lab MadisonPAC:from 20120626:to 20170308
+M. Ahlers:lab Copenhagen:from 20170309:to 99999999
+J. Ahrens:lab Mainz:from 20030101:to 20081008
+M. Ahrens:lab StockholmOKC:from 20140401:to 99999999
+M. M. Allen:lab PennPhys:from 20110520:to 20111116
+I. Al Samarai:lab Geneva:from 20170101:to 20180831
+D. Altmann:lab Aachen:from 20110317:to 20120228
+D. Altmann:lab Berlin:from 20120229:to 20131019
+D. Altmann:lab Erlangen:from 20131020:to 99999999
+K. Andeen:lab Madison:from 20051130:to 20110519
+K. Andeen:lab Madison:thanks Rutgers:from 20110520:to 20111202
+K. Andeen:lab Madison:from 20111203:to 20120625
+K. Andeen:lab MadisonPAC:from 20120626:to 20121202
+K. Andeen:lab Marquette:from 20160422:to 99999999
+T. Anderson:lab PennPhys:from 20140401:to 99999999
+I. Ansseau:lab BrusselsLibre:from 20150719:to 99999999
+%G+G. Anton:lab Erlangen:from 20141216:to 20151216
+G. Anton:lab Erlangen:from 20151217:to 99999999
+M. Archinger:lab Mainz:from 20150303:to 20170308
+C. Arguelles:lab MadisonPAC:from 20130917:to 20151213
+C. Arguelles:lab MIT:from 20151214:to 20160621
+C. Arg\"uelles:web C. Arg&uuml;elles:lab MIT:from 20160622:to 99999999
+T. C. Arlen:lab PennPhys:from 20131116:to 20160606
+%P+T. C. Arlen:lab PennPhys:from 20160607:to 99999999
+D. W. Atlee:lab PennPhys:from 20040101:to 20061026
+J. Auffenberg:lab Wuppertal:from 20061213:to 20110519
+J. Auffenberg:lab Madison:from 20110520:to 20120625
+J. Auffenberg:lab MadisonPAC:from 20120626:to 20131231
+J. Auffenberg:lab Aachen:from 20140101:to 99999999
+%P+S. Axani:lab Edmonton:from 20131118:to 20160421
+S. Axani:lab MIT:from 20160422:to 99999999
+J. Baccus:lab Madison:from 20060410:to 20060410
+P. Backes:lab Aachen:from 20180404:to 99999999
+H. Bagherpour:lab Christchurch:from 20170209:to 99999999
+J. N. Bahcall:lab Princeton:from 20040101:to 20050817
+J. N. Bahcall:lab Princeton:thanks dec:from 20050818:to 20070423
+X. Bai:lab Bartol:from 20030101:to 20110519
+X. Bai:lab Bartol:thanks SouthDakota:from 20110520:to 20140519
+X. Bai:lab SouthDakota:from 20140520:to 99999999
+M. Baker:lab Madison:from 20071210:to 20120625
+M. Baker:lab MadisonPAC:from 20120626:to 20140309
+%G+A. Balagopal V.:lab Karlsruhe:from 20170529:to 99999999
+A. Barbano:lab Geneva:from 20180424:to 99999999
+B. Baret:lab BrusselsVrije:from 20050101:to 20080630
+J. P. Barron:lab Edmonton:from 20170501:to 99999999
+M. Bartelt:lab Dortmund:from 20030101:to 20060830
+%G+I. Bartos:lab Columbia:from 20141216:to 99999999
+S. W. Barwick:lab Irvine:from 20030101:to 20030102
+S. W. Barwick:lab Irvine:from 20050401:to 99999999
+V. Baum:lab Mainz:from 20120109:to 99999999
+R. Bay:lab Berkeley:from 20030101:to 20140228
+R. Bay:lab Berkeley:from 20141006:to 99999999
+J. L. Bazo Alba:lab Zeuthen:from 20071122:to 20120217
+K. Beattie:lab LBNL:from 20050101:to 20121218
+J. J. Beatty:lab Ohio:lab2 OhioAstro:from 20090219:to 99999999
+T. Becka:lab Mainz:from 20030101:to 20081008
+S. Bechet:lab BrusselsLibre:from 20081211:to 20130930
+J. K. Becker:lab Dortmund:from 20030101:to 20090826
+J. K. Becker:lab Bochum:from 20090827:to 20120626
+J. Becker Tjus:lab Bochum:from 20120627:to 99999999
+K.-H. Becker:lab Wuppertal:from 20030101:to 99999999
+M. Beimforde:lab Berlin:from 20070512:to 20080520
+E. Beiser:lab MadisonPAC:from 20150403:to 20160420
+M. Bell:lab PennPhys:from 20111117:to 20130531
+M. L. Benabderrahmane:lab Zeuthen:from 20081212:to 20130917
+S. BenZvi:lab Madison:from 20100608:to 20120625
+S. BenZvi:lab MadisonPAC:from 20120626:to 20151008
+S. BenZvi:lab Rochester:from 20151217:to 99999999
+J. Berdermann:lab Zeuthen:from 20080821:to 20130529
+P. Berghaus:lab BrusselsLibre:from 20030101:to 20071209
+P. Berghaus:lab Madison:from 20071210:to 20110403
+P. Berghaus:lab Bartol:from 20110404:to 20120414
+P. Berghaus:lab Zeuthen:from 20120415:to 20160426
+P. Berghaus:lab MEPhI:from 20160427:to 20160801
+J. Bergmans:lab Utrecht:from 20040101:to 20050101
+D. Berley:lab Maryland:from 20040101:to 99999999
+E. Bernardini:lab Zeuthen:from 20030101:to 99999999
+A. Bernhard:lab Munichold:from 20121105:to 20140518
+A. Bernhard:lab Munich:from 20140519:to 20170201
+D. Bertrand:lab BrusselsLibre:from 20030101:to 20130731
+D. Z. Besson:lab Kansas:from 20040101:to 99999999
+G. Binder:lab LBNL:lab2 Berkeley:from 20121218:to 99999999
+D. Bindig:lab Wuppertal:from 20101216:to 99999999
+B. Bingham:lab LBNL:from 20061015:to 20061015
+M. Bissok:lab Aachen:from 20090101:to 20161231
+E. Blaufuss:lab Maryland:from 20040101:to 99999999
+S. Blot:lab Zeuthen:from 20160301:to 99999999
+J. Blumenthal:lab Aachen:from 20100701:to 20160314
+D. J. Boersma:lab Madison:from 20030101:to 20090818
+D. J. Boersma:lab Aachen:from 20090819:to 20120903
+D. J. Boersma:lab Uppsala:lab2 Aachen:from 20120904:to 20121231
+D. J. Boersma:lab Uppsala:from 20130101:to 20160622
+S. Bohaichuk:lab Edmonton:from 20120926:to 20130924
+C. Bohm:lab Stockholm:from 20040101:to 20090219
+C. Bohm:lab StockholmOKC:from 20090220:to 99999999
+%G+M. Bohmer:lab Munich:from 20170309:to 99999999
+J. Bolmont:lab Zeuthen:from 20060508:to 20091008
+M. B\"orner:web M. B&ouml;rner:lab Dortmund:from 20150326:to 99999999
+F. Bos:lab Bochum:from 20140602:to 99999999
+D. Bose:lab BrusselsVrije:from 20100101:to 20130908
+D. Bose:lab SKKU:from 20130909:to 20180131
+S. B\"oser:web S. B&ouml;ser:lab Zeuthen:from 20030101:to 20090523
+S. B\"oser:web S. B&ouml;ser:lab Bonn:from 20100330:to 20141127
+S. B\"oser:web S. B&ouml;ser:lab Mainz:from 20141128:to 99999999
+O. Botner:lab Uppsala:from 20030101:to 99999999
+A. Bouchta:lab Uppsala:from 20030101:to 20071231
+O. Bouhali:lab BrusselsLibre:from 20030101:to 20050101
+O. Bouhali:lab BrusselsLibre:from 20051220:to 20051220
+E. Bourbeau:lab Copenhagen:from 20170816:to 99999999
+J. Bourbeau:lab MadisonPAC:from 20170324:to 99999999
+F. Bradascio:lab Zeuthen:from 20170301:to 99999999
+L. Bradley:lab PennPhys:from 20081101:to 20100825
+J. Braun:lab Madison:from 20050101:to 20110403
+J. Braun:lab MadisonPAC:from 20150403:to 99999999
+L. Brayeur:lab BrusselsVrije:from 20111116:to 20180114
+D. Breder:lab Wuppertal:from 20080806:to 20091127
+M. Brenzke:lab Aachen:from 20170401:to 20181001
+H.-P. Bretz:lab Zeuthen:from 20130301:to 99999999
+S. Bron:lab Geneva:from 20160901:to 99999999
+J. Brostean-Kaiser:lab Zeuthen:from 20170627:to 99999999
+A. M. Brown:lab Christchurch:from 20101029:to 20150621
+R. Bruijn:lab Lausanne:from 20120524:to 20140430
+J. Brunner:lab Zeuthen:from 20120626:to 20130917
+S. Buitink:lab LBNL:from 20091124:to 20110430
+S. Buitink:lab BrusselsVrije:from 20110501:to 20130228
+C. Burgess:lab Stockholm:from 20030101:to 20060523
+T. Burgess:lab Stockholm:from 20030101:to 20090219
+T. Burgess:lab StockholmOKC:from 20090220:to 20090331
+A. Burgman:lab Uppsala:from 20160301:to 99999999
+R. S. Busse:lab MadisonPAC:from 20171218:to 99999999
+%P+N. Buzinsky:lab Edmonton:from 20131118:to 20140927
+N. Buzinsky:lab Edmonton:from 20140928:to 20160430
+K. S. Caballero-Mora:lab PennPhys:from 20110401:to 20120731
+W. Carithers:lab LBNL:from 20040101:to 20050601
+W. Carithers:lab LBNL:from 20061015:to 20061015
+M. Carson:lab Gentold:from 20090818:to 20110110
+M. Carson:lab Gent:from 20110111:to 20130930
+T. Carver:lab Geneva:from 20160607:to 99999999
+J. Casey:lab Georgia:from 20120330:to 20160606
+J. Casey:lab MadisonPAC:from 20170324:to 20171217
+M. Casier:lab BrusselsVrije:from 20111116:to 20180114
+T. Castermans:lab Monsold:from 20030101:to 20090930
+T. Castermans:lab Mons:from 20091001:to 20091231
+J. Cavin:lab A3RI:from 20040101:to 20050101
+C. Chen:lab Georgia:from 20181017:to 99999999
+H. Chen:lab LBNL:from 20061015:to 20061015
+J. Cherwinka:lab Madison:from 20060410:to 20060410
+E. Cheung:lab Maryland:from 20140625:to 99999999
+W. Chinowsky:lab LBNL:from 20040101:to 20050601
+D. Chirkin:lab LBNL:from 20030101:to 20071209
+D. Chirkin:lab Madison:from 20071210:to 20120625
+D. Chirkin:lab MadisonPAC:from 20120626:to 99999999
+A. Christov:lab Geneva:from 20130306:to 20180731
+B. Christy:lab Maryland:from 20060522:to 20150718
+K. Clark:lab PennPhys:from 20120901:to 20131002
+K. Clark:lab Toronto:from 20131003:to 20170308
+K. Clark:lab SNOLAB:from 20170309:to 99999999
+%P+L. Classen:lab Erlangen:from 20130625:to 20131103
+L. Classen:lab Erlangen:from 20131104:to 20160425
+L. Classen:lab Munster:from 20160426:to 99999999
+J. Clem:lab Bartol:from 20040101:to 20110519
+F. Clevermann:lab Dortmund:from 20100401:to 20150325
+J. A. Coarasa:lab PennPhys:from 20040101:to 20040801
+S. Coenders:lab Aachen:from 20130104:to 20131130
+S. Coenders:lab Munichold:from 20131201:to 20140518
+S. Coenders:lab Munich:from 20140519:to 20171231
+S. Cohen:lab Lausanne:from 20081009:to 20140430
+B. Collin:lab PennPhys:from 20030101:to 20040801
+%G+G. H. Collin:lab MIT:from 20141216:to 20151116
+G. H. Collin:lab MIT:from 20151117:to 99999999
+C. Colnard:lab Heidelberg:from 20100119:to 20120206
+J. Conrad:lab Uppsala:from 20030101:to 20051212
+J. Conrad:lab Uppsala:from 20051220:to 20051220
+%G+J. M. Conrad:lab MIT:from 20141216:to 20151116
+J. M. Conrad:lab MIT:from 20151117:to 99999999
+J. Cooley:lab Madison:from 20030101:to 20051213
+J. Cooley:lab Madison:from 20051220:to 20051220
+P. Coppin:lab BrusselsVrije:from 20180115:to 99999999
+P. Correa:lab BrusselsVrije:from 20180115:to 99999999
+D. F. Cowen:lab PennPhys:lab2 PennAstro:from 20030101:to 99999999
+R. Cross:lab Rochester:from 20160607:to 99999999
+A. H. Cruz Silva:lab Zeuthen:from 20110520:to 20160606
+M. V. D'Agostino:lab Berkeley:from 20030101:to 20030102
+M. V. D'Agostino:lab Berkeley:from 20040801:to 20120625
+M. Danninger:lab Christchurch:from 20071122:to 20090219
+M. Danninger:lab StockholmOKC:from 20090220:to 20140930
+J. Daughhetee:lab Georgia:from 20101122:to 20160606
+P. Dave:lab Georgia:from 20171009:to 99999999
+J. C. Davis:lab Ohio:from 20100419:to 20160606
+A. Davour:lab Uppsala:from 20030101:to 20080902
+C. T. Day:lab LBNL:from 20040101:to 20091123
+M. Day:lab MadisonPAC:from 20130708:to 99999999
+J. P. A. M. de Andr\'e:web J. P. A. M. de Andr&eacute;:lab PennPhys:from 20131116:to 20141130
+J. P. A. M. de Andr\'e:web J. P. A. M. de Andr&eacute;:lab Michigan:from 20141201:to 99999999
+C. De Clercq:lab BrusselsVrije:from 20030101:to 99999999
+T. Degner:lab Bonn:from 20110107:to 20120625
+J. J. DeLaunay:lab PennPhys:from 20170312:to 99999999
+E. del Pino Rosendo:lab Mainz:from 20150609:to 20170308
+H. Dembinski:lab Bartol:from 20150201:to 99999999
+L. Demir\"ors:web L. Demir&ouml;rs:lab Bartol:from 20060301:to 20071121
+L. Demir\"ors:web L. Demir&ouml;rs:lab Lausanne:from 20071122:to 20111106
+K. Deoskar:lab StockholmOKC:from 20180418:to 99999999
+O. Depaepe:lab BrusselsVrije:from 20080401:to 20110519
+S. De Ridder:lab Gent:from 20120901:to 99999999
+F. Descamps:lab Gentold:from 20060419:to 20110110
+F. Descamps:lab Gent:from 20110111:to 20120603
+F. Descamps:lab Madison:from 20120604:to 20120625
+F. Descamps:lab MadisonPAC:from 20120626:to 20121202
+P. Desiati:lab Madison:from 20030101:to 20120625
+P. Desiati:lab MadisonPAC:from 20120626:to 99999999
+K. D. de Vries:lab BrusselsVrije:from 20130528:to 99999999
+G. de Vries-Uiterweerd:lab Utrecht:from 20070510:to 20080930
+G. de Vries-Uiterweerd:lab Gentold:from 20081001:to 20110110
+G. de Vries-Uiterweerd:lab Gent:from 20110111:to 20121231
+G. de Wasseige:lab BrusselsVrije:from 20150217:to 99999999
+M. de With:lab Berlin:from 20121105:to 99999999
+T. DeYoung:lab PennPhys:from 20030101:to 20140820
+T. DeYoung:lab PennPhys:thanks Michigan:from 20140821:to 20140918
+T. DeYoung:lab Michigan:from 20140919:to 99999999
+J. C. Diaz-Velez:lab Madison:from 20051130:to 20091004
+J. C. D{\'\i}az-V\'elez:web J. C. D&iacute;az-V&eacute;lez:lab Madison:from 20091005:to 20120625
+J. C. D{\'\i}az-V\'elez:web J. C. D&iacute;az-V&eacute;lez:lab MadisonPAC:from 20120626:to 99999999
+M. Dierckxsens:lab BrusselsLibre:from 20100608:to 20111231
+V. di Lorenzo:lab Mainz:from 20150609:to 20180930
+J. Dreyer:lab Dortmund:from 20050101:to 20090826
+J. Dreyer:lab Dortmund:lab2 Bochum:from 20090827:to 20100228
+J. Dreyer:lab Bochum:from 20100301:to 20130110
+H. Dujmovic:lab SKKU:from 20160115:to 99999999
+J. P. Dumm:lab Madison:from 20060712:to 20120625
+J. P. Dumm:lab MadisonPAC:from 20120626:to 20121202
+J. P. Dumm:lab StockholmOKC:from 20150101:to 20180930
+M. Dunkman:lab PennPhys:from 20110520:to 99999999
+%G+M. A. DuVernois:lab MadisonPAC:from 20170601:to 99999999
+M. R. Duvoort:lab Utrecht:from 20050101:to 20101101
+E. Dvorak:lab SouthDakota:from 20170816:to 99999999
+R. Eagan:lab PennPhys:from 20120301:to 20150928
+B. Eberhardt:lab Mainz:from 20121024:to 99999999
+J. Edsj\"o:web J. Edsj&ouml;:lab StockholmOKC:from 20120629:to 20120629
+W. R. Edwards:lab LBNL:from 20040101:to 20091123
+T. Ehrhardt:lab Mainz:from 20141128:to 99999999
+R. Ehrlich:lab Maryland:from 20040101:to 20110519
+B. Eichmann:lab Bochum:from 20131107:to 99999999
+J. Eisch:lab RiverFalls:from 20060321:to 20070309
+J. Eisch:lab Madison:from 20070310:to 20120625
+J. Eisch:lab MadisonPAC:from 20120626:to 20150402
+P. Ekstr\"om:web P. Ekstr&ouml;m:lab Stockholm:from 20030101:to 20030102
+P. Ekstr\"om:web P. Ekstr&ouml;m:lab Stockholm:from 20050101:to 20051213
+P. Ekstr\"om:web P. Ekstr&ouml;m:lab Stockholm:from 20051220:to 20051220
+A. Elcheikh:lab Madison:from 20060410:to 20060410
+P. Eller:lab PennPhys:from 20160607:to 99999999
+R. W. Ellsworth:lab Maryland:from 20040101:to 20130730
+O. Engdeg{\aa}rd:web O. Engdeg&aring;rd:lab Uppsala:from 20071210:to 20121231
+%G+R. Engel:lab Karlsruhe:from 20170529:to 99999999
+S. Euler:lab Aachen:from 20071122:to 20131130
+S. Euler:lab Uppsala:from 20131201:to 20170308
+%P+J. J. Evans:lab Manchester:from 20130625:to 99999999
+P. A. Evenson:lab Bartol:from 20040101:to 99999999
+O. Fadiran:lab Atlanta:from 20051220:to 20110519
+O. Fadiran:lab Madison:from 20110520:to 20120625
+O. Fadiran:lab MadisonPAC:from 20120626:to 20151008
+S. Fahey:lab MadisonPAC:from 20150403:to 99999999
+A. R. Fazely:lab Southern:from 20040101:to 99999999
+A. Fedynitch:lab Bochum:from 20100816:to 20151008
+J. Feintzeig:lab Madison:from 20110404:to 20120625
+J. Feintzeig:lab MadisonPAC:from 20120626:to 20170323
+J. Felde:lab Maryland:from 20140508:to 99999999
+T. Feser:lab Mainz:from 20030101:to 20061214
+T. Feusels:lab Gentold:from 20080930:to 20110110
+T. Feusels:lab Gent:from 20110111:to 20141031
+K. Filimonov:lab Berkeley:from 20050101:to 99999999
+C. Finley:lab Madison:from 20070312:to 20090923
+C. Finley:lab StockholmOKC:from 20090924:to 99999999
+T. Fischer-Wasels:lab Wuppertal:from 20101216:to 20151201
+S. Flis:lab StockholmOKC:from 20111201:to 20180630
+M. M. Foerster:lab PennPhys:from 20061028:to 20110519
+C.-C. F\"osig:web C.-C. F&ouml;sig:lab Mainz:from 20150609:to 20170308
+B. D. Fox:lab PennPhys:from 20060401:to 20111116
+A. Franckowiak:lab Wuppertal:from 20061106:to 20071127
+A. Franckowiak:lab Berlin:from 20071128:to 20100329
+A. Franckowiak:lab Bonn:from 20100330:to 20141127
+A. Franckowiak:lab Zeuthen:from 20160506:to 99999999
+R. Franke:lab Zeuthen:from 20070319:to 20130529
+K. Frantzen:lab Dortmund:from 20120626:to 20150325
+E. Friedman:lab Maryland:from 20160607:to 99999999
+A. Fritz:lab Mainz:from 20180109:to 99999999
+T. Fuchs:lab Dortmund:from 20120626:to 20171130
+T. K. Gaisser:lab Bartol:from 20030101:to 99999999
+R. Gaior:lab Chibaold:from 20140716:to 20160606
+J. Gallagher:lab MadisonAstro:from 20040101:to 99999999
+E. Ganster:lab Aachen:from 20180404:to 99999999
+R. Ganugapati:lab Madison:from 20030101:to 20100607
+S. Garrappa:lab Zeuthen:from 20180724:to 99999999
+%G+A. Gartner:lab Munich:from 20170309:to 99999999
+H. Geenen:lab Wuppertal:from 20030101:to 20080805
+M. Geisler:lab Aachen:from 20091201:to 20110331
+L. Gerhardt:lab Irvine:from 20030101:to 20030102
+L. Gerhardt:lab Irvine:from 20050401:to 20071219
+L. Gerhardt:lab LBNL:from 20071220:to 20090107
+L. Gerhardt:lab LBNL:lab2 Berkeley:from 20090108:to 20170308
+L. Gerhardt:lab LBNL:from 20170309:to 99999999
+%G+R. Gernhaeuser:lab Munich:from 20170309:to 99999999
+K. Ghorbani:lab MadisonPAC:from 20150403:to 99999999
+W. Giang:lab Edmonton:from 20160427:to 99999999
+D. Gier:lab Aachen:from 20140301:to 20160314
+L. Gladstone:lab Madison:from 20080101:to 20120625
+L. Gladstone:lab MadisonPAC:from 20120626:to 20170323
+M. Glagla:lab Aachen:from 20150401:to 20160831
+T. Glauch:lab Aachen:from 20160801:to 20171130
+T. Glauch:lab Munich:from 20171201:to 99999999
+T. Gl\"usenkamp:web T. Gl&uuml;senkamp:lab Aachen:from 20100302:to 20110519
+T. Gl\"usenkamp:web T. Gl&uuml;senkamp:lab Zeuthen:from 20110520:to 20161117
+T. Gl\"usenkamp:web T. Gl&uuml;senkamp:lab Erlangen:from 20161118:to 99999999
+A. Goldschmidt:lab LBNL:from 20030101:to 99999999
+G. Golup:lab BrusselsVrije:from 20120911:to 20161014
+J. G. Gonzalez:lab Bartol:from 20130318:to 99999999
+J. A. Goodman:lab Maryland:from 20040101:to 20150519
+D. G\'ora:web D. G&oacute;ra:lab Zeuthen:from 20110305:to 20131019
+D. G\'ora:web D. G&oacute;ra:lab Erlangen:from 20131020:to 20140512
+D. G\'ora:web D. G&oacute;ra:lab Zeuthen:from 20140513:to 20160606
+R. Gozzini:lab Mainz:from 20051214:to 20091201
+D. T. Grandmont:lab Edmonton:from 20130512:to 20140715
+D. Grant:lab PennPhys:from 20080211:to 20100222
+D. Grant:lab Edmonton:from 20100223:to 99999999
+M. G. Greene:lab PennPhys:from 20040801:to 20060417
+P. Gretskov:lab Aachen:from 20131001:to 20150630
+T. Griesel:lab Mainz:from 20061215:to 20120108
+Z. Griffith:lab MadisonPAC:from 20151009:to 99999999
+J. C. Groh:lab PennPhys:from 20130828:to 20150928
+A. Gro{\ss}:web A. Gro&szlig;:lab Dortmund:from 20030101:to 20060228
+A. Gro{\ss}:web A. Gro&szlig;:lab Heidelberg:from 20060301:to 20081009
+A. Gro{\ss}:web A. Gro&szlig;:lab Christchurch:lab2 Heidelberg:from 20081010:to 20111130
+A. Gro{\ss}:web A. Gro&szlig;:lab Heidelberg:from 20111201:to 20120206
+A. Gro{\ss}:web A. Gro&szlig;:lab Munichold:from 20120207:to 20140518
+A. Gro{\ss}:web A. Gro&szlig;:lab Munich:from 20140519:to 20151231
+S. Grullon:lab Madison:from 20050101:to 20120625
+S. Grullon:lab MadisonPAC:from 20120626:to 20121202
+R. M. Gunasingha:lab Southern:from 20040101:to 20100510
+M. Gurtner:lab Wuppertal:from 20051214:to 20130508
+C. Ha:lab PennPhys:from 20070323:to 20111115
+C. Ha:lab LBNL:lab2 Berkeley:from 20111116:to 20160426
+C. Haack:lab Aachen:from 20131201:to 99999999
+A. Hajismail:lab Gent:from 20110201:to 20110512
+A. Haj Ismail:lab Gent:from 20110513:to 20160930
+P. Hallen:lab Aachen:from 20130104:to 20150331
+A. Hallgren:lab Uppsala:from 20030101:to 99999999
+L. Halve:lab Aachen:from 20180404:to 99999999
+F. Halzen:lab Madison:from 20030101:to 20120625
+F. Halzen:lab MadisonPAC:from 20120626:to 99999999
+K. Han:lab Christchurch:from 20050916:to 20110109
+K. Han:lab Zeuthen:from 20110110:to 20120217
+E. Hansen:lab Copenhagen:from 20150901:to 20170308
+B. Hansmann:lab Aachen:from 20150401:to 20160831
+T. Hansmann:lab Aachen:from 20160101:to 20170331
+K. Hanson:lab Madison:from 20030101:to 20100607
+K. Hanson:lab BrusselsLibre:lab2 Madison:from 20100608:to 20111130
+K. Hanson:lab BrusselsLibre:from 20111201:to 20150402
+K. Hanson:lab MadisonPAC:from 20150403:to 99999999
+D. Hardtke:lab Berkeley:from 20030101:to 20080531
+R. Hardtke:lab RiverFalls:from 20040101:to 20080924
+T. Harenberg:lab Wuppertal:from 20030101:to 20030102
+T. Harenberg:lab Wuppertal:from 20050101:to 20061105
+J. E. Hart:lab PennPhys::from 20040801:to 20070524
+Y. Hasegawa:lab Chibaold:from 20061027:to 20100405
+J. Haugen:lab Madison:from 20060410:to 20060410
+%P+J. Haugen:lab MadisonPAC:from 20131116:to 99999999
+%G+A. Haungs:lab Karlsruhe:from 20170529:to 99999999
+T. Hauschildt:lab Bartol:from 20030101:to 20071031
+D. Hays:lab LBNL:from 20040101:to 20070530
+D. Hebecker:lab Bonn:from 20131101:to 20141127
+D. Hebecker:lab Berlin:from 20141128:to 99999999
+D. Heereman:lab BrusselsLibre:from 20111201:to 99999999
+P. Heimann:lab Aachen:from 20120201:to 20130331
+D. Heinen:lab Aachen:from 20110101:to 20150331
+J. Heise:lab Utrecht:from 20050101:to 20090915
+K. Helbing:lab LBNL:from 20030101:to 20051219
+K. Helbing:lab Wuppertal:from 20051220:to 99999999
+R. Hellauer:lab Maryland:from 20110520:to 99999999
+D. Hellwig:lab Aachen:from 20140301:to 20150831
+M. Hellwig:lab Mainz:from 20030101:to 20081008
+%G+F. Henningsen:lab Munich:from 20170309:to 99999999
+P. Herquet:lab Monsold:from 20030101:to 20090930
+P. Herquet:lab Mons:from 20091001:to 20110519
+S. Hickford:lab Christchurch:from 20071122:to 20141110
+S. Hickford:lab Wuppertal:from 20141111:to 99999999
+%P+J. Hignight:lab Michigan:from 20141211:to 20150214
+J. Hignight:lab Michigan:from 20150215:to 99999999
+G. C. Hill:lab Madison:from 20030101:to 20111129
+G. C. Hill:lab Adelaideold:from 20111130:to 20150703
+G. C. Hill:lab Adelaide:from 20150704:to 99999999
+J. Hodges:lab Madison:from 20030101:to 20030102
+J. Hodges:lab Madison:from 20050101:to 20080731
+K. D. Hoffman:lab Maryland:from 20040801:to 99999999
+B. Hoffmann:lab Aachen:from 20110601:to 20120331
+%G+B. Hoffmann:lab Karlsruhe:from 20170529:to 99999999
+R. Hoffmann:lab Wuppertal:from 20120504:to 99999999
+T. Hoinka:lab Dortmund:from 20171206:to 99999999
+B. Hokanson-Fasig:lab MadisonPAC:from 20170324:to 99999999
+K. Holzapfel:lab Munich:from 20150506:to 20161213
+%G+K. Holzapfel:lab Munich:from 20170309:to 99999999
+A. Homeier:lab Berlin:from 20090816:to 20100329
+A. Homeier:lab Bonn:from 20100330:to 20160606
+B. Hommez:lab Gentold:from 20060419:to 20070608
+K. Hoshina:lab Madison:from 20040101:to 20120625
+K. Hoshina:lab MadisonPAC:from 20120626:to 20131210
+%P-K. Hoshina:lab MadisonPAC:thanks Tokyofn:from 20131211:to 99999999
+%P+K. Hoshina:lab MadisonPAC:lab2 Tokyo:from 20131211:to 99999999
+F. Huang:lab PennPhys:from 20131101:to 99999999
+M. Huber:lab Munich:from 20150401:to 99999999
+%G+T. Huber:lab Karlsruhe:from 20170529:to 99999999
+D. Hubert:lab BrusselsVrije:from 20030101:to 20110519
+%G+T. Huege:lab Karlsruhe:from 20170529:to 99999999
+W. Huelsnitz:lab Maryland:from 20080513:to 20110508
+W. Huelsnitz:lab Maryland:thanks LosAlamos:from 20110509:to 20130813
+W. Huelsnitz:lab Maryland:from 20130814:to 20160606
+B. Hughey:lab Madison:from 20030101:to 20080731
+J.-P. H\"ul{\ss}:web J.-P. H&uuml;l&szlig;:lab Wuppertal:from 20051214:to 20060930
+J.-P. H\"ul{\ss}:web J.-P. H&uuml;l&szlig;:lab Aachen:from 20061001:to 20120101
+P. O. Hulth:lab Stockholm:from 20030101:to 20090219
+P. O. Hulth:lab StockholmOKC:from 20090220:to 20160226
+K. Hultqvist:lab Stockholm:from 20030101:to 20090219
+K. Hultqvist:lab StockholmOKC:from 20090220:to 99999999
+S. Hundertmark:lab Stockholm:from 20030101:to 20080630
+M. H\"unnefeld:web M. H&uuml;nnefeld:lab Dortmund:from 20170627:to 99999999
+R. Hussain:lab MadisonPAC:from 20171218:to 99999999
+S. Hussain:lab Bartol:from 20080429:to 20141130
+R. L. Imlay:lab Southern:from 20071129:to 20100523
+S. In:lab SKKU:from 20150212:to 99999999
+M. Inaba:lab Chibaold:from 20061027:to 20100405
+N. Iovine:lab BrusselsLibre:from 20180205:to 99999999
+A. Ishihara:lab Madison:from 20050101:to 20061026
+A. Ishihara:lab Chibaold:from 20061027:to 20160710
+A. Ishihara:lab Chiba:from 20160711:to 99999999
+E. Jacobi:lab Zeuthen:from 20110520:to 99999999
+J. Jacobsen:lab LBNL:from 20030101:to 20070530
+J. Jacobsen:lab Madison:from 20070531:to 20120625
+J. Jacobsen:lab MadisonPAC:from 20120626:to 20150402
+K. Jagielski:lab Aachen:from 20130104:to 20141023
+G. S. Japaridze:lab Atlanta:from 20040101:to 99999999
+M. Jeong:lab SKKU:from 20151020:to 99999999
+K. Jero:lab MadisonPAC:from 20121203:to 99999999
+O. Jlelati:lab Gent:from 20120604:to 20141231
+%P+M. D. Joergensen:lab Copenhagen:from 20130625:to 20150718
+H. Johansson:lab Stockholm:from 20060822:to 20090219
+H. Johansson:lab StockholmOKC:from 20090220:to 20120731
+A. Jones:lab LBNL:from 20040101:to 20070530
+%G+B. J. P. Jones:lab MIT:from 20141216:to 20151116
+B. J. P. Jones:lab MIT:from 20151117:to 20170308
+B. J. P. Jones:lab Arlington:from 20170309:to 99999999
+J. M. Joseph:lab LBNL:from 20040101:to 20110519
+M. Jurkovic:lab Munichold:from 20140314:to 20140518
+M. Jurkovic:lab Munich:from 20140519:to 20161213
+P. Kalaczynski:lab Aachen:from 20170401:to 99999999
+%P+O. Kalekin:lab Erlangen:from 20130625:to 99999999
+B. Kaminsky:lab Zeuthen:from 20121214:to 20150826
+K.-H. Kampert:lab Wuppertal:from 20030101:to 20030102
+K.-H. Kampert:lab Wuppertal:from 20040801:to 20111205
+W. Kang:lab SKKU:from 20160922:to 99999999
+%G+D. Kang:lab Karlsruhe:from 20170529:to 99999999
+A. Kappes:lab Madison:thanks Erlangentold:from 20070312:to 20090131
+A. Kappes:lab Madison:thanks Erlangent:from 20090201:to 20100607
+A. Kappes:lab Berlin:from 20101101:to 20131019
+A. Kappes:lab Erlangen:from 20131020:to 20160425
+A. Kappes:lab Munster:from 20160426:to 99999999
+D. Kappesser:lab Mainz:from 20180109:to 99999999
+T. Karg:lab Wuppertal:from 20061106:to 20120503
+T. Karg:lab Zeuthen:from 20120504:to 99999999
+A. Karle:lab Madison:from 20030101:to 20120625
+A. Karle:lab MadisonPAC:from 20120626:to 99999999
+%G+T. Katori:lab QMLondon:from 20141216:to 99999999
+%P+U. Katz:lab Erlangen:from 20130625:to 20151216
+U. Katz:lab Erlangen:from 20151217:to 99999999
+M. Kauer:lab MadisonPAC:lab2 Yale:from 20130917:to 20160606
+M. Kauer:lab MadisonPAC:from 20160607:to 99999999
+H. Kawai:lab Chibaold:from 20040101:to 20081013
+A. Keivani:lab PennPhys:from 20140809:to 99999999
+J. L. Kelley:lab Madison:from 20050101:to 20110403
+J. L. Kelley:lab MadisonPAC:from 20121203:to 99999999
+N. Kemming:lab Berlin:from 20090816:to 20110106
+J. Kemp:lab Aachen:from 20150401:to 20160831
+P. Kenny:lab Kansas:from 20081021:to 20111115
+M. Kestel:lab PennPhys:from 20030101:to 20061026
+A. Kheirandish:lab MadisonPAC:from 20140414:to 99999999
+J. Kim:lab SKKU:from 20160922:to 99999999
+M. Kim:lab SKKU:from 20160115:to 20170331
+M. Kim:lab Chiba:from 20170401:to 20180504
+T. Kintscher:lab Zeuthen:from 20160118:to 99999999
+J. Kiryluk:lab LBNL:lab2 Berkeley:from 20070531:to 20110923
+J. Kiryluk:lab StonyBrook:from 20110924:to 99999999
+F. Kislat:lab Berlin:from 20070319:to 20080520
+F. Kislat:lab Zeuthen:from 20080521:to 20130529
+N. Kitamura:lab Madison:from 20040101:to 20051129
+N. Kitamura:lab Madison:from 20060312:to 20071209
+T. Kittler:lab Erlangen:from 20160423:to 99999999
+J. Kl\"as:web J. Kl&auml;s:lab Wuppertal:from 20120504:to 20151201
+S. R. Klein:lab LBNL:lab2 Berkeley:from 20040101:to 99999999
+S. Kleinfelder:lab LBNL:from 20061015:to 20061015
+S. Klepser:lab Zeuthen:from 20030102:to 20030102
+S. Klepser:lab Zeuthen:from 20050101:to 20090523
+S. Knops:lab Aachen:from 20090101:to 20100630
+R. Koch:lab A3RI:from 20040101:to 20050101
+J.-H. K\"ohne:web J.-H. K&ouml;hne:lab Dortmund:from 20100401:to 20150325
+G. Kohnen:lab Monsold:from 20030101:to 20090930
+G. Kohnen:lab Mons:from 20091001:to 20171231
+R. Koirala:lab Bartol:from 20150525:to 99999999
+H. Kolanoski:lab Zeuthen:thanks Berlin:from 20030102:to 20030102
+H. Kolanoski:lab Zeuthen:thanks Berlin:from 20050401:to 20060326
+H. Kolanoski:lab Berlin:from 20060326:to 99999999
+R. Konietz:lab Aachen:from 20150401:to 20170331
+A. Koob:lab Aachen:from 20140301:to 20150831
+L. K\"opke:web L. K&ouml;pke:lab Mainz:from 20030101:to 99999999
+C. Kopper:lab MadisonPAC:from 20120626:to 20141117
+C. Kopper:lab Edmonton:from 20141118:to 99999999
+S. Kopper:lab Wuppertal:from 20101216:to 20170308
+S. Kopper:lab Alabama:from 20170309:to 99999999
+J. P. Koschinsky:lab Aachen:from 20170401:to 20181001
+%P-D. J. Koskinen:lab PennPhys:from 20090827:to 20131016
+%P+D. J. Koskinen:lab PennPhys:lab2 Copenhagen:from 20130625:to 20131016
+D. J. Koskinen:lab Copenhagen:from 20131017:to 99999999
+M. Kowalski:lab Zeuthen:from 20030101:to 20030101
+M. Kowalski:lab Zeuthen:from 20030103:to 20050101
+M. Kowalski:lab Berlin:from 20061027:to 20090816
+M. Kowalski:lab Bonn:from 20090817:to 20141127
+M. Kowalski:lab Berlin:lab2 Zeuthen:from 20141128:to 99999999
+T. Kowarik:lab Mainz:from 20061215:to 20120108
+M. Krasberg:lab Madison:from 20050101:to 20120625
+M. Krasberg:lab MadisonPAC:from 20120626:to 20140309
+%P+C. B. Krauss:lab Edmonton:from 20130625:to 99999999 
+A. Kriesten:lab Aachen:from 20131001:to 20150301
+K. Krings:lab Aachen:from 20130104:to 20140919
+K. Krings:lab Munich:from 20140920:to 99999999
+T. Krings:lab Aachen:from 20091001:to 20110630
+G. Kroll:lab Mainz:from 20090901:to 20160331
+M. Kroll:lab Bochum:from 20140602:to 99999999
+G. Kr\"uckl:web G. Kr&uuml;ckl:lab Mainz:from 20150929:to 99999999
+C. Kr\"uger:web C. Kr&uuml;ger:lab MadisonPAC:from 20160421:to 20170323
+K. Kuehn:lab Irvine:from 20030101:to 20030102
+K. Kuehn:lab Irvine:from 20050401:to 20080923
+K. Kuehn:lab Ohio:from 20080924:to 20110308
+E. Kujawski:lab LBNL:from 20040101:to 20050101
+E. Kujawski:lab LBNL:from 20061015:to 20061015
+J. Kunnen:lab BrusselsVrije:from 20111116:to 20180114
+S. Kunwar:lab Zeuthen:from 20160118:to 99999999
+N. Kurahashi:lab Madison:from 20110404:to 20120625
+N. Kurahashi:lab MadisonPAC:from 20120626:to 20140924
+N. Kurahashi:lab Drexel:from 20140925:to 99999999
+T. Kuwabara:lab Bartol:from 20070524:to 20140715
+T. Kuwabara:lab Chibaold:from 20140716:to 20160710
+T. Kuwabara:lab Chiba:from 20160711:to 20180504
+A. Kyriacou:lab Adelaide:from 20170125:to 99999999
+M. Labare:lab BrusselsLibre:from 20061212:to 20100803
+M. Labare:lab BrusselsVrije:from 20100804:to 20130528
+M. Labare:lab Gent:from 20130529:to 99999999
+S. Lafebre:lab PennPhys:from 20090301:to 20110519
+K. Laihem:lab Aachen:from 20070531:to 20120930
+H. Landsman:lab Madison:from 20050101:to 20120625
+H. Landsman:lab MadisonPAC:from 20120626:to 20140309
+J. L. Lanfranchi:lab PennPhys:from 20141020:to 99999999
+R. Lang:lab Zeuthen:from 20030101:to 20030101
+R. Lang:lab Zeuthen:from 20040801:to 20051213
+N. Langer:lab Utrecht:from 20040101:to 20050101
+D. T. Larsen:lab MadisonPAC:from 20140410:to 20150402
+M. J. Larson:lab PennPhys:from 20100826:to 20120625
+M. J. Larson:lab Alabama:from 20120626:to 20140115
+M. J. Larson:lab Copenhagen:from 20140116:to 99999999
+F. Lauber:lab Wuppertal:from 20160607:to 99999999
+R. Lauer:lab Zeuthen:from 20070319:to 20121213
+A. Laundrie:lab Madison:from 20060410:to 20060410
+R. Lehmann:lab Berlin:from 20090816:to 20110106
+H. Leich:lab Zeuthen:from 20030101:to 20090515
+D. Leier:lab Dortmund:from 20060831:to 20081008
+D. Lennarz:lab Aachen:from 20081002:to 20100630
+D. Lennarz:lab Michigan:from 20160101:to 20170831
+%G+D. Lennarz:lab Michigan:from 20170901:to 20180531
+K. Leonard:lab MadisonPAC:from 20171218:to 99999999
+M. Lesiak-Bzdak:lab StonyBrook:from 20120626:to 20180511
+%G+A. Leszczynska:lab Karlsruhe:from 20170529:to 99999999
+M. Leuermann:lab Aachen:from 20130104:to 99999999
+J. Leuner:lab Aachen:from 20150401:to 20160831
+J. Leute:lab Munichold:from 20121105:to 20140518
+J. Leute:lab Munich:from 20140519:to 20141011
+M. Leuthold:lab Zeuthen:from 20030101:to 20030102
+M. Leuthold:lab Zeuthen:from 20050101:to 20050601
+M. Leuthold:lab Zeuthen:from 20051220:to 20051220
+C. Lewis:lab Madison:from 20080101:to 20080731
+Q. R. Liu:lab MadisonPAC:from 20170324:to 99999999
+I. Liubarsky:lab London:from 20030101:to 20071122
+E. Lohfink:lab Mainz:from 20180220:to 99999999
+%G+J. LoSecco:lab NotreDame:from 20141216:to 99999999
+C. J. Lozano Mariscal:lab Munster:from 20171014:to 99999999
+L. Lu:lab Chibaold:from 20150728:to 20160710
+L. Lu:lab Chiba:from 20160711:to 99999999
+A. Lucke:lab Berlin:from 20080521:to 20091008
+J. Ludvig:lab LBNL:from 20061015:to 20061015
+J. Lundberg:lab Uppsala:from 20030101:to 20091130
+J. L\"unemann:lab Dortmund:web J. L&uuml;nemann:from 20060831:to 20081008
+J. L\"unemann:lab Mainz:web J. L&uuml;nemann:from 20081009:to 20150722
+J. L\"unemann:lab BrusselsVrije:web J. L&uuml;nemann:from 20150723:to 99999999
+W. Luszczak:lab MadisonPAC:from 20170324:to 99999999
+O. Mac{\'\i}as:web O. Mac&iacute;as:lab Christchurch:from 20130702:to 20140701
+C. Mackenzie:lab Madison:from 20060410:to 20060410
+J. Madsen:lab RiverFalls:from 20030101:to 99999999
+G. Maggi:lab BrusselsVrije:from 20130528:to 99999999
+%P+K. B. M. Mahn:lab Michigan:from 20141211:to 20150214
+K. B. M. Mahn:lab Michigan:from 20150215:to 99999999
+P. Majumdar:lab Zeuthen:from 20081010:to 20110519
+Y. Makino:lab Chiba:from 20180505:to 99999999
+S. Mancina:lab MadisonPAC:from 20160421:to 99999999
+%G+S. Mandalia:lab QMLondon:from 20160610:to 99999999
+M. Mandelartz:lab Bochum:from 20151009:to 20170305
+K. Mandli:lab Madison:from 20040101:to 20050101
+P. Marciniewski:lab Uppsala:from 20030101:to 20030102
+P. Marciniewski:lab Uppsala:from 20050101:to 20051212
+P. Marciniewski:lab Uppsala:from 20051220:to 20051220
+I. C. Mari\c{s}:web I. C. Mari&#351:lab BrusselsLibre:from 20180703:to 99999999
+%G+S. Marka:lab Columbia:from 20141216:to 99999999
+%G+Z. Marka:lab Columbia:from 20141216:to 99999999
+A. Marotta:lab BrusselsLibre:from 20100608:to 20111231
+R. Maruyama:lab Madison:from 20070312:to 20120625
+R. Maruyama:lab MadisonPAC:from 20120626:to 20141126
+R. Maruyama:lab Yale:from 20141127:to 99999999
+K. Mase:lab Chibaold:from 20050101:to 20160710
+K. Mase:lab Chiba:from 20160711:to 99999999
+H. S. Matis:lab LBNL:from 20030101:to 20160426
+M. Matusik:lab Wuppertal:from 20091128:to 20101215
+R. Maunu:lab Maryland:from 20140625:to 99999999
+T. McCauley:lab LBNL:from 20050101:to 20080725
+F. McNally:lab MadisonPAC:from 20120628:to 20171217
+C. P. McParland:lab LBNL:from 20030101:to 20091123
+K. Meagher:lab Maryland:from 20070518:to 20150407
+K. Meagher:lab BrusselsLibre:from 20150408:to 99999999
+M. Medici:lab Copenhagen:from 20140601:to 99999999
+M. Meier:lab Dortmund:from 20151217:to 99999999
+A. Meli:lab Dortmund:from 20050101:to 20081008
+A. Meli:lab Gent:from 20140110:to 20161231
+T. Menne:lab Dortmund:from 20150326:to 99999999
+M. Merck:lab Madison:from 20071210:to 20120625
+M. Merck:lab MadisonPAC:from 20120626:to 20140309
+G. Merino:lab MadisonPAC:from 20150308:to 99999999
+T. Messarius:lab Dortmund:from 20030101:to 20081008
+P. M\'esz\'aros:web P. M&eacute;sz&aacute;ros:lab PennPhys:lab2 PennAstro:from 20040101:to 20090113
+P. M\'esz\'aros:web P. M&eacute;sz&aacute;ros:lab PennAstro:lab2 PennPhys:from 20090114:to 20130625
+T. Meures:lab Aachen:from 20091001:to 20110316
+T. Meures:lab BrusselsLibre:from 20110317:to 99999999
+S. Miarecki:lab LBNL:lab2 Berkeley:from 20110520:to 99999999
+J. Micallef:lab Michigan:from 20170124:to 99999999
+E. Middell:lab Zeuthen:from 20081010:to 20160606
+E. Middlemas:lab MadisonPAC:from 20140310:to 20151008
+N. Milke:lab Dortmund:from 20090101:to 20150325
+J. Miller:lab Uppsala:from 20100501:to 20120216
+J. Miller:lab BrusselsVrije:from 20120217:to 20120722
+Y. Minaeva:lab Stockholm:from 20030101:to 20040801
+Y. Minaeva:lab Stockholm:from 20051220:to 20051220
+R. H. Minor:lab LBNL:from 20040101:to 20051216
+R. H. Minor:lab LBNL:from 20061015:to 20061015
+P. Mio{\v{c}}inovi\'c:web P. Mio&#269;inovi&#263;:lab Berkeley:from 20030101:to 20060323
+H. Miyamoto:lab Chibaold:from 20040101:to 20081013
+H. Miyamoto:lab Chibaold:thanks Munich:from 20081014:to 20081027
+H. Miyamoto:lab Chibaold:from 20081028:to 20100405
+A. Mohr:lab Berlin:from 20071128:to 20090815
+L. Mohrmann:lab Zeuthen:from 20120524:to 20160930
+A. Mokhtarani:lab LBNL:from 20050101:to 20070530
+G. Moment\'e:web G. Moment&eacute;:lab Mainz:from 20170123:to 99999999
+T. Montaruli:lab Madison:thanks Barivvold:from 20050101:to 20080924
+T. Montaruli:lab Madison:thanks Barivold:from 20080925:to 20100510
+T. Montaruli:lab Madison:thanks Bariold:from 20100511:to 20100519
+T. Montaruli:lab Madison:thanks Bari:from 20110520:to 20110928
+T. Montaruli:lab Geneva:thanks Bari:from 20110929:to 20131114
+T. Montaruli:lab Geneva:from 20131115:to 99999999
+%P+R. W. Moore:lab Edmonton:from 20131118:to 20170430
+R. W. Moore:lab Edmonton:from 20170501:to 99999999
+A. Morey:lab Berkeley:from 20050101:to 20071122
+R. Morse:lab Madison:from 20030101:to 20120625
+R. Morse:lab MadisonPAC:from 20120626:to 20160420
+M. Moulai:lab MIT:from 20160422:to 99999999
+S. M. Movit:lab PennAstro:from 20040801:to 20120930
+K. M\"unich:web K. M&uuml;nich:lab Dortmund:from 20030101:to 20090630
+A. Muratas:lab LBNL:from 20060410:to 20060410
+A. Muratas:lab LBNL:from 20061015:to 20061015
+R. Nagai:lab Chiba:from 20180505:to 99999999
+R. Nahnhauer:lab Zeuthen:from 20030101:to 99999999
+P. Nakarmi:lab Alabama:from 20170309:to 99999999
+J. W. Nam:lab Irvine:from 20030101:to 20030102
+J. W. Nam:lab Irvine:from 20050401:to 20120625
+U. Naumann:lab Wuppertal:from 20091128:to 99999999
+G. Neer:lab Michigan:from 20150723:to 99999999
+T. Neunh\"offer:web T. Neunh&ouml;ffer:lab Mainz:from 20030101:to 20050101
+T. Neunh\"offer:web T. Neunh&ouml;ffer:lab Mainz:from 20051220:to 20051220
+H. Niederhausen:lab StonyBrook:from 20121119:to 99999999
+P. Nie{\ss}en:web P. Nie&szlig;en:lab Bartol:from 20030101:to 20110519
+S. C. Nowicki:lab Edmonton:from 20111005:to 99999999
+D. R. Nygren:lab LBNL:from 20030101:to 20081009
+D. R. Nygren:lab LBNL:lab2 Stockholm:from 20081010:to 20090219
+D. R. Nygren:lab LBNL:lab2 StockholmOKC:from 20090220:to 20090817
+D. R. Nygren:lab LBNL:from 20090818:to 20131114
+%P-D. R. Nygren:lab LBNL:from 20131115:to 99999999
+%G+D. R. Nygren:lab LBNL:from 20141216:to 99999999
+A. Obertacke:lab Wuppertal:from 20120627:to 20151009
+A. Obertacke Pollmann:lab Wuppertal:from 20151010:to 99999999
+S. Odrowski:lab Zeuthen:from 20071122:to 20081009
+S. Odrowski:lab Heidelberg:from 20081010:to 20120206
+S. Odrowski:lab Munich:from 20120207:to 20130527
+%P-S. Odrowski:lab Edmonton:from 20130528:to 20150113
+%P+S. Odrowski:lab Manchester:from 20130528:to 20150113
+S. Odrowski:lab Edmonton:from 20150114:to 20150114
+%G+M. Oehler:lab Karlsruhe:from 20170529:to 99999999
+H. \"Ogelman:web H. &Ouml;gelman:lab Madison:from 20030101:to 20070403
+Ph. Olbrechts:lab BrusselsVrije:from 20030101:to 20060821
+A. Olivas:lab Maryland:from 20050101:to 99999999
+M. Olivo:lab Uppsala:from 20071210:to 20090826
+M. Olivo:lab Uppsala:lab2 Bochum:from 20090827:to 20100131
+M. Olivo:lab Bochum:from 20100201:to 20130701
+A. Omairat:lab Wuppertal:from 20130701:to 20160606
+A. O'Murchadha:lab Madison:from 20100608:to 20120625
+A. O'Murchadha:lab BrusselsLibre:from 20120626:to 99999999
+M. Ono:lab Chibaold:from 20070528:to 20100519
+E. O'Sullivan:lab StockholmOKC:from 20171206:to 99999999
+%P+A. Palazzo:lab Munich:from 20130625:to 20131115
+%P+A. Palazzo:lab MunichMPI:from 20131116:to 99999999
+T. Palczewski:lab Alabama:from 20131115:to 20161103
+T. Palczewski:lab LBNL:lab2 Berkeley:from 20161104:to 99999999
+H. Pandya:lab Bartol:from 20150525:to 99999999
+S. Panknin:lab Berlin:from 20071128:to 20100329
+S. Panknin:lab Bonn:from 20100330:to 20121214
+D. V. Pankova:lab PennPhys:from 20150824:to 99999999
+%G+L. Papp:lab Munich:from 20170309:to 99999999
+S. Patton:lab LBNL:from 20040101:to 20091123
+L. Paul:lab Aachen:from 20091001:to 20160314
+R. Paulos:lab Madison:from 20040101:to 20050101
+P. Peiffer:lab Mainz:from 20160711:to 99999999
+C. Pe\~na-Garay:web C. Pe&ntilde;a-Garay:lab Princeton:from 20040101:to 20070531
+\"O. Penek:web &Ouml;. Penek:lab Aachen:from 20140301:to 20150226
+\"O. Penek:web &Ouml;. Penek:lab Aachen:from 20160315:to 20170331
+J. A. Pepper:lab Alabama:from 20120626:to 99999999
+C. P\'erez de los Heros:web C. P&eacute;rez de los Heros:lab Uppsala:from 20030101:to 99999999
+%P+T. C. Petersen:lab Copenhagen:from 20130625:to 99999999
+J. Petrovic:lab BrusselsLibre:from 20080303:to 20111130
+C. Pettersen:lab Madison:from 20060410:to 20060410
+C. Pfendner:lab Ohio:from 20121105:to 20160606
+A. Piegsa:lab Mainz:from 20051214:to 20120108
+D. Pieloth:lab Zeuthen:from 20030102:to 20030102
+D. Pieloth:lab Zeuthen:from 20050101:to 20090515
+D. Pieloth:lab Dortmund:from 20090516:to 99999999
+E. Pinat:lab BrusselsLibre:from 20130401:to 99999999
+%P+J. L. Pinfold:lab Edmonton:from 20131118:to 99999999
+N. Pirk:lab Zeuthen:from 20120524:to 20130529
+A. Pizzuto:lab MadisonPAC:from 20180702:to 99999999
+M. Plum:lab Marquette:from 20170309:to 99999999
+A. C. Pohl:lab Uppsala:thanks Kalmarold:from 20030101:to 20030101
+A. C. Pohl:lab Uppsala:thanks Kalmar:from 20030102:to 20030102
+A. C. Pohl:lab Uppsala:thanks Kalmarvold:from 20030103:to 20050915
+A. C. Pohl:lab Uppsala:thanks Kalmarold:from 20050916:to 20070524
+A. C. Pohl:lab Uppsala:thanks Kalmar:from 20070525:to 20100301
+R. Porrata:lab Berkeley:from 20030101:to 20111115
+J. Posselt:lab Wuppertal:from 20091128:to 20160606
+N. Potthoff:lab Wuppertal:from 20080806:to 20091127
+J. Pretz:lab Maryland:from 20040101:to 20081013
+P. B. Price:lab Berkeley:from 20030101:to 99999999
+M. Prikockis:lab PennPhys:from 20081101:to 20110228
+G. T. Przybylski:lab LBNL:from 20030101:to 99999999
+J. P\"utz:web J. P&uuml;tz:lab Aachen:from 20140301:to 20151031
+M. Quinnan:lab PennPhys:from 20131101:to 20170311
+C. Raab:lab BrusselsLibre:from 20150719:to 99999999
+L. R\"adel:web L. R&auml;del:lab Aachen:from 20120301:to 20180701
+M. Rameez:lab Geneva:from 20130401:to 20160606
+M. Rameez:lab Copenhagen:from 20160607:to 99999999
+L. Rauch:lab Zeuthen:from 20180201:to 99999999
+K. Rawlins:lab Madison:from 20030101:to 20051129
+K. Rawlins:lab Madison:from 20051220:to 20051220
+K. Rawlins:lab Anchorage:from 20060410:to 99999999
+S. Razzaque:lab PennAstro:from 20040101:to 20060409
+S. Razzaque:lab PennPhys:lab2 PennAstro:from 20060410:to 20081008
+I. C. Rea:lab Munich:from 20170701:to 99999999
+P. Redl:lab Maryland:from 20070518:to 20150718
+I. Rees:lab MadisonPAC:from 20140410:to 20150402
+F. Refflinghaus:lab Dortmund:from 20040801:to 20060830
+R. Reimann:lab Aachen:from 20130104:to 99999999
+B. Relethford:lab Drexel:from 20160607:to 99999999
+M. Relich:lab Chibaold:from 20140716:to 20160710
+M. Relich:lab Chiba:from 20160711:to 20180504
+%G+M. Renschler:lab Karlsruhe:from 20170529:to 99999999
+G. Renzi:lab BrusselsLibre:from 20180703:to 99999999
+E. Resconi:lab Zeuthen:from 20030101:to 20060228
+E. Resconi:lab Heidelberg:from 20060301:to 20110519
+E. Resconi:lab Heidelberg:thanks TumErl:from 20110520:to 20111130
+E. Resconi:lab Heidelberg:thanks Tum:from 20111201:to 20120206
+E. Resconi:lab Munichold:from 20120207:to 20140518
+E. Resconi:lab Munich:from 20140519:to 99999999
+W. Rhode:lab Dortmund:from 20030101:to 99999999
+M. Ribordy:lab Monsold:from 20030101:to 20070527
+M. Ribordy:lab Lausanne:from 20070528:to 20140430
+M. Richman:lab Maryland:from 20110520:to 20150412
+M. Richman:lab Drexel:from 20150413:to 99999999
+S. Richter:lab Madison:from 20030101:to 20051213
+S. Richter:lab MadisonPAC:from 20150403:to 20160420
+B. Riedel:lab Madison:from 20120101:to 20120625
+B. Riedel:lab MadisonPAC:from 20120626:to 20141128
+B. Riedel:lab Edmonton:from 20141129:to 20170530
+%G+M. Riegel:lab Karlsruhe:from 20170529:to 99999999
+A. Rizzo:lab BrusselsVrije:from 20050101:to 20111231
+S. Robbins:lab Wuppertal:from 20040801:to 20080805
+W. J. Robbins:lab PennPhys:from 20070525:to 20081008
+S. Robertson:lab Adelaideold:from 20131120:to 20150703
+S. Robertson:lab Adelaide:from 20150704:to 20180803
+S. Robertson:lab LBNL:from 20180804:to 99999999
+J. P. Rodrigues:lab Madison:from 20080426:to 20120625
+J. P. Rodrigues:lab MadisonPAC:from 20120626:to 20150402
+J. Rodr{\'\i}guez Martino:web J. Rodr&iacute;guez Martino:lab Stockholm:from 20030101:to 20030102
+J. Rodr{\'\i}guez Martino:web J. Rodr&iacute;guez Martino:lab Stockholm:from 20051220:to 20051220
+M. Rongen:lab Aachen:from 20140301:to 99999999
+P. Roth:lab Maryland:from 20060522:to 20110519
+F. Rothmaier:lab Mainz:from 20070306:to 20121023
+C. Rott:lab PennPhys:from 20050101:to 20080923
+C. Rott:lab Ohio:from 20080924:to 20130325
+C. Rott:lab Ohio:thanks skkuold:from 20130326:to 20130617
+C. Rott:lab Ohio:lab2 SKKU:from 20130618:to 20130731
+C. Rott:lab SKKU:from 20130801:to 99999999
+C. Roucelle:lab LBNL:lab2 Berkeley:from 20070531:to 20080923
+C. Roucelle:lab Heidelberg:from 20080924:to 20100901
+T. Ruhe:lab Dortmund:from 20100401:to 99999999
+D. Rutledge:lab PennPhys:from 20040801:to 20120731
+B. Ruzybayev:lab Bartol:from 20090920:to 20150531
+D. Ryckbosch:lab Gentold:from 20060419:to 20110110
+D. Ryckbosch:lab Gent:from 20110111:to 99999999
+D. Rysewyk:lab Michigan:from 20160422:to 99999999
+S. M. Saba:lab Bochum:from 20120425:to 20151008
+L. Sabbatini:lab MadisonPAC:from 20150403:to 20170323
+I. Safa:lab MadisonPAC:from 20171218:to 99999999
+T. Salameh:lab PennPhys:from 20120626:to 20130827
+T. S\"alzer:web T. S&auml;lzer:lab Aachen:from 20170401:to 20180403
+S. E. Sanchez Herrera:lab Edmonton:from 20160427:to 99999999
+H.-G. Sander:lab Mainz:from 20030101:to 20160331
+A. Sandrock:lab Dortmund:from 20150326:to 99999999
+J. Sandroos:lab Copenhagen:from 20140601:to 20150608
+J. Sandroos:lab Mainz:from 20150609:to 99999999
+P. Sandstrom:lab Madison:from 20060410:to 20060410
+%P+P. Sandstrom:lab MadisonPAC:from 20131116:to 99999999
+M. Santander:lab Madison:from 20100608:to 20120625
+M. Santander:lab MadisonPAC:from 20120626:to 20150402
+M. Santander:lab Alabama:from 20170815:to 99999999
+S. Sarkar:lab Oxford:from 20060410:to 20131026
+S. Sarkar:lab Copenhagen:lab2 Oxford:from 20131027:to 99999999
+S. Sarkar:lab Edmonton:from 20170309:to 99999999
+K. Satalecka:lab Zeuthen:from 20070319:to 20090523
+K. Satalecka:lab Zeuthen:from 20160301:to 99999999
+C. Savage:lab StockholmOKC:from 20120629:to 20120629
+K. Schatto:lab Mainz:from 20090901:to 20160331
+M. Schaufel:lab Aachen:from 20180404:to 99999999
+M. Scheel:lab Aachen:from 20120201:to 20130531
+F. Scheriau:lab Dortmund:from 20120626:to 20151031
+%G+H. Schieler:lab Karlsruhe:from 20170529:to 99999999
+M. Schimp:lab Aachen:from 20150401:to 20160831
+S. Schlenstedt:lab Zeuthen:from 20030101:to 20101220
+P. Schlunder:lab Dortmund:from 20151217:to 99999999
+T. Schmidt:lab Maryland:from 20060522:to 99999999
+M. Schmitz:lab Dortmund:from 20120626:to 20151031
+A. Schneider:lab MadisonPAC:from 20170324:to 99999999
+D. Schneider:lab Madison:from 20030101:to 20051129
+D. Schneider:lab Madison:from 20051220:to 20051220
+D. Schneider:lab Madison:from 20060410:to 20060410
+D. Schneider:lab Madison:from 20060712:to 20100607
+J. Schneider:lab Erlangen:from 20180703:to 99999999
+S. Schoenen:lab Aachen:from 20120301:to 20180701
+A. Schoenwald:lab Zeuthen:from 20101221:to 20110109
+S. Sch\"oneberg:web S. Sch&ouml;neberg:lab Bochum:from 20111019:to 99999999
+L. Sch\"onherr:web L. Sch&ouml;nherr:lab Aachen:from 20120301:to 20130331
+A. Sch\"onwald:web A. Sch&ouml;nwald:lab Zeuthen:from 20110110:to 20160606
+%G+F. G. Schr\"oder:web F. G. Schr&ouml;der:lab Karlsruhe:from 20170529:to 99999999
+A. Schukraft:lab Aachen:from 20081002:to 20150630
+L. Schulte:lab Bonn:from 20110922:to 20160117
+A. Schultes:lab Wuppertal:from 20091128:to 20120503
+O. Schulz:lab Heidelberg:from 20070701:to 20110519
+O. Schulz:lab Heidelberg:thanks Tum:from 20110520:to 20120206
+O. Schulz:lab Munichold:from 20120207:to 20140518
+O. Schulz:lab Munich:from 20140519:to 20150505
+L. Schumacher:lab Aachen:from 20150929:to 99999999
+M. Schunck:lab Aachen:from 20081002:to 20120630
+R. Schwarz:lab Madison:from 20030101:to 20051129
+R. Schwarz:lab Madison:from 20051220:to 20051220
+S. Sclafani:lab Drexel:from 20180201:to 99999999
+P. Scott:lab Montreal:from 20120629:to 20120629
+D. Seckel:lab Bartol:from 20040101:to 99999999
+B. Semburg:lab Wuppertal:from 20061213:to 20120503
+S. H. Seo:lab PennPhys:from 20040101:to 20071120
+S. H. Seo:lab Stockholm:from 20071121:to 20090219
+S. H. Seo:lab StockholmOKC:from 20090220:to 20130331
+Y. Sestayo:lab Heidelberg:from 20070509:to 20120206
+Y. Sestayo:lab Munichold:from 20120207:to 20140518
+Y. Sestayo:lab Munich:from 20140519:to 20150505
+Y. Sestayo:lab Munich:thanks Barca:from 88888888:to 99999999
+S. Seunarine:lab Christchurch:from 20050916:to 20100217
+S. Seunarine:lab Barbados:from 20100217:to 20120908
+S. Seunarine:lab RiverFalls:from 20120909:to 99999999
+%G+M. H. Shaevitz:lab Columbia:from 20141216:to 99999999
+R. Shanidze:lab Zeuthen:from 20130530:to 20150826
+C. Sheremata:lab Edmonton:from 20120926:to 20140715
+A. Silvestri:lab Irvine:from 20030101:to 20030102
+A. Silvestri:lab Irvine:from 20050401:to 20120625
+K. Singh:lab BrusselsVrije:from 20100101:to 20110101
+A. Slipak:lab PennPhys:from 20081009:to 20110519
+A. J. Smith:lab Maryland:from 20040101:to 20081013
+M. W. E. Smith:lab PennPhys:from 20120109:to 20150901
+J. Soedingrekso:lab Dortmund:from 20170627:to 99999999
+M. Soiron:lab Aachen:from 20120501:to 20130430
+M. Solarz:lab Berkeley:from 20030101:to 20070513
+D. Soldin:lab Wuppertal:from 20120504:to 20171212
+D. Soldin:lab Bartol:from 20171213:to 99999999
+%P+S. S\"oldner-Rembold:web S. S&ouml;ldner-Rembold:lab Manchester:from 20130625:to 99999999
+C. Song:lab Madison:from 20050101:to 20080731
+M. Song:lab Maryland:from 20150719:to 99999999
+J. E. Sopher:lab LBNL:from 20040101:to 20070530
+G. M. Spiczak:lab RiverFalls:from 20030101:to 99999999
+C. Spiering:lab Zeuthen:from 20030101:to 99999999
+J. Stachurska:lab Zeuthen:from 20161219:to 99999999
+M. Stahlberg:lab Aachen:from 20150401:to 20160831
+M. Stamatikos:lab Madison:thanks Goddardold:from 20030101:to 20071209
+M. Stamatikos:lab Ohio:from 20090214:to 20091025
+M. Stamatikos:lab Ohio:thanks Goddard:from 20091026:to 20160606
+M. Stamatikos:lab Ohio:from 20170601:to 99999999
+T. Stanev:lab Bartol:from 20040101:to 99999999
+N. A. Stanisha:lab PennPhys:from 20130812:to 20150928
+A. Stasik:lab Bonn:from 20120626:to 20141127
+A. Stasik:lab Zeuthen:from 20141128:to 99999999
+D. Steele:lab Madison:from 20030101:to 20050101
+R. Stein:lab Zeuthen:from 20180201:to 99999999
+P. Steffen:lab Zeuthen:from 20030101:to 20070318
+G. Stephens:lab PennPhys:from 20081009:to 20110519
+J. Stettner:lab Aachen:from 20160801:to 99999999
+A. Steuer:lab Mainz:from 20150929:to 99999999
+T. Stezelberger:lab LBNL:from 20040101:to 99999999
+R. G. Stokstad:lab LBNL:from 20030101:to 99999999
+A. St\"o{\ss}l:web A. St&ouml;&szlig;l:lab Zeuthen:from 20110110:to 20161117
+A. St\"o{\ss}l:web A. St&ouml;&szlig;l:lab Chiba:from 20161118:to 99999999
+M. C. Stoufer:lab LBNL:from 20040801:to 20091123
+S. Stoyanov:lab Bartol:from 20040101:to 20110519
+E. A. Strahler:lab Madison:from 20051130:to 20091203
+E. A. Strahler:lab BrusselsVrije:from 20091204:to 20150722
+T. Straszheim:lab LBNL:from 20040101:to 20050101
+T. Straszheim:lab Maryland:from 20060522:to 20110519
+R. Str\"om:web R. Str&ouml;m:lab Uppsala:from 20110520:to 20170308
+N. L. Strotjohann:lab Bonn:from 20131101:to 20141127
+N. L. Strotjohann:lab Zeuthen:from 20141128:to 99999999
+M. St\"uer:lab Bonn:web M. St&uuml;er:from 20110107:to 20120625
+T. Stuttard:lab Copenhagen:from 20170816:to 99999999
+K.-H. Sulanke:lab Zeuthen:from 20030101:to 20091008
+G. W. Sullivan:lab Maryland:from 20040101:to 99999999
+T. J. Sumner:lab London:from 20040101:to 20060409
+T. J. Sumner:lab London:from 20060411:to 20071122
+M. Sutherland:lab Ohio:from 20150209:to 99999999
+Q. Swillens:lab BrusselsLibre:from 20070525:to 20111130
+H. Taavola:lab Uppsala:from 20100601:to 20170308
+I. Taboada:lab Berkeley:from 20030101:to 20080817
+I. Taboada:lab Georgia:from 20080818:to 99999999
+%P+A. Taketa:lab Tokyo:from 20131211:to 99999999
+A. Tamburro:lab RiverFalls:from 20090610:to 20110920
+A. Tamburro:lab Bartol:from 20110921:to 20150331
+%P+H. K. M. Tanaka:lab Tokyo:from 20131211:to 99999999
+O. Tarasova:lab Zeuthen:from 20030101:to 20110109
+J. Tatar:lab LBNL:lab2 Berkeley:from 20150824:to 20180423
+F. Tenholt:lab Bochum:from 20160520:to 99999999
+A. Tepe:lab Wuppertal:from 20050101:to 20091127
+A. Tepe:lab Georgia:from 20091128:to 20110901
+A. Tepe:lab Wuppertal:from 20130508:to 20141231
+S. Ter-Antonyan:lab Southern:from 20071129:to 99999999
+A. Terliuk:lab Zeuthen:from 20140326:to 99999999
+C. Terranova:lab Lausanne:from 20081009:to 20100314
+G. Te{\v{s}}i\'c:web G. Te&#353;i&#263;:lab PennPhys:from 20130401:to 20171231
+L. Thollander:lab Stockholm:from 20030101:to 20071120
+S. Tilav:lab Bartol:from 20030101:to 99999999
+M. Tluczykont:lab Zeuthen:from 20060815:to 20090523
+P. A. Toale:lab PennPhys:from 20040801:to 20110120
+P. A. Toale:lab Alabama:from 20110121:to 99999999
+M. N. Tobin:lab MadisonPAC:from 20130917:to 99999999
+C. T\"onnis:web C. T&ouml;nnis:lab SKKU:from 20180201:to 99999999
+J. Tooker:lab Georgia:from 20090625:to 20091026
+S. Toscano:lab Madison:from 20100608:to 20120625
+S. Toscano:lab MadisonPAC:from 20120626:to 20140309
+S. Toscano:lab BrusselsVrije:from 20150723:to 99999999
+D. Tosi:lab Zeuthen:from 20070319:to 20120217
+D. Tosi:lab MadisonPAC:from 20140310:to 99999999
+%P+M. Tselengidou:lab Erlangen:from 20130625:to 20131103
+M. Tselengidou:lab Erlangen:from 20131104:to 99999999
+C. F. Tung:lab Georgia:from 20161213:to 99999999
+D. Tur{\v{c}}an:web D. Tur&#269;an:lab Maryland:from 20040801:to 20110519
+A. Turcati:lab Munich:from 20150601:to 99999999
+R. Turcotte:lab Aachen:from 20180901:to 99999999
+C. F. Turley:lab PennPhys:from 20170312:to 99999999
+B. Ty:lab MadisonPAC:from 20170324:to 99999999
+E. Unger:lab Bochum:from 20130702:to 20140731
+E. Unger:lab Uppsala:from 20140801:to 99999999
+M. A. Unland Elorrieta:lab Munster:from 20180702:to 99999999
+M. Usner:lab Bonn:from 20120626:to 20141127
+M. Usner:lab Zeuthen:from 20141128:to 99999999
+S. Vallecorsa:lab Geneva:from 20130705:to 20160606
+J. Vandenbroucke:lab Berkeley:from 20040101:to 20111115
+J. Vandenbroucke:lab MadisonPAC:from 20140308:to 99999999
+D. van der Drift:lab LBNL:lab2 Berkeley:from 20120628:to 20130531
+W. Van Driessche:lab Gent:from 20170425:to 99999999
+D. van Eijk:lab MadisonPAC:from 20171218:to 99999999
+N. van Eijndhoven:lab Utrecht:from 20040101:to 20090913
+N. van Eijndhoven:lab BrusselsVrije:from 20090914:to 99999999
+S. Vanheule:lab Gent:from 20141208:to 99999999
+A. Van Overloop:lab Gentold:from 20060401:to 20110110
+A. Van Overloop:lab Gent:from 20110111:to 20140109
+M. van Rossem:lab MadisonPAC:from 20160421:to 20170323
+J. van Santen:lab Berlin:from 20090816:to 20100607
+J. van Santen:lab Madison:from 20100608:to 20120625
+J. van Santen:lab MadisonPAC:from 20120626:to 20150826
+J. van Santen:lab Zeuthen:from 20150827:to 99999999
+%G+D. Veberic:lab Karlsruhe:from 20170529:to 99999999
+J. Veenkamp:lab Munich:from 20150506:to 20161213
+M. Vehring:lab Aachen:from 20101101:to 20171231
+V. Viscomi:lab PennPhys:from 20061027:to 20081008
+L. C. Voicu:lab PennPhys:from 20040101:to 20040801
+M. Voge:lab Heidelberg:from 20100527:to 20110106
+M. Voge:lab Bonn:from 20110107:to 20170331
+E. Vogel:lab Aachen:from 20160801:to 20180403
+C. Vogt:lab Aachen:from 20070531:to 20081001
+B. Voigt:lab Zeuthen:from 20030102:to 20030102
+B. Voigt:lab Zeuthen:from 20040801:to 20110109
+M. Vraeghe:lab Gent:from 20120901:to 99999999
+C. Q. Vu:lab LBNL:from 20061015:to 20061015
+W. Wagner:lab Dortmund:from 20030101:to 20060830
+W. Wagner:lab PennPhys:from 20060831:to 20071125
+C. Walck:lab Stockholm:from 20030101:to 20090219
+C. Walck:lab StockholmOKC:from 20090220:to 99999999
+T. Waldenmaier:lab Bartol:from 20070524:to 20081009
+T. Waldenmaier:lab Berlin:from 20081010:to 20140108
+H. Waldmann:lab Zeuthen:from 20030102:to 20030102
+H. Waldmann:lab Zeuthen:from 20040801:to 20080820
+A. Wallace:lab Adelaide:from 20150704:to 99999999
+M. Wallraff:lab Aachen:from 20090819:to 99999999
+M. Walter:lab Zeuthen:from 20030101:to 20121213
+F. D. Wandler:lab Edmonton:from 20170501:to 99999999
+Y.-R. Wang:lab Madison:from 20030101:to 20071209
+N. Wandkowsky:lab MadisonPAC:from 20150403:to 99999999
+R. Wasserman:lab PennPhys:from 20111117:to 20130614
+T. B. Watson:lab Arlington:from 20180514:to 99999999
+A. Waza:lab Aachen:from 20170101:to 20181001
+Ch. Weaver:lab Madison:from 20100608:to 20120625
+Ch. Weaver:lab MadisonPAC:from 20120626:to 20150601
+Ch. Weaver:lab Edmonton:from 20150602:to 20170308
+C. Weaver:lab Edmonton:from 20170309:to 99999999
+%G+A. Weindl:lab Karlsruhe:from 20170529:to 99999999
+M. J. Weiss:lab PennPhys:from 20160607:to 99999999
+M. Wellons:lab MadisonPAC:from 20121203:to 20150402
+C. Wendt:lab Madison:from 20050101:to 20120625
+C. Wendt:lab MadisonPAC:from 20120626:to 99999999
+J. Werthebach:lab Dortmund:from 20170627:to 20171217
+J. Werthebach:lab MadisonPAC:from 20171218:to 99999999
+S. Westerhoff:lab Madison:from 20080101:to 20120625
+S. Westerhoff:lab MadisonPAC:from 20120626:to 99999999
+B. J. Whelan:lab Adelaideold:from 20131120:to 20150703
+B. J. Whelan:lab Adelaide:from 20150704:to 99999999
+N. Whitehorn:lab Madison:from 20080426:to 20120625
+N. Whitehorn:lab MadisonPAC:from 20120626:to 20151008
+N. Whitehorn:lab UCLA:from 20180621:to 99999999
+M. Whitney:lab Madison:from 20060410:to 20060410
+C. Wichary:lab Aachen:from 20140301:to 20150831
+S. Wickmann:lab Aachen:from 20160315:to 20170704
+K. Wiebe:lab Mainz:from 20090901:to 99999999
+C. H. Wiebusch:lab Wuppertal:from 20030101:to 20060724
+C. H. Wiebusch:lab Aachen:from 20060725:to 99999999
+A. Wiedemann:lab Dortmund:from 20081010:to 20091130
+C. Wiedemann:lab Stockholm:from 20060524:to 20081130
+G. Wikstr\"om:web G. Wikstr&ouml;m:lab Stockholm:from 20050601:to 20090219
+G. Wikstr\"om:web G. Wikstr&ouml;m:lab StockholmOKC:from 20090220:to 20101101
+L. Wille:lab MadisonPAC:from 20150403:to 99999999
+D. R. Williams:lab PennPhys:from 20040801:to 20080815
+D. R. Williams:lab Alabama:from 20080816:to 99999999
+L. Wills:lab Drexel:from 20151115:to 99999999
+%P+W. Winter:lab Zeuthen:from 20131119:to 20140331
+R. Wischnewski:lab Zeuthen:from 20030101:to 20120625
+P. Wisniewski:lab Madison:from 20060410:to 20060410
+H. Wissing:lab Zeuthen:from 20030101:to 20060724
+H. Wissing:lab Aachen:from 20060725:to 20081013
+H. Wissing:lab Aachen:lab2 Maryland:from 20081014:to 20090818
+H. Wissing:lab Maryland:from 20090819:to 20160606
+M. Wolf:lab Heidelberg:from 20100527:to 20111130
+M. Wolf:lab StockholmOKC:from 20111201:to 20170323
+M. Wolf:lab MadisonPAC:from 20170324:to 20180228
+M. Wolf:lab Munich:from 20180301:to 99999999
+J. Wood:lab MadisonPAC:from 20170324:to 99999999
+T. R. Wood:lab Edmonton:from 20110302:to 99999999
+E. Woolsey:lab Edmonton:from 20160427:to 99999999
+K. Woschnagg:lab Berkeley:from 20030101:to 99999999
+G. Wrede:lab Erlangen:from 20180219:to 99999999
+%G+S. Wren:lab Manchester:from 20141216:to 99999999
+C. Xu:lab Bartol:from 20090920:to 20130529
+D. L. Xu:lab Alabama:from 20110520:to 20150928
+D. L. Xu:lab MadisonPAC:from 20150929:to 99999999
+X. W. Xu:lab Madison:from 20050601:to 20060711
+X. W. Xu:lab Southern:from 20060712:to 99999999
+Y. Xu:lab StonyBrook:from 20141203:to 99999999
+J. P. Yanez:lab Zeuthen:from 20110520:to 20161117
+J. P. Yanez:lab Edmonton:from 20161118:to 99999999
+J. Yeck:lab Madison:from 20040101:to 20050101
+G. Yodh:lab Irvine:from 20050401:to 99999999
+S. Yoshida:lab Chibaold:from 20040101:to 20160710
+S. Yoshida:lab Chiba:from 20160711:to 99999999
+T. Yuan:lab MadisonPAC:from 20170324:to 99999999
+P. Zarzhitsky:lab Alabama:from 20100104:to 20150630
+J. Ziemann:lab Dortmund:from 20120626:to 20150325
+S. Zierke:lab Aachen:from 20121001:to 201410231
+A. Zilles:lab Aachen:from 20120401:to 20130430
+M. Zoll:lab StockholmOKC:from 20110401:to 20171231
+J. D. Zornoza:lab Madison:thanks Valencia:from 20051023:to 20080331
+%
+% Laboratories (used only if any author from certain lab in selection)
+%
+Lab Aachen: III. Physikalisches Institut, RWTH Aachen University, D-52056 Aachen, Germany
+Lab Adelaideold: School of Chemistry \& Physics, University of Adelaide, Adelaide SA, 5005 Australia
+Lab Adelaide: Department of Physics, University of Adelaide, Adelaide, 5005, Australia
+Lab Anchorage: Dept.~of Physics and Astronomy, University of Alaska Anchorage, 3211 Providence Dr., Anchorage, AK 99508, USA
+Lab Arlington: Dept.~of Physics, University of Texas at Arlington, 502 Yates St., Science Hall Rm 108, Box 19059, Arlington, TX 76019, USA
+Lab Atlanta: CTSPS, Clark-Atlanta University, Atlanta, GA 30314, USA
+Lab GeorgiaOld: School of Physics, Georgia Institute of Technology, Atlanta, GA 30332. USA
+Lab Georgia: School of Physics and Center for Relativistic Astrophysics, Georgia Institute of Technology, Atlanta, GA 30332, USA 
+Lab Southern: Dept.~of Physics, Southern University, Baton Rouge, LA 70813, USA
+Lab Berkeley: Dept.~of Physics, University of California, Berkeley, CA 94720, USA
+Lab LBNL: Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+Lab Berlin: Institut f\"ur Physik, Humboldt-Universit\"at zu Berlin, D-12489 Berlin, Germany
+Lab Bochum: Fakult\"at f\"ur Physik \& Astronomie, Ruhr-Universit\"at Bochum, D-44780 Bochum, Germany
+Lab Bonn: Physikalisches Institut, Universit\"at Bonn, Nussallee 12, D-53115 Bonn, Germany
+Lab Barbados: Dept.~of Physics, University of the West Indies, Cave Hill Campus, Bridgetown BB11000, Barbados
+Lab BrusselsLibre: Universit\'e Libre de Bruxelles, Science Faculty CP230, B-1050 Brussels, Belgium
+Lab BrusselsVrije: Vrije Universiteit Brussel (VUB), Dienst ELEM, B-1050 Brussels, Belgium
+Lab MIT: Dept.~of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
+Lab Chibaold: Dept.~of Physics, Chiba University, Chiba 263-8522, Japan
+Lab Chiba: Dept. of Physics and Institute for Global Prominent Research, Chiba University, Chiba 263-8522, Japan
+Lab Christchurch: Dept.~of Physics and Astronomy, University of Canterbury, Private Bag 4800, Christchurch, New Zealand
+Lab Maryland: Dept.~of Physics, University of Maryland, College Park, MD 20742, USA
+Lab Ohioold: Dept.~of Physics and Center for Cosmology and Astro-Particle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA
+Lab Ohio: Dept.~of Physics and Center for Cosmology and Astro-Particle Physics, Ohio State University, Columbus, OH 43210, USA
+Lab OhioAstro: Dept.~of Astronomy, Ohio State University, Columbus, OH 43210, USA
+%P+Lab Copenhagenold: Discovery Center, Niels Bohr Institute, University of Copenhagen, Blegdamsvej 17, Copenhagen, Denmark
+Lab Copenhagen: Niels Bohr Institute, University of Copenhagen, DK-2100 Copenhagen, Denmark
+Lab DortmundOld: Dept.~of Physics, Universit\"at Dortmund, D-44221 Dortmund, Germany
+Lab Dortmund: Dept.~of Physics, TU Dortmund University, D-44221 Dortmund, Germany
+Lab Michigan: Dept.~of Physics and Astronomy, Michigan State University, East Lansing, MI 48824, USA
+Lab EdmontonOld: Dept.~of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2G7
+Lab Edmonton: Dept.~of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2E1
+%P+Lab Erlangenvold: Erlangen Centre for Astroparticle Physics, University of Erlangen-N\"urnberg, Germany
+Lab Erlangenold: Friedrich-Alexander-Universit\"at Erlangen-N\"urnberg, Erlangen Centre for Astroparticle Physics, Erwin-Rommel-Str. 1, D-91058 Erlangen, Germany
+Lab Erlangen: Erlangen Centre for Astroparticle Physics, Friedrich-Alexander-Universit\"at Erlangen-N\"urnberg, D-91058 Erlangen, Germany
+Lab Geneva: D\'epartement de physique nucl\'eaire et corpusculaire, Universit\'e de Gen\`eve, CH-1211 Gen\`eve, Switzerland
+Lab Gentold: Dept.~of Subatomic and Radiation Physics, University of Gent, B-9000 Gent, Belgium
+Lab Gent: Dept.~of Physics and Astronomy, University of Gent, B-9000 Gent, Belgium
+Lab Heidelberg: Max-Planck-Institut f\"ur Kernphysik, D-69177 Heidelberg, Germany
+Lab Irvine: Dept.~of Physics and Astronomy, University of California, Irvine, CA 92697, USA
+Lab Karlsruhe: Institut f\"ur Kernphysik, Karlsruhe Institute of Technology, D-76021 Karlsruhe, Germany
+Lab Lausanne: Laboratory for High Energy Physics, \'Ecole Polytechnique F\'ed\'erale, CH-1015 Lausanne, Switzerland
+Lab Kansas: Dept.~of Physics and Astronomy, University of Kansas, Lawrence, KS 66045, USA
+Lab SNOLAB: SNOLAB, 1039 Regional Road 24, Creighton Mine 9, Lively, ON, Canada P3Y 1N2
+Lab London: Blackett Laboratory, Imperial College, London SW7 2BW, UK
+Lab QMLondon: School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, United Kingdom
+Lab UCLA: Department of Physics and Astronomy, UCLA, Los Angeles, CA 90095, USA
+Lab A3RI: A3RI, University of Wisconsin, Madison, WI 53706, USA
+Lab MadisonAstro: Dept.~of Astronomy, University of Wisconsin, Madison, WI 53706, USA
+Lab Madison: Dept.~of Physics, University of Wisconsin, Madison, WI 53706, USA
+Lab MadisonPAC: Dept.~of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin, Madison, WI 53706, USA
+Lab Mainz: Institute of Physics, University of Mainz, Staudinger Weg 7, D-55099 Mainz, Germany
+%P+Lab Manchester: School of Physics and Astronomy, The University of Manchester, Oxford Road, Manchester, M13 9PL, United Kingdom
+Lab Marquette: Department of Physics, Marquette University, Milwaukee, WI, 53201, USA
+Lab Monsold: University of Mons-Hainaut, 7000 Mons, Belgium
+Lab Mons: Universit\'e de Mons, 7000 Mons, Belgium
+Lab Montreal: McGill University, 3600 rue University, Montr\'eal, QC, H2A 2T8, Canada
+Lab MEPhI: National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), Moscow, Russia
+Lab Munichold: T.U. Munich, D-85748 Garching, Germany
+Lab Munich: Physik-department, Technische Universit\"at M\"unchen, D-85748 Garching, Germany
+Lab MunichMPI: Max-Planck-Institut f\"ur Physik (Werner Heisenberg Institut), F\"ohringer Ring 6, D-80805 M\"unchen, Germany
+Lab Munster: Institut f\"ur Kernphysik, Westf\"alische Wilhelms-Universit\"at M\"unster, D-48149 M\"unster, Germany
+Lab BartolOld: Bartol Research Institute, University of Delaware, Newark, DE 19716, USA
+Lab Bartol: Bartol Research Institute and Dept.~of Physics and Astronomy, University of Delaware, Newark, DE 19716, USA
+Lab Yale: Dept.~of Physics, Yale University, New Haven, CT 06520, USA
+Lab Columbia: Columbia Astrophysics and Nevis Laboratories, Columbia University, New York, NY 10027, USA
+Lab NotreDame: Dept.~of Physics, University of Notre Dame du Lac, 225 Nieuwland Science Hall, Notre Dame, IN 46556-5670, USA
+Lab Oxford: Dept.~of Physics, University of Oxford, 1 Keble Road, Oxford OX1 3NP, UK
+Lab Drexel: Dept.~of Physics, Drexel University, 3141 Chestnut Street, Philadelphia, PA 19104, USA
+Lab Princeton: Institute for Advanced Study, Princeton, NJ 08540, USA
+Lab SouthDakota: Physics Department, South Dakota School of Mines and Technology, Rapid City, SD 57701, USA
+Lab RiverFalls: Dept.~of Physics, University of Wisconsin, River Falls, WI 54022, USA
+Lab Rochester: Dept.~of Physics and Astronomy, University of Rochester, Rochester, NY 14627, USA
+Lab Stockholm: Dept.~of Physics, Stockholm University, SE-10691 Stockholm, Sweden
+Lab StockholmOKC: Oskar Klein Centre and Dept.~of Physics, Stockholm University, SE-10691 Stockholm, Sweden
+Lab StonyBrook: Dept.~of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794-3800, USA
+Lab SKKU: Dept.~of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+%P+Lab Tokyo: Earthquake Research Institute, University of Tokyo, Bunkyo, Tokyo 113-0032, Japan
+Lab Toronto: Dept.~of Physics, University of Toronto, Toronto, Ontario, Canada, M5S 1A7
+Lab Alabama: Dept.~of Physics and Astronomy, University of Alabama, Tuscaloosa, AL 35487, USA 
+Lab PennAstro: Dept.~of Astronomy and Astrophysics, Pennsylvania State University, University Park, PA 16802, USA
+Lab PennPhys: Dept.~of Physics, Pennsylvania State University, University Park, PA 16802, USA
+Lab Uppsalaold: Division of High Energy Physics, Uppsala University, S-75121 Uppsala, Sweden
+Lab Uppsala: Dept.~of Physics and Astronomy, Uppsala University, Box 516, S-75120 Uppsala, Sweden
+Lab Utrecht: Dept.~of Physics and Astronomy, Utrecht University/SRON, NL-3584 CC Utrecht, The Netherlands
+Lab Wuppertal: Dept.~of Physics, University of Wuppertal, D-42119 Wuppertal, Germany
+Lab Zeuthen: DESY, D-15738 Zeuthen, Germany
+%
+%  Thanks
+%
+Thanks dec: Deceased
+Thanks Rutgers: now at Dept. of Physics and Astronomy, Rutgers University, Piscataway, NJ 08854, USA 
+Thanks SouthDakota: Physics Department, South Dakota School of Mines and Technology, Rapid City, SD 57701, USA
+Thanks Michigan: present address Department of Physics and Astronomy, Michigan State University, 567 Wilson Road, East Lansing, MI 48824, USA
+Thanks Tokyofn: Earthquake Research Institute, University of Tokyo, Bunkyo, Tokyo 113-0032, Japan
+Thanks LosAlamos: Los Alamos National Laboratory, Los Alamos, NM 87545, USA
+Thanks Berlin: affiliated with Institut f\"ur Physik, Humboldt Universit\"at zu Berlin, D-12489 Berlin, Germany
+Thanks Erlangentold: on leave of absence from Universit\"at Erlangen-N\"urnberg, Physikalisches Institut, D-91058, Erlangen, Germany
+Thanks Erlangent: affiliated with Universit\"at Erlangen-N\"urnberg, Physikalisches Institut, D-91058, Erlangen, Germany
+Thanks Munich: now at Max-Planck Institut f\"ur Physik, F\"ohringer Ring 6, D-80805 Munich, Germany
+Thanks Barivvold: on leave of absence from Universit\`a di Bari, Dipartimento di Fisica, I-70126, Bari, Italy
+Thanks Barivold: on leave of absence from Universit\`a di Bari and Sezione INFN, Dipartimento di Fisica, I-70126, Bari, Italy
+Thanks Bariold: also Universit\`a di Bari and Sezione INFN, Dipartimento di Fisica, I-70126, Bari, Italy
+Thanks Bari: also Sezione INFN, Dipartimento di Fisica, I-70126, Bari, Italy
+Thanks Kalmarvold: affiliated with Dept.~of Technology, Kalmar University, S-39182 Kalmar, Sweden
+Thanks Kalmarold: affiliated with Dept.~of Chemistry and Biomedical Sciences, Kalmar University, S-39182 Kalmar, Sweden
+Thanks Kalmar: affiliated with School of Pure and Applied Natural Sciences, Kalmar University, S-39182 Kalmar, Sweden
+Thanks skkuold: Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea
+Thanks TumErl: now at T.U. Munich, D-85748 Garching \& Friedrich-Alexander Universit\"at Erlangen-N\"urnberg, 91058 Erlangen, Germany
+Thanks Tum: now at T.U. Munich, D-85748 Garching, Germany
+Thanks Barca: now at Universitat de Barcelona, Gran Via de les Corts Catalanes, 585, 08007 Barcelona, Spain
+Thanks Goddardold: NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
+Thanks Goddard: NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA
+Thanks Valencia: affiliated with IFIC (CSIC-Universitat de Val\`encia), A. C. 22085, 46071 Valencia, Spain
+%
+Ack:20000101:20171212:We acknowledge the support from the following agencies=
+%
+% Acknowledgment from Sun-WIMP paper here:
+%
+Ack:20000101:20030101:The U.S.\ National Science Foundation,
+Ack:20000101:20030101:the University of Wisconsin Alumni Research Foundation,
+Ack:20000101:20030101:the U.S.\ DoE,
+Ack:20000101:20030101:the U.S.\ NERS Computing Centre,
+Ack:20000101:20030101:the UCI AENEAS Supercomputer Facility,
+Ack:20000101:20030101:the Swedish Research Council,
+Ack:20000101:20030101:the Swedish Polar Research Secretariat,
+Ack:20000101:20030101:the Knut and Alice Wallenberg Foundation (Sweden),
+Ack:20000101:20030101:the German Federal Ministry of Education and Research,
+Ack:20000101:20030101:the Deutsche Forschungsgemeinschaft,
+Ack:20000101:20030101:the IWT (Belgium),
+Ack:20000101:20030101:the FWO (Belgium),
+Ack:20000101:20030101:the FNRS (Belgium)
+Ack:20000101:20030101:and the OSTC (Belgium).
+Ack:20000101:20030101:D.~F.~Cowen acknowledges the support of the NSF CAREER program.
+Ack:20000101:20030101:M.~Ribordy acknowledges the support of the SNF (Switzerland).
+%
+% Earth WIMP paper in its early shape (later full IceCue list)
+%
+Ack:20030102:20030102:National Science Foundation-Office of Polar Programs,
+Ack:20030102:20030102:National Science Foundation--Physics Division,
+Ack:20030102:20030102:University of Wisconsin Alumni Research Foundation,
+Ack:20030102:20030102:Department of Energy, and National Energy Research Scientific Computing Center
+Ack:20030102:20030102:(supported by the Office of Energy Research of the Department of Energy),
+Ack:20030102:20030102:UC-Irvine AENEAS Supercomputer Facility, USA;
+Ack:20030102:20030102:Swedish Research Council,
+Ack:20030102:20030102:Swedish Polar Research Secretariat,
+Ack:20030102:20030102:High Performance Computing Center North (HPC2N),
+Ack:20030102:20030102:National Supercomputer Centre,
+Ack:20030102:20030102:and Knut and Alice Wallenberg Foundation, Sweden;
+Ack:20030102:20030102:German Ministry for Education and Research,
+Ack:20030102:20030102:Deutsche Forschungsgemeinschaft (DFG), Germany;
+Ack:20030102:20030102:Fund for Scientific Research (FNRS-FWO),
+Ack:20030102:20030102:Flanders Institute to encourage scientific and technological research in industry (IWT),
+Ack:20030102:20030102:and Belgian Federal Office for Scientific, Technical and Cultural affairs (OSTC), Belgium;
+Ack:20030102:20030102:M.~Ribordy acknowledges the support of the SNF (Switzerland).
+%
+% Acknowledgment from icrc05 summary paper plus additions:
+%
+% USA
+Ack:20030103:20171212:U.S. National Science Foundation-Office of Polar Programs,
+Ack:20030103:20171212:U.S. National Science Foundation-Physics Division,
+Ack:20030103:20171212:University of Wisconsin Alumni Research Foundation,
+Ack:20030103:20081008:U.S. Department of Energy, and National Energy Research Scientific Computing Center
+Ack:20030103:20081008:(supported by the Office of Energy Research of the Department of Energy),
+Ack:20030103:20081008:the NSF-supported TeraGrid system at the San Diego Supercomputer Center (SDSC),
+Ack:20030103:20081008:and the National Center for Supercomputing Applications (NCSA);
+Ack:20081009:20081021:U.S. Department of Energy, and National Energy Research Scientific Computing Center;
+Ack:20100824:20171212:the Grid Laboratory Of Wisconsin (GLOW) grid infrastructure at the University of Wisconsin - Madison, the Open Science Grid (OSG) grid infrastructure;
+Ack:20081022:20171212:U.S. Department of Energy, and National Energy Research Scientific Computing Center,
+Ack:20081022:20171212:the Louisiana Optical Network Initiative (LONI) grid computing resources;
+% Canada
+Ack:20100616:20130210:National Science and Engineering Research Council of Canada;
+Ack:20130211:20171212:Natural Sciences and Engineering Research Council of Canada,
+Ack:20130211:20130510:Compute Canada and Compute West High Performance Computing;
+Ack:20130511:20171212:WestGrid and Compute/Calcul Canada;
+% Sweden
+Ack:20030103:20171212:Swedish Research Council,
+Ack:20030103:20171212:Swedish Polar Research Secretariat,
+Ack:20051220:20051220:High Performance Computing Center North (HPC2N),
+Ack:20051220:20051220:National Supercomputer Centre,
+Ack:20100209:20171212:Swedish National Infrastructure for Computing (SNIC),
+Ack:20030103:20171212:and Knut and Alice Wallenberg Foundation, Sweden;
+% Germany
+Ack:20030103:20081022:German Ministry for Education and Research,
+Ack:20081023:20171212:German Ministry for Education and Research (BMBF),
+Ack:20030103:20090913:Deutsche Forschungsgemeinschaft (DFG), Germany;
+Ack:20090914:20171212:Deutsche Forschungsgemeinschaft (DFG), 
+Ack:20121214:20171212:Helmholtz Alliance for Astroparticle Physics (HAP),
+Ack:20170310:20171212:Initiative and Networking Fund of the Helmholtz Association,
+Ack:20090914:20170329:Research Department of Plasmas with Complex Interactions (Bochum), Germany;
+% Belgium
+Ack:20170330:20171212: Germany;
+Ack:20030103:20171212:Fund for Scientific Research (FNRS-FWO),
+Ack:20091007:20171212:FWO Odysseus programme,
+Ack:20030103:20171212:Flanders Institute to encourage scientific and technological research in industry (IWT),
+Ack:20030103:20080121:Belgian Federal Office for Scientific, Technical and Cultural affairs (OSTC);
+Ack:20080122:20081009:Belgian Federal Science Policy Office;
+Ack:20081010:20171212:Belgian Federal Science Policy Office (Belspo);
+% The Netherlands
+Ack:20030103:20091007:the Netherlands Organisation for Scientific Research (NWO);
+% United Kingdom
+Ack:20100902:20170329:University of Oxford, United Kingdom;
+% New Zealand
+Ack:20090515:20171212:Marsden Fund, New Zealand;
+% Australia
+Ack:20120216:20171212:Australian Research Council;
+% Japan
+Ack:20100406:20171212:Japan Society for Promotion of Science (JSPS);
+% Next for D. Cowen
+Ack:20050901:20051215:D.~F.~Cowen acknowledges the support of the NSF CAREER program;
+% Next for M. Ribordy
+Ack:20050901:20100328:M.~Ribordy acknowledges the support of the SNF (Switzerland);
+Ack:20100329:20171212:the Swiss National Science Foundation (SNSF), Switzerland;
+% Korea
+Ack:20130618:20171212:National Research Foundation of Korea (NRF);
+% Denmark
+Ack:20131027:20160205:Danish National Research Foundation, Denmark (DNRF)
+Ack:20160206:20171212:Villum Fonden, Danish National Research Foundation (DNRF), Denmark
+% Next for J. D. Zornoza
+Ack:20051023:20070318:J.~D.~Zornoza acknowledges the Marie Curie OIF Program (contract 007921);
+Ack:20070319:20080331:A.~Kappes and J.~D.~Zornoza acknowledge support by the EU Marie Curie OIF Program;
+Ack:20080401:20081009:A.~Kappes acknowledges support by the EU Marie Curie OIF Program;
+Ack:20081010:20100607:A.~Kappes and A.~Gro{\ss} acknowledge support by the EU Marie Curie OIF Program;
+Ack:20110520:20110520:D. Boersma acknowledges support by the EU Marie Curie IRG Program;
+Ack:20100608:20111130:A.~Gro{\ss} acknowledges support by the EU Marie Curie OIF Program;
+Ack:20090323:20111231:J.~P.~Rodrigues acknowledges support by the Capes Foundation, Ministry of Education of Brazil;
+Ack:20110520:20110520:A. Schukraft acknowledges the support by the German Telekom Foundation;
+Ack:20110520:20110520:N. Whitehorn acknowledges support by the NSF Graduate Research Fellowships Program;
+%
+% Completely new/revised acknowledgements as decided by ICB 2017-12-13
+%
+Ack:20171213:99999999:The authors gratefully acknowledge the support from the following agencies and institutions: 
+Ack:20171213:99999999:USA -- U.S. National Science Foundation-Office of Polar Programs, 
+Ack:20171213:99999999:U.S. National Science Foundation-Physics Division, 
+Ack:20171213:99999999:Wisconsin Alumni Research Foundation, 
+Ack:20171213:99999999:Center for High Throughput Computing (CHTC) at the University of Wisconsin-Madison, 
+Ack:20171213:99999999:Open Science Grid (OSG), 
+Ack:20171213:99999999:Extreme Science and Engineering Discovery Environment (XSEDE), 
+Ack:20171213:99999999:U.S. Department of Energy-National Energy Research Scientific Computing Center, 
+Ack:20171213:99999999:Particle astrophysics research computing center at the University of Maryland, 
+Ack:20171213:99999999:Institute for Cyber-Enabled Research at Michigan State University, 
+Ack:20171213:99999999:and Astroparticle physics computational facility at Marquette University; 
+Ack:20171213:99999999:Belgium -- Funds for Scientific Research (FRS-FNRS and FWO), 
+Ack:20171213:99999999:FWO Odysseus and Big Science programmes, 
+Ack:20171213:99999999:and Belgian Federal Science Policy Office (Belspo); 
+Ack:20171213:99999999:Germany -- Bundesministerium f\"ur Bildung und Forschung (BMBF), 
+Ack:20171213:99999999:Deutsche Forschungsgemeinschaft (DFG), 
+Ack:20171213:99999999:Helmholtz Alliance for Astroparticle Physics (HAP), 
+Ack:20171213:99999999:Initiative and Networking Fund of the Helmholtz Association, 
+Ack:20171213:99999999:Deutsches Elektronen Synchrotron (DESY), 
+Ack:20171213:99999999:and High Performance Computing cluster of the RWTH Aachen; 
+Ack:20171213:99999999:Sweden -- Swedish Research Council, 
+Ack:20171213:99999999:Swedish Polar Research Secretariat, 
+Ack:20171213:99999999:Swedish National Infrastructure for Computing (SNIC), 
+Ack:20171213:99999999:and Knut and Alice Wallenberg Foundation; 
+Ack:20171213:99999999:Australia -- Australian Research Council; 
+Ack:20171213:99999999:Canada -- Natural Sciences and Engineering Research Council of Canada, 
+Ack:20171213:99999999:Calcul Qu\'ebec, Compute Ontario, Canada Foundation for Innovation, WestGrid, and Compute Canada; 
+Ack:20171213:20180925:Denmark -- Villum Fonden, Danish National Research Foundation (DNRF); 
+Ack:20180926:99999999:Denmark -- Villum Fonden, Danish National Research Foundation (DNRF), Carlsberg Foundation; 
+Ack:20171213:99999999:New Zealand -- Marsden Fund; 
+Ack:20171213:99999999:Japan -- Japan Society for Promotion of Science (JSPS) 
+Ack:20171213:99999999:and Institute for Global Prominent Research (IGPR) of Chiba University; 
+Ack:20171213:99999999:Korea -- National Research Foundation of Korea (NRF); 
+Ack:20171213:99999999:Switzerland -- Swiss National Science Foundation (SNSF).
+% ?>
