@@ -7,6 +7,7 @@ import os
 from datetime import datetime
 
 import unidecode
+import latexcodec
 import tornado.web
 
 PINGU_START_DATE = '2013-06-25'
@@ -69,6 +70,7 @@ class CollabHandler(tornado.web.RequestHandler):
         sorted_thanks = sorted(thanks)
 
         # format the authorlist
+        formatting = self.get_argument('formatting')
         authors_text = []
         for author in authors:
             element = author['authname']
@@ -81,7 +83,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 for t in author['thanks']:
                     sup_thanks.append(chr(ord('a') + sorted_thanks.index(t)))
             sup = ['{}'.format(s) for s in sorted(sup_inst)]+sorted(sup_thanks)
-            if sup:
+            if sup and formatting == 'web':
                 element += '<sup>{}</sup>'.format(','.join(sup))
             authors_text.append(element)
         authors_text = ', '.join(authors_text)
@@ -95,7 +97,18 @@ class CollabHandler(tornado.web.RequestHandler):
             'thanks': thanks,
             'sorted_thanks': sorted_thanks,
             'acks': acks,
+            'formatting': formatting,
+            'formatting_options': {
+                'web': 'web',
+                'arxiv': 'arXiv',
+            },
         }
+        if formatting == 'arxiv':
+            kwargs['authors'] = authors_text.encode('latex')
+            kwargs['sorted_insts'] = []
+            kwargs['sorted_thanks'] = []
+            kwargs['acks'] = []
+
         return self.render('collab.html', **kwargs)
 
 class IceCubeHandler(CollabHandler):

@@ -5,14 +5,22 @@
 {% block bodyclass %}collab{% end %}
 
 {% block content %}
-    <section>
-        <h3>Update date:</h3>
+    <section class="update">
+        <h3>Update selection:</h3>
         <form method="post">
             <div>New date: <input type="text" name="date" value="{{ date }}" /></div>
+            <div>Format:
+                <select name="formatting">
+                {% for f in formatting_options %}
+                    <option value="{{ f }}"{{ ' selected' if formatting == f else '' }}>{{ formatting_options[f] }}</option>
+                {% end %}
+                </select>
+            </div>
             <input type="submit" />
         </form>
     </section>
     <section>
+        <h3>Author List - {{ formatting_options[formatting] if formatting in formatting_options else 'undefined' }}</h3>
         <div class="authors">{{ authors }}</div>
         <ol class="institutions">
         {% for name in sorted_insts %}
@@ -24,11 +32,13 @@
             <li>{{ thanks[name] }}</li>
         {% end %}
         </ol>
+        {% if acks %}
         <div class="acknowledgements">
             <h4>Acknowledgements</h4>
         {% for ack in acks %}
             {{ ack }}
         {% end %}
         </div>
+        {% end %}
     </section>
 {% end %}

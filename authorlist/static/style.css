@@ -34,6 +34,10 @@ section {
     padding-bottom: 1em;
 }
 
+section.update div {
+    margin: 0.2em 0;
+}
+
 
 body.main ul {
     list-style-type: none;
