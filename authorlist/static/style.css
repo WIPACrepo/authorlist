@@ -37,6 +37,9 @@ section {
 section.update div {
     margin: 0.2em 0;
 }
+section h3 {
+    margin: 0.5em 0;
+}
 
 
 body.main ul {
@@ -58,4 +61,10 @@ body.collab ul.comma li:not(:last-child):after {
 }
 body.collab ol.thanks {
     list-style-type: lower-alpha;
+}
+
+body.collab .format_text {
+    border: 1px solid black;
+    padding: 0.5    em;
+    margin: 1em;
 }

@@ -5,6 +5,7 @@ from __future__ import print_function
 
 import os
 from datetime import datetime
+import codecs
 
 import unidecode
 import latexcodec
@@ -91,23 +92,87 @@ class CollabHandler(tornado.web.RequestHandler):
         kwargs = {
             'title': self.collab,
             'date': date,
-            'authors': authors_text,
-            'insts': insts,
-            'sorted_insts': sorted_insts,
-            'thanks': thanks,
-            'sorted_thanks': sorted_thanks,
-            'acks': acks,
             'formatting': formatting,
             'formatting_options': {
                 'web': 'web',
                 'arxiv': 'arXiv',
+                'epjc': 'European Physical Journal C.',
             },
+            'wrap': False,
+            'intro_text':'',
         }
-        if formatting == 'arxiv':
-            kwargs['authors'] = authors_text.encode('latex')
-            kwargs['sorted_insts'] = []
-            kwargs['sorted_thanks'] = []
-            kwargs['acks'] = []
+        if formatting == 'web':
+            kwargs.update({
+                'authors': authors_text,
+                'insts': insts,
+                'sorted_insts': sorted_insts,
+                'thanks': thanks,
+                'sorted_thanks': sorted_thanks,
+                'acks': acks,
+            })
+        elif formatting == 'arxiv':
+            kwargs['format_text'] = authors_text.encode('latex')
+            kwargs['wrap'] = True
+        elif formatting == 'epjc':
+            text = """\\documentclass[twocolumn,epjc3]{svjour3}
+
+\\journalname{Eur. Phys. J. C}
+
+\\begin{document}
+
+\\title{IceCube Author List for EPJC """
+            text += date.replace('-','')
+            text += """}
+\\onecolumn
+\\author{"""
+            first = True
+            for author in authors:
+                if first:
+                    first = False
+                else:
+                    text += '\\and '
+                text += codecs.encode(author['authname'], 'ulatex')
+                source = []
+                if 'instnames' in author and author['instnames']:
+                    source.extend(author['instnames'])
+                if 'thanks' in author and author['thanks']:
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                if source:
+                    text += '\\thanksref{' + codecs.encode(','.join(source), 'ulatex') + '}'
+                text += '\n'
+            text += '}\n\\authorrunning{IceCube Collaboration}\n'
+            for i,name in enumerate(sorted_thanks):
+                text += '\\thankstext{' + chr(ord('a') + i) + '}{'
+                text += codecs.encode(thanks[name], 'ulatex') + '}\n'
+            if sorted_insts:
+                text += '\\institute{'
+                first = True
+                for name in sorted_insts:
+                    if first:
+                        first = False
+                    else:
+                        text += '\\and '
+                    text += codecs.encode(insts[name]['cite'], 'ulatex')
+                    text += ' \\label{' + name + '}\n'
+                text += '}\n'
+            text += """\\date{Received: date / Accepted: date}
+\\maketitle
+\\twocolumn
+\\begin{acknowledgements}
+"""
+            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += """
+\\end{acknowledgements}
+
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style for European Physical Journal C.
+                Cut-and-paste from below. If you cut out everything to a file with extention
+                tex you may run it through pdflatex to get a pdf-file with the author list
+                alone. You will need svjour3.cls etc from
+                <a href="http://www.e-publications.org/springer/support/epjc/svjour3-epjc.zip">EPJC-pages</a>
+                (zip file).
+                """
 
         return self.render('collab.html', **kwargs)
 
