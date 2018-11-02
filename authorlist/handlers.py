@@ -71,7 +71,7 @@ class CollabHandler(tornado.web.RequestHandler):
         sorted_thanks = sorted(thanks)
 
         # format the authorlist
-        formatting = self.get_argument('formatting')
+        formatting = self.get_argument('formatting','web')
         authors_text = []
         for author in authors:
             element = author['authname']
