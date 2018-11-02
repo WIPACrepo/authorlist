@@ -96,7 +96,8 @@ class CollabHandler(tornado.web.RequestHandler):
             'formatting_options': {
                 'web': 'web',
                 'arxiv': 'arXiv',
-                'epjc': 'European Physical Journal C.',
+                'epjc': 'European Physical Journal C. (EPJC)',
+                'revtex4': 'Physical Review Letters (RevTex4)',
             },
             'wrap': False,
             'intro_text':'',
@@ -172,6 +173,54 @@ class CollabHandler(tornado.web.RequestHandler):
                 alone. You will need svjour3.cls etc from
                 <a href="http://www.e-publications.org/springer/support/epjc/svjour3-epjc.zip">EPJC-pages</a>
                 (zip file).
+                """
+        elif formatting == 'revtex4':
+            text = """\\documentclass[aps,prl,superscriptaddress]{revtex4-1}
+
+\\begin{document}
+
+\\title{IceCube Author List for Rev{\TeX} """
+            text += date.replace('-','') + '}\n\n'
+            for name in sorted_insts:
+                text += '\\affiliation{'
+                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += '}\n'
+            text += '\n'
+            for author in authors:
+                text += '\\author{'
+                text += codecs.encode(author['authname'], 'ulatex')
+                text += '}\n'
+                if 'instnames' in author:
+                    for name in author['instnames']:
+                        text += '\\affiliation{'
+                        text += codecs.encode(insts[name]['cite'], 'ulatex')
+                        text += '}\n'
+                if 'thanks' in author:
+                    for name in author['thanks']:
+                        text += '\\thanks{'
+                        text += codecs.encode(thanks[name], 'ulatex')
+                        text += '}\n'
+            text += """\\date{\\today}
+
+\\collaboration{IceCube Collaboration}
+\\noaffiliation
+
+\\maketitle
+
+\\begin{acknowledgements}
+"""
+            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += """
+\\end{acknowledgements}
+
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style e.g. for Physical Review Letters.
+                Cut-and-paste from below. If you cut out everything to a file
+                with extention tex you may run it through pdflatex to get a
+                pdf-file with the author list alone. You will need revtex4.cls
+                and revsymb.sty as well as possibly some *.rtx files from the
+                <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/revtex/">CTAN library</a>.
                 """
 
         return self.render('collab.html', **kwargs)
