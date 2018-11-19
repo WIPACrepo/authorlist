@@ -99,6 +99,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'epjc': 'European Physical Journal C. (EPJC)',
                 'revtex4': 'Physical Review Letters (RevTex4)',
                 'aastex': 'Astrophysical Journal (AASTeX)',
+                'aa': 'Journal Astronomy & Astrophysics (A & A)',
             },
             'wrap': False,
             'intro_text':'',
@@ -169,9 +170,7 @@ class CollabHandler(tornado.web.RequestHandler):
 \\end{document}"""
             kwargs['format_text'] = text
             kwargs['intro_text'] = """This style for European Physical Journal C.
-                Cut-and-paste from below. If you cut out everything to a file with extention
-                tex you may run it through pdflatex to get a pdf-file with the author list
-                alone. You will need svjour3.cls etc from
+                You will need svjour3.cls etc from
                 <a href="http://www.e-publications.org/springer/support/epjc/svjour3-epjc.zip">EPJC-pages</a>
                 (zip file).
                 """
@@ -217,10 +216,8 @@ class CollabHandler(tornado.web.RequestHandler):
 \\end{document}"""
             kwargs['format_text'] = text
             kwargs['intro_text'] = """This style e.g. for Physical Review Letters.
-                Cut-and-paste from below. If you cut out everything to a file
-                with extention tex you may run it through pdflatex to get a
-                pdf-file with the author list alone. You will need revtex4.cls
-                and revsymb.sty as well as possibly some *.rtx files from the
+                You will need revtex4.cls and revsymb.sty as well as possibly
+                some *.rtx files from the
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/revtex/">CTAN library</a>.
                 """
         elif formatting == 'aastex':
@@ -246,11 +243,10 @@ class CollabHandler(tornado.web.RequestHandler):
                     text += '\\altaffilmark{'+','.join(source)+'}'
                 text += ',\n'
             text += '}\n'
-            if sorted_insts:
-                for i,name in enumerate(sorted_insts):
-                    text += '\\altaffiltext{'+str(1+i)+'}{'
-                    text += codecs.encode(insts[name]['cite'], 'ulatex')
-                    text += ' }\n'
+            for i,name in enumerate(sorted_insts):
+                text += '\\altaffiltext{'+str(1+i)+'}{'
+                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += ' }\n'
             for i,name in enumerate(sorted_thanks):
                 text += '\\altaffiltext{'+str(1+len(sorted_insts)+i)+'}{'
                 text += codecs.encode(thanks[name], 'ulatex') + '}\n'
@@ -264,17 +260,74 @@ class CollabHandler(tornado.web.RequestHandler):
 \\end{document}"""
             kwargs['format_text'] = text
             kwargs['intro_text'] = """This style e.g. for Astrophysical Journal.
-                Cut-and-paste from below. If you cut out everything to a file
-                with extention tex you may run it through pdflatex to get a
-                pdf-file with the author list alone. You will need aastex.cls
-                from <a href="http://aas.org/aastex/aastex-downloads">AASTeX-pages</a>
+                You will need aastex.cls from
+                <a href="http://aas.org/aastex/aastex-downloads">AASTeX-pages</a>
                 or from the <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/aastex/">CTAN library</a>.
                 The documentclass preprint2 do not cope with authors lists
                 extending to the second page but you may use preprint for
                 one-column format.
                 """
+        elif formatting == 'aa':
+            text = """\\documentclass[longauth]{aa}
+\\usepackage{txfonts}
+\\begin{document}
+\\title{IceCube Author List for A \& A """
+            text += date.replace('-','')
+            text += """}
+\\author{
+IceCube Collaboration:
+"""
+            first = True
+            for author in authors:
+                if first:
+                    first = False
+                else:
+                    text += '\\and '
+                text += codecs.encode(author['authname'], 'ulatex')
+                source = []
+                if 'instnames' in author and author['instnames']:
+                    source.extend(author['instnames'])
+                if 'thanks' in author and author['thanks']:
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                if source:
+                    text += '\\inst{' + ','.join('\\ref{'+codecs.encode(s, 'ulatex')+'}' for s in source) + '}'
+                text += '\n'
+            text += '}\n'
+            if sorted_insts or sorted_thanks:
+                text += '\\institute{'
+                first = True
+                for name in sorted_insts:
+                    if first:
+                        first = False
+                    else:
+                        text += '\\and '
+                    text += codecs.encode(insts[name]['cite'], 'ulatex')
+                    text += ' \\label{' + name + '} \n'
+                for i,name in enumerate(sorted_thanks):
+                    if first:
+                        first = False
+                    else:
+                        text += '\\and '
+                    text += codecs.encode(thanks[name], 'ulatex')
+                    text += '\\label{' + chr(ord('a') + i) + '} \n'
+                text += '}\n'
+            text += """\\abstract { } { } { } { } { }
+\\keywords{keword 1 -- keyword 2 -- keyword 3}
+\\maketitle
+\\begin{acknowledgements}
+"""
+            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += """
+\\end{acknowledgements}
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """For the Journal Astronomy & Astrophysics.
+                You will need <a href="http://ftp.edpsciences.org/pub/aa/aa.cls">aa.cls</a>
+                but also consult the journal pages for more author instructions.
+                """
 
         return self.render('collab.html', **kwargs)
+
 
 class IceCubeHandler(CollabHandler):
     def initialize(self, *args, **kwargs):
