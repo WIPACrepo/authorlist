@@ -42,6 +42,8 @@ def main():
             d.start()
         elif args.action == 'stop':
             d.stop()
+        elif args.action == 'restart':
+            d.restart()
         elif args.action == 'kill':
             d.kill()
         else:
