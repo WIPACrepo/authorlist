@@ -98,6 +98,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'arxiv': 'arXiv',
                 'epjc': 'European Physical Journal C. (EPJC)',
                 'revtex4': 'Physical Review Letters (RevTex4)',
+                'aastex': 'Astrophysical Journal (AASTeX)',
             },
             'wrap': False,
             'intro_text':'',
@@ -221,6 +222,56 @@ class CollabHandler(tornado.web.RequestHandler):
                 pdf-file with the author list alone. You will need revtex4.cls
                 and revsymb.sty as well as possibly some *.rtx files from the
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/revtex/">CTAN library</a>.
+                """
+        elif formatting == 'aastex':
+            text = """\\documentclass[preprint2]{aastex}
+
+\\shorttitle{IceCube Author List}
+\\shortauthors{"""
+            text += codecs.encode(authors[0]['authname'], 'ulatex')
+            text += """ et al.}
+\\begin{document}
+
+\\title{IceCube Author List for AAS{\TeX} """
+            text += date.replace('-','') + '}\n\n'
+            text += '\\author{\nIceCube Collaboration\n'
+            for author in authors:
+                text += codecs.encode(author['authname'], 'ulatex')
+                source = []
+                if 'instnames' in author:
+                    source.extend(str(1+sorted_insts.index(t)) for t in author['instnames'])
+                if 'thanks' in author:
+                    source.extend(str(1+len(sorted_insts)+sorted_thanks.index(t)) for t in author['thanks'])
+                if source:
+                    text += '\\altaffilmark{'+','.join(source)+'}'
+                text += ',\n'
+            text += '}\n'
+            if sorted_insts:
+                for i,name in enumerate(sorted_insts):
+                    text += '\\altaffiltext{'+str(1+i)+'}{'
+                    text += codecs.encode(insts[name]['cite'], 'ulatex')
+                    text += ' }\n'
+            for i,name in enumerate(sorted_thanks):
+                text += '\\altaffiltext{'+str(1+len(sorted_insts)+i)+'}{'
+                text += codecs.encode(thanks[name], 'ulatex') + '}\n'
+            text += """
+\\acknowledgements
+
+"""
+            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += """
+
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style e.g. for Astrophysical Journal.
+                Cut-and-paste from below. If you cut out everything to a file
+                with extention tex you may run it through pdflatex to get a
+                pdf-file with the author list alone. You will need aastex.cls
+                from <a href="http://aas.org/aastex/aastex-downloads">AASTeX-pages</a>
+                or from the <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/aastex/">CTAN library</a>.
+                The documentclass preprint2 do not cope with authors lists
+                extending to the second page but you may use preprint for
+                one-column format.
                 """
 
         return self.render('collab.html', **kwargs)
