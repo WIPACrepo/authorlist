@@ -79,11 +79,24 @@ body.collab ol.thanks {
     list-style-type: lower-alpha;
 }
 
-body.collab .format_text {
-    border: 1px solid black;
-    padding: 0.5em;
-    margin: 1em auto;
+body.collab .format_text_wrapper {
+    position: relative;
     display: block;
     width: 95%;
+    margin: 1em auto;
+}
+body.collab .format_text {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: block;
     overflow-x: scroll;
+}
+span#copypaste {
+    position: absolute;
+    right: .4em;
+    top: .4em;
+    cursor: pointer;
+}
+span#copypaste.active {
+    fill: green;
 }
