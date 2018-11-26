@@ -4,18 +4,21 @@
         <link rel="stylesheet" href="/static/style.css" type="text/css" />
     </head>
     <body class="{% block bodyclass %}main{% end %}">
-        <header>
-            <h1>{% block title %}Authorlist{% end %}</h1>
-        </header>
-        <main>
-        {% block content %}
-            <h3>Collaborations:</h3>
-            <ul>
-                {% for c in collabs %}
-                    <li><a href="/{{ c }}">{{ collabs[c] }}</a></li>
-                {% end %}
-            </ul>
-        {% end %}
-        </main>
+        <div id="container">
+            <header>
+                <h1><a href="/"><img src="/static/icecube-logo.png" width="359" height="94" alt="IceCube - South Pole Neutrino Detector" /></a></h1>
+                <h2>{% block title %}Authorlist{% end %}</h2>
+            </header>
+            <main>
+            {% block content %}
+                <h3>Collaborations:</h3>
+                <ul>
+                    {% for c in collabs %}
+                        <li><a href="/{{ c }}">{{ collabs[c] }}</a></li>
+                    {% end %}
+                </ul>
+            {% end %}
+            </main>
+        </div>
     </body>
 </html>

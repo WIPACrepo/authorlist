@@ -11,7 +11,7 @@ h1 {
     font-size: 36pt;
 }
 h2 {
-    font-size: 24pt;
+    font-size: 28pt;
 }
 h3 {
     font-size: 18pt;
@@ -22,9 +22,25 @@ h4 {
 body {
     font-size: 14pt;
 }
+body:not(.raw) {
+    background: #ccc;
+}
+#container {
+    width: 90%;
+    margin: 0 auto .5em;
+    background: #fff;
+    border: 5px solid #3972a0;
+    -moz-box-shadow: 0 0 10px 5px #999;
+    -webkit-box-shadow: 0 0 10px 5px #999;
+    box-shadow: 0 0 10px 5px #999;
+    padding: 1em;
+}
 
-header h1 {
+header {
     padding: .3em;
+}
+header h2 {
+    padding: .2em .4em 0;
 }
 
 main {
@@ -66,6 +82,8 @@ body.collab ol.thanks {
 body.collab .format_text {
     border: 1px solid black;
     padding: 0.5em;
-    margin: 1em;
-    display: inline-block;
+    margin: 1em auto;
+    display: block;
+    width: 95%;
+    overflow-x: scroll;
 }

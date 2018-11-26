@@ -1,0 +1,36 @@
+{% extends raw.html %}
+
+{% block title %}{{ title }} Authorlist - {{ date }}{% end %}
+
+{% block bodyclass %}raw{% end %}
+
+{% block content %}
+    <section>
+        {% if intro_text %}
+            <div class="intro_text">{{ intro_text }}</div>
+        {% end %}
+        {% if formatting == 'web' %}
+            <div class="authors">{{ authors }}</div>
+            <ol class="institutions">
+            {% for name in sorted_insts %}
+                <li>{{ insts[name]['cite'] }}</li>
+            {% end %}
+            </ol>
+            <ol class="thanks">
+            {% for name in sorted_thanks %}
+                <li>{{ thanks[name] }}</li>
+            {% end %}
+            </ol>
+            <div class="acknowledgements">
+                <h4>Acknowledgements</h4>
+            {% for ack in acks %}
+                {{ ack }}
+            {% end %}
+            </div>
+        {% elif wrap %}
+            <div class="format_text">{{ format_text }}</div>
+        {% else %}
+            <pre class="format_text">{{ format_text }}</pre>
+        {% end %}
+    </section>
+{% end %}
