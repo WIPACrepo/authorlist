@@ -107,4 +107,6 @@ class State:
         for ack in self._acknowledgements:
             if ack['from'] <= date and (ack['to'] >= date or not ack['to']):
                 ret.append(ack['value'])
+        if ret and ret[-1][-1] == ';':
+            ret[-1] = ret[-1][:-1]+'.'
         return ret

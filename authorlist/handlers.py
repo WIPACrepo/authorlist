@@ -61,9 +61,10 @@ class CollabHandler(tornado.web.RequestHandler):
 
         # sort institutions
         def ordering_inst(name):
+            sort_name = name
             if insts[name]['city']:
-                name = insts[name]['city']
-            parts = unidecode.unidecode(name).replace("'",'').split()
+                sort_name = insts[name]['city']
+            parts = unidecode.unidecode(sort_name).replace("'",'').split()
             ret = []
             for i,p in enumerate(reversed(parts)):
                 if i == 0:
@@ -73,11 +74,13 @@ class CollabHandler(tornado.web.RequestHandler):
                     break
                 else:
                     ret[0] = p + ret[0]
+            if insts[name]['city']:
+                ret.append(insts[name]['cite'])
             return [x.lower() for x in ret]
         sorted_insts = sorted(insts, key=ordering_inst)
 
         # sort thanks
-        sorted_thanks = sorted(thanks)
+        sorted_thanks = list(thanks) #sorted(thanks)
 
         # format the authorlist
         formatting = self.get_argument('formatting','web')

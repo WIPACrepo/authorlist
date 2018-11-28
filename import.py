@@ -154,7 +154,7 @@ def ack_reader(input_lines):
     for line in input_lines:
         parts = line.split(':',3)
         assert(parts[0] == 'Ack')
-        value = replace_tex(parts[3]).replace('{','').replace('}','')
+        value = replace_tex(parts[3]).replace('{','').replace('}','').replace('~',' ').replace('=',':')
         ack = {
             'from': parse_date(parts[1]),
             'to': parse_date(parts[2]),
