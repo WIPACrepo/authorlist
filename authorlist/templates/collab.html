@@ -25,7 +25,7 @@
             <div class="intro_text">{{ intro_text }}</div>
         {% end %}
         {% if formatting == 'web' %}
-            <div class="authors">{{ authors }}</div><hr>
+            <div class="authors">IceCube Collaboration: {{ authors }}</div><hr>
             <ol class="institutions">
             {% for name in sorted_insts %}
                 <li>{{ insts[name]['cite'] }}</li>
