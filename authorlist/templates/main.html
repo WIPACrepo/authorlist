@@ -11,11 +11,12 @@
     <body class="{% block bodyclass %}main{% end %}">
         <div id="container">
             <header>
-                <h1><a href="/"><img src="/static/icecube-logo.png" width="359" height="94" alt="IceCube - South Pole Neutrino Detector" /></a></h1>
-                <h2>{% block title %}Authorlist{% end %}</h2>
+                <a href="/"><img src="/static/icecube-logo.png" width="359" height="94" alt="IceCube - South Pole Neutrino Detector" /></a>
+                <h1>{% block title %}IceCube Authors{% end %}</h1>
             </header>
             <main>
             {% block content %}
+                <p class="subtitle">Browse the members of the IceCube, IceCube/PINGU and IceCube-Gen2 collaborations from foundation to date.</p>
                 <h3>Collaborations:</h3>
                 <ul>
                     {% for c in collabs %}

@@ -25,7 +25,7 @@
             <div class="intro_text">{{ intro_text }}</div>
         {% end %}
         {% if formatting == 'web' %}
-            <div class="authors">{{ authors }}</div>
+            <div class="authors">{{ authors }}</div><hr>
             <ol class="institutions">
             {% for name in sorted_insts %}
                 <li>{{ insts[name]['cite'] }}</li>
@@ -35,9 +35,9 @@
             {% for name in sorted_thanks %}
                 <li>{{ thanks[name] }}</li>
             {% end %}
-            </ol>
+            </ol><hr>
             <div class="acknowledgements">
-                <h4>Acknowledgements</h4>
+                <h2>Acknowledgements</h2>
             {% for ack in acks %}
                 {{ ack }}
             {% end %}

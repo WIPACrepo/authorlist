@@ -30,9 +30,9 @@ class WebServer:
         self.port = port
         
         collabs = {
-            'icecube': 'IceCube',
-            'pingu': 'IceCube-PINGU',
-            'icecube-gen2': 'IceCube-Gen2',
+            'icecube': 'IceCube Collaboration',
+            'pingu': 'IceCube/PINGU Collaboration',
+            'icecube-gen2': 'IceCube-Gen2 Collaboration',
         }
         self.app = tornado.web.Application([
             (r'/', MainHandler, {'collabs': collabs}),
