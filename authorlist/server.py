@@ -17,6 +17,8 @@ import tornado.ioloop
 
 from .state import State
 
+from . import collabs
+
 from .handlers import IceCubeHandler, PINGUHandler, Gen2Handler
 
 def get_template_path():
@@ -29,11 +31,6 @@ class WebServer:
     def __init__(self, json, port=8888, debug=True):
         self.port = port
         
-        collabs = {
-            'icecube': 'IceCube Collaboration',
-            'pingu': 'IceCube/PINGU Collaboration',
-            'icecube-gen2': 'IceCube-Gen2 Collaboration',
-        }
         self.app = tornado.web.Application([
             (r'/', MainHandler, {'collabs': collabs}),
             (r'/icecube', IceCubeHandler, {'state': State(json, collab='icecube')}),

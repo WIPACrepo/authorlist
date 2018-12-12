@@ -26,6 +26,21 @@ def validate_date(d):
         return None
     return d
 
+def author_ordering(a):
+    """sort authors using English unicode sorting rules"""
+    name = a['authname']
+    parts = unidecode.unidecode(name).replace("'",'').split()
+    ret = []
+    for i,p in enumerate(reversed(parts)):
+        if i == 0:
+            ret.append(p)
+        elif p[-1] == '.':
+            ret += parts[:i+1]
+            break
+        else:
+            ret[0] = p + ret[0]
+    return [x.lower() for x in ret]
+
 class CollabHandler(tornado.web.RequestHandler):
     def initialize(self, state, collab=None):
         self.state = state
@@ -43,21 +58,7 @@ class CollabHandler(tornado.web.RequestHandler):
         thanks = self.state.thanks(date)
         acks = self.state.acknowledgements(date)
 
-        # sort authors using English unicode sorting rules
-        def ordering(a):
-            name = a['authname']
-            parts = unidecode.unidecode(name).replace("'",'').split()
-            ret = []
-            for i,p in enumerate(reversed(parts)):
-                if i == 0:
-                    ret.append(p)
-                elif p[-1] == '.':
-                    ret += parts[:i+1]
-                    break
-                else:
-                    ret[0] = p + ret[0]
-            return [x.lower() for x in ret]
-        authors = sorted(authors, key=ordering)
+        authors = sorted(authors, key=author_ordering)
 
         # sort institutions
         def ordering_inst(name):
