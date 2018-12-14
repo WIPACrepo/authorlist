@@ -264,3 +264,8 @@ span#copypaste {
 span#copypaste.active {
     fill: green;
 }
+
+button, input, select {
+    border: 1px solid black;
+    padding: 0.5em;
+}
