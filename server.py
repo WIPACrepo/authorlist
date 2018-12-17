@@ -35,7 +35,7 @@ def main():
     args.loglevel = getattr(logging, args.loglevel.upper())
 
     if args.daemon:
-        pid = '/tmp/authorlist.pid'
+        pid = os.path.join(os.getcwd(),'authorlist.pid')
         d = Daemon(pidfile=pid, chdir=os.getcwd(),
                    runner=partial(runner, args))
         if (not args.action) or args.action == 'start':
