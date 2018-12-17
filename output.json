@@ -12363,7 +12363,7 @@
         "copenhagen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "M. J. Larson",
@@ -12373,7 +12373,7 @@
         "copenhagen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "M. J. Larson",
@@ -12383,6 +12383,33 @@
         "copenhagen"
       ],
       "thanks": [],
+      "to": "2018-12-17"
+    },
+    {
+      "authname": "M. J. Larson",
+      "collab": "icecube",
+      "from": "2018-12-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "M. J. Larson",
+      "collab": "pingu",
+      "from": "2018-12-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "M. J. Larson",
+      "collab": "icecube-gen2",
+      "from": "2018-12-18",
+      "instnames": [
+        "madisonpac"
+      ],
       "to": ""
     },
     {
