@@ -2990,7 +2990,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "F. Bos",
@@ -3000,7 +3000,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "F. Bos",
@@ -3010,7 +3010,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "D. Bose",
@@ -5868,7 +5868,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "B. Eichmann",
@@ -5878,7 +5878,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "B. Eichmann",
@@ -5888,7 +5888,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "J. Eisch",
@@ -7853,6 +7853,36 @@
       ],
       "thanks": [],
       "to": "2010-05-10"
+    },
+    {
+      "authname": "M. G\u00fcnd\u00fcz",
+      "collab": "icecube",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. G\u00fcnd\u00fcz",
+      "collab": "icecube-gen2",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. G\u00fcnd\u00fcz",
+      "collab": "pingu",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Gurtner",
@@ -11773,7 +11803,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "M. Kroll",
@@ -11783,7 +11813,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "M. Kroll",
@@ -11793,7 +11823,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "G. Kr\u00fcckl",
@@ -18539,7 +18569,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "S. Sch\u00f6neberg",
@@ -18549,7 +18579,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "S. Sch\u00f6neberg",
@@ -18559,7 +18589,7 @@
         "bochum"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-17"
     },
     {
       "authname": "L. Sch\u00f6nherr",
@@ -20799,6 +20829,36 @@
       ],
       "thanks": [],
       "to": "2018-12-16"
+    },
+    {
+      "authname": "L. Tomankova",
+      "collab": "icecube",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Tomankova",
+      "collab": "icecube-gen2",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Tomankova",
+      "collab": "pingu",
+      "from": "2018-12-18",
+      "instnames": [
+        "bochum"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "C. T\u00f6nnis",
