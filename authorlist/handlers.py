@@ -11,6 +11,7 @@ import unidecode
 import latexcodec
 import tornado.web
 
+ICECUBE_START_DATE = '2003-01-01'
 PINGU_START_DATE = '2013-06-25'
 GEN2_START_DATE = '2014-12-16'
 
@@ -352,8 +353,10 @@ class IceCubeHandler(CollabHandler):
 
     def post(self):
         date = validate_date(self.get_argument('date', default=''))
-        if not date:
+        if (not date) or date > today():
             date = today()
+        elif date < ICECUBE_START_DATE:
+            date = ICECUBE_START_DATE
         return self.common(date)
 
 class PINGUHandler(CollabHandler):
@@ -363,7 +366,7 @@ class PINGUHandler(CollabHandler):
 
     def post(self):
         date = validate_date(self.get_argument('date', default=''))
-        if not date:
+        if (not date) or date > today():
             date = today()
         elif date < PINGU_START_DATE:
             date = PINGU_START_DATE
@@ -376,7 +379,7 @@ class Gen2Handler(CollabHandler):
 
     def post(self):
         date = validate_date(self.get_argument('date', default=''))
-        if not date:
+        if (not date) or date > today():
             date = today()
         elif date < GEN2_START_DATE:
             date = GEN2_START_DATE
