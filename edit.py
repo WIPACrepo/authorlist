@@ -56,7 +56,7 @@ def save(args, data):
 
     if args.output:
         with open(args.output, 'w') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=2, sort_keys=True)
     else:
         pprint(data)
 
