@@ -10421,6 +10421,33 @@
       "to": ""
     },
     {
+      "authname": "M. Karl",
+      "collab": "icecube",
+      "from": "2018-12-18",
+      "instnames": [
+        "munich"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "M. Karl",
+      "collab": "pingu",
+      "from": "2018-12-18",
+      "instnames": [
+        "munich"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "M. Karl",
+      "collab": "icecube-gen2",
+      "from": "2018-12-18",
+      "instnames": [
+        "munich"
+      ],
+      "to": ""
+    },
+    {
       "authname": "A. Karle",
       "collab": "icecube",
       "from": "2003-01-01",
