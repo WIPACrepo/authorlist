@@ -8719,6 +8719,36 @@
       "to": ""
     },
     {
+      "authname": "F. Henningsen",
+      "collab": "icecube",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Henningsen",
+      "collab": "icecube-gen2",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Henningsen",
+      "collab": "pingu",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Herquet",
       "collab": "icecube",
       "from": "2003-01-01",
@@ -13980,6 +14010,36 @@
       "to": ""
     },
     {
+      "authname": "S. Meighen-Berger",
+      "collab": "icecube",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Meighen-Berger",
+      "collab": "icecube-gen2",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Meighen-Berger",
+      "collab": "pingu",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Meli",
       "collab": "icecube",
       "from": "2005-01-01",
@@ -14997,7 +15057,7 @@
         "stonybrook"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-18"
     },
     {
       "authname": "H. Niederhausen",
@@ -15007,7 +15067,7 @@
         "stonybrook"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2018-12-18"
     },
     {
       "authname": "H. Niederhausen",
@@ -15015,6 +15075,36 @@
       "from": "2013-06-25",
       "instnames": [
         "stonybrook"
+      ],
+      "thanks": [],
+      "to": "2018-12-18"
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "icecube",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "icecube-gen2",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "pingu",
+      "from": "2018-12-19",
+      "instnames": [
+        "munich"
       ],
       "thanks": [],
       "to": ""
