@@ -6231,6 +6231,26 @@
       "to": ""
     },
     {
+      "authname": "K. Farrag",
+      "collab": "icecube-gen2",
+      "from": "2018-12-19",
+      "instnames": [
+        "qmlondon"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Farrag",
+      "collab": "pingu",
+      "from": "2018-12-19",
+      "instnames": [
+        "qmlondon"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. R. Fazely",
       "collab": "icecube",
       "from": "2004-01-01",
@@ -10498,6 +10518,16 @@
       "to": ""
     },
     {
+      "authname": "T. Katori",
+      "collab": "pingu",
+      "from": "2018-12-19",
+      "instnames": [
+        "qmlondon"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "U. Katz",
       "collab": "icecube-gen2",
       "from": "2014-12-16",
@@ -13383,6 +13413,16 @@
       "authname": "S. Mandalia",
       "collab": "icecube-gen2",
       "from": "2016-06-10",
+      "instnames": [
+        "qmlondon"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Mandalia",
+      "collab": "pingu",
+      "from": "2018-12-19",
       "instnames": [
         "qmlondon"
       ],
