@@ -4,35 +4,17 @@ Edit the authorlist json file.
 from __future__ import print_function
 
 import json
-import io
+import random
+import webbrowser
 from pprint import pprint
-import readline
 from datetime import datetime
+
+import tornado.ioloop
+import tornado.web
+from tornado.escape import json_encode, json_decode
 
 from authorlist import collabs
 from authorlist.handlers import author_ordering
-
-def parse_date(d):
-    if d.startswith('9999'):
-        return ''
-    return d[0:4]+'-'+d[4:6]+'-'+d[6:]
-
-def filt(data, author, inst, collab):
-    """Generator for filtering authors"""
-    if author:
-        author = author.lower()
-    if inst:
-        inst = inst.lower()
-    if collab:
-        collab = collab.lower()
-    for a in data['authors']:
-        if (((not author) or author in a['authname'].lower())
-            and ((not inst) or any(inst in i.lower() for i in a['instnames'])
-                 or any(inst in data['institutions'][i]['cite'].lower() for i in a['instnames']))
-            and ((not collab) or collab == a['collab'])):
-            yield (True, a)
-        else:
-            yield (False, a)
 
 def check(data):
     for a in data['authors']:
@@ -50,166 +32,316 @@ def check(data):
             print(a['authname'])
             raise Exception('no instname or thanks')
 
-def save(args, data):
+def save(outfile, data):
     check(data)
     data['authors'].sort(key=author_ordering)
 
-    if args.output:
-        with open(args.output, 'w') as f:
+    if outfile:
+        with open(outfile, 'w') as f:
             json.dump(data, f, indent=2, sort_keys=True)
     else:
         pprint(data)
 
-def input_select(prompt, values):
-    """Allow only certain values for input"""
-    if isinstance(values, (list,tuple)):
-        values = {v:v for v in values}
-    options = list(values)
-    width = len(str(len(values)))
-    template = '   [{:0>'+str(width)+'}] {:<20} {}'
-    while True:
-        print(prompt, '- choose one:')
-        for i,k in enumerate(options):
-            print(template.format(i, k, values[k]))
-        choice = input('Choice: ')
-        try:
-            return options[int(choice)]
-        except Exception:
-            print('Invalid choice')
+class MainHandler(tornado.web.RequestHandler):
+    def initialize(self, outfile, data):
+        self.outfile = outfile
+        self.data = data
 
-def input_date(prompt, notbefore='0001-01-01', infinite=False):
-    """Read in a valid date"""
-    notbefore = datetime.strptime(notbefore, '%Y-%m-%d')
-    while True:
-        dstr = input(prompt)
-        if not dstr and infinite:
-            return ''
-        try:
-            d = datetime.strptime(dstr, '%Y-%m-%d')
-            if d <= notbefore:
-                raise Exception()
-        except Exception:
-            print('invalid date')
-            continue
-        return dstr
+    def get(self):
+        collaborations = set()
+        institutions = set()
+        for a in self.data['authors']:
+            if a['to'] == '':
+                collaborations.add(a['collab'])
+                if 'instnames' in a:
+                    for i in a['instnames']:
+                        institutions.add(i)
 
-def list_current(args, data):
-    authors = []
-    for t,a in filt(data, args.author, args.inst, args.collab):
-        if t:
-            authors.append(a)
-    pprint(authors)
+        collaborations = {c:collabs[c] for c in collaborations}
+        institutions = {inst:self.data['institutions'][inst]['cite'] for inst in institutions}
+        
+        self.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Author List Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.default.min.css" />
+    <style>
+        footer {
+            margin-top: 1em;
+        }
+        section.action article {
+            margin: .5em;
+        }
+        button#id, button#update {
+            margin: 1em;
+        }
+        article div.text, article div.select {
+            margin: .5em 0;
+            display: flex;
+            align-items: center;
+        }
+        article span.label {
+            margin-right: 0.5em;
+        }
+        article div.select div.selectize-control, article select {
+            width: 100%;
+        }
+        section.results section.author {
+            display: none;
+            margin: 1em 0;
+            border-top: 1px solid black;
+            width: 100%;
+        }
+        section.results section.author.active {
+            display: block;
+        }
+        article section.results div.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Author List Editor</h1></header>
+    <main>
+        <article>            
+            <section class="action">
+                <button id="add">Add Author</button>
+                <button id="edit">Edit Author</button>
+            </section>
+            <br>
+        </article>
+        <footer>
+            <button id="submit">Reload</button>
+        </footer>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
+    <script type="text/javascript">
+        var data = """+json_encode(self.data)+""";
+        var collaborations = """+json_encode(collaborations)+"""
+        var institutions = """+json_encode(institutions)+"""
 
-def add(args, data):
-    print('Add new author')
-    author = {}
-    author['authname'] = input('Name: ')
-    author['collab'] = input_select('Collaboration', values=collabs)
+        function text_format(id, text, value=''){
+            return '<div class="text"><span class="label">'+text+':</span><input autocomplete="off" class="'+id+'" type="text" value="'+value+'"></div>';
+        }
+        function date_format(id, text, value=''){
+            return '<div class="text date"><span class="label">'+text+':</span><input autocomplete="off" class="'+id+'" type="date" value="'+value+'"></div>';
+        }
+        function select_format(id, text, options){
+            var html = '<div class="select"><span class="label">'+text+':</span><select class="'+id+'" multiple=1>';
+            for(var name in options){
+                html += '<option value="'+name+'">'+options[name]+'</option>';
+            }
+            html += '</select></div>';
+            return html;
+        }
+        function disabled_text_format(id, text, value){
+            return '<div class="text"><span class="label">'+text+':</span><input autocomplete="off" disabled class="'+id+'" type="text" value="'+value+'"></div>';
+        }
+        function disabled_options_format(id, text, options){
+            var html = '<div class="select"><span class="label">'+text+':</span><select disabled class="'+id+'" multiple=1>';
+            for(var name in options){
+                html += '<option selected value="'+name+'">'+options[name]+'</option>';
+            }
+            html += '</select></div>';
+            return html;
+        }
+        function hidden_options_format(id, text, options){
+            var html = '<div class="select hidden"><span class="label">'+text+':</span><select disabled class="'+id+'" multiple=1>';
+            for(var name in options){
+                html += '<option selected value="'+name+'">'+options[name]+'</option>';
+            }
+            html += '</select></div>';
+            return html;
+        }
+        Array.prototype.equals = function( array ) {
+            return this.length == array.length &&
+                   this.every( function(this_i,i) { return this_i == array[i] } )
+        };
 
-    author['from'] = input_date('From: ')
-    author['to'] = input_date('To: ', notbefore=author['from'], infinite=True)
 
-    insts = {inst:data['institutions'][inst]['cite'] for inst in data['institutions']
-             if author['collab'] in data['institutions'][inst]['collabs']}
-    instnames = []
-    while True:
-        ret = input('Select institution? (Y/N): ').lower()
-        if ret.startswith('n'):
-            break
-        elif ret.startswith('y'):
-            inst = input_select('Institution', values=insts)
-            instnames.append(inst)
-    if instnames:
-        author['instnames'] = instnames
+        $('#add').on('click', function(e) {
+            var html = '<section class="author">';
+            html += text_format('name', 'Name');
+            html += date_format('from', 'From');
+            html += date_format('to', 'To');
+            html += select_format('collaboration', 'Collaboration', collaborations);
+            html += select_format('institution', 'Institution', institutions);
+            html += select_format('thanks', 'Thanks', data['thanks']);
+            html += '<button id="update">Update</button>';
+            html += '</section>';
+            $('article').html(html);
+            $('select.collaboration').selectize({
+                plugins: ['remove_button']
+            });
+            $('select.institution').selectize({
+                plugins: ['remove_button']
+            });
+            $('select.thanks').selectize({
+                plugins: ['remove_button']
+            });
+            $("#update").on('click', function(e) {
+                // get data
+                var collabs = $('select.collaboration').val();
+                if (collabs == null)
+                    collabs = [];
+                var insts = $('select.institution').val();
+                var thanks = $('select.thanks').val();
+                var author;
+                for (var i=0;i<collabs.length;i++){
+                    author = {
+                        'authname': $('input.name').val(),
+                        'collab': collabs[i],
+                        'from': $('input.from').val(),
+                        'to': $('input.to').val()
+                    }
+                    if (insts != null)
+                        author['instnames'] = insts;
+                    if (thanks != null)
+                        author['thanks'] = thanks;
+                    data['authors'].push(author);
+                }
+                $('#submit').click()
+            });
+            $('#submit').hide();
+        });
+        $('#edit').on('click', function(e) {
+            var html = '<section class="search">';
+            var names = {};
+            for (var i=0;i<data['authors'].length;i++) {
+                names[data['authors'][i]['authname']] = data['authors'][i]['authname']
+            }
+            html += select_format('names', 'Filter by name', names);
+            html += date_format('date', 'Filter by date');
+            html += '</section>';
+            html += '<section class="results"></section>';
+            $('article').html(html);
+            $('select.names').selectize({
+                plugins: ['remove_button'],
+                closeAfterSelect: true
+            });
+            var filter = function(e){
+                var html = '';
+                var names = $('select.names').val();
+                var date = $('input.date').val();
+                if (names == null && date == '')
+                    return;
+                var author = null;
+                for(var i=0;i<data['authors'].length;i++) {
+                    var a = data['authors'][i];
+                    if (author != null) {
+                        if (a['authname'] == author['authname']
+                            && (!('instnames' in a ^ 'instnames' in author) || ('instnames' in a && a['instnames'].equals(author['instnames'])))
+                            && (!('thanks' in a ^ 'thanks' in author) || ('thanks' in a && a['thanks'].equals(author['thanks'])))
+                            && a['from'] == author['from']
+                            && a['to'] == author['to']) {
+                            author['collab'].push(a['collab']);
+                            continue;
+                        }
+                        html += '<section class="author';
+                        if ((names == null || names.some(n => n == author['authname'])) &&
+                            (date == '' || (a['from'] <= date && (a['to'] == '' || a['to'] >= date)))) {
+                            html += ' active';
+                        }
+                        html += '">';
+                        html += disabled_text_format('name', 'Name', author['authname']);
+                        html += date_format('from', 'From', author['from']);
+                        html += date_format('to', 'To', author['to']);
+                        var collabs = {};
+                        for (var j=0;j<author['collab'].length;j++) {
+                            collabs[author['collab'][j]] = collaborations[author['collab'][j]];
+                        }
+                        var insts = {};
+                        if ('instnames' in author) {
+                            for (var j=0;j<author['instnames'].length;j++) {
+                                insts[author['instnames'][j]] = institutions[author['instnames'][j]];
+                            }
+                        }
+                        var thanks = {};
+                        if ('thanks' in author) {
+                            for (var j=0;j<author['thanks'].length;j++) {
+                                thanks[author['thanks'][j]] = thanks[author['thanks'][j]];
+                            }
+                        }
+                        html += disabled_options_format('collaboration', 'Collaboration', collabs);
+                        html += hidden_options_format('institution', 'Institution', insts);
+                        html += hidden_options_format('thanks', 'Thanks', thanks);
+                        html += '</section>';
+                    }
+                    
+                    author = $.extend({}, a);
+                    author['collab'] = [a['collab']]
+                }
+                html += '<button id="update">Update</button>';
+                $('section.results').html(html);
+                $("#update").on('click', function(e) {
+                    // get data
+                    var authors = [];
+                    $('section.author').each(function(index, el){
+                        var collabs = $(el).find('select.collaboration').val();
+                        if (collabs == null)
+                            collabs = [];
+                        var insts = $(el).find('select.institution').val();
+                        var thanks = $(el).find('select.thanks').val();
+                        var author;
+                        for (var i=0;i<collabs.length;i++){
+                            author = {
+                                'authname': $(el).find('input.name').val(),
+                                'collab': collabs[i],
+                                'from': $(el).find('input.from').val(),
+                                'to': $(el).find('input.to').val()
+                            }
+                            if (insts != null)
+                                author['instnames'] = insts;
+                            if (thanks != null)
+                                author['thanks'] = thanks;
+                            authors.push(author);
+                        }
+                    });
+                    data['authors'] = authors;
+                    $('#submit').click()
+                });
+            };
+            $('select.names').on('change', filter);
+            $('input.date').on('change', filter);
+            $('#submit').hide();
+        });
+        $("#submit").on('click', function(e) {
+            $.ajax({
+              type: "POST",
+              url: "/",
+              data: JSON.stringify({'data':data}),
+              success: function(){ location.reload(true); },
+              error: function(xhr, status, e){ alert(status); },
+              dataType: "json",
+              contentType : "application/json"
+            });
+        });
+    </script>
+</body>
+</html>
+""")
 
-    thanks_names = []
-    while True:
-        ret = input('Select thanks? (Y/N): ').lower()
-        if ret.startswith('n'):
-            break
-        elif ret.startswith('y'):
-            thank = input_select('Thanks', data['thanks'])
-            thanks_names.append(thank)
-    if thanks_names:
-        author['thanks'] = thanks_names
+    def post(self):
+        args = json_decode(self.request.body)
+        if args['data']:
+            self.data.update(args['data'])
+            save(self.outfile, self.data)
+        self.write({})
 
-    data['authors'].append(author)
-
-    save(args, data)
-
-def edit(args, data):
-    authors = []
-    for t,author in filt(data, args.author, args.inst, args.collab):
-        if t:
-            print('')
-            pprint(author)
-            do_edit = False
-            do_delete = False
-            while True:
-                ret = input('Edit author (Y/N/D): ').lower()
-                if not ret or ret.startswith('n'):
-                    break
-                elif ret.startswith('y'):
-                    do_edit = True
-                    break
-                elif ret.startswith('d'):
-                    ret = input('Confirm delete author (Y/N): ').lower()
-                    if ret.startswith('n'):
-                        break
-                    elif ret.startswith('y'):
-                        do_delete = True
-                        break
-            if do_delete:
-                continue # skip append
-            if do_edit:
-                while True:
-                    print('')
-                    print('From: ',author['from'])
-                    ret = input('Edit from date (Y/N): ').lower()
-                    if ret.startswith('n'):
-                        break
-                    elif ret.startswith('y'):
-                        author['from'] = input_date('From: ')
-                        break
-                while True:
-                    print('')
-                    print('To: ',author['to'])
-                    ret = input('Edit to date (Y/N): ').lower()
-                    if ret.startswith('n'):
-                        break
-                    elif ret.startswith('y'):
-                        author['to'] = input_date('To: ', notbefore=author['from'], infinite=True)
-                        break
-
-        authors.append(author)
-    data['authors'] = authors
-
-    save(args, data)
+def make_app(outfile, data):
+    kwargs = {'outfile': outfile, 'data': data}
+    return tornado.web.Application([
+        (r'/', MainHandler, kwargs),
+    ], debug=True, autoescape=None)
 
 def main():
     import argparse
     parser = argparse.ArgumentParser(description='Authorlist editor')
-
-    subparsers = parser.add_subparsers(help='sub-command help')
-    parser_list = subparsers.add_parser('list', help='list current authorlist')
-    parser_list.add_argument('-i','--input',help='input json file')
-    parser_list.add_argument('--author', help='author name to filter by')
-    parser_list.add_argument('--inst', help='institution name to filter by')
-    parser_list.add_argument('--collab', help='collaboration name to filter by')
-    parser_list.set_defaults(func=list_current)
-
-    parser_add = subparsers.add_parser('add', help='add an author')
-    parser_add.add_argument('-i','--input',help='input json file')
-    parser_add.add_argument('-o','--output',help='output json file')
-    parser_add.set_defaults(func=add)
-
-    parser_edit = subparsers.add_parser('edit', help='edit an author')
-    parser_edit.set_defaults(func=edit)
-    parser_edit.add_argument('-i','--input',help='input json file')
-    parser_edit.add_argument('-o','--output',help='output json file')
-    parser_edit.add_argument('--author', help='author name to filter by')
-    parser_edit.add_argument('--inst', help='institution name to filter by')
-    parser_edit.add_argument('--collab', help='collaboration name to filter by')
+    parser.add_argument('-i','--input',help='input json file')
+    parser.add_argument('-o','--output',default=None,help='output json file')
 
     args = parser.parse_args()
 
@@ -217,8 +349,17 @@ def main():
         data = json.load(f)
     data['authors'].sort(key=author_ordering)
 
-    args.func(args, data)
+    app = make_app(args.output, data)
+    while True: # find an unused port we can bind to
+        port = random.randint(8888,64000)
+        try:
+            app.listen(port)
+        except Exception:
+            continue
+        break
 
+    webbrowser.open('http://localhost:{}/'.format(port))
+    tornado.ioloop.IOLoop.current().start()
 
 if __name__ == '__main__':
     main()
