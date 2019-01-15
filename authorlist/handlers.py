@@ -114,6 +114,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'revtex4': 'Physical Review Letters (RevTex4)',
                 'aastex': 'Astrophysical Journal (AASTeX)',
                 'aa': 'Journal Astronomy & Astrophysics (A & A)',
+                'elsevier': 'Astroparticle Physics (Elsevier)',
             },
             'wrap': False,
             'intro_text':'',
@@ -338,6 +339,45 @@ IceCube Collaboration:
             kwargs['intro_text'] = """For the Journal Astronomy & Astrophysics.
                 You will need <a href="http://ftp.edpsciences.org/pub/aa/aa.cls">aa.cls</a>
                 but also consult the journal pages for more author instructions.
+                """
+        elif formatting == 'elsevier':
+            text = """\\documentclass[preprint,12pt]{elsarticle}
+\\journal{Astroparticle Physics}
+\\begin{document}
+\\begin{frontmatter}
+\\title{IceCube Author List for Elsevier """
+            text += date.replace('-','') + '}\n\n'
+            text += '\n'
+            for author in authors:
+                text += '\\author'
+                if 'instnames' in author:
+                    text += '['+(','.join(author['instnames']))+']'
+                text += '{'
+                text += codecs.encode(author['authname'], 'ulatex')
+                if 'thanks' in author:
+                    text += '\\fnref{'
+                    text += ','.join(author['thanks'])
+                    text += '}'
+                text += '}\n'
+            for name in sorted_insts:
+                text += '\\address['+name+']{'
+                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += '}\n'
+            for name in thanks:
+                text += '\\fntext['+name+']{'
+                text += codecs.encode(thanks[name], 'ulatex')
+                text += '}\n'
+            text += """\\end{frontmatter}
+
+\\section*{acknowledgements}
+"""
+            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += """
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style e.g. for Astroparticle Physics, or other Elsevier journals.
+                You will need elsarticle from the
+                <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle">CTAN library</a>.
                 """
 
         if self.get_argument('raw', default=None):
