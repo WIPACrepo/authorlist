@@ -1068,6 +1068,36 @@
       "to": ""
     },
     {
+      "authname": "C. Alispach",
+      "collab": "icecube",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Alispach",
+      "collab": "pingu",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Alispach",
+      "collab": "icecube-gen2",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. M. Allen",
       "collab": "icecube",
       "from": "2011-05-20",
@@ -13155,6 +13185,36 @@
       "from": "2016-07-11",
       "instnames": [
         "chiba"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Lucarelli",
+      "collab": "icecube",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Lucarelli",
+      "collab": "pingu",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Lucarelli",
+      "collab": "icecube-gen2",
+      "from": "2019-06-14",
+      "instnames": [
+        "geneva"
       ],
       "thanks": [],
       "to": ""
