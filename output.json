@@ -18390,7 +18390,7 @@
         "oxford"
       ],
       "thanks": [],
-      "to": "2018-10-01"
+      "to": "2018-09-30"
     },
     {
       "authname": "S. Sarkar",
@@ -18401,7 +18401,7 @@
         "oxford"
       ],
       "thanks": [],
-      "to": "2018-10-01"
+      "to": "2018-09-30"
     },
     {
       "authname": "S. Sarkar",
@@ -18412,7 +18412,37 @@
         "oxford"
       ],
       "thanks": [],
-      "to": "2018-10-01"
+      "to": "2018-09-30"
+    },
+    {
+      "authname": "S. Sarkar",
+      "collab": "icecube",
+      "from": "2018-10-01",
+      "instnames": [
+        "oxford"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Sarkar",
+      "collab": "icecube-gen2",
+      "from": "2018-10-01",
+      "instnames": [
+        "oxford"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Sarkar",
+      "collab": "pingu",
+      "from": "2013-10-01",
+      "instnames": [
+        "oxford"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Sarkar",
@@ -24711,7 +24741,7 @@
       "name": "Ohioold"
     },
     "oxford": {
-      "cite": "Dept. of Physics, University of Oxford, 1 Keble Road, Oxford OX1 3NP, UK",
+      "cite": "Dept. of Physics, University of Oxford, Parks Road, Oxford OX1 3PQ, UK",
       "city": "Oxford",
       "collabs": [
         "icecube",
@@ -24719,6 +24749,16 @@
         "pingu"
       ],
       "name": "Oxford"
+    },
+    "oxfordold": {
+      "cite": "Dept. of Physics, University of Oxford, 1 Keble Road, Oxford OX1 3NP, UK",
+      "city": "Oxford",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Oxfordold"
     },
     "pennastro": {
       "cite": "Dept. of Astronomy and Astrophysics, Pennsylvania State University, University Park, PA 16802, USA",
