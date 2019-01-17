@@ -24821,7 +24821,7 @@
       "name": "Rochester"
     },
     "skku": {
-      "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 440-746, Korea",
+      "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 16419, Korea",
       "city": "Suwon",
       "collabs": [
         "icecube",
@@ -24829,6 +24829,16 @@
         "pingu"
       ],
       "name": "SKKU"
+    },
+    "skkuold": {
+      "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 440-746, Korea",
+      "city": "Suwon",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "SKKUold"
     },
     "snolab": {
       "cite": "SNOLAB, 1039 Regional Road 24, Creighton Mine 9, Lively, ON, Canada P3Y 1N2",
