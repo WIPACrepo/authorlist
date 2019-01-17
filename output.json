@@ -19321,42 +19321,6 @@
       "to": "2015-05-05"
     },
     {
-      "authname": "Y. Sestayo",
-      "collab": "icecube",
-      "from": "8888-88-88",
-      "instnames": [
-        "munich"
-      ],
-      "thanks": [
-        "barca"
-      ],
-      "to": ""
-    },
-    {
-      "authname": "Y. Sestayo",
-      "collab": "icecube-gen2",
-      "from": "8888-88-88",
-      "instnames": [
-        "munich"
-      ],
-      "thanks": [
-        "barca"
-      ],
-      "to": ""
-    },
-    {
-      "authname": "Y. Sestayo",
-      "collab": "pingu",
-      "from": "8888-88-88",
-      "instnames": [
-        "munich"
-      ],
-      "thanks": [
-        "barca"
-      ],
-      "to": ""
-    },
-    {
       "authname": "S. Seunarine",
       "collab": "icecube",
       "from": "2005-09-16",
@@ -24037,7 +24001,7 @@
         "aachen"
       ],
       "thanks": [],
-      "to": "2014-10-231"
+      "to": "2014-10-23"
     },
     {
       "authname": "S. Zierke",
@@ -24047,7 +24011,7 @@
         "aachen"
       ],
       "thanks": [],
-      "to": "2014-10-231"
+      "to": "2014-10-23"
     },
     {
       "authname": "A. Zilles",

@@ -229,6 +229,37 @@ class MainHandler(tornado.web.RequestHandler):
                 if (names == null && date == '')
                     return;
                 var author = null;
+                var add_author = function(){
+                    html += '<section class="author';
+                    if ((names == null || names.some(n => n == author['authname'])) &&
+                        (date == '' || (author['from'] <= date && (author['to'] == '' || author['to'] >= date)))) {
+                        html += ' active';
+                    }
+                    html += '">';
+                    html += disabled_text_format('name', 'Name', author['authname']);
+                    html += date_format('from', 'From', author['from']);
+                    html += date_format('to', 'To', author['to']);
+                    var collabs = {};
+                    for (var j=0;j<author['collab'].length;j++) {
+                        collabs[author['collab'][j]] = collaborations[author['collab'][j]];
+                    }
+                    var insts = {};
+                    if ('instnames' in author) {
+                        for (var j=0;j<author['instnames'].length;j++) {
+                            insts[author['instnames'][j]] = institutions[author['instnames'][j]];
+                        }
+                    }
+                    var thanks = {};
+                    if ('thanks' in author) {
+                        for (var j=0;j<author['thanks'].length;j++) {
+                            thanks[author['thanks'][j]] = thanks[author['thanks'][j]];
+                        }
+                    }
+                    html += disabled_options_format('collaboration', 'Collaboration', collabs);
+                    html += disabled_options_format('institution', 'Institution', insts);
+                    html += hidden_options_format('thanks', 'Thanks', thanks);
+                    html += '</section>';
+                };
                 for(var i=0;i<data['authors'].length;i++) {
                     var a = data['authors'][i];
                     if (author != null) {
@@ -240,39 +271,14 @@ class MainHandler(tornado.web.RequestHandler):
                             author['collab'].push(a['collab']);
                             continue;
                         }
-                        html += '<section class="author';
-                        if ((names == null || names.some(n => n == author['authname'])) &&
-                            (date == '' || (a['from'] <= date && (a['to'] == '' || a['to'] >= date)))) {
-                            html += ' active';
-                        }
-                        html += '">';
-                        html += disabled_text_format('name', 'Name', author['authname']);
-                        html += date_format('from', 'From', author['from']);
-                        html += date_format('to', 'To', author['to']);
-                        var collabs = {};
-                        for (var j=0;j<author['collab'].length;j++) {
-                            collabs[author['collab'][j]] = collaborations[author['collab'][j]];
-                        }
-                        var insts = {};
-                        if ('instnames' in author) {
-                            for (var j=0;j<author['instnames'].length;j++) {
-                                insts[author['instnames'][j]] = institutions[author['instnames'][j]];
-                            }
-                        }
-                        var thanks = {};
-                        if ('thanks' in author) {
-                            for (var j=0;j<author['thanks'].length;j++) {
-                                thanks[author['thanks'][j]] = thanks[author['thanks'][j]];
-                            }
-                        }
-                        html += disabled_options_format('collaboration', 'Collaboration', collabs);
-                        html += hidden_options_format('institution', 'Institution', insts);
-                        html += hidden_options_format('thanks', 'Thanks', thanks);
-                        html += '</section>';
+                        add_author();
                     }
                     
                     author = $.extend({}, a);
                     author['collab'] = [a['collab']]
+                }
+                if (author != null) {
+                    add_author();
                 }
                 html += '<button id="update">Update</button>';
                 $('section.results').html(html);
