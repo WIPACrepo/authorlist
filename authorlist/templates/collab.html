@@ -45,9 +45,14 @@
             {% end %}
             </div>
          {% elif formatting == 'web-institution' %}
-            <ul class="institutions">
+            <ul style="list-style-type:none;" class="institutions">
             {% for name in sorted_insts %}
-            <li>{{ insts[name]['cite'] }}</li> {{ ', '.join(authors_by_inst[name]) }}
+            <li><h4>{{ insts[name]['cite'] }}</h4></li>
+                <ul style="list-style-type:none;">
+                {% for author in authors_by_inst[name] %}
+                    <li>{{ author }}</li>
+                {% end %}
+                </ul>
             {% end %}
             </ul>
             <ol class="thanks">
