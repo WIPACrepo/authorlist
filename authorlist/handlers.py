@@ -135,14 +135,10 @@ class CollabHandler(tornado.web.RequestHandler):
             for author in authors:
                 for instname in author['instnames']:
                     authors_by_inst[instname].append(author['authname'])
-
             kwargs.update({
                 'authors_by_inst': authors_by_inst,
                 'insts': insts,
                 'sorted_insts': sorted_insts,
-                'thanks': thanks,
-                'sorted_thanks': sorted_thanks,
-                'acks': acks,
             })
         elif formatting == 'arxiv':
             kwargs['format_text'] = authors_text.encode('latex')
