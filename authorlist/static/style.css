@@ -228,6 +228,9 @@ body.main .subtitle {
     margin-bottom: 2em;
 }
 
+body.collab ul.authors-by-institution, body.collab ul.authors-by-institution ul{
+    list-style-type: none;
+}
 body.collab ul.authors, body.collab ul.authors ul {
     list-style-type: none;
     padding: 0;

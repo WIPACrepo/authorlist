@@ -4,6 +4,7 @@ Handlers for different collaborations.
 from __future__ import print_function
 
 import os
+from collections import defaultdict
 from datetime import datetime
 import codecs
 
@@ -109,6 +110,7 @@ class CollabHandler(tornado.web.RequestHandler):
             'formatting': formatting,
             'formatting_options': {
                 'web': 'web',
+                'web-institution': 'web by institution',
                 'arxiv': 'arXiv',
                 'epjc': 'European Physical Journal C. (EPJC)',
                 'revtex4': 'Physical Review Letters (RevTex4)',
@@ -127,6 +129,16 @@ class CollabHandler(tornado.web.RequestHandler):
                 'thanks': thanks,
                 'sorted_thanks': sorted_thanks,
                 'acks': acks,
+            })
+        elif formatting == 'web-institution':
+            authors_by_inst = defaultdict(list)
+            for author in authors:
+                for instname in author['instnames']:
+                    authors_by_inst[instname].append(author['authname'])
+            kwargs.update({
+                'authors_by_inst': authors_by_inst,
+                'insts': insts,
+                'sorted_insts': sorted_insts,
             })
         elif formatting == 'arxiv':
             kwargs['format_text'] = authors_text.encode('latex')
