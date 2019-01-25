@@ -86,7 +86,8 @@ class CollabHandler(tornado.web.RequestHandler):
         sorted_thanks = list(thanks) #sorted(thanks)
 
         # format the authorlist
-        formatting = self.get_argument('formatting','web')
+        raw = self.get_argument('raw', default=None)
+        formatting = self.get_argument('formatting','web') if raw is None else 'web'
         authors_text = []
         for author in authors:
             element = author['authname']
@@ -392,7 +393,8 @@ IceCube Collaboration:
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle">CTAN library</a>.
                 """
 
-        if self.get_argument('raw', default=None):
+        if raw:
+            kwargs['formatting_options'] = {'web': 'web'}
             return self.render('collab_raw.html', **kwargs)
         else:
             return self.render('collab.html', **kwargs)

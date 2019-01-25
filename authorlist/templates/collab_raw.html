@@ -9,13 +9,7 @@
         <h3>Retrieve archived author lists:</h3>
         <form method="post">
             <div>Query Date: <input type="text" name="date" value="{{ date }}" /></div>
-            <div>Format:
-                <select name="formatting">
-                {% for f in formatting_options %}
-                    <option value="{{ f }}"{{ ' selected' if formatting == f else '' }}>{{ formatting_options[f] }}</option>
-                {% end %}
-                </select>
-            </div>
+            <input type="hidden" name="formatting" value="web" />
             <input type="submit" />
         </form>
     </section>
