@@ -3183,6 +3183,36 @@
       "to": ""
     },
     {
+      "authname": "J. B\u00f6ttcher",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. B\u00f6ttcher",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. B\u00f6ttcher",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Bouchta",
       "collab": "icecube",
       "from": "2003-01-01",
@@ -3658,6 +3688,36 @@
       "from": "2016-03-01",
       "instnames": [
         "uppsala"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Buscher",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Buscher",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Buscher",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
       ],
       "thanks": [],
       "to": ""
@@ -7935,6 +7995,36 @@
       "to": "2010-05-10"
     },
     {
+      "authname": "M. G\u00fcnder",
+      "collab": "icecube-gen2",
+      "from": "2019-01-25",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. G\u00fcnder",
+      "collab": "icecube",
+      "from": "2019-01-25",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. G\u00fcnder",
+      "collab": "pingu",
+      "from": "2019-01-25",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. G\u00fcnd\u00fcz",
       "collab": "icecube",
       "from": "2018-12-17",
@@ -8657,6 +8747,36 @@
       ],
       "thanks": [],
       "to": "2009-09-15"
+    },
+    {
+      "authname": "P. Heix",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Heix",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Heix",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "K. Helbing",
@@ -10147,6 +10267,66 @@
       "to": ""
     },
     {
+      "authname": "F. Jonske",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Jonske",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Jonske",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Joppe",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Joppe",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Joppe",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. M. Joseph",
       "collab": "icecube",
       "from": "2004-01-01",
@@ -10214,7 +10394,7 @@
         "aachen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-01-25"
     },
     {
       "authname": "P. Kalaczynski",
@@ -10224,7 +10404,7 @@
         "aachen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-01-25"
     },
     {
       "authname": "P. Kalaczynski",
@@ -10234,7 +10414,7 @@
         "aachen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-01-25"
     },
     {
       "authname": "O. Kalekin",
@@ -13526,6 +13706,36 @@
       "to": ""
     },
     {
+      "authname": "P. Mallik",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Mallik",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Mallik",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Mallot",
       "collab": "icecube",
       "from": "2018-12-17",
@@ -15006,6 +15216,36 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "P. Muth",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Muth",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Muth",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Nagai",
       "collab": "icecube",
       "from": "2018-05-05",
@@ -16220,6 +16460,36 @@
       ],
       "thanks": [],
       "to": "2016-06-06"
+    },
+    {
+      "authname": "S. Philippen",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Philippen",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Philippen",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. Piegsa",
@@ -19437,6 +19707,36 @@
       "to": "2015-08-26"
     },
     {
+      "authname": "S. Shefali",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Shefali",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Shefali",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Sheremata",
       "collab": "icecube",
       "from": "2012-09-26",
@@ -20503,6 +20803,36 @@
       ],
       "thanks": [],
       "to": "2012-06-25"
+    },
+    {
+      "authname": "T. St\u00fcrwald",
+      "collab": "icecube-gen2",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. St\u00fcrwald",
+      "collab": "icecube",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. St\u00fcrwald",
+      "collab": "pingu",
+      "from": "2019-04-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Stuttard",
@@ -24048,6 +24378,36 @@
       ],
       "thanks": [],
       "to": "2013-04-30"
+    },
+    {
+      "authname": "M. Z\u00f6cklein",
+      "collab": "icecube-gen2",
+      "from": "2019-03-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Z\u00f6cklein",
+      "collab": "icecube",
+      "from": "2019-03-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Z\u00f6cklein",
+      "collab": "pingu",
+      "from": "2019-03-01",
+      "instnames": [
+        "aachen"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Zoll",
