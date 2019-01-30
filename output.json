@@ -10921,7 +10921,7 @@
         "pennphys"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-01-29"
     },
     {
       "authname": "A. Keivani",
@@ -10931,7 +10931,7 @@
         "pennphys"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-01-29"
     },
     {
       "authname": "A. Keivani",
@@ -10939,6 +10939,16 @@
       "from": "2014-08-09",
       "instnames": [
         "pennphys"
+      ],
+      "thanks": [],
+      "to": "2019-01-29"
+    },
+    {
+      "authname": "A. Keivani",
+      "collab": "icecube-gen2",
+      "from": "2019-01-30",
+      "instnames": [
+        "columbia"
       ],
       "thanks": [],
       "to": ""
