@@ -10,6 +10,7 @@ import codecs
 
 import unidecode
 import latexcodec
+from pylatexenc.latexencode import utf8tolatex
 import tornado.web
 
 ICECUBE_START_DATE = '2003-01-01'
@@ -142,7 +143,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'sorted_insts': sorted_insts,
             })
         elif formatting == 'arxiv':
-            kwargs['format_text'] = authors_text.encode('latex')
+            kwargs['format_text'] = utf8tolatex(authors_text)
             kwargs['wrap'] = True
         elif formatting == 'epjc':
             text = """\\documentclass[twocolumn,epjc3]{svjour3}
@@ -162,19 +163,19 @@ class CollabHandler(tornado.web.RequestHandler):
                     first = False
                 else:
                     text += '\\and '
-                text += codecs.encode(author['authname'], 'ulatex')
+                text += utf8tolatex(author['authname'])
                 source = []
                 if 'instnames' in author and author['instnames']:
                     source.extend(author['instnames'])
                 if 'thanks' in author and author['thanks']:
                     source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
                 if source:
-                    text += '\\thanksref{' + codecs.encode(','.join(source), 'ulatex') + '}'
+                    text += '\\thanksref{' + utf8tolatex(','.join(source)) + '}'
                 text += '\n'
             text += '}\n\\authorrunning{IceCube Collaboration}\n'
             for i,name in enumerate(sorted_thanks):
                 text += '\\thankstext{' + chr(ord('a') + i) + '}{'
-                text += codecs.encode(thanks[name], 'ulatex') + '}\n'
+                text += utf8tolatex(thanks[name]) + '}\n'
             if sorted_insts:
                 text += '\\institute{'
                 first = True
@@ -183,7 +184,7 @@ class CollabHandler(tornado.web.RequestHandler):
                         first = False
                     else:
                         text += '\\and '
-                    text += codecs.encode(insts[name]['cite'], 'ulatex')
+                    text += utf8tolatex(insts[name]['cite'])
                     text += ' \\label{' + name + '}\n'
                 text += '}\n'
             text += """\\date{Received: date / Accepted: date}
@@ -191,7 +192,7 @@ class CollabHandler(tornado.web.RequestHandler):
 \\twocolumn
 \\begin{acknowledgements}
 """
-            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
 \\end{acknowledgements}
 
@@ -211,22 +212,22 @@ class CollabHandler(tornado.web.RequestHandler):
             text += date.replace('-','') + '}\n\n'
             for name in sorted_insts:
                 text += '\\affiliation{'
-                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += utf8tolatex(insts[name]['cite'])
                 text += '}\n'
             text += '\n'
             for author in authors:
                 text += '\\author{'
-                text += codecs.encode(author['authname'], 'ulatex')
+                text += utf8tolatex(author['authname'])
                 text += '}\n'
                 if 'instnames' in author:
                     for name in author['instnames']:
                         text += '\\affiliation{'
-                        text += codecs.encode(insts[name]['cite'], 'ulatex')
+                        text += utf8tolatex(insts[name]['cite'])
                         text += '}\n'
                 if 'thanks' in author:
                     for name in author['thanks']:
                         text += '\\thanks{'
-                        text += codecs.encode(thanks[name], 'ulatex')
+                        text += utf8tolatex(thanks[name])
                         text += '}\n'
             text += """\\date{\\today}
 
@@ -237,7 +238,7 @@ class CollabHandler(tornado.web.RequestHandler):
 
 \\begin{acknowledgements}
 """
-            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
 \\end{acknowledgements}
 
@@ -253,7 +254,7 @@ class CollabHandler(tornado.web.RequestHandler):
 
 \\shorttitle{IceCube Author List}
 \\shortauthors{"""
-            text += codecs.encode(authors[0]['authname'], 'ulatex')
+            text += utf8tolatex(authors[0]['authname'])
             text += """ et al.}
 \\begin{document}
 
@@ -261,7 +262,7 @@ class CollabHandler(tornado.web.RequestHandler):
             text += date.replace('-','') + '}\n\n'
             text += '\\author{\nIceCube Collaboration\n'
             for author in authors:
-                text += codecs.encode(author['authname'], 'ulatex')
+                text += utf8tolatex(author['authname'])
                 source = []
                 if 'instnames' in author:
                     source.extend(str(1+sorted_insts.index(t)) for t in author['instnames'])
@@ -273,16 +274,16 @@ class CollabHandler(tornado.web.RequestHandler):
             text += '}\n'
             for i,name in enumerate(sorted_insts):
                 text += '\\altaffiltext{'+str(1+i)+'}{'
-                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += utf8tolatex(insts[name]['cite'])
                 text += ' }\n'
             for i,name in enumerate(sorted_thanks):
                 text += '\\altaffiltext{'+str(1+len(sorted_insts)+i)+'}{'
-                text += codecs.encode(thanks[name], 'ulatex') + '}\n'
+                text += utf8tolatex(thanks[name]) + '}\n'
             text += """
 \\acknowledgements
 
 """
-            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
 
 \\end{document}"""
@@ -311,14 +312,14 @@ IceCube Collaboration:
                     first = False
                 else:
                     text += '\\and '
-                text += codecs.encode(author['authname'], 'ulatex')
+                text += utf8tolatex(author['authname'])
                 source = []
                 if 'instnames' in author and author['instnames']:
                     source.extend(author['instnames'])
                 if 'thanks' in author and author['thanks']:
                     source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
                 if source:
-                    text += '\\inst{' + ','.join('\\ref{'+codecs.encode(s, 'ulatex')+'}' for s in source) + '}'
+                    text += '\\inst{' + ','.join('\\ref{'+utf8tolatex(s)+'}' for s in source) + '}'
                 text += '\n'
             text += '}\n'
             if sorted_insts or sorted_thanks:
@@ -329,14 +330,14 @@ IceCube Collaboration:
                         first = False
                     else:
                         text += '\\and '
-                    text += codecs.encode(insts[name]['cite'], 'ulatex')
+                    text += utf8tolatex(insts[name]['cite'])
                     text += ' \\label{' + name + '} \n'
                 for i,name in enumerate(sorted_thanks):
                     if first:
                         first = False
                     else:
                         text += '\\and '
-                    text += codecs.encode(thanks[name], 'ulatex')
+                    text += utf8tolatex(thanks[name])
                     text += '\\label{' + chr(ord('a') + i) + '} \n'
                 text += '}\n'
             text += """\\abstract { } { } { } { } { }
@@ -344,7 +345,7 @@ IceCube Collaboration:
 \\maketitle
 \\begin{acknowledgements}
 """
-            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
 \\end{acknowledgements}
 \\end{document}"""
@@ -366,7 +367,7 @@ IceCube Collaboration:
                 if 'instnames' in author:
                     text += '['+(','.join(author['instnames']))+']'
                 text += '{'
-                text += codecs.encode(author['authname'], 'ulatex')
+                text += utf8tolatex(author['authname'])
                 if 'thanks' in author:
                     text += '\\fnref{'
                     text += ','.join(author['thanks'])
@@ -374,17 +375,17 @@ IceCube Collaboration:
                 text += '}\n'
             for name in sorted_insts:
                 text += '\\address['+name+']{'
-                text += codecs.encode(insts[name]['cite'], 'ulatex')
+                text += utf8tolatex(insts[name]['cite'])
                 text += '}\n'
             for name in thanks:
                 text += '\\fntext['+name+']{'
-                text += codecs.encode(thanks[name], 'ulatex')
+                text += utf8tolatex(thanks[name])
                 text += '}\n'
             text += """\\end{frontmatter}
 
 \\section*{acknowledgements}
 """
-            text += '\n'.join(codecs.encode(a, 'ulatex') for a in acks[1:])
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
 \\end{document}"""
             kwargs['format_text'] = text
