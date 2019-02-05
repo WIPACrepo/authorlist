@@ -50,7 +50,7 @@ class CollabHandler(tornado.web.RequestHandler):
         self.collab = collab
 
     def get(self):
-        return self.common()
+        return self.post()
 
     def common(self, date=''):
         if not date:
