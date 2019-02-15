@@ -2526,7 +2526,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-02-14"
     },
     {
       "authname": "E. Bernardini",
@@ -2536,7 +2536,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-02-14"
     },
     {
       "authname": "E. Bernardini",
@@ -2546,6 +2546,36 @@
         "zeuthen"
       ],
       "thanks": [],
+      "to": "2019-02-14"
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube",
+      "from": "2018-02-15",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": ["padova"],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube-gen2",
+      "from": "2018-02-15",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": ["padova"],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "pingu",
+      "from": "2018-02-15",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": ["padova"],
       "to": ""
     },
     {
@@ -25398,6 +25428,7 @@
     "losalamos": "Los Alamos National Laboratory, Los Alamos, NM 87545, USA",
     "michigan": "present address Department of Physics and Astronomy, Michigan State University, 567 Wilson Road, East Lansing, MI 48824, USA",
     "munich": "now at Max-Planck Institut f\u00fcr Physik, F\u00f6hringer Ring 6, D-80805 Munich, Germany",
+    "padova": "also at Università di Padova, I-35131 Padova, Italy",
     "rutgers": "now at Dept. of Physics and Astronomy, Rutgers University, Piscataway, NJ 08854, USA",
     "skkuold": "Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea",
     "southdakota": "Physics Department, South Dakota School of Mines and Technology, Rapid City, SD 57701, USA",
