@@ -250,52 +250,99 @@ class CollabHandler(tornado.web.RequestHandler):
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/revtex/">CTAN library</a>.
                 """
         elif formatting == 'aastex':
-            text = """\\documentclass[preprint2]{aastex}
+            ### New ApJ 6.x formatting
+            text = """\\documentclass{aastex62}
 
-\\shorttitle{IceCube Author List}
-\\shortauthors{"""
-            text += utf8tolatex(authors[0]['authname'])
-            text += """ et al.}
 \\begin{document}
 
 \\title{IceCube Author List for AAS{\TeX} """
             text += date.replace('-','') + '}\n\n'
-            text += '\\author{\nIceCube Collaboration\n'
-            for author in authors:
-                text += utf8tolatex(author['authname'])
-                source = []
-                if 'instnames' in author:
-                    source.extend(str(1+sorted_insts.index(t)) for t in author['instnames'])
-                if 'thanks' in author:
-                    source.extend(str(1+len(sorted_insts)+sorted_thanks.index(t)) for t in author['thanks'])
-                if source:
-                    text += '\\altaffilmark{'+','.join(source)+'}'
-                text += ',\n'
-            text += '}\n'
-            for i,name in enumerate(sorted_insts):
-                text += '\\altaffiltext{'+str(1+i)+'}{'
+            for name in sorted_insts:
+                text += '\\affiliation{'
                 text += utf8tolatex(insts[name]['cite'])
-                text += ' }\n'
-            for i,name in enumerate(sorted_thanks):
-                text += '\\altaffiltext{'+str(1+len(sorted_insts)+i)+'}{'
-                text += utf8tolatex(thanks[name]) + '}\n'
-            text += """
-\\acknowledgements
+                text += '}\n'
+            text += '\n'
+            for author in authors:
+                text += '\\author{'
+                text += utf8tolatex(author['authname'])
+                text += '}\n'
+                if 'instnames' in author:
+                    for name in author['instnames']:
+                        text += '\\affiliation{'
+                        text += utf8tolatex(insts[name]['cite'])
+                        text += '}\n'
+                if 'thanks' in author:
+                    for name in author['thanks']:
+                        text += '\\thanks{'
+                        text += utf8tolatex(thanks[name])
+                        text += '}\n'
+            text += """\\date{\\today}
 
+\\collaboration{IceCube Collaboration}
+\\noaffiliation
+
+\\maketitle
+
+\\begin{acknowledgements}
 """
             text += '\n'.join(utf8tolatex(a) for a in acks[1:])
             text += """
+\\end{acknowledgements}
 
 \\end{document}"""
             kwargs['format_text'] = text
-            kwargs['intro_text'] = """This style e.g. for Astrophysical Journal.
-                You will need aastex.cls from
-                <a href="http://aas.org/aastex/aastex-downloads">AASTeX-pages</a>
-                or from the <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/aastex/">CTAN library</a>.
-                The documentclass preprint2 do not cope with authors lists
-                extending to the second page but you may use preprint for
-                one-column format.
+            kwargs['intro_text'] = """This style e.g. for Astroparticle Journal.
+                You will need aastex62.cls and aasjournal.bst as well as possibly
+                some other files from the
+                <a href="https://2modf33kux3n19iucb17y5dj-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aastexv6.2.tar.gz">AASTeX tarball</a>.
                 """
+            ### Old ApJ 5.x formatting
+            # ~ text = """\\documentclass[preprint2]{aastex}
+
+# ~ \\shorttitle{IceCube Author List}
+# ~ \\shortauthors{"""
+            # ~ text += utf8tolatex(authors[0]['authname'])
+            # ~ text += """ et al.}
+# ~ \\begin{document}
+
+# ~ \\title{IceCube Author List for AAS{\TeX} """
+            # ~ text += date.replace('-','') + '}\n\n'
+            # ~ text += '\\author{\nIceCube Collaboration\n'
+            # ~ for author in authors:
+                # ~ text += utf8tolatex(author['authname'])
+                # ~ source = []
+                # ~ if 'instnames' in author:
+                    # ~ source.extend(str(1+sorted_insts.index(t)) for t in author['instnames'])
+                # ~ if 'thanks' in author:
+                    # ~ source.extend(str(1+len(sorted_insts)+sorted_thanks.index(t)) for t in author['thanks'])
+                # ~ if source:
+                    # ~ text += '\\altaffilmark{'+','.join(source)+'}'
+                # ~ text += ',\n'
+            # ~ text += '}\n'
+            # ~ for i,name in enumerate(sorted_insts):
+                # ~ text += '\\altaffiltext{'+str(1+i)+'}{'
+                # ~ text += utf8tolatex(insts[name]['cite'])
+                # ~ text += ' }\n'
+            # ~ for i,name in enumerate(sorted_thanks):
+                # ~ text += '\\altaffiltext{'+str(1+len(sorted_insts)+i)+'}{'
+                # ~ text += utf8tolatex(thanks[name]) + '}\n'
+            # ~ text += """
+# ~ \\acknowledgements
+
+# ~ """
+            # ~ text += '\n'.join(utf8tolatex(a) for a in acks[1:])
+            # ~ text += """
+
+# ~ \\end{document}"""
+            # ~ kwargs['format_text'] = text
+            # ~ kwargs['intro_text'] = """This style e.g. for Astrophysical Journal.
+                # ~ You will need aastex.cls from
+                # ~ <a href="http://aas.org/aastex/aastex-downloads">AASTeX-pages</a>
+                # ~ or from the <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/aastex/">CTAN library</a>.
+                # ~ The documentclass preprint2 do not cope with authors lists
+                # ~ extending to the second page but you may use preprint for
+                # ~ one-column format.
+                # ~ """
         elif formatting == 'aa':
             text = """\\documentclass[longauth]{aa}
 \\usepackage{txfonts}
