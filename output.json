@@ -15216,6 +15216,36 @@
       "to": "2016-04-20"
     },
     {
+      "authname": "R. Morse",
+      "collab": "icecube",
+      "from": "2019-03-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Morse",
+      "collab": "icecube-gen2",
+      "from": "2019-03-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Morse",
+      "collab": "pingu",
+      "from": "2019-03-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Moulai",
       "collab": "icecube",
       "from": "2016-04-22",
