@@ -2026,6 +2026,36 @@
       "to": ""
     },
     {
+      "authname": "S. Baur",
+      "collab": "pingu",
+      "from": "2019-03-20",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Baur",
+      "collab": "icecube",
+      "from": "2019-03-20",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Baur",
+      "collab": "icecube-gen2",
+      "from": "2019-03-20",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Bay",
       "collab": "icecube",
       "from": "2003-01-01",
@@ -2555,7 +2585,9 @@
       "instnames": [
         "zeuthen"
       ],
-      "thanks": ["padova"],
+      "thanks": [
+        "padova"
+      ],
       "to": ""
     },
     {
@@ -2565,7 +2597,9 @@
       "instnames": [
         "zeuthen"
       ],
-      "thanks": ["padova"],
+      "thanks": [
+        "padova"
+      ],
       "to": ""
     },
     {
@@ -2575,7 +2609,9 @@
       "instnames": [
         "zeuthen"
       ],
-      "thanks": ["padova"],
+      "thanks": [
+        "padova"
+      ],
       "to": ""
     },
     {
@@ -25458,7 +25494,7 @@
     "losalamos": "Los Alamos National Laboratory, Los Alamos, NM 87545, USA",
     "michigan": "present address Department of Physics and Astronomy, Michigan State University, 567 Wilson Road, East Lansing, MI 48824, USA",
     "munich": "now at Max-Planck Institut f\u00fcr Physik, F\u00f6hringer Ring 6, D-80805 Munich, Germany",
-    "padova": "also at Università di Padova, I-35131 Padova, Italy",
+    "padova": "also at Universit\u00e0 di Padova, I-35131 Padova, Italy",
     "rutgers": "now at Dept. of Physics and Astronomy, Rutgers University, Piscataway, NJ 08854, USA",
     "skkuold": "Department of Physics, Sungkyunkwan University, Suwon 440-746, Korea",
     "southdakota": "Physics Department, South Dakota School of Mines and Technology, Rapid City, SD 57701, USA",
