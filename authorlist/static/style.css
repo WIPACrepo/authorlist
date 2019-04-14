@@ -269,6 +269,7 @@ body.collab .format_text {
     border: 1px solid black;
     display: block;
     overflow-x: scroll;
+    white-space: pre;
 }
 span#copypaste {
     position: absolute;

@@ -71,6 +71,14 @@
 
 {% block bodyscripts %}
 <script>
+
+
+function unescapeXML(input) {
+    var doc = new DOMParser().parseFromString(input, "text/html");
+    return doc.documentElement.textContent;
+}
+
+
 const copyToClipboard = str => {
   const el = document.createElement('textarea');
   el.value = str;
@@ -89,7 +97,11 @@ const copyToClipboard = str => {
   }
 };
 function copyPre() {
-    copyToClipboard(document.getElementById("data").textContent);
+    var input = document.getElementById("data").textContent;
+    if (input.startsWith("&lt;?xml")) {
+        input = unescapeXML(input);
+    }
+    copyToClipboard(input);
     var e = document.getElementById("copypaste");
     e.classList.add("active");
     setTimeout(function(){
