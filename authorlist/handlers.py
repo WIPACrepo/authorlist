@@ -12,6 +12,7 @@ import unidecode
 import latexcodec
 from pylatexenc.latexencode import utf8tolatex
 import tornado.web
+from tornado.escape import xhtml_escape
 
 ICECUBE_START_DATE = '2003-01-01'
 PINGU_START_DATE = '2013-06-25'
@@ -119,6 +120,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'aastex': 'Astrophysical Journal (AASTeX)',
                 'aa': 'Journal Astronomy & Astrophysics (A & A)',
                 'elsevier': 'Astroparticle Physics (Elsevier)',
+                'inspire': 'INSPIRE author.xml',
             },
             'wrap': False,
             'intro_text':'',
@@ -440,6 +442,55 @@ IceCube Collaboration:
                 You will need elsarticle from the
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle">CTAN library</a>.
                 """
+        elif formatting == 'inspire':
+            text = """<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE collaborationauthorlist SYSTEM "http://inspirehep.net/info/HepNames/tools/authors_xml/author.dtd">
+
+<collaborationauthorlist
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
+            text += '  <cal:creationDate>'+date+'</cal:creationDate>\n'
+            text += '  <cal:publicationReference>XXXXXXXX</cal:publicationReference>\n\n'
+            text += """  <cal:collaborations>
+  <cal:collaboration id="c1">
+    <foaf:name>"""+self.collab+"""</foaf:name>
+  </cal:collaboration>
+
+  <cal:organizations>\n"""
+            for i,name in enumerate(sorted_insts):
+                text += '    <foaf:Organization id="a{}">\n'.format(i)
+                text += '      <foaf:name>{}</foaf:name>\n'.format(insts[name]['cite'])
+                text += '      <cal:orgStatus collaborationid="c1">member</cal:orgStatus>\n'
+                text += '    </foaf:Organization>\n'
+            for i,name in enumerate(thanks):
+                text += '    <foaf:Organization id="a{}">\n'.format(i+len(sorted_insts))
+                text += '      <foaf:name>{}</foaf:name>\n'.format(name)
+                text += '    </foaf:Organization>\n'
+            text += """  </cal:organizations>
+
+  <cal:authors>\n"""
+            for author in authors:
+                text += '    <foaf:Person>\n'
+                text += '      <foaf:familyName>{}</foaf:familyName>\n'.format(unidecode.unidecode(author['authname'].split('.',1)[-1].strip()))
+                text += '      <cal:authorNameNative>{}</cal:authorNameNative>\n'.format(author['authname'])
+                text += '      <cal:authorNamePaper>{}</cal:authorNamePaper>\n'.format(unidecode.unidecode(author['authname']))
+                text += '      <cal:authorCollaboration collaborationid="c1" />\n'
+                text += '      <cal:authorAffiliations>\n'
+                source = []
+                if 'instnames' in author:
+                    source.extend(1+sorted_insts.index(t) for t in author['instnames'])
+                if 'thanks' in author:
+                    source.extend(1+len(sorted_insts)+sorted_thanks.index(t) for t in author['thanks'])
+                for s in source:
+                    text += '        <cal:authorAffiliation organizationid="a{}" />\n'.format(s)
+                text += '      </cal:authorAffiliations>\n'
+                text += '    </foaf:Person>\n'
+            text += """  </cal:authors>
+</collaborationauthorlist>\n"""
+
+            kwargs['format_text'] = xhtml_escape(text)
+            kwargs['intro_text'] = 'This style for INSPIRE authors.xml.'
 
         if raw:
             kwargs['formatting_options'] = {'web': 'web'}
