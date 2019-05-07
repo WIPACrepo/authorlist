@@ -1996,6 +1996,36 @@
       "to": ""
     },
     {
+      "authname": "B. Bastian",
+      "collab": "icecube-gen2",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Bastian",
+      "collab": "pingu",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Bastian",
+      "collab": "icecube",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "V. Baum",
       "collab": "icecube",
       "from": "2012-01-09",
@@ -3526,7 +3556,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "H.-P. Bretz",
@@ -3536,7 +3566,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "H.-P. Bretz",
@@ -3546,7 +3576,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "S. Bron",
@@ -10060,7 +10090,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "E. Jacobi",
@@ -10070,7 +10100,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "E. Jacobi",
@@ -10080,7 +10110,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "J. Jacobsen",
@@ -12489,7 +12519,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "S. Kunwar",
@@ -12499,7 +12529,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "S. Kunwar",
@@ -12509,7 +12539,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "N. Kurahashi",
@@ -13657,6 +13687,36 @@
       "from": "2017-03-24",
       "instnames": [
         "madisonpac"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Y. Ma",
+      "collab": "icecube-gen2",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Y. Ma",
+      "collab": "pingu",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Y. Ma",
+      "collab": "icecube",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
       ],
       "thanks": [],
       "to": ""
@@ -15449,7 +15509,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "R. Nahnhauer",
@@ -15459,7 +15519,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "R. Nahnhauer",
@@ -15469,7 +15529,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "P. Nakarmi",
@@ -20598,7 +20658,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "A. Stasik",
@@ -20608,7 +20668,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "A. Stasik",
@@ -20618,7 +20678,7 @@
         "zeuthen"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-06"
     },
     {
       "authname": "D. Steele",
@@ -21849,6 +21909,36 @@
       "from": "2014-03-10",
       "instnames": [
         "madisonpac"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Trettin",
+      "collab": "icecube-gen2",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Trettin",
+      "collab": "pingu",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Trettin",
+      "collab": "icecube",
+      "from": "2019-05-06",
+      "instnames": [
+        "zeuthen"
       ],
       "thanks": [],
       "to": ""
