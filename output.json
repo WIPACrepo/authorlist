@@ -13692,6 +13692,36 @@
       "to": ""
     },
     {
+      "authname": "Y. Lyu",
+      "collab": "icecube",
+      "from": "2019-05-13",
+      "instnames": [
+        "lbnl"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Lyu",
+      "collab": "pingu",
+      "from": "2019-05-13",
+      "instnames": [
+        "lbnl"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Lyu",
+      "collab": "icecube-gen2",
+      "from": "2019-05-13",
+      "instnames": [
+        "lbnl"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "W. Y. Ma",
       "collab": "icecube-gen2",
       "from": "2019-05-06",
@@ -14813,7 +14843,7 @@
         "berkeley"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-12"
     },
     {
       "authname": "S. Miarecki",
@@ -14824,7 +14854,7 @@
         "berkeley"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-12"
     },
     {
       "authname": "S. Miarecki",
@@ -14835,7 +14865,7 @@
         "berkeley"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-05-12"
     },
     {
       "authname": "J. Micallef",
