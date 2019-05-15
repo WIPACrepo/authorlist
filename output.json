@@ -19528,10 +19528,10 @@
         "karlsruhe"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-04-26"
     },
     {
-      "authname": "F. Schroeder",
+      "authname": "F. G. Schr\u00f6der",
       "collab": "pingu",
       "from": "2019-04-27",
       "instnames": [
@@ -19541,7 +19541,7 @@
       "to": ""
     },
     {
-      "authname": "F. Schroeder",
+      "authname": "F. G. Schr\u00f6der",
       "collab": "icecube",
       "from": "2019-04-27",
       "instnames": [
@@ -19551,11 +19551,12 @@
       "to": ""
     },
     {
-      "authname": "F. Schroeder",
+      "authname": "F. G. Schr\u00f6der",
       "collab": "icecube-gen2",
       "from": "2019-04-27",
       "instnames": [
-        "bartol"
+        "bartol",
+        "karlsruhe"
       ],
       "thanks": [],
       "to": ""
