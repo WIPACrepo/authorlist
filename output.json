@@ -14402,6 +14402,36 @@
       "to": "2017-12-17"
     },
     {
+      "authname": "F. McNally",
+      "collab": "icecube",
+      "from": "2019-05-05",
+      "instnames": [
+        "mercer"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. McNally",
+      "collab": "icecube-gen2",
+      "from": "2019-05-05",
+      "instnames": [
+        "mercer"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. McNally",
+      "collab": "pingu",
+      "from": "2019-05-05",
+      "instnames": [
+        "mercer"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. P. McParland",
       "collab": "icecube",
       "from": "2003-01-01",
@@ -25306,6 +25336,16 @@
         "pingu"
       ],
       "name": "MEPhI"
+    },
+    "mercer": {
+      "cite": "Department of Physics, Mercer University, Macon, GA 31207-0001",
+      "city": "Macon",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Mercer"
     },
     "michigan": {
       "cite": "Dept. of Physics and Astronomy, Michigan State University, East Lansing, MI 48824, USA",
