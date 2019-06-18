@@ -227,6 +227,15 @@ body.main .subtitle {
     margin-top: -1em;
     margin-bottom: 2em;
 }
+body.main h4.instructions {
+    margin-top: 2em;
+}
+body.main p.instructions {
+    margin-left: 1em;
+}
+body.main p.indent {
+    margin-left: 2em;
+}
 
 body.collab ul.authors-by-institution, body.collab ul.authors-by-institution ul{
     list-style-type: none;
