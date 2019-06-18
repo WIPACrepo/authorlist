@@ -9736,7 +9736,7 @@
         "karlsruhe"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-17"
     },
     {
       "authname": "T. Huber",
@@ -9746,7 +9746,7 @@
         "karlsruhe"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-17"
     },
     {
       "authname": "T. Huber",
@@ -9754,6 +9754,39 @@
       "from": "2019-06-10",
       "instnames": [
         "karlsruhe"
+      ],
+      "thanks": [],
+      "to": "2019-06-17"
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "pingu",
+      "from": "2019-06-18",
+      "instnames": [
+        "karlsruhe",
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube-gen2",
+      "from": "2019-06-18",
+      "instnames": [
+        "karlsruhe",
+        "zeuthen"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube",
+      "from": "2019-06-18",
+      "instnames": [
+        "karlsruhe",
+        "zeuthen"
       ],
       "thanks": [],
       "to": ""
