@@ -3846,7 +3846,7 @@
         "madisonpac"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-02-06"
     },
     {
       "authname": "R. S. Busse",
@@ -3856,7 +3856,7 @@
         "madisonpac"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-02-06"
     },
     {
       "authname": "R. S. Busse",
@@ -3864,6 +3864,36 @@
       "from": "2017-12-18",
       "instnames": [
         "madisonpac"
+      ],
+      "thanks": [],
+      "to": "2019-02-06"
+    },
+    {
+      "authname": "R. S. Busse",
+      "collab": "icecube",
+      "from": "2019-02-07",
+      "instnames": [
+        "munster"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. S. Busse",
+      "collab": "pingu",
+      "from": "2019-02-07",
+      "instnames": [
+        "munster"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. S. Busse",
+      "collab": "icecube-gen2",
+      "from": "2019-02-07",
+      "instnames": [
+        "munster"
       ],
       "thanks": [],
       "to": ""
