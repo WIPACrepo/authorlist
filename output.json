@@ -22207,7 +22207,7 @@
         "brusselsvrije"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-23"
     },
     {
       "authname": "S. Toscano",
@@ -22217,7 +22217,7 @@
         "brusselsvrije"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-23"
     },
     {
       "authname": "S. Toscano",
@@ -22225,6 +22225,36 @@
       "from": "2015-07-23",
       "instnames": [
         "brusselsvrije"
+      ],
+      "thanks": [],
+      "to": "2019-06-23"
+    },
+    {
+      "authname": "S. Toscano",
+      "collab": "icecube-gen2",
+      "from": "2019-06-24",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Toscano",
+      "collab": "icecube",
+      "from": "2019-06-24",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Toscano",
+      "collab": "pingu",
+      "from": "2019-06-24",
+      "instnames": [
+        "brusselslibre"
       ],
       "thanks": [],
       "to": ""
