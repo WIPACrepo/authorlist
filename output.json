@@ -2742,7 +2742,7 @@
         "kansas"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-30"
     },
     {
       "authname": "D. Z. Besson",
@@ -2752,7 +2752,7 @@
         "kansas"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-06-30"
     },
     {
       "authname": "D. Z. Besson",
@@ -2762,6 +2762,36 @@
         "kansas"
       ],
       "thanks": [],
+      "to": "2019-06-30"
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "icecube",
+      "from": "2019-07-01",
+      "instnames": [
+        "kansas"
+      ],
+      "thanks": ["mephi"],
+      "to": ""
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "icecube-gen2",
+      "from": "2019-07-01",
+      "instnames": [
+        "kansas"
+      ],
+      "thanks": ["mephi"],
+      "to": ""
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "pingu",
+      "from": "2019-07-01",
+      "instnames": [
+        "kansas"
+      ],
+      "thanks": ["mephi"],
       "to": ""
     },
     {
@@ -26118,6 +26148,7 @@
     "kalmarold": "affiliated with Dept.~of Chemistry and Biomedical Sciences, Kalmar University, S-39182 Kalmar, Sweden",
     "kalmarvold": "affiliated with Dept.~of Technology, Kalmar University, S-39182 Kalmar, Sweden",
     "losalamos": "Los Alamos National Laboratory, Los Alamos, NM 87545, USA",
+    "mephi": "National Research Nuclear University, Moscow Engineering Physics Institute (MEPhI), Moscow 115409, Russia",
     "michigan": "present address Department of Physics and Astronomy, Michigan State University, 567 Wilson Road, East Lansing, MI 48824, USA",
     "munich": "now at Max-Planck Institut f\u00fcr Physik, F\u00f6hringer Ring 6, D-80805 Munich, Germany",
     "padova": "also at Universit\u00e0 di Padova, I-35131 Padova, Italy",
