@@ -2771,7 +2771,9 @@
       "instnames": [
         "kansas"
       ],
-      "thanks": ["mephi"],
+      "thanks": [
+        "mephi"
+      ],
       "to": ""
     },
     {
@@ -2781,7 +2783,9 @@
       "instnames": [
         "kansas"
       ],
-      "thanks": ["mephi"],
+      "thanks": [
+        "mephi"
+      ],
       "to": ""
     },
     {
@@ -2791,7 +2795,9 @@
       "instnames": [
         "kansas"
       ],
-      "thanks": ["mephi"],
+      "thanks": [
+        "mephi"
+      ],
       "to": ""
     },
     {
@@ -9292,7 +9298,7 @@
         "michigan"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "J. Hignight",
@@ -9302,7 +9308,7 @@
         "michigan"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "J. Hignight",
@@ -9310,6 +9316,36 @@
       "from": "2015-02-15",
       "instnames": [
         "michigan"
+      ],
+      "thanks": [],
+      "to": "2019-07-08"
+    },
+    {
+      "authname": "J. Hignight",
+      "collab": "pingu",
+      "from": "2019-07-09",
+      "instnames": [
+        "edmonton"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hignight",
+      "collab": "icecube-gen2",
+      "from": "2019-07-09",
+      "instnames": [
+        "edmonton"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hignight",
+      "collab": "icecube",
+      "from": "2019-07-09",
+      "instnames": [
+        "edmonton"
       ],
       "thanks": [],
       "to": ""
@@ -16012,7 +16048,7 @@
         "edmonton"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "S. C. Nowicki",
@@ -16022,7 +16058,7 @@
         "edmonton"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "S. C. Nowicki",
@@ -16030,6 +16066,36 @@
       "from": "2013-06-25",
       "instnames": [
         "edmonton"
+      ],
+      "thanks": [],
+      "to": "2019-07-08"
+    },
+    {
+      "authname": "S. C. Nowicki",
+      "collab": "pingu",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. C. Nowicki",
+      "collab": "icecube-gen2",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. C. Nowicki",
+      "collab": "icecube",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
       ],
       "thanks": [],
       "to": ""
@@ -18948,7 +19014,7 @@
         "edmonton"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "S. E. Sanchez Herrera",
@@ -18958,7 +19024,7 @@
         "edmonton"
       ],
       "thanks": [],
-      "to": ""
+      "to": "2019-07-08"
     },
     {
       "authname": "S. E. Sanchez Herrera",
@@ -18966,6 +19032,36 @@
       "from": "2016-04-27",
       "instnames": [
         "edmonton"
+      ],
+      "thanks": [],
+      "to": "2019-07-08"
+    },
+    {
+      "authname": "S. E. Sanchez Herrera",
+      "collab": "pingu",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. E. Sanchez Herrera",
+      "collab": "icecube-gen2",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. E. Sanchez Herrera",
+      "collab": "icecube",
+      "from": "2019-07-09",
+      "instnames": [
+        "michigan"
       ],
       "thanks": [],
       "to": ""
