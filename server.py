@@ -10,23 +10,36 @@ from functools import partial
 from authorlist.daemon import Daemon
 from authorlist.server import WebServer
 
+CONFIG = {
+    'PORT': os.environ.get('PORT', '8888'),
+    'JSON': os.environ.get('JSON', None),
+    'LOGFILE': os.environ.get('LOGFILE', '-'),
+    'LOGLEVEL': os.environ.get('LOGLEVEL', 'info'),
+}
+
 def runner(args):
     logger = logging.getLogger('daemon')
-    logfmt = '%(asctime)s %(levelname)s %(name)s %(module)s:%(lineno)s - %(message)s'
-    logging.basicConfig(level=args.loglevel, filename=args.logfile, format=logfmt)
+    log_args = {
+        'level': args.loglevel,
+        'format': '%(asctime)s %(levelname)s %(name)s %(module)s:%(lineno)s - %(message)s',
+    }
+    if args.logfile and args.logfile != '-':
+        log_args['filename'] = args.logfile
+    logging.basicConfig(**log_args)
 
     w = WebServer(port=args.port, json=args.json)
+    logging.info('server running on port %s', args.port)
     w.start()
 
 def main():
     import argparse
     parser = argparse.ArgumentParser(description='Authorlist website')
     parser.add_argument('action',nargs='?',help='(start,stop) daemon server')
-    parser.add_argument('-j','--json',help='authorlist json file')
-    parser.add_argument('-p','--port',type=int,default=8888,help='port to listen on')
+    parser.add_argument('-j','--json',default=CONFIG['JSON'],help='authorlist json file')
+    parser.add_argument('-p','--port',type=int,default=int(CONFIG['PORT']),help='port to listen on')
     parser.add_argument('-n','--no-daemon',dest='daemon',default=True,action='store_false',help='do not daemonize')
-    parser.add_argument('--logfile',default='log',help='filename for logging')
-    parser.add_argument('-l','--loglevel',default='info',help='log level')
+    parser.add_argument('--logfile',default=CONFIG['LOGFILE'],help='filename for logging')
+    parser.add_argument('-l','--loglevel',default=CONFIG['LOGLEVEL'],help='log level')
     args = parser.parse_args()
 
     levels = ['error','warning','info','debug']
