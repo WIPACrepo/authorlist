@@ -612,8 +612,18 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2019-06-14",
       "value": "Switzerland \u2013 Swiss National Science Foundation (SNSF)."
+    },
+    {
+      "from": "2019-06-14",
+      "to": "",
+      "value": "Switzerland \u2013 Swiss National Science Foundation (SNSF);"
+    },
+    {
+      "from": "2019-06-15",
+      "to": "",
+      "value": "United Kingdom \u2013 Department of Physics, University of Oxford."
     }
   ],
   "authors": [
