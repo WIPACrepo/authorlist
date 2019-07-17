@@ -15409,6 +15409,36 @@
       "to": "2010-04-05"
     },
     {
+      "authname": "D. Mockler",
+      "collab": "icecube-gen2",
+      "from": "2019-07-17",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Mockler",
+      "collab": "icecube",
+      "from": "2019-07-17",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Mockler",
+      "collab": "pingu",
+      "from": "2019-07-17",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Mohr",
       "collab": "icecube",
       "from": "2007-11-28",
