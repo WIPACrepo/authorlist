@@ -119,6 +119,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'aastex': 'Astrophysical Journal (AASTeX)',
                 'aa': 'Journal Astronomy & Astrophysics (A & A)',
                 'elsevier': 'Astroparticle Physics (Elsevier)',
+                'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
             },
             'wrap': False,
             'intro_text':'',
@@ -439,6 +440,49 @@ IceCube Collaboration:
             kwargs['intro_text'] = """This style e.g. for Astroparticle Physics, or other Elsevier journals.
                 You will need elsarticle from the
                 <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle">CTAN library</a>.
+                """
+        elif formatting == 'jhep':
+            text = """\\documentclass[preprint,12pt]{article}
+\\usepackage{jheppub}
+\\title{IceCube Author List for JHEP/JCAP """
+            text += date.replace('-','') + '}\n\n'
+            text += '\n'
+            for i,author in enumerate(authors):
+                text += '\\author'
+                source = []
+                if 'instnames' in author and author['instnames']:
+                    source.extend(str(sorted_insts.index(n)) for n in author['instnames'])
+                if 'thanks' in author and author['thanks']:
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                if source:
+                    text += '[' + ','.join(source) + ']'
+                text += '{'
+                if i+1 == len(authors):
+                    text += 'and '
+                text += utf8tolatex(author['authname'])
+                if i+2 < len(authors):
+                    text += ','
+                text += '}\n'
+            for name in sorted_insts:
+                text += '\\affiliation['+str(sorted_insts.index(name))+']{'
+                text += utf8tolatex(insts[name]['cite'])
+                text += '}\n'
+            for name in thanks:
+                text += '\\affiliation['+chr(ord('a') + sorted_thanks.index(name))+']{'
+                text += utf8tolatex(thanks[name])
+                text += '}\n'
+            text += """
+
+\\begin{document}
+\\acknowledgments
+"""
+            text += '\n'.join(utf8tolatex(a) for a in acks[1:])
+            text += """
+\\end{document}"""
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style e.g. for Journal of High Energy Physics, or Journal of Cosmology and Astroparticle Phsics.
+                You will need jheppub from 
+                <a href="https://jhep.sissa.it/jhep/help/JHEP_TeXclass.jsp">here</a>.
                 """
 
         if raw:
