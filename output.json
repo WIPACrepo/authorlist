@@ -4425,6 +4425,36 @@
       "to": "2015-07-18"
     },
     {
+      "authname": "B. A. Clark",
+      "collab": "icecube",
+      "from": "2020-02-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. A. Clark",
+      "collab": "pingu",
+      "from": "2020-02-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. A. Clark",
+      "collab": "icecube-gen2",
+      "from": "2020-02-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Clark",
       "collab": "icecube",
       "from": "2012-09-01",
@@ -8565,6 +8595,36 @@
       "from": "2013-06-25",
       "instnames": [
         "uppsala"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Halliday",
+      "collab": "icecube",
+      "from": "2019-10-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Halliday",
+      "collab": "pingu",
+      "from": "2019-10-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Halliday",
+      "collab": "icecube-gen2",
+      "from": "2019-10-01",
+      "instnames": [
+        "michigan"
       ],
       "thanks": [],
       "to": ""
@@ -16141,6 +16201,36 @@
       "to": "2011-05-19"
     },
     {
+      "authname": "M. U. Nisa",
+      "collab": "icecube",
+      "from": "2019-09-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. U. Nisa",
+      "collab": "pingu",
+      "from": "2019-09-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. U. Nisa",
+      "collab": "icecube-gen2",
+      "from": "2019-09-01",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. C. Nowicki",
       "collab": "icecube",
       "from": "2011-10-05",
@@ -22324,6 +22414,36 @@
       ],
       "thanks": [],
       "to": "2018-12-16"
+    },
+    {
+      "authname": "K. Tollefson",
+      "collab": "icecube",
+      "from": "2019-08-12",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Tollefson",
+      "collab": "pingu",
+      "from": "2019-08-12",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Tollefson",
+      "collab": "icecube-gen2",
+      "from": "2019-08-12",
+      "instnames": [
+        "michigan"
+      ],
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "L. Tomankova",
