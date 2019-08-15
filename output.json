@@ -14075,7 +14075,7 @@
       "collab": "icecube",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl"
+        "lbnl", "berkeley"
       ],
       "thanks": [],
       "to": ""
@@ -14085,7 +14085,7 @@
       "collab": "pingu",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl"
+        "lbnl", "berkeley"
       ],
       "thanks": [],
       "to": ""
@@ -14095,7 +14095,7 @@
       "collab": "icecube-gen2",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl"
+        "lbnl", "berkeley"
       ],
       "thanks": [],
       "to": ""
