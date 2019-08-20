@@ -167,9 +167,9 @@ class CollabHandler(tornado.web.RequestHandler):
                 text += utf8tolatex(author['authname'])
                 source = []
                 if 'instnames' in author and author['instnames']:
-                    source.extend(author['instnames'])
+                    source.extend(sorted(author['instnames'], key=sorted_insts.index))
                 if 'thanks' in author and author['thanks']:
-                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in sorted(author['thanks'], key=sorted_thanks.index))
                 if source:
                     text += '\\thanksref{' + utf8tolatex(','.join(source)) + '}'
                 text += '\n'
@@ -221,12 +221,12 @@ class CollabHandler(tornado.web.RequestHandler):
                 text += utf8tolatex(author['authname'])
                 text += '}\n'
                 if 'instnames' in author:
-                    for name in author['instnames']:
+                    for name in sorted(author['instnames'], key=sorted_insts.index):
                         text += '\\affiliation{'
                         text += utf8tolatex(insts[name]['cite'])
                         text += '}\n'
                 if 'thanks' in author:
-                    for name in author['thanks']:
+                    for name in sorted(author['thanks'], key=sorted_thanks.index):
                         text += '\\thanks{'
                         text += utf8tolatex(thanks[name])
                         text += '}\n'
@@ -268,12 +268,12 @@ class CollabHandler(tornado.web.RequestHandler):
                 text += utf8tolatex(author['authname'])
                 text += '}\n'
                 if 'instnames' in author:
-                    for name in author['instnames']:
+                    for name in sorted(author['instnames'], key=sorted_insts.index):
                         text += '\\affiliation{'
                         text += utf8tolatex(insts[name]['cite'])
                         text += '}\n'
                 if 'thanks' in author:
-                    for name in author['thanks']:
+                    for name in sorted(author['thanks'], key=sorted_thanks.index):
                         text += '\\thanks{'
                         text += utf8tolatex(thanks[name])
                         text += '}\n'
@@ -363,9 +363,9 @@ IceCube Collaboration:
                 text += utf8tolatex(author['authname'])
                 source = []
                 if 'instnames' in author and author['instnames']:
-                    source.extend(author['instnames'])
+                    source.extend(sorted(author['instnames'], key=sorted_insts.index))
                 if 'thanks' in author and author['thanks']:
-                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in sorted(author['thanks'], key=sorted_thanks.index))
                 if source:
                     text += '\\inst{' + ','.join('\\ref{'+utf8tolatex(s)+'}' for s in source) + '}'
                 text += '\n'
@@ -413,12 +413,12 @@ IceCube Collaboration:
             for author in authors:
                 text += '\\author'
                 if 'instnames' in author:
-                    text += '['+(','.join(author['instnames']))+']'
+                    text += '['+(','.join(sorted(author['instnames'], key=sorted_insts.index)))+']'
                 text += '{'
                 text += utf8tolatex(author['authname'])
                 if 'thanks' in author:
                     text += '\\fnref{'
-                    text += ','.join(author['thanks'])
+                    text += ','.join(sorted(author['thanks'], key=sorted_thanks.index))
                     text += '}'
                 text += '}\n'
             for name in sorted_insts:
@@ -451,9 +451,9 @@ IceCube Collaboration:
                 text += '\\author'
                 source = []
                 if 'instnames' in author and author['instnames']:
-                    source.extend(str(sorted_insts.index(n)) for n in author['instnames'])
+                    source.extend(str(sorted_insts.index(n)) for n in sorted(author['instnames'], key=sorted_insts.index))
                 if 'thanks' in author and author['thanks']:
-                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in author['thanks'])
+                    source.extend(chr(ord('a') + sorted_thanks.index(t)) for t in sorted(author['thanks'], key=sorted_thanks.index))
                 if source:
                     text += '[' + ','.join(source) + ']'
                 text += '{'
