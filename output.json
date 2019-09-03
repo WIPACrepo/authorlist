@@ -7023,6 +7023,36 @@
       "to": "2011-11-16"
     },
     {
+      "authname": "D. Fox",
+      "collab": "pingu",
+      "from": "2019-09-03",
+      "instnames": [
+        "pennastro"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Fox",
+      "collab": "icecube",
+      "from": "2019-09-03",
+      "instnames": [
+        "pennastro"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Fox",
+      "collab": "icecube-gen2",
+      "from": "2019-09-03",
+      "instnames": [
+        "pennastro"
+      ],
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Franckowiak",
       "collab": "icecube",
       "from": "2006-11-06",
@@ -14075,7 +14105,8 @@
       "collab": "icecube",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl", "berkeley"
+        "lbnl",
+        "berkeley"
       ],
       "thanks": [],
       "to": ""
@@ -14085,7 +14116,8 @@
       "collab": "pingu",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl", "berkeley"
+        "lbnl",
+        "berkeley"
       ],
       "thanks": [],
       "to": ""
@@ -14095,7 +14127,8 @@
       "collab": "icecube-gen2",
       "from": "2019-05-13",
       "instnames": [
-        "lbnl", "berkeley"
+        "lbnl",
+        "berkeley"
       ],
       "thanks": [],
       "to": ""
