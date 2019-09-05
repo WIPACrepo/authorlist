@@ -7,6 +7,8 @@ import os
 from collections import defaultdict
 from datetime import datetime
 import codecs
+import csv
+from io import StringIO
 
 import unidecode
 import latexcodec
@@ -117,6 +119,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'epjc': 'European Physical Journal C. (EPJC)',
                 'revtex4': 'Physical Review Letters (RevTex4)',
                 'aastex': 'Astrophysical Journal (AASTeX)',
+                'aascsv': 'Astrophysical Journal (csv)',
                 'aa': 'Journal Astronomy & Astrophysics (A & A)',
                 'elsevier': 'Astroparticle Physics (Elsevier)',
                 'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
@@ -344,6 +347,50 @@ class CollabHandler(tornado.web.RequestHandler):
                 # ~ extending to the second page but you may use preprint for
                 # ~ one-column format.
                 # ~ """
+        elif formatting == 'aascsv':
+            f = StringIO()
+            writer = csv.writer(f, )
+            writer.writerow([
+                'Is Corresponding Author (enter Yes)', 'Author Order', 'Title', 'Given Name/First Name',
+                'Middle Initial(s) or Name', 'Family Name/Surname', 'Email', 'Telephone',
+                'Institution', 'Department', 'Address Line 1', 'Address Line 2', 'City',
+                'State/Province', 'Zip/Postal Code', 'Country',
+            ])
+            writer.writerow([
+                'Yes', '1', '', 'IceCube', '', 'Collaboration', 'analysis@icecube.wisc.edu',
+                '', '', '', '', '', '', '', '', '',
+            ])
+            for i,author in enumerate(authors):
+                inst = insts[author['instnames'][0]]
+                parts = inst['cite'].split(',')
+                if 'Karlsruhe' in parts[0]:
+                    instname = parts[0].strip()
+                elif 'CTSPS' in parts[0]:
+                    instname = parts[1].strip()
+                elif 'Dept' in parts[0] or 'department' in parts[0] or 'Département' in parts[0] or 'Institut' in parts[0] or 'School' in parts[0]:
+                    instname = parts[1].strip()
+                else:
+                    instname = parts[0].strip()
+                if 'Canada' in inst['cite']:
+                    country = 'Canada'
+                else:
+                    country = parts[-1].strip()
+                if 'first' in author:
+                    first = author['first']
+                else:
+                    first = author['authname'].rsplit('. ',1)[0]+'.'
+                if 'last' in author:
+                    last = author['last']
+                else:
+                    last = author['authname'].rsplit('. ', 1)[-1]
+                email = author['email'] if 'email' in author else ''
+                row = ['No', str(i+2), '', first, '', last, email, '',
+                    instname, '', '', '', inst['city'], '', '', country]
+                writer.writerow(row)
+            text = f.getvalue()
+            f.close()
+            kwargs['format_text'] = text
+            kwargs['intro_text'] = """This style e.g. for Astrophysical Journal author list submission. The csv should be converted to xls by the user, if required."""
         elif formatting == 'aa':
             text = """\\documentclass[longauth]{aa}
 \\usepackage{txfonts}
