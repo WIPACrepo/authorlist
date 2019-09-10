@@ -28899,7 +28899,7 @@
       ],
       "last": "T\u00f6nnis",
       "thanks": [],
-      "to": ""
+      "to": "2019-09-09"
     },
     {
       "authname": "C. T\u00f6nnis",
@@ -28912,7 +28912,7 @@
       ],
       "last": "T\u00f6nnis",
       "thanks": [],
-      "to": ""
+      "to": "2019-09-09"
     },
     {
       "authname": "C. T\u00f6nnis",
@@ -28922,6 +28922,45 @@
       "from": "2018-02-01",
       "instnames": [
         "skku"
+      ],
+      "last": "T\u00f6nnis",
+      "thanks": [],
+      "to": "2019-09-09"
+    },
+    {
+      "authname": "C. T\u00f6nnis",
+      "collab": "icecube",
+      "email": "christoph.toennis@gmx.de",
+      "first": "Christoph",
+      "from": "2019-09-10",
+      "instnames": [
+        "skku2"
+      ],
+      "last": "T\u00f6nnis",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. T\u00f6nnis",
+      "collab": "icecube-gen2",
+      "email": "christoph.toennis@gmx.de",
+      "first": "Christoph",
+      "from": "2019-09-10",
+      "instnames": [
+        "skku2"
+      ],
+      "last": "T\u00f6nnis",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. T\u00f6nnis",
+      "collab": "pingu",
+      "email": "christoph.toennis@gmx.de",
+      "first": "Christoph",
+      "from": "2019-09-10",
+      "instnames": [
+        "skku2"
       ],
       "last": "T\u00f6nnis",
       "thanks": [],
@@ -33601,6 +33640,16 @@
     },
     "skku": {
       "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 16419, Korea",
+      "city": "Suwon",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "SKKU"
+    },
+    "skku2": {
+      "cite": "Institute of Basic Science, Sungkyunkwan University, Suwon 16419, Korea",
       "city": "Suwon",
       "collabs": [
         "icecube",
