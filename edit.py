@@ -165,6 +165,9 @@ class MainHandler(tornado.web.RequestHandler):
         $('#add').on('click', function(e) {
             var html = '<section class="author">';
             html += text_format('name', 'Name');
+            html += text_format('first', 'First Name');
+            html += text_format('last', 'Last Name');
+            html += text_format('email', 'Email');
             html += date_format('from', 'From');
             html += date_format('to', 'To');
             html += select_format('collaboration', 'Collaboration', collaborations);
@@ -237,6 +240,9 @@ class MainHandler(tornado.web.RequestHandler):
                     }
                     html += '">';
                     html += disabled_text_format('name', 'Name', author['authname']);
+                    html += disabled_text_format('first', 'First Name', author['first']);
+                    html += disabled_text_format('last', 'Last Name', author['last']);
+                    html += disabled_text_format('email', 'Email', author['email']);
                     html += date_format('from', 'From', author['from']);
                     html += date_format('to', 'To', author['to']);
                     var collabs = {};
