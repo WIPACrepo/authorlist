@@ -7511,7 +7511,7 @@
       ],
       "last": "Dujmovic",
       "thanks": [],
-      "to": ""
+      "to": "2019-09-29"
     },
     {
       "authname": "H. Dujmovic",
@@ -7524,7 +7524,7 @@
       ],
       "last": "Dujmovic",
       "thanks": [],
-      "to": ""
+      "to": "2019-09-29"
     },
     {
       "authname": "H. Dujmovic",
@@ -7534,6 +7534,45 @@
       "from": "2016-01-15",
       "instnames": [
         "skku"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": "2019-09-29"
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "icecube-gen2",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2019-09-30",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "icecube",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2019-09-30",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "pingu",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2019-09-30",
+      "instnames": [
+        "karlsruhe"
       ],
       "last": "Dujmovic",
       "thanks": [],
