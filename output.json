@@ -16819,7 +16819,7 @@
       ],
       "last": "Labare",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "M. Labare",
@@ -16832,7 +16832,7 @@
       ],
       "last": "Labare",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "M. Labare",
@@ -16845,7 +16845,7 @@
       ],
       "last": "Labare",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "S. Lafebre",
@@ -29808,7 +29808,7 @@
       ],
       "last": "Van Driessche",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-30"
     },
     {
       "authname": "W. Van Driessche",
@@ -29821,7 +29821,7 @@
       ],
       "last": "Van Driessche",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-30"
     },
     {
       "authname": "W. Van Driessche",
@@ -29834,7 +29834,7 @@
       ],
       "last": "Van Driessche",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-30"
     },
     {
       "authname": "D. van Eijk",
@@ -29938,7 +29938,7 @@
       ],
       "last": "Vanheule",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "S. Vanheule",
@@ -29951,7 +29951,7 @@
       ],
       "last": "Vanheule",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "S. Vanheule",
@@ -29964,7 +29964,7 @@
       ],
       "last": "Vanheule",
       "thanks": [],
-      "to": ""
+      "to": "2019-10-15"
     },
     {
       "authname": "A. Van Overloop",
@@ -30238,6 +30238,45 @@
       "last": "Vehring",
       "thanks": [],
       "to": "2017-12-31"
+    },
+    {
+      "authname": "S. Verpoest",
+      "collab": "icecube",
+      "email": "sverpoest@icecube.wisc.edu",
+      "first": "Stef",
+      "from": "2019-10-16",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Verpoest",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Verpoest",
+      "collab": "icecube-gen2",
+      "email": "sverpoest@icecube.wisc.edu",
+      "first": "Stef",
+      "from": "2019-10-16",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Verpoest",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Verpoest",
+      "collab": "pingu",
+      "email": "sverpoest@icecube.wisc.edu",
+      "first": "Stef",
+      "from": "2019-10-16",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Verpoest",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "V. Viscomi",
