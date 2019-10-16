@@ -193,13 +193,18 @@ class MainHandler(tornado.web.RequestHandler):
                 var insts = $('select.institution').val();
                 var thanks = $('select.thanks').val();
                 var author;
+                var email = $('input.email').val();
                 for (var i=0;i<collabs.length;i++){
                     author = {
                         'authname': $('input.name').val(),
+                        'first': $('input.first').val(),
+                        'last': $('input.last').val(),
                         'collab': collabs[i],
                         'from': $('input.from').val(),
                         'to': $('input.to').val()
                     }
+                    if (email != null && email != "undefined")
+                        author['email'] = email;
                     if (insts != null)
                         author['instnames'] = insts;
                     if (thanks != null)
@@ -298,13 +303,18 @@ class MainHandler(tornado.web.RequestHandler):
                         var insts = $(el).find('select.institution').val();
                         var thanks = $(el).find('select.thanks').val();
                         var author;
+                        var email = $(el).find('input.email').val();
                         for (var i=0;i<collabs.length;i++){
                             author = {
                                 'authname': $(el).find('input.name').val(),
+                                'first': $(el).find('input.first').val(),
+                                'last': $(el).find('input.last').val(),
                                 'collab': collabs[i],
                                 'from': $(el).find('input.from').val(),
                                 'to': $(el).find('input.to').val()
                             }
+                            if (email != null && email != "undefined")
+                                author['email'] = email;
                             if (insts != null)
                                 author['instnames'] = insts;
                             if (thanks != null)
