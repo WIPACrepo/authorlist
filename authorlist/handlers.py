@@ -463,7 +463,7 @@ IceCube Collaboration:
                     text += '['+(','.join(sorted(author['instnames'], key=sorted_insts.index)))+']'
                 text += '{'
                 text += utf8tolatex(author['authname'])
-                if 'thanks' in author:
+                if 'thanks' in author and author['thanks']:
                     text += '\\fnref{'
                     text += ','.join(sorted(author['thanks'], key=sorted_thanks.index))
                     text += '}'
