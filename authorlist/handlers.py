@@ -223,15 +223,15 @@ class CollabHandler(tornado.web.RequestHandler):
                 text += '\\author{'
                 text += utf8tolatex(author['authname'])
                 text += '}\n'
-                if 'instnames' in author:
-                    for name in sorted(author['instnames'], key=sorted_insts.index):
-                        text += '\\affiliation{'
-                        text += utf8tolatex(insts[name]['cite'])
-                        text += '}\n'
                 if 'thanks' in author:
                     for name in sorted(author['thanks'], key=sorted_thanks.index):
                         text += '\\thanks{'
                         text += utf8tolatex(thanks[name])
+                        text += '}\n'
+                if 'instnames' in author:
+                    for name in sorted(author['instnames'], key=sorted_insts.index):
+                        text += '\\affiliation{'
+                        text += utf8tolatex(insts[name]['cite'])
                         text += '}\n'
             text += """\\date{\\today}
 
