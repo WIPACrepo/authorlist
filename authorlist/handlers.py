@@ -156,7 +156,7 @@ class CollabHandler(tornado.web.RequestHandler):
 
 \\begin{document}
 
-\\title{IceCube Author List for EPJC """
+\\title{"""+self.collab+""" Author List for EPJC """
             text += date.replace('-','')
             text += """}
 \\onecolumn
@@ -176,7 +176,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 if source:
                     text += '\\thanksref{' + utf8tolatex(','.join(source)) + '}'
                 text += '\n'
-            text += '}\n\\authorrunning{IceCube Collaboration}\n'
+            text += '}\n\\authorrunning{'+self.collab+' Collaboration}\n'
             for i,name in enumerate(sorted_thanks):
                 text += '\\thankstext{' + chr(ord('a') + i) + '}{'
                 text += utf8tolatex(thanks[name]) + '}\n'
@@ -212,7 +212,7 @@ class CollabHandler(tornado.web.RequestHandler):
 
 \\begin{document}
 
-\\title{IceCube Author List for Rev{\TeX} """
+\\title{"""+self.collab+""" Author List for Rev{\TeX} """
             text += date.replace('-','') + '}\n\n'
             for name in sorted_insts:
                 text += '\\affiliation{'
@@ -235,7 +235,7 @@ class CollabHandler(tornado.web.RequestHandler):
                         text += '}\n'
             text += """\\date{\\today}
 
-\\collaboration{IceCube Collaboration}
+\\collaboration{"""+self.collab+""" Collaboration}
 \\noaffiliation
 
 \\maketitle
@@ -259,7 +259,7 @@ class CollabHandler(tornado.web.RequestHandler):
 
 \\begin{document}
 
-\\title{IceCube Author List for AAS{\TeX} """
+\\title{"""+self.collab+""" Author List for AAS{\TeX} """
             text += date.replace('-','') + '}\n\n'
             for name in sorted_insts:
                 text += '\\affiliation{'
@@ -282,7 +282,7 @@ class CollabHandler(tornado.web.RequestHandler):
                         text += '}\n'
             text += """\\date{\\today}
 
-\\collaboration{IceCube Collaboration}
+\\collaboration{"""+self.collab+""" Collaboration}
 \\noaffiliation
 
 \\maketitle
@@ -309,7 +309,7 @@ class CollabHandler(tornado.web.RequestHandler):
             # ~ text += """ et al.}
 # ~ \\begin{document}
 
-# ~ \\title{IceCube Author List for AAS{\TeX} """
+# ~ \\title{"""+self.collab+""" Author List for AAS{\TeX} """
             # ~ text += date.replace('-','') + '}\n\n'
             # ~ text += '\\author{\nIceCube Collaboration\n'
             # ~ for author in authors:
@@ -357,7 +357,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 'State/Province', 'Zip/Postal Code', 'Country',
             ])
             writer.writerow([
-                'Yes', '1', '', 'IceCube', '', 'Collaboration', 'analysis@icecube.wisc.edu',
+                'Yes', '1', '', self.collab, '', 'Collaboration', 'analysis@icecube.wisc.edu',
                 '', '', '', '', '', '', '', '', '',
             ])
             for i,author in enumerate(authors):
@@ -395,11 +395,11 @@ class CollabHandler(tornado.web.RequestHandler):
             text = """\\documentclass[longauth]{aa}
 \\usepackage{txfonts}
 \\begin{document}
-\\title{IceCube Author List for A \& A """
+\\title{"""+self.collab+""" Author List for A \& A """
             text += date.replace('-','')
             text += """}
 \\author{
-IceCube Collaboration:
+"""+self.collab+""" Collaboration:
 """
             first = True
             for author in authors:
@@ -454,7 +454,7 @@ IceCube Collaboration:
 \\journal{Astroparticle Physics}
 \\begin{document}
 \\begin{frontmatter}
-\\title{IceCube Author List for Elsevier """
+\\title{"""+self.collab+""" Author List for Elsevier """
             text += date.replace('-','') + '}\n\n'
             text += '\n'
             for author in authors:
@@ -491,7 +491,7 @@ IceCube Collaboration:
         elif formatting == 'jhep':
             text = """\\documentclass[preprint,12pt]{article}
 \\usepackage{jheppub}
-\\title{IceCube Author List for JHEP/JCAP """
+\\title{"""+self.collab+""" Author List for JHEP/JCAP """
             text += date.replace('-','') + '}\n\n'
             text += '\n'
             for i,author in enumerate(authors):
