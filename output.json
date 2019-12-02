@@ -10363,6 +10363,45 @@
       "to": "2006-04-17"
     },
     {
+      "authname": "T. Gr\u00e9goire",
+      "collab": "pingu",
+      "email": "tmg5746@psu.edu",
+      "first": "Timoth\u00e9e",
+      "from": "2019-12-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Gr\u00e9goire",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Gr\u00e9goire",
+      "collab": "icecube",
+      "email": "tmg5746@psu.edu",
+      "first": "Timoth\u00e9e",
+      "from": "2019-12-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Gr\u00e9goire",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Gr\u00e9goire",
+      "collab": "icecube-gen2",
+      "email": "tmg5746@psu.edu",
+      "first": "Timoth\u00e9e",
+      "from": "2019-12-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Gr\u00e9goire",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Gretskov",
       "collab": "icecube",
       "email": "pavel.gretskov@icecube.wisc.edu",
