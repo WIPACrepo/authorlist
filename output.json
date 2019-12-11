@@ -13527,6 +13527,45 @@
       "to": "2014-10-23"
     },
     {
+      "authname": "M. Jansson",
+      "collab": "pingu",
+      "email": "matti.jansson@icecube.wisc.edu",
+      "first": "Matti",
+      "from": "2019-12-11",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "last": "Jansson",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jansson",
+      "collab": "icecube",
+      "email": "matti.jansson@icecube.wisc.edu",
+      "first": "Matti",
+      "from": "2019-12-11",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "last": "Jansson",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jansson",
+      "collab": "icecube-gen2",
+      "email": "matti.jansson@icecube.wisc.edu",
+      "first": "Matti",
+      "from": "2019-12-11",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "last": "Jansson",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. S. Japaridze",
       "collab": "icecube",
       "email": "george.japaridze@gmail.com",
@@ -22350,6 +22389,45 @@
         "dortmund"
       ],
       "last": "Pieloth",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Pieper",
+      "collab": "pingu",
+      "email": "sarah.pieper@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2018-01-01",
+      "instnames": [
+        "wuppertal"
+      ],
+      "last": "Pieper",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Pieper",
+      "collab": "icecube",
+      "email": "sarah.pieper@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2018-01-01",
+      "instnames": [
+        "wuppertal"
+      ],
+      "last": "Pieper",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Pieper",
+      "collab": "icecube-gen2",
+      "email": "sarah.pieper@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2018-01-01",
+      "instnames": [
+        "wuppertal"
+      ],
+      "last": "Pieper",
       "thanks": [],
       "to": ""
     },
