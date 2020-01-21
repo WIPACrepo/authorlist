@@ -823,45 +823,6 @@
       "to": "2013-08-31"
     },
     {
-      "authname": "A. Rehman",
-      "collab": "icecube-gen2",
-      "email": "abdul.rehman@icecube.wisc.edu",
-      "first": "Abdul",
-      "from": "2019-12-20",
-      "instnames": [
-        "bartol"
-      ],
-      "last": "Rehman",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "A. Rehman",
-      "collab": "pingu",
-      "email": "abdul.rehman@icecube.wisc.edu",
-      "first": "Abdul",
-      "from": "2019-12-20",
-      "instnames": [
-        "bartol"
-      ],
-      "last": "Rehman",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "A. Rehman",
-      "collab": "icecube",
-      "email": "abdul.rehman@icecube.wisc.edu",
-      "first": "Abdul",
-      "from": "2019-12-20",
-      "instnames": [
-        "bartol"
-      ],
-      "last": "Rehman",
-      "thanks": [],
-      "to": ""
-    },
-    {
       "authname": "K. Abraham",
       "collab": "icecube",
       "email": "kevin.abraham@icecube.wisc.edu",
@@ -18088,6 +18049,45 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "A. Ludwig",
+      "collab": "pingu",
+      "email": "abl@physics.ucla.edu",
+      "first": "Andrew",
+      "from": "2020-01-21",
+      "instnames": [
+        "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube",
+      "email": "abl@physics.ucla.edu",
+      "first": "Andrew",
+      "from": "2020-01-21",
+      "instnames": [
+        "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube-gen2",
+      "email": "abl@physics.ucla.edu",
+      "first": "Andrew",
+      "from": "2020-01-21",
+      "instnames": [
+        "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Lundberg",
       "collab": "icecube",
       "first": "J.",
@@ -23432,6 +23432,45 @@
       "last": "Refflinghaus",
       "thanks": [],
       "to": "2006-08-30"
+    },
+    {
+      "authname": "A. Rehman",
+      "collab": "icecube-gen2",
+      "email": "abdul.rehman@icecube.wisc.edu",
+      "first": "Abdul",
+      "from": "2019-12-20",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Rehman",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Rehman",
+      "collab": "pingu",
+      "email": "abdul.rehman@icecube.wisc.edu",
+      "first": "Abdul",
+      "from": "2019-12-20",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Rehman",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Rehman",
+      "collab": "icecube",
+      "email": "abdul.rehman@icecube.wisc.edu",
+      "first": "Abdul",
+      "from": "2019-12-20",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Rehman",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. Reimann",
