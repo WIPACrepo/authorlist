@@ -20881,6 +20881,45 @@
       "to": "2005-12-20"
     },
     {
+      "authname": "L. V. Nguy\u1ec5n",
+      "collab": "icecube",
+      "email": "nguye639@msu.edu",
+      "first": "L\u1ec5 Viet",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Nguy\u1ec5n",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. V. Nguy\u1ec5n",
+      "collab": "icecube-gen2",
+      "email": "nguye639@msu.edu",
+      "first": "L\u1ec5 Viet",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Nguy\u1ec5n",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. V. Nguy\u1ec5n",
+      "collab": "pingu",
+      "email": "nguye639@msu.edu",
+      "first": "L\u1ec5 Viet",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Nguy\u1ec5n",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "H. Niederhausen",
       "collab": "icecube",
       "email": "hans.niederhausen@icecube.wisc.edu",
@@ -24711,7 +24750,7 @@
       ],
       "last": "Rysewyk",
       "thanks": [],
-      "to": ""
+      "to": "2020-01-20"
     },
     {
       "authname": "D. Rysewyk",
@@ -24724,7 +24763,7 @@
       ],
       "last": "Rysewyk",
       "thanks": [],
-      "to": ""
+      "to": "2020-01-20"
     },
     {
       "authname": "D. Rysewyk",
@@ -24736,6 +24775,45 @@
         "michigan"
       ],
       "last": "Rysewyk",
+      "thanks": [],
+      "to": "2020-01-20"
+    },
+    {
+      "authname": "D. Rysewyk Cantu",
+      "collab": "icecube",
+      "email": "rysewykd@msu.edu",
+      "first": "Devyn",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Rysewyk Cantu",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Rysewyk Cantu",
+      "collab": "icecube-gen2",
+      "email": "rysewykd@msu.edu",
+      "first": "Devyn",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Rysewyk Cantu",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Rysewyk Cantu",
+      "collab": "pingu",
+      "email": "rysewykd@msu.edu",
+      "first": "Devyn",
+      "from": "2020-01-21",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Rysewyk Cantu",
       "thanks": [],
       "to": ""
     },
