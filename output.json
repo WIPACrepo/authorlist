@@ -14924,23 +14924,49 @@
       "authname": "A. Kheirandish",
       "collab": "icecube",
       "email": "akheirandish@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Ali",
       "from": "2014-04-14",
       "instnames": [
         "madisonpac"
       ],
       "last": "Kheirandish",
       "thanks": [],
-      "to": ""
+      "to": "2020-01-22"
     },
     {
       "authname": "A. Kheirandish",
       "collab": "icecube-gen2",
       "email": "akheirandish@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Ali",
       "from": "2014-12-16",
       "instnames": [
         "madisonpac"
+      ],
+      "last": "Kheirandish",
+      "thanks": [],
+      "to": "2020-01-22"
+    },
+    {
+      "authname": "A. Kheirandish",
+      "collab": "pingu",
+      "email": "akheirandish@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2014-04-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Kheirandish",
+      "thanks": [],
+      "to": "2020-01-22"
+    },
+    {
+      "authname": "A. Kheirandish",
+      "collab": "icecube-gen2",
+      "email": "akheirandish@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2020-01-23",
+      "instnames": [
+        "pennphys"
       ],
       "last": "Kheirandish",
       "thanks": [],
@@ -14950,10 +14976,23 @@
       "authname": "A. Kheirandish",
       "collab": "pingu",
       "email": "akheirandish@icecube.wisc.edu",
-      "first": "A.",
-      "from": "2014-04-14",
+      "first": "Ali",
+      "from": "2020-01-23",
       "instnames": [
-        "madisonpac"
+        "pennphys"
+      ],
+      "last": "Kheirandish",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kheirandish",
+      "collab": "icecube",
+      "email": "akheirandish@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2020-01-23",
+      "instnames": [
+        "pennphys"
       ],
       "last": "Kheirandish",
       "thanks": [],
