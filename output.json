@@ -784,6 +784,45 @@
       "to": "2014-03-09"
     },
     {
+      "authname": "R. Abbasi",
+      "collab": "icecube",
+      "email": "rabbasi@loc.edu",
+      "first": "Rasha",
+      "from": "2020-04-15",
+      "instnames": [
+        "loyola"
+      ],
+      "last": "Abbasi",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Abbasi",
+      "collab": "pingu",
+      "email": "rabbasi@loc.edu",
+      "first": "Rasha",
+      "from": "2020-04-15",
+      "instnames": [
+        "loyola"
+      ],
+      "last": "Abbasi",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Abbasi",
+      "collab": "icecube-gen2",
+      "email": "rabbasi@loc.edu",
+      "first": "Rasha",
+      "from": "2020-04-15",
+      "instnames": [
+        "loyola"
+      ],
+      "last": "Abbasi",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Y. Abdou",
       "collab": "icecube",
       "email": "yasser.abdou@icecube.wisc.edu",
@@ -34118,6 +34157,16 @@
         "pingu"
       ],
       "name": "London"
+    },
+    "loyola": {
+      "cite": "Department of Physics, Loyola University Chicago, Chicago, IL 60660, USA",
+      "city": "Chicago",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Loyola"
     },
     "madison": {
       "cite": "Dept. of Physics, University of Wisconsin, Madison, WI 53706, USA",
