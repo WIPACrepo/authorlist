@@ -1419,6 +1419,45 @@
       "to": "2019-01-29"
     },
     {
+      "authname": "N. M. Amin",
+      "collab": "pingu",
+      "email": "moureen@udel.edu",
+      "first": "Najia Moureen Binte",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Amin",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. M. Amin",
+      "collab": "icecube",
+      "email": "moureen@udel.edu",
+      "first": "Najia Moureen Binte",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Amin",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. M. Amin",
+      "collab": "icecube-gen2",
+      "email": "moureen@udel.edu",
+      "first": "Najia Moureen Binte",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Amin",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Andeen",
       "collab": "icecube",
       "email": "karen.andeen@icecube.wisc.edu",
@@ -22287,6 +22326,45 @@
       "last": "Patton",
       "thanks": [],
       "to": "2009-11-23"
+    },
+    {
+      "authname": "E. N. Paudel",
+      "collab": "pingu",
+      "email": "narayan@udel.edu",
+      "first": "Ek Narayan",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Paudel",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. N. Paudel",
+      "collab": "icecube",
+      "email": "narayan@udel.edu",
+      "first": "Ek Narayan",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Paudel",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. N. Paudel",
+      "collab": "icecube-gen2",
+      "email": "narayan@udel.edu",
+      "first": "Ek Narayan",
+      "from": "2020-04-28",
+      "instnames": [
+        "bartol"
+      ],
+      "last": "Paudel",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "L. Paul",
