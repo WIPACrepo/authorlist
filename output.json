@@ -30721,6 +30721,45 @@
       "to": "2019-10-15"
     },
     {
+      "authname": "D. Vannerom",
+      "collab": "icecube-gen2",
+      "email": "vannerom@mit.edu",
+      "first": "David",
+      "from": "2020-05-04",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Vannerom",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Vannerom",
+      "collab": "pingu",
+      "email": "vannerom@mit.edu",
+      "first": "David",
+      "from": "2020-05-04",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Vannerom",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Vannerom",
+      "collab": "icecube",
+      "email": "vannerom@mit.edu",
+      "first": "David",
+      "from": "2020-05-04",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Vannerom",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Van Overloop",
       "collab": "icecube",
       "email": "avoverlo@icecube.wisc.edu",
