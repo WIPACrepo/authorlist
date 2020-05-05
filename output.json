@@ -22315,6 +22315,45 @@
       "to": ""
     },
     {
+      "authname": "G. K. Parker",
+      "collab": "icecube",
+      "email": "grant.parker@mavs.uta.edu",
+      "first": "Grant",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Parker",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. K. Parker",
+      "collab": "pingu",
+      "email": "grant.parker@mavs.uta.edu",
+      "first": "Grant",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Parker",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. K. Parker",
+      "collab": "icecube-gen2",
+      "email": "grant.parker@mavs.uta.edu",
+      "first": "Grant",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Parker",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Patton",
       "collab": "icecube",
       "email": "sjpatton@icecube.wisc.edu",
@@ -27504,6 +27543,45 @@
       "last": "Smith",
       "thanks": [],
       "to": "2015-09-01"
+    },
+    {
+      "authname": "B. Smithers",
+      "collab": "icecube",
+      "email": "benjamin.smithers@mavs.uta.edu",
+      "first": "Ben",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Smithers",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Smithers",
+      "collab": "pingu",
+      "email": "benjamin.smithers@mavs.uta.edu",
+      "first": "Ben",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Smithers",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Smithers",
+      "collab": "icecube-gen2",
+      "email": "benjamin.smithers@mavs.uta.edu",
+      "first": "Ben",
+      "from": "2020-05-05",
+      "instnames": [
+        "arlington"
+      ],
+      "last": "Smithers",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. Snihur",
