@@ -89,7 +89,7 @@ const copyToClipboard = str => {
   }
 };
 function copyPre() {
-    copyToClipboard(document.getElementById("data").innerHTML);
+    copyToClipboard(document.getElementById("data").textContent);
     var e = document.getElementById("copypaste");
     e.classList.add("active");
     setTimeout(function(){
