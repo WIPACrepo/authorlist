@@ -8,11 +8,12 @@ from collections import defaultdict
 from datetime import datetime
 import codecs
 import csv
+import re
 from io import StringIO
 
 import unidecode
 import latexcodec
-from pylatexenc.latexencode import utf8tolatex
+from pylatexenc.latexencode import UnicodeToLatexEncoder, UnicodeToLatexConversionRule, RULE_REGEX
 import tornado.web
 
 ICECUBE_START_DATE = '2003-01-01'
@@ -45,6 +46,23 @@ def author_ordering(a):
         else:
             ret[0] = p + ret[0]
     return [x.lower() for x in ret]
+
+class Latex:
+    def __init__(self):
+        conversion_rules = [
+            # our custom rules
+            UnicodeToLatexConversionRule(RULE_REGEX, [
+                # double \\ needed, see UnicodeToLatexConversionRule
+                ( re.compile(r'\u1ec5'), r'\\~{\\^{{e}}}' ),
+            ]),
+            # plus all the default rules
+            'defaults'
+        ]
+        self.u = UnicodeToLatexEncoder(conversion_rules=conversion_rules,
+                                       replacement_latex_protection='braces-almost-all')
+    def encode(self, text):
+        return self.u.unicode_to_latex(text)
+utf8tolatex = Latex().encode
 
 class CollabHandler(tornado.web.RequestHandler):
     def initialize(self, state, collab=None):
@@ -151,7 +169,7 @@ class CollabHandler(tornado.web.RequestHandler):
             kwargs['wrap'] = True
         elif formatting == 'epjc':
             text = """\\documentclass[twocolumn,epjc3]{svjour3}
-
+\\usepackage[T5,T1]{fontenc}
 \\journalname{Eur. Phys. J. C}
 
 \\begin{document}
@@ -209,7 +227,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 """
         elif formatting == 'revtex4':
             text = """\\documentclass[aps,prl,superscriptaddress]{revtex4-1}
-
+\\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
 \\title{"""+self.collab+""" Author List for Rev{\TeX} """
@@ -256,7 +274,7 @@ class CollabHandler(tornado.web.RequestHandler):
         elif formatting == 'aastex':
             ### New ApJ 6.x formatting
             text = """\\documentclass{aastex62}
-
+\\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
 \\title{"""+self.collab+""" Author List for AAS{\TeX} """
@@ -394,6 +412,7 @@ class CollabHandler(tornado.web.RequestHandler):
         elif formatting == 'aa':
             text = """\\documentclass[longauth]{aa}
 \\usepackage{txfonts}
+\\usepackage[T5,T1]{fontenc}
 \\begin{document}
 \\title{"""+self.collab+""" Author List for A \& A """
             text += date.replace('-','')
@@ -451,6 +470,7 @@ class CollabHandler(tornado.web.RequestHandler):
                 """
         elif formatting == 'elsevier':
             text = """\\documentclass[preprint,12pt]{elsarticle}
+\\usepackage[T5,T1]{fontenc}
 \\journal{Astroparticle Physics}
 \\begin{document}
 \\begin{frontmatter}
@@ -491,6 +511,7 @@ class CollabHandler(tornado.web.RequestHandler):
         elif formatting == 'jhep':
             text = """\\documentclass[preprint,12pt]{article}
 \\usepackage{jheppub}
+\\usepackage[T5,T1]{fontenc}
 \\title{"""+self.collab+""" Author List for JHEP/JCAP """
             text += date.replace('-','') + '}\n\n'
             text += '\n'
@@ -521,6 +542,7 @@ class CollabHandler(tornado.web.RequestHandler):
             text += """
 
 \\begin{document}
+\\maketitle
 \\acknowledgments
 """
             text += '\n'.join(utf8tolatex(a) for a in acks[1:])
