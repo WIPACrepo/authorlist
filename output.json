@@ -8912,6 +8912,45 @@
       "to": "2014-10-31"
     },
     {
+      "authname": "A. Fienberg",
+      "collab": "icecube",
+      "email": "atfienberg@psu.edu",
+      "first": "Aaron",
+      "from": "2020-06-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Fienberg",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fienberg",
+      "collab": "icecube-gen2",
+      "email": "atfienberg@psu.edu",
+      "first": "Aaron",
+      "from": "2020-06-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Fienberg",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fienberg",
+      "collab": "pingu",
+      "email": "atfienberg@psu.edu",
+      "first": "Aaron",
+      "from": "2020-06-02",
+      "instnames": [
+        "pennphys"
+      ],
+      "last": "Fienberg",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Filimonov",
       "collab": "icecube",
       "email": "kirill@icecube.wisc.edu",
