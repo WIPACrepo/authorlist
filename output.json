@@ -12532,6 +12532,45 @@
       "to": ""
     },
     {
+      "authname": "C. Hill",
+      "collab": "pingu",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Hill",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "icecube-gen2",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Hill",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "icecube",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Hill",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. C. Hill",
       "collab": "icecube",
       "email": "ghill@amanda.wisc.edu",
@@ -15504,6 +15543,45 @@
       "last": "Kim",
       "thanks": [],
       "to": "2018-05-04"
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "pingu",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Kin",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "icecube-gen2",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Kin",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "icecube",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Kin",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Kintscher",
@@ -19913,7 +19991,7 @@
       ],
       "last": "Meier",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-01"
     },
     {
       "authname": "M. Meier",
@@ -19926,7 +20004,7 @@
       ],
       "last": "Meier",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-01"
     },
     {
       "authname": "M. Meier",
@@ -19936,6 +20014,45 @@
       "from": "2015-12-17",
       "instnames": [
         "dortmund"
+      ],
+      "last": "Meier",
+      "thanks": [],
+      "to": "2020-06-01"
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "pingu",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Meier",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "icecube-gen2",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
+      ],
+      "last": "Meier",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "icecube",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2020-06-02",
+      "instnames": [
+        "chiba"
       ],
       "last": "Meier",
       "thanks": [],
@@ -28928,7 +29045,7 @@
       ],
       "last": "St\u00f6\u00dfl",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-01"
     },
     {
       "authname": "A. St\u00f6\u00dfl",
@@ -28941,7 +29058,7 @@
       ],
       "last": "St\u00f6\u00dfl",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-01"
     },
     {
       "authname": "A. St\u00f6\u00dfl",
@@ -28954,7 +29071,7 @@
       ],
       "last": "St\u00f6\u00dfl",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-01"
     },
     {
       "authname": "M. C. Stoufer",
