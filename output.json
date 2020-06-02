@@ -25141,6 +25141,45 @@
       "to": "2005-12-20"
     },
     {
+      "authname": "G. Roellinghoff",
+      "collab": "pingu",
+      "email": "gerritr@g.skku.edu",
+      "first": "Gerrit",
+      "from": "2020-06-02",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Roellinghoff",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Roellinghoff",
+      "collab": "icecube-gen2",
+      "email": "gerritr@g.skku.edu",
+      "first": "Gerrit",
+      "from": "2020-06-02",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Roellinghoff",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Roellinghoff",
+      "collab": "icecube",
+      "email": "gerritr@g.skku.edu",
+      "first": "Gerrit",
+      "from": "2020-06-02",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Roellinghoff",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Rongen",
       "collab": "icecube",
       "email": "martin.rongen@icecube.wisc.edu",
