@@ -15027,10 +15027,36 @@
       "authname": "T. Katori",
       "collab": "icecube-gen2",
       "email": "katori@icecube.wisc.edu",
-      "first": "T.",
+      "first": "Teppei",
       "from": "2014-12-16",
       "instnames": [
         "qmlondon"
+      ],
+      "last": "Katori",
+      "thanks": [],
+      "to": "2020-06-25"
+    },
+    {
+      "authname": "T. Katori",
+      "collab": "pingu",
+      "email": "katori@icecube.wisc.edu",
+      "first": "Teppei",
+      "from": "2018-12-19",
+      "instnames": [
+        "qmlondon"
+      ],
+      "last": "Katori",
+      "thanks": [],
+      "to": "2020-06-25"
+    },
+    {
+      "authname": "T. Katori",
+      "collab": "icecube-gen2",
+      "email": "katori@icecube.wisc.edu",
+      "first": "Teppei",
+      "from": "2020-06-26",
+      "instnames": [
+        "kingscollege"
       ],
       "last": "Katori",
       "thanks": [],
@@ -15040,10 +15066,10 @@
       "authname": "T. Katori",
       "collab": "pingu",
       "email": "katori@icecube.wisc.edu",
-      "first": "T.",
-      "from": "2018-12-19",
+      "first": "Teppei",
+      "from": "2020-06-26",
       "instnames": [
-        "qmlondon"
+        "kingscollege"
       ],
       "last": "Katori",
       "thanks": [],
@@ -35014,6 +35040,16 @@
         "pingu"
       ],
       "name": "Karlsruhe"
+    },
+    "kingscollege": {
+      "cite": "Dept. of Physics, King's College London, London WC2R 2LS, United Kingdom",
+      "city": "London",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "King's College London"
     },
     "lausanne": {
       "cite": "Laboratory for High Energy Physics, \u00c9cole Polytechnique F\u00e9d\u00e9rale, CH-1015 Lausanne, Switzerland",
