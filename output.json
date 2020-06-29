@@ -9042,6 +9042,45 @@
       "to": ""
     },
     {
+      "authname": "L. Fischer",
+      "collab": "icecube",
+      "email": "leander.fischer@desy.de",
+      "first": "Leander",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Fischer",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Fischer",
+      "collab": "icecube-gen2",
+      "email": "leander.fischer@desy.de",
+      "first": "Leander",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Fischer",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Fischer",
+      "collab": "pingu",
+      "email": "leander.fischer@desy.de",
+      "first": "Leander",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Fischer",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "T. Fischer-Wasels",
       "collab": "icecube",
       "email": "tobias@icecube.wisc.edu",
@@ -13274,7 +13313,7 @@
       ],
       "last": "Huber",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-28"
     },
     {
       "authname": "T. Huber",
@@ -13288,7 +13327,7 @@
       ],
       "last": "Huber",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-28"
     },
     {
       "authname": "T. Huber",
@@ -13299,6 +13338,45 @@
       "instnames": [
         "karlsruhe",
         "zeuthen"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": "2020-06-28"
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-06-29",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube-gen2",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-06-29",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "pingu",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-06-29",
+      "instnames": [
+        "karlsruhe"
       ],
       "last": "Huber",
       "thanks": [],
@@ -17589,6 +17667,45 @@
       "to": "2011-05-19"
     },
     {
+      "authname": "C. Lagunas Gualda",
+      "collab": "icecube",
+      "email": "cristina.lagunas@desy.de",
+      "first": "Cristina",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Lagunas Gualda",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Lagunas Gualda",
+      "collab": "icecube-gen2",
+      "email": "cristina.lagunas@desy.de",
+      "first": "Cristina",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Lagunas Gualda",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Lagunas Gualda",
+      "collab": "pingu",
+      "email": "cristina.lagunas@desy.de",
+      "first": "Cristina",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Lagunas Gualda",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Laihem",
       "collab": "icecube",
       "email": "karim.laihem@icecube.wisc.edu",
@@ -21403,6 +21520,45 @@
       "to": "2020-10-31"
     },
     {
+      "authname": "R. Naab",
+      "collab": "icecube-gen2",
+      "email": "richard.naab@desy.de",
+      "first": "Richard",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Naab",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Naab",
+      "collab": "icecube",
+      "email": "richard.naab@desy.de",
+      "first": "Richard",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Naab",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Naab",
+      "collab": "pingu",
+      "email": "richard.naab@desy.de",
+      "first": "Richard",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Naab",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Nagai",
       "collab": "icecube",
       "email": "ryo.nagai@icecube.wisc.edu",
@@ -21581,6 +21737,45 @@
         "wuppertal"
       ],
       "last": "Naumann",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Necker",
+      "collab": "icecube",
+      "email": "jannis.necker@desy.de",
+      "first": "Jannis",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Necker",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Necker",
+      "collab": "icecube-gen2",
+      "email": "jannis.necker@desy.de",
+      "first": "Jannis",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Necker",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Necker",
+      "collab": "pingu",
+      "email": "jannis.necker@desy.de",
+      "first": "Jannis",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Necker",
       "thanks": [],
       "to": ""
     },
@@ -24187,7 +24382,7 @@
       ],
       "last": "Rauch",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "L. Rauch",
@@ -24200,7 +24395,7 @@
       ],
       "last": "Rauch",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "L. Rauch",
@@ -24213,7 +24408,7 @@
       ],
       "last": "Rauch",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "K. Rawlins",
@@ -24825,6 +25020,45 @@
         "munich"
       ],
       "last": "Resconi",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Reusch",
+      "collab": "icecube",
+      "email": "simeon.reusch@desy.de",
+      "first": "Simeon",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Reusch",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Reusch",
+      "collab": "icecube-gen2",
+      "email": "simeon.reusch@desy.de",
+      "first": "Simeon",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Reusch",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Reusch",
+      "collab": "pingu",
+      "email": "simeon.reusch@desy.de",
+      "first": "Simeon",
+      "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Reusch",
       "thanks": [],
       "to": ""
     },
@@ -29395,7 +29629,7 @@
       ],
       "last": "Strotjohann",
       "thanks": [],
-      "to": ""
+      "to": "2020-11-01"
     },
     {
       "authname": "N. L. Strotjohann",
@@ -29408,7 +29642,7 @@
       ],
       "last": "Strotjohann",
       "thanks": [],
-      "to": ""
+      "to": "2020-11-01"
     },
     {
       "authname": "N. L. Strotjohann",
@@ -29421,7 +29655,7 @@
       ],
       "last": "Strotjohann",
       "thanks": [],
-      "to": ""
+      "to": "2020-11-01"
     },
     {
       "authname": "M. St\u00fcer",
@@ -30047,7 +30281,7 @@
       ],
       "last": "Terliuk",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "A. Terliuk",
@@ -30060,7 +30294,7 @@
       ],
       "last": "Terliuk",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "A. Terliuk",
@@ -30073,7 +30307,7 @@
       ],
       "last": "Terliuk",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-01"
     },
     {
       "authname": "C. Terranova",
@@ -31136,7 +31370,7 @@
       ],
       "last": "Usner",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-28"
     },
     {
       "authname": "M. Usner",
@@ -31149,7 +31383,7 @@
       ],
       "last": "Usner",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-28"
     },
     {
       "authname": "M. Usner",
@@ -31162,7 +31396,7 @@
       ],
       "last": "Usner",
       "thanks": [],
-      "to": ""
+      "to": "2020-06-28"
     },
     {
       "authname": "S. Vallecorsa",
