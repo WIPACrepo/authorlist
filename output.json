@@ -1808,7 +1808,7 @@
       ],
       "last": "Arg\u00fcelles",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "C. Arg\u00fcelles",
@@ -1818,6 +1818,45 @@
       "from": "2016-06-22",
       "instnames": [
         "mit"
+      ],
+      "last": "Arg\u00fcelles",
+      "thanks": [],
+      "to": "2020-07-08"
+    },
+    {
+      "authname": "C. Arg\u00fcelles",
+      "collab": "pingu",
+      "email": "carlos.arguelles@icecube.wisc.edu",
+      "first": "Carlos",
+      "from": "2020-07-09",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Arg\u00fcelles",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Arg\u00fcelles",
+      "collab": "icecube",
+      "email": "carlos.arguelles@icecube.wisc.edu",
+      "first": "Carlos",
+      "from": "2020-07-09",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Arg\u00fcelles",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Arg\u00fcelles",
+      "collab": "icecube-gen2",
+      "email": "carlos.arguelles@icecube.wisc.edu",
+      "first": "Carlos",
+      "from": "2020-07-09",
+      "instnames": [
+        "harvard"
       ],
       "last": "Arg\u00fcelles",
       "thanks": [],
@@ -1834,7 +1873,7 @@
       ],
       "last": "Arg\u00fcelles",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "T. C. Arlen",
@@ -18182,7 +18221,7 @@
       ],
       "last": "Lazar",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "J. P. Lazar",
@@ -18195,7 +18234,7 @@
       ],
       "last": "Lazar",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "J. P. Lazar",
@@ -18205,6 +18244,48 @@
       "from": "2018-12-17",
       "instnames": [
         "madisonpac"
+      ],
+      "last": "Lazar",
+      "thanks": [],
+      "to": "2020-07-08"
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
+      ],
+      "last": "Lazar",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube-gen2",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
+      ],
+      "last": "Lazar",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "pingu",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
       ],
       "last": "Lazar",
       "thanks": [],
@@ -26297,7 +26378,7 @@
       ],
       "last": "Safa",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "I. Safa",
@@ -26310,7 +26391,7 @@
       ],
       "last": "Safa",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-08"
     },
     {
       "authname": "I. Safa",
@@ -26320,6 +26401,48 @@
       "from": "2017-12-18",
       "instnames": [
         "madisonpac"
+      ],
+      "last": "Safa",
+      "thanks": [],
+      "to": "2020-07-08"
+    },
+    {
+      "authname": "I. Safa",
+      "collab": "icecube",
+      "email": "ibrahim.safa@icecube.wisc.edu",
+      "first": "Ibrahim",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
+      ],
+      "last": "Safa",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Safa",
+      "collab": "icecube-gen2",
+      "email": "ibrahim.safa@icecube.wisc.edu",
+      "first": "Ibrahim",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
+      ],
+      "last": "Safa",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Safa",
+      "collab": "pingu",
+      "email": "ibrahim.safa@icecube.wisc.edu",
+      "first": "Ibrahim",
+      "from": "2020-07-09",
+      "instnames": [
+        "madisonpac",
+        "harvard"
       ],
       "last": "Safa",
       "thanks": [],
@@ -35351,6 +35474,16 @@
         "pingu"
       ],
       "name": "GeorgiaOld"
+    },
+    "harvard": {
+      "cite": "Department of Physics and Laboratory for Particle Physics and Cosmology, Harvard University, Cambridge, MA 02138, USA",
+      "city": "Cambridge",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Harvard"
     },
     "heidelberg": {
       "cite": "Max-Planck-Institut f\u00fcr Kernphysik, D-69177 Heidelberg, Germany",
