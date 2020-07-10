@@ -468,7 +468,7 @@
     {
       "from": "2017-12-13",
       "to": "",
-      "value": "Center for High Throughput Computing (CHTC) at the University of Wisconsin-Madison,"
+      "value": "Center for High Throughput Computing (CHTC) at the University of Wisconsin–Madison,"
     },
     {
       "from": "2017-12-13",
@@ -35576,7 +35576,7 @@
       "name": "Loyola"
     },
     "madison": {
-      "cite": "Dept. of Physics, University of Wisconsin, Madison, WI 53706, USA",
+      "cite": "Dept. of Physics, University of Wisconsin–Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",
@@ -35586,7 +35586,7 @@
       "name": "Madison"
     },
     "madisonastro": {
-      "cite": "Dept. of Astronomy, University of Wisconsin, Madison, WI 53706, USA",
+      "cite": "Dept. of Astronomy, University of Wisconsin–Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",
@@ -35596,7 +35596,7 @@
       "name": "MadisonAstro"
     },
     "madisonpac": {
-      "cite": "Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin, Madison, WI 53706, USA",
+      "cite": "Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin–Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",

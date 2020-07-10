@@ -250,7 +250,7 @@ body.collab ul.authors li, body.collab ul.authors ul, body.collab ul.authors ul 
 body.collab ul.comma li:not(:last-child):after {
     content: ',';
 }
-body.collab ol.thanks {
+body ol.thanks {
     list-style-type: lower-alpha;
     margin-top: 1em;
 }
