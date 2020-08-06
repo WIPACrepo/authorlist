@@ -3048,6 +3048,45 @@
       "to": "2013-05-31"
     },
     {
+      "authname": "C. Bellenghi",
+      "collab": "icecube-gen2",
+      "email": "chiara.bellenghi@tum.de",
+      "first": "Chiara",
+      "from": "2020-07-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Bellenghi",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Bellenghi",
+      "collab": "icecube",
+      "email": "chiara.bellenghi@tum.de",
+      "first": "Chiara",
+      "from": "2020-07-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Bellenghi",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Bellenghi",
+      "collab": "pingu",
+      "email": "chiara.bellenghi@tum.de",
+      "first": "Chiara",
+      "from": "2020-07-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Bellenghi",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. L. Benabderrahmane",
       "collab": "icecube",
       "first": "M. L.",
@@ -8403,7 +8442,7 @@
       ],
       "last": "Eller",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-31"
     },
     {
       "authname": "P. Eller",
@@ -8416,7 +8455,7 @@
       ],
       "last": "Eller",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-31"
     },
     {
       "authname": "P. Eller",
@@ -8426,6 +8465,45 @@
       "from": "2016-06-07",
       "instnames": [
         "pennphys"
+      ],
+      "last": "Eller",
+      "thanks": [],
+      "to": "2020-07-31"
+    },
+    {
+      "authname": "P. Eller",
+      "collab": "icecube-gen2",
+      "email": "philipp.eller@icecube.wisc.edu",
+      "first": "Philipp",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Eller",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Eller",
+      "collab": "icecube",
+      "email": "philipp.eller@icecube.wisc.edu",
+      "first": "Philipp",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Eller",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Eller",
+      "collab": "pingu",
+      "email": "philipp.eller@icecube.wisc.edu",
+      "first": "Philipp",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
       ],
       "last": "Eller",
       "thanks": [],
@@ -11338,7 +11416,7 @@
       ],
       "last": "Haack",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-31"
     },
     {
       "authname": "C. Haack",
@@ -11351,7 +11429,7 @@
       ],
       "last": "Haack",
       "thanks": [],
-      "to": ""
+      "to": "2020-07-31"
     },
     {
       "authname": "C. Haack",
@@ -11361,6 +11439,45 @@
       "from": "2013-12-01",
       "instnames": [
         "aachen"
+      ],
+      "last": "Haack",
+      "thanks": [],
+      "to": "2020-07-31"
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube-gen2",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Haack",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Haack",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "pingu",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-01",
+      "instnames": [
+        "munich"
       ],
       "last": "Haack",
       "thanks": [],
@@ -11623,6 +11740,45 @@
         "madisonpac"
       ],
       "last": "Halzen",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ha Minh",
+      "collab": "icecube-gen2",
+      "email": "haminh@mpp.mpg.de",
+      "first": "Martin",
+      "from": "2020-09-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Ha Minh",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ha Minh",
+      "collab": "icecube",
+      "email": "haminh@mpp.mpg.de",
+      "first": "Martin",
+      "from": "2020-09-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Ha Minh",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ha Minh",
+      "collab": "pingu",
+      "email": "haminh@mpp.mpg.de",
+      "first": "Martin",
+      "from": "2020-09-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Ha Minh",
       "thanks": [],
       "to": ""
     },
