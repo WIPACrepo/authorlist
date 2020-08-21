@@ -29136,7 +29136,7 @@
       ],
       "last": "Spiering",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-20"
     },
     {
       "authname": "C. Spiering",
@@ -29149,7 +29149,7 @@
       ],
       "last": "Spiering",
       "thanks": [],
-      "to": ""
+      "to": "2020-08-20"
     },
     {
       "authname": "C. Spiering",
@@ -29162,6 +29162,51 @@
       ],
       "last": "Spiering",
       "thanks": [],
+      "to": "2020-08-20"
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "thanks": [
+        "mephi"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube-gen2",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "thanks": [
+        "mephi"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "pingu",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-08-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "thanks": [
+        "mephi"
+      ],
       "to": ""
     },
     {
