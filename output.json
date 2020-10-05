@@ -19177,11 +19177,51 @@
     {
       "authname": "A. Ludwig",
       "collab": "pingu",
-      "email": "abl@physics.ucla.edu",
+      "email": "andrew.ludwig@icecube.wisc.edu",
       "first": "Andrew",
       "from": "2020-01-21",
       "instnames": [
         "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube",
+      "email": "andrew.ludwig@icecube.wisc.edu",
+      "first": "Andrew",
+      "from": "2020-01-21",
+      "instnames": [
+        "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube-gen2",
+      "email": "andrew.ludwig@icecube.wisc.edu",
+      "first": "Andrew",
+      "from": "2020-01-21",
+      "instnames": [
+        "ucla"
+      ],
+      "last": "Ludwig",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "pingu",
+      "email": "andrew.ludwig@icecube.wisc.edu",
+      "first": "Andrew",
+      "from": "2020-10-01",
+      "instnames": [
+        "ucla",
+        "michigan"
       ],
       "last": "Ludwig",
       "thanks": [],
@@ -19190,11 +19230,12 @@
     {
       "authname": "A. Ludwig",
       "collab": "icecube",
-      "email": "abl@physics.ucla.edu",
+      "email": "andrew.ludwig@icecube.wisc.edu",
       "first": "Andrew",
-      "from": "2020-01-21",
+      "from": "2020-10-01",
       "instnames": [
-        "ucla"
+        "ucla",
+        "michigan"
       ],
       "last": "Ludwig",
       "thanks": [],
@@ -19203,11 +19244,12 @@
     {
       "authname": "A. Ludwig",
       "collab": "icecube-gen2",
-      "email": "abl@physics.ucla.edu",
+      "email": "andrew.ludwig@icecube.wisc.edu",
       "first": "Andrew",
-      "from": "2020-01-21",
+      "from": "2020-10-01",
       "instnames": [
-        "ucla"
+        "ucla",
+        "michigan"
       ],
       "last": "Ludwig",
       "thanks": [],
@@ -33747,7 +33789,7 @@
       ],
       "last": "Whitehorn",
       "thanks": [],
-      "to": ""
+      "to": "2020-09-30"
     },
     {
       "authname": "N. Whitehorn",
@@ -33760,7 +33802,7 @@
       ],
       "last": "Whitehorn",
       "thanks": [],
-      "to": ""
+      "to": "2020-09-30"
     },
     {
       "authname": "N. Whitehorn",
@@ -33770,6 +33812,48 @@
       "from": "2018-06-21",
       "instnames": [
         "ucla"
+      ],
+      "last": "Whitehorn",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "N. Whitehorn",
+      "collab": "pingu",
+      "email": "nathan.whitehorn@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2020-10-01",
+      "instnames": [
+        "ucla",
+        "michigan"
+      ],
+      "last": "Whitehorn",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Whitehorn",
+      "collab": "icecube",
+      "email": "nathan.whitehorn@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2020-10-01",
+      "instnames": [
+        "ucla",
+        "michigan"
+      ],
+      "last": "Whitehorn",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Whitehorn",
+      "collab": "icecube-gen2",
+      "email": "nathan.whitehorn@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2020-10-01",
+      "instnames": [
+        "ucla",
+        "michigan"
       ],
       "last": "Whitehorn",
       "thanks": [],
