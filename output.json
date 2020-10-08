@@ -9521,7 +9521,7 @@
       ],
       "last": "Franckowiak",
       "thanks": [],
-      "to": ""
+      "to": "2020-10-06"
     },
     {
       "authname": "A. Franckowiak",
@@ -9534,7 +9534,7 @@
       ],
       "last": "Franckowiak",
       "thanks": [],
-      "to": ""
+      "to": "2020-10-06"
     },
     {
       "authname": "A. Franckowiak",
@@ -9544,6 +9544,48 @@
       "from": "2016-05-06",
       "instnames": [
         "zeuthen"
+      ],
+      "last": "Franckowiak",
+      "thanks": [],
+      "to": "2020-10-06"
+    },
+    {
+      "authname": "A. Franckowiak",
+      "collab": "icecube-gen2",
+      "email": "anna.franckowiak@desy.de",
+      "first": "Anna",
+      "from": "2020-10-07",
+      "instnames": [
+        "zeuthen",
+        "bochum"
+      ],
+      "last": "Franckowiak",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Franckowiak",
+      "collab": "icecube",
+      "email": "anna.franckowiak@desy.de",
+      "first": "Anna",
+      "from": "2020-10-07",
+      "instnames": [
+        "zeuthen",
+        "bochum"
+      ],
+      "last": "Franckowiak",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Franckowiak",
+      "collab": "pingu",
+      "email": "anna.franckowiak@desy.de",
+      "first": "Anna",
+      "from": "2020-10-07",
+      "instnames": [
+        "zeuthen",
+        "bochum"
       ],
       "last": "Franckowiak",
       "thanks": [],
