@@ -12205,6 +12205,45 @@
       "to": "2006-11-05"
     },
     {
+      "authname": "A. A. Harnisch",
+      "collab": "pingu",
+      "email": "alexander.harnisch@icecube.wisc.edu",
+      "first": "Alexander A.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Harnisch",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. A. Harnisch",
+      "collab": "icecube-gen2",
+      "email": "alexander.harnisch@icecube.wisc.edu",
+      "first": "Alexander A.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Harnisch",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. A. Harnisch",
+      "collab": "icecube",
+      "email": "alexander.harnisch@icecube.wisc.edu",
+      "first": "Alexander A.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Harnisch",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. E. Hart",
       "collab": "icecube",
       "email": "jhart@icecube.wisc.edu",
@@ -12798,6 +12837,45 @@
       "last": "Herquet",
       "thanks": [],
       "to": "2011-05-19"
+    },
+    {
+      "authname": "E. C. Hettinger",
+      "collab": "pingu",
+      "email": "emma.hettinger@icecube.wisc.edu",
+      "first": "Emma C.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Hettinger",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. C. Hettinger",
+      "collab": "icecube-gen2",
+      "email": "emma.hettinger@icecube.wisc.edu",
+      "first": "Emma C.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Hettinger",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. C. Hettinger",
+      "collab": "icecube",
+      "email": "emma.hettinger@icecube.wisc.edu",
+      "first": "Emma C.",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Hettinger",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Hickford",
@@ -24529,6 +24607,45 @@
         "berkeley"
       ],
       "last": "Price",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Pries",
+      "collab": "pingu",
+      "email": "brandon.pries@icecube.wisc.edu",
+      "first": "Brandom",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Pries",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Pries",
+      "collab": "icecube-gen2",
+      "email": "brandon.pries@icecube.wisc.edu",
+      "first": "Brandom",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Pries",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Pries",
+      "collab": "icecube",
+      "email": "brandon.pries@icecube.wisc.edu",
+      "first": "Brandom",
+      "from": "2020-10-12",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Pries",
       "thanks": [],
       "to": ""
     },
