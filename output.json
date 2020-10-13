@@ -2393,23 +2393,49 @@
       "authname": "A. Balagopal V.",
       "collab": "icecube-gen2",
       "email": "aswathi.balagopalv@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Aswathi",
       "from": "2017-05-29",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Balagopal V.",
       "thanks": [],
-      "to": ""
+      "to": "2020-09-30"
     },
     {
       "authname": "A. Balagopal V.",
       "collab": "icecube",
       "email": "aswathi.balagopalv@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Aswathi",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
+      ],
+      "last": "Balagopal V.",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "pingu",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Balagopal V.",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "icecube-gen2",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2020-10-01",
+      "instnames": [
+        "madisonpac"
       ],
       "last": "Balagopal V.",
       "thanks": [],
@@ -2419,10 +2445,23 @@
       "authname": "A. Balagopal V.",
       "collab": "pingu",
       "email": "aswathi.balagopalv@icecube.wisc.edu",
-      "first": "A.",
-      "from": "2019-06-10",
+      "first": "Aswathi",
+      "from": "2020-10-01",
       "instnames": [
-        "karlsruhe"
+        "madisonpac"
+      ],
+      "last": "Balagopal V.",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "icecube",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2020-10-01",
+      "instnames": [
+        "madisonpac"
       ],
       "last": "Balagopal V.",
       "thanks": [],
@@ -7980,6 +8019,45 @@
       "first": "Hrvoje",
       "from": "2019-09-30",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "icecube",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2019-09-30",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "pingu",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2019-09-30",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Dujmovic",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Dujmovic",
+      "collab": "icecube-gen2",
+      "email": "hrvoje.dujmovic@icecube.wisc.edu",
+      "first": "Hrvoje",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Dujmovic",
@@ -7991,7 +8069,7 @@
       "collab": "icecube",
       "email": "hrvoje.dujmovic@icecube.wisc.edu",
       "first": "Hrvoje",
-      "from": "2019-09-30",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -8004,7 +8082,7 @@
       "collab": "pingu",
       "email": "hrvoje.dujmovic@icecube.wisc.edu",
       "first": "Hrvoje",
-      "from": "2019-09-30",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -8677,6 +8755,45 @@
       "first": "Ralph",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Engel",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Engel",
+      "collab": "icecube",
+      "email": "ralph.engel@icecube.wisc.edu",
+      "first": "Ralph",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Engel",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Engel",
+      "collab": "pingu",
+      "email": "ralph.engel@icecube.wisc.edu",
+      "first": "Ralph",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Engel",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Engel",
+      "collab": "icecube-gen2",
+      "email": "ralph.engel@icecube.wisc.edu",
+      "first": "Ralph",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Engel",
@@ -8688,7 +8805,7 @@
       "collab": "icecube",
       "email": "ralph.engel@icecube.wisc.edu",
       "first": "Ralph",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -8701,7 +8818,7 @@
       "collab": "pingu",
       "email": "ralph.engel@icecube.wisc.edu",
       "first": "Ralph",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -12548,6 +12665,45 @@
       "first": "Andreas",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Haungs",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Haungs",
+      "collab": "icecube",
+      "email": "andreas.haungs@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Haungs",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Haungs",
+      "collab": "pingu",
+      "email": "andreas.haungs@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Haungs",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Haungs",
+      "collab": "icecube-gen2",
+      "email": "andreas.haungs@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Haungs",
@@ -12559,7 +12715,7 @@
       "collab": "icecube",
       "email": "andreas.haungs@icecube.wisc.edu",
       "first": "Andreas",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -12572,7 +12728,7 @@
       "collab": "pingu",
       "email": "andreas.haungs@icecube.wisc.edu",
       "first": "Andreas",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -13495,6 +13651,19 @@
       "first": "Benjamin",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Hoffmann",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "B. Hoffmann",
+      "collab": "icecube-gen2",
+      "email": "bhoffmann@icecube.wisc.edu",
+      "first": "Benjamin",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Hoffmann",
@@ -13901,7 +14070,7 @@
       "first": "Thomas",
       "from": "2017-05-29",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Huber",
       "thanks": [],
@@ -13914,7 +14083,7 @@
       "first": "Thomas",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Huber",
       "thanks": [],
@@ -13927,7 +14096,7 @@
       "first": "Thomas",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Huber",
       "thanks": [],
@@ -13940,7 +14109,7 @@
       "first": "Thomas",
       "from": "2019-06-18",
       "instnames": [
-        "karlsruhe",
+        "karlsruhe_old",
         "zeuthen"
       ],
       "last": "Huber",
@@ -13954,7 +14123,7 @@
       "first": "Thomas",
       "from": "2019-06-18",
       "instnames": [
-        "karlsruhe",
+        "karlsruhe_old",
         "zeuthen"
       ],
       "last": "Huber",
@@ -13968,7 +14137,7 @@
       "first": "Thomas",
       "from": "2019-06-18",
       "instnames": [
-        "karlsruhe",
+        "karlsruhe_old",
         "zeuthen"
       ],
       "last": "Huber",
@@ -13982,6 +14151,45 @@
       "first": "Thomas",
       "from": "2020-06-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube-gen2",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-06-29",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "pingu",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-06-29",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Huber",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "T. Huber",
+      "collab": "icecube",
+      "email": "thomas.huber@kit.edu",
+      "first": "Thomas",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Huber",
@@ -13993,7 +14201,7 @@
       "collab": "icecube-gen2",
       "email": "thomas.huber@kit.edu",
       "first": "Thomas",
-      "from": "2020-06-29",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -14006,7 +14214,7 @@
       "collab": "pingu",
       "email": "thomas.huber@kit.edu",
       "first": "Thomas",
-      "from": "2020-06-29",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -14033,6 +14241,19 @@
       "email": "thuege@icecube.wisc.edu",
       "first": "Tim",
       "from": "2017-05-29",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Huege",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "T. Huege",
+      "collab": "icecube-gen2",
+      "email": "thuege@icecube.wisc.edu",
+      "first": "Tim",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -15346,6 +15567,45 @@
       "first": "Donghwa",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Kang",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "D. Kang",
+      "collab": "icecube",
+      "email": "donghwa.kang@kit.edu",
+      "first": "Donghwa",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Kang",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "D. Kang",
+      "collab": "pingu",
+      "email": "donghwa.kang@kit.edu",
+      "first": "Donghwa",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Kang",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "D. Kang",
+      "collab": "icecube-gen2",
+      "email": "donghwa.kang@kit.edu",
+      "first": "Donghwa",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Kang",
@@ -15357,7 +15617,7 @@
       "collab": "icecube",
       "email": "donghwa.kang@kit.edu",
       "first": "Donghwa",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -15370,7 +15630,7 @@
       "collab": "pingu",
       "email": "donghwa.kang@kit.edu",
       "first": "Donghwa",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -17368,6 +17628,45 @@
       "first": "Paras",
       "from": "2020-04-01",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Koundal",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "P. Koundal",
+      "collab": "pingu",
+      "email": "paras.koundal@kit.edu",
+      "first": "Paras",
+      "from": "2020-04-01",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Koundal",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "P. Koundal",
+      "collab": "icecube",
+      "email": "paras.koundal@kit.edu",
+      "first": "Paras",
+      "from": "2020-04-01",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Koundal",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "P. Koundal",
+      "collab": "icecube-gen2",
+      "email": "paras.koundal@kit.edu",
+      "first": "Paras",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Koundal",
@@ -17379,7 +17678,7 @@
       "collab": "pingu",
       "email": "paras.koundal@kit.edu",
       "first": "Paras",
-      "from": "2020-04-01",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -17392,7 +17691,7 @@
       "collab": "icecube",
       "email": "paras.koundal@kit.edu",
       "first": "Paras",
-      "from": "2020-04-01",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -19034,6 +19333,45 @@
       "first": "Agnieszka",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Leszczy\u0144ska",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Leszczy\u0144ska",
+      "collab": "icecube",
+      "email": "agnieszka.leszczynska@icecube.wisc.edu",
+      "first": "Agnieszka",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Leszczy\u0144ska",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Leszczy\u0144ska",
+      "collab": "pingu",
+      "email": "agnieszka.leszczynska@icecube.wisc.edu",
+      "first": "Agnieszka",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Leszczy\u0144ska",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Leszczy\u0144ska",
+      "collab": "icecube-gen2",
+      "email": "agnieszka.leszczynska@icecube.wisc.edu",
+      "first": "Agnieszka",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Leszczy\u0144ska",
@@ -19045,7 +19383,7 @@
       "collab": "icecube",
       "email": "agnieszka.leszczynska@icecube.wisc.edu",
       "first": "Agnieszka",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -19058,7 +19396,7 @@
       "collab": "pingu",
       "email": "agnieszka.leszczynska@icecube.wisc.edu",
       "first": "Agnieszka",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -23177,6 +23515,45 @@
       "first": "Marie",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Oehler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Oehler",
+      "collab": "icecube",
+      "email": "marie.oehler@icecube.wisc.edu",
+      "first": "Marie",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Oehler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Oehler",
+      "collab": "pingu",
+      "email": "marie.oehler@icecube.wisc.edu",
+      "first": "Marie",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Oehler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Oehler",
+      "collab": "icecube-gen2",
+      "email": "marie.oehler@icecube.wisc.edu",
+      "first": "Marie",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Oehler",
@@ -23188,7 +23565,7 @@
       "collab": "icecube",
       "email": "marie.oehler@icecube.wisc.edu",
       "first": "Marie",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -23201,7 +23578,7 @@
       "collab": "pingu",
       "email": "marie.oehler@icecube.wisc.edu",
       "first": "Marie",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -25664,6 +26041,45 @@
       "first": "Max",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Renschler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Renschler",
+      "collab": "icecube",
+      "email": "max.renschler@icecube.wisc.edu",
+      "first": "Max",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Renschler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Renschler",
+      "collab": "pingu",
+      "email": "max.renschler@icecube.wisc.edu",
+      "first": "Max",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Renschler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Renschler",
+      "collab": "icecube-gen2",
+      "email": "max.renschler@icecube.wisc.edu",
+      "first": "Max",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Renschler",
@@ -25675,7 +26091,7 @@
       "collab": "icecube",
       "email": "max.renschler@icecube.wisc.edu",
       "first": "Max",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -25688,7 +26104,7 @@
       "collab": "pingu",
       "email": "max.renschler@icecube.wisc.edu",
       "first": "Max",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -26226,6 +26642,19 @@
       "email": "mriegel@icecube.wisc.edu",
       "first": "Michael",
       "from": "2017-05-29",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Riegel",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Riegel",
+      "collab": "icecube-gen2",
+      "email": "mriegel@icecube.wisc.edu",
+      "first": "Michael",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -27932,6 +28361,45 @@
       "first": "Harald",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Schieler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Schieler",
+      "collab": "icecube",
+      "email": "harald.schieler@kit.edu",
+      "first": "Harald",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Schieler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Schieler",
+      "collab": "pingu",
+      "email": "harald.schieler@kit.edu",
+      "first": "Harald",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Schieler",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "H. Schieler",
+      "collab": "icecube-gen2",
+      "email": "harald.schieler@kit.edu",
+      "first": "Harald",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Schieler",
@@ -27943,7 +28411,7 @@
       "collab": "icecube",
       "email": "harald.schieler@kit.edu",
       "first": "Harald",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -27956,7 +28424,7 @@
       "collab": "pingu",
       "email": "harald.schieler@kit.edu",
       "first": "Harald",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -28413,7 +28881,7 @@
       "first": "Frank",
       "from": "2017-05-29",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Schr\u00f6der",
       "thanks": [],
@@ -28453,6 +28921,48 @@
       "from": "2019-04-27",
       "instnames": [
         "bartol",
+        "karlsruhe_old"
+      ],
+      "last": "Schr\u00f6der",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "F. G. Schr\u00f6der",
+      "collab": "pingu",
+      "email": "frank.schroeder@icecube.wisc.edu",
+      "first": "Frank",
+      "from": "2019-06-10",
+      "instnames": [
+        "bartol",
+        "karlsruhe_old"
+      ],
+      "last": "Schr\u00f6der",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "F. G. Schr\u00f6der",
+      "collab": "icecube",
+      "email": "frank.schroeder@icecube.wisc.edu",
+      "first": "Frank",
+      "from": "2019-06-10",
+      "instnames": [
+        "bartol",
+        "karlsruhe_old"
+      ],
+      "last": "Schr\u00f6der",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "F. G. Schr\u00f6der",
+      "collab": "icecube-gen2",
+      "email": "frank.schroeder@icecube.wisc.edu",
+      "first": "Frank",
+      "from": "2020-10-01",
+      "instnames": [
+        "bartol",
         "karlsruhe"
       ],
       "last": "Schr\u00f6der",
@@ -28464,7 +28974,7 @@
       "collab": "pingu",
       "email": "frank.schroeder@icecube.wisc.edu",
       "first": "Frank",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "bartol",
         "karlsruhe"
@@ -28478,7 +28988,7 @@
       "collab": "icecube",
       "email": "frank.schroeder@icecube.wisc.edu",
       "first": "Frank",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "bartol",
         "karlsruhe"
@@ -30170,7 +30680,7 @@
       "first": "Peter",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Steinm\u00fcller",
       "thanks": [],
@@ -30183,7 +30693,7 @@
       "first": "Peter",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Steinm\u00fcller",
       "thanks": [],
@@ -30196,7 +30706,7 @@
       "first": "Peter",
       "from": "2019-06-10",
       "instnames": [
-        "karlsruhe"
+        "karlsruhe_old"
       ],
       "last": "Steinm\u00fcller",
       "thanks": [],
@@ -32117,6 +32627,45 @@
       "first": "Roxanne",
       "from": "2019-06-10",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Turcotte",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Turcotte",
+      "collab": "icecube-gen2",
+      "email": "roxanne.turcotte@icecube.wisc.edu",
+      "first": "Roxanne",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Turcotte",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Turcotte",
+      "collab": "pingu",
+      "email": "roxanne.turcotte@icecube.wisc.edu",
+      "first": "Roxanne",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Turcotte",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "R. Turcotte",
+      "collab": "icecube",
+      "email": "roxanne.turcotte@icecube.wisc.edu",
+      "first": "Roxanne",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Turcotte",
@@ -32128,7 +32677,7 @@
       "collab": "icecube-gen2",
       "email": "roxanne.turcotte@icecube.wisc.edu",
       "first": "Roxanne",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -32141,7 +32690,7 @@
       "collab": "pingu",
       "email": "roxanne.turcotte@icecube.wisc.edu",
       "first": "Roxanne",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -32936,6 +33485,19 @@
       "email": "darko.veberic@icecube.wisc.edu",
       "first": "Darko",
       "from": "2017-05-29",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Veberic",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "D. Veberic",
+      "collab": "icecube-gen2",
+      "email": "darko.veberic@icecube.wisc.edu",
+      "first": "Darko",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -33814,6 +34376,45 @@
       "first": "Andreas",
       "from": "2017-05-29",
       "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Weindl",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Weindl",
+      "collab": "icecube",
+      "email": "andreas.weindl@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Weindl",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Weindl",
+      "collab": "pingu",
+      "email": "andreas.weindl@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2019-06-10",
+      "instnames": [
+        "karlsruhe_old"
+      ],
+      "last": "Weindl",
+      "thanks": [],
+      "to": "2020-09-30"
+    },
+    {
+      "authname": "A. Weindl",
+      "collab": "icecube-gen2",
+      "email": "andreas.weindl@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2020-10-01",
+      "instnames": [
         "karlsruhe"
       ],
       "last": "Weindl",
@@ -33825,7 +34426,7 @@
       "collab": "icecube",
       "email": "andreas.weindl@icecube.wisc.edu",
       "first": "Andreas",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -33838,7 +34439,7 @@
       "collab": "pingu",
       "email": "andreas.weindl@icecube.wisc.edu",
       "first": "Andreas",
-      "from": "2019-06-10",
+      "from": "2020-10-01",
       "instnames": [
         "karlsruhe"
       ],
@@ -36394,7 +36995,7 @@
       "name": "Kansas"
     },
     "karlsruhe": {
-      "cite": "Karlsruhe Institute of Technology, Institut f\u00fcr Kernphysik, D-76021 Karlsruhe, Germany",
+      "cite": "Karlsruhe Institute of Technology, Institute for Astroparticle Physics, D-76021 Karlsruhe, Germany ",
       "city": "Karlsruhe",
       "collabs": [
         "icecube",
@@ -36402,6 +37003,16 @@
         "pingu"
       ],
       "name": "Karlsruhe"
+    },
+    "karlsruhe_old": {
+      "cite": "Karlsruhe Institute of Technology, Institut f\u00fcr Kernphysik, D-76021 Karlsruhe, Germany",
+      "city": "Karlsruhe",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "KarlsruheOld"
     },
     "kingscollege": {
       "cite": "Dept. of Physics, King's College London, London WC2R 2LS, United Kingdom",
