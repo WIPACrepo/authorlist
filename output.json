@@ -9385,6 +9385,45 @@
       "to": "2014-10-31"
     },
     {
+      "authname": "S. Fiedlschuster",
+      "collab": "pingu",
+      "email": "sebastian.fiedlschuster@fau.de",
+      "first": "Sebastian",
+      "from": "2020-10-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Fiedlschuster",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Fiedlschuster",
+      "collab": "icecube-gen2",
+      "email": "sebastian.fiedlschuster@fau.de",
+      "first": "Sebastian",
+      "from": "2020-10-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Fiedlschuster",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Fiedlschuster",
+      "collab": "icecube",
+      "email": "sebastian.fiedlschuster@fau.de",
+      "first": "Sebastian",
+      "from": "2020-10-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Fiedlschuster",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A.T. Fienberg",
       "collab": "icecube",
       "email": "atfienberg@psu.edu",
