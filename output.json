@@ -20288,11 +20288,50 @@
     {
       "authname": "J. Madsen",
       "collab": "icecube",
-      "email": "james.madsen@uwrf.edu",
+      "email": "jim.madsen@icecube.wisc.edu",
       "first": "James",
       "from": "2003-01-01",
       "instnames": [
         "riverfalls"
+      ],
+      "last": "Madsen",
+      "thanks": [],
+      "to": "2020-10-19"
+    },
+    {
+      "authname": "J. Madsen",
+      "collab": "icecube-gen2",
+      "email": "jim.madsen@icecube.wisc.edu",
+      "first": "James",
+      "from": "2014-12-16",
+      "instnames": [
+        "riverfalls"
+      ],
+      "last": "Madsen",
+      "thanks": [],
+      "to": "2020-10-19"
+    },
+    {
+      "authname": "J. Madsen",
+      "collab": "pingu",
+      "email": "jim.madsen@icecube.wisc.edu,
+      "first": "James",
+      "from": "2013-06-25",
+      "instnames": [
+        "riverfalls"
+      ],
+      "last": "Madsen",
+      "thanks": [],
+      "to": "2020-10-19"
+    },
+    {
+      "authname": "J. Madsen",
+      "collab": "icecube",
+      "email": "jim.madsen@icecube.wisc.edu",
+      "first": "James",
+      "from": "2020-10-20",
+      "instnames": [
+        "madisonpac"
       ],
       "last": "Madsen",
       "thanks": [],
@@ -20301,11 +20340,11 @@
     {
       "authname": "J. Madsen",
       "collab": "icecube-gen2",
-      "email": "james.madsen@uwrf.edu",
+      "email": "jim.madsen@icecube.wisc.edu",
       "first": "James",
-      "from": "2014-12-16",
+      "from": "2020-10-20",
       "instnames": [
-        "riverfalls"
+        "madisonpac"
       ],
       "last": "Madsen",
       "thanks": [],
@@ -20314,11 +20353,11 @@
     {
       "authname": "J. Madsen",
       "collab": "pingu",
-      "email": "james.madsen@uwrf.edu",
+      "email": "jim.madsen@icecube.wisc.edu",
       "first": "James",
-      "from": "2013-06-25",
+      "from": "2020-10-20",
       "instnames": [
-        "riverfalls"
+        "madisonpac"
       ],
       "last": "Madsen",
       "thanks": [],
