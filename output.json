@@ -1507,6 +1507,45 @@
       "to": ""
     },
     {
+      "authname": "R. An",
+      "collab": "icecube",
+      "email": "rui_an@g.harvard.edu",
+      "first": "Rui",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "An",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. An",
+      "collab": "icecube-gen2",
+      "email": "rui_an@g.harvard.edu",
+      "first": "Rui",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "An",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. An",
+      "collab": "pingu",
+      "email": "rui_an@g.harvard.edu",
+      "first": "Rui",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "An",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Andeen",
       "collab": "icecube",
       "email": "karen.andeen@icecube.wisc.edu",
@@ -29899,6 +29938,45 @@
       "last": "Singh",
       "thanks": [],
       "to": "2011-01-01"
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube",
+      "email": "bskrzypek@g.harvard.edu",
+      "first": "Barbara",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Skrzypek",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube-gen2",
+      "email": "bskrzypek@g.harvard.edu",
+      "first": "Barbara",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Skrzypek",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "pingu",
+      "email": "bskrzypek@g.harvard.edu",
+      "first": "Barbara",
+      "from": "2020-11-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Skrzypek",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. Slipak",
