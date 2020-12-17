@@ -20,8 +20,10 @@ var loadDeps = async function(baseurl){
 };
 
 const authorlist_html = `
-<h2>{{ collab_options[filters.collab] }}</h2>
 <div class="authorlist_filters"><form v-on:submit.prevent="update" autocomplete="off">
+  <div class="input vcenter"><label for="collab">Collaboration: </label><select name="collab" v-model="filters.collab">
+    <option v-for="f in Object.keys(collab_options)" :value="f">{{ collab_options[f] }}</option>
+  </select></div>
   <div class="input vcenter"><label for="date">Query Date: </label><input type="date" name="date" v-model="filters.date" /></div>
   <div class="input"><label for="formatting">Format: </label><select name="formatting" v-model="filters.formatting">
     <option v-for="f in Object.keys(formatting_options)" :value="f">{{ formatting_options[f] }}</option>
