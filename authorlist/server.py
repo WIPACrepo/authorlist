@@ -19,7 +19,7 @@ from .state import State
 
 from . import collabs
 
-from .handlers import IceCubeHandler, PINGUHandler, Gen2Handler
+from .handlers import IceCubeHandler, PINGUHandler, Gen2Handler, APIAuthorHandler
 
 def get_template_path():
     return os.path.join(os.path.dirname(__file__),'templates')
@@ -36,6 +36,7 @@ class WebServer:
             (r'/icecube', IceCubeHandler, {'state': State(json, collab='icecube')}),
             (r'/pingu', PINGUHandler, {'state': State(json, collab='pingu')}),
             (r'/icecube-gen2', Gen2Handler, {'state': State(json, collab='icecube-gen2')}),
+            (r'/api/authors', APIAuthorHandler, {'state': State(json)}),
         ], template_path=get_template_path(),
            template_whitespace='all' if debug else 'oneline',
            autoescape=None,
