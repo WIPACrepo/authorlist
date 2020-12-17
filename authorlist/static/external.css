@@ -1,0 +1,59 @@
+
+.authorlist_filters form {
+}
+.authorlist_filters div.col {
+    margin-right: 4rem;
+}
+.authorlist_filters div.input {
+    margin: .6rem .5rem;
+    display: flex;
+    align-items: center;
+}
+.authorlist_filters input:disabled {
+    background: #aaa;
+}
+.authorlist_filters div.input>label {
+    vertical-align: top;
+    padding-right: 1rem;
+}
+.authorlist_filters div.submit {
+    width: 100%;
+}
+
+.authorlist_body {
+    margin: 1.5em 0 2em;
+    line-height: 1.2rem;
+}
+.authorlist_body h3, .authorlist_body h4 {
+    margin: 0.5em 0;
+}
+.authorlist_body ul.authors-by-institution, .authorlist_body ul.authors-by-institution ul{
+    list-style-type: none;
+}
+.authorlist_body ul.authors, .authorlist_body ul.authors ul {
+    list-style-type: none;
+    padding: 0;
+}
+.authorlist_body ul.authors li, .authorlist_body ul.authors ul, .authorlist_body ul.authors ul li {
+    display: inline-block;
+}
+.authorlist_body ul.comma li:not(:last-child):after {
+    content: ',';
+}
+.authorlist_body ol.thanks {
+    list-style-type: lower-alpha;
+    margin-top: 1em;
+}
+
+.authorlist_body .format_text_wrapper {
+    position: relative;
+    display: block;
+    width: 95%;
+    margin: 1em auto;
+}
+.authorlist_body .format_text {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: block;
+    overflow-x: scroll;
+}
