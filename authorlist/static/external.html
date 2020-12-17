@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>External Pubs</title>
+</head>
+<body>
+    <div id="authors"></div>
+    <script src="http://localhost:8081/static/external.js"></script>
+    <script>
+    const filters = {'collab': 'IceCube', 'formatting': 'web'};
+    AuthorList('#authors', 'http://localhost:8081', filters);
+    </script>
+</body>
+</html>
