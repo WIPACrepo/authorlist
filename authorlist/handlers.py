@@ -654,7 +654,10 @@ class Gen2Handler(CollabHandler):
             date = GEN2_START_DATE
         return self.common(date)
 
-class APIAuthorHandler(BaseHandler):
+class APIAuthorHandler(tornado.web.RequestHandler):
+    def initialize(self, states):
+        self.states = states
+
     def write_error(self, status_code=500, **kwargs):
         """Write out custom error json."""
         data = {
@@ -666,6 +669,8 @@ class APIAuthorHandler(BaseHandler):
 
     def get(self):
         collab = self.get_argument('collab', 'IceCube')
+        if collab not in ('IceCube', 'IceCube-PINGU', 'IceCube-Gen2'):
+            raise tornado.web.HTTPError(400, reason='bad collaboration')
 
         date = validate_date(self.get_argument('date', default=''))
         if (not date) or date > today():
@@ -677,7 +682,7 @@ class APIAuthorHandler(BaseHandler):
         elif collab == 'IceCube-Gen2' and date < GEN2_START_DATE:
             date = GEN2_START_DATE
 
-        r = AuthorListRenderer(self.state)
+        r = AuthorListRenderer(self.states[collab.lower()])
         formatting = self.get_arguments('formatting')
         if not formatting:
             formatting = r.FORMATTING

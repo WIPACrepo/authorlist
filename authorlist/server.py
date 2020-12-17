@@ -30,13 +30,19 @@ def get_static_path():
 class WebServer:
     def __init__(self, json, port=8888, debug=True):
         self.port = port
+
+        states = {
+            'icecube': State(json, collab='icecube'),
+            'icecube-pingu': State(json, collab='pingu'),
+            'icecube-gen2': State(json, collab='icecube-gen2'),
+        }
         
         self.app = tornado.web.Application([
             (r'/', MainHandler, {'collabs': collabs}),
-            (r'/icecube', IceCubeHandler, {'state': State(json, collab='icecube')}),
-            (r'/pingu', PINGUHandler, {'state': State(json, collab='pingu')}),
-            (r'/icecube-gen2', Gen2Handler, {'state': State(json, collab='icecube-gen2')}),
-            (r'/api/authors', APIAuthorHandler, {'state': State(json)}),
+            (r'/icecube', IceCubeHandler, {'state': states['icecube']}),
+            (r'/pingu', PINGUHandler, {'state': states['icecube-pingu']}),
+            (r'/icecube-gen2', Gen2Handler, {'state': states['icecube-gen2']}),
+            (r'/api/authors', APIAuthorHandler, {'states': states}),
         ], template_path=get_template_path(),
            template_whitespace='all' if debug else 'oneline',
            autoescape=None,
