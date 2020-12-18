@@ -20,6 +20,7 @@ var loadDeps = async function(baseurl){
 };
 
 const authorlist_html = `
+<h2 v-if="tag">{{ tag }}</h2>
 <div class="authorlist_filters"><form v-on:submit.prevent="update" autocomplete="off">
   <div class="input vcenter"><label for="collab">Collaboration: </label><select name="collab" v-model="filters.collab">
     <option v-for="f in Object.keys(collab_options)" :value="f">{{ collab_options[f] }}</option>
@@ -96,12 +97,18 @@ async function AuthorList(id, baseurl = 'https://authorlist.icecube.wisc.edu', f
   };
 
   // get initial data from server
+  let tag = ''
   filters = Object.assign({'formatting': 'web'}, filters)
-  for(const v of window.location.hash.split('&')){
+  for(const v of window.location.hash.substring(1).split('&')){
+    console.log(v)
     if (v.includes('=')) {
       let parts = v.split('=')
       if (parts[0] == 'collab' || parts[0] == 'date' || parts[0] == 'formatting') {
         filters[parts[0]] = parts[1]
+      }
+      else if (parts[0] == 'tag') {
+        console.log('tagging:'+parts[1])
+        tag = parts[1].replace('+', ' ')
       }
     }
   }
@@ -112,6 +119,7 @@ async function AuthorList(id, baseurl = 'https://authorlist.icecube.wisc.edu', f
     date: authors_val['date'],
     formatting: Object.keys(authors)[0],
   }
+  console.log('tag='+tag)
 
   // write html
   if (id[0] == '#') {
@@ -126,6 +134,7 @@ async function AuthorList(id, baseurl = 'https://authorlist.icecube.wisc.edu', f
     data: {
       filters: filters_with_defaults,
       authors: authors,
+      tag: tag,
       collab_options: {
         'IceCube': 'IceCube Collaboration',
         'IceCube-PINGU': 'IceCube/PINGU Collaboration',
@@ -154,11 +163,17 @@ async function AuthorList(id, baseurl = 'https://authorlist.icecube.wisc.edu', f
     methods: {
       update: async function() {
         let params = JSON.parse(JSON.stringify( this.filters ));
+        if (params.date != this.fauthors.date || params.collab != this.fauthors.title) {
+          this.tag = ''
+        }
         this.authors = await updateAuthors(params);
         // update location hash
         let hash = []
         for (const k in params) {
           hash.push(k+'='+params[k])
+        }
+        if (this.tag != '') {
+          hash.push('tag='+this.tag.replace(' ', '+'))
         }
         window.location.hash = hash.join('&')
       }
