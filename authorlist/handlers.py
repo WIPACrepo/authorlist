@@ -326,8 +326,8 @@ some *.rtx files from the
         }
 
     def _aastex(self):
-        ### New ApJ 6.x formatting
-        text = """\\documentclass{aastex62}
+        ### New ApJ 6.3 formatting
+        text = """\\documentclass[twocolumn]{aastex63}
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
@@ -339,38 +339,48 @@ some *.rtx files from the
             text += '}\n'
         text += '\n'
         for author in self.authors:
-            text += '\\author{'
+            text += '\\author'
+            if 'orcid' in author and author['orcid']:
+                text += f'[{author["orcid"]}]'
+            text += '{'
             text += utf8tolatex(author['authname'])
             text += '}\n'
+            if 'thanks' in author:
+                for name in sorted(author['thanks'], key=self.sorted_thanks.index):
+                    text += '\\altaffiliation{'
+                    text += utf8tolatex(self.thanks[name])
+                    text += '}\n'
             if 'instnames' in author:
                 for name in sorted(author['instnames'], key=self.sorted_insts.index):
                     text += '\\affiliation{'
                     text += utf8tolatex(self.insts[name]['cite'])
                     text += '}\n'
-            if 'thanks' in author:
-                for name in sorted(author['thanks'], key=self.sorted_thanks.index):
-                    text += '\\thanks{'
-                    text += utf8tolatex(self.thanks[name])
-                    text += '}\n'
+            text += '\n'
         text += """\\date{\\today}
 
-\\collaboration{"""+self.collab+""" Collaboration}
-\\noaffiliation
+\\collaboration{"""+str(len(self.authors))+"}{"+self.collab+""" Collaboration}
 
-\\maketitle
+\\begin{abstract}
 
-\\begin{acknowledgements}
+Abstract goes here.
+
+\\end{abstract}
+
+\\section{Introduction}
+
+Text body goes here.
+
+\\section{Acknowledgements}
 """
         text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
         text += """
-\\end{acknowledgements}
 
 \\end{document}"""
 
         intro_text = """This style e.g. for Astroparticle Journal.
-You will need aastex62.cls and aasjournal.bst as well as possibly
+You will need aastex63.cls and aasjournal.bst as well as possibly
 some other files from the
-<a href="https://2modf33kux3n19iucb17y5dj-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/aastexv6.2.tar.gz">AASTeX tarball</a>.
+<a href="https://2modf33kux3n19iucb17y5dj-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
 """
 
         return {
