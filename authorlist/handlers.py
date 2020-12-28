@@ -176,7 +176,10 @@ class AuthorListRenderer:
         authors_by_inst = defaultdict(list)
         for author in self.authors:
             for instname in author['instnames']:
-                authors_by_inst[instname].append(author['authname'])
+                text = author['authname']
+                if 'orcid' in author and author['orcid']:
+                    text += f'<a class="orcid" target="_blank" href="https://orcid.org/{author["orcid"]}"><img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />https://orcid.org/{author["orcid"]}</a>'
+                authors_by_inst[instname].append(text)
         return {
             'authors_by_inst': authors_by_inst,
             'insts': self.insts,

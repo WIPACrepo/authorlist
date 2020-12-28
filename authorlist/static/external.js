@@ -50,7 +50,7 @@ const authorlist_html = `
   <div v-else><ul v-if="fauthors.formatting == 'web-institution'" class="authors-by-institution">
       <li v-for="name in fauthors.sorted_insts"><h4>{{ fauthors.insts[name]['cite'] }}</h4>
         <ul>
-          <li v-for="author in fauthors.authors_by_inst[name]">{{ author }}</li>
+          <li v-for="author in fauthors.authors_by_inst[name]" v-html="author"></li>
         </ul>
       </li>
     </ul>

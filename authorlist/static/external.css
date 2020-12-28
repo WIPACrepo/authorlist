@@ -57,3 +57,6 @@
     display: block;
     overflow-x: scroll;
 }
+.authorlist_body ul.authors-by-institution .orcid {
+    margin-left: 1em;
+}
