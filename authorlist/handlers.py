@@ -370,7 +370,7 @@ Abstract goes here.
 
 Text body goes here.
 
-\\section{Acknowledgements}
+\\section*{Acknowledgements}
 """
         text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
         text += """
