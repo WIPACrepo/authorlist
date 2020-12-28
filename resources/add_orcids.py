@@ -19,7 +19,7 @@ def read_authors(filename):
 
 def write_authors(filename, authors):
     with open(filename, 'w') as f:
-        json.dump(authors, f, indent=2)
+        json.dump(authors, f, indent=2, sort_keys=True)
 
 def add_orcids(authors, orcids):
     for a in authors:

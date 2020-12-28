@@ -168,6 +168,7 @@ class MainHandler(tornado.web.RequestHandler):
             html += text_format('first', 'First Name');
             html += text_format('last', 'Last Name');
             html += text_format('email', 'Email');
+            html += text_format('orcid', 'ORCID');
             html += date_format('from', 'From');
             html += date_format('to', 'To');
             html += select_format('collaboration', 'Collaboration', collaborations);
@@ -201,7 +202,8 @@ class MainHandler(tornado.web.RequestHandler):
                         'last': $('input.last').val(),
                         'collab': collabs[i],
                         'from': $('input.from').val(),
-                        'to': $('input.to').val()
+                        'to': $('input.to').val(),
+                        'orcid': $('input.orcid').val()
                     }
                     if (email != null && email != "undefined")
                         author['email'] = email;
@@ -248,6 +250,7 @@ class MainHandler(tornado.web.RequestHandler):
                     html += disabled_text_format('first', 'First Name', author['first']);
                     html += disabled_text_format('last', 'Last Name', author['last']);
                     html += disabled_text_format('email', 'Email', author['email']);
+                    html += text_format('orcid', 'ORCID', author['orcid']);
                     html += date_format('from', 'From', author['from']);
                     html += date_format('to', 'To', author['to']);
                     var collabs = {};
@@ -311,7 +314,8 @@ class MainHandler(tornado.web.RequestHandler):
                                 'last': $(el).find('input.last').val(),
                                 'collab': collabs[i],
                                 'from': $(el).find('input.from').val(),
-                                'to': $(el).find('input.to').val()
+                                'to': $(el).find('input.to').val(),
+                                'orcid': $(el).find('input.orcid').val()
                             }
                             if (email != null && email != "undefined")
                                 author['email'] = email;
