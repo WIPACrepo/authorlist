@@ -254,6 +254,9 @@ body ol.thanks {
     list-style-type: lower-alpha;
     margin-top: 1em;
 }
+body.collab ul.authors-by-institution .orcid {
+    margin-left: 1em;
+}
 
 body.collab .format_text_wrapper {
     position: relative;
