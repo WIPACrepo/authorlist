@@ -6263,7 +6263,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "S. Choi",
@@ -6277,7 +6277,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "S. Choi",
@@ -6291,7 +6291,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "A. Christov",
@@ -17907,7 +17907,7 @@
       "last": "Kim",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "J. Kim",
@@ -17921,7 +17921,7 @@
       "last": "Kim",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "J. Kim",
@@ -17935,7 +17935,7 @@
       "last": "Kim",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-01-10"
     },
     {
       "authname": "M. Kim",
@@ -20696,6 +20696,48 @@
       ],
       "last": "Lazar",
       "orcid": "0000-0003-0928-5025",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. W. Lee",
+      "collab": "icecube",
+      "email": "jiwoong.lee@icecube.wisc.edu",
+      "first": "Jiwoong",
+      "from": "2021-01-11",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Lee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. W. Lee",
+      "collab": "icecube-gen2",
+      "email": "jiwoong.lee@icecube.wisc.edu",
+      "first": "Jiwoong",
+      "from": "2021-01-11",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Lee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. W. Lee",
+      "collab": "pingu",
+      "email": "jiwoong.lee@icecube.wisc.edu",
+      "first": "Jiwoong",
+      "from": "2021-01-11",
+      "instnames": [
+        "skku"
+      ],
+      "last": "Lee",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
