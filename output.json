@@ -29502,7 +29502,7 @@
       "last": "Rott",
       "orcid": "0000-0002-6958-6033",
       "thanks": [],
-      "to": ""
+      "to": "2021-02-28"
     },
     {
       "authname": "C. Rott",
@@ -29516,7 +29516,7 @@
       "last": "Rott",
       "orcid": "0000-0002-6958-6033",
       "thanks": [],
-      "to": ""
+      "to": "2021-02-28"
     },
     {
       "authname": "C. Rott",
@@ -29525,6 +29525,51 @@
       "first": "Carsten",
       "from": "2013-08-01",
       "instnames": [
+        "skku"
+      ],
+      "last": "Rott",
+      "orcid": "0000-0002-6958-6033",
+      "thanks": [],
+      "to": "2021-02-28"
+    },
+    {
+      "authname": "C. Rott",
+      "collab": "icecube",
+      "email": "carsten.rott@gmail.com",
+      "first": "Carsten",
+      "from": "2021-03-01",
+      "instnames": [
+        "utah",
+        "skku"
+      ],
+      "last": "Rott",
+      "orcid": "0000-0002-6958-6033",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Rott",
+      "collab": "icecube-gen2",
+      "email": "carsten.rott@gmail.com",
+      "first": "Carsten",
+      "from": "2021-03-01",
+      "instnames": [
+        "utah",
+        "skku"
+      ],
+      "last": "Rott",
+      "orcid": "0000-0002-6958-6033",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Rott",
+      "collab": "pingu",
+      "email": "carsten.rott@gmail.com",
+      "first": "Carsten",
+      "from": "2021-03-01",
+      "instnames": [
+        "utah",
         "skku"
       ],
       "last": "Rott",
@@ -40864,6 +40909,16 @@
         "pingu"
       ],
       "name": "Uppsalaold"
+    },
+    "utah": {
+      "cite": "Department of Physics and Astronomy, University of Utah, Salt Lake City, UT 84112, USA",
+      "city": "Salt Lake City",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Utah"
     },
     "utrecht": {
       "cite": "Dept. of Physics and Astronomy, Utrecht University/SRON, NL-3584 CC Utrecht, The Netherlands",
