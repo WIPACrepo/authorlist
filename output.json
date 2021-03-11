@@ -37607,6 +37607,48 @@
       "to": "2017-03-08"
     },
     {
+      "authname": "P. Weigel",
+      "collab": "icecube",
+      "email": "philip.weigel@icecube.wisc.edu",
+      "first": "Philip",
+      "from": "2021-03-11",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Weigel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Weigel",
+      "collab": "pingu",
+      "email": "philip.weigel@icecube.wisc.edu",
+      "first": "Philip",
+      "from": "2021-03-11",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Weigel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Weigel",
+      "collab": "icecube-gen2",
+      "email": "philip.weigel@icecube.wisc.edu",
+      "first": "Philip",
+      "from": "2021-03-11",
+      "instnames": [
+        "mit"
+      ],
+      "last": "Weigel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Weindl",
       "collab": "icecube-gen2",
       "email": "andreas.weindl@icecube.wisc.edu",
