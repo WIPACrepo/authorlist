@@ -30447,7 +30447,7 @@
       "last": "Saffer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-04-28"
     },
     {
       "authname": "J. Saffer",
@@ -30461,7 +30461,7 @@
       "last": "Saffer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-04-28"
     },
     {
       "authname": "J. Saffer",
@@ -30471,6 +30471,48 @@
       "from": "2021-03-01",
       "instnames": [
         "karlsruhe"
+      ],
+      "last": "Saffer",
+      "orcid": "",
+      "thanks": [],
+      "to": "2021-04-28"
+    },
+    {
+      "authname": "J. Saffer",
+      "collab": "pingu",
+      "email": "julian.saffer@icecube.wisc.edu",
+      "first": "Julian",
+      "from": "2021-04-29",
+      "instnames": [
+        "karlsruhe_exp"
+      ],
+      "last": "Saffer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Saffer",
+      "collab": "icecube-gen2",
+      "email": "julian.saffer@icecube.wisc.edu",
+      "first": "Julian",
+      "from": "2021-04-29",
+      "instnames": [
+        "karlsruhe_exp"
+      ],
+      "last": "Saffer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Saffer",
+      "collab": "icecube",
+      "email": "julian.saffer@icecube.wisc.edu",
+      "first": "Julian",
+      "from": "2021-04-29",
+      "instnames": [
+        "karlsruhe_exp"
       ],
       "last": "Saffer",
       "orcid": "",
