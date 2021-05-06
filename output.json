@@ -11288,6 +11288,48 @@
       "to": "2010-06-07"
     },
     {
+      "authname": "A. Garcia",
+      "collab": "pingu",
+      "email": "alfonso.garcia-soto@icecube.wisc.edu",
+      "first": "Alfonso",
+      "from": "2021-05-06",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Garcia",
+      "orcid": "0000-0002-8186-2459",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Garcia",
+      "collab": "icecube",
+      "email": "alfonso.garcia-soto@icecube.wisc.edu",
+      "first": "Alfonso",
+      "from": "2021-05-06",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Garcia",
+      "orcid": "0000-0002-8186-2459",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Garcia",
+      "collab": "icecube-gen2",
+      "email": "alfonso.garcia-soto@icecube.wisc.edu",
+      "first": "Alfonso",
+      "from": "2021-05-06",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Garcia",
+      "orcid": "0000-0002-8186-2459",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Garrappa",
       "collab": "icecube",
       "email": "simone.garrappa@icecube.wisc.edu",
