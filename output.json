@@ -18927,6 +18927,48 @@
       "to": "2017-03-31"
     },
     {
+      "authname": "T. Kontrimas",
+      "collab": "icecube-gen2",
+      "email": "tomas.kontrimas@icecube.wisc.edu",
+      "first": "Tomas",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Kontrimas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kontrimas",
+      "collab": "pingu",
+      "email": "tomas.kontrimas@icecube.wisc.edu",
+      "first": "Tomas",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Kontrimas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kontrimas",
+      "collab": "icecube",
+      "email": "tomas.kontrimas@icecube.wisc.edu",
+      "first": "Tomas",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Kontrimas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Koob",
       "collab": "icecube",
       "email": "ania.koob@icecube.wisc.edu",
@@ -19726,7 +19768,7 @@
       "last": "Krings",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-05-11"
     },
     {
       "authname": "K. Krings",
@@ -19740,7 +19782,7 @@
       "last": "Krings",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-05-11"
     },
     {
       "authname": "K. Krings",
@@ -19754,7 +19796,7 @@
       "last": "Krings",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-05-11"
     },
     {
       "authname": "T. Krings",
@@ -32328,7 +32370,7 @@
       "last": "Schumacher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-04-30"
     },
     {
       "authname": "L. Schumacher",
@@ -32342,7 +32384,7 @@
       "last": "Schumacher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-04-30"
     },
     {
       "authname": "L. Schumacher",
@@ -32352,6 +32394,48 @@
       "from": "2015-09-29",
       "instnames": [
         "aachen"
+      ],
+      "last": "Schumacher",
+      "orcid": "",
+      "thanks": [],
+      "to": "2021-04-30"
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube-gen2",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2021-05-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Schumacher",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "pingu",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2021-05-01",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Schumacher",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2021-05-01",
+      "instnames": [
+        "munich"
       ],
       "last": "Schumacher",
       "orcid": "",
@@ -33488,6 +33572,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2007-05-30"
+    },
+    {
+      "authname": "C. Spannfellner",
+      "collab": "icecube-gen2",
+      "email": "christian.spannfellner@tum.de",
+      "first": "Christian",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Spannfellner",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Spannfellner",
+      "collab": "pingu",
+      "email": "christian.spannfellner@tum.de",
+      "first": "Christian",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Spannfellner",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Spannfellner",
+      "collab": "icecube",
+      "email": "christian.spannfellner@tum.de",
+      "first": "Christian",
+      "from": "2021-05-12",
+      "instnames": [
+        "munich"
+      ],
+      "last": "Spannfellner",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "G. M. Spiczak",
