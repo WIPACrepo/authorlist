@@ -77,6 +77,7 @@ class AuthorListRenderer:
         'aa': 'Journal Astronomy & Astrophysics (A & A)',
         'elsevier': 'Astroparticle Physics (Elsevier)',
         'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
+        'science': 'Science',
     }
 
     def __init__(self, state):
@@ -126,25 +127,14 @@ class AuthorListRenderer:
             'title': collab,
             'date': date,
             'formatting': formatting,
-            'formatting_options': {
-                'web': 'web',
-                'web-institution': 'web by institution',
-                'arxiv': 'arXiv',
-                'epjc': 'European Physical Journal C. (EPJC)',
-                'revtex4': 'Physical Review Letters (RevTex4)',
-                'aastex': 'Astrophysical Journal (AASTeX)',
-                'aascsv': 'Astrophysical Journal (csv)',
-                'aa': 'Journal Astronomy & Astrophysics (A & A)',
-                'elsevier': 'Astroparticle Physics (Elsevier)',
-                'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
-            },
+            'formatting_options': AuthorListRenderer.FORMATTING,
             'wrap': False,
             'intro_text':'',
         }
         kwargs.update(getattr(self, '_'+formatting.replace('-','_'))())
         return kwargs
 
-    def _web(self): 
+    def _web(self):
         # format the authorlist
         authors_text = []
         for author in self.authors:
@@ -162,7 +152,7 @@ class AuthorListRenderer:
                 element += '<sup>{}</sup>'.format(','.join(sup))
             authors_text.append(element)
         authors_text = ', '.join(authors_text)
-        
+
         return {
             'authors': authors_text,
             'insts': self.insts,
@@ -569,7 +559,7 @@ You will need elsarticle from the
             if i+1 == len(self.authors):
                 text += 'and '
             text += utf8tolatex(author['authname'])
-            if i+2 < len(self.authors):
+            if i+1 < len(self.authors):
                 text += ','
             text += '}\n'
         for name in self.sorted_insts:
@@ -591,8 +581,121 @@ You will need elsarticle from the
 \\end{document}"""
 
         intro_text = """This style e.g. for Journal of High Energy Physics, or Journal of Cosmology and Astroparticle Phsics.
-You will need jheppub from 
+You will need jheppub from
 <a href="https://jhep.sissa.it/jhep/help/JHEP_TeXclass.jsp">here</a>.
+"""
+
+        return {
+            'format_text': text,
+            'intro_text': intro_text,
+        }
+
+    def _science(self):
+        text = """\\documentclass[12pt]{article}
+\\usepackage{scicite}
+\\usepackage{times}
+\\usepackage[T5,T1]{fontenc}
+
+\\topmargin 0.0cm
+\\oddsidemargin 0.2cm
+\\textwidth 16cm
+\\textheight 21cm
+\\footskip 1.0cm
+
+\\newenvironment{sciabstract}{%
+\\begin{quote} \\bf}
+{\\end{quote}}
+
+\\title{"""+self.collab+""" Author List for Science """
+        text += self.date.replace('-','') + """}
+
+\\author{IceCube Collaboration\\footnote{The full list of collaboration members and their affiliations is included in the supplementary material}
+\\footnote{Correspondence to analysis@icecube.wisc.edu}\\\\
+}
+\\date{}
+\\begin{document}
+\\baselineskip15pt
+
+\\maketitle
+
+\\begin{sciabstract}
+
+Your abstract goes here
+
+\\end{sciabstract}
+
+
+Your paper text goes here
+
+
+\\begin{thebibliography}{10}
+
+\\end{thebibliography}
+
+
+\\subsection*{Supplementary Materials}
+www.sciencemag.org\\\\
+Materials and Methods\\\\
+
+\\subsection*{Acknowledgments}
+
+{\\bf Funding:}
+"""
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
+        text += """\\\\
+
+{\\bf Author contributions:}
+The IceCube Collaboration designed, constructed and now operates the IceCube Neutrino Observatory. Data processing and calibration, Monte Carlo simulations of the detector and of theoretical models, and data analyses were performed by a large number of collaboration members, who also discussed and approved the scientific results presented here. The manuscript was reviewed by the entire collaboration before publication, and all authors approved the final version.\\\\
+
+{\\bf Competing interests:} There are no competing interests to declare.\\\\
+
+{\\bf Data and materials availability:}
+Additional data and resources are available from the IceCube data archive at \\url{http://www.icecube.wisc.edu/science/data}. For each data sample these include the events, neutrino effective areas, background rates, and other supporting information in machine-readable formats.\\\\
+
+\\pagebreak
+\\pagebreak
+
+\\begin{center}
+\\Large{
+Supplementary Materials for:\\\\
+"""+self.collab+""" Author List for Science """
+        text += self.date.replace('-','') + """
+}
+\\end{center}
+
+\\subsection*{IceCube Collaboration$^{\\ast}$:}
+
+"""
+        for i,author in enumerate(self.authors):
+            source = []
+            if 'instnames' in author and author['instnames']:
+                source.extend(str(self.sorted_insts.index(n)) for n in sorted(author['instnames'], key=self.sorted_insts.index))
+            if 'thanks' in author and author['thanks']:
+                source.extend(str(len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
+            text += utf8tolatex(author['authname'])
+            if source:
+                text += '$^{' + ',\: '.join(source) + ']$'
+            if i+1 < len(self.authors):
+                text += ','
+            text += '\n'
+        text += '\\\\\n\\\\\n'
+        for name in self.sorted_insts:
+            text += '$^{'+str(self.sorted_insts.index(name))+'}$ '
+            text += utf8tolatex(self.insts[name]['cite'])
+            text += ' \\\\\n'
+        for name in self.thanks:
+            text += '$^{'+str(len(self.sorted_insts) + self.sorted_thanks.index(name))+'}$ '
+            text += utf8tolatex(self.thanks[name]).replace('also at ', '')
+            text += ' \\\\\n'
+        text += """\\\\
+$^\\ast$E-mail: analysis@icecube.wisc.edu
+
+\\section*{Materials and Methods}
+
+\\end{document}"""
+
+        intro_text = """This style for <i>Science</i>. You will need style and bib files from
+<a href="https://www.sciencemag.org/authors/preparing-manuscripts-using-latex">here</a>.
 """
 
         return {
