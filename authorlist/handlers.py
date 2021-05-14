@@ -674,7 +674,7 @@ Supplementary Materials for:\\\\
                 source.extend(str(len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
             text += utf8tolatex(author['authname'])
             if source:
-                text += '$^{' + ',\: '.join(source) + ']$'
+                text += '$^{' + ',\: '.join(source) + '}$'
             if i+1 < len(self.authors):
                 text += ','
             text += '\n'
