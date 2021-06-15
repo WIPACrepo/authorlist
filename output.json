@@ -31721,6 +31721,48 @@
       "to": "2016-08-31"
     },
     {
+      "authname": "S. Schindler",
+      "collab": "pingu",
+      "email": "sebastian.schindler@fau.de",
+      "first": "Sebastian",
+      "from": "2021-06-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Schindler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Schindler",
+      "collab": "icecube-gen2",
+      "email": "sebastian.schindler@fau.de",
+      "first": "Sebastian",
+      "from": "2021-06-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Schindler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Schindler",
+      "collab": "icecube",
+      "email": "sebastian.schindler@fau.de",
+      "first": "Sebastian",
+      "from": "2021-06-15",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Schindler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Schlenstedt",
       "collab": "icecube",
       "email": "schlenst@icecube.wisc.edu",
