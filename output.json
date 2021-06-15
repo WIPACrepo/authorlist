@@ -20091,6 +20091,48 @@
       "to": "2020-10-22"
     },
     {
+      "authname": "E. Kun",
+      "collab": "pingu",
+      "email": "emma.kun@icecube.wisc.edu",
+      "first": "Emma",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube-gen2",
+      "email": "emma.kun@icecube.wisc.edu",
+      "first": "Emma",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube",
+      "email": "emma.kun@icecube.wisc.edu",
+      "first": "Emma",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Kunnen",
       "collab": "icecube",
       "email": "jan.kunnen@icecube.wisc.edu",
@@ -28712,6 +28754,48 @@
       ],
       "last": "Rehman",
       "orcid": "0000-0001-7616-5790",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Reichherzer",
+      "collab": "pingu",
+      "email": "patrick.reichherzer@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Reichherzer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Reichherzer",
+      "collab": "icecube-gen2",
+      "email": "patrick.reichherzer@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Reichherzer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Reichherzer",
+      "collab": "icecube",
+      "email": "patrick.reichherzer@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2021-06-15",
+      "instnames": [
+        "bochum"
+      ],
+      "last": "Reichherzer",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
