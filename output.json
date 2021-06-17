@@ -19701,6 +19701,48 @@
       "to": "2012-01-08"
     },
     {
+      "authname": "T. Kozynets",
+      "collab": "icecube",
+      "email": "tetiana.kozynets@nbi.ku.dk",
+      "first": "Tetiana",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Kozynets",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kozynets",
+      "collab": "icecube-gen2",
+      "email": "tetiana.kozynets@nbi.ku.dk",
+      "first": "Tetiana",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Kozynets",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kozynets",
+      "collab": "pingu",
+      "email": "tetiana.kozynets@nbi.ku.dk",
+      "first": "Tetiana",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Kozynets",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Krasberg",
       "collab": "icecube",
       "email": "mark.krasberg@icecube.wisc.edu",
@@ -23610,6 +23652,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2009-11-23"
+    },
+    {
+      "authname": "J. V. Mead",
+      "collab": "icecube",
+      "email": "james.mead@nbi.ku.dk",
+      "first": "James Vincent",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Mead",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. V. Mead",
+      "collab": "icecube-gen2",
+      "email": "james.mead@nbi.ku.dk",
+      "first": "James Vincent",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Mead",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. V. Mead",
+      "collab": "pingu",
+      "email": "james.mead@nbi.ku.dk",
+      "first": "James Vincent",
+      "from": "2021-06-17",
+      "instnames": [
+        "copenhagen"
+      ],
+      "last": "Mead",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "K. Meagher",
