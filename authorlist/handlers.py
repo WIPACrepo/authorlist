@@ -15,6 +15,7 @@ import unidecode
 import latexcodec
 from pylatexenc.latexencode import UnicodeToLatexEncoder, UnicodeToLatexConversionRule, RULE_REGEX
 import tornado.web
+from tornado.escape import xhtml_escape
 
 ICECUBE_START_DATE = '2003-01-01'
 PINGU_START_DATE = '2013-06-25'
@@ -47,6 +48,12 @@ def author_ordering(a):
             ret[0] = p + ret[0]
     return [x.lower() for x in ret]
 
+def filter_thanks(thanks):
+    for phrase in ('also at', 'now at', 'also', 'on leave of absense from', 'affiliated with', 'present address'):
+        if thanks.startswith(phrase):
+            return (phrase, thanks[len(phrase):])
+    return ('', thanks)
+
 class Latex:
     def __init__(self):
         conversion_rules = [
@@ -78,6 +85,7 @@ class AuthorListRenderer:
         'elsevier': 'Astroparticle Physics (Elsevier)',
         'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
         'science': 'Science',
+        'inspire': 'INSPIRE author.xml',
     }
 
     def __init__(self, state):
@@ -700,6 +708,78 @@ $^\\ast$E-mail: analysis@icecube.wisc.edu
 
         return {
             'format_text': text,
+            'intro_text': intro_text,
+        }
+
+    def _inspire(self):
+        text = """<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE collaborationauthorlist SYSTEM "http://inspirehep.net/info/HepNames/tools/authors_xml/author.dtd">
+<!--
+   """+self.collab+""" author list for INSPIRE.
+-->
+<collaborationauthorlist xmlns:foaf="http://xmlns.com/foaf/0.1/" \
+xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
+        text += f'  <cal:creationDate>{self.date}</cal:creationDate>\n'
+        text += '  <cal:publicationReference>XXXX-REPLACE-ME-XXXX</cal:publicationReference>\n\n'
+        text += f"""  <cal:collaborations>
+    <cal:collaboration id="c1">
+      <foaf:name>{self.collab}</foaf:name>
+    </cal:collaboration>
+
+  <cal:organizations>\n"""
+        for i,name in enumerate(self.sorted_insts):
+            text += '    <foaf:Organization id="a{}">\n'.format(i)
+            text += '      <foaf:name>{}</foaf:name>\n'.format(self.insts[name]['cite'])
+            text += '      <cal:orgStatus collaborationid="c1">member</cal:orgStatus>\n'
+            text += '    </foaf:Organization>\n'
+        for i,name in enumerate(self.thanks):
+            text += '    <foaf:Organization id="a{}">\n'.format(i+len(self.sorted_insts))
+            text += '      <foaf:name>{}</foaf:name>\n'.format(filter_thanks(name)[1])
+            text += '      <cal:orgStatus collaborationid="c1">nonmember</cal:orgStatus>\n'
+            text += '    </foaf:Organization>\n'
+        text += """  </cal:organizations>
+
+  <cal:authors>\n"""
+        for author in self.authors:
+            if 'last' in author:
+                last = author['last']
+            else:
+                last = author['authname'].rsplit('. ', 1)[-1]
+            email = author['email'] if 'email' in author else ''
+
+            text += '    <foaf:Person>\n'
+            if 'first' in author:
+                text += '      <foaf:givenName>{}</foaf:givenName>\n'.format(unidecode.unidecode(author['first']))
+            text += '      <foaf:familyName>{}</foaf:familyName>\n'.format(unidecode.unidecode(last))
+            text += '      <cal:authorNameNative>{}</cal:authorNameNative>\n'.format(author['first']+' '+author['last'])
+            text += '      <cal:authorNamePaper>{}</cal:authorNamePaper>\n'.format(unidecode.unidecode(author['authname']))
+            text += '      <cal:authorCollaboration collaborationid="c1" />\n'
+            text += '      <cal:authorAffiliations>\n'
+            source = []
+            if 'instnames' in author:
+                source.extend({'id': 1+self.sorted_insts.index(t)} for t in author['instnames'])
+            if 'thanks' in author:
+                source.extend({'id': 1+len(self.sorted_insts)+self.sorted_thanks.index(t), 'connection': filter_thanks(self.thanks[t])[0].capitalize()} for t in author['thanks'])
+            for s in source:
+                text += f'        <cal:authorAffiliation organizationid="a{s["id"]}" '
+                if 'connection' in s and s['connection']:
+                    text += f'connection="{s["connection"]}" '
+                text += '/>\n'
+            text += '      </cal:authorAffiliations>\n'
+            text += '      <cal:authorids>\n'
+            text += f'        <cal:authorid source="INTERNAL">{author["email"]}</cal:authorid>\n'
+            if 'orcid' in author and author['orcid']:
+                text += f'        <cal:authorid source="ORCID">{author["orcid"]}</cal:authorid>\n'
+            text += '      </cal:authorids>\n'
+            text += '    </foaf:Person>\n'
+        text += """  </cal:authors>
+</collaborationauthorlist>\n"""
+
+        intro_text = 'This style for <a href="https://inspirehep.net/help/knowledge-base/authorxml/">INSPIRE authors.xml</a>.'
+
+        return {
+            'format_text': xhtml_escape(text),
             'intro_text': intro_text,
         }
 
