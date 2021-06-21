@@ -715,32 +715,33 @@ $^\\ast$E-mail: analysis@icecube.wisc.edu
         text = """<?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE collaborationauthorlist SYSTEM "http://inspirehep.net/info/HepNames/tools/authors_xml/author.dtd">
-
-<collaborationauthorlist
-xmlns:foaf="http://xmlns.com/foaf/0.1/"
+<!--
+   """+self.collab+""" author list for INSPIRE.
+-->
+<collaborationauthorlist xmlns:foaf="http://xmlns.com/foaf/0.1/" \
 xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
-        text += f'  <cal:creationDate>{date}</cal:creationDate>\n'
+        text += f'  <cal:creationDate>{self.date}</cal:creationDate>\n'
         text += '  <cal:publicationReference>XXXX-REPLACE-ME-XXXX</cal:publicationReference>\n\n'
         text += f"""  <cal:collaborations>
-<cal:collaboration id="c1">
-  <foaf:name>{self.collab}</foaf:name>
-</cal:collaboration>
+    <cal:collaboration id="c1">
+      <foaf:name>{self.collab}</foaf:name>
+    </cal:collaboration>
 
-<cal:organizations>\n"""
-        for i,name in enumerate(sorted_insts):
+  <cal:organizations>\n"""
+        for i,name in enumerate(self.sorted_insts):
             text += '    <foaf:Organization id="a{}">\n'.format(i)
-            text += '      <foaf:name>{}</foaf:name>\n'.format(insts[name]['cite'])
+            text += '      <foaf:name>{}</foaf:name>\n'.format(self.insts[name]['cite'])
             text += '      <cal:orgStatus collaborationid="c1">member</cal:orgStatus>\n'
             text += '    </foaf:Organization>\n'
-        for i,name in enumerate(thanks):
-            text += '    <foaf:Organization id="a{}">\n'.format(i+len(sorted_insts))
+        for i,name in enumerate(self.thanks):
+            text += '    <foaf:Organization id="a{}">\n'.format(i+len(self.sorted_insts))
             text += '      <foaf:name>{}</foaf:name>\n'.format(filter_thanks(name)[1])
             text += '      <cal:orgStatus collaborationid="c1">nonmember</cal:orgStatus>\n'
             text += '    </foaf:Organization>\n'
         text += """  </cal:organizations>
 
-<cal:authors>\n"""
-        for author in authors:
+  <cal:authors>\n"""
+        for author in self.authors:
             if 'last' in author:
                 last = author['last']
             else:
@@ -757,9 +758,9 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
             text += '      <cal:authorAffiliations>\n'
             source = []
             if 'instnames' in author:
-                source.extend({'id': 1+sorted_insts.index(t)} for t in author['instnames'])
+                source.extend({'id': 1+self.sorted_insts.index(t)} for t in author['instnames'])
             if 'thanks' in author:
-                source.extend({'id': 1+len(sorted_insts)+sorted_thanks.index(t), 'connection': filter_thanks(sorted_thanks[t])[0]} for t in author['thanks'])
+                source.extend({'id': 1+len(self.sorted_insts)+self.sorted_thanks.index(t), 'connection': filter_thanks(self.thanks[t])[0].capitalize()} for t in author['thanks'])
             for s in source:
                 text += f'        <cal:authorAffiliation organizationid="a{s["id"]}" '
                 if 'connection' in s and s['connection']:
@@ -775,10 +776,10 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
         text += """  </cal:authors>
 </collaborationauthorlist>\n"""
 
-        intro_text = 'This style for INSPIRE authors.xml.'
+        intro_text = 'This style for <a href="https://inspirehep.net/help/knowledge-base/authorxml/">INSPIRE authors.xml</a>.'
 
         return {
-            'format_text': xhtml_escape(text)
+            'format_text': xhtml_escape(text),
             'intro_text': intro_text,
         }
 
