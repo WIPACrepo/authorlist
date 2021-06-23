@@ -8800,6 +8800,48 @@
       "to": "2018-09-30"
     },
     {
+      "authname": "M. Dittmer",
+      "collab": "icecube-gen2",
+      "email": "markus.dittmer@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2021-06-23",
+      "instnames": [
+        "munster"
+      ],
+      "last": "Dittmer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Dittmer",
+      "collab": "pingu",
+      "email": "markus.dittmer@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2021-06-23",
+      "instnames": [
+        "munster"
+      ],
+      "last": "Dittmer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Dittmer",
+      "collab": "icecube",
+      "email": "markus.dittmer@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2021-06-23",
+      "instnames": [
+        "munster"
+      ],
+      "last": "Dittmer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Dreyer",
       "collab": "icecube",
       "email": "dreyer@icecube.wisc.edu",
