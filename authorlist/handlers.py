@@ -51,7 +51,7 @@ def author_ordering(a):
 def filter_thanks(thanks):
     for phrase in ('also at', 'now at', 'also', 'on leave of absense from', 'affiliated with', 'present address'):
         if thanks.startswith(phrase):
-            return (phrase, thanks[len(phrase):])
+            return (phrase, thanks[len(phrase)+1:])
     return ('', thanks)
 
 class Latex:
@@ -726,16 +726,17 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
     <cal:collaboration id="c1">
       <foaf:name>{self.collab}</foaf:name>
     </cal:collaboration>
+  </cal:collaborations>
 
   <cal:organizations>\n"""
         for i,name in enumerate(self.sorted_insts):
-            text += '    <foaf:Organization id="a{}">\n'.format(i)
-            text += '      <foaf:name>{}</foaf:name>\n'.format(self.insts[name]['cite'])
+            text += '    <foaf:Organization id="a{}">\n'.format(1+i)
+            text += '      <foaf:name>{}</foaf:name>\n'.format(xhtml_escape(self.insts[name]['cite']))
             text += '      <cal:orgStatus collaborationid="c1">member</cal:orgStatus>\n'
             text += '    </foaf:Organization>\n'
         for i,name in enumerate(self.thanks):
-            text += '    <foaf:Organization id="a{}">\n'.format(i+len(self.sorted_insts))
-            text += '      <foaf:name>{}</foaf:name>\n'.format(filter_thanks(name)[1])
+            text += '    <foaf:Organization id="a{}">\n'.format(1+i+len(self.sorted_insts))
+            text += '      <foaf:name>{}</foaf:name>\n'.format(xhtml_escape(filter_thanks(self.thanks[name])[1]))
             text += '      <cal:orgStatus collaborationid="c1">nonmember</cal:orgStatus>\n'
             text += '    </foaf:Organization>\n'
         text += """  </cal:organizations>
@@ -749,10 +750,10 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
             email = author['email'] if 'email' in author else ''
 
             text += '    <foaf:Person>\n'
+            text += '      <cal:authorNameNative>{}</cal:authorNameNative>\n'.format(author['first']+' '+author['last'])
             if 'first' in author:
                 text += '      <foaf:givenName>{}</foaf:givenName>\n'.format(unidecode.unidecode(author['first']))
             text += '      <foaf:familyName>{}</foaf:familyName>\n'.format(unidecode.unidecode(last))
-            text += '      <cal:authorNameNative>{}</cal:authorNameNative>\n'.format(author['first']+' '+author['last'])
             text += '      <cal:authorNamePaper>{}</cal:authorNamePaper>\n'.format(unidecode.unidecode(author['authname']))
             text += '      <cal:authorCollaboration collaborationid="c1" />\n'
             text += '      <cal:authorAffiliations>\n'
