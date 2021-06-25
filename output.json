@@ -6638,7 +6638,7 @@
       "authname": "K. Clark",
       "collab": "icecube",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2012-09-01",
       "instnames": [
         "pennphys"
@@ -6652,7 +6652,7 @@
       "authname": "K. Clark",
       "collab": "pingu",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2013-06-25",
       "instnames": [
         "pennphys"
@@ -6666,7 +6666,7 @@
       "authname": "K. Clark",
       "collab": "icecube",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2013-10-03",
       "instnames": [
         "toronto"
@@ -6680,7 +6680,7 @@
       "authname": "K. Clark",
       "collab": "icecube-gen2",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2014-12-16",
       "instnames": [
         "toronto"
@@ -6694,7 +6694,7 @@
       "authname": "K. Clark",
       "collab": "pingu",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2013-10-03",
       "instnames": [
         "toronto"
@@ -6708,10 +6708,52 @@
       "authname": "K. Clark",
       "collab": "icecube",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
+      "first": "Kenneth",
       "from": "2017-03-09",
       "instnames": [
         "snolab"
+      ],
+      "last": "Clark",
+      "orcid": "0000-0003-2467-6825",
+      "thanks": [],
+      "to": "2021-06-24"
+    },
+    {
+      "authname": "K. Clark",
+      "collab": "icecube-gen2",
+      "email": "kclark@physics.utoronto.ca",
+      "first": "Kenneth",
+      "from": "2017-03-09",
+      "instnames": [
+        "snolab"
+      ],
+      "last": "Clark",
+      "orcid": "0000-0003-2467-6825",
+      "thanks": [],
+      "to": "2021-06-24"
+    },
+    {
+      "authname": "K. Clark",
+      "collab": "pingu",
+      "email": "kclark@physics.utoronto.ca",
+      "first": "Kenneth",
+      "from": "2017-03-09",
+      "instnames": [
+        "snolab"
+      ],
+      "last": "Clark",
+      "orcid": "0000-0003-2467-6825",
+      "thanks": [],
+      "to": "2021-06-24"
+    },
+    {
+      "authname": "K. Clark",
+      "collab": "icecube",
+      "email": "kclark@physics.utoronto.ca",
+      "first": "Kenneth",
+      "from": "2021-06-25",
+      "instnames": [
+        "queens"
       ],
       "last": "Clark",
       "orcid": "0000-0003-2467-6825",
@@ -6722,10 +6764,10 @@
       "authname": "K. Clark",
       "collab": "icecube-gen2",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
-      "from": "2017-03-09",
+      "first": "Kenneth",
+      "from": "2021-06-25",
       "instnames": [
-        "snolab"
+        "queens"
       ],
       "last": "Clark",
       "orcid": "0000-0003-2467-6825",
@@ -6736,10 +6778,10 @@
       "authname": "K. Clark",
       "collab": "pingu",
       "email": "kclark@physics.utoronto.ca",
-      "first": "K.",
-      "from": "2017-03-09",
+      "first": "Kenneth",
+      "from": "2021-06-25",
       "instnames": [
-        "snolab"
+        "queens"
       ],
       "last": "Clark",
       "orcid": "0000-0003-2467-6825",
@@ -26976,7 +27018,7 @@
       "last": "Park",
       "orcid": "0000-0002-4282-736X",
       "thanks": [],
-      "to": ""
+      "to": "2021-06-24"
     },
     {
       "authname": "N. Park",
@@ -26990,7 +27032,7 @@
       "last": "Park",
       "orcid": "0000-0002-4282-736X",
       "thanks": [],
-      "to": ""
+      "to": "2021-06-24"
     },
     {
       "authname": "N. Park",
@@ -27000,6 +27042,48 @@
       "from": "2018-12-17",
       "instnames": [
         "madisonpac"
+      ],
+      "last": "Park",
+      "orcid": "0000-0002-4282-736X",
+      "thanks": [],
+      "to": "2021-06-24"
+    },
+    {
+      "authname": "N. Park",
+      "collab": "icecube",
+      "email": "nahee.park@icecube.wisc.edu",
+      "first": "Nahee",
+      "from": "2021-06-25",
+      "instnames": [
+        "queens"
+      ],
+      "last": "Park",
+      "orcid": "0000-0002-4282-736X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Park",
+      "collab": "icecube-gen2",
+      "email": "nahee.park@icecube.wisc.edu",
+      "first": "Nahee",
+      "from": "2021-06-25",
+      "instnames": [
+        "queens"
+      ],
+      "last": "Park",
+      "orcid": "0000-0002-4282-736X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Park",
+      "collab": "pingu",
+      "email": "nahee.park@icecube.wisc.edu",
+      "first": "Nahee",
+      "from": "2021-06-25",
+      "instnames": [
+        "queens"
       ],
       "last": "Park",
       "orcid": "0000-0002-4282-736X",
@@ -42037,6 +42121,16 @@
         "pingu"
       ],
       "name": "QMLondon"
+    },
+    "queens": {
+      "cite": "Dept. of Physics, Engineering Physics, and Astronomy, Queen’s University, Kingston, ON K7L 3N6, Canada",
+      "city": "Kingston",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Queens"
     },
     "riverfalls": {
       "cite": "Dept. of Physics, University of Wisconsin, River Falls, WI 54022, USA",
