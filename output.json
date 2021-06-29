@@ -6300,6 +6300,20 @@
       "to": "2009-12-31"
     },
     {
+      "authname": "M. Cataldo",
+      "collab": "icecube-gen2",
+      "email": "maddalena.cataldo@icecube.wisc.edu",
+      "first": "Maddalena",
+      "from": "2021-06-25",
+      "instnames": [
+        "erlangen"
+      ],
+      "last": "Cataldo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Cavin",
       "collab": "icecube",
       "first": "J.",
@@ -13610,6 +13624,20 @@
         "michigan"
       ],
       "last": "Halliday",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Hallmann",
+      "collab": "icecube-gen2",
+      "email": "steffen.hallmann@desy.de",
+      "first": "Steffen",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Hallmann",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -24535,6 +24563,20 @@
       "to": "2020-07-08"
     },
     {
+      "authname": "Z. Meyers",
+      "collab": "icecube-gen2",
+      "email": "zachary.meyers@icecube.wisc.edu",
+      "first": "Zackary",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Meyers",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Miarecki",
       "collab": "icecube",
       "email": "smiarecki@icecube.wisc.edu",
@@ -25813,6 +25855,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-11-14"
+    },
+    {
+      "authname": "A. Nelles",
+      "collab": "icecube-gen2",
+      "email": "anna.nelles@icecube.wisc.edu",
+      "first": "Anna",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen",
+        "erlangen"
+      ],
+      "last": "Nelles",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Neunh\u00f6ffer",
@@ -28071,6 +28128,20 @@
       "to": ""
     },
     {
+      "authname": "I. Plaisier",
+      "collab": "icecube-gen2",
+      "email": "ilse.plaisier@icecube.wisc.edu",
+      "first": "Ilse",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Plaisier",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Plum",
       "collab": "icecube",
       "email": "mplum@icecube.wisc.edu",
@@ -28621,6 +28692,20 @@
       "orcid": "",
       "thanks": [],
       "to": "2015-10-31"
+    },
+    {
+      "authname": "L. Pyras",
+      "collab": "icecube-gen2",
+      "email": "lilly.pyras@icecube.wisc.edu",
+      "first": "Lilly",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Pyras",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Quinnan",
@@ -39187,6 +39272,20 @@
         "mainz"
       ],
       "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Welling",
+      "collab": "icecube-gen2",
+      "email": "christoph.welling@icecube.wisc.edu",
+      "first": "Christoph",
+      "from": "2021-06-25",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Welling",
       "orcid": "",
       "thanks": [],
       "to": ""
