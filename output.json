@@ -4156,6 +4156,48 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "A. Bishop",
+      "collab": "pingu",
+      "email": "abigail.bishop@icecube.wisc.edu",
+      "first": "Abigail",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Bishop",
+      "orcid": "0000-0002-0375-644X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Bishop",
+      "collab": "icecube-gen2",
+      "email": "abigail.bishop@icecube.wisc.edu",
+      "first": "Abigail",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Bishop",
+      "orcid": "0000-0002-0375-644X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Bishop",
+      "collab": "icecube",
+      "email": "abigail.bishop@icecube.wisc.edu",
+      "first": "Abigail",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Bishop",
+      "orcid": "0000-0002-0375-644X",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Bissok",
       "collab": "icecube",
       "email": "martin.bissok@icecube.wisc.edu",
@@ -27803,6 +27845,48 @@
         "copenhagen"
       ],
       "last": "Petersen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Peterson",
+      "collab": "pingu",
+      "email": "josh.peterson@icecube.wisc.edu",
+      "first": "Josh",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Peterson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Peterson",
+      "collab": "icecube-gen2",
+      "email": "josh.peterson@icecube.wisc.edu",
+      "first": "Josh",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Peterson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Peterson",
+      "collab": "icecube",
+      "email": "josh.peterson@icecube.wisc.edu",
+      "first": "Josh",
+      "from": "2021-06-25",
+      "instnames": [
+        "madisonpac"
+      ],
+      "last": "Peterson",
       "orcid": "",
       "thanks": [],
       "to": ""
