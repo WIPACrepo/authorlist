@@ -1369,6 +1369,21 @@
       "to": "2011-11-16"
     },
     {
+      "authname": "P. Allison",
+      "collab": "icecube-gen2",
+      "email": "patrick.allison@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2021-06-25",
+      "instnames": [
+        "ohioastro",
+        "ohio"
+      ],
+      "last": "Allison",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "I. Al Samarai",
       "collab": "icecube",
       "email": "imen.alsamarai@icecube.wisc.edu",
@@ -7359,6 +7374,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-02-06"
+    },
+    {
+      "authname": "A. Connolly",
+      "collab": "icecube-gen2",
+      "email": "connolly@physics.osu.edu",
+      "first": "Amy",
+      "from": "2021-06-25",
+      "instnames": [
+        "ohioastro",
+        "ohio"
+      ],
+      "last": "Connolly",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. Conrad",
@@ -36848,6 +36878,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2009-10-26"
+    },
+    {
+      "authname": "J. Torres",
+      "collab": "icecube-gen2",
+      "email": "jtorresespinosa@icecube.wisc.edu",
+      "first": "Jorge",
+      "from": "2021-06-25",
+      "instnames": [
+        "ohioastro",
+        "ohio"
+      ],
+      "last": "Torres",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Toscano",
