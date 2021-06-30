@@ -14842,6 +14842,21 @@
       "to": "2008-10-08"
     },
     {
+      "authname": "B. Hendricks",
+      "collab": "icecube-gen2",
+      "email": "bryan.hendricks@icecube.wisc.edu",
+      "first": "Brian",
+      "from": "2021-06-25",
+      "instnames": [
+        "pennphys",
+        "penncosmos"
+      ],
+      "last": "Hendricks",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "F. Henningsen",
       "collab": "icecube-gen2",
       "email": "felix.henningsen@icecube.wisc.edu",
@@ -20046,6 +20061,21 @@
         "edmonton"
       ],
       "last": "Krauss",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Krebs",
+      "collab": "icecube-gen2",
+      "email": "ryan.krebs@icecube.wisc.edu",
+      "first": "Ryan",
+      "from": "2021-06-25",
+      "instnames": [
+        "pennphys",
+        "penncosmos"
+      ],
+      "last": "Krebs",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -40354,6 +40384,22 @@
       "to": "2006-04-10"
     },
     {
+      "authname": "S. Wissel",
+      "collab": "icecube-gen2",
+      "email": "stephanie.wissel@icecube.wisc.edu",
+      "first": "Stephanie",
+      "from": "2021-06-25",
+      "instnames": [
+        "pennphys",
+        "pennastro",
+        "penncosmos"
+      ],
+      "last": "Wissel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "H. Wissing",
       "collab": "icecube",
       "email": "wissing@icecube.wisc.edu",
@@ -42358,6 +42404,16 @@
         "pingu"
       ],
       "name": "PennAstro"
+    },
+    "penncosmos": {
+      "cite": "Institute of Gravitation and the Cosmos, Center for Multi-Messenger Astrophysics, Pennsylvania State University, University Park, PA 16802, USA",
+      "city": "University Park",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "PennCosmos"
     },
     "pennphys": {
       "cite": "Dept. of Physics, Pennsylvania State University, University Park, PA 16802, USA",
