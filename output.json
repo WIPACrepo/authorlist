@@ -12103,6 +12103,20 @@
       "to": "2016-03-14"
     },
     {
+      "authname": "P. Giri",
+      "collab": "icecube-gen2",
+      "email": "pawan.giri@icecube.wisc.edu",
+      "first": "Pawan",
+      "from": "2021-06-25",
+      "instnames": [
+        "nebraska"
+      ],
+      "last": "Giri",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Gladstone",
       "collab": "icecube",
       "email": "gladstone@icecube.wisc.edu",
@@ -20133,6 +20147,20 @@
         "edmonton"
       ],
       "last": "Krauss",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Kravchenko",
+      "collab": "icecube-gen2",
+      "email": "ilya.kravchenko@icecube.wisc.edu",
+      "first": "Ilya",
+      "from": "2021-06-25",
+      "instnames": [
+        "nebraska"
+      ],
+      "last": "Kravchenko",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -42463,6 +42491,16 @@
         "pingu"
       ],
       "name": "Munster"
+    },
+    "nebraska": {
+      "cite": "Dept. of Physics and Astronomy, University of Nebraska\u2013Lincoln, Lincoln, Nebraska 68588, USA",
+      "city": "Lincoln",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Nebraska"
     },
     "notredame": {
       "cite": "Dept. of Physics, University of Notre Dame du Lac, 225 Nieuwland Science Hall, Notre Dame, IN 46556-5670, USA",
