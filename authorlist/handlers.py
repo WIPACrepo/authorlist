@@ -677,9 +677,9 @@ Supplementary Materials for:\\\\
         for i,author in enumerate(self.authors):
             source = []
             if 'instnames' in author and author['instnames']:
-                source.extend(str(self.sorted_insts.index(n)) for n in sorted(author['instnames'], key=self.sorted_insts.index))
+                source.extend(str(1+self.sorted_insts.index(n)) for n in sorted(author['instnames'], key=self.sorted_insts.index))
             if 'thanks' in author and author['thanks']:
-                source.extend(str(len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
+                source.extend(str(1+len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
             text += utf8tolatex(author['authname'])
             if source:
                 text += '$^{' + ',\: '.join(source) + '}$'
@@ -688,12 +688,12 @@ Supplementary Materials for:\\\\
             text += '\n'
         text += '\\\\\n\\\\\n'
         for name in self.sorted_insts:
-            text += '$^{'+str(self.sorted_insts.index(name))+'}$ '
+            text += '$^{'+str(1+self.sorted_insts.index(name))+'}$ '
             text += utf8tolatex(self.insts[name]['cite'])
             text += ' \\\\\n'
         for name in self.thanks:
-            text += '$^{'+str(len(self.sorted_insts) + self.sorted_thanks.index(name))+'}$ '
-            text += utf8tolatex(self.thanks[name]).replace('also at ', '')
+            text += '$^{'+str(1+len(self.sorted_insts) + self.sorted_thanks.index(name))+'}$ '
+            text += utf8tolatex(filter_thanks(self.thanks[name])[1])
             text += ' \\\\\n'
         text += """\\\\
 $^\\ast$E-mail: analysis@icecube.wisc.edu
