@@ -7991,6 +7991,21 @@
       "to": "2018-12-16"
     },
     {
+      "authname": "C. Deaconu",
+      "collab": "icecube-gen2",
+      "email": "cozzyd@kicp.uchicago.edu",
+      "first": "Cosmin",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagofermi",
+        "chicagokavli"
+      ],
+      "last": "Deaconu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. P. A. M. de Andr\u00e9",
       "collab": "icecube",
       "first": "J. P. A. M.",
@@ -16211,6 +16226,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2016-06-06"
+    },
+    {
+      "authname": "K. Hughes",
+      "collab": "icecube-gen2",
+      "email": "kaeli.hughes@icecube.wisc.edu",
+      "first": "Kaeli",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagophysics",
+        "chicagokavli"
+      ],
+      "last": "Hughes",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "B. Hughey",
@@ -26435,6 +26465,21 @@
       "to": ""
     },
     {
+      "authname": "E. Oberla",
+      "collab": "icecube-gen2",
+      "email": "eric.oberla@icecube.wisc.edu",
+      "first": "Eric",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagokavli",
+        "chicagofermi"
+      ],
+      "last": "Oberla",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Obertacke",
       "collab": "icecube",
       "email": "anna.obertacke@icecube.wisc.edu",
@@ -34182,6 +34227,21 @@
       "to": "2008-10-13"
     },
     {
+      "authname": "D. Smith",
+      "collab": "icecube-gen2",
+      "email": "daniel.smith@icecube.wisc.edu",
+      "first": "Daniel",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagophysics",
+        "chicagokavli"
+      ],
+      "last": "Smith",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. W. E. Smith",
       "collab": "icecube",
       "email": "msmith@icecube.wisc.edu",
@@ -34557,6 +34617,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2007-05-30"
+    },
+    {
+      "authname": "D. Southall",
+      "collab": "icecube-gen2",
+      "email": "daniel.southall@icecube.wisc.edu",
+      "first": "Daniel",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagophysics",
+        "chicagokavli"
+      ],
+      "last": "Southall",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "C. Spannfellner",
@@ -38435,6 +38510,23 @@
       "to": ""
     },
     {
+      "authname": "A. Vieregg",
+      "collab": "icecube-gen2",
+      "email": "avieregg@kicp.uchicago.edu",
+      "first": "Abigail",
+      "from": "2021-06-25",
+      "instnames": [
+        "chicagophysics",
+        "chicagoastro",
+        "chicagokavli",
+        "chicagofermi"
+      ],
+      "last": "Vieregg",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "V. Viscomi",
       "collab": "icecube",
       "first": "V.",
@@ -42024,6 +42116,46 @@
         "pingu"
       ],
       "name": "Chibaold"
+    },
+    "chicagoastro": {
+      "cite": "Dept. of Astronomy and Astrophysics, University of Chicago, Chicago, IL 60637, USA",
+      "city": "Chicago",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "ChicagoAstro"
+    },
+    "chicagofermi": {
+      "cite": "Enrico Fermi Institute, University of Chicago, Chicago, IL 60637, USA",
+      "city": "Chicago",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "ChicagoFermi"
+    },
+    "chicagokavli": {
+      "cite": "Kavli Institute for Cosmological Physics, University of Chicago, Chicago, IL 60637, USA",
+      "city": "Chicago",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "ChicagoKavli"
+    },
+    "chicagophysics": {
+      "cite": "Dept. of Physics, University of Chicago, Chicago, IL 60637, USA",
+      "city": "Chicago",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "ChicagoPhysics"
     },
     "christchurch": {
       "cite": "Dept. of Physics and Astronomy, University of Canterbury, Private Bag 4800, Christchurch, New Zealand",
