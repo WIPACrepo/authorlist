@@ -8362,7 +8362,7 @@
       "last": "De Ridder",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "S. De Ridder",
@@ -8376,7 +8376,7 @@
       "last": "De Ridder",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "S. De Ridder",
@@ -8390,7 +8390,7 @@
       "last": "De Ridder",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "A. Desai",
@@ -26774,6 +26774,48 @@
       "to": ""
     },
     {
+      "authname": "B. Oeyen",
+      "collab": "icecube",
+      "email": "bob.oeyen@icecube.wisc.edu",
+      "first": "Bob",
+      "from": "2021-07-01",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Oeyen",
+      "orcid": "0000-0003-2940-3164",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Oeyen",
+      "collab": "pingu",
+      "email": "bob.oeyen@icecube.wisc.edu",
+      "first": "Bob",
+      "from": "2021-07-01",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Oeyen",
+      "orcid": "0000-0003-2940-3164",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Oeyen",
+      "collab": "icecube-gen2",
+      "email": "bob.oeyen@icecube.wisc.edu",
+      "first": "Bob",
+      "from": "2021-07-01",
+      "instnames": [
+        "gent"
+      ],
+      "last": "Oeyen",
+      "orcid": "0000-0003-2940-3164",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "H. \u00d6gelman",
       "collab": "icecube",
       "email": "hogelman@icecube.wisc.edu",
@@ -38703,7 +38745,7 @@
       "last": "Vraeghe",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "M. Vraeghe",
@@ -38717,7 +38759,7 @@
       "last": "Vraeghe",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "M. Vraeghe",
@@ -38731,7 +38773,7 @@
       "last": "Vraeghe",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-31"
     },
     {
       "authname": "C. Q. Vu",
