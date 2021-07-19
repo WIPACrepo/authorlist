@@ -617,7 +617,7 @@ You will need jheppub from
 \\title{"""+self.collab+""" Author List for Science """
         text += self.date.replace('-','') + """}
 
-\\author{IceCube Collaboration\\footnote{The full list of collaboration members and their affiliations is included in the supplementary material}
+\\author{"""+self.collab+""" Collaboration\\footnote{The full list of collaboration members and their affiliations is included in the supplementary material}
 \\footnote{Correspondence to analysis@icecube.wisc.edu}\\\\
 }
 \\date{}
@@ -671,7 +671,7 @@ Supplementary Materials for:\\\\
 }
 \\end{center}
 
-\\subsection*{IceCube Collaboration$^{\\ast}$:}
+\\subsection*{"""+self.collab+""" Collaboration$^{\\ast}$:}
 
 """
         for i,author in enumerate(self.authors):
