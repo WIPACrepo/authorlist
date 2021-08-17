@@ -8152,7 +8152,7 @@
       "last": "DeLaunay",
       "orcid": "0000-0001-5229-1995",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-16"
     },
     {
       "authname": "J. J. DeLaunay",
@@ -8166,7 +8166,7 @@
       "last": "DeLaunay",
       "orcid": "0000-0001-5229-1995",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-16"
     },
     {
       "authname": "J. J. DeLaunay",
@@ -8176,6 +8176,48 @@
       "from": "2017-03-12",
       "instnames": [
         "pennphys"
+      ],
+      "last": "DeLaunay",
+      "orcid": "0000-0001-5229-1995",
+      "thanks": [],
+      "to": "2021-08-16"
+    },
+    {
+      "authname": "J. J. DeLaunay",
+      "collab": "pingu",
+      "email": "james.delaunay@icecube.wisc.edu",
+      "first": "James",
+      "from": "2021-08-17",
+      "instnames": [
+        "alabama"
+      ],
+      "last": "DeLaunay",
+      "orcid": "0000-0001-5229-1995",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. J. DeLaunay",
+      "collab": "icecube",
+      "email": "james.delaunay@icecube.wisc.edu",
+      "first": "James",
+      "from": "2021-08-17",
+      "instnames": [
+        "alabama"
+      ],
+      "last": "DeLaunay",
+      "orcid": "0000-0001-5229-1995",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. J. DeLaunay",
+      "collab": "icecube-gen2",
+      "email": "james.delaunay@icecube.wisc.edu",
+      "first": "James",
+      "from": "2021-08-17",
+      "instnames": [
+        "alabama"
       ],
       "last": "DeLaunay",
       "orcid": "0000-0001-5229-1995",
