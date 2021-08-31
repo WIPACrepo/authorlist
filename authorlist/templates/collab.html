@@ -18,6 +18,7 @@
                 {% end %}
                 </select>
             </div>
+            <div>Legacy Authors: <input type="checkbox" name="legacy" value="yes" {% if legacy %}checked {% end %} /></div>
             <input type="submit" />
         </form>
     </section>
@@ -44,7 +45,7 @@
                 {{ ack }}
             {% end %}
             </div>
-         {% elif formatting == 'web-institution' %}
+         {% elif formatting in ('web-institution', 'legacy-institution') %}
             <ul class="authors-by-institution">
             {% for name in sorted_insts %}
             <li><h4>{{ insts[name]['cite'] }}</h4></li>
