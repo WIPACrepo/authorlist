@@ -59,7 +59,7 @@ class MainHandler(tornado.web.RequestHandler):
 
         collaborations = {c:collabs[c] for c in collaborations}
         institutions = {inst:self.data['institutions'][inst]['cite'] for inst in institutions}
-        
+
         self.write("""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,7 +105,7 @@ class MainHandler(tornado.web.RequestHandler):
 <body>
     <header><h1>Author List Editor</h1></header>
     <main>
-        <article>            
+        <article>
             <section class="action">
                 <button id="add">Add Author</button>
                 <button id="edit">Edit Author</button>
@@ -125,6 +125,14 @@ class MainHandler(tornado.web.RequestHandler):
 
         function text_format(id, text, value=''){
             return '<div class="text"><span class="label">'+text+':</span><input autocomplete="off" class="'+id+'" type="text" value="'+value+'"></div>';
+        }
+        function checkbox_format(id, text, value=false){
+            let ret = '<div class="text"><span class="label">'+text+':</span><input autocomplete="off" class="'+id+'" type="checkbox" value="true" ';
+            if (value) {
+                ret += 'checked ';
+            }
+            ret += '></div>';
+            return ret
         }
         function date_format(id, text, value=''){
             return '<div class="text date"><span class="label">'+text+':</span><input autocomplete="off" class="'+id+'" type="date" value="'+value+'"></div>';
@@ -171,6 +179,7 @@ class MainHandler(tornado.web.RequestHandler):
             html += text_format('orcid', 'ORCID');
             html += date_format('from', 'From');
             html += date_format('to', 'To');
+            html += checkbox_format('legacy', 'Legacy Author');
             html += select_format('collaboration', 'Collaboration', collaborations);
             html += select_format('institution', 'Institution', institutions);
             html += select_format('thanks', 'Thanks', data['thanks']);
@@ -195,6 +204,7 @@ class MainHandler(tornado.web.RequestHandler):
                 var thanks = $('select.thanks').val();
                 var author;
                 var email = $('input.email').val();
+                var legacy = $('input.legacy:checked').val();
                 for (var i=0;i<collabs.length;i++){
                     author = {
                         'authname': $('input.name').val(),
@@ -211,6 +221,8 @@ class MainHandler(tornado.web.RequestHandler):
                         author['instnames'] = insts;
                     if (thanks != null)
                         author['thanks'] = thanks;
+                    if (legacy != null)
+                        author['legacy'] = true;
                     data['authors'].push(author);
                 }
                 $('#submit').click()
@@ -253,6 +265,11 @@ class MainHandler(tornado.web.RequestHandler):
                     html += text_format('orcid', 'ORCID', author['orcid']);
                     html += date_format('from', 'From', author['from']);
                     html += date_format('to', 'To', author['to']);
+                    let legacy = false;
+                    if ('legacy' in author && author['legacy']) {
+                        legacy = true;
+                    }
+                    html += checkbox_format('legacy', 'Legacy Author', legacy);
                     var collabs = {};
                     for (var j=0;j<author['collab'].length;j++) {
                         collabs[author['collab'][j]] = collaborations[author['collab'][j]];
@@ -287,7 +304,7 @@ class MainHandler(tornado.web.RequestHandler):
                         }
                         add_author();
                     }
-                    
+
                     author = $.extend({}, a);
                     author['collab'] = [a['collab']]
                 }
@@ -307,6 +324,10 @@ class MainHandler(tornado.web.RequestHandler):
                         var thanks = $(el).find('select.thanks').val();
                         var author;
                         var email = $(el).find('input.email').val();
+                        let legacy = false;
+                        if ($(el).find('input.legacy:checked').val() == ['true']) {
+                            legacy = true;
+                        }
                         for (var i=0;i<collabs.length;i++){
                             author = {
                                 'authname': $(el).find('input.name').val(),
@@ -323,6 +344,8 @@ class MainHandler(tornado.web.RequestHandler):
                                 author['instnames'] = insts;
                             if (thanks != null)
                                 author['thanks'] = thanks;
+                            if (legacy === true)
+                                author['legacy'] = legacy;
                             authors.push(author);
                         }
                     });

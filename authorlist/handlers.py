@@ -76,6 +76,7 @@ class AuthorListRenderer:
     FORMATTING = {
         'web': 'web',
         'web-institution': 'web by institution',
+        'legacy-institution': 'legacy authors by institution',
         'arxiv': 'arXiv',
         'epjc': 'European Physical Journal C. (EPJC)',
         'revtex4': 'Physical Review Letters (RevTex4)',
@@ -91,7 +92,7 @@ class AuthorListRenderer:
     def __init__(self, state):
         self.state = state
 
-    def render(self, collab, date, formatting):
+    def render(self, collab, date, formatting, legacy=False):
         if collab not in ('IceCube', 'IceCube-PINGU', 'IceCube-Gen2'):
             raise tornado.web.HTTPError(400, reason='bad collaboration')
         if formatting not in self.FORMATTING:
@@ -100,9 +101,10 @@ class AuthorListRenderer:
         self.collab = collab
         self.date = date
         self.formatting = formatting
-        self.authors = self.state.authors(date)
-        self.insts = self.state.institutions(date)
-        self.thanks = self.state.thanks(date)
+        self.legacy = True if formatting == 'legacy-institution' else legacy
+        self.authors = self.state.authors(date, legacy=self.legacy)
+        self.insts = self.state.institutions(date, legacy=self.legacy)
+        self.thanks = self.state.thanks(date, legacy=self.legacy)
         self.acks = self.state.acknowledgements(date)
 
         self.authors = sorted(self.authors, key=author_ordering)
@@ -136,6 +138,7 @@ class AuthorListRenderer:
             'date': date,
             'formatting': formatting,
             'formatting_options': AuthorListRenderer.FORMATTING,
+            'legacy': legacy,
             'wrap': False,
             'intro_text':'',
         }
@@ -175,6 +178,8 @@ class AuthorListRenderer:
         for author in self.authors:
             for instname in author['instnames']:
                 text = author['authname']
+                if author.get('legacy', False):
+                    text += ' <span class="legacy">Legacy Author</span> '
                 if 'orcid' in author and author['orcid']:
                     text += f'<a class="orcid" target="_blank" href="https://orcid.org/{author["orcid"]}"><img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />https://orcid.org/{author["orcid"]}</a>'
                 authors_by_inst[instname].append(text)
@@ -182,6 +187,24 @@ class AuthorListRenderer:
             'authors_by_inst': authors_by_inst,
             'insts': self.insts,
             'sorted_insts': self.sorted_insts,
+        }
+
+    def _legacy_institution(self):
+        authors_by_inst = defaultdict(list)
+        for author in self.authors:
+            for instname in author['instnames']:
+                text = author['authname']
+                if not author.get('legacy', False):
+                    continue
+                if 'orcid' in author and author['orcid']:
+                    text += f'<a class="orcid" target="_blank" href="https://orcid.org/{author["orcid"]}"><img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />https://orcid.org/{author["orcid"]}</a>'
+                authors_by_inst[instname].append(text)
+        insts = {i:self.insts[i] for i in self.insts if i in authors_by_inst}
+        sorted_insts = [i for i in self.sorted_insts if i in authors_by_inst]
+        return {
+            'authors_by_inst': authors_by_inst,
+            'insts': insts,
+            'sorted_insts': sorted_insts,
         }
 
     def _arxiv(self):
@@ -801,9 +824,10 @@ class CollabHandler(BaseHandler):
 
         raw = self.get_argument('raw', default=None)
         formatting = self.get_argument('formatting','web') if raw is None else 'web'
+        legacy = self.get_argument('legacy', False)
 
         r = AuthorListRenderer(self.state)
-        kwargs = r.render(self.collab, date, formatting)
+        kwargs = r.render(self.collab, date, formatting, legacy)
 
         if raw:
             kwargs['formatting_options'] = {'web': 'web'}

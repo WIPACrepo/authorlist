@@ -45,22 +45,24 @@ class State:
             self._thanks = data['thanks']
             self._acknowledgements = data['acknowledgements']
 
-    def authors(self, date):
+    def authors(self, date, legacy=False):
         """
         List all valid authors on a date.
 
         Args:
             date (str): a date in ISO 8601 string format
+            legacy (bool): list legacy authors (default: False)
 
         Returns: list of dicts
         """
         ret = []
         for author in self._authors:
             if author['from'] <= date and (author['to'] >= date or not author['to']):
-                ret.append(author)
+                if legacy or not author.get('legacy', False):
+                    ret.append(author)
         return ret
 
-    def institutions(self, date):
+    def institutions(self, date, **kwargs):
         """
         List all valid institutions on a date.
 
@@ -70,14 +72,14 @@ class State:
         Returns: dict of dicts
         """
         insts = {}
-        for a in itertools.chain(self.authors(date)):
+        for a in itertools.chain(self.authors(date, **kwargs)):
             if 'instnames' in a and a['instnames']:
                 for inst in a['instnames']:
                     insts[inst] = self._institutions[inst]
         return insts
         ## TODO: actually support dates for institutions
 
-    def thanks(self, date):
+    def thanks(self, date, **kwargs):
         """
         List all valid thanks on a date.
 
@@ -87,7 +89,7 @@ class State:
         Returns: dict
         """
         thanks = {}
-        for a in itertools.chain(self.authors(date)):
+        for a in itertools.chain(self.authors(date, **kwargs)):
             if 'thanks' in a and a['thanks']:
                 for t in a['thanks']:
                     thanks[t] = self._thanks[t]

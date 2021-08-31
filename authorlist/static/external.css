@@ -1,4 +1,3 @@
-
 .authorlist_filters form {
 }
 .authorlist_filters div.col {
@@ -59,4 +58,8 @@
 }
 .authorlist_body ul.authors-by-institution .orcid {
     margin-left: 1em;
+}
+.authorlist_body ul.authors-by-institution .legacy {
+    margin-left: 1em;
+    font-weight: 600;
 }
