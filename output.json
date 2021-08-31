@@ -12507,7 +12507,7 @@
       "last": "Goldschmidt",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-30"
     },
     {
       "authname": "A. Goldschmidt",
@@ -12521,7 +12521,7 @@
       "last": "Goldschmidt",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-30"
     },
     {
       "authname": "A. Goldschmidt",
@@ -12533,6 +12533,51 @@
         "lbnl"
       ],
       "last": "Goldschmidt",
+      "orcid": "",
+      "thanks": [],
+      "to": "2021-08-30"
+    },
+    {
+      "authname": "A. Goldschmidt",
+      "collab": "pingu",
+      "email": "agoldschmidt@lbl.gov",
+      "first": "Azriel",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Goldschmidt",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Goldschmidt",
+      "collab": "icecube-gen2",
+      "email": "agoldschmidt@lbl.gov",
+      "first": "Azriel",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Goldschmidt",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Goldschmidt",
+      "collab": "icecube",
+      "email": "agoldschmidt@lbl.gov",
+      "first": "Azriel",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Goldschmidt",
+      "legacy": true,
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -26490,7 +26535,7 @@
       "last": "Nygren",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-08-30"
     },
     {
       "authname": "D. R. Nygren",
@@ -26502,6 +26547,36 @@
         "lbnl"
       ],
       "last": "Nygren",
+      "orcid": "",
+      "thanks": [],
+      "to": "2021-08-30"
+    },
+    {
+      "authname": "D. R. Nygren",
+      "collab": "icecube",
+      "email": "dnygren@icecube.wisc.edu",
+      "first": "Dave",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Nygren",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. R. Nygren",
+      "collab": "icecube-gen2",
+      "email": "dnygren@icecube.wisc.edu",
+      "first": "Dave",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Nygren",
+      "legacy": true,
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -35540,6 +35615,51 @@
       "orcid": "",
       "thanks": [],
       "to": "2021-01-06"
+    },
+    {
+      "authname": "R. G. Stokstad",
+      "collab": "pingu",
+      "email": "stokstad@icecube.wisc.edu",
+      "first": "Robert",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Stokstad",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. G. Stokstad",
+      "collab": "icecube-gen2",
+      "email": "stokstad@icecube.wisc.edu",
+      "first": "Robert",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Stokstad",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. G. Stokstad",
+      "collab": "icecube",
+      "email": "stokstad@icecube.wisc.edu",
+      "first": "Robert",
+      "from": "2021-08-31",
+      "instnames": [
+        "lbnl"
+      ],
+      "last": "Stokstad",
+      "legacy": true,
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. St\u00f6\u00dfl",
