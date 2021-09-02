@@ -9,7 +9,7 @@
         <h3>Retrieve archived author lists:</h3>
         <form method="post">
             <div>Query Date: <input type="text" name="date" value="{{ date }}" /></div>
-            <div>Legacy Authors: <input type="checkbox" name="legacy" value="yes" {% if legacy %}checked {% end $} /></div>
+            {% comment <div>Legacy Authors: <input type="checkbox" name="legacy" value="yes" { if legacy }checked { end } /></div>%}
             <input type="hidden" name="formatting" value="web" />
             <input type="submit" />
         </form>

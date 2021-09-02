@@ -76,7 +76,7 @@ class AuthorListRenderer:
     FORMATTING = {
         'web': 'web',
         'web-institution': 'web by institution',
-        'legacy-institution': 'legacy authors by institution',
+        # 'legacy-institution': 'legacy authors by institution',
         'arxiv': 'arXiv',
         'epjc': 'European Physical Journal C. (EPJC)',
         'revtex4': 'Physical Review Letters (RevTex4)',
