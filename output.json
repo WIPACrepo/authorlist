@@ -6412,6 +6412,48 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "Z. Chen",
+      "collab": "icecube-gen2",
+      "email": "zheyang.chen@icecube.wisc.edu",
+      "first": "Zheyang",
+      "from": "2021-09-03",
+      "instnames": [
+        "stonybrook"
+      ],
+      "last": "Chen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Chen",
+      "collab": "pingu",
+      "email": "zheyang.chen@icecube.wisc.edu",
+      "first": "Zheyang",
+      "from": "2021-09-03",
+      "instnames": [
+        "stonybrook"
+      ],
+      "last": "Chen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Chen",
+      "collab": "icecube",
+      "email": "zheyang.chen@icecube.wisc.edu",
+      "first": "Zheyang",
+      "from": "2021-09-03",
+      "instnames": [
+        "stonybrook"
+      ],
+      "last": "Chen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Cherwinka",
       "collab": "icecube",
       "email": "jeffc@icecube.wisc.edu",
@@ -41509,7 +41551,7 @@
       "last": "Xu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-09-02"
     },
     {
       "authname": "Y. Xu",
@@ -41523,7 +41565,7 @@
       "last": "Xu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-09-02"
     },
     {
       "authname": "Y. Xu",
@@ -41537,7 +41579,7 @@
       "last": "Xu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-09-02"
     },
     {
       "authname": "J. P. Yanez",
