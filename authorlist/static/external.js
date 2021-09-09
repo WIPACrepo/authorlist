@@ -167,6 +167,7 @@ async function AuthorList(id, baseurl = 'https://authorlist.icecube.wisc.edu', f
           this.tag = ''
         }
         this.authors = await updateAuthors(params);
+        this.filters['date'] = this.fauthors['date'];
         // update location hash
         let hash = []
         for (const k in params) {
