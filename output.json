@@ -1605,7 +1605,7 @@
       "last": "An",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-10-18"
     },
     {
       "authname": "R. An",
@@ -1619,7 +1619,7 @@
       "last": "An",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-10-18"
     },
     {
       "authname": "R. An",
@@ -1633,7 +1633,7 @@
       "last": "An",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2021-10-18"
     },
     {
       "authname": "K. Andeen",
@@ -23928,6 +23928,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2011-12-31"
+    },
+    {
+      "authname": "I. Martinez-Soler",
+      "collab": "pingu",
+      "email": "ivan.martinez-soler@icecube.wisc.edu",
+      "first": "Ivan",
+      "from": "2021-10-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Martinez-Soler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Martinez-Soler",
+      "collab": "icecube",
+      "email": "ivan.martinez-soler@icecube.wisc.edu",
+      "first": "Ivan",
+      "from": "2021-10-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Martinez-Soler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Martinez-Soler",
+      "collab": "icecube-gen2",
+      "email": "ivan.martinez-soler@icecube.wisc.edu",
+      "first": "Ivan",
+      "from": "2021-10-19",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Martinez-Soler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. Maruyama",
