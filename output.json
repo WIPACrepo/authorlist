@@ -8852,7 +8852,7 @@
       "last": "de Wasseige",
       "orcid": "0000-0002-1010-5100",
       "thanks": [],
-      "to": ""
+      "to": "2021-10-20"
     },
     {
       "authname": "G. de Wasseige",
@@ -8866,7 +8866,7 @@
       "last": "de Wasseige",
       "orcid": "0000-0002-1010-5100",
       "thanks": [],
-      "to": ""
+      "to": "2021-10-20"
     },
     {
       "authname": "G. de Wasseige",
@@ -8876,6 +8876,48 @@
       "from": "2015-02-17",
       "instnames": [
         "brusselsvrije"
+      ],
+      "last": "de Wasseige",
+      "orcid": "0000-0002-1010-5100",
+      "thanks": [],
+      "to": "2021-10-20"
+    },
+    {
+      "authname": "G. de Wasseige",
+      "collab": "icecube",
+      "email": "gwenhael.dewasseige@icecube.wisc.edu",
+      "first": "Gwenhael",
+      "from": "2021-10-21",
+      "instnames": [
+        "uclouvain"
+      ],
+      "last": "de Wasseige",
+      "orcid": "0000-0002-1010-5100",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. de Wasseige",
+      "collab": "icecube-gen2",
+      "email": "gwenhael.dewasseige@icecube.wisc.edu",
+      "first": "Gwenhael",
+      "from": "2021-10-21",
+      "instnames": [
+        "uclouvain"
+      ],
+      "last": "de Wasseige",
+      "orcid": "0000-0002-1010-5100",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. de Wasseige",
+      "collab": "pingu",
+      "email": "gwenhael.dewasseige@icecube.wisc.edu",
+      "first": "Gwenhael",
+      "from": "2021-10-21",
+      "instnames": [
+        "uclouvain"
       ],
       "last": "de Wasseige",
       "orcid": "0000-0002-1010-5100",
@@ -43600,6 +43642,16 @@
         "pingu"
       ],
       "name": "UCLA"
+    },
+    "uclouvain": {
+      "cite": "Centre for Cosmology, Particle Physics and Phenomenology - CP3, Université catholique de Louvain, Louvain-la-Neuve, Belgium",
+      "city": "Louvain-la-Neuve",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "UCLouvain"
     },
     "uppsala": {
       "cite": "Dept. of Physics and Astronomy, Uppsala University, Box 516, S-75120 Uppsala, Sweden",
