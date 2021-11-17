@@ -26786,7 +26786,7 @@
       "last": "Niederhausen",
       "orcid": "0000-0002-9566-4904",
       "thanks": [],
-      "to": ""
+      "to": "2021-11-16"
     },
     {
       "authname": "H. Niederhausen",
@@ -26800,7 +26800,7 @@
       "last": "Niederhausen",
       "orcid": "0000-0002-9566-4904",
       "thanks": [],
-      "to": ""
+      "to": "2021-11-16"
     },
     {
       "authname": "H. Niederhausen",
@@ -26810,6 +26810,48 @@
       "from": "2018-12-19",
       "instnames": [
         "munich"
+      ],
+      "last": "Niederhausen",
+      "orcid": "0000-0002-9566-4904",
+      "thanks": [],
+      "to": "2021-11-16"
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "icecube-gen2",
+      "email": "hans.niederhausen@icecube.wisc.edu",
+      "first": "Hans",
+      "from": "2021-11-17",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Niederhausen",
+      "orcid": "0000-0002-9566-4904",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "pingu",
+      "email": "hans.niederhausen@icecube.wisc.edu",
+      "first": "Hans",
+      "from": "2021-11-17",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Niederhausen",
+      "orcid": "0000-0002-9566-4904",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Niederhausen",
+      "collab": "icecube",
+      "email": "hans.niederhausen@icecube.wisc.edu",
+      "first": "Hans",
+      "from": "2021-11-17",
+      "instnames": [
+        "michigan"
       ],
       "last": "Niederhausen",
       "orcid": "0000-0002-9566-4904",
