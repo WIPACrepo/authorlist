@@ -10779,7 +10779,7 @@
       "authname": "A. Fedynitch",
       "collab": "icecube",
       "email": "afedynitch@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Anatoli",
       "from": "2010-08-16",
       "instnames": [
         "bochum"
@@ -10793,7 +10793,7 @@
       "authname": "A. Fedynitch",
       "collab": "icecube-gen2",
       "email": "afedynitch@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Anatoli",
       "from": "2014-12-16",
       "instnames": [
         "bochum"
@@ -10807,7 +10807,7 @@
       "authname": "A. Fedynitch",
       "collab": "pingu",
       "email": "afedynitch@icecube.wisc.edu",
-      "first": "A.",
+      "first": "Anatoli",
       "from": "2013-06-25",
       "instnames": [
         "bochum"
@@ -10816,6 +10816,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2015-10-08"
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube",
+      "email": "afedynitch@icecube.wisc.edu",
+      "first": "Anatoli",
+      "from": "2021-11-17",
+      "instnames": [
+        "sinica"
+      ],
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube-gen2",
+      "email": "afedynitch@icecube.wisc.edu",
+      "first": "Anatoli",
+      "from": "2021-11-17",
+      "instnames": [
+        "sinica"
+      ],
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "pingu",
+      "email": "afedynitch@icecube.wisc.edu",
+      "first": "Anatoli",
+      "from": "2021-11-17",
+      "instnames": [
+        "sinica"
+      ],
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "N. Feigl",
@@ -43565,6 +43607,16 @@
         "pingu"
       ],
       "name": "Rochester"
+    },
+    "sinica": {
+      "cite": "Institute of Physics, Academia Sinica, Taipei, 11529, Taiwan",
+      "city": "Taipei",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "AcademiaSinica"
     },
     "skku": {
       "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 16419, Korea",
