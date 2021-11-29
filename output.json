@@ -29800,6 +29800,48 @@
       "to": ""
     },
     {
+      "authname": "J. Rack-Helleis",
+      "collab": "pingu",
+      "email": "john.rack-helleis@icecube.wisc.edu",
+      "first": "John",
+      "from": "2020-06-01",
+      "instnames": [
+        "mainz"
+      ],
+      "last": "Rack-Helleis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Rack-Helleis",
+      "collab": "icecube-gen2",
+      "email": "john.rack-helleis@icecube.wisc.edu",
+      "first": "John",
+      "from": "2020-06-01",
+      "instnames": [
+        "mainz"
+      ],
+      "last": "Rack-Helleis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Rack-Helleis",
+      "collab": "icecube",
+      "email": "john.rack-helleis@icecube.wisc.edu",
+      "first": "John",
+      "from": "2020-06-01",
+      "instnames": [
+        "mainz"
+      ],
+      "last": "Rack-Helleis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. R\u00e4del",
       "collab": "icecube",
       "first": "L.",
@@ -32585,7 +32627,7 @@
       "last": "Sandroos",
       "orcid": "0000-0002-0629-0630",
       "thanks": [],
-      "to": ""
+      "to": "2021-11-29"
     },
     {
       "authname": "J. Sandroos",
@@ -32599,7 +32641,7 @@
       "last": "Sandroos",
       "orcid": "0000-0002-0629-0630",
       "thanks": [],
-      "to": ""
+      "to": "2021-11-29"
     },
     {
       "authname": "J. Sandroos",
@@ -32613,7 +32655,7 @@
       "last": "Sandroos",
       "orcid": "0000-0002-0629-0630",
       "thanks": [],
-      "to": ""
+      "to": "2021-11-29"
     },
     {
       "authname": "P. Sandstrom",
@@ -36092,7 +36134,7 @@
       "last": "Steuer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-01"
     },
     {
       "authname": "A. Steuer",
@@ -36106,7 +36148,7 @@
       "last": "Steuer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-01"
     },
     {
       "authname": "A. Steuer",
@@ -36120,7 +36162,7 @@
       "last": "Steuer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-01"
     },
     {
       "authname": "T. Stezelberger",
