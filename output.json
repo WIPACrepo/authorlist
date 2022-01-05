@@ -15728,7 +15728,7 @@
       "last": "Hill",
       "orcid": "0000-0003-0647-9174",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "C. Hill",
@@ -15742,7 +15742,7 @@
       "last": "Hill",
       "orcid": "0000-0003-0647-9174",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "C. Hill",
@@ -15752,6 +15752,48 @@
       "from": "2020-06-02",
       "instnames": [
         "chiba"
+      ],
+      "last": "Hill",
+      "orcid": "0000-0003-0647-9174",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "pingu",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Hill",
+      "orcid": "0000-0003-0647-9174",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "icecube-gen2",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Hill",
+      "orcid": "0000-0003-0647-9174",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "icecube",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Hill",
       "orcid": "0000-0003-0647-9174",
@@ -17208,7 +17250,7 @@
       "last": "Ishihara",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "A. Ishihara",
@@ -17222,7 +17264,7 @@
       "last": "Ishihara",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "A. Ishihara",
@@ -17232,6 +17274,48 @@
       "from": "2016-07-11",
       "instnames": [
         "chiba"
+      ],
+      "last": "Ishihara",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "A. Ishihara",
+      "collab": "icecube",
+      "email": "aya.ishihara@icecube.wisc.edu",
+      "first": "Aya",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Ishihara",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Ishihara",
+      "collab": "icecube-gen2",
+      "email": "aya.ishihara@icecube.wisc.edu",
+      "first": "Aya",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Ishihara",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Ishihara",
+      "collab": "pingu",
+      "email": "aya.ishihara@icecube.wisc.edu",
+      "first": "Aya",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Ishihara",
       "orcid": "",
@@ -19339,7 +19423,7 @@
       "last": "Kin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "K. Kin",
@@ -19353,7 +19437,7 @@
       "last": "Kin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "K. Kin",
@@ -19363,6 +19447,48 @@
       "from": "2020-06-02",
       "instnames": [
         "chiba"
+      ],
+      "last": "Kin",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "pingu",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Kin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "icecube-gen2",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Kin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Kin",
+      "collab": "icecube",
+      "email": "kenichi@hepburn.s.chiba-u.ac.jp",
+      "first": "Ken'ichi",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Kin",
       "orcid": "",
@@ -24447,7 +24573,7 @@
       "last": "Mase",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "K. Mase",
@@ -24461,7 +24587,7 @@
       "last": "Mase",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "K. Mase",
@@ -24475,7 +24601,7 @@
       "last": "Mase",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "H. S. Matis",
@@ -25118,7 +25244,7 @@
       "last": "Meier",
       "orcid": "0000-0002-9483-9450",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "M. Meier",
@@ -25132,7 +25258,7 @@
       "last": "Meier",
       "orcid": "0000-0002-9483-9450",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "M. Meier",
@@ -25142,6 +25268,48 @@
       "from": "2020-06-02",
       "instnames": [
         "chiba"
+      ],
+      "last": "Meier",
+      "orcid": "0000-0002-9483-9450",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "pingu",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Meier",
+      "orcid": "0000-0002-9483-9450",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "icecube-gen2",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Meier",
+      "orcid": "0000-0002-9483-9450",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Meier",
+      "collab": "icecube",
+      "email": "maximilian.meier@icecube.wisc.edu",
+      "first": "Maximilian",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Meier",
       "orcid": "0000-0002-9483-9450",
@@ -26551,7 +26719,7 @@
       "last": "Nagai",
       "orcid": "0000-0001-7503-2777",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "R. Nagai",
@@ -26565,7 +26733,7 @@
       "last": "Nagai",
       "orcid": "0000-0001-7503-2777",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "R. Nagai",
@@ -26575,6 +26743,48 @@
       "from": "2018-05-05",
       "instnames": [
         "chiba"
+      ],
+      "last": "Nagai",
+      "orcid": "0000-0001-7503-2777",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "R. Nagai",
+      "collab": "icecube",
+      "email": "ryo.nagai@icecube.wisc.edu",
+      "first": "Ryo",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Nagai",
+      "orcid": "0000-0001-7503-2777",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Nagai",
+      "collab": "icecube-gen2",
+      "email": "ryo.nagai@icecube.wisc.edu",
+      "first": "Ryo",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Nagai",
+      "orcid": "0000-0001-7503-2777",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Nagai",
+      "collab": "pingu",
+      "email": "ryo.nagai@icecube.wisc.edu",
+      "first": "Ryo",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Nagai",
       "orcid": "0000-0001-7503-2777",
@@ -35033,6 +35243,48 @@
       "to": "2014-07-15"
     },
     {
+      "authname": "N. Shimizu",
+      "collab": "icecube-gen2",
+      "email": "nobuhiro.shimizu@icecube.wisc.edu",
+      "first": "Nobuhiro",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Shimizu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Shimizu",
+      "collab": "pingu",
+      "email": "nobuhiro.shimizu@icecube.wisc.edu",
+      "first": "Nobuhiro",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Shimizu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Shimizu",
+      "collab": "icecube",
+      "email": "nobuhiro.shimizu@icecube.wisc.edu",
+      "first": "Nobuhiro",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Shimizu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Silva",
       "collab": "icecube",
       "email": "manuel.silva@icecube.wisc.edu",
@@ -42743,7 +42995,7 @@
       "last": "Yoshida",
       "orcid": "0000-0003-2480-5105",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "S. Yoshida",
@@ -42757,7 +43009,7 @@
       "last": "Yoshida",
       "orcid": "0000-0003-2480-5105",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-04"
     },
     {
       "authname": "S. Yoshida",
@@ -42767,6 +43019,48 @@
       "from": "2016-07-11",
       "instnames": [
         "chiba"
+      ],
+      "last": "Yoshida",
+      "orcid": "0000-0003-2480-5105",
+      "thanks": [],
+      "to": "2022-01-04"
+    },
+    {
+      "authname": "S. Yoshida",
+      "collab": "icecube",
+      "email": "syoshida@hepburn.s.chiba-u.ac.jp",
+      "first": "Shigeru",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Yoshida",
+      "orcid": "0000-0003-2480-5105",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Yoshida",
+      "collab": "icecube-gen2",
+      "email": "syoshida@hepburn.s.chiba-u.ac.jp",
+      "first": "Shigeru",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "last": "Yoshida",
+      "orcid": "0000-0003-2480-5105",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Yoshida",
+      "collab": "pingu",
+      "email": "syoshida@hepburn.s.chiba-u.ac.jp",
+      "first": "Shigeru",
+      "from": "2022-01-05",
+      "instnames": [
+        "chiba2022"
       ],
       "last": "Yoshida",
       "orcid": "0000-0003-2480-5105",
@@ -43355,6 +43649,16 @@
     },
     "chiba": {
       "cite": "Dept. of Physics and Institute for Global Prominent Research, Chiba University, Chiba 263-8522, Japan",
+      "city": "Chiba",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Chiba"
+    },
+    "chiba2022": {
+      "cite": "Dept. of Physics and The International Center for Hadron Astrophysics, Chiba University, Chiba 263-8522, Japan",
       "city": "Chiba",
       "collabs": [
         "icecube",
