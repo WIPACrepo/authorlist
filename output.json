@@ -3418,6 +3418,48 @@
       "to": "2008-05-20"
     },
     {
+      "authname": "J. Beise",
+      "collab": "icecube",
+      "email": "jakob.beise@physics.uu.se",
+      "first": "Jakob",
+      "from": "2022-01-10",
+      "instnames": [
+        "uppsala"
+      ],
+      "last": "Beise",
+      "orcid": "0000-0002-7448-4189 ",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Beise",
+      "collab": "pingu",
+      "email": "jakob.beise@physics.uu.se",
+      "first": "Jakob",
+      "from": "2022-01-10",
+      "instnames": [
+        "uppsala"
+      ],
+      "last": "Beise",
+      "orcid": "0000-0002-7448-4189 ",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Beise",
+      "collab": "icecube-gen2",
+      "email": "jakob.beise@physics.uu.se",
+      "first": "Jakob",
+      "from": "2022-01-10",
+      "instnames": [
+        "uppsala"
+      ],
+      "last": "Beise",
+      "orcid": "0000-0002-7448-4189 ",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Beiser",
       "collab": "icecube",
       "email": "ebeiser@icecube.wisc.edu",
