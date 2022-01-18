@@ -9753,7 +9753,7 @@
       "last": "Dvorak",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-17"
     },
     {
       "authname": "E. Dvorak",
@@ -9767,7 +9767,7 @@
       "last": "Dvorak",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-17"
     },
     {
       "authname": "E. Dvorak",
@@ -9781,7 +9781,7 @@
       "last": "Dvorak",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-01-17"
     },
     {
       "authname": "R. Eagan",
@@ -29531,10 +29531,52 @@
       "authname": "M. Plum",
       "collab": "icecube",
       "email": "mplum@icecube.wisc.edu",
-      "first": "M.",
+      "first": "Matthias",
       "from": "2017-03-09",
       "instnames": [
         "marquette"
+      ],
+      "last": "Plum",
+      "orcid": "0000-0001-8691-242X",
+      "thanks": [],
+      "to": "2022-01-17"
+    },
+    {
+      "authname": "M. Plum",
+      "collab": "icecube-gen2",
+      "email": "mplum@icecube.wisc.edu",
+      "first": "Matthias",
+      "from": "2017-03-09",
+      "instnames": [
+        "marquette"
+      ],
+      "last": "Plum",
+      "orcid": "0000-0001-8691-242X",
+      "thanks": [],
+      "to": "2022-01-17"
+    },
+    {
+      "authname": "M. Plum",
+      "collab": "pingu",
+      "email": "mplum@icecube.wisc.edu",
+      "first": "Matthias",
+      "from": "2017-03-09",
+      "instnames": [
+        "marquette"
+      ],
+      "last": "Plum",
+      "orcid": "0000-0001-8691-242X",
+      "thanks": [],
+      "to": "2022-01-17"
+    },
+    {
+      "authname": "M. Plum",
+      "collab": "icecube-gen2",
+      "email": "mplum@icecube.wisc.edu",
+      "first": "Matthias",
+      "from": "2022-01-18",
+      "instnames": [
+        "southdakota"
       ],
       "last": "Plum",
       "orcid": "0000-0001-8691-242X",
@@ -29543,12 +29585,12 @@
     },
     {
       "authname": "M. Plum",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "mplum@icecube.wisc.edu",
-      "first": "M.",
-      "from": "2017-03-09",
+      "first": "Matthias",
+      "from": "2022-01-18",
       "instnames": [
-        "marquette"
+        "southdakota"
       ],
       "last": "Plum",
       "orcid": "0000-0001-8691-242X",
@@ -29559,10 +29601,10 @@
       "authname": "M. Plum",
       "collab": "pingu",
       "email": "mplum@icecube.wisc.edu",
-      "first": "M.",
-      "from": "2017-03-09",
+      "first": "Matthias",
+      "from": "2022-01-18",
       "instnames": [
-        "marquette"
+        "southdakota"
       ],
       "last": "Plum",
       "orcid": "0000-0001-8691-242X",
