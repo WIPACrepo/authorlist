@@ -19885,6 +19885,48 @@
       "to": "2005-01-01"
     },
     {
+      "authname": "A. Kochocki",
+      "collab": "icecube-gen2",
+      "email": "alina.kochocki@icecube.wisc.edu",
+      "first": "Alina",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Kochocki",
+      "orcid": "0000-0003-3782-0128",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kochocki",
+      "collab": "pingu",
+      "email": "alina.kochocki@icecube.wisc.edu",
+      "first": "Alina",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Kochocki",
+      "orcid": "0000-0003-3782-0128",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kochocki",
+      "collab": "icecube",
+      "email": "alina.kochocki@icecube.wisc.edu",
+      "first": "Alina",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Kochocki",
+      "orcid": "0000-0003-3782-0128",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J.-H. K\u00f6hne",
       "collab": "icecube",
       "email": "jan-hendrik.koehne@icecube.wisc.edu",
@@ -21264,6 +21306,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2017-03-23"
+    },
+    {
+      "authname": "E. Krupczak",
+      "collab": "icecube-gen2",
+      "email": "emmett.krupczak@icecube.wisc.edu",
+      "first": "Emmett",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Krupczak",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Krupczak",
+      "collab": "pingu",
+      "email": "emmett.krupczak@icecube.wisc.edu",
+      "first": "Emmett",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Krupczak",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Krupczak",
+      "collab": "icecube",
+      "email": "emmett.krupczak@icecube.wisc.edu",
+      "first": "Emmett",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Krupczak",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "K. Kuehn",
@@ -41958,6 +42042,48 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-05-13"
+    },
+    {
+      "authname": "N. Willey",
+      "collab": "icecube-gen2",
+      "email": "nathan.willey@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Willey",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Willey",
+      "collab": "pingu",
+      "email": "nathan.willey@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Willey",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Willey",
+      "collab": "icecube",
+      "email": "nathan.willey@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2022-02-10",
+      "instnames": [
+        "michigan"
+      ],
+      "last": "Willey",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. R. Williams",
