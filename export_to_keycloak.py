@@ -1,55 +1,76 @@
 import asyncio
 from datetime import datetime
 import logging
-from pprint import pprint
+from pprint import pprint, pformat
 
 from krs.token import get_rest_client
-from krs.users import list_users
+from krs.users import list_users, user_info
+from krs.groups import get_group_membership
 from krs.institutions import list_insts
 from authorlist.state import State
+from authorlist.keycloak_utils import IceCube, IceCubeGen2
+import unidecode
 
-inst_mapping = {
-    'atlanta': 'clark-atlanta',
-    'anchorage': 'alaska-anchorage',
-    'arlington': 'texas-arlington',
-    'bartol': 'delaware',
-    'berkeley': 'uc-berkeley',
-    'brusselslibre': 'brussels-ulb',
-    'brusselsvrije': 'brussels-vub',
-    'chiba2022': 'chiba',
-    'chicagoastro': 'chicago-astro',
-    'chicagofermi': 'chicago-fermi',
-    'chicagokavli': 'chicago-kavli',
-    'chicagophysics': 'chicago-physics',
-    'christchurch': 'canterbury',
-    'edmonton': 'alberta',
-    'georgia': 'gatech',
-    'irvine': 'uc-irvine',
-    'karlsruhe': 'karlsruhe-astro',
-    'karlsruheexp': 'karlsruhe-exp',
-    'madisonastro': 'uw-madison-astro',
-    'madisonpac': 'uw-madison-wipac',
-    'michigan': 'michigan-state',
-    'ohio': 'ohio-state-physics',
-    'ohioastro': 'ohio-state-astro',
-    'pennastro': 'penn-state-astro',
-    'pennphys': 'penn-state-physics',
-    'penncosmos': 'penn-state-cosmos',
-    'riverfalls': 'uw-river-falls',
-    'sinica': 'academiasinica',
-    'skku': 'sungkyunkwan-physics',
-    'skku2': 'sungkyunkwan-basic-science',
-    'southdakota': 'sd-mines-tech',
-    'stockholmokc': 'stockholm',
-    'stonybrook': 'stony-brook',
-    'zeuthen': 'desy',
-}
+
+user_cache = {}
+async def get_keycloak_users(group, rest_client=None):
+    def clean(user):
+        return {
+            'attributes': user['attributes'],
+            'firstName': user['firstName'],
+            'lastName': user['lastName'],
+            'username': user['username'],
+            'email': user.get('email',''),
+        }
+    users = await get_group_membership(group, rest_client=rest_client)
+    ret = []
+    for u in users:
+        if u not in user_cache:
+            user_cache[u] = await user_info(u, rest_client=rest_client)
+        try:
+            ret.append(clean(user_cache[u]))
+        except:
+            pprint(user_cache[u])
+            raise
+    return ret
+
+def match_users(authorlist, keycloak):
+    matches = []
+    for au in authorlist:
+        for ku in keycloak:
+            if ((au['last'].lower() == ku['lastName'].lower() and au['first'][0].lower() == ku['firstName'][0].lower())
+                or (au['email'] == ku['email'])
+                or (au['email'].split('@')[0] == ku['username'])):
+                matches.append((au,ku))
+                break
+            username = unidecode.unidecode(au['first'][0].loewr()+au['last'].lower())
+            if username == ku['username']:
+                matches.append((au,ku))
+                break
+        else:
+            logging.error('authorlist user: %r', au)
+            logging.info('keycloak_users: %s', pformat(keycloak))
+            raise Exception('Match Error')
+    return matches
 
 async def export(state, experiment, dryrun=False, client=None):
+    if experiment.lower() == 'icecube':
+        authorlist_insts_to_groups = IceCube.authorlist_insts_to_groups
+        groups_to_authorlist_insts = IceCube.groups_to_authorlist_insts
+    elif experiment.lower() == 'icecube-gen2':
+        authorlist_insts_to_groups = IceCubeGen2.authorlist_insts_to_groups
+        groups_to_authorlist_insts = IceCubeGen2.groups_to_authorlist_insts
+    else:
+        raise Exception(f'invalid experiment: {experiment}')
+
+    # check our institution mappings
     now = datetime.utcnow().isoformat()
-    print(now)
+    logging.info('now timestamp %s', now)
     authors = state.authors(now)
     author_insts = state.institutions(now)
+    for i in author_insts:
+        if i not in authorlist_insts_to_groups:
+            raise Exception(f'inst {i} is not in authorlist->keycloak mapping')
 
     krs_insts_raw = await list_insts(experiment, rest_client=client)
     krs_insts = {}
@@ -61,31 +82,25 @@ async def export(state, experiment, dryrun=False, client=None):
                     krs_insts[base_name+'-'+name] = k+'/authorlist-'+name
             else:
                 krs_insts[base_name] = k+'/authorlist'
+    for i in krs_insts.values():
+        if i not in groups_to_authorlist_insts:
+            raise Exception(f'group {i} is not in keycloak->authorlist mapping')
+
+    # now check users
+    for authorlist_inst, keycloak_group in authorlist_insts_to_groups.items():
+        print('processing', authorlist_inst, keycloak_group)
+        authorlist_users = [a for a in state.authors(now) if authorlist_inst in a['instnames']]
+
+        # 1) is the user in the regular institution group?
+        group = '/'.join(keycloak_group.split('/')[:-1])
+        keycloak_users = await get_keycloak_users(group, rest_client=client)
+
+        match_users(authorlist_users, keycloak_users)
+        break
+
+
+
     
-
-    print('author insts:')
-    mapping = {}
-    for i in sorted(author_insts):
-        if i in inst_mapping:
-            if not inst_mapping[i]:
-                print(i)
-            else:
-                mapping[i] = inst_mapping[i]
-        elif i in krs_insts:
-            mapping[i] = i
-        else:
-            print(i)
-
-    print('----')
-    print('keycloak insts:')
-    for i in sorted(krs_insts):
-        if i in mapping.values():
-            continue
-        else:
-            print(i)
-
-    #print(sorted(author_insts))
-    #pprint(krs_insts_raw)
 
 def main():
     import argparse
