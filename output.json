@@ -4760,6 +4760,48 @@
       "to": ""
     },
     {
+      "authname": "J. Book",
+      "collab": "icecube-gen2",
+      "email": "jbook@g.harvard.edu",
+      "first": "Julia",
+      "from": "2022-02-24",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Book",
+      "orcid": "0000-0001-6687-5959",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Book",
+      "collab": "pingu",
+      "email": "jbook@g.harvard.edu",
+      "first": "Julia",
+      "from": "2022-02-24",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Book",
+      "orcid": "0000-0001-6687-5959",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Book",
+      "collab": "icecube",
+      "email": "jbook@g.harvard.edu",
+      "first": "Julia",
+      "from": "2022-02-24",
+      "instnames": [
+        "harvard"
+      ],
+      "last": "Book",
+      "orcid": "0000-0001-6687-5959",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. B\u00f6rner",
       "collab": "icecube",
       "email": "mathis.boerner@icecube.wisc.edu",
