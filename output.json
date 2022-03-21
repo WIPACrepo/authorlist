@@ -36404,7 +36404,7 @@
       "thanks": [
         "mephi"
       ],
-      "to": ""
+      "to": "2022-03-20"
     },
     {
       "authname": "C. Spiering",
@@ -36420,7 +36420,7 @@
       "thanks": [
         "mephi"
       ],
-      "to": ""
+      "to": "2022-03-20"
     },
     {
       "authname": "C. Spiering",
@@ -36436,6 +36436,48 @@
       "thanks": [
         "mephi"
       ],
+      "to": "2022-03-20"
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2022-03-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "orcid": "0000-0001-7372-0074",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube-gen2",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2022-03-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "orcid": "0000-0001-7372-0074",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "pingu",
+      "email": "cspiering@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2022-03-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "last": "Spiering",
+      "orcid": "0000-0001-7372-0074",
+      "thanks": [],
       "to": ""
     },
     {
