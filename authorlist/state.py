@@ -12,7 +12,6 @@ from datetime import datetime
 import logging
 
 from . import collabs as COLLABORATIONS
-from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE
 from .util import validate_author, author_ordering
 
 class State:

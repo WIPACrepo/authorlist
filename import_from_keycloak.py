@@ -2,11 +2,11 @@ import asyncio
 from datetime import datetime, timedelta
 import logging
 from collections import defaultdict
-from pprint import pprint, pformat
+from pprint import pprint
 
 from krs.token import get_rest_client
-from krs.users import list_users, user_info, modify_user
-from krs.groups import get_group_membership, add_user_group, remove_user_group
+from krs.users import user_info
+from krs.groups import get_group_membership
 from krs.institutions import list_insts
 
 from authorlist.state import State
@@ -134,12 +134,11 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
             raise Exception(f'group {i} is not in keycloak->authorlist mapping')
 
     # now check users
-    current_authors = state.authors(now)
     remove_authors = defaultdict(list)
     add_authors = {}
     for authorlist_inst, keycloak_group in authorlist_insts_to_groups.items():
         logging.warning(f'processing {authorlist_inst} {keycloak_group}')
-        authorlist_users = [a for a in current_authors if authorlist_inst in a['instnames']]
+        authorlist_users = [a for a in authors if authorlist_inst in a['instnames']]
 
         keycloak_users = await get_keycloak_users(keycloak_group, rest_client=client)
 
@@ -181,11 +180,9 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
                     }
                 logging.warning(f'   keycloak extra user: {user["username"]}')
 
-        break
-
     # remove/update existing authors
     for a in remove_authors:
-        for ca in current_authors:
+        for ca in authors:
             if ca['keycloak_username'] == a:
                 remove_insts = set(remove_authors[a])
                 prev_insts = set(ca['instnames'])
