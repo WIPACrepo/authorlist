@@ -9,9 +9,11 @@ import json
 from collections import defaultdict
 import itertools
 from datetime import datetime
+import logging
 
-PINGU_START_DATE = '2013-06-25'
-GEN2_START_DATE = '2014-12-16'
+from . import collabs as COLLABORATIONS
+from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE
+from .util import validate_author, author_ordering
 
 class State:
     """
@@ -26,24 +28,23 @@ class State:
             data = json.load(f)
 
         if collab:
-            self._authors = []
-            for author in data['authors']:
-                if 'collab' in author and author['collab'] != collab:
-                    continue
-                self._authors.append(author)
-            self._institutions = {}
-            for name in data['institutions']:
-                inst = data['institutions'][name]
-                if 'collabs' in inst and collab not in inst['collabs']:
-                    continue
-                self._institutions[name] = inst
-            self._thanks = data['thanks']
-            self._acknowledgements = data['acknowledgements']
-        else:
-            self._authors = data['authors']
-            self._institutions = data['institutions']
-            self._thanks = data['thanks']
-            self._acknowledgements = data['acknowledgements']
+            assert collab in COLLABORATIONS
+        self._collab = collab
+        self._authors = data['authors']
+        self._institutions = data['institutions']
+        self._thanks = data['thanks']
+        self._acknowledgements = data['acknowledgements']
+
+    def save(self, json_filename):
+        data = {
+            'acknowledgements': self._acknowledgements,
+            'authors': sorted(self._authors, key=author_ordering),
+            'institutions': self._institutions,
+            'thanks': self._thanks,
+        }
+
+        with open(json_filename, 'w') as f:
+            json.dump(data, f, indent=2, sort_keys=True)
 
     def authors(self, date, legacy=False):
         """
@@ -57,10 +58,87 @@ class State:
         """
         ret = []
         for author in self._authors:
+            if self._collab and 'collab' in author and author['collab'] != self._collab:
+                continue
             if author['from'] <= date and (author['to'] >= date or not author['to']):
                 if legacy or not author.get('legacy', False):
                     ret.append(author)
         return ret
+
+    def remove_author(self, author_data):
+        """
+        Completely remove an author with matching author_data.
+
+        Args:
+            author_data (dict): removed author information
+        """
+        for author in self._authors:
+            if author == author_data:
+                self._authors.remove(author)
+                return
+        raise Exception('could not find author')
+
+    def update_authors(self, author_data, collabs=None):
+        """
+        Set author data to a new value.
+
+        Args:
+            author_data (list): new author information
+            collabs (list): (optional) collaborations to update
+        """
+        logging.debug(f'{author_data}')
+        if collabs:
+            if any(c not in COLLABORATIONS for c in collabs):
+                raise RuntimeError('invalid collaboration')
+        elif (not collabs) and self._collab:
+            collabs = [self._collab]
+
+        # make sure data is valid
+        for a in author_data:
+            validate_author(a)
+
+        username_set = {a['keycloak_username'] for a in author_data}
+        if len(username_set) > 1:
+            raise RuntimeError('cannot update more than one author')
+        username = list(username_set)[0]
+        if not username:
+            raise RuntimeError('keycloak_username must be set')
+
+        new_authors = []
+        current_author_data = []
+        for author in self._authors:
+            if username == author.get('keycloak_username', ''):
+                if (not collabs) or author.get('collab', '') in collabs:
+                    current_author_data.append(author)
+                    continue
+            new_authors.append(author)
+
+        if not current_author_data:
+            logging.info('adding new authors: {[a["keycloak_username"] for a in author_data]}')
+            new_authors.extend(author_data)
+        elif {a['collab'] for a in current_author_data} == {a['collab'] for a in author_data}:
+            # matching collab update
+            for a in author_data:
+                for ca in current_author_data:
+                    if all(a[k] == ca[k] for k in ('collab', 'from', 'instnames')):
+                        # match
+                        logging.info(f'editing author: {a["keycloak_username"]}')
+                        new_authors.append(a)
+                        current_author_data.remove(ca)
+                        break
+                else:
+                    logging.info(f'author: {a}')
+                    logging.info(f'current_author_data: {current_author_data}')
+                    raise Exception('did not find match')
+            if current_author_data:
+                logging.info(f'current_author_data: {current_author_data}')
+                raise Exception('not all author data updated')
+        else:
+            logging.info(f'author_data: {author_data}')
+            logging.info(f'current_author_data: {current_author_data}')
+            raise Exception('unknown update type')
+
+        self._authors = sorted(new_authors, key=author_ordering)
 
     def institutions(self, date, **kwargs):
         """
@@ -75,9 +153,11 @@ class State:
         for a in itertools.chain(self.authors(date, **kwargs)):
             if 'instnames' in a and a['instnames']:
                 for inst in a['instnames']:
-                    insts[inst] = self._institutions[inst]
+                    inst_data = self._institutions[inst]
+                    if self._collab and 'collabs' in inst_data and self._collab not in inst_data['collabs']:
+                        continue
+                    insts[inst] = inst_data
         return insts
-        ## TODO: actually support dates for institutions
 
     def thanks(self, date, **kwargs):
         """
