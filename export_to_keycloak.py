@@ -1,11 +1,11 @@
 import asyncio
 from datetime import datetime
 import logging
-from pprint import pprint, pformat
+from pprint import pprint
 
 from krs.token import get_rest_client
 from krs.users import list_users, user_info, modify_user
-from krs.groups import get_group_membership, add_user_group, remove_user_group
+from krs.groups import get_group_membership, add_user_group
 from krs.institutions import list_insts
 from authorlist.state import State
 from authorlist.keycloak_utils import IceCube, IceCubeGen2
@@ -103,7 +103,7 @@ async def export(state, experiment, dryrun=False, client=None):
     # now check users
     for authorlist_inst, keycloak_group in authorlist_insts_to_groups.items():
         logging.warning(f'processing {authorlist_inst} {keycloak_group}')
-        authorlist_users = [a for a in state.authors(now) if authorlist_inst in a['instnames']]
+        authorlist_users = [a for a in authors if authorlist_inst in a['instnames']]
 
         # 1) is the user in the regular institution group?
         group = '/'.join(keycloak_group.split('/')[:-1])
