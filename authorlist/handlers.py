@@ -17,36 +17,9 @@ from pylatexenc.latexencode import UnicodeToLatexEncoder, UnicodeToLatexConversi
 import tornado.web
 from tornado.escape import xhtml_escape
 
-ICECUBE_START_DATE = '2003-01-01'
-PINGU_START_DATE = '2013-06-25'
-GEN2_START_DATE = '2014-12-16'
+from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE
+from .util import today, validate_date, author_ordering
 
-def today():
-    return datetime.utcnow().date().isoformat()
-
-def validate_date(d):
-    if not d:
-        return None
-    try:
-        datetime.strptime(d, '%Y-%m-%d')
-    except ValueError:
-        return None
-    return d
-
-def author_ordering(a):
-    """sort authors using English unicode sorting rules"""
-    name = a['authname']
-    parts = unidecode.unidecode(name).replace("'",'').split()
-    ret = []
-    for i,p in enumerate(reversed(parts)):
-        if i == 0:
-            ret.append(p)
-        elif p[-1] == '.':
-            ret += parts[:i+1]
-            break
-        else:
-            ret[0] = p + ret[0]
-    return [x.lower() for x in ret]
 
 def filter_thanks(thanks):
     for phrase in ('also at', 'now at', 'also', 'on leave of absense from', 'affiliated with', 'present address'):

@@ -1,14 +1,17 @@
 import asyncio
-from datetime import datetime
+from datetime import datetime, timedelta
 import logging
+from collections import defaultdict
 from pprint import pprint, pformat
 
 from krs.token import get_rest_client
 from krs.users import list_users, user_info, modify_user
 from krs.groups import get_group_membership, add_user_group, remove_user_group
 from krs.institutions import list_insts
+
 from authorlist.state import State
 from authorlist.keycloak_utils import IceCube, IceCubeGen2
+
 import unidecode
 
 
@@ -40,6 +43,8 @@ def make_username(author):
     return ret[:15]
 
 def match_one(author, user):
+    if 'keycloak_username' in author:
+        return author['keycloak_username'] == user['username']
     afirst = unidecode.unidecode(author['first'].lower())
     alast = unidecode.unidecode(author['last'].lower())
     ufirst = unidecode.unidecode(user.get('firstName','').lower())
@@ -67,7 +72,34 @@ def match_users(authorlist, keycloak):
                 break
     return matches
 
-async def export(state, experiment, dryrun=False, client=None):
+def check(data):
+    for a in data['authors']:
+        if 'instnames' in a:
+            for inst in a['instnames']:
+                if inst not in data['institutions']:
+                    print(a['authname'],inst)
+                    raise Exception('bad instname')
+        if 'thanks' in a:
+            for t in a['thanks']:
+                if t not in data['thanks']:
+                    print(a['authname'],t)
+                    raise Exception('bad thanks')
+        if 'instnames' not in a and 'thanks' not in a:
+            print(a['authname'])
+            raise Exception('no instname or thanks')
+
+def save(outfile, data):
+    check(data)
+    data['authors'].sort(key=author_ordering)
+
+    if outfile:
+        with open(outfile, 'w') as f:
+            json.dump(data, f, indent=2, sort_keys=True)
+    else:
+        pprint(data)
+
+
+async def to_json(state, filename_out, experiment, dryrun=False, client=None):
     if experiment.lower() == 'icecube':
         authorlist_insts_to_groups = IceCube.authorlist_insts_to_groups
         groups_to_authorlist_insts = IceCube.groups_to_authorlist_insts
@@ -79,6 +111,7 @@ async def export(state, experiment, dryrun=False, client=None):
 
     # check our institution mappings
     now = datetime.utcnow().isoformat()
+    now_date = datetime.utcnow().date()
     logging.info('now timestamp %s', now)
     authors = state.authors(now)
     author_insts = state.institutions(now)
@@ -101,83 +134,95 @@ async def export(state, experiment, dryrun=False, client=None):
             raise Exception(f'group {i} is not in keycloak->authorlist mapping')
 
     # now check users
+    current_authors = state.authors(now)
+    remove_authors = defaultdict(list)
+    add_authors = {}
     for authorlist_inst, keycloak_group in authorlist_insts_to_groups.items():
         logging.warning(f'processing {authorlist_inst} {keycloak_group}')
-        authorlist_users = [a for a in state.authors(now) if authorlist_inst in a['instnames']]
+        authorlist_users = [a for a in current_authors if authorlist_inst in a['instnames']]
 
-        # 1) is the user in the regular institution group?
-        group = '/'.join(keycloak_group.split('/')[:-1])
-        keycloak_users = await get_keycloak_users(group, rest_client=client)
+        keycloak_users = await get_keycloak_users(keycloak_group, rest_client=client)
 
         matches = match_users(authorlist_users, keycloak_users)
 
-        # 2) is the user anywhere in Keycloak?
         for author in authorlist_users:
             for au,ku in matches:
                 if author == au:
                     break
             else:
-                author_username = make_username(author)[1:]
-                extra_matches = []
-                if len(author_username) > 3:
-                    ret = await list_users(search=author_username, rest_client=client)
-                    for username in ret:
-                        if match_one(author, ret[username]):
-                            extra_matches.append(ret[username])
-                if len(extra_matches) != 1:
-                    ret = await list_users(search=author['email'].split('@')[0].split('.')[-1], rest_client=client)
-                    for username in ret:
-                        if match_one(author, ret[username]):
-                            extra_matches.append(ret[username])
-                if len(extra_matches) == 1:
-                    matches.append((author, extra_matches[0]))
-                    continue
-
+                remove_authors[author['keycloak_username']].append(authorlist_inst)
                 logging.warning(f'   authorlist extra user: {author["first"]} {author["last"]} {author["email"]}')
+        for user in keycloak_users:
+            for au,ku in matches:
+                if user == ku:
+                    break
+            else:
+                t = user['attributes'].get(f'authorlist_{experiment.lower()}_thanks', [])
+                if isinstance(t, str):
+                    t = [t]
+                if user['username'] in add_authors:
+                    add_authors[user['username']]['instnames'].append(authorlist_inst)
+                else:
+                    authname = user['attributes'].get('author_name', '')
+                    if not authname:
+                        authname = (user['firstName'][0]+'. '+user['lastName']).title()
+                    add_authors[user['username']] = {
+                        'authname': authname,
+                        'collab': experiment.lower(),
+                        'email': user.get('email',''),
+                        'first': user['firstName'],
+                        'from': now_date.isoformat(),
+                        'instnames': [authorlist_inst],
+                        'keycloak_username': user['username'],
+                        'last': user['lastName'],
+                        'orcid': user['attributes'].get('orcid', ''),
+                        'thanks': t,
+                        'to': '',
+                    }
+                logging.warning(f'   keycloak extra user: {user["username"]}')
 
-        #keycloak_extra = sorted({k['username'] for k in keycloak_users} - {ku['username'] for au,ku in matches})
-        #if keycloak_extra:
-        #    logging.info(f'keycloak extra users: {keycloak_extra}')
+        break
 
-        # 3) update Keycloak author list group
-        members = await get_group_membership(keycloak_group, rest_client=client)
-        for au,ku in matches:
-            if ku['username'] not in members:
-                logging.warning(f'   adding {ku["username"]}')
-                await add_user_group(keycloak_group, ku["username"], rest_client=client)
-        # ~ for member in members:
-            # ~ for au,ku in matches:
-                # ~ if ku['username'] == member:
-                    # ~ break
-            # ~ else:
-                # ~ logging.warning(f'   removing {member}')
-                # ~ await remove_user_group(keycloak_group, member, rest_client=client)
+    # remove/update existing authors
+    for a in remove_authors:
+        for ca in current_authors:
+            if ca['keycloak_username'] == a:
+                remove_insts = set(remove_authors[a])
+                prev_insts = set(ca['instnames'])
+                remove_author = ca.copy()
+                remove_author['to'] = (now_date-timedelta(days=1)).isoformat()
+                if remove_author['to'] < remove_author['from']:
+                    logging.info(f'completely remove {ca["keycloak_username"]}')
+                    state.remove_author(ca)
+                else:
+                    state.update_authors([remove_author])
 
-        # 4) check user attribute for author name
-        for au,ku in matches:
-            attrs = ku.get('attributes', {}).copy()
-            ku_name = attrs.get('author_name', '')
-            update = False
-            if au['authname'] != ku_name:
-                attrs['author_name'] = au['authname']
-                update = True
-            if au['orcid'] != attrs.get('orcid', ''):
-                attrs['orcid'] = au['orcid']
-                update = True
-            if au['thanks'] != attrs.get(f'authorlist_{experiment.lower()}_thanks', []):
-                attrs[f'authorlist_{experiment.lower()}_thanks'] = au['thanks']
-                update = True
-            if update:
-                logging.warning(f'  updating attribs for {ku["username"]}')
-                await modify_user(ku['username'], attrs, rest_client=client)
+                if remove_insts != prev_insts:
+                    # remove and update
+                    if ca['username'] in add_authors:
+                        add_authors[user['username']]['instnames'].extend(prev_insts-remove_insts)
+                    else:
+                        ca['instnames'] = list(prev_insts-remove_insts)
+                        add_authors[user['username']] = ca
 
+                break
+        else:
+            raise Exception(f'could not find author {a}')
 
+    # add new authors
+    for a in add_authors.values():
+        # make sure insts are not dups
+        a['instnames'] = sorted(set(a['instnames']))
+        state.update_authors([a])
+
+    state.save(filename_out)
 
 def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='Export to Keycloak')
     parser.add_argument('filename', help='author list json filename')
+    parser.add_argument('filename_out', help='author list json filename')
     parser.add_argument('--experiment', default='IceCube', help='experiment to filter by')
     parser.add_argument('--log-level', default='info', choices=('debug', 'info', 'warning', 'error'), help='logging level')
     parser.add_argument('--dryrun', action='store_true', help='dry run')
@@ -189,7 +234,7 @@ def main():
 
     state = State(args['filename'], collab=args['experiment'].lower())
     
-    asyncio.run(export(state, experiment=args['experiment'], dryrun=args['dryrun'], client=keycloak_client))
+    asyncio.run(to_json(state, args['filename_out'], experiment=args['experiment'], dryrun=args['dryrun'], client=keycloak_client))
 
 if __name__ == '__main__':
     main()
