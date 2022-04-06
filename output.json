@@ -4229,7 +4229,7 @@
       "thanks": [
         "mephi"
       ],
-      "to": ""
+      "to": "2020-03-31"
     },
     {
       "authname": "D. Z. Besson",
@@ -4246,7 +4246,7 @@
       "thanks": [
         "mephi"
       ],
-      "to": ""
+      "to": "2020-03-31"
     },
     {
       "authname": "D. Z. Besson",
@@ -4262,6 +4262,48 @@
       "thanks": [
         "mephi"
       ],
+      "to": "2020-03-31"
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "icecube",
+      "email": "dbesson@icecube.wisc.edu",
+      "first": "D. Z.",
+      "from": "2020-04-01",
+      "instnames": [
+        "kansas"
+      ],
+      "last": "Besson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "icecube-gen2",
+      "email": "dbesson@icecube.wisc.edu",
+      "first": "D. Z.",
+      "from": "2020-04-01",
+      "instnames": [
+        "kansas"
+      ],
+      "last": "Besson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Z. Besson",
+      "collab": "pingu",
+      "email": "dbesson@icecube.wisc.edu",
+      "first": "D. Z.",
+      "from": "2020-04-01",
+      "instnames": [
+        "kansas"
+      ],
+      "last": "Besson",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
