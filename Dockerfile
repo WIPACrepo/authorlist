@@ -1,30 +1,18 @@
-FROM python:3.7-alpine as base
+FROM python:3.8
 
-FROM base as builder
+RUN useradd -m -U app
 
-RUN mkdir /install
-WORKDIR /install
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
 
-RUN apk add --no-cache git gcc musl-dev libffi-dev openssl-dev
-
-ENV PYTHONPATH=/install/lib/python3.7/site-packages
-COPY requirements.txt /requirements.txt
-RUN pip install --prefix=/install -r /requirements.txt
-
-FROM base as runtime
-
-COPY --from=builder /install /usr/local
-RUN rm -rf /install && ln -sT /usr/local /install
-
-RUN addgroup -S app && adduser -S -G app app
+WORKDIR /home/app
 USER app
-
-WORKDIR /usr/src/app
 
 COPY authorlist ./authorlist/
 COPY server.py ./
 COPY output.json ./
 
+ENV PYTHONPATH=/home/app
 ENV PORT 8080
 ENV JSON output.json
 
