@@ -1,0 +1,68 @@
+name: wipac ci/cd
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags-ignore:
+      - '**'
+  schedule:
+    - cron: "2,6,10,14,18,22 * * * *"
+  workflow_dispatch:
+
+
+jobs:
+
+  keycloak-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+      - name: Setup env
+        run: |
+          pip install -r requirements
+      - name: Import from Keycloak
+        env:
+          KEYCLOAK_URL: "https://keycloak.icecube.wisc.edu"
+          KEYCLOAK_REALM: "IceCube"
+          KEYCLOAK_CLIENT_REALM: "IceCube"
+          KEYCLOAK_CLIENT_ID: "authorlist"
+          KEYCLOAK_CLIENT_SECRET: ${{ secrets.KEYCLOAK_CLIENT_SECRET }}
+        run: |
+          python import_from_keycloak.py output.json output.json --experiment IceCube
+          python import_from_keycloak.py output.json output.json --experiment IceCube-Gen2
+          git commit -m "<bot> update from keycloak" || true
+
+  docker:
+    name: "Docker Image"
+    needs: [keycloak-update]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Project
+      uses: actions/checkout@v3
+    - name: Docker meta
+      id: docker_meta
+      uses: docker/metadata-action@v3
+      with:
+        images: |
+          ghcr.io/WIPACrepo/authorlist
+        tags: |
+            type=ref,event=branch
+            type=semver,pattern={{major}}
+            type=semver,pattern={{major}}.{{minor}}
+            type=semver,pattern={{major}}.{{minor}}.{{patch}}
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v1
+      if: ${{ github.event_name != 'pull_request' }}
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    - name: Push Docker Image
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        push: ${{ github.event_name != 'pull_request' }}
+        tags: ${{ steps.docker_meta.outputs.tags }}
+        labels: ${{ steps.docker_meta.outputs.labels }}

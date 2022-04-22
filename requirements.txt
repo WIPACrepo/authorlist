@@ -1,6 +1,6 @@
-latexcodec==1.0.7
-pylatexenc==2.4
-requests>=2.25.1
-tornado>=6.0.3
-Unidecode==1.1.1
-git+https://github.com/WIPACrepo/keycloak-rest-services@v1.1.14#egg=krs
+latexcodec
+pylatexenc
+requests
+tornado
+Unidecode
+wipac-keycloak-rest-services
