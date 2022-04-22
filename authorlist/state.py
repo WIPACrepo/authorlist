@@ -113,7 +113,7 @@ class State:
             new_authors.append(author)
 
         if not current_author_data:
-            logging.info('adding new authors: {[a["keycloak_username"] for a in author_data]}')
+            logging.info(f'adding new authors: {[a["keycloak_username"] for a in author_data]}')
             new_authors.extend(author_data)
         elif {a['collab'] for a in current_author_data} == {a['collab'] for a in author_data}:
             # matching collab update
