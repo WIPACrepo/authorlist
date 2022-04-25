@@ -49,6 +49,7 @@ jobs:
   docker:
     name: "Docker Image"
     needs: [keycloak-update]
+    if: ${{ github.event_name != "schedule" }}
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Project
