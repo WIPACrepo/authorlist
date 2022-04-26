@@ -38,6 +38,7 @@ jobs:
         run: |
           python import_from_keycloak.py output.json output.json --experiment IceCube
           python import_from_keycloak.py output.json output.json --experiment IceCube-Gen2
+          git add output.json
           git commit -m "<bot> update from keycloak" || true
       - name: Push changes
         run: |
