@@ -7776,6 +7776,22 @@
     },
     {
       "authname": "A. Connolly",
+      "collab": "icecube",
+      "email": "connolly@physics.osu.edu",
+      "first": "Amy",
+      "from": "2022-04-26",
+      "instnames": [
+        "ohio",
+        "ohioastro"
+      ],
+      "keycloak_username": "aconnolly",
+      "last": "Connolly",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Connolly",
       "collab": "icecube-gen2",
       "email": "connolly@physics.osu.edu",
       "first": "Amy",
@@ -33802,6 +33818,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2013-08-27"
+    },
+    {
+      "authname": "D. Salazar-Gallegos",
+      "collab": "icecube",
+      "email": "daniel.salazar-gallegos@icecube.wisc.edu",
+      "first": "Daniel",
+      "from": "2022-04-26",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dsalazar-gallegos",
+      "last": "Salazar-Gallegos",
+      "orcid": "0000-0002-9312-9684",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Salazar-Gallegos",
+      "collab": "icecube-gen2",
+      "email": "daniel.salazar-gallegos@icecube.wisc.edu",
+      "first": "Daniel",
+      "from": "2022-04-26",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dsalazar-gallegos",
+      "last": "Salazar-Gallegos",
+      "orcid": "0000-0002-9312-9684",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. S\u00e4lzer",
