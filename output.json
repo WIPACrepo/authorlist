@@ -36828,6 +36828,21 @@
     },
     {
       "authname": "A. Sogaard",
+      "collab": "icecube",
+      "email": "andreas.sogaard@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2022-04-27",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "asogaard",
+      "last": "Sogaard",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Sogaard",
       "collab": "icecube-gen2",
       "email": "andreas.sogaard@icecube.wisc.edu",
       "first": "Andreas",
