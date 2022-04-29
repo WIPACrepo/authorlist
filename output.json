@@ -2272,6 +2272,36 @@
       "to": ""
     },
     {
+      "authname": "S. Athanasiadou",
+      "collab": "icecube",
+      "email": "sofia.athanasiadou@icecube.wisc.edu",
+      "first": "Sofia",
+      "from": "2022-04-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "sofia",
+      "last": "Athanasiadou",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Athanasiadou",
+      "collab": "icecube-gen2",
+      "email": "sofia.athanasiadou@icecube.wisc.edu",
+      "first": "Sofia",
+      "from": "2022-04-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "sofia",
+      "last": "Athanasiadou",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. W. Atlee",
       "collab": "icecube",
       "first": "D. W.",
@@ -2994,7 +3024,7 @@
       "last": "Bastian",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "B. Bastian",
@@ -3009,7 +3039,7 @@
       "last": "Bastian",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "B. Bastian",
@@ -9292,7 +9322,7 @@
       "last": "de With",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "M. de With",
@@ -9307,7 +9337,7 @@
       "last": "de With",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "M. de With",
@@ -15531,7 +15561,7 @@
       "last": "Hebecker",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "D. Hebecker",
@@ -15546,7 +15576,7 @@
       "last": "Hebecker",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "D. Hebecker",
@@ -20116,7 +20146,7 @@
       "last": "Kintscher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "T. Kintscher",
@@ -20131,7 +20161,7 @@
       "last": "Kintscher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "T. Kintscher",
@@ -37322,7 +37352,7 @@
       "last": "Stachurska",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "J. Stachurska",
@@ -37337,7 +37367,7 @@
       "last": "Stachurska",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-04-28"
     },
     {
       "authname": "J. Stachurska",
