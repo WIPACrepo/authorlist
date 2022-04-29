@@ -183,7 +183,7 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
     # remove/update existing authors
     for a in remove_authors:
         for ca in authors:
-            if 'keycloak_username' not in a:
+            if 'keycloak_username' not in ca:
                 logging.error('missing keycloak username for author: %r', ca)
                 raise Exception('missing keycloak username for author')
             if ca['keycloak_username'] == a:
