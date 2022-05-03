@@ -26384,6 +26384,36 @@
       "to": "2014-03-09"
     },
     {
+      "authname": "Y. Merckx",
+      "collab": "icecube",
+      "email": "yarno.merckx@icecube.wisc.edu",
+      "first": "Yarno",
+      "from": "2022-05-03",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "ymerckx",
+      "last": "Merckx",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Merckx",
+      "collab": "icecube-gen2",
+      "email": "yarno.merckx@icecube.wisc.edu",
+      "first": "Yarno",
+      "from": "2022-05-03",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "ymerckx",
+      "last": "Merckx",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. Merino",
       "collab": "icecube",
       "email": "merino@pic.es",
