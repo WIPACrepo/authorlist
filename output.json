@@ -3674,7 +3674,7 @@
     },
     {
       "authname": "S. Benda",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "samuel.benda@icecube.wisc.edu",
       "first": "Samuel",
       "from": "2021-12-02",
@@ -3685,11 +3685,11 @@
       "last": "Benda",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-04"
     },
     {
       "authname": "S. Benda",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "samuel.benda@icecube.wisc.edu",
       "first": "Samuel",
       "from": "2021-12-02",
@@ -34626,6 +34626,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-06-29"
+    },
+    {
+      "authname": "P. Savina",
+      "collab": "icecube-gen2",
+      "email": "pierpaolo.savina@icecube.wisc.edu",
+      "first": "Pierpaolo",
+      "from": "2022-05-05",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "psavina",
+      "last": "Savina",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Scharf",
