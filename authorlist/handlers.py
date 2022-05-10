@@ -58,6 +58,7 @@ class AuthorListRenderer:
         'aa': 'Journal Astronomy & Astrophysics (A & A)',
         'elsevier': 'Astroparticle Physics (Elsevier)',
         'jhep': 'Journal of High Energy Physics (JHEP/JCAP)',
+        'jinst': 'Journal of Instrumentation (JINST)',
         'science': 'Science',
         'inspire': 'INSPIRE author.xml',
     }
@@ -587,6 +588,57 @@ You will need elsarticle from the
         intro_text = """This style e.g. for Journal of High Energy Physics, or Journal of Cosmology and Astroparticle Phsics.
 You will need jheppub from
 <a href="https://jhep.sissa.it/jhep/help/JHEP_TeXclass.jsp">here</a>.
+"""
+
+        return {
+            'format_text': text,
+            'intro_text': intro_text,
+        }
+
+    def _jinst(self):
+        text = """\\documentclass[11pt,a4paper]{article}
+\\usepackage{jinstpub}
+\\usepackage[T5,T1]{fontenc}
+\\title{"""+self.collab+""" Author List for JINST """
+        text += self.date.replace('-','') + '}\n\n'
+        text += '\n'
+        for i,author in enumerate(self.authors):
+            text += '\\author'
+            source = []
+            if 'instnames' in author and author['instnames']:
+                source.extend(str(self.sorted_insts.index(n)) for n in sorted(author['instnames'], key=self.sorted_insts.index))
+            if 'thanks' in author and author['thanks']:
+                source.extend(chr(ord('a') + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
+            if source:
+                text += '[' + ','.join(source) + ']'
+            text += '{'
+            if i+1 == len(self.authors):
+                text += 'and '
+            text += utf8tolatex(author['authname'])
+            if i+1 < len(self.authors):
+                text += ','
+            text += '}\n'
+        for name in self.sorted_insts:
+            text += '\\affiliation['+str(self.sorted_insts.index(name))+']{'
+            text += utf8tolatex(self.insts[name]['cite'])
+            text += '}\n'
+        for name in self.thanks:
+            text += '\\affiliation['+chr(ord('a') + self.sorted_thanks.index(name))+']{'
+            text += utf8tolatex(self.thanks[name])
+            text += '}\n'
+        text += """
+
+\\begin{document}
+\\maketitle
+\\acknowledgments
+"""
+        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += """
+\\end{document}"""
+
+        intro_text = """This style e.g. for Journal of Instrumentation.
+You will need jinstpub from
+<a href="https://jinst.sissa.it/jinst/help/JINST_TeXclass.jsp">here</a>.
 """
 
         return {
