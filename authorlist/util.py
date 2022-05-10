@@ -37,7 +37,7 @@ def author_ordering(a):
     The 'key' function in sorting authors.
     
     Sort authors using English unicode sorting rules.
-    Secondary sorting by 'from' and 'to' fields.
+    Secondary sorting by 'to', then 'collab', then 'from', then 'instnames'.
     """
     name = a['authname']
     parts = unidecode.unidecode(name).replace("'",'').split()
@@ -50,5 +50,5 @@ def author_ordering(a):
             break
         else:
             ret[0] = p + ret[0]
-    extras = [a['to'], a['collab'], a['from']] if a['to'] else ['3000', a['collab'], a['from']]
+    extras = [a['to'], a['collab'], a['from'], a['instnames']] if a['to'] else ['3000', a['collab'], a['from'], a['instnames']]
     return [x.lower() for x in ret]+extras

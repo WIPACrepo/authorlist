@@ -77,6 +77,33 @@ class State:
                 return
         raise Exception('could not find author')
 
+    def add_author(self, author_data, collabs=None):
+        """
+        Add a new author.  Only check is that author is not active for the
+        new dates, in the collab for the new author.
+
+        Args:
+            author_data (dict): new author information
+        """
+        logging.debug(f'{author_data}')
+
+        username = author_data['keycloak_username']
+        collab = author_data['collab']
+        date_from = author_data['from']
+
+        new_authors = [author_data]
+        for author in self._authors:
+            if username == author.get('keycloak_username', '') and collab == author.get('collab', ''):
+                # found an author in the right collab
+                # check date range
+                if (not author['to']) or author['to'] >= date_from:
+                    logging.info(f'author: {author}')
+                    logging.info(f'author_data: {author_data}')
+                    raise Exception('date range overlap')
+            new_authors.append(author)
+
+        self._authors = sorted(new_authors, key=author_ordering)
+
     def update_authors(self, author_data, collabs=None):
         """
         Set author data to a new value.
@@ -129,9 +156,8 @@ class State:
                     logging.info(f'author: {a}')
                     logging.info(f'current_author_data: {current_author_data}')
                     raise Exception('did not find match')
-            if current_author_data:
-                logging.info(f'current_author_data: {current_author_data}')
-                raise Exception('not all author data updated')
+            # add all authors not matched (generally older data)
+            new_authors.extend(current_author_data)
         else:
             logging.info(f'author_data: {author_data}')
             logging.info(f'current_author_data: {current_author_data}')
