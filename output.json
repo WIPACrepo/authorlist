@@ -34101,7 +34101,7 @@
       "last": "Rhode",
       "orcid": "0000-0003-2636-5000",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-11"
     },
     {
       "authname": "W. Rhode",
@@ -34109,6 +34109,36 @@
       "email": "wolfgang.rhode@physik.uni-dortmund.de",
       "first": "Wolfgang",
       "from": "2014-12-16",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "wrhode",
+      "last": "Rhode",
+      "orcid": "0000-0003-2636-5000",
+      "thanks": [],
+      "to": "2022-05-11"
+    },
+    {
+      "authname": "W. Rhode",
+      "collab": "icecube",
+      "email": "wolfgang.rhode@tu-dortmund.de",
+      "first": "Wolfgang",
+      "from": "2022-05-12",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "wrhode",
+      "last": "Rhode",
+      "orcid": "0000-0003-2636-5000",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Rhode",
+      "collab": "icecube-gen2",
+      "email": "wolfgang.rhode@tu-dortmund.de",
+      "first": "Wolfgang",
+      "from": "2022-05-12",
       "instnames": [
         "dortmund"
       ],
