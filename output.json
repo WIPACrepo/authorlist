@@ -30756,6 +30756,36 @@
       "to": "2010-05-19"
     },
     {
+      "authname": "J. Osborn",
+      "collab": "icecube",
+      "email": "jesse.osborn@icecube.wisc.edu",
+      "first": "Jesse",
+      "from": "2022-05-13",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "josborn",
+      "last": "Osborn",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Osborn",
+      "collab": "icecube-gen2",
+      "email": "jesse.osborn@icecube.wisc.edu",
+      "first": "Jesse",
+      "from": "2022-05-13",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "josborn",
+      "last": "Osborn",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. O'Sullivan",
       "collab": "icecube",
       "email": "erin.osullivan@icecube.wisc.edu",
