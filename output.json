@@ -1314,10 +1314,10 @@
     },
     {
       "authname": "M. Ahrens",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "maryon.ahrens@fysik.su.se",
       "first": "Maryon",
-      "from": "2014-04-01",
+      "from": "2014-12-16",
       "instnames": [
         "stockholmokc"
       ],
@@ -1325,14 +1325,14 @@
       "last": "Ahrens",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-12"
     },
     {
       "authname": "M. Ahrens",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "maryon.ahrens@fysik.su.se",
       "first": "Maryon",
-      "from": "2014-12-16",
+      "from": "2014-04-01",
       "instnames": [
         "stockholmokc"
       ],
