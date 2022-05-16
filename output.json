@@ -15746,6 +15746,36 @@
       "to": ""
     },
     {
+      "authname": "H. Hamdaoui",
+      "collab": "icecube",
+      "email": "hassane.hamdaoui@icecube.wisc.edu",
+      "first": "Hassane",
+      "from": "2022-05-16",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "hhamdaoui",
+      "last": "Hamdaoui",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Hamdaoui",
+      "collab": "icecube-gen2",
+      "email": "hassane.hamdaoui@icecube.wisc.edu",
+      "first": "Hassane",
+      "from": "2022-05-16",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "hhamdaoui",
+      "last": "Hamdaoui",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Ha Minh",
       "collab": "icecube",
       "email": "haminh@mpp.mpg.de",
