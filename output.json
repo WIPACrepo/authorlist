@@ -36853,7 +36853,7 @@
       "last": "Schindler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-16"
     },
     {
       "authname": "S. Schindler",
@@ -36867,6 +36867,36 @@
       "keycloak_username": "sschindler",
       "last": "Schindler",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-05-16"
+    },
+    {
+      "authname": "S. Schindler",
+      "collab": "icecube",
+      "email": "sebastian.schindler@fau.de",
+      "first": "Sebastian",
+      "from": "2022-05-17",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "sschindler",
+      "last": "Schindler",
+      "orcid": "0000-0001-5507-8890",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Schindler",
+      "collab": "icecube-gen2",
+      "email": "sebastian.schindler@fau.de",
+      "first": "Sebastian",
+      "from": "2022-05-17",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "sschindler",
+      "last": "Schindler",
+      "orcid": "0000-0001-5507-8890",
       "thanks": [],
       "to": ""
     },
