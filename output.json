@@ -17221,6 +17221,21 @@
       "to": ""
     },
     {
+      "authname": "A. Hidvegi",
+      "collab": "icecube-gen2",
+      "email": "attila.hidvegi@icecube.wisc.edu",
+      "first": "Attila",
+      "from": "2022-05-20",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "ahidvegi",
+      "last": "Hidvegi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Hignight",
       "collab": "icecube-gen2",
       "email": "hignight@icecube.wisc.edu",
