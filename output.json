@@ -11959,7 +11959,7 @@
       "last": "Fedynitch",
       "orcid": "0000-0003-2837-3477",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-21"
     },
     {
       "authname": "A. Fedynitch",
@@ -11967,6 +11967,36 @@
       "email": "afedynitch@icecube.wisc.edu",
       "first": "Anatoli",
       "from": "2021-11-17",
+      "instnames": [
+        "sinica"
+      ],
+      "keycloak_username": "afedynitch",
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": "2022-05-21"
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube",
+      "email": "afedynitch",
+      "first": "Anatoli",
+      "from": "2022-05-22",
+      "instnames": [
+        "sinica"
+      ],
+      "keycloak_username": "afedynitch",
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube-gen2",
+      "email": "afedynitch",
+      "first": "Anatoli",
+      "from": "2022-05-22",
       "instnames": [
         "sinica"
       ],
