@@ -3289,7 +3289,7 @@
       "last": "Baur",
       "orcid": "0000-0002-3329-1276",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-26"
     },
     {
       "authname": "S. Baur",
@@ -3304,7 +3304,7 @@
       "last": "Baur",
       "orcid": "0000-0002-3329-1276",
       "thanks": [],
-      "to": ""
+      "to": "2022-05-26"
     },
     {
       "authname": "S. Baur",
@@ -20746,6 +20746,21 @@
       "last": "Katori",
       "orcid": "",
       "thanks": [],
+      "to": "2022-05-26"
+    },
+    {
+      "authname": "T. Katori",
+      "collab": "icecube-gen2",
+      "email": "katori@icecube.wisc.edu",
+      "first": "Teppei",
+      "from": "2022-05-27",
+      "instnames": [
+        "kingscollege"
+      ],
+      "keycloak_username": "katori",
+      "last": "Katori",
+      "orcid": "0000-0002-9429-9482",
+      "thanks": [],
       "to": ""
     },
     {
@@ -29187,6 +29202,21 @@
       "orcid": "0000-0001-7909-5812",
       "thanks": [],
       "to": "2022-05-09"
+    },
+    {
+      "authname": "M. Moulai",
+      "collab": "icecube",
+      "email": "marjon.moulai@icecube.wisc.edu",
+      "first": "Marjon",
+      "from": "2022-05-27",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mmoulai",
+      "last": "Moulai",
+      "orcid": "0000-0001-7909-5812",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Moulai",
@@ -42659,6 +42689,36 @@
       ],
       "last": "Unland Elorrieta",
       "orcid": "0000-0002-6124-3255",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Unland Elorrieta",
+      "collab": "icecube",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2022-05-27",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Unland Elorrieta",
+      "collab": "icecube-gen2",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2022-05-27",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
