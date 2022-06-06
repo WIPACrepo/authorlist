@@ -1469,7 +1469,7 @@
       "last": "Allison",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-06-05"
     },
     {
       "authname": "I. Al Samarai",
@@ -3484,7 +3484,7 @@
     },
     {
       "authname": "J. J. Beatty",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "beatty@mps.ohio-state.edu",
       "first": "James",
       "from": "2022-05-10",
@@ -3496,11 +3496,11 @@
       "last": "Beatty",
       "orcid": "0000-0003-0481-4952",
       "thanks": [],
-      "to": ""
+      "to": "2022-06-05"
     },
     {
       "authname": "J. J. Beatty",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "beatty@mps.ohio-state.edu",
       "first": "James",
       "from": "2022-05-10",
@@ -8336,22 +8336,6 @@
     },
     {
       "authname": "A. Connolly",
-      "collab": "icecube",
-      "email": "connolly@physics.osu.edu",
-      "first": "Amy",
-      "from": "2022-04-01",
-      "instnames": [
-        "ohio",
-        "ohioastro"
-      ],
-      "keycloak_username": "aconnolly",
-      "last": "Connolly",
-      "orcid": "",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "A. Connolly",
       "collab": "icecube-gen2",
       "email": "connolly@physics.osu.edu",
       "first": "Amy",
@@ -8359,6 +8343,22 @@
       "instnames": [
         "ohioastro",
         "ohio"
+      ],
+      "keycloak_username": "aconnolly",
+      "last": "Connolly",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-06-05"
+    },
+    {
+      "authname": "A. Connolly",
+      "collab": "icecube",
+      "email": "connolly@physics.osu.edu",
+      "first": "Amy",
+      "from": "2022-04-01",
+      "instnames": [
+        "ohio",
+        "ohioastro"
       ],
       "keycloak_username": "aconnolly",
       "last": "Connolly",
