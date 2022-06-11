@@ -27661,7 +27661,7 @@
       "last": "Meagher",
       "orcid": "0000-0003-3967-1533",
       "thanks": [],
-      "to": ""
+      "to": "2022-06-10"
     },
     {
       "authname": "K. Meagher",
@@ -27669,6 +27669,36 @@
       "email": "kmeagher@icecube.wisc.edu",
       "first": "Kevin",
       "from": "2022-05-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kmeagher",
+      "last": "Meagher",
+      "orcid": "0000-0003-3967-1533",
+      "thanks": [],
+      "to": "2022-06-10"
+    },
+    {
+      "authname": "K. Meagher",
+      "collab": "icecube",
+      "email": "meagher.kevin@gmail.com",
+      "first": "Kevin",
+      "from": "2022-06-11",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kmeagher",
+      "last": "Meagher",
+      "orcid": "0000-0003-3967-1533",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Meagher",
+      "collab": "icecube-gen2",
+      "email": "meagher.kevin@gmail.com",
+      "first": "Kevin",
+      "from": "2022-06-11",
       "instnames": [
         "madisonpac"
       ],
