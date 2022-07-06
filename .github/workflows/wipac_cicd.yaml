@@ -52,6 +52,26 @@ jobs:
           echo "changes pushed (rest of workflow canceled)"
           exit 1  # prevent dependent job(s) since there's changes to the code
         shell: bash
+      - name:
+        on: failure()
+        run: |
+          gh label create actions-failure --description "GitHub Actions failure" --color EE3333 --force
+          numOpenIssues="$(gh api graphql -F owner=$OWNER -F name=$REPO -f query='
+            query($name: String!, $owner: String!) {
+              repository(owner: $owner, name: $name) {
+                issues(states: OPEN, labels: ["actions-failure"]) {
+                  totalCount
+                }
+              }
+            }
+          ' --jq '.data.repository.issues.totalCount')"
+          if [ $numOpenIssues = "0" ]; then
+            gh issue create --title "Actions failure" --label actions-failure --body "Keycloak sync action has failed. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" --repo $GITHUB_REPOSITORY
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
 
   docker:
     name: "Docker Image"
