@@ -40,18 +40,6 @@ jobs:
           python import_from_keycloak.py output.json output.json --experiment IceCube-Gen2
           git add output.json
           git commit -m "<bot> update from keycloak" || true
-      - name: Push changes
-        run: |
-          status=`git status 2>&1 | tee`
-          ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
-          if [ "$ahead" -eq "1" ]; then
-            echo "no changes needed"
-            exit 0
-          fi
-          git push
-          echo "changes pushed (rest of workflow canceled)"
-          exit 1  # prevent dependent job(s) since there's changes to the code
-        shell: bash
       - name: Failure Notification
         if: failure()
         run: |
@@ -72,6 +60,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
+      - name: Push changes
+        run: |
+          status=`git status 2>&1 | tee`
+          ahead=`echo -n "${status}" 2> /dev/null | grep "Your branch is ahead of" &> /dev/null; echo "$?"`
+          if [ "$ahead" -eq "1" ]; then
+            echo "no changes needed"
+            exit 0
+          fi
+          git push
+          echo "changes pushed (rest of workflow canceled)"
+          exit 1  # prevent dependent job(s) since there's changes to the code
+        shell: bash
 
   docker:
     name: "Docker Image"
