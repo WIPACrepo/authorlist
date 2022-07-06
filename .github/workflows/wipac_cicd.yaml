@@ -52,7 +52,7 @@ jobs:
           echo "changes pushed (rest of workflow canceled)"
           exit 1  # prevent dependent job(s) since there's changes to the code
         shell: bash
-      - name:
+      - name: Failure Notification
         on: failure()
         run: |
           gh label create actions-failure --description "GitHub Actions failure" --color EE3333 --force
