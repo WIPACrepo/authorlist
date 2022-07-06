@@ -1069,6 +1069,21 @@
       "to": ""
     },
     {
+      "authname": "N. Aggarwal",
+      "collab": "icecube",
+      "email": "nakul.aggarwal@icecube.wisc.edu",
+      "first": "Nakul",
+      "from": "2022-07-06",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "naggarwal",
+      "last": "Aggarwal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. A. Aguilar",
       "collab": "icecube",
       "email": "juanan.aguilar@icecube.wisc.edu",
@@ -1843,7 +1858,7 @@
       "last": "Anderson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "T. Anderson",
@@ -1852,6 +1867,38 @@
       "first": "Tyler",
       "from": "2014-12-16",
       "instnames": [
+        "pennphys"
+      ],
+      "keycloak_username": "tanderson",
+      "last": "Anderson",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-07-05"
+    },
+    {
+      "authname": "T. Anderson",
+      "collab": "icecube",
+      "email": "tyler.anderson@icecube.wisc.edu",
+      "first": "Tyler",
+      "from": "2022-07-06",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "tanderson",
+      "last": "Anderson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Anderson",
+      "collab": "icecube-gen2",
+      "email": "tyler.anderson@icecube.wisc.edu",
+      "first": "Tyler",
+      "from": "2022-07-06",
+      "instnames": [
+        "pennastro",
         "pennphys"
       ],
       "keycloak_username": "tanderson",
@@ -3042,6 +3089,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2022-05-09"
+    },
+    {
+      "authname": "I. Bartos",
+      "collab": "icecube",
+      "email": "ibartos@phys.columbia.edu",
+      "first": "Imre",
+      "from": "2022-07-06",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "ibartos",
+      "last": "Bartos",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "I. Bartos",
@@ -17192,7 +17254,7 @@
       "last": "Hettinger",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "E. C. Hettinger",
@@ -17207,7 +17269,7 @@
       "last": "Hettinger",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "E. C. Hettinger",
@@ -17438,7 +17500,7 @@
       "last": "Hignight",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "J. Hignight",
@@ -25392,7 +25454,7 @@
       "last": "Li",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "Y. Li",
@@ -25608,6 +25670,36 @@
       ],
       "keycloak_username": "jlosecco",
       "last": "LoSecco",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Love",
+      "collab": "icecube",
+      "email": "cel94@drexel.edu",
+      "first": "Christina",
+      "from": "2022-07-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "clove",
+      "last": "Love",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Love",
+      "collab": "icecube-gen2",
+      "email": "cel94@drexel.edu",
+      "first": "Christina",
+      "from": "2022-07-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "clove",
+      "last": "Love",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -26949,6 +27041,21 @@
     },
     {
       "authname": "Z. Marka",
+      "collab": "icecube",
+      "email": "zsuzsa.marka@icecube.wisc.edu",
+      "first": "Zsuzsa",
+      "from": "2022-07-06",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "zmarka",
+      "last": "Marka",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Marka",
       "collab": "icecube-gen2",
       "email": "zsuzsa.marka@icecube.wisc.edu",
       "first": "Zsuzsa",
@@ -27301,7 +27408,7 @@
       "last": "McCarthy",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "S. McCarthy",
@@ -27316,7 +27423,7 @@
       "last": "McCarthy",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "S. McCarthy",
@@ -29867,6 +29974,36 @@
       "to": ""
     },
     {
+      "authname": "M. Neumann",
+      "collab": "icecube",
+      "email": "m_neum20@uni-muenster.de",
+      "first": "Miriam",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "mneumann",
+      "last": "Neumann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Neumann",
+      "collab": "icecube-gen2",
+      "email": "m_neum20@uni-muenster.de",
+      "first": "Miriam",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "mneumann",
+      "last": "Neumann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "T. Neunh\u00f6ffer",
       "collab": "icecube",
       "first": "T.",
@@ -29905,7 +30042,7 @@
       "last": "Nguy\u1ec5n",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "L. V. Nguy\u1ec5n",
@@ -29920,7 +30057,7 @@
       "last": "Nguy\u1ec5n",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "L. V. Nguy\u1ec5n",
@@ -33278,7 +33415,7 @@
       "last": "Raissi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "A. Raissi",
@@ -33293,7 +33430,7 @@
       "last": "Raissi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "A. Raissi",
@@ -37154,6 +37291,36 @@
       "to": "2010-12-20"
     },
     {
+      "authname": "B. Schlueter",
+      "collab": "icecube",
+      "email": "berit.schlueter@icecube.wisc.edu",
+      "first": "Berit",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schlueter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Schlueter",
+      "collab": "icecube-gen2",
+      "email": "berit.schlueter@icecube.wisc.edu",
+      "first": "Berit",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schlueter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Schlunder",
       "collab": "icecube",
       "email": "pschlunder@icecube.wisc.edu",
@@ -37294,7 +37461,7 @@
       "last": "Schneider",
       "orcid": "0000-0002-0895-3477",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "A. Schneider",
@@ -37309,7 +37476,7 @@
       "last": "Schneider",
       "orcid": "0000-0002-0895-3477",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "A. Schneider",
@@ -39203,7 +39370,7 @@
       "last": "Soldin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "D. Soldin",
@@ -39217,6 +39384,21 @@
       "keycloak_username": "dsoldin",
       "last": "Soldin",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-07-05"
+    },
+    {
+      "authname": "D. Soldin",
+      "collab": "icecube",
+      "email": "dennis.soldin@icecube.wisc.edu",
+      "first": "Dennis",
+      "from": "2022-07-06",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "dsoldin",
+      "last": "Soldin",
+      "orcid": "0000-0003-3005-7879",
       "thanks": [],
       "to": ""
     },
@@ -42306,7 +42488,7 @@
       "last": "Tselengidou",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "M. Tselengidou",
@@ -42321,7 +42503,7 @@
       "last": "Tselengidou",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-05"
     },
     {
       "authname": "M. Tselengidou",
@@ -43539,6 +43721,36 @@
       ],
       "last": "van Santen",
       "orcid": "0000-0002-2412-9728",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Vara",
+      "collab": "icecube",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Javi",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Vara",
+      "collab": "icecube-gen2",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Javi",
+      "from": "2022-07-06",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
