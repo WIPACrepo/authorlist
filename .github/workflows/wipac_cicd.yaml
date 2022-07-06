@@ -53,7 +53,7 @@ jobs:
           exit 1  # prevent dependent job(s) since there's changes to the code
         shell: bash
       - name: Failure Notification
-        on: failure()
+        if: failure()
         run: |
           gh label create actions-failure --description "GitHub Actions failure" --color EE3333 --force
           numOpenIssues="$(gh api graphql -F owner=$OWNER -F name=$REPO -f query='
