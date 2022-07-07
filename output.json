@@ -22679,7 +22679,7 @@
       "last": "Kopper",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-06"
     },
     {
       "authname": "S. Kopper",
@@ -22694,7 +22694,7 @@
       "last": "Kopper",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-06"
     },
     {
       "authname": "S. Kopper",
@@ -27116,6 +27116,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2011-12-31"
+    },
+    {
+      "authname": "M. Marsee",
+      "collab": "icecube",
+      "email": "matthew.marsee@icecube.wisc.edu",
+      "first": "Matthew",
+      "from": "2022-07-07",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "mmarsee",
+      "last": "Marsee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Marsee",
+      "collab": "icecube-gen2",
+      "email": "matthew.marsee@icecube.wisc.edu",
+      "first": "Matthew",
+      "from": "2022-07-07",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "mmarsee",
+      "last": "Marsee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "I. Martinez-Soler",
