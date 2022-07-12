@@ -17335,6 +17335,21 @@
       "to": ""
     },
     {
+      "authname": "L. Heuermann",
+      "collab": "icecube-gen2",
+      "email": "lars.heuermann@rwth-aachen.de",
+      "first": "Lars",
+      "from": "2022-07-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lheuermann",
+      "last": "Heuermann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Hickford",
       "collab": "icecube",
       "email": "stephanie.hickford@icecube.wisc.edu",
@@ -36940,6 +36955,21 @@
       "to": "2012-06-29"
     },
     {
+      "authname": "J. Savelberg",
+      "collab": "icecube-gen2",
+      "email": "joelle.savelberg@icecube.wisc.edu",
+      "first": "Joelle",
+      "from": "2022-07-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jsavelberg",
+      "last": "Savelberg",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Savina",
       "collab": "icecube-gen2",
       "email": "pierpaolo.savina@icecube.wisc.edu",
@@ -40349,7 +40379,7 @@
       "last": "Stettner",
       "orcid": "0000-0003-1042-3675",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-11"
     },
     {
       "authname": "J. Stettner",
@@ -40364,7 +40394,7 @@
       "last": "Stettner",
       "orcid": "0000-0003-1042-3675",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-11"
     },
     {
       "authname": "J. Stettner",
