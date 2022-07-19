@@ -12500,7 +12500,7 @@
       "last": "Finley",
       "orcid": "0000-0003-3350-390X",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-18"
     },
     {
       "authname": "C. Finley",
@@ -12508,6 +12508,36 @@
       "email": "chad.finley@icecube.wisc.edu",
       "first": "Chad",
       "from": "2014-12-16",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "cfinley",
+      "last": "Finley",
+      "orcid": "0000-0003-3350-390X",
+      "thanks": [],
+      "to": "2022-07-18"
+    },
+    {
+      "authname": "C. Finley",
+      "collab": "icecube",
+      "email": "cfinley@fysik.su.se",
+      "first": "Chad",
+      "from": "2022-07-19",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "cfinley",
+      "last": "Finley",
+      "orcid": "0000-0003-3350-390X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Finley",
+      "collab": "icecube-gen2",
+      "email": "cfinley@fysik.su.se",
+      "first": "Chad",
+      "from": "2022-07-19",
       "instnames": [
         "stockholmokc"
       ],
