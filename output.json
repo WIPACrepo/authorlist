@@ -37432,7 +37432,7 @@
       "last": "Schlueter",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-21"
     },
     {
       "authname": "B. Schlueter",
@@ -37445,6 +37445,36 @@
       ],
       "keycloak_username": "bschlueter",
       "last": "Schlueter",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-07-21"
+    },
+    {
+      "authname": "B. Schlueter",
+      "collab": "icecube",
+      "email": "berit.schlueter@icecube.wisc.edu",
+      "first": "Berit",
+      "from": "2022-07-22",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Schlueter",
+      "collab": "icecube-gen2",
+      "email": "berit.schlueter@icecube.wisc.edu",
+      "first": "Berit",
+      "from": "2022-07-22",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
       "orcid": "",
       "thanks": [],
       "to": ""
