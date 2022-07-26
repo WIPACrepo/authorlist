@@ -43152,7 +43152,7 @@
       "last": "Unland Elorrieta",
       "orcid": "0000-0002-6124-3255",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-25"
     },
     {
       "authname": "M. A. Unland Elorrieta",
@@ -43160,6 +43160,36 @@
       "email": "martin.elorrieta@icecube.wisc.edu",
       "first": "Martin",
       "from": "2018-07-02",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "0000-0002-6124-3255",
+      "thanks": [],
+      "to": "2022-07-25"
+    },
+    {
+      "authname": "M. A. Unland Elorrieta",
+      "collab": "icecube",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2022-07-26",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "0000-0002-6124-3255",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. A. Unland Elorrieta",
+      "collab": "icecube-gen2",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2022-07-26",
       "instnames": [
         "munster"
       ],
