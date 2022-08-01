@@ -13542,7 +13542,7 @@
       "last": "Gaertner",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "H. Geenen",
@@ -18425,7 +18425,7 @@
       "last": "Huber",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "M. Huber",
@@ -18440,7 +18440,7 @@
       "last": "Huber",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "M. Huber",
@@ -31232,6 +31232,36 @@
       "to": "2010-05-19"
     },
     {
+      "authname": "R. Orsoe",
+      "collab": "icecube",
+      "email": "rasmus.orsoe@icecube.wisc.edu",
+      "first": "Rasmus",
+      "from": "2022-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "rorsoe",
+      "last": "Orsoe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Orsoe",
+      "collab": "icecube-gen2",
+      "email": "rasmus.orsoe@icecube.wisc.edu",
+      "first": "Rasmus",
+      "from": "2022-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "rorsoe",
+      "last": "Orsoe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Osborn",
       "collab": "icecube",
       "email": "jesse.osborn@icecube.wisc.edu",
@@ -33860,7 +33890,7 @@
       "last": "Rea",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "I. C. Rea",
@@ -33875,7 +33905,7 @@
       "last": "Rea",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "I. C. Rea",
@@ -35742,6 +35772,21 @@
         "dortmund"
       ],
       "last": "Ruhe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Ruohan",
+      "collab": "icecube",
+      "email": "li.ruohan@icecube.wisc.edu",
+      "first": "Li",
+      "from": "2022-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "liruohan",
+      "last": "Ruohan",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -42748,7 +42793,7 @@
       "last": "Turcati",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "A. Turcati",
@@ -42763,7 +42808,7 @@
       "last": "Turcati",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-07-31"
     },
     {
       "authname": "A. Turcati",
