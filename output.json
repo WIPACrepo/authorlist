@@ -11016,7 +11016,7 @@
       "last": "Ehrhardt",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-08-06"
     },
     {
       "authname": "T. Ehrhardt",
@@ -11024,6 +11024,36 @@
       "email": "thomas.ehrhardt@icecube.wisc.edu",
       "first": "Thomas",
       "from": "2014-12-16",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "tehrhardt",
+      "last": "Ehrhardt",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-08-06"
+    },
+    {
+      "authname": "T. Ehrhardt",
+      "collab": "icecube",
+      "email": "tehrhardt@icecube.wisc.edu",
+      "first": "Thomas",
+      "from": "2022-08-07",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "tehrhardt",
+      "last": "Ehrhardt",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Ehrhardt",
+      "collab": "icecube-gen2",
+      "email": "tehrhardt@icecube.wisc.edu",
+      "first": "Thomas",
+      "from": "2022-08-07",
       "instnames": [
         "mainz"
       ],
