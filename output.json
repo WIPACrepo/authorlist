@@ -42766,7 +42766,7 @@
       "last": "Tung",
       "orcid": "0000-0001-6920-7841",
       "thanks": [],
-      "to": ""
+      "to": "2022-08-10"
     },
     {
       "authname": "C. F. Tung",
@@ -42774,6 +42774,36 @@
       "email": "chunfai.tung@icecube.wisc.edu",
       "first": "Chunfai",
       "from": "2016-12-13",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "ctung",
+      "last": "Tung",
+      "orcid": "0000-0001-6920-7841",
+      "thanks": [],
+      "to": "2022-08-10"
+    },
+    {
+      "authname": "C. F. Tung",
+      "collab": "icecube",
+      "email": "chunfai.tung@icecube.wisc.edu",
+      "first": "Chun Fai",
+      "from": "2022-08-11",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "ctung",
+      "last": "Tung",
+      "orcid": "0000-0001-6920-7841",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. F. Tung",
+      "collab": "icecube-gen2",
+      "email": "chunfai.tung@icecube.wisc.edu",
+      "first": "Chun Fai",
+      "from": "2022-08-11",
       "instnames": [
         "georgia"
       ],
