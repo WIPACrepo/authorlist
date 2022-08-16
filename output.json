@@ -39564,7 +39564,7 @@
       "last": "Sogaard",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-08-15"
     },
     {
       "authname": "A. Sogaard",
@@ -39577,6 +39577,36 @@
       ],
       "keycloak_username": "asogaard",
       "last": "Sogaard",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-08-15"
+    },
+    {
+      "authname": "A. Sogaard",
+      "collab": "icecube",
+      "email": "andreas.sogaard@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2022-08-16",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "asogaard",
+      "last": "S\u00f8gaard",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Sogaard",
+      "collab": "icecube-gen2",
+      "email": "andreas.sogaard@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2022-08-16",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "asogaard",
+      "last": "S\u00f8gaard",
       "orcid": "",
       "thanks": [],
       "to": ""
