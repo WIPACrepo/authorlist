@@ -21950,7 +21950,7 @@
       "last": "Kiryluk",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-08-28"
     },
     {
       "authname": "J. Kiryluk",
@@ -21964,6 +21964,36 @@
       "keycloak_username": "joanna",
       "last": "Kiryluk",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-08-28"
+    },
+    {
+      "authname": "J. Kiryluk",
+      "collab": "icecube",
+      "email": "joanna.kiryluk@stonybrook.edu",
+      "first": "Joanna",
+      "from": "2022-08-29",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "joanna",
+      "last": "Kiryluk",
+      "orcid": "0000-0003-0264-3133",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Kiryluk",
+      "collab": "icecube-gen2",
+      "email": "joanna.kiryluk@stonybrook.edu",
+      "first": "Joanna",
+      "from": "2022-08-29",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "joanna",
+      "last": "Kiryluk",
+      "orcid": "0000-0003-0264-3133",
       "thanks": [],
       "to": ""
     },
