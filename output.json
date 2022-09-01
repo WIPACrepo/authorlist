@@ -49256,6 +49256,15 @@
       ],
       "name": "Oxfordold"
     },
+    "padova": {
+      "cite": "Dipartimento di Fisica e Astronomia Galileo Galilei, Universit\u00e0 Degli Studi di Padova, 35122 Padova PD, Italy",
+      "city": "Padova",
+      "collabs": [
+        "icecube",
+        "icecube-gen2"
+      ],
+      "name": "Padova"
+    },
     "pennastro": {
       "cite": "Dept. of Astronomy and Astrophysics, Pennsylvania State University, University Park, PA 16802, USA",
       "city": "University Park",
