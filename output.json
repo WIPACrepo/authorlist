@@ -4536,7 +4536,7 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
-      "to": "2022-08-31"
+      "to": ""
     },
     {
       "authname": "E. Bernardini",
@@ -4551,40 +4551,6 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
-      "to": "2022-08-31"
-    },
-    {
-      "authname": "E. Bernardini",
-      "collab": "icecube",
-      "email": "elisa.bernardini@unipd.it",
-      "first": "Elisa",
-      "from": "2022-09-01",
-      "instnames": [
-        "padova"
-      ],
-      "keycloak_username": "bernardi",
-      "last": "Bernardini",
-      "orcid": "0000-0003-3108-1141",
-      "thanks": [
-        "padova"
-      ],
-      "to": ""
-    },
-    {
-      "authname": "E. Bernardini",
-      "collab": "icecube-gen2",
-      "email": "elisa.bernardini@unipd.it",
-      "first": "Elisa",
-      "from": "2022-09-01",
-      "instnames": [
-        "padova"
-      ],
-      "keycloak_username": "bernardi",
-      "last": "Bernardini",
-      "orcid": "0000-0003-3108-1141",
-      "thanks": [
-        "padova"
-      ],
       "to": ""
     },
     {
