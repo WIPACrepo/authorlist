@@ -4536,7 +4536,7 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
-      "to": ""
+      "to": "2022-08-31"
     },
     {
       "authname": "E. Bernardini",
@@ -4551,6 +4551,40 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
+      "to": "2022-08-31"
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        ""
+      ],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube-gen2",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        ""
+      ],
       "to": ""
     },
     {
@@ -15000,7 +15034,7 @@
     {
       "authname": "S. J. Gray",
       "collab": "icecube",
-      "email": "shannon.gray@icecube.wisc.edu",
+      "email": "sjgray@umd.edu",
       "first": "Shannon",
       "from": "2022-09-01",
       "instnames": [
@@ -15008,14 +15042,14 @@
       ],
       "keycloak_username": "sjgray",
       "last": "Gray",
-      "orcid": "",
+      "orcid": "0000-0003-2907-8306",
       "thanks": [],
       "to": ""
     },
     {
       "authname": "S. J. Gray",
       "collab": "icecube-gen2",
-      "email": "shannon.gray@icecube.wisc.edu",
+      "email": "sjgray@umd.edu",
       "first": "Shannon",
       "from": "2022-09-01",
       "instnames": [
@@ -15023,7 +15057,7 @@
       ],
       "keycloak_username": "sjgray",
       "last": "Gray",
-      "orcid": "",
+      "orcid": "0000-0003-2907-8306",
       "thanks": [],
       "to": ""
     },
