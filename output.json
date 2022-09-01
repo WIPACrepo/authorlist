@@ -15000,7 +15000,7 @@
     {
       "authname": "S. J. Gray",
       "collab": "icecube",
-      "email": "shannon.gray@icecube.wisc.edu",
+      "email": "sjgray@umd.edu",
       "first": "Shannon",
       "from": "2022-09-01",
       "instnames": [
@@ -15008,14 +15008,14 @@
       ],
       "keycloak_username": "sjgray",
       "last": "Gray",
-      "orcid": "",
+      "orcid": "0000-0003-2907-8306",
       "thanks": [],
       "to": ""
     },
     {
       "authname": "S. J. Gray",
       "collab": "icecube-gen2",
-      "email": "shannon.gray@icecube.wisc.edu",
+      "email": "sjgray@umd.edu",
       "first": "Shannon",
       "from": "2022-09-01",
       "instnames": [
@@ -15023,7 +15023,7 @@
       ],
       "keycloak_username": "sjgray",
       "last": "Gray",
-      "orcid": "",
+      "orcid": "0000-0003-2907-8306",
       "thanks": [],
       "to": ""
     },
