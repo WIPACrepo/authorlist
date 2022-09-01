@@ -4509,6 +4509,40 @@
     },
     {
       "authname": "E. Bernardini",
+      "collab": "icecube",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        "padova"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube-gen2",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        "padova"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
       "collab": "pingu",
       "email": "elisa.bernardini@desy.de",
       "first": "Elisa",
@@ -5596,6 +5630,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2018-12-16"
+    },
+    {
+      "authname": "C. Boscolo Meneguolo",
+      "collab": "icecube",
+      "email": "caterina.boscolomeneguolo@studenti.unipd.it",
+      "first": "Caterina",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "cboscolomeneguolo",
+      "last": "Boscolo Meneguolo",
+      "orcid": "0000-0001-8325-4329",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Boscolo Meneguolo",
+      "collab": "icecube-gen2",
+      "email": "caterina.boscolomeneguolo@studenti.unipd.it",
+      "first": "Caterina",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "cboscolomeneguolo",
+      "last": "Boscolo Meneguolo",
+      "orcid": "0000-0001-8325-4329",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. Bose",
@@ -14919,6 +14983,36 @@
         "michigan"
       ],
       "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. J. Gray",
+      "collab": "icecube",
+      "email": "shannon.gray@icecube.wisc.edu",
+      "first": "Shannon",
+      "from": "2022-09-01",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "sjgray",
+      "last": "Gray",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. J. Gray",
+      "collab": "icecube-gen2",
+      "email": "shannon.gray@icecube.wisc.edu",
+      "first": "Shannon",
+      "from": "2022-09-01",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "sjgray",
+      "last": "Gray",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -30151,6 +30245,36 @@
       "to": ""
     },
     {
+      "authname": "A. Nayerhoda",
+      "collab": "icecube",
+      "email": "amid.nayerhoda@unipd.it",
+      "first": "Amid",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "anayerhoda",
+      "last": "Nayerhoda",
+      "orcid": "0000-0003-0587-4324",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Nayerhoda",
+      "collab": "icecube-gen2",
+      "email": "amid.nayerhoda@unipd.it",
+      "first": "Amid",
+      "from": "2022-09-01",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "anayerhoda",
+      "last": "Nayerhoda",
+      "orcid": "0000-0003-0587-4324",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Necker",
       "collab": "icecube",
       "email": "jannis.necker@desy.de",
@@ -33440,6 +33564,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2011-02-28"
+    },
+    {
+      "authname": "R. Procter-Murphy",
+      "collab": "icecube",
+      "email": "rachel.procter-murphy@icecube.wisc.edu",
+      "first": "Rachel",
+      "from": "2022-09-01",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "rpmurphy",
+      "last": "Procter-Murphy",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Procter-Murphy",
+      "collab": "icecube-gen2",
+      "email": "rachel.procter-murphy@icecube.wisc.edu",
+      "first": "Rachel",
+      "from": "2022-09-01",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "rpmurphy",
+      "last": "Procter-Murphy",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "G. T. Przybylski",
