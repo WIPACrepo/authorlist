@@ -13345,6 +13345,21 @@
       "to": "2017-11-30"
     },
     {
+      "authname": "T. Fujii",
+      "collab": "icecube-gen2",
+      "email": "toshi@omu.ac.jp",
+      "first": "Toshihiro",
+      "from": "2022-09-12",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "tfujii",
+      "last": "Fujii",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. F\u00fcrst",
       "collab": "icecube",
       "email": "philipp.fuerst@icecube.wisc.edu",
@@ -22366,6 +22381,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2010-06-30"
+    },
+    {
+      "authname": "T. Kobayashi",
+      "collab": "icecube-gen2",
+      "email": "a19ss006@st.osaka-cu.ac.jp",
+      "first": "Takuro",
+      "from": "2022-09-12",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "tkobayashi",
+      "last": "Kobayashi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. Koch",
@@ -43109,6 +43139,21 @@
       ],
       "last": "Tselengidou",
       "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Tsunesada",
+      "collab": "icecube-gen2",
+      "email": "tsunesada@omu.ac.jp",
+      "first": "Yoshiki",
+      "from": "2022-09-12",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "ytsunesada",
+      "last": "Tsunesada",
+      "orcid": "0000-0001-9238-6817",
       "thanks": [],
       "to": ""
     },
