@@ -21793,7 +21793,7 @@
       "last": "Kheirandish",
       "orcid": "0000-0001-7074-0539",
       "thanks": [],
-      "to": ""
+      "to": "2022-09-25"
     },
     {
       "authname": "A. Kheirandish",
@@ -21803,6 +21803,38 @@
       "from": "2020-01-23",
       "instnames": [
         "pennphys"
+      ],
+      "keycloak_username": "akheirandish",
+      "last": "Kheirandish",
+      "orcid": "0000-0001-7074-0539",
+      "thanks": [],
+      "to": "2022-09-25"
+    },
+    {
+      "authname": "A. Kheirandish",
+      "collab": "icecube",
+      "email": "akheirandish@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2022-09-26",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "akheirandish",
+      "last": "Kheirandish",
+      "orcid": "0000-0001-7074-0539",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kheirandish",
+      "collab": "icecube-gen2",
+      "email": "akheirandish@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2022-09-26",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
       ],
       "keycloak_username": "akheirandish",
       "last": "Kheirandish",
