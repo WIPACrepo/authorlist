@@ -32,6 +32,8 @@ class IceCube:
         'kansas': '/institutions/IceCube/Kansas/authorlist',
         'karlsruhe': '/institutions/IceCube/Karlsruhe/authorlist-astro',
         'karlsruheexp': '/institutions/IceCube/Karlsruhe/authorlist-exp',
+        'lasvegasastro': '/institutions/IceCube/LasVegas/authorlist-dept-physics',
+        'lasvegasphysics': '/institutions/IceCube/LasVegas/authorlist-astrophysics',
         'lbnl': '/institutions/IceCube/LBNL/authorlist',
         'loyola': '/institutions/IceCube/Loyola/authorlist',
         'madisonastro': '/institutions/IceCube/UW-Madison/authorlist-astro',

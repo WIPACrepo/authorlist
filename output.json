@@ -49107,6 +49107,24 @@
       ],
       "name": "King's College London"
     },
+    "lasvegasastro": {
+      "cite": "Nevada Center for Astrophysics, University of Nevada, Las Vegas, NV 89154, USA",
+      "city": "Las Vegas",
+      "collabs": [
+        "icecube",
+        "icecube-gen2"
+      ],
+      "name": "LasVegasAstro"
+    },
+    "lasvegasphysics": {
+      "cite": "Department of Physics & Astronomy, University of Nevada, Las Vegas, NV, 89154, USA",
+      "city": "Las Vegas",
+      "collabs": [
+        "icecube",
+        "icecube-gen2"
+      ],
+      "name": "LasVegasPhysics"
+    },
     "lausanne": {
       "cite": "Laboratory for High Energy Physics, \u00c9cole Polytechnique F\u00e9d\u00e9rale, CH-1015 Lausanne, Switzerland",
       "city": "Lausanne",
