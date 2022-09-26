@@ -108,6 +108,8 @@ class IceCubeGen2:
         'karlsruhe': '/institutions/IceCube-Gen2/Karlsruhe/authorlist-astro',
         'karlsruheexp': '/institutions/IceCube-Gen2/Karlsruhe/authorlist-exp',
         'kingscollege': '/institutions/IceCube-Gen2/KingsCollege/authorlist',
+        'lasvegasastro': '/institutions/IceCube/LasVegas/authorlist-dept-physics',
+        'lasvegasphysics': '/institutions/IceCube/LasVegas/authorlist-astrophysics',
         'lbnl': '/institutions/IceCube-Gen2/LBNL/authorlist',
         'loyola': '/institutions/IceCube-Gen2/Loyola/authorlist',
         'madisonastro': '/institutions/IceCube-Gen2/UW-Madison/authorlist-astro',
