@@ -49301,6 +49301,14 @@
       ],
       "name": "Ohioold"
     },
+    "osaka": {
+      "cite": "Graduate School of Science and NITEP, Osaka Metropolitan University, Osaka 558-8585, Japan",
+      "city": "Osaka",
+      "collabs": [
+        "icecube-gen2",
+      ],
+      "name": "Osaka"
+    },
     "oxford": {
       "cite": "Dept. of Physics, University of Oxford, Parks Road, Oxford OX1 3PU, UK",
       "city": "Oxford",
