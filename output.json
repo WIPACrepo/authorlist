@@ -31060,7 +31060,7 @@
       "last": "Obertacke Pollmann",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
-      "to": ""
+      "to": "2022-09-26"
     },
     {
       "authname": "A. Obertacke Pollmann",
@@ -31068,6 +31068,36 @@
       "email": "anna.pollmann@uni-wuppertal.de",
       "first": "Anna",
       "from": "2015-10-10",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Obertacke Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": "2022-09-26"
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2022-09-27",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Obertacke Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube-gen2",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2022-09-27",
       "instnames": [
         "wuppertal"
       ],
