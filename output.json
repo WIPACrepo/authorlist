@@ -33693,7 +33693,7 @@
       "last": "Pries",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-04"
     },
     {
       "authname": "B. Pries",
@@ -33707,6 +33707,36 @@
       "keycloak_username": "bpries",
       "last": "Pries",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-10-04"
+    },
+    {
+      "authname": "B. Pries",
+      "collab": "icecube",
+      "email": "brandon.pries@icecube.wisc.edu",
+      "first": "Brandon",
+      "from": "2022-10-05",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "bpries",
+      "last": "Pries",
+      "orcid": "0000-0003-4811-9863",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Pries",
+      "collab": "icecube-gen2",
+      "email": "brandon.pries@icecube.wisc.edu",
+      "first": "Brandon",
+      "from": "2022-10-05",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "bpries",
+      "last": "Pries",
+      "orcid": "0000-0003-4811-9863",
       "thanks": [],
       "to": ""
     },
