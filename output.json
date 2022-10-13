@@ -30804,6 +30804,21 @@
       "to": ""
     },
     {
+      "authname": "A. Noell",
+      "collab": "icecube-gen2",
+      "email": "andreas.noell@icecube.wisc.edu",
+      "first": "Andreas",
+      "from": "2022-10-13",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "anoell",
+      "last": "Noell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. C. Nowicki",
       "collab": "icecube",
       "email": "sarah.nowicki@icecube.wisc.edu",
@@ -32625,7 +32640,7 @@
       "last": "Peters",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-12"
     },
     {
       "authname": "L. Peters",
@@ -32640,7 +32655,7 @@
       "last": "Peters",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-12"
     },
     {
       "authname": "L. Peters",
