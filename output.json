@@ -24009,6 +24009,21 @@
       "to": "2017-03-23"
     },
     {
+      "authname": "K. Kruiswijk",
+      "collab": "icecube",
+      "email": "karlijn.kruiswijk@icecube.wisc.edu",
+      "first": "Karlijn",
+      "from": "2022-10-14",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "kkruiswijk",
+      "last": "Kruiswijk",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Krupczak",
       "collab": "icecube",
       "email": "emmett.krupczak@icecube.wisc.edu",
@@ -24717,6 +24732,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-09-30"
+    },
+    {
+      "authname": "M. Lamoureux",
+      "collab": "icecube",
+      "email": "mathieu.lamoureux@uclouvain.be",
+      "first": "Mathieu",
+      "from": "2022-10-14",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mlamoureux",
+      "last": "Lamoureux",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "H. Landsman",
