@@ -26675,6 +26675,23 @@
       "last": "Luszczak",
       "orcid": "0000-0003-3085-0674",
       "thanks": [],
+      "to": "2022-10-18"
+    },
+    {
+      "authname": "W. Luszczak",
+      "collab": "icecube",
+      "email": "william.luszczak@icecube.wisc.edu",
+      "first": "William",
+      "from": "2022-10-19",
+      "instnames": [
+        "madisonpac",
+        "ohio",
+        "ohioastro"
+      ],
+      "keycloak_username": "wluszczak",
+      "last": "Luszczak",
+      "orcid": "0000-0003-3085-0674",
+      "thanks": [],
       "to": ""
     },
     {
