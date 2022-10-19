@@ -25434,7 +25434,7 @@
       "last": "Leonard",
       "orcid": "0000-0002-8795-0601",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-18"
     },
     {
       "authname": "K. Leonard",
@@ -25449,7 +25449,7 @@
       "last": "Leonard",
       "orcid": "0000-0002-8795-0601",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-18"
     },
     {
       "authname": "K. Leonard",
@@ -25461,6 +25461,36 @@
         "madisonpac"
       ],
       "last": "Leonard",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2022-10-19",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube-gen2",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2022-10-19",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
       "orcid": "0000-0002-8795-0601",
       "thanks": [],
       "to": ""
