@@ -26518,7 +26518,7 @@
       "last": "Ludwig",
       "orcid": "0000-0001-9038-4375",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-23"
     },
     {
       "authname": "A. Ludwig",
@@ -26529,6 +26529,36 @@
       "instnames": [
         "ucla",
         "michigan"
+      ],
+      "keycloak_username": "aludwig",
+      "last": "Ludwig",
+      "orcid": "0000-0001-9038-4375",
+      "thanks": [],
+      "to": "2022-10-23"
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube",
+      "email": "andrew.ludwig@icecube.wisc.edu",
+      "first": "Andrew",
+      "from": "2022-10-24",
+      "instnames": [
+        "ucla"
+      ],
+      "keycloak_username": "aludwig",
+      "last": "Ludwig",
+      "orcid": "0000-0001-9038-4375",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Ludwig",
+      "collab": "icecube-gen2",
+      "email": "andrew.ludwig@icecube.wisc.edu",
+      "first": "Andrew",
+      "from": "2022-10-24",
+      "instnames": [
+        "ucla"
       ],
       "keycloak_username": "aludwig",
       "last": "Ludwig",
@@ -27971,6 +28001,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-09-30"
+    },
+    {
+      "authname": "F. Mayhew",
+      "collab": "icecube",
+      "email": "finn.mayhew@icecube.wisc.edu",
+      "first": "Finn",
+      "from": "2022-10-24",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "fmayhew",
+      "last": "Mayhew",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. McCarthy",
