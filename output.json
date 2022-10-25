@@ -2589,7 +2589,7 @@
       "last": "Axani",
       "orcid": "0000-0001-8866-3826",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-24"
     },
     {
       "authname": "S. N. Axani",
@@ -2599,6 +2599,36 @@
       "from": "2022-10-03",
       "instnames": [
         "mit"
+      ],
+      "keycloak_username": "saxani",
+      "last": "Axani",
+      "orcid": "0000-0001-8866-3826",
+      "thanks": [],
+      "to": "2022-10-24"
+    },
+    {
+      "authname": "S. N. Axani",
+      "collab": "icecube",
+      "email": "saxani@icecube.wisc.edu",
+      "first": "Spencer",
+      "from": "2022-10-25",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "saxani",
+      "last": "Axani",
+      "orcid": "0000-0001-8866-3826",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. N. Axani",
+      "collab": "icecube-gen2",
+      "email": "saxani@icecube.wisc.edu",
+      "first": "Spencer",
+      "from": "2022-10-25",
+      "instnames": [
+        "bartol"
       ],
       "keycloak_username": "saxani",
       "last": "Axani",
