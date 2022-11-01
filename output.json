@@ -43168,7 +43168,7 @@
       "last": "T\u00f6nnis",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-10-31"
     },
     {
       "authname": "C. T\u00f6nnis",
@@ -43178,6 +43178,36 @@
       "from": "2019-09-10",
       "instnames": [
         "skku2"
+      ],
+      "keycloak_username": "ctoennis",
+      "last": "T\u00f6nnis",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-10-31"
+    },
+    {
+      "authname": "C. T\u00f6nnis",
+      "collab": "icecube",
+      "email": "christoph.toennis@gmx.de",
+      "first": "Christoph",
+      "from": "2022-11-01",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "ctoennis",
+      "last": "T\u00f6nnis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. T\u00f6nnis",
+      "collab": "icecube-gen2",
+      "email": "christoph.toennis@gmx.de",
+      "first": "Christoph",
+      "from": "2022-11-01",
+      "instnames": [
+        "skku"
       ],
       "keycloak_username": "ctoennis",
       "last": "T\u00f6nnis",
