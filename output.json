@@ -18661,7 +18661,7 @@
       "last": "Hou",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-01"
     },
     {
       "authname": "W. Hou",
@@ -18675,6 +18675,36 @@
       "keycloak_username": "whou",
       "last": "Hou",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-11-01"
+    },
+    {
+      "authname": "W. Hou",
+      "collab": "icecube",
+      "email": "wenjie.hou@icecube.wisc.edu",
+      "first": "Wenjie",
+      "from": "2022-11-02",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "whou",
+      "last": "Hou",
+      "orcid": "0000-0003-3422-7185",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Hou",
+      "collab": "icecube-gen2",
+      "email": "wenjie.hou@icecube.wisc.edu",
+      "first": "Wenjie",
+      "from": "2022-11-02",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "whou",
+      "last": "Hou",
+      "orcid": "0000-0003-3422-7185",
       "thanks": [],
       "to": ""
     },
