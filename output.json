@@ -48307,6 +48307,36 @@
       "to": ""
     },
     {
+      "authname": "M. Yasutsugu",
+      "collab": "icecube",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Morii",
+      "from": "2022-11-03",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Yasutsugu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Yasutsugu",
+      "collab": "icecube-gen2",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Morii",
+      "from": "2022-11-03",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Yasutsugu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Yeck",
       "collab": "icecube",
       "email": "yeck@icecube.wisc.edu",
