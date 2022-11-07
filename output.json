@@ -33635,7 +33635,7 @@
       "last": "Popovych",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-06"
     },
     {
       "authname": "Y. Popovych",
@@ -33643,6 +33643,36 @@
       "email": "yuriy.popovych@icecube.wisc.edu",
       "first": "Yuiry",
       "from": "2021-02-01",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "ypopovych",
+      "last": "Popovych",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-11-06"
+    },
+    {
+      "authname": "Y. Popovych",
+      "collab": "icecube",
+      "email": "ypopovyc@uni-mainz.de",
+      "first": "Yuriy",
+      "from": "2022-11-07",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "ypopovych",
+      "last": "Popovych",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Popovych",
+      "collab": "icecube-gen2",
+      "email": "ypopovyc@uni-mainz.de",
+      "first": "Yuriy",
+      "from": "2022-11-07",
       "instnames": [
         "mainz"
       ],
