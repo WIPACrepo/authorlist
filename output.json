@@ -48364,7 +48364,7 @@
       "last": "Yasutsugu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-10"
     },
     {
       "authname": "M. Yasutsugu",
@@ -48377,6 +48377,36 @@
       ],
       "keycloak_username": "myasutsugu",
       "last": "Yasutsugu",
+      "orcid": "",
+      "thanks": [],
+      "to": "2022-11-10"
+    },
+    {
+      "authname": "M. Yasutsugu",
+      "collab": "icecube",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Yasutsugu",
+      "from": "2022-11-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Morii",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Yasutsugu",
+      "collab": "icecube-gen2",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Yasutsugu",
+      "from": "2022-11-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Morii",
       "orcid": "",
       "thanks": [],
       "to": ""
