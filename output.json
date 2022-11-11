@@ -29923,6 +29923,36 @@
       "to": "2007-11-22"
     },
     {
+      "authname": "Y. Morii",
+      "collab": "icecube",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Yasutsugu",
+      "from": "2022-11-03",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Morii",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Morii",
+      "collab": "icecube-gen2",
+      "email": "morii.yasutsugu@icecube.wisc.edu",
+      "first": "Yasutsugu",
+      "from": "2022-11-03",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "myasutsugu",
+      "last": "Morii",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Morse",
       "collab": "icecube",
       "email": "morse@icecube.wisc.edu",
@@ -48347,36 +48377,6 @@
         "edmonton"
       ],
       "last": "Yanez",
-      "orcid": "",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "Y. Morii",
-      "collab": "icecube",
-      "email": "morii.yasutsugu@icecube.wisc.edu",
-      "first": "Yasutsugu",
-      "from": "2022-11-03",
-      "instnames": [
-        "chiba2022"
-      ],
-      "keycloak_username": "myasutsugu",
-      "last": "Morii",
-      "orcid": "",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "Y. Morii",
-      "collab": "icecube-gen2",
-      "email": "morii.yasutsugu@icecube.wisc.edu",
-      "first": "Yasutsugu",
-      "from": "2022-11-03",
-      "instnames": [
-        "chiba2022"
-      ],
-      "keycloak_username": "myasutsugu",
-      "last": "Morii",
       "orcid": "",
       "thanks": [],
       "to": ""
