@@ -24238,6 +24238,36 @@
       "to": "2020-10-22"
     },
     {
+      "authname": "A. Kumar",
+      "collab": "icecube",
+      "email": "anilak41@gmail.com",
+      "first": "Anil",
+      "from": "2022-11-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "akumar",
+      "last": "Kumar",
+      "orcid": "0000-0002-8367-8401",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kumar",
+      "collab": "icecube-gen2",
+      "email": "anilak41@gmail.com",
+      "first": "Anil",
+      "from": "2022-11-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "akumar",
+      "last": "Kumar",
+      "orcid": "0000-0002-8367-8401",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Kun",
       "collab": "icecube",
       "email": "emma.kun@icecube.wisc.edu",
@@ -36827,6 +36857,21 @@
       "keycloak_username": "drysewyk",
       "last": "Rysewyk Cantu",
       "orcid": "0000-0002-3612-6129",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S.Athanasiadou",
+      "collab": "icecube",
+      "email": "sofia.athanasiadou@desy.de",
+      "first": "Sofia",
+      "from": "2022-11-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "sathanasiadou",
+      "last": "Athanasiadou",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
