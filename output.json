@@ -50270,6 +50270,16 @@
       "name": "Yale"
     },
     "zeuthen": {
+      "cite": "Deutsches Elektronen-Synchrotron DESY, Platanenallee 6, 15738 Zeuthen, Germany ",
+      "city": "Zeuthen",
+      "collabs": [
+        "icecube",
+        "icecube-gen2",
+        "pingu"
+      ],
+      "name": "Zeuthen"
+    }
+    "zeuthenold": {
       "cite": "DESY, D-15738 Zeuthen, Germany",
       "city": "Zeuthen",
       "collabs": [
