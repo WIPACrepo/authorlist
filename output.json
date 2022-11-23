@@ -15256,6 +15256,36 @@
       "to": "2012-01-08"
     },
     {
+      "authname": "S. Griffin",
+      "collab": "icecube",
+      "email": "sean.griffin@icecube.wisc.edu",
+      "first": "Sean",
+      "from": "2022-11-23",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Griffin",
+      "collab": "icecube-gen2",
+      "email": "sean.griffin@icecube.wisc.edu",
+      "first": "Sean",
+      "from": "2022-11-23",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Z. Griffith",
       "collab": "icecube",
       "email": "zachary.griffith@icecube.wisc.edu",
