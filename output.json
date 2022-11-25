@@ -7783,7 +7783,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-24"
     },
     {
       "authname": "K. Choi",
@@ -7798,7 +7798,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-24"
     },
     {
       "authname": "K. Choi",
@@ -7855,6 +7855,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2021-01-10"
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2022-11-25",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube-gen2",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2022-11-25",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. Christov",
