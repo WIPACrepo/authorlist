@@ -39371,7 +39371,7 @@
       "last": "Schumacher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-27"
     },
     {
       "authname": "L. Schumacher",
@@ -39385,6 +39385,36 @@
       "keycloak_username": "lschumacher",
       "last": "Schumacher",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-11-27"
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2022-11-28",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "lschumacher",
+      "last": "Schumacher",
+      "orcid": "0000-0001-8945-6722",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube-gen2",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2022-11-28",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "lschumacher",
+      "last": "Schumacher",
+      "orcid": "0000-0001-8945-6722",
       "thanks": [],
       "to": ""
     },
