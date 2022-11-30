@@ -14567,7 +14567,7 @@
       "last": "Gl\u00fcsenkamp",
       "orcid": "0000-0002-2268-9297",
       "thanks": [],
-      "to": ""
+      "to": "2022-11-29"
     },
     {
       "authname": "T. Gl\u00fcsenkamp",
@@ -14577,6 +14577,38 @@
       "from": "2016-11-18",
       "instnames": [
         "erlangen"
+      ],
+      "keycloak_username": "gluesenkamp",
+      "last": "Gl\u00fcsenkamp",
+      "orcid": "0000-0002-2268-9297",
+      "thanks": [],
+      "to": "2022-11-29"
+    },
+    {
+      "authname": "T. Gl\u00fcsenkamp",
+      "collab": "icecube",
+      "email": "thorsten.gluesenkamp@desy.de",
+      "first": "Thorsten",
+      "from": "2022-11-30",
+      "instnames": [
+        "erlangen",
+        "uppsala"
+      ],
+      "keycloak_username": "gluesenkamp",
+      "last": "Gl\u00fcsenkamp",
+      "orcid": "0000-0002-2268-9297",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Gl\u00fcsenkamp",
+      "collab": "icecube-gen2",
+      "email": "thorsten.gluesenkamp@desy.de",
+      "first": "Thorsten",
+      "from": "2022-11-30",
+      "instnames": [
+        "erlangen",
+        "uppsala"
       ],
       "keycloak_username": "gluesenkamp",
       "last": "Gl\u00fcsenkamp",
