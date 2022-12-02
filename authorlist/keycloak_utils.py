@@ -144,6 +144,7 @@ class IceCubeGen2:
         'southern': '/institutions/IceCube-Gen2/Southern/authorlist',
         'stockholmokc': '/institutions/IceCube-Gen2/Stockholm/authorlist',
         'stonybrook': '/institutions/IceCube-Gen2/Stony-Brook/authorlist',
+        'tata': '/institutions/IceCube-Gen2/Tata-Institute/authorlist',
         'tokyo': '/institutions/IceCube-Gen2/Tokyo/authorlist',
         'ucla': '/institutions/IceCube-Gen2/UCLA/authorlist',
         'uclouvain': '/institutions/IceCube-Gen2/UCLouvain/authorlist',

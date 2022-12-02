@@ -26373,6 +26373,21 @@
       "to": "2007-11-22"
     },
     {
+      "authname": "M. Lohan",
+      "collab": "icecube-gen2",
+      "email": "manisha.lohan@tifr.res.in",
+      "first": "Manisha",
+      "from": "2022-12-02",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "mmanisha1",
+      "last": "Manisha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Lohfink",
       "collab": "icecube",
       "email": "elisa.lohfink@icecube.wisc.edu",
@@ -34681,6 +34696,21 @@
       "orcid": "0000-0001-5023-5631",
       "thanks": [],
       "to": "2022-11-28"
+    },
+    {
+      "authname": "M. Rameez",
+      "collab": "icecube-gen2",
+      "email": "mohamed.rameez@tifr.res.in",
+      "first": "Mohamed",
+      "from": "2022-12-02",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "mrameez",
+      "last": "Rameez",
+      "orcid": "0000-0001-5023-5631",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Rameez",
@@ -50321,6 +50351,14 @@
         "pingu"
       ],
       "name": "StonyBrook"
+    },
+    "tata": {
+      "cite": "Dept. of High Energy Physics, Tata Institute of Fundamental Research, Colaba, Mumbai 400 005, India",
+      "city": "Mumbai",
+      "collabs": [
+        "icecube-gen2"
+      ],
+      "name": "TataInstitute"
     },
     "tokyo": {
       "cite": "Earthquake Research Institute, University of Tokyo, Bunkyo, Tokyo 113-0032, Japan",
