@@ -21093,7 +21093,7 @@
       "last": "Kappes",
       "orcid": "0000-0003-1315-3711",
       "thanks": [],
-      "to": ""
+      "to": "2022-12-11"
     },
     {
       "authname": "A. Kappes",
@@ -21101,6 +21101,36 @@
       "email": "alexander.kappes@icecube.wisc.edu",
       "first": "Alexander",
       "from": "2016-04-26",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "kappes",
+      "last": "Kappes",
+      "orcid": "0000-0003-1315-3711",
+      "thanks": [],
+      "to": "2022-12-11"
+    },
+    {
+      "authname": "A. Kappes",
+      "collab": "icecube",
+      "email": "alexander.kappes@uni-muenster.de",
+      "first": "Alexander",
+      "from": "2022-12-12",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "kappes",
+      "last": "Kappes",
+      "orcid": "0000-0003-1315-3711",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kappes",
+      "collab": "icecube-gen2",
+      "email": "alexander.kappes@uni-muenster.de",
+      "first": "Alexander",
+      "from": "2022-12-12",
       "instnames": [
         "munster"
       ],
@@ -33311,7 +33341,7 @@
       "last": "Philippen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-12-11"
     },
     {
       "authname": "S. Philippen",
@@ -33325,6 +33355,36 @@
       "keycloak_username": "sphilippen",
       "last": "Philippen",
       "orcid": "",
+      "thanks": [],
+      "to": "2022-12-11"
+    },
+    {
+      "authname": "S. Philippen",
+      "collab": "icecube",
+      "email": "saskia.philippen@icecube.wisc.edu",
+      "first": "Saskia",
+      "from": "2022-12-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "sphilippen",
+      "last": "Philippen",
+      "orcid": "0000-0002-0276-0092",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Philippen",
+      "collab": "icecube-gen2",
+      "email": "saskia.philippen@icecube.wisc.edu",
+      "first": "Saskia",
+      "from": "2022-12-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "sphilippen",
+      "last": "Philippen",
+      "orcid": "0000-0002-0276-0092",
       "thanks": [],
       "to": ""
     },
@@ -38677,7 +38737,7 @@
       "last": "Schl\u00fcter",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-12-11"
     },
     {
       "authname": "B. Schlueter",
@@ -38692,7 +38752,7 @@
       "last": "Schl\u00fcter",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2022-12-11"
     },
     {
       "authname": "P. Schlunder",
@@ -38735,6 +38795,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2021-10-20"
+    },
+    {
+      "authname": "B. Schl\u00fcter",
+      "collab": "icecube",
+      "email": "b_schl19@uni-muenster.de",
+      "first": "Berit",
+      "from": "2022-12-12",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Schl\u00fcter",
+      "collab": "icecube-gen2",
+      "email": "b_schl19@uni-muenster.de",
+      "first": "Berit",
+      "from": "2022-12-12",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Schmidt",
