@@ -10761,6 +10761,36 @@
       "to": ""
     },
     {
+      "authname": "A. Domi",
+      "collab": "icecube",
+      "email": "alba.domi@fau.de",
+      "first": "Alba",
+      "from": "2022-12-13",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "adomi",
+      "last": "Domi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Domi",
+      "collab": "icecube-gen2",
+      "email": "alba.domi@fau.de",
+      "first": "Alba",
+      "from": "2022-12-13",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "adomi",
+      "last": "Domi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Dreyer",
       "collab": "icecube",
       "email": "dreyer@icecube.wisc.edu",
