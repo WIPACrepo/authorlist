@@ -7187,6 +7187,36 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "K. Carloni",
+      "collab": "icecube",
+      "email": "kcarloni@g.harvard.edu",
+      "first": "Kiara",
+      "from": "2022-12-14",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "kcarloni",
+      "last": "Carloni",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Carloni",
+      "collab": "icecube-gen2",
+      "email": "kcarloni@g.harvard.edu",
+      "first": "Kiara",
+      "from": "2022-12-14",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "kcarloni",
+      "last": "Carloni",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. G. Carnie-Bronca",
       "collab": "icecube",
       "email": "erin.carnie-bronca@icecube.wisc.edu",
