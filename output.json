@@ -2407,6 +2407,21 @@
       "to": "2006-10-26"
     },
     {
+      "authname": "J. Audehm",
+      "collab": "icecube-gen2",
+      "email": "jan.audehm@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2022-12-15",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jaudehm",
+      "last": "Audehm",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Auffenberg",
       "collab": "icecube",
       "email": "jan.auffenberg@icecube.wisc.edu",
