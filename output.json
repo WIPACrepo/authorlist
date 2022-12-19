@@ -49169,6 +49169,36 @@
       "to": ""
     },
     {
+      "authname": "F. Yu",
+      "collab": "icecube",
+      "email": "felixyu@g.harvard.edu",
+      "first": "Felix",
+      "from": "2022-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "felixyu7",
+      "last": "Yu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Yu",
+      "collab": "icecube-gen2",
+      "email": "felixyu@g.harvard.edu",
+      "first": "Felix",
+      "from": "2022-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "fy000",
+      "last": "Yu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Yu",
       "collab": "icecube",
       "email": "shiqi.yu@icecube.wisc.edu",
