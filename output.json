@@ -16500,7 +16500,7 @@
       "last": "Hamdaoui",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-04"
     },
     {
       "authname": "H. Hamdaoui",
@@ -16514,6 +16514,36 @@
       "keycloak_username": "hhamdaoui",
       "last": "Hamdaoui",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-01-04"
+    },
+    {
+      "authname": "H. Hamdaoui",
+      "collab": "icecube",
+      "email": "hamdaouihassane@gmail.com",
+      "first": "Hassane",
+      "from": "2023-01-05",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "hhamdaoui",
+      "last": "Hamdaoui",
+      "orcid": "0000-0001-5709-2100",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Hamdaoui",
+      "collab": "icecube-gen2",
+      "email": "hamdaouihassane@gmail.com",
+      "first": "Hassane",
+      "from": "2023-01-05",
+      "instnames": [
+        "stonybrook"
+      ],
+      "keycloak_username": "hhamdaoui",
+      "last": "Hamdaoui",
+      "orcid": "0000-0001-5709-2100",
       "thanks": [],
       "to": ""
     },
