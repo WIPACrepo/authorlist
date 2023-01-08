@@ -1640,7 +1640,7 @@
       "last": "Alves Junior",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-07"
     },
     {
       "authname": "A. A. Alves Jr.",
@@ -1655,7 +1655,7 @@
       "last": "Alves Junior",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-07"
     },
     {
       "authname": "A. A. Alves Jr.",
@@ -45673,6 +45673,36 @@
         "madisonpac"
       ],
       "last": "Veitch-Michaelis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Venugopal",
+      "collab": "icecube",
+      "email": "venugopalmegha1@gmail.com",
+      "first": "Megha",
+      "from": "2023-01-08",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "meghav",
+      "last": "Venugopal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Venugopal",
+      "collab": "icecube-gen2",
+      "email": "venugopalmegha1@gmail.com",
+      "first": "Megha",
+      "from": "2023-01-08",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "meghav",
+      "last": "Venugopal",
       "orcid": "",
       "thanks": [],
       "to": ""
