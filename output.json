@@ -17700,7 +17700,7 @@
       "last": "Hellrung",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-10"
     },
     {
       "authname": "J. Hellrung",
@@ -17710,6 +17710,21 @@
       "from": "2022-05-10",
       "instnames": [
         "aachen"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-01-10"
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-01-11",
+      "instnames": [
+        "bochum"
       ],
       "keycloak_username": "jhellrung",
       "last": "Hellrung",
