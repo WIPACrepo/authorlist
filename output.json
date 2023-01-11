@@ -3867,7 +3867,7 @@
       "last": "Becker Tjus",
       "orcid": "0000-0002-1748-7367",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-10"
     },
     {
       "authname": "J. Becker Tjus",
@@ -3882,6 +3882,40 @@
       "last": "Becker Tjus",
       "orcid": "0000-0002-1748-7367",
       "thanks": [],
+      "to": "2023-01-10"
+    },
+    {
+      "authname": "J. Becker Tjus",
+      "collab": "icecube",
+      "email": "julia@icecube.wisc.edu",
+      "first": "Julia",
+      "from": "2023-01-11",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "julia",
+      "last": "Becker Tjus",
+      "orcid": "0000-0002-1748-7367",
+      "thanks": [
+        "chalmers"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "J. Becker Tjus",
+      "collab": "icecube-gen2",
+      "email": "julia@icecube.wisc.edu",
+      "first": "Julia",
+      "from": "2023-01-11",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "julia",
+      "last": "Becker Tjus",
+      "orcid": "0000-0002-1748-7367",
+      "thanks": [
+        "chalmers"
+      ],
       "to": ""
     },
     {
