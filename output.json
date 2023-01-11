@@ -14278,6 +14278,21 @@
     },
     {
       "authname": "S. Giacomo",
+      "collab": "icecube",
+      "email": "sommani.giacomo@icecube.wisc.edu",
+      "first": "Sommani",
+      "from": "2023-01-11",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "gsommani",
+      "last": "Giacomo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Giacomo",
       "collab": "icecube-gen2",
       "email": "sommani.giacomo@icecube.wisc.edu",
       "first": "Sommani",
