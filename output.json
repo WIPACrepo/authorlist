@@ -14323,7 +14323,7 @@
       "last": "Giacomo",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-11"
     },
     {
       "authname": "S. Giacomo",
@@ -14337,6 +14337,36 @@
       "keycloak_username": "gsommani",
       "last": "Giacomo",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-01-11"
+    },
+    {
+      "authname": "S. Giacomo",
+      "collab": "icecube",
+      "email": "sommani.giacomo@icecube.wisc.edu",
+      "first": "Giacomo",
+      "from": "2023-01-12",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "gsommani",
+      "last": "Sommani",
+      "orcid": "0000-0002-0094-826X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Giacomo",
+      "collab": "icecube-gen2",
+      "email": "sommani.giacomo@icecube.wisc.edu",
+      "first": "Giacomo",
+      "from": "2023-01-12",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "gsommani",
+      "last": "Sommani",
+      "orcid": "0000-0002-0094-826X",
       "thanks": [],
       "to": ""
     },
