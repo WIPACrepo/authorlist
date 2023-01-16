@@ -1084,6 +1084,36 @@
       "to": ""
     },
     {
+      "authname": "S. Agarwalla",
+      "collab": "icecube",
+      "email": "sagarwalla2@wisc.edu",
+      "first": "Sanjib",
+      "from": "2023-01-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sagarwalla",
+      "last": "Agarwalla",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Agarwalla",
+      "collab": "icecube-gen2",
+      "email": "sagarwalla2@wisc.edu",
+      "first": "Sanjib",
+      "from": "2023-01-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sagarwalla",
+      "last": "Agarwalla",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "N. Aggarwal",
       "collab": "icecube",
       "email": "nakul.aggarwal@icecube.wisc.edu",
@@ -27253,7 +27283,7 @@
       "last": "Luszczak",
       "orcid": "0000-0003-3085-0674",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-15"
     },
     {
       "authname": "W. Luszczak",
@@ -27263,6 +27293,22 @@
       "from": "2017-03-24",
       "instnames": [
         "madisonpac"
+      ],
+      "keycloak_username": "wluszczak",
+      "last": "Luszczak",
+      "orcid": "0000-0003-3085-0674",
+      "thanks": [],
+      "to": "2023-01-15"
+    },
+    {
+      "authname": "W. Luszczak",
+      "collab": "icecube",
+      "email": "william.luszczak@icecube.wisc.edu",
+      "first": "William",
+      "from": "2023-01-16",
+      "instnames": [
+        "ohio",
+        "ohioastro"
       ],
       "keycloak_username": "wluszczak",
       "last": "Luszczak",
