@@ -17911,6 +17911,22 @@
       "last": "Hendricks",
       "orcid": "",
       "thanks": [],
+      "to": "2023-01-17"
+    },
+    {
+      "authname": "B. Hendricks",
+      "collab": "icecube-gen2",
+      "email": "blh5615@psu.edu",
+      "first": "Brian",
+      "from": "2023-01-18",
+      "instnames": [
+        "penncosmos",
+        "pennphys"
+      ],
+      "keycloak_username": "bhendricks",
+      "last": "Hendricks",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
