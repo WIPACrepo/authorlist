@@ -14383,7 +14383,7 @@
       "last": "Sommani",
       "orcid": "0000-0002-0094-826X",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-22"
     },
     {
       "authname": "S. Giacomo",
@@ -14398,7 +14398,7 @@
       "last": "Sommani",
       "orcid": "0000-0002-0094-826X",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-22"
     },
     {
       "authname": "W. Giang",
@@ -41289,6 +41289,36 @@
       ],
       "last": "S\u00f6ldner-Rembold",
       "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Sommani",
+      "collab": "icecube",
+      "email": "sommani.giacomo@icecube.wisc.edu",
+      "first": "Giacomo",
+      "from": "2023-01-23",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "gsommani",
+      "last": "Sommani",
+      "orcid": "0000-0002-0094-826X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Sommani",
+      "collab": "icecube-gen2",
+      "email": "sommani.giacomo@icecube.wisc.edu",
+      "first": "Giacomo",
+      "from": "2023-01-23",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "gsommani",
+      "last": "Sommani",
+      "orcid": "0000-0002-0094-826X",
       "thanks": [],
       "to": ""
     },
