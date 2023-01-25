@@ -25308,6 +25308,21 @@
       "last": "Lamoureux",
       "orcid": "",
       "thanks": [],
+      "to": "2023-01-24"
+    },
+    {
+      "authname": "M. Lamoureux",
+      "collab": "icecube",
+      "email": "mathieu.lamoureux@uclouvain.be",
+      "first": "Mathieu",
+      "from": "2023-01-25",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mlamoureux",
+      "last": "Lamoureux",
+      "orcid": "0000-0002-8860-5826",
+      "thanks": [],
       "to": ""
     },
     {
