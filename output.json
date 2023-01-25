@@ -31942,7 +31942,7 @@
       "last": "Obertacke Pollmann",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
-      "to": ""
+      "to": "2023-01-24"
     },
     {
       "authname": "A. Obertacke Pollmann",
@@ -31955,6 +31955,36 @@
       ],
       "keycloak_username": "aobertacke",
       "last": "Obertacke Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": "2023-01-24"
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2023-01-25",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube-gen2",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2023-01-25",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Pollmann",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
       "to": ""
