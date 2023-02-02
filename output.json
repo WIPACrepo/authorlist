@@ -1934,7 +1934,7 @@
       "last": "Anderson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-01"
     },
     {
       "authname": "T. Anderson",
@@ -1950,7 +1950,7 @@
       "last": "Anderson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-01"
     },
     {
       "authname": "T. Anderson",
@@ -12883,7 +12883,7 @@
       "last": "Fienberg",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-01"
     },
     {
       "authname": "A. T. Fienberg",
@@ -15474,7 +15474,7 @@
       "last": "Gr\u00e9goire",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-01"
     },
     {
       "authname": "T. Gr\u00e9goire",
@@ -26055,6 +26055,23 @@
       "last": "Leonard DeHolton",
       "orcid": "0000-0002-8795-0601",
       "thanks": [],
+      "to": "2023-02-01"
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2023-02-02",
+      "instnames": [
+        "madisonpac",
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
       "to": ""
     },
     {
@@ -32934,7 +32951,7 @@
       "last": "Pankova",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-01"
     },
     {
       "authname": "D. V. Pankova",
