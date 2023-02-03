@@ -45223,7 +45223,7 @@
       "last": "Valtonen-Mattila",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-02"
     },
     {
       "authname": "N. Valtonen-Mattila",
@@ -45237,6 +45237,36 @@
       "keycloak_username": "nvaltonenmattila",
       "last": "Valtonen-Mattila",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-02-02"
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube",
+      "email": "nora.valtonen@physics.uu.se",
+      "first": "Nora",
+      "from": "2023-02-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube-gen2",
+      "email": "nora.valtonen@physics.uu.se",
+      "first": "Nora",
+      "from": "2023-02-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
       "thanks": [],
       "to": ""
     },
