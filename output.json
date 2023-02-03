@@ -31167,6 +31167,21 @@
       "to": "2012-06-25"
     },
     {
+      "authname": "A. Narayan",
+      "collab": "icecube-gen2",
+      "email": "ashish.tifr@gmail.com",
+      "first": "Ashish",
+      "from": "2023-02-03",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "ashishnar",
+      "last": "Narayan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "U. Naumann",
       "collab": "icecube",
       "email": "uwe.naumann@uni-wuppertal.de",
