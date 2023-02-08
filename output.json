@@ -48969,7 +48969,7 @@
       "last": "Wolf",
       "orcid": "0000-0001-9991-3923",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-07"
     },
     {
       "authname": "M. Wolf",
@@ -48979,6 +48979,36 @@
       "from": "2021-12-02",
       "instnames": [
         "madisonpac"
+      ],
+      "keycloak_username": "mwolf",
+      "last": "Wolf",
+      "orcid": "0000-0001-9991-3923",
+      "thanks": [],
+      "to": "2023-02-07"
+    },
+    {
+      "authname": "M. Wolf",
+      "collab": "icecube",
+      "email": "martin.wolf@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2023-02-08",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "mwolf",
+      "last": "Wolf",
+      "orcid": "0000-0001-9991-3923",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Wolf",
+      "collab": "icecube-gen2",
+      "email": "martin.wolf@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2023-02-08",
+      "instnames": [
+        "munich"
       ],
       "keycloak_username": "mwolf",
       "last": "Wolf",
