@@ -12531,6 +12531,36 @@
       "to": ""
     },
     {
+      "authname": "K. Fang",
+      "collab": "icecube",
+      "email": "kefang@icecube.wisc.edu",
+      "first": "Ke",
+      "from": "2023-02-08",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kefang",
+      "last": "Fang",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Fang",
+      "collab": "icecube-gen2",
+      "email": "kefang@icecube.wisc.edu",
+      "first": "Ke",
+      "from": "2023-02-08",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kefang",
+      "last": "Fang",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Farrag",
       "collab": "icecube-gen2",
       "email": "k.r.h.farrag@qmul.ac.uk",
