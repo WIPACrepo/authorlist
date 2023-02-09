@@ -8182,7 +8182,7 @@
       "last": "Clark",
       "orcid": "0000-0003-4089-2245",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-08"
     },
     {
       "authname": "B. A. Clark",
@@ -8192,6 +8192,36 @@
       "from": "2020-02-01",
       "instnames": [
         "michigan"
+      ],
+      "keycloak_username": "brianclark",
+      "last": "Clark",
+      "orcid": "0000-0003-4089-2245",
+      "thanks": [],
+      "to": "2023-02-08"
+    },
+    {
+      "authname": "B. A. Clark",
+      "collab": "icecube",
+      "email": "brian.clark@icecube.wisc.edu",
+      "first": "Brian",
+      "from": "2023-02-09",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "brianclark",
+      "last": "Clark",
+      "orcid": "0000-0003-4089-2245",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. A. Clark",
+      "collab": "icecube-gen2",
+      "email": "brian.clark@icecube.wisc.edu",
+      "first": "Brian",
+      "from": "2023-02-09",
+      "instnames": [
+        "maryland"
       ],
       "keycloak_username": "brianclark",
       "last": "Clark",
@@ -31438,6 +31468,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2019-05-15"
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube",
+      "email": "maxwellnakos@utexas.edu",
+      "first": "Maxwell",
+      "from": "2023-02-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube-gen2",
+      "email": "maxwellnakos@utexas.edu",
+      "first": "Maxwell",
+      "from": "2023-02-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. W. Nam",
