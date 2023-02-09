@@ -45385,6 +45385,40 @@
       "to": ""
     },
     {
+      "authname": "A. K. Upadhyay",
+      "collab": "icecube",
+      "email": "anuj2420@gmail.com",
+      "first": "Anuj Kumar",
+      "from": "2023-02-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "aupadhyay",
+      "last": "Upadhyay",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "A. K. Upadhyay",
+      "collab": "icecube-gen2",
+      "email": "anuj2420@gmail.com",
+      "first": "Anuj Kumar",
+      "from": "2023-02-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "aupadhyay",
+      "last": "Upadhyay",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
       "authname": "A. Upadhyay",
       "collab": "icecube",
       "email": "anuj2420@gmail.com",
@@ -45399,7 +45433,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2023-02-08"
     },
     {
       "authname": "A. Upadhyay",
@@ -45416,7 +45450,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2023-02-08"
     },
     {
       "authname": "K. Upshaw",
