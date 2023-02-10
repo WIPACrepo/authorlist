@@ -1155,7 +1155,9 @@
       "keycloak_username": "sagarwalla",
       "last": "Agarwalla",
       "orcid": "0000-0002-9714-8866",
-      "thanks": [],
+      "thanks": [
+        "india"
+      ],
       "to": ""
     },
     {
@@ -1170,7 +1172,9 @@
       "keycloak_username": "sagarwalla",
       "last": "Agarwalla",
       "orcid": "0000-0002-9714-8866",
-      "thanks": [],
+      "thanks": [
+        "india"
+      ],
       "to": ""
     },
     {
@@ -7708,7 +7712,7 @@
       "last": "Chattopadhyay",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-09"
     },
     {
       "authname": "S. Chattopadhyay",
@@ -7723,6 +7727,40 @@
       "last": "Chattopadhyay",
       "orcid": "",
       "thanks": [],
+      "to": "2023-02-09"
+    },
+    {
+      "authname": "S. Chattopadhyay",
+      "collab": "icecube",
+      "email": "sc458930@gmail.com",
+      "first": "Sharmistha",
+      "from": "2023-02-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "schattopadhyay",
+      "last": "Chattopadhyay",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "S. Chattopadhyay",
+      "collab": "icecube-gen2",
+      "email": "sc458930@gmail.com",
+      "first": "Sharmistha",
+      "from": "2023-02-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "schattopadhyay",
+      "last": "Chattopadhyay",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
       "to": ""
     },
     {
@@ -20668,7 +20706,7 @@
       "last": "Jayakumar",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-09"
     },
     {
       "authname": "K. Jayakumar",
@@ -20683,6 +20721,40 @@
       "last": "Jayakumar",
       "orcid": "",
       "thanks": [],
+      "to": "2023-02-09"
+    },
+    {
+      "authname": "K. Jayakumar",
+      "collab": "icecube",
+      "email": "krishalphabet@gmail.com",
+      "first": "Krishnamoorthy",
+      "from": "2023-02-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "K. Jayakumar",
+      "collab": "icecube-gen2",
+      "email": "krishalphabet@gmail.com",
+      "first": "Krishnamoorthy",
+      "from": "2023-02-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
       "to": ""
     },
     {
