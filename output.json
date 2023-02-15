@@ -38562,7 +38562,7 @@
       "last": "Sandrock",
       "orcid": "0000-0002-6779-1172",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-14"
     },
     {
       "authname": "A. Sandrock",
@@ -38570,6 +38570,36 @@
       "email": "alexander.sandrock@icecube.wisc.edu",
       "first": "Alexander",
       "from": "2015-03-26",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": "2023-02-14"
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube",
+      "email": "asandrock@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-02-15",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube-gen2",
+      "email": "asandrock@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-02-15",
       "instnames": [
         "dortmund"
       ],
