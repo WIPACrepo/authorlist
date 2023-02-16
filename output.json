@@ -1190,7 +1190,7 @@
       "last": "Aggarwal",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-15"
     },
     {
       "authname": "J. A. Aguilar",
@@ -9157,7 +9157,7 @@
     },
     {
       "authname": "P. Coppin",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "paul.coppin@icecube.wisc.edu",
       "first": "Paul",
       "from": "2018-01-15",
@@ -9168,11 +9168,11 @@
       "last": "Coppin",
       "orcid": "0000-0001-6869-1280",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-15"
     },
     {
       "authname": "P. Coppin",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "paul.coppin@icecube.wisc.edu",
       "first": "Paul",
       "from": "2018-01-15",
@@ -9201,7 +9201,7 @@
     },
     {
       "authname": "P. Correa",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "pablo.correa@icecube.wisc.edu",
       "first": "Pablo",
       "from": "2018-01-15",
@@ -9212,11 +9212,11 @@
       "last": "Correa",
       "orcid": "0000-0002-1158-6735",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-15"
     },
     {
       "authname": "P. Correa",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "pablo.correa@icecube.wisc.edu",
       "first": "Pablo",
       "from": "2018-01-15",
@@ -42966,6 +42966,21 @@
       ],
       "last": "Stezelberger",
       "orcid": "0000-0003-2676-9574",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Stoffels",
+      "collab": "icecube-gen2",
+      "email": "jethro.stoffels@icecube.wisc.edu",
+      "first": "Jethro",
+      "from": "2023-02-16",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "jstoffels",
+      "last": "Stoffels",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
