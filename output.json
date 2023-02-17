@@ -32574,6 +32574,36 @@
       "to": ""
     },
     {
+      "authname": "V. O'Dell",
+      "collab": "icecube",
+      "email": "vivian.odell@icecube.wisc.edu",
+      "first": "Vivian",
+      "from": "2023-02-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "vodell",
+      "last": "O'Dell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "V. O'Dell",
+      "collab": "icecube-gen2",
+      "email": "vivian.odell@icecube.wisc.edu",
+      "first": "Vivian",
+      "from": "2023-02-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "vodell",
+      "last": "O'Dell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Odrowski",
       "collab": "icecube",
       "email": "sirin.odrowski@gmail.com",
