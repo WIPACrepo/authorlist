@@ -41040,7 +41040,7 @@
       "last": "Seunarine",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-20"
     },
     {
       "authname": "S. Seunarine",
@@ -41054,6 +41054,36 @@
       "keycloak_username": "suruj",
       "last": "Seunarine",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-02-20"
+    },
+    {
+      "authname": "S. Seunarine",
+      "collab": "icecube",
+      "email": "surujhdeo.seunarine@uwrf.edu",
+      "first": "Suruj",
+      "from": "2023-02-21",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "suruj",
+      "last": "Seunarine",
+      "orcid": "0000-0003-3272-6896",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Seunarine",
+      "collab": "icecube-gen2",
+      "email": "surujhdeo.seunarine@uwrf.edu",
+      "first": "Suruj",
+      "from": "2023-02-21",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "suruj",
+      "last": "Seunarine",
+      "orcid": "0000-0003-3272-6896",
       "thanks": [],
       "to": ""
     },
@@ -42154,7 +42184,7 @@
       "last": "Spiczak",
       "orcid": "0000-0002-0030-0519",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-20"
     },
     {
       "authname": "G. M. Spiczak",
@@ -42162,6 +42192,36 @@
       "email": "glenn.spiczak@uwrf.edu",
       "first": "Glenn",
       "from": "2014-12-16",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "gspiczak",
+      "last": "Spiczak",
+      "orcid": "0000-0002-0030-0519",
+      "thanks": [],
+      "to": "2023-02-20"
+    },
+    {
+      "authname": "G. M. Spiczak",
+      "collab": "icecube",
+      "email": "glenn.spiczak@uwrf.edu",
+      "first": "Glenn ",
+      "from": "2023-02-21",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "gspiczak",
+      "last": "Spiczak",
+      "orcid": "0000-0002-0030-0519",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. M. Spiczak",
+      "collab": "icecube-gen2",
+      "email": "glenn.spiczak@uwrf.edu",
+      "first": "Glenn ",
+      "from": "2023-02-21",
       "instnames": [
         "riverfalls"
       ],
