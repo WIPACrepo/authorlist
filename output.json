@@ -22760,7 +22760,7 @@
       "last": "Khatee Zathul",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-26"
     },
     {
       "authname": "A. Khatee Zathul",
@@ -22774,6 +22774,36 @@
       "keycloak_username": "akhateezathul",
       "last": "Khatee Zathul",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-02-26"
+    },
+    {
+      "authname": "A. Khatee Zathul",
+      "collab": "icecube",
+      "email": "arifa@wisc.edu",
+      "first": "Arifa",
+      "from": "2023-02-27",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "akhateezathul",
+      "last": "Khatee Zathul",
+      "orcid": "0000-0002-8735-8579",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Khatee Zathul",
+      "collab": "icecube-gen2",
+      "email": "arifa@wisc.edu",
+      "first": "Arifa",
+      "from": "2023-02-27",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "akhateezathul",
+      "last": "Khatee Zathul",
+      "orcid": "0000-0002-8735-8579",
       "thanks": [],
       "to": ""
     },
