@@ -7821,7 +7821,7 @@
       "last": "Chen",
       "orcid": "0000-0002-8139-4106",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-26"
     },
     {
       "authname": "C. Chen",
@@ -7829,6 +7829,36 @@
       "email": "cjchen",
       "first": "Chujie",
       "from": "2022-05-23",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "cjchen",
+      "last": "Chen",
+      "orcid": "0000-0002-8139-4106",
+      "thanks": [],
+      "to": "2023-02-26"
+    },
+    {
+      "authname": "C. Chen",
+      "collab": "icecube",
+      "email": "cchen641@gatech.edu",
+      "first": "Chujie",
+      "from": "2023-02-27",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "cjchen",
+      "last": "Chen",
+      "orcid": "0000-0002-8139-4106",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Chen",
+      "collab": "icecube-gen2",
+      "email": "cchen641@gatech.edu",
+      "first": "Chujie",
+      "from": "2023-02-27",
       "instnames": [
         "georgia"
       ],
