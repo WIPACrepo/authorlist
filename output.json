@@ -12921,7 +12921,7 @@
       "last": "Fedynitch",
       "orcid": "0000-0003-2837-3477",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-27"
     },
     {
       "authname": "A. Fedynitch",
@@ -12929,6 +12929,36 @@
       "email": "afedynitch",
       "first": "Anatoli",
       "from": "2022-05-22",
+      "instnames": [
+        "sinica"
+      ],
+      "keycloak_username": "afedynitch",
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": "2023-02-27"
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube",
+      "email": "anatoli@gate.sinica.edu.tw",
+      "first": "Anatoli",
+      "from": "2023-02-28",
+      "instnames": [
+        "sinica"
+      ],
+      "keycloak_username": "afedynitch",
+      "last": "Fedynitch",
+      "orcid": "0000-0003-2837-3477",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fedynitch",
+      "collab": "icecube-gen2",
+      "email": "anatoli@gate.sinica.edu.tw",
+      "first": "Anatoli",
+      "from": "2023-02-28",
       "instnames": [
         "sinica"
       ],
