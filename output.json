@@ -18564,6 +18564,36 @@
       "to": ""
     },
     {
+      "authname": "N. Heyer",
+      "collab": "icecube",
+      "email": "nils.heyer@physics.uu.se",
+      "first": "Nils",
+      "from": "2023-03-01",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nheyer",
+      "last": "Heyer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Heyer",
+      "collab": "icecube-gen2",
+      "email": "nils.heyer@physics.uu.se",
+      "first": "Nils",
+      "from": "2023-03-01",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nheyer",
+      "last": "Heyer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Hickford",
       "collab": "icecube",
       "email": "stephanie.hickford@icecube.wisc.edu",
@@ -35095,6 +35125,36 @@
         "kalmar"
       ],
       "to": "2010-03-01"
+    },
+    {
+      "authname": "A. Pont\u00e9n",
+      "collab": "icecube",
+      "email": "axel.ponten@physics.uu.se",
+      "first": "Axel",
+      "from": "2023-03-01",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "axelpo",
+      "last": "Pont\u00e9n",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Pont\u00e9n",
+      "collab": "icecube-gen2",
+      "email": "axel.ponten@physics.uu.se",
+      "first": "Axel",
+      "from": "2023-03-01",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "axelpo",
+      "last": "Pont\u00e9n",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "Y. Popovych",
