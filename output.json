@@ -18255,6 +18255,21 @@
       "to": ""
     },
     {
+      "authname": "J. Hellrung",
+      "collab": "icecube-gen2",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-03-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. Hellwig",
       "collab": "icecube",
       "email": "denise.hellwig@icecube.wisc.edu",
@@ -30252,7 +30267,7 @@
       "last": "Merten",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "L. Merten",
@@ -30266,6 +30281,36 @@
       "keycloak_username": "lmerten",
       "last": "Merten",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-02-28"
+    },
+    {
+      "authname": "L. Merten",
+      "collab": "icecube",
+      "email": "lukas.merten@rub.de",
+      "first": "Lukas",
+      "from": "2023-03-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "lmerten",
+      "last": "Merten",
+      "orcid": "0000-0003-1332-9895",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Merten",
+      "collab": "icecube-gen2",
+      "email": "lukas.merten@rub.de",
+      "first": "Lukas",
+      "from": "2023-03-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "lmerten",
+      "last": "Merten",
+      "orcid": "0000-0003-1332-9895",
       "thanks": [],
       "to": ""
     },
@@ -49922,7 +49967,7 @@
       "last": "Wulff",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "J. Wulff",
@@ -49937,7 +49982,7 @@
       "last": "Wulff",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "J. Wulff",
