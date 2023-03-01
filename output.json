@@ -20858,7 +20858,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "K. Jayakumar",
@@ -20866,6 +20866,40 @@
       "email": "krishalphabet@gmail.com",
       "first": "Krishnamoorthy",
       "from": "2023-02-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": "2023-02-28"
+    },
+    {
+      "authname": "K. Jayakumar",
+      "collab": "icecube",
+      "email": "krishalphabet@gmail.com",
+      "first": "Krishnamoorthi",
+      "from": "2023-03-01",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "K. Jayakumar",
+      "collab": "icecube-gen2",
+      "email": "krishalphabet@gmail.com",
+      "first": "Krishnamoorthi",
+      "from": "2023-03-01",
       "instnames": [
         "madisonpac"
       ],
