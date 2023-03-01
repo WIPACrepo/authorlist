@@ -7779,6 +7779,36 @@
       "to": ""
     },
     {
+      "authname": "N. Chau",
+      "collab": "icecube",
+      "email": "chauthiennhan10@gmail.com",
+      "first": "Thien Nhan",
+      "from": "2023-03-01",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "tchau",
+      "last": "Chau",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Chau",
+      "collab": "icecube-gen2",
+      "email": "chauthiennhan10@gmail.com",
+      "first": "Thien Nhan",
+      "from": "2023-03-01",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "tchau",
+      "last": "Chau",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Chen",
       "collab": "icecube",
       "email": "chujie.chen@icecube.wisc.edu",
@@ -20397,7 +20427,7 @@
       "last": "Iovine",
       "orcid": "0000-0001-7965-2252",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "N. Iovine",
@@ -20412,7 +20442,7 @@
       "last": "Iovine",
       "orcid": "0000-0001-7965-2252",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "N. Iovine",
@@ -30845,7 +30875,7 @@
       "last": "Mockler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "D. Mockler",
@@ -30860,7 +30890,7 @@
       "last": "Mockler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "D. Mockler",
@@ -35666,7 +35696,7 @@
       "last": "Raab",
       "orcid": "0000-0001-9921-2668",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "C. Raab",
@@ -35681,7 +35711,7 @@
       "last": "Raab",
       "orcid": "0000-0001-9921-2668",
       "thanks": [],
-      "to": ""
+      "to": "2023-02-28"
     },
     {
       "authname": "C. Raab",
@@ -40007,6 +40037,36 @@
       "keycloak_username": "bschlueter",
       "last": "Schl\u00fcter",
       "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Schl\u00fcter",
+      "collab": "icecube",
+      "email": "felix_schlueter@hotmail.de",
+      "first": "Felix",
+      "from": "2023-03-01",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "fschluter",
+      "last": "Schl\u00fcter",
+      "orcid": "0000-0002-5545-4363",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Schl\u00fcter",
+      "collab": "icecube-gen2",
+      "email": "felix_schlueter@hotmail.de",
+      "first": "Felix",
+      "from": "2023-03-01",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "fschluter",
+      "last": "Schl\u00fcter",
+      "orcid": "0000-0002-5545-4363",
       "thanks": [],
       "to": ""
     },
