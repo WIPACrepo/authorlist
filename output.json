@@ -18447,6 +18447,21 @@
       "to": ""
     },
     {
+      "authname": "J. Henrichs",
+      "collab": "icecube-gen2",
+      "email": "jakob.henrichs@desy.de",
+      "first": "Jakob",
+      "from": "2023-03-02",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "jhenrichs",
+      "last": "Henrichs",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Herquet",
       "collab": "icecube",
       "email": "herquet@icecube.wisc.edu",
