@@ -6245,6 +6245,21 @@
       "to": "2005-12-20"
     },
     {
+      "authname": "S. Bouma",
+      "collab": "icecube-gen2",
+      "email": "sjoerd.bouma@icecube.wisc.edu",
+      "first": "Sjoerd",
+      "from": "2023-03-02",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "sbouma",
+      "last": "Bouma",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Bourbeau",
       "collab": "icecube",
       "email": "etienne.bourbeau@icecube.wisc.edu",
@@ -14389,7 +14404,7 @@
       "last": "Garrappa",
       "orcid": "0000-0003-2403-4582",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "S. Garrappa",
@@ -14404,7 +14419,7 @@
       "last": "Garrappa",
       "orcid": "0000-0003-2403-4582",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "S. Garrappa",
@@ -28162,7 +28177,7 @@
       "last": "Ma",
       "orcid": "0000-0003-1251-5493",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "W. Y. Ma",
@@ -28177,7 +28192,7 @@
       "last": "Ma",
       "orcid": "0000-0003-1251-5493",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "W. Y. Ma",
@@ -32107,6 +32122,22 @@
       "last": "Nelles",
       "orcid": "",
       "thanks": [],
+      "to": "2023-03-01"
+    },
+    {
+      "authname": "A. Nelles",
+      "collab": "icecube-gen2",
+      "email": "anna.nelles@icecube.wisc.edu",
+      "first": "Anna",
+      "from": "2023-03-02",
+      "instnames": [
+        "erlangen",
+        "zeuthen"
+      ],
+      "keycloak_username": "anelles",
+      "last": "Nelles",
+      "orcid": "0000-0002-1720-6350",
+      "thanks": [],
       "to": ""
     },
     {
@@ -32802,7 +32833,7 @@
       "last": "Pollmann",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "A. Obertacke Pollmann",
@@ -32813,6 +32844,36 @@
       "instnames": [
         "chiba2022",
         "wuppertal"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": "2023-03-01"
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2023-03-02",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube-gen2",
+      "email": "anna@pollmann.co",
+      "first": "Anna",
+      "from": "2023-03-02",
+      "instnames": [
+        "chiba2022"
       ],
       "keycloak_username": "aobertacke",
       "last": "Pollmann",
@@ -43134,7 +43195,7 @@
       "last": "Stein",
       "orcid": "0000-0003-2434-0387",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "R. Stein",
@@ -43149,7 +43210,7 @@
       "last": "Stein",
       "orcid": "0000-0003-2434-0387",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-01"
     },
     {
       "authname": "R. Stein",
