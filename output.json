@@ -37229,7 +37229,7 @@
     },
     {
       "authname": "M. Richman",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "mrichman@icecube.wisc.edu",
       "first": "Mike",
       "from": "2015-04-13",
@@ -37240,11 +37240,11 @@
       "last": "Richman",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-05"
     },
     {
       "authname": "M. Richman",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "mrichman@icecube.wisc.edu",
       "first": "Mike",
       "from": "2015-04-13",
@@ -41524,6 +41524,36 @@
       ],
       "keycloak_username": "mshaevitz",
       "last": "Shaevitz",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube",
+      "email": "riyatul10@gmail.com",
+      "first": "Riya",
+      "from": "2023-03-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube-gen2",
+      "email": "riyatul10@gmail.com",
+      "first": "Riya",
+      "from": "2023-03-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
       "orcid": "",
       "thanks": [],
       "to": ""
