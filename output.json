@@ -42108,7 +42108,7 @@
       "last": "Skrzypek",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-09"
     },
     {
       "authname": "B. Skrzypek",
@@ -42122,6 +42122,36 @@
       "keycloak_username": "bskrzypek",
       "last": "Skrzypek",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-09"
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube",
+      "email": "bskrzypek@g.harvard.edu",
+      "first": "Barbara",
+      "from": "2023-03-10",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "bskrzypek",
+      "last": "Skrzypek",
+      "orcid": "0000-0002-0910-1057",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube-gen2",
+      "email": "bskrzypek@g.harvard.edu",
+      "first": "Barbara",
+      "from": "2023-03-10",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "bskrzypek",
+      "last": "Skrzypek",
+      "orcid": "0000-0002-0910-1057",
       "thanks": [],
       "to": ""
     },
