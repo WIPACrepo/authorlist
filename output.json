@@ -51023,6 +51023,21 @@
     },
     {
       "authname": "F. Yu",
+      "collab": "icecube-gen2",
+      "email": "felixyu@g.harvard.edu",
+      "first": "Felix",
+      "from": "2022-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "fy000",
+      "last": "Yu",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-03-09"
+    },
+    {
+      "authname": "F. Yu",
       "collab": "icecube",
       "email": "felixyu@g.harvard.edu",
       "first": "Felix",
@@ -51041,13 +51056,13 @@
       "collab": "icecube-gen2",
       "email": "felixyu@g.harvard.edu",
       "first": "Felix",
-      "from": "2022-12-19",
+      "from": "2023-03-10",
       "instnames": [
         "harvard"
       ],
       "keycloak_username": "fy000",
       "last": "Yu",
-      "orcid": "",
+      "orcid": "0000-0002-5775-2452",
       "thanks": [],
       "to": ""
     },
