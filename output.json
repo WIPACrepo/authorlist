@@ -6642,7 +6642,7 @@
       "last": "Brinson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-12"
     },
     {
       "authname": "B. Brinson",
@@ -6650,6 +6650,36 @@
       "email": "bennett.brinson@icecube.wisc.edu",
       "first": "Bennett",
       "from": "2021-10-07",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "bbrinson",
+      "last": "Brinson",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-03-12"
+    },
+    {
+      "authname": "B. Brinson",
+      "collab": "icecube",
+      "email": "bbrinson@gatech.edu",
+      "first": "Bennett",
+      "from": "2023-03-13",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "bbrinson",
+      "last": "Brinson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Brinson",
+      "collab": "icecube-gen2",
+      "email": "bbrinson@gatech.edu",
+      "first": "Bennett",
+      "from": "2023-03-13",
       "instnames": [
         "georgia"
       ],
@@ -40033,7 +40063,7 @@
       "last": "Schieler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-12"
     },
     {
       "authname": "H. Schieler",
@@ -40047,6 +40077,36 @@
       "keycloak_username": "hschieler",
       "last": "Schieler",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-12"
+    },
+    {
+      "authname": "H. Schieler",
+      "collab": "icecube",
+      "email": "harald.schieler@kit.edu",
+      "first": "Harald",
+      "from": "2023-03-13",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "hschieler",
+      "last": "Schieler",
+      "orcid": "0000-0002-2637-4778",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Schieler",
+      "collab": "icecube-gen2",
+      "email": "harald.schieler@kit.edu",
+      "first": "Harald",
+      "from": "2023-03-13",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "hschieler",
+      "last": "Schieler",
+      "orcid": "0000-0002-2637-4778",
       "thanks": [],
       "to": ""
     },
