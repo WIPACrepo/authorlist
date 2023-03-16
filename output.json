@@ -28873,6 +28873,21 @@
       "to": "2020-05-13"
     },
     {
+      "authname": "E. Manao",
+      "collab": "icecube",
+      "email": "elena.manao@icecube.wisc.edu",
+      "first": "Elena",
+      "from": "2023-03-16",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "emanao",
+      "last": "Manao",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Mancina",
       "collab": "icecube",
       "email": "sarah.mancina@icecube.wisc.edu",
@@ -30296,7 +30311,7 @@
       "last": "Meighen-Berger",
       "orcid": "0000-0001-6579-2000",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-15"
     },
     {
       "authname": "S. Meighen-Berger",
@@ -30311,7 +30326,7 @@
       "last": "Meighen-Berger",
       "orcid": "0000-0001-6579-2000",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-15"
     },
     {
       "authname": "S. Meighen-Berger",
