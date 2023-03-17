@@ -4182,7 +4182,7 @@
       "last": "Bellenghi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-16"
     },
     {
       "authname": "C. Bellenghi",
@@ -4196,6 +4196,36 @@
       "keycloak_username": "cbellenghi",
       "last": "Bellenghi",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-16"
+    },
+    {
+      "authname": "C. Bellenghi",
+      "collab": "icecube",
+      "email": "chiara.bellenghi@tum.de",
+      "first": "Chiara",
+      "from": "2023-03-17",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "cbellenghi",
+      "last": "Bellenghi",
+      "orcid": "0000-0001-8525-7515",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Bellenghi",
+      "collab": "icecube-gen2",
+      "email": "chiara.bellenghi@tum.de",
+      "first": "Chiara",
+      "from": "2023-03-17",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "cbellenghi",
+      "last": "Bellenghi",
+      "orcid": "0000-0001-8525-7515",
       "thanks": [],
       "to": ""
     },
