@@ -11136,7 +11136,7 @@
       "last": "D\u00edaz-V\u00e9lez",
       "orcid": "0000-0002-0087-0693",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-21"
     },
     {
       "authname": "J. C. D\u00edaz-V\u00e9lez",
@@ -11144,6 +11144,21 @@
       "email": "juancarlos@icecube.wisc.edu",
       "first": "Juan Carlos",
       "from": "2014-12-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "juancarlos",
+      "last": "D\u00edaz-V\u00e9lez",
+      "orcid": "0000-0002-0087-0693",
+      "thanks": [],
+      "to": "2023-03-21"
+    },
+    {
+      "authname": "J. C. D\u00edaz-V\u00e9lez",
+      "collab": "icecube",
+      "email": "juan.diazvelez@alumnos.udg.mx",
+      "first": "Juan Carlos",
+      "from": "2023-03-22",
       "instnames": [
         "madisonpac"
       ],
@@ -11164,6 +11179,21 @@
       ],
       "last": "D\u00edaz-V\u00e9lez",
       "orcid": "0000-0002-0087-0693",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. D\u00edaz-V\u00e9lez",
+      "collab": "icecube-gen2",
+      "email": "juan.diazvelez@alumnos.udg.mx",
+      "first": "Juan Carlos",
+      "from": "2023-03-22",
+      "instnames": [
+        "madisonastro"
+      ],
+      "keycloak_username": "juancarlos",
+      "last": "D\u00edaz-V\u00e9lez",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
@@ -20452,7 +20482,7 @@
       "last": "H\u00fcnnefeld",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-21"
     },
     {
       "authname": "M. H\u00fcnnefeld",
@@ -20466,6 +20496,36 @@
       "keycloak_username": "mhuennefeld",
       "last": "H\u00fcnnefeld",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-21"
+    },
+    {
+      "authname": "M. H\u00fcnnefeld",
+      "collab": "icecube",
+      "email": "mirco.huennefeld@icecube.wisc.edu",
+      "first": "Mirco",
+      "from": "2023-03-22",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "mhuennefeld",
+      "last": "H\u00fcnnefeld",
+      "orcid": "0000-0002-2827-6522",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. H\u00fcnnefeld",
+      "collab": "icecube-gen2",
+      "email": "mirco.huennefeld@icecube.wisc.edu",
+      "first": "Mirco",
+      "from": "2023-03-22",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "mhuennefeld",
+      "last": "H\u00fcnnefeld",
+      "orcid": "0000-0002-2827-6522",
       "thanks": [],
       "to": ""
     },
