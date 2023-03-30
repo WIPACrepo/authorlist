@@ -29816,6 +29816,21 @@
       "last": "Mayhew",
       "orcid": "",
       "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "F. Mayhew",
+      "collab": "icecube",
+      "email": "finn.mayhew@icecube.wisc.edu",
+      "first": "Finn",
+      "from": "2023-03-30",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "fmayhew",
+      "last": "Mayhew",
+      "orcid": "0000-0001-7609-403X",
+      "thanks": [],
       "to": ""
     },
     {
@@ -45410,7 +45425,7 @@
       "last": "Thwaites",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "J. Thwaites",
@@ -45424,6 +45439,36 @@
       "keycloak_username": "jthwaites",
       "last": "Thwaites",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "J. Thwaites",
+      "collab": "icecube",
+      "email": "jessie.thwaites@icecube.wisc.edu",
+      "first": "Jessie",
+      "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "jthwaites",
+      "last": "Thwaites",
+      "orcid": "0000-0001-9179-3760",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Thwaites",
+      "collab": "icecube-gen2",
+      "email": "jessie.thwaites@icecube.wisc.edu",
+      "first": "Jessie",
+      "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "jthwaites",
+      "last": "Thwaites",
+      "orcid": "0000-0001-9179-3760",
       "thanks": [],
       "to": ""
     },
