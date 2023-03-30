@@ -16272,7 +16272,7 @@
       "last": "Griffin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "S. Griffin",
@@ -16280,6 +16280,36 @@
       "email": "sean.griffin@icecube.wisc.edu",
       "first": "Sean",
       "from": "2022-11-23",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "S. Griffin",
+      "collab": "icecube",
+      "email": "sean.c.griffin@gmail.com",
+      "first": "Sean",
+      "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Griffin",
+      "collab": "icecube-gen2",
+      "email": "sean.c.griffin@gmail.com",
+      "first": "Sean",
+      "from": "2023-03-30",
       "instnames": [
         "madisonpac"
       ],
