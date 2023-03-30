@@ -12494,7 +12494,7 @@
       "last": "Erpenbeck",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "H. Erpenbeck",
@@ -12508,6 +12508,36 @@
       "keycloak_username": "herpenbeck",
       "last": "Erpenbeck",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "H. Erpenbeck",
+      "collab": "icecube",
+      "email": "hannah.erpenbeck@icecube.wisc.edu",
+      "first": "Hannah",
+      "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "herpenbeck",
+      "last": "Erpenbeck",
+      "orcid": "0000-0001-6319-2108",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "H. Erpenbeck",
+      "collab": "icecube-gen2",
+      "email": "hannah.erpenbeck@icecube.wisc.edu",
+      "first": "Hannah",
+      "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "herpenbeck",
+      "last": "Erpenbeck",
+      "orcid": "0000-0001-6319-2108",
       "thanks": [],
       "to": ""
     },
