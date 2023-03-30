@@ -6202,7 +6202,7 @@
       "last": "B\u00f6ttcher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "J. B\u00f6ttcher",
@@ -6216,6 +6216,36 @@
       "keycloak_username": "jbottcher",
       "last": "B\u00f6ttcher",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "J. B\u00f6ttcher",
+      "collab": "icecube",
+      "email": "jbottcher@icecube.wisc.edu",
+      "first": "Jakob",
+      "from": "2023-03-30",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jbottcher",
+      "last": "B\u00f6ttcher",
+      "orcid": "0000-0002-3387-4236",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. B\u00f6ttcher",
+      "collab": "icecube-gen2",
+      "email": "jbottcher@icecube.wisc.edu",
+      "first": "Jakob",
+      "from": "2023-03-30",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jbottcher",
+      "last": "B\u00f6ttcher",
+      "orcid": "0000-0002-3387-4236",
       "thanks": [],
       "to": ""
     },
@@ -13680,7 +13710,7 @@
       "last": "Fischer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "L. Fischer",
@@ -13694,6 +13724,36 @@
       "keycloak_username": "lfischer",
       "last": "Fischer",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "L. Fischer",
+      "collab": "icecube",
+      "email": "leander.fischer@desy.de",
+      "first": "Leander",
+      "from": "2023-03-30",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "lfischer",
+      "last": "Fischer",
+      "orcid": "0000-0002-7645-8048",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Fischer",
+      "collab": "icecube-gen2",
+      "email": "leander.fischer@desy.de",
+      "first": "Leander",
+      "from": "2023-03-30",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "lfischer",
+      "last": "Fischer",
+      "orcid": "0000-0002-7645-8048",
       "thanks": [],
       "to": ""
     },
@@ -24537,7 +24597,7 @@
       "last": "Kopper",
       "orcid": "0000-0001-6288-7637",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "C. Kopper",
@@ -24546,6 +24606,38 @@
       "first": "Claudio",
       "from": "2018-12-21",
       "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "ckopper",
+      "last": "Kopper",
+      "orcid": "0000-0001-6288-7637",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "C. Kopper",
+      "collab": "icecube",
+      "email": "claudio.kopper@icecube.wisc.edu",
+      "first": "Claudio",
+      "from": "2023-03-30",
+      "instnames": [
+        "erlangen",
+        "michigan"
+      ],
+      "keycloak_username": "ckopper",
+      "last": "Kopper",
+      "orcid": "0000-0001-6288-7637",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Kopper",
+      "collab": "icecube-gen2",
+      "email": "claudio.kopper@icecube.wisc.edu",
+      "first": "Claudio",
+      "from": "2023-03-30",
+      "instnames": [
+        "erlangen",
         "michigan"
       ],
       "keycloak_username": "ckopper",
@@ -27599,7 +27691,7 @@
       "last": "Lincetto",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "M. Lincetto",
@@ -27613,6 +27705,36 @@
       "keycloak_username": "mlincetto",
       "last": "Lincetto",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "M. Lincetto",
+      "collab": "icecube",
+      "email": "lincetto@astro.rub.de",
+      "first": "Massimiliano",
+      "from": "2023-03-30",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "mlincetto",
+      "last": "Lincetto",
+      "orcid": "0000-0002-1460-3369",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Lincetto",
+      "collab": "icecube-gen2",
+      "email": "lincetto@astro.rub.de",
+      "first": "Massimiliano",
+      "from": "2023-03-30",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "mlincetto",
+      "last": "Lincetto",
+      "orcid": "0000-0002-1460-3369",
       "thanks": [],
       "to": ""
     },
@@ -33896,7 +34018,7 @@
       "last": "O'Sullivan",
       "orcid": "0000-0003-1882-8802",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "E. O'Sullivan",
@@ -33904,6 +34026,36 @@
       "email": "erin.osullivan@icecube.wisc.edu",
       "first": "Erin",
       "from": "2019-10-01",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "eosullivan",
+      "last": "O'Sullivan",
+      "orcid": "0000-0003-1882-8802",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "E. O'Sullivan",
+      "collab": "icecube",
+      "email": "erin.osullivan@physics.uu.se",
+      "first": "Erin",
+      "from": "2023-03-30",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "eosullivan",
+      "last": "O'Sullivan",
+      "orcid": "0000-0003-1882-8802",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. O'Sullivan",
+      "collab": "icecube-gen2",
+      "email": "erin.osullivan@physics.uu.se",
+      "first": "Erin",
+      "from": "2023-03-30",
       "instnames": [
         "uppsala"
       ],
@@ -38271,7 +38423,7 @@
       "last": "Rongen",
       "orcid": "0000-0002-7057-1007",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-29"
     },
     {
       "authname": "M. Rongen",
@@ -38281,6 +38433,36 @@
       "from": "2020-09-25",
       "instnames": [
         "mainz"
+      ],
+      "keycloak_username": "mrongen",
+      "last": "Rongen",
+      "orcid": "0000-0002-7057-1007",
+      "thanks": [],
+      "to": "2023-03-29"
+    },
+    {
+      "authname": "M. Rongen",
+      "collab": "icecube",
+      "email": "martin.rongen@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2023-03-30",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "mrongen",
+      "last": "Rongen",
+      "orcid": "0000-0002-7057-1007",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Rongen",
+      "collab": "icecube-gen2",
+      "email": "martin.rongen@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2023-03-30",
+      "instnames": [
+        "erlangen"
       ],
       "keycloak_username": "mrongen",
       "last": "Rongen",
