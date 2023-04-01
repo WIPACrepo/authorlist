@@ -32400,7 +32400,7 @@
       "last": "Nakos",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-03-31"
     },
     {
       "authname": "M. Nakos",
@@ -32408,6 +32408,36 @@
       "email": "maxwellnakos@utexas.edu",
       "first": "Maxwell",
       "from": "2023-02-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-03-31"
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube",
+      "email": "maxwell.nakos@icecube.wisc.edu",
+      "first": "Maxwell",
+      "from": "2023-04-01",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube-gen2",
+      "email": "maxwell.nakos@icecube.wisc.edu",
+      "first": "Maxwell",
+      "from": "2023-04-01",
       "instnames": [
         "madisonpac"
       ],
