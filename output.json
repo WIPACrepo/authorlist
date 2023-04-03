@@ -6747,7 +6747,7 @@
       "last": "Brinson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-02"
     },
     {
       "authname": "B. Brinson",
@@ -6761,6 +6761,36 @@
       "keycloak_username": "bbrinson",
       "last": "Brinson",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-04-02"
+    },
+    {
+      "authname": "B. Brinson",
+      "collab": "icecube",
+      "email": "bbrinson@gatech.edu",
+      "first": "Bennett",
+      "from": "2023-04-03",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "bbrinson",
+      "last": "Brinson",
+      "orcid": "0000-0001-9128-1159",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Brinson",
+      "collab": "icecube-gen2",
+      "email": "bbrinson@gatech.edu",
+      "first": "Bennett",
+      "from": "2023-04-03",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "bbrinson",
+      "last": "Brinson",
+      "orcid": "0000-0001-9128-1159",
       "thanks": [],
       "to": ""
     },
@@ -16377,7 +16407,7 @@
       "last": "Griffin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-02"
     },
     {
       "authname": "S. Griffin",
@@ -16385,6 +16415,36 @@
       "email": "sean.c.griffin@gmail.com",
       "first": "Sean",
       "from": "2023-03-30",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-04-02"
+    },
+    {
+      "authname": "S. Griffin",
+      "collab": "icecube",
+      "email": "sgriffin@icecube.wisc.edu",
+      "first": "Sean",
+      "from": "2023-04-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriffin",
+      "last": "Griffin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Griffin",
+      "collab": "icecube-gen2",
+      "email": "sgriffin@icecube.wisc.edu",
+      "first": "Sean",
+      "from": "2023-04-03",
       "instnames": [
         "madisonpac"
       ],
@@ -18996,7 +19056,7 @@
       "last": "Heyer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-02"
     },
     {
       "authname": "N. Heyer",
@@ -19010,6 +19070,36 @@
       "keycloak_username": "nheyer",
       "last": "Heyer",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-04-02"
+    },
+    {
+      "authname": "N. Heyer",
+      "collab": "icecube",
+      "email": "nils.heyer@physics.uu.se",
+      "first": "Nils",
+      "from": "2023-04-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nheyer",
+      "last": "Heyer",
+      "orcid": "0000-0001-9036-8623",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Heyer",
+      "collab": "icecube-gen2",
+      "email": "nils.heyer@physics.uu.se",
+      "first": "Nils",
+      "from": "2023-04-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nheyer",
+      "last": "Heyer",
+      "orcid": "0000-0001-9036-8623",
       "thanks": [],
       "to": ""
     },
@@ -19841,6 +19931,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2007-06-08"
+    },
+    {
+      "authname": "S. Hori",
+      "collab": "icecube",
+      "email": "sahori@wisc.edu",
+      "first": "Sam",
+      "from": "2023-04-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sahori",
+      "last": "Hori",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Hori",
+      "collab": "icecube-gen2",
+      "email": "sahori@wisc.edu",
+      "first": "Sam",
+      "from": "2023-04-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sahori",
+      "last": "Hori",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "K. Hoshina",
