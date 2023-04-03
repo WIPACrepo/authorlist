@@ -4315,6 +4315,21 @@
     },
     {
       "authname": "C. Benning",
+      "collab": "icecube",
+      "email": "charlotte.benning@icecube.wisc.edu",
+      "first": "Charlotte",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "cbenning",
+      "last": "Benning",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Benning",
       "collab": "icecube-gen2",
       "email": "charlotte.benning@icecube.wisc.edu",
       "first": "Charlotte",
@@ -12293,6 +12308,21 @@
     },
     {
       "authname": "S. El Mentawi",
+      "collab": "icecube",
+      "email": "sharif.elmentawi@icecube.wisc.edu",
+      "first": "Sharif",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "selmentawi",
+      "last": "El Mentawi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. El Mentawi",
       "collab": "icecube-gen2",
       "email": "sharif.elmentawi@icecube.wisc.edu",
       "first": "Sharif",
@@ -16259,6 +16289,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2015-06-30"
+    },
+    {
+      "authname": "O. Gries",
+      "collab": "icecube",
+      "email": "oliver.gries@rwth-aachen.de",
+      "first": "Oliver",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "ogries",
+      "last": "Gries",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "O. Gries",
@@ -26791,6 +26836,36 @@
       ],
       "last": "Larson",
       "orcid": "0000-0002-6996-1155",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Latseva",
+      "collab": "icecube",
+      "email": "silvia.latseva@icecube.wisc.edu",
+      "first": "Silvia",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "slatseva",
+      "last": "Latseva",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Latseva",
+      "collab": "icecube-gen2",
+      "email": "silvia.latseva@icecube.wisc.edu",
+      "first": "Silvia",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "slatseva",
+      "last": "Latseva",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
@@ -38058,6 +38133,21 @@
     },
     {
       "authname": "A. Rifaie",
+      "collab": "icecube",
+      "email": "arifaie@mail.icecube.wisc.edu",
+      "first": "Adam",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "arifaie",
+      "last": "Rifaie",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Rifaie",
       "collab": "icecube-gen2",
       "email": "arifaie@mail.icecube.wisc.edu",
       "first": "Adam",
@@ -40648,6 +40738,21 @@
     },
     {
       "authname": "L. Schlickmann",
+      "collab": "icecube",
+      "email": "lea.schlickmann@rwth-aachen.de",
+      "first": "Lea",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "schlickmann",
+      "last": "Schlickmann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schlickmann",
       "collab": "icecube-gen2",
       "email": "lea.schlickmann@rwth-aachen.de",
       "first": "Lea",
@@ -43052,6 +43157,36 @@
       "instnames": [
         "bartol"
       ],
+      "last": "Soldin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Soldin",
+      "collab": "icecube",
+      "email": "soldin@physik.rwth-aachen.de",
+      "first": "Philipp",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "psoldin",
+      "last": "Soldin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Soldin",
+      "collab": "icecube-gen2",
+      "email": "soldin@physik.rwth-aachen.de",
+      "first": "Philipp",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "psoldin",
       "last": "Soldin",
       "orcid": "",
       "thanks": [],
