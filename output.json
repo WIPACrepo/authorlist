@@ -28151,6 +28151,21 @@
       "last": "Manisha",
       "orcid": "",
       "thanks": [],
+      "to": "2023-04-04"
+    },
+    {
+      "authname": "M. Lohan",
+      "collab": "icecube-gen2",
+      "email": "manisha.lohan@tifr.res.in",
+      "first": "Manisha",
+      "from": "2023-04-05",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "mmanisha1",
+      "last": "Lohan",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
