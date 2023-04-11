@@ -51865,6 +51865,21 @@
     },
     {
       "authname": "R. Young",
+      "collab": "icecube",
+      "email": "rwyoung@ku.edu",
+      "first": "Robert",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "rwyoung",
+      "last": "Young",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Young",
       "collab": "icecube-gen2",
       "email": "rwyoung@ku.edu",
       "first": "Robert",
