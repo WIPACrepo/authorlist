@@ -31483,6 +31483,21 @@
       "to": "2015-10-08"
     },
     {
+      "authname": "M. Mikhailova",
+      "collab": "icecube-gen2",
+      "email": "masha.mikhailova@icecube.wisc.edu",
+      "first": "Masha",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mmikhailova",
+      "last": "Mikhailova",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "N. Milke",
       "collab": "icecube",
       "email": "natalie.milke@icecube.wisc.edu",
@@ -33319,6 +33334,21 @@
         "michigan"
       ],
       "last": "Nowicki",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Nozdrina",
+      "collab": "icecube-gen2",
+      "email": "alisa.nozdrina@icecube.wisc.edu",
+      "first": "Alisa",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "anozdrina",
+      "last": "Nozdrina",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -42139,6 +42169,36 @@
         "bartol"
       ],
       "last": "Seckel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube-gen2",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -51800,6 +51860,21 @@
       ],
       "last": "Yoshida",
       "orcid": "0000-0003-2480-5105",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Young",
+      "collab": "icecube-gen2",
+      "email": "rwyoung@ku.edu",
+      "first": "Robert",
+      "from": "2023-04-11",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "rwyoung",
+      "last": "Young",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
