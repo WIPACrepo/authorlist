@@ -5195,7 +5195,7 @@
       "last": "Bindig",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-11"
     },
     {
       "authname": "D. Bindig",
@@ -5210,7 +5210,7 @@
       "last": "Bindig",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-11"
     },
     {
       "authname": "D. Bindig",
@@ -39936,7 +39936,7 @@
       "last": "Sandrock",
       "orcid": "0000-0002-6779-1172",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-11"
     },
     {
       "authname": "A. Sandrock",
@@ -39946,6 +39946,38 @@
       "from": "2023-02-15",
       "instnames": [
         "dortmund"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": "2023-04-11"
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube",
+      "email": "asandrock@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-04-12",
+      "instnames": [
+        "dortmund",
+        "wuppertal"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube-gen2",
+      "email": "asandrock@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-04-12",
+      "instnames": [
+        "dortmund",
+        "wuppertal"
       ],
       "keycloak_username": "asandrock",
       "last": "Sandrock",
@@ -41120,6 +41152,21 @@
       "keycloak_username": "fschluter",
       "last": "Schl\u00fcter",
       "orcid": "0000-0002-5545-4363",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Schmeisser",
+      "collab": "icecube-gen2",
+      "email": "nick.schmeisser@icecube.wisc.edu",
+      "first": "Nick",
+      "from": "2023-04-12",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "nschmeisser",
+      "last": "Schmeisser",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
