@@ -48296,6 +48296,36 @@
       "to": ""
     },
     {
+      "authname": "M. Vereecken",
+      "collab": "icecube",
+      "email": "matthias.vereecken@uclouvain.be",
+      "first": "Matthias",
+      "from": "2023-04-18",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mvereecken",
+      "last": "Vereecken",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Vereecken",
+      "collab": "icecube-gen2",
+      "email": "matthias.vereecken@uclouvain.be",
+      "first": "Matthias",
+      "from": "2023-04-18",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mvereecken",
+      "last": "Vereecken",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Verpoest",
       "collab": "icecube",
       "email": "sverpoest@icecube.wisc.edu",
