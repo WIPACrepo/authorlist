@@ -24883,7 +24883,7 @@
       "last": "Kopper",
       "orcid": "0000-0001-6288-7637",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-18"
     },
     {
       "authname": "C. Kopper",
@@ -24894,6 +24894,36 @@
       "instnames": [
         "erlangen",
         "michigan"
+      ],
+      "keycloak_username": "ckopper",
+      "last": "Kopper",
+      "orcid": "0000-0001-6288-7637",
+      "thanks": [],
+      "to": "2023-04-18"
+    },
+    {
+      "authname": "C. Kopper",
+      "collab": "icecube",
+      "email": "claudio.kopper@icecube.wisc.edu",
+      "first": "Claudio",
+      "from": "2023-04-19",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "ckopper",
+      "last": "Kopper",
+      "orcid": "0000-0001-6288-7637",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Kopper",
+      "collab": "icecube-gen2",
+      "email": "claudio.kopper@icecube.wisc.edu",
+      "first": "Claudio",
+      "from": "2023-04-19",
+      "instnames": [
+        "erlangen"
       ],
       "keycloak_username": "ckopper",
       "last": "Kopper",
