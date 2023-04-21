@@ -9529,7 +9529,7 @@
       "last": "Cowen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-20"
     },
     {
       "authname": "D. F. Cowen",
@@ -9544,6 +9544,38 @@
       "keycloak_username": "cowen",
       "last": "Cowen",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-04-20"
+    },
+    {
+      "authname": "D. F. Cowen",
+      "collab": "icecube",
+      "email": "cowen@phys.psu.edu",
+      "first": "Doug",
+      "from": "2023-04-21",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "cowen",
+      "last": "Cowen",
+      "orcid": "0000-0003-4738-0787",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. F. Cowen",
+      "collab": "icecube-gen2",
+      "email": "cowen@phys.psu.edu",
+      "first": "Doug",
+      "from": "2023-04-21",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "cowen",
+      "last": "Cowen",
+      "orcid": "0000-0003-4738-0787",
       "thanks": [],
       "to": ""
     },
@@ -27529,6 +27561,36 @@
       "from": "2023-02-03",
       "instnames": [
         "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
+      "to": "2023-04-20"
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2023-04-21",
+      "instnames": [
+        "pennphys"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube-gen2",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2023-04-21",
+      "instnames": [
         "pennphys"
       ],
       "keycloak_username": "kleonard",
@@ -49686,7 +49748,7 @@
       "last": "Weldert",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-20"
     },
     {
       "authname": "J. Weldert",
@@ -49696,6 +49758,36 @@
       "from": "2023-02-03",
       "instnames": [
         "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "jweldert",
+      "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-04-20"
+    },
+    {
+      "authname": "J. Weldert",
+      "collab": "icecube",
+      "email": "jan.weldert@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2023-04-21",
+      "instnames": [
+        "pennphys"
+      ],
+      "keycloak_username": "jweldert",
+      "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Weldert",
+      "collab": "icecube-gen2",
+      "email": "jan.weldert@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2023-04-21",
+      "instnames": [
         "pennphys"
       ],
       "keycloak_username": "jweldert",
