@@ -33062,6 +33062,36 @@
       "to": "2020-11-14"
     },
     {
+      "authname": "A. Negi",
+      "collab": "icecube",
+      "email": "axn0446@mavs.uta.edu",
+      "first": "Akshima",
+      "from": "2023-04-24",
+      "instnames": [
+        "arlington"
+      ],
+      "keycloak_username": "anegi",
+      "last": "Negi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Negi",
+      "collab": "icecube-gen2",
+      "email": "axn0446@mavs.uta.edu",
+      "first": "Akshima",
+      "from": "2023-04-24",
+      "instnames": [
+        "arlington"
+      ],
+      "keycloak_username": "anegi",
+      "last": "Negi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Nelles",
       "collab": "icecube-gen2",
       "email": "anna.nelles@icecube.wisc.edu",
@@ -49288,7 +49318,7 @@
       "last": "Watson",
       "orcid": "0000-0002-8631-2253",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-23"
     },
     {
       "authname": "T. B. Watson",
@@ -49303,7 +49333,7 @@
       "last": "Watson",
       "orcid": "0000-0002-8631-2253",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-23"
     },
     {
       "authname": "T. B. Watson",
