@@ -12399,6 +12399,36 @@
       "to": ""
     },
     {
+      "authname": "D. Els\u00e4sser",
+      "collab": "icecube",
+      "email": "dominik.elsaesser@tu-dortmund.de",
+      "first": "Dominik",
+      "from": "2023-04-24",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "delsasser",
+      "last": "Els\u00e4sser",
+      "orcid": "0000-0001-6796-3205",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Els\u00e4sser",
+      "collab": "icecube-gen2",
+      "email": "dominik.elsaesser@tu-dortmund.de",
+      "first": "Dominik",
+      "from": "2023-04-24",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "delsasser",
+      "last": "Els\u00e4sser",
+      "orcid": "0000-0001-6796-3205",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "O. Engdeg\u00e5rd",
       "collab": "icecube",
       "email": "olle@icecube.wisc.edu",
