@@ -9823,6 +9823,21 @@
       "to": ""
     },
     {
+      "authname": "B. Dasgupta",
+      "collab": "icecube-gen2",
+      "email": "basudeb@gmail.com",
+      "first": "Basudeb",
+      "from": "2023-04-26",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "bdasgupta",
+      "last": "Dasgupta",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Daughhetee",
       "collab": "icecube",
       "email": "daughjd@icecube.wisc.edu",
