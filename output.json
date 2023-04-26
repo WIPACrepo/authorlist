@@ -10403,7 +10403,7 @@
       "last": "Dembinski",
       "orcid": "0000-0003-3337-3850",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "H. Dembinski",
@@ -10418,7 +10418,7 @@
       "last": "Dembinski",
       "orcid": "0000-0003-3337-3850",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "H. Dembinski",
@@ -14667,7 +14667,7 @@
       "last": "Gaisser",
       "orcid": "0000-0003-4717-6620",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "T. K. Gaisser",
@@ -14682,7 +14682,7 @@
       "last": "Gaisser",
       "orcid": "0000-0003-4717-6620",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "T. K. Gaisser",
@@ -15900,10 +15900,10 @@
     },
     {
       "authname": "J. G. Gonzalez",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "javier.gonzalez@icecube.wisc.edu",
       "first": "Javier",
-      "from": "2013-03-18",
+      "from": "2014-12-16",
       "instnames": [
         "bartol"
       ],
@@ -15911,14 +15911,14 @@
       "last": "Gonzalez",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "J. G. Gonzalez",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "javier.gonzalez@icecube.wisc.edu",
       "first": "Javier",
-      "from": "2014-12-16",
+      "from": "2013-03-18",
       "instnames": [
         "bartol"
       ],
@@ -24526,7 +24526,7 @@
     },
     {
       "authname": "R. Koirala",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "ramesh.koirala@icecube.wisc.edu",
       "first": "Ramesh",
       "from": "2015-05-25",
@@ -24537,11 +24537,11 @@
       "last": "Koirala",
       "orcid": "0000-0002-7735-7169",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "R. Koirala",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "ramesh.koirala@icecube.wisc.edu",
       "first": "Ramesh",
       "from": "2015-05-25",
@@ -33454,6 +33454,36 @@
       "to": ""
     },
     {
+      "authname": "A. Novikov",
+      "collab": "icecube",
+      "email": "alexander.novikov@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-04-26",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "anovikov",
+      "last": "Novikov",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Novikov",
+      "collab": "icecube-gen2",
+      "email": "alexander.novikov@icecube.wisc.edu",
+      "first": "Alexander",
+      "from": "2023-04-26",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "anovikov",
+      "last": "Novikov",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. C. Nowicki",
       "collab": "icecube",
       "email": "sarah.nowicki@icecube.wisc.edu",
@@ -34786,7 +34816,7 @@
     },
     {
       "authname": "H. Pandya",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "hershal.pandya@icecube.wisc.edu",
       "first": "Hershal",
       "from": "2015-05-25",
@@ -34797,11 +34827,11 @@
       "last": "Pandya",
       "orcid": "0000-0002-6138-4808",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "H. Pandya",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "hershal.pandya@icecube.wisc.edu",
       "first": "Hershal",
       "from": "2015-05-25",
@@ -42388,7 +42418,7 @@
       "last": "Seckel",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-25"
     },
     {
       "authname": "D. Seckel",
@@ -42396,6 +42426,36 @@
       "email": "seckel@bartol.udel.edu",
       "first": "Dave",
       "from": "2022-05-10",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "dseckel",
+      "last": "Seckel",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-04-25"
+    },
+    {
+      "authname": "D. Seckel",
+      "collab": "icecube",
+      "email": "dseckel@udel.edu",
+      "first": "David",
+      "from": "2023-04-26",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "dseckel",
+      "last": "Seckel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Seckel",
+      "collab": "icecube-gen2",
+      "email": "dseckel@udel.edu",
+      "first": "David",
+      "from": "2023-04-26",
       "instnames": [
         "bartol"
       ],
