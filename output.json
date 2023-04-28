@@ -25832,7 +25832,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2023-04-27"
     },
     {
       "authname": "J. Krishnamoorthi",
@@ -25846,6 +25846,40 @@
       "keycloak_username": "kjayakumar",
       "last": "Jayakumar",
       "orcid": "",
+      "thanks": [
+        "india"
+      ],
+      "to": "2023-04-27"
+    },
+    {
+      "authname": "J. Krishnamoorthi",
+      "collab": "icecube",
+      "email": "kjayakumar@icecube.wisc.edu",
+      "first": "Krishnamoorthi",
+      "from": "2023-04-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "0009-0006-1352-2248",
+      "thanks": [
+        "india"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "J. Krishnamoorthi",
+      "collab": "icecube-gen2",
+      "email": "kjayakumar@icecube.wisc.edu",
+      "first": "Krishnamoorthi",
+      "from": "2023-04-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "kjayakumar",
+      "last": "Jayakumar",
+      "orcid": "0009-0006-1352-2248",
       "thanks": [
         "india"
       ],
