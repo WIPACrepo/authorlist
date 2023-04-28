@@ -26704,7 +26704,7 @@
       "last": "Lad",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-27"
     },
     {
       "authname": "N. Lad",
@@ -26718,6 +26718,36 @@
       "keycloak_username": "nlad",
       "last": "Lad",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-04-27"
+    },
+    {
+      "authname": "N. Lad",
+      "collab": "icecube",
+      "email": "neha.lad@icecube.wisc.edu",
+      "first": "Neha",
+      "from": "2023-04-28",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "nlad",
+      "last": "Lad",
+      "orcid": "0000-0001-9302-5140",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Lad",
+      "collab": "icecube-gen2",
+      "email": "neha.lad@icecube.wisc.edu",
+      "first": "Neha",
+      "from": "2023-04-28",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "nlad",
+      "last": "Lad",
+      "orcid": "0000-0001-9302-5140",
       "thanks": [],
       "to": ""
     },
