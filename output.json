@@ -11288,7 +11288,7 @@
       "last": "D\u00edaz-V\u00e9lez",
       "orcid": "0000-0002-0087-0693",
       "thanks": [],
-      "to": ""
+      "to": "2023-04-27"
     },
     {
       "authname": "J. C. D\u00edaz-V\u00e9lez",
@@ -11296,6 +11296,36 @@
       "email": "juan.diazvelez@alumnos.udg.mx",
       "first": "Juan Carlos",
       "from": "2023-03-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "juancarlos",
+      "last": "D\u00edaz-V\u00e9lez",
+      "orcid": "0000-0002-0087-0693",
+      "thanks": [],
+      "to": "2023-04-27"
+    },
+    {
+      "authname": "J. C. D\u00edaz-V\u00e9lez",
+      "collab": "icecube",
+      "email": "juancarlos@icecube.wisc.edu",
+      "first": "Juan Carlos",
+      "from": "2023-04-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "juancarlos",
+      "last": "D\u00edaz-V\u00e9lez",
+      "orcid": "0000-0002-0087-0693",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. C. D\u00edaz-V\u00e9lez",
+      "collab": "icecube-gen2",
+      "email": "juancarlos@icecube.wisc.edu",
+      "first": "Juan Carlos",
+      "from": "2023-04-28",
       "instnames": [
         "madisonpac"
       ],
