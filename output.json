@@ -30399,6 +30399,21 @@
       "to": ""
     },
     {
+      "authname": "F. Mayhew",
+      "collab": "icecube-gen2",
+      "email": "finn.mayhew@icecube.wisc.edu",
+      "first": "Finn",
+      "from": "2023-05-15",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "fmayhew",
+      "last": "Mayhew",
+      "orcid": "0000-0001-7609-403X",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. McCarthy",
       "collab": "icecube",
       "email": "smccarthy@icecube.wisc.edu",
