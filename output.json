@@ -17187,7 +17187,7 @@
       "last": "Haack",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-05-24"
     },
     {
       "authname": "C. Haack",
@@ -17197,6 +17197,36 @@
       "from": "2020-08-01",
       "instnames": [
         "munich"
+      ],
+      "keycloak_username": "chaack",
+      "last": "Haack",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-05-24"
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2023-05-25",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "chaack",
+      "last": "Haack",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube-gen2",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2023-05-25",
+      "instnames": [
+        "erlangen"
       ],
       "keycloak_username": "chaack",
       "last": "Haack",
@@ -42310,7 +42340,7 @@
       "last": "Schumacher",
       "orcid": "0000-0001-8945-6722",
       "thanks": [],
-      "to": ""
+      "to": "2023-05-24"
     },
     {
       "authname": "L. Schumacher",
@@ -42320,6 +42350,36 @@
       "from": "2022-11-28",
       "instnames": [
         "munich"
+      ],
+      "keycloak_username": "lschumacher",
+      "last": "Schumacher",
+      "orcid": "0000-0001-8945-6722",
+      "thanks": [],
+      "to": "2023-05-24"
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2023-05-25",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "lschumacher",
+      "last": "Schumacher",
+      "orcid": "0000-0001-8945-6722",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schumacher",
+      "collab": "icecube-gen2",
+      "email": "lisa.schumacher@icecube.wisc.edu",
+      "first": "Lisa",
+      "from": "2023-05-25",
+      "instnames": [
+        "erlangen"
       ],
       "keycloak_username": "lschumacher",
       "last": "Schumacher",
