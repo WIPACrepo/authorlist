@@ -41344,7 +41344,7 @@
       "last": "Schlickmann",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-05-29"
     },
     {
       "authname": "L. Schlickmann",
@@ -41358,6 +41358,36 @@
       "keycloak_username": "schlickmann",
       "last": "Schlickmann",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-05-29"
+    },
+    {
+      "authname": "L. Schlickmann",
+      "collab": "icecube",
+      "email": "lea.schlickmann@rwth-aachen.de",
+      "first": "Lea",
+      "from": "2023-05-30",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "schlickmann",
+      "last": "Schlickmann",
+      "orcid": "0000-0002-9746-6872",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Schlickmann",
+      "collab": "icecube-gen2",
+      "email": "lea.schlickmann@rwth-aachen.de",
+      "first": "Lea",
+      "from": "2023-05-30",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "schlickmann",
+      "last": "Schlickmann",
+      "orcid": "0000-0002-9746-6872",
       "thanks": [],
       "to": ""
     },
