@@ -110,7 +110,9 @@ Ack:20171213:99999999:U.S. National Science Foundation-Physics Division,
 Ack:20171213:99999999:Wisconsin Alumni Research Foundation, 
 Ack:20171213:99999999:Center for High Throughput Computing (CHTC) at the University of Wisconsin-Madison, 
 Ack:20171213:99999999:Open Science Grid (OSG), 
+Ack:20171213:99999999:Partnership to Advance Throughput Computing (PATh), 
 Ack:20171213:99999999:Extreme Science and Engineering Discovery Environment (XSEDE), 
+Ack:20171213:99999999:Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS), 
 Ack:20171213:99999999:U.S. Department of Energy-National Energy Research Scientific Computing Center, 
 Ack:20171213:99999999:Particle astrophysics research computing center at the University of Maryland, 
 Ack:20171213:99999999:Institute for Cyber-Enabled Research at Michigan State University, 
@@ -130,7 +132,7 @@ Ack:20171213:99999999:Swedish National Infrastructure for Computing (SNIC),
 Ack:20171213:99999999:and Knut and Alice Wallenberg Foundation; 
 Ack:20171213:99999999:Australia -- Australian Research Council; 
 Ack:20171213:99999999:Canada -- Natural Sciences and Engineering Research Council of Canada, 
-Ack:20171213:99999999:Calcul Qu\'ebec, Compute Ontario, Canada Foundation for Innovation, WestGrid, and Compute Canada; 
+Ack:20171213:99999999:Calcul Qu\'ebec, Compute Ontario, Canada Foundation for Innovation, WestGrid, and Digital Research Alliance of Canada; 
 Ack:20171213:99999999:Denmark -- Villum Fonden, Danish National Research Foundation (DNRF); 
 Ack:20171213:99999999:New Zealand -- Marsden Fund; 
 Ack:20171213:99999999:Japan -- Japan Society for Promotion of Science (JSPS) 
