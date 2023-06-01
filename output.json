@@ -39477,7 +39477,7 @@
       "last": "Ruhe",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-05-31"
     },
     {
       "authname": "T. Ruhe",
@@ -39491,6 +39491,36 @@
       "keycloak_username": "truhe",
       "last": "Ruhe",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-05-31"
+    },
+    {
+      "authname": "T. Ruhe",
+      "collab": "icecube",
+      "email": "tim.ruhe@icecube.wisc.edu",
+      "first": "Tim",
+      "from": "2023-06-01",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "truhe",
+      "last": "Ruhe",
+      "orcid": "0000-0002-4080-9563",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Ruhe",
+      "collab": "icecube-gen2",
+      "email": "tim.ruhe@icecube.wisc.edu",
+      "first": "Tim",
+      "from": "2023-06-01",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "truhe",
+      "last": "Ruhe",
+      "orcid": "0000-0002-4080-9563",
       "thanks": [],
       "to": ""
     },
