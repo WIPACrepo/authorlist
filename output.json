@@ -2426,7 +2426,7 @@
       "last": "Ashida",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-01"
     },
     {
       "authname": "Y. Ashida",
@@ -2436,6 +2436,36 @@
       "from": "2021-04-30",
       "instnames": [
         "madisonpac"
+      ],
+      "keycloak_username": "yashida",
+      "last": "Ashida",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-06-01"
+    },
+    {
+      "authname": "Y. Ashida",
+      "collab": "icecube",
+      "email": "yosuke.ashida@icecube.wisc.edu",
+      "first": "Yosuke",
+      "from": "2023-06-02",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "yashida",
+      "last": "Ashida",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Ashida",
+      "collab": "icecube-gen2",
+      "email": "yosuke.ashida@icecube.wisc.edu",
+      "first": "Yosuke",
+      "from": "2023-06-02",
+      "instnames": [
+        "utah"
       ],
       "keycloak_username": "yashida",
       "last": "Ashida",
