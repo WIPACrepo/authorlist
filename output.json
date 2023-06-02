@@ -31944,6 +31944,36 @@
       "to": "2006-03-23"
     },
     {
+      "authname": "J. Mitchell",
+      "collab": "icecube",
+      "email": "justin_mitchell@subr.edu",
+      "first": "Justin",
+      "from": "2023-06-02",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Mitchell",
+      "collab": "icecube-gen2",
+      "email": "justin_mitchell@subr.edu",
+      "first": "Justin",
+      "from": "2023-06-02",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "H. Miyamoto",
       "collab": "icecube",
       "first": "H.",
@@ -47874,6 +47904,21 @@
       "email": "karriem.upshaw@sus.edu",
       "first": "Karriem",
       "from": "2022-05-18",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "kupshaw",
+      "last": "Upshaw",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Upshaw",
+      "collab": "icecube-gen2",
+      "email": "karriem.upshaw@sus.edu",
+      "first": "Karriem",
+      "from": "2023-06-02",
       "instnames": [
         "southern"
       ],
