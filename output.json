@@ -29692,6 +29692,21 @@
       "last": "Manao",
       "orcid": "",
       "thanks": [],
+      "to": "2023-06-01"
+    },
+    {
+      "authname": "E. Manao",
+      "collab": "icecube",
+      "email": "elena.manao@icecube.wisc.edu",
+      "first": "Elena",
+      "from": "2023-06-02",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "emanao",
+      "last": "Manao",
+      "orcid": "0009-0002-6197-8574",
+      "thanks": [],
       "to": ""
     },
     {
