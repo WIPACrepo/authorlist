@@ -32001,7 +32001,7 @@
       "last": "Mitchell",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-04"
     },
     {
       "authname": "J. Mitchell",
@@ -32009,6 +32009,36 @@
       "email": "justin.mitchell@sus.edu",
       "first": "Justin",
       "from": "2023-06-02",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-06-04"
+    },
+    {
+      "authname": "J. Mitchell",
+      "collab": "icecube",
+      "email": "justin.mitchell01@sus.edu",
+      "first": "Justin",
+      "from": "2023-06-05",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Mitchell",
+      "collab": "icecube-gen2",
+      "email": "justin.mitchell01@sus.edu",
+      "first": "Justin",
+      "from": "2023-06-05",
       "instnames": [
         "southern"
       ],
