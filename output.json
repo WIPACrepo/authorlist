@@ -37153,6 +37153,21 @@
     },
     {
       "authname": "C. Raab",
+      "collab": "icecube",
+      "email": "christoph.raab@icecube.wisc.edu",
+      "first": "Christoph",
+      "from": "2023-06-09",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "chraab",
+      "last": "Raab",
+      "orcid": "0000-0001-9921-2668",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Raab",
       "collab": "pingu",
       "email": "christoph.raab@icecube.wisc.edu",
       "first": "Christoph",
@@ -48907,7 +48922,7 @@
     },
     {
       "authname": "M. Vereecken",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "matthias.vereecken@uclouvain.be",
       "first": "Matthias",
       "from": "2023-04-18",
@@ -48918,11 +48933,11 @@
       "last": "Vereecken",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-08"
     },
     {
       "authname": "M. Vereecken",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "matthias.vereecken@uclouvain.be",
       "first": "Matthias",
       "from": "2023-04-18",
