@@ -16877,6 +16877,21 @@
       "to": "2015-12-31"
     },
     {
+      "authname": "K. Groth",
+      "collab": "icecube",
+      "email": "kathrine.groth@icecube.wisc.edu",
+      "first": "Kathrine",
+      "from": "2023-06-09",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "kgroth",
+      "last": "Groth",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Grullon",
       "collab": "icecube",
       "email": "sean.grullon@gmail.com",
