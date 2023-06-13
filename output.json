@@ -3947,7 +3947,7 @@
       "last": "Becker",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-12"
     },
     {
       "authname": "K.-H. Becker",
@@ -3962,7 +3962,7 @@
       "last": "Becker",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-12"
     },
     {
       "authname": "K.-H. Becker",
@@ -36091,7 +36091,7 @@
       "last": "Pieper",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-12"
     },
     {
       "authname": "S. Pieper",
@@ -41730,6 +41730,21 @@
       "keycloak_username": "fschluter",
       "last": "Schl\u00fcter",
       "orcid": "0000-0002-5545-4363",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Schmeisser",
+      "collab": "icecube",
+      "email": "nick.schmeisser@icecube.wisc.edu",
+      "first": "Nick",
+      "from": "2023-06-13",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "nschmeisser",
+      "last": "Schmeisser",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
