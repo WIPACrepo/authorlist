@@ -14041,6 +14041,21 @@
       "to": "2015-12-01"
     },
     {
+      "authname": "B. Flaggs",
+      "collab": "icecube-gen2",
+      "email": "benjamin.flaggs@icecube.wisc.edu",
+      "first": "Benjamin",
+      "from": "2023-06-13",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "bflaggs",
+      "last": "Flaggs",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Flis",
       "collab": "icecube",
       "email": "samuel.d.flis@gmail.com",
@@ -49038,7 +49053,7 @@
       "last": "Verpoest",
       "orcid": "0000-0002-3031-3206",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-12"
     },
     {
       "authname": "S. Verpoest",
@@ -49048,6 +49063,36 @@
       "from": "2022-05-10",
       "instnames": [
         "gent"
+      ],
+      "keycloak_username": "sverpoest",
+      "last": "Verpoest",
+      "orcid": "0000-0002-3031-3206",
+      "thanks": [],
+      "to": "2023-06-12"
+    },
+    {
+      "authname": "S. Verpoest",
+      "collab": "icecube",
+      "email": "stef.verpoest@icecube.wisc.edu",
+      "first": "Stef",
+      "from": "2023-06-13",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "sverpoest",
+      "last": "Verpoest",
+      "orcid": "0000-0002-3031-3206",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Verpoest",
+      "collab": "icecube-gen2",
+      "email": "stef.verpoest@icecube.wisc.edu",
+      "first": "Stef",
+      "from": "2023-06-13",
+      "instnames": [
+        "bartol"
       ],
       "keycloak_username": "sverpoest",
       "last": "Verpoest",
