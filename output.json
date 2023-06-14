@@ -12416,6 +12416,21 @@
       "to": ""
     },
     {
+      "authname": "E. Ellinger",
+      "collab": "icecube-gen2",
+      "email": "ellinger@uni-wuppertal.de",
+      "first": "Enrico",
+      "from": "2023-06-14",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "eellinge",
+      "last": "Ellinger",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. W. Ellsworth",
       "collab": "icecube",
       "email": "ellswort@icecube.wisc.edu",
