@@ -14511,7 +14511,7 @@
       "last": "Friedman",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-14"
     },
     {
       "authname": "E. Friedman",
@@ -14526,7 +14526,7 @@
       "last": "Friedman",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-14"
     },
     {
       "authname": "E. Friedman",
@@ -42770,7 +42770,7 @@
       "last": "Sclafani",
       "orcid": "0000-0001-9446-1219",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-14"
     },
     {
       "authname": "S. Sclafani",
@@ -42780,6 +42780,36 @@
       "from": "2018-02-01",
       "instnames": [
         "drexel"
+      ],
+      "keycloak_username": "ssclafani",
+      "last": "Sclafani",
+      "orcid": "0000-0001-9446-1219",
+      "thanks": [],
+      "to": "2023-06-14"
+    },
+    {
+      "authname": "S. Sclafani",
+      "collab": "icecube",
+      "email": "steve.sclafani@icecube.wisc.edu",
+      "first": "Steve",
+      "from": "2023-06-15",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "ssclafani",
+      "last": "Sclafani",
+      "orcid": "0000-0001-9446-1219",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Sclafani",
+      "collab": "icecube-gen2",
+      "email": "steve.sclafani@icecube.wisc.edu",
+      "first": "Steve",
+      "from": "2023-06-15",
+      "instnames": [
+        "maryland"
       ],
       "keycloak_username": "ssclafani",
       "last": "Sclafani",
@@ -49173,6 +49203,36 @@
       ],
       "keycloak_username": "avieregg",
       "last": "Vieregg",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Vijai",
+      "collab": "icecube",
+      "email": "aishupenn@gmail.com",
+      "first": "Aishwarya",
+      "from": "2023-06-15",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "avijai",
+      "last": "Vijai",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Vijai",
+      "collab": "icecube-gen2",
+      "email": "aishupenn@gmail.com",
+      "first": "Aishwarya",
+      "from": "2023-06-15",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "avijai",
+      "last": "Vijai",
       "orcid": "",
       "thanks": [],
       "to": ""
