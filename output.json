@@ -28987,7 +28987,7 @@
       "last": "Ludwig",
       "orcid": "0000-0001-9038-4375",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-19"
     },
     {
       "authname": "A. Ludwig",
@@ -29002,7 +29002,7 @@
       "last": "Ludwig",
       "orcid": "0000-0001-9038-4375",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-19"
     },
     {
       "authname": "A. Ludwig",
@@ -51028,7 +51028,7 @@
       "last": "Whitehorn",
       "orcid": "0000-0002-3157-0407",
       "thanks": [],
-      "to": ""
+      "to": "2023-06-19"
     },
     {
       "authname": "N. Whitehorn",
@@ -51038,6 +51038,36 @@
       "from": "2020-10-01",
       "instnames": [
         "ucla",
+        "michigan"
+      ],
+      "keycloak_username": "nwhitehorn",
+      "last": "Whitehorn",
+      "orcid": "0000-0002-3157-0407",
+      "thanks": [],
+      "to": "2023-06-19"
+    },
+    {
+      "authname": "N. Whitehorn",
+      "collab": "icecube",
+      "email": "nathan.whitehorn@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2023-06-20",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "nwhitehorn",
+      "last": "Whitehorn",
+      "orcid": "0000-0002-3157-0407",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Whitehorn",
+      "collab": "icecube-gen2",
+      "email": "nathan.whitehorn@icecube.wisc.edu",
+      "first": "Nathan",
+      "from": "2023-06-20",
+      "instnames": [
         "michigan"
       ],
       "keycloak_username": "nwhitehorn",
