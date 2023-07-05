@@ -1391,7 +1391,7 @@
       "last": "Ahlers",
       "orcid": "0000-0003-0709-5631",
       "thanks": [],
-      "to": ""
+      "to": "2023-07-04"
     },
     {
       "authname": "M. Ahlers",
@@ -1399,6 +1399,36 @@
       "email": "ahlers@insti.physics.sunysb.edu",
       "first": "Markus",
       "from": "2022-05-10",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "mahlers",
+      "last": "Ahlers",
+      "orcid": "0000-0003-0709-5631",
+      "thanks": [],
+      "to": "2023-07-04"
+    },
+    {
+      "authname": "M. Ahlers",
+      "collab": "icecube",
+      "email": "mahlers@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2023-07-05",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "mahlers",
+      "last": "Ahlers",
+      "orcid": "0000-0003-0709-5631",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ahlers",
+      "collab": "icecube-gen2",
+      "email": "mahlers@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2023-07-05",
       "instnames": [
         "copenhagen"
       ],
