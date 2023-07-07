@@ -9541,7 +9541,7 @@
       "last": "Countryman",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-07-06"
     },
     {
       "authname": "D. F. Cowen",
@@ -17008,6 +17008,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-12-02"
+    },
+    {
+      "authname": "D. Guevel",
+      "collab": "icecube-gen2",
+      "email": "guevel@wisc.edu",
+      "first": "David",
+      "from": "2023-07-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. M. Gunasingha",
@@ -53305,6 +53320,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2013-04-30"
+    },
+    {
+      "authname": "M. Zimmerman",
+      "collab": "icecube",
+      "email": "melany.zimmerman@icecube.wisc.edu",
+      "first": "Melany",
+      "from": "2023-07-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mzimmerman",
+      "last": "Zimmerman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Zimmerman",
+      "collab": "icecube-gen2",
+      "email": "melany.zimmerman@icecube.wisc.edu",
+      "first": "Melany",
+      "from": "2023-07-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mzimmerman",
+      "last": "Zimmerman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Z\u00f6cklein",
