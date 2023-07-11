@@ -50673,6 +50673,36 @@
       "to": "2015-04-02"
     },
     {
+      "authname": "A. Y. Wen",
+      "collab": "icecube",
+      "email": "alexwen@g.harvard.edu",
+      "first": "Alex",
+      "from": "2023-07-11",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "alexwen",
+      "last": "Wen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Y. Wen",
+      "collab": "icecube-gen2",
+      "email": "alexwen@g.harvard.edu",
+      "first": "Alex",
+      "from": "2023-07-11",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "alexwen",
+      "last": "Wen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Wendt",
       "collab": "icecube",
       "email": "chwendt@icecube.wisc.edu",
