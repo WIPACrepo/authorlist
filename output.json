@@ -53308,6 +53308,36 @@
       "to": ""
     },
     {
+      "authname": "P. Zilberman",
+      "collab": "icecube",
+      "email": "pzilberman@wisc.edu",
+      "first": "Perri",
+      "from": "2023-07-11",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "pzilberman",
+      "last": "Zilberman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Zilberman",
+      "collab": "icecube-gen2",
+      "email": "pzilberman@wisc.edu",
+      "first": "Perri",
+      "from": "2023-07-11",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "pzilberman",
+      "last": "Zilberman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Zilles",
       "collab": "icecube",
       "email": "anne.zilles@icecube.wisc.edu",
