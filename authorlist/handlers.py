@@ -762,7 +762,7 @@ $^\\ast$E-mail: analysis@icecube.wisc.edu
     def _inspire(self):
         text = """<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE collaborationauthorlist SYSTEM "http://inspirehep.net/info/HepNames/tools/authors_xml/author.dtd">
+<!DOCTYPE collaborationauthorlist SYSTEM "author.dtd">
 <!--
    """+self.collab+""" author list for INSPIRE.
 -->
