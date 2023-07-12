@@ -51858,6 +51858,36 @@
       "to": "2016-06-06"
     },
     {
+      "authname": "L. Witthaus",
+      "collab": "icecube",
+      "email": "lucas.witthaus@icecube.wisc.edu",
+      "first": "Lucas",
+      "from": "2023-07-12",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lwitthaus",
+      "last": "Witthaus",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Witthaus",
+      "collab": "icecube-gen2",
+      "email": "lucas.witthaus@icecube.wisc.edu",
+      "first": "Lucas",
+      "from": "2023-07-12",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lwitthaus",
+      "last": "Witthaus",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Wolf",
       "collab": "icecube",
       "email": "annika.wolf@rwth-aachen.de",
