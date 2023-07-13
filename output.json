@@ -35583,7 +35583,7 @@
       "last": "Paul",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-07-12"
     },
     {
       "authname": "L. Paul",
@@ -35593,6 +35593,36 @@
       "from": "2023-06-22",
       "instnames": [
         "marquette",
+        "southdakota"
+      ],
+      "keycloak_username": "lpaul",
+      "last": "Paul",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-07-12"
+    },
+    {
+      "authname": "L. Paul",
+      "collab": "icecube",
+      "email": "larissa.paul@icecube.wisc.edu",
+      "first": "Larissa",
+      "from": "2023-07-13",
+      "instnames": [
+        "southdakota"
+      ],
+      "keycloak_username": "lpaul",
+      "last": "Paul",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Paul",
+      "collab": "icecube-gen2",
+      "email": "larissa.paul@icecube.wisc.edu",
+      "first": "Larissa",
+      "from": "2023-07-13",
+      "instnames": [
         "southdakota"
       ],
       "keycloak_username": "lpaul",
