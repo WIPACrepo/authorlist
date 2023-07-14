@@ -486,6 +486,11 @@
       "value": "Open Science Grid (OSG),"
     },
     {
+      "from": "2023-07-01",
+      "to": "",
+      "value": "Partnership to Advance Throughput Computing (PATh),"
+    },
+    {
       "from": "2017-12-13",
       "to": "2022-09-25",
       "value": "Extreme Science and Engineering Discovery Environment (XSEDE),"
