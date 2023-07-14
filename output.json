@@ -528,7 +528,12 @@
     {
       "from": "2023-07-01",
       "to": "",
-      "value": "and NVIDIA Corporation;"
+      "value": "NVIDIA Corporation,"
+    },
+    {
+      "from": "2023-07-01",
+      "to": "",
+      "value": "and Google Cloud Platform;"
     },
     {
       "from": "2017-12-13",
