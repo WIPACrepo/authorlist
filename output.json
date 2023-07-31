@@ -35962,6 +35962,21 @@
       "last": "Petersen",
       "orcid": "",
       "thanks": [],
+      "to": "2023-07-30"
+    },
+    {
+      "authname": "T. C. Petersen",
+      "collab": "icecube-gen2",
+      "email": "petersen@nbi.dk",
+      "first": "Troels",
+      "from": "2023-07-31",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "tpetersen",
+      "last": "Petersen",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
