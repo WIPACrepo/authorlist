@@ -5332,6 +5332,21 @@
       "last": "Bishop",
       "orcid": "0000-0002-0375-644X",
       "thanks": [],
+      "to": "2023-08-13"
+    },
+    {
+      "authname": "A. Bishop",
+      "collab": "icecube-gen2",
+      "email": "abigail.bishop@wisc.edu",
+      "first": "Abigail",
+      "from": "2023-08-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "abishop",
+      "last": "Bishop",
+      "orcid": "0000-0002-0375-644X",
+      "thanks": [],
       "to": ""
     },
     {
