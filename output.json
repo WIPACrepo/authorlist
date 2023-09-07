@@ -22620,6 +22620,36 @@
       "to": "2015-08-26"
     },
     {
+      "authname": "N. Kamp",
+      "collab": "icecube",
+      "email": "nkamp@fas.harvard.edu",
+      "first": "Nicholas",
+      "from": "2023-09-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "nkamp",
+      "last": "Kamp",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Kamp",
+      "collab": "icecube-gen2",
+      "email": "nkamp@fas.harvard.edu",
+      "first": "Nicholas",
+      "from": "2023-09-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "nkamp",
+      "last": "Kamp",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K.-H. Kampert",
       "collab": "icecube",
       "email": "kampert@physik.uni-wuppertal.de",
