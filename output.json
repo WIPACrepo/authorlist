@@ -8931,7 +8931,7 @@
       "last": "Classen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-12"
     },
     {
       "authname": "L. Classen",
@@ -8946,7 +8946,7 @@
       "last": "Classen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-12"
     },
     {
       "authname": "L. Classen",
@@ -22011,7 +22011,7 @@
       "last": "Jeong",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-12"
     },
     {
       "authname": "M. Jeong",
@@ -22021,6 +22021,36 @@
       "from": "2015-10-20",
       "instnames": [
         "skku"
+      ],
+      "keycloak_username": "mjeong",
+      "last": "Jeong",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-09-12"
+    },
+    {
+      "authname": "M. Jeong",
+      "collab": "icecube",
+      "email": "minjin.jeong@g.skku.edu",
+      "first": "Minjin",
+      "from": "2023-09-13",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mjeong",
+      "last": "Jeong",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jeong",
+      "collab": "icecube-gen2",
+      "email": "minjin.jeong@g.skku.edu",
+      "first": "Minjin",
+      "from": "2023-09-13",
+      "instnames": [
+        "utah"
       ],
       "keycloak_username": "mjeong",
       "last": "Jeong",
@@ -33087,6 +33117,22 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-09-30"
+    },
+    {
+      "authname": "M. Muzio",
+      "collab": "icecube-gen2",
+      "email": "marco.muzio@icecube.wisc.edu",
+      "first": "Marco",
+      "from": "2023-09-13",
+      "instnames": [
+        "pennastro",
+        "penncosmos"
+      ],
+      "keycloak_username": "mmuzio",
+      "last": "Muzio",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "R. Naab",
