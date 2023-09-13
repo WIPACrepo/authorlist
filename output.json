@@ -1973,7 +1973,7 @@
       "last": "Andeen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-12"
     },
     {
       "authname": "K. Andeen",
@@ -1987,6 +1987,36 @@
       "keycloak_username": "kandeen",
       "last": "Andeen",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-09-12"
+    },
+    {
+      "authname": "K. Andeen",
+      "collab": "icecube",
+      "email": "karen.andeen@icecube.wisc.edu",
+      "first": "Karen",
+      "from": "2023-09-13",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "kandeen",
+      "last": "Andeen",
+      "orcid": "0000-0001-9394-0007",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Andeen",
+      "collab": "icecube-gen2",
+      "email": "karen.andeen@icecube.wisc.edu",
+      "first": "Karen",
+      "from": "2023-09-13",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "kandeen",
+      "last": "Andeen",
+      "orcid": "0000-0001-9394-0007",
       "thanks": [],
       "to": ""
     },
@@ -5211,6 +5241,22 @@
       ],
       "keycloak_username": "dbesson",
       "last": "Besson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Betts",
+      "collab": "icecube-gen2",
+      "email": "mob5419@psu.edu",
+      "first": "Michael",
+      "from": "2023-09-13",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "mob5419",
+      "last": "Betts",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -22031,7 +22077,7 @@
     {
       "authname": "M. Jeong",
       "collab": "icecube",
-      "email": "minjin.jeong@g.skku.edu",
+      "email": "u6038880@utah.edu",
       "first": "Minjin",
       "from": "2023-09-13",
       "instnames": [
@@ -22039,14 +22085,14 @@
       ],
       "keycloak_username": "mjeong",
       "last": "Jeong",
-      "orcid": "",
+      "orcid": "0000-0003-2420-6639",
       "thanks": [],
       "to": ""
     },
     {
       "authname": "M. Jeong",
       "collab": "icecube-gen2",
-      "email": "minjin.jeong@g.skku.edu",
+      "email": "u6038880@utah.edu",
       "first": "Minjin",
       "from": "2023-09-13",
       "instnames": [
@@ -22054,7 +22100,7 @@
       ],
       "keycloak_username": "mjeong",
       "last": "Jeong",
-      "orcid": "",
+      "orcid": "0000-0003-2420-6639",
       "thanks": [],
       "to": ""
     },
@@ -23362,6 +23408,21 @@
       ],
       "last": "Karle",
       "orcid": "0000-0001-9889-5161",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Katil",
+      "collab": "icecube",
+      "email": "akanksha.katil@icecube.wisc.edu",
+      "first": "Akanksha",
+      "from": "2023-09-13",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "akatil",
+      "last": "Katil",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
@@ -33126,7 +33187,8 @@
       "from": "2023-09-13",
       "instnames": [
         "pennastro",
-        "penncosmos"
+        "penncosmos",
+        "pennphys"
       ],
       "keycloak_username": "mmuzio",
       "last": "Muzio",
@@ -48549,6 +48611,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-06-28"
+    },
+    {
+      "authname": "A. Vaidyanathan",
+      "collab": "icecube",
+      "email": "arunneelakandaiyer@hotmail.com",
+      "first": "Arun",
+      "from": "2023-09-13",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "arunv",
+      "last": "Vaidyanathan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Vaidyanathan",
+      "collab": "icecube-gen2",
+      "email": "arunneelakandaiyer@hotmail.com",
+      "first": "Arun",
+      "from": "2023-09-13",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "arunv",
+      "last": "Vaidyanathan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Vallecorsa",
