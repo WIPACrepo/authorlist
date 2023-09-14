@@ -2724,6 +2724,36 @@
       "to": "2020-08-31"
     },
     {
+      "authname": "L. Ausborm",
+      "collab": "icecube",
+      "email": "lasse.ausborm@rwth-aachen.de",
+      "first": "Lasse",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lausborm",
+      "last": "Ausborm",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Ausborm",
+      "collab": "icecube-gen2",
+      "email": "lasse.ausborm@rwth-aachen.de",
+      "first": "Lasse",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lausborm",
+      "last": "Ausborm",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Axani",
       "collab": "icecube-gen2",
       "email": "saxani@icecube.wisc.edu",
@@ -6518,7 +6548,7 @@
       "last": "Bourbeau",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-13"
     },
     {
       "authname": "E. Bourbeau",
@@ -6533,7 +6563,7 @@
       "last": "Bourbeau",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-13"
     },
     {
       "authname": "E. Bourbeau",
@@ -7248,6 +7278,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2013-09-17"
+    },
+    {
+      "authname": "L. Brusa",
+      "collab": "icecube",
+      "email": "lukas.brusa@rwth-aachen.de",
+      "first": "Lukas",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lbrusa",
+      "last": "Brusa",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Brusa",
+      "collab": "icecube-gen2",
+      "email": "lukas.brusa@rwth-aachen.de",
+      "first": "Lukas",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lbrusa",
+      "last": "Brusa",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Buitink",
@@ -18080,6 +18140,36 @@
       "to": "2012-02-17"
     },
     {
+      "authname": "M. Handt",
+      "collab": "icecube",
+      "email": "michael.handt@rwth-aachen.de",
+      "first": "Michael",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mhandt",
+      "last": "Handt",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Handt",
+      "collab": "icecube-gen2",
+      "email": "michael.handt@rwth-aachen.de",
+      "first": "Michael",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mhandt",
+      "last": "Handt",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Hansen",
       "collab": "icecube",
       "email": "eva.hansen@icecube.wisc.edu",
@@ -18779,6 +18869,36 @@
       "to": "2021-09-30"
     },
     {
+      "authname": "J. H\u00e4u\u00dfler",
+      "collab": "icecube",
+      "email": "jonas.haeussler@rwth-aachen.de",
+      "first": "Jonas",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jonashaeussler",
+      "last": "H\u00e4u\u00dfler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. H\u00e4u\u00dfler",
+      "collab": "icecube-gen2",
+      "email": "jonas.haeussler@rwth-aachen.de",
+      "first": "Jonas",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jonashaeussler",
+      "last": "H\u00e4u\u00dfler",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. Hays",
       "collab": "icecube",
       "email": "dhays@icecube.wisc.edu",
@@ -19365,6 +19485,36 @@
       ],
       "keycloak_username": "jhenrichs",
       "last": "Henrichs",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hermannsgabner",
+      "collab": "icecube",
+      "email": "hermannsgabner@physik.rwth-aachen.de",
+      "first": "Johanna",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jhermannsgabner",
+      "last": "Hermannsgabner",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hermannsgabner",
+      "collab": "icecube-gen2",
+      "email": "hermannsgabner@physik.rwth-aachen.de",
+      "first": "Johanna",
+      "from": "2023-09-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jhermannsgabner",
+      "last": "Hermannsgabner",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -43081,7 +43231,7 @@
       "last": "Schwefer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-13"
     },
     {
       "authname": "G. Schwefer",
@@ -43096,7 +43246,7 @@
       "last": "Schwefer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-13"
     },
     {
       "authname": "G. Schwefer",
