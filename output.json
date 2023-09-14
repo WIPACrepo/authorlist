@@ -50465,6 +50465,22 @@
       "to": "2007-12-09"
     },
     {
+      "authname": "D. Washington",
+      "collab": "icecube-gen2",
+      "email": "djw5732@psu.edu",
+      "first": "Daniel",
+      "from": "2023-09-14",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "daniel_w",
+      "last": "Washington",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Wasserman",
       "collab": "icecube",
       "email": "rmw5190@icecube.wisc.edu",
