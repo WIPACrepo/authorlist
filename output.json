@@ -22237,7 +22237,7 @@
       "last": "Jeong",
       "orcid": "0000-0003-2420-6639",
       "thanks": [],
-      "to": ""
+      "to": "2023-09-14"
     },
     {
       "authname": "M. Jeong",
@@ -22245,6 +22245,36 @@
       "email": "u6038880@utah.edu",
       "first": "Minjin",
       "from": "2023-09-13",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mjeong",
+      "last": "Jeong",
+      "orcid": "0000-0003-2420-6639",
+      "thanks": [],
+      "to": "2023-09-14"
+    },
+    {
+      "authname": "M. Jeong",
+      "collab": "icecube",
+      "email": "minjin.jeong@utah.edu",
+      "first": "Minjin",
+      "from": "2023-09-15",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mjeong",
+      "last": "Jeong",
+      "orcid": "0000-0003-2420-6639",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jeong",
+      "collab": "icecube-gen2",
+      "email": "minjin.jeong@utah.edu",
+      "first": "Minjin",
+      "from": "2023-09-15",
       "instnames": [
         "utah"
       ],
