@@ -7591,6 +7591,21 @@
       "to": ""
     },
     {
+      "authname": "M. Bustamante",
+      "collab": "icecube-gen2",
+      "email": "mbustamante@nbi.ku.dk",
+      "first": "Mauricio",
+      "from": "2023-10-11",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "mbustamante",
+      "last": "Bustamante",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. Butterfield",
       "collab": "icecube",
       "email": "delaney.butterfield@icecube.wisc.edu",
