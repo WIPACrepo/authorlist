@@ -34244,7 +34244,7 @@
       "last": "Nisa",
       "orcid": "0000-0002-6859-3944",
       "thanks": [],
-      "to": ""
+      "to": "2023-10-22"
     },
     {
       "authname": "M. U. Nisa",
@@ -34252,6 +34252,36 @@
       "email": "mehr.unnisa@icecube.wisc.edu",
       "first": "Mehr",
       "from": "2019-09-01",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "mnisa",
+      "last": "Nisa",
+      "orcid": "0000-0002-6859-3944",
+      "thanks": [],
+      "to": "2023-10-22"
+    },
+    {
+      "authname": "M. U. Nisa",
+      "collab": "icecube",
+      "email": "mehr.unnisa@icecube.wisc.edu",
+      "first": "Mehr Un",
+      "from": "2023-10-23",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "mnisa",
+      "last": "Nisa",
+      "orcid": "0000-0002-6859-3944",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. U. Nisa",
+      "collab": "icecube-gen2",
+      "email": "mehr.unnisa@icecube.wisc.edu",
+      "first": "Mehr Un",
+      "from": "2023-10-23",
       "instnames": [
         "michigan"
       ],
