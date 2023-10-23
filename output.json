@@ -17583,7 +17583,7 @@
       "last": "Haack",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-10-22"
     },
     {
       "authname": "C. Haack",
@@ -17597,6 +17597,36 @@
       "keycloak_username": "chaack",
       "last": "Haack",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-10-22"
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2023-10-23",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "chaack",
+      "last": "Haack",
+      "orcid": "0000-0003-3932-2448",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Haack",
+      "collab": "icecube-gen2",
+      "email": "christian.haack@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2023-10-23",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "chaack",
+      "last": "Haack",
+      "orcid": "0000-0003-3932-2448",
       "thanks": [],
       "to": ""
     },
