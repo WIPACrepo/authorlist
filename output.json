@@ -34833,7 +34833,7 @@
       "last": "O'Dell",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-10-23"
     },
     {
       "authname": "V. O'Dell",
@@ -34847,6 +34847,36 @@
       "keycloak_username": "vodell",
       "last": "O'Dell",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-10-23"
+    },
+    {
+      "authname": "V. O'Dell",
+      "collab": "icecube",
+      "email": "vivian.odell@icecube.wisc.edu",
+      "first": "Vivian",
+      "from": "2023-10-24",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "vodell",
+      "last": "O'Dell",
+      "orcid": "0000-0003-0903-543X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "V. O'Dell",
+      "collab": "icecube-gen2",
+      "email": "vivian.odell@icecube.wisc.edu",
+      "first": "Vivian",
+      "from": "2023-10-24",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "vodell",
+      "last": "O'Dell",
+      "orcid": "0000-0003-0903-543X",
       "thanks": [],
       "to": ""
     },
