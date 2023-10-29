@@ -26732,6 +26732,21 @@
       "last": "Kruiswijk",
       "orcid": "",
       "thanks": [],
+      "to": "2023-10-28"
+    },
+    {
+      "authname": "K. Kruiswijk",
+      "collab": "icecube",
+      "email": "karlijn.kruiswijk@icecube.wisc.edu",
+      "first": "Karlijn",
+      "from": "2023-10-29",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "kkruiswijk",
+      "last": "Kruiswijk",
+      "orcid": "0009-0002-9261-0537",
+      "thanks": [],
       "to": ""
     },
     {
