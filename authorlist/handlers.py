@@ -8,6 +8,7 @@ from collections import defaultdict
 from datetime import datetime
 import codecs
 import csv
+import json
 import re
 from io import StringIO
 
@@ -17,7 +18,7 @@ from pylatexenc.latexencode import UnicodeToLatexEncoder, UnicodeToLatexConversi
 import tornado.web
 from tornado.escape import xhtml_escape
 
-from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE
+from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE, keycloak_utils
 from .util import today, validate_date, author_ordering
 
 
@@ -61,6 +62,7 @@ class AuthorListRenderer:
         'jinst': 'Journal of Instrumentation (JINST)',
         'science': 'Science',
         'inspire': 'INSPIRE author.xml',
+        'json': 'JSON structured data',
     }
 
     def __init__(self, state):
@@ -831,6 +833,30 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
             'format_text': xhtml_escape(text),
             'intro_text': intro_text,
         }
+
+    def _json(self):
+        authors_by_inst = defaultdict(list)
+        for author in self.authors:
+            for instname in author['instnames']:
+                authors_by_inst[instname].append(author)
+        keycloak_mapping = {}
+        if self.collab == 'IceCube':
+            keycloak_mapping = keycloak_utils.IceCube.authorlist_insts_to_groups
+        elif self.collab == 'IceCube-Gen2':
+            keycloak_mapping = keycloak_utils.IceCubeGen2.authorlist_insts_to_groups
+        ret = {
+            'authors': self.authors,
+            'authors_by_inst': authors_by_inst,
+            'insts': self.insts,
+            'sorted_insts': self.sorted_insts,
+            'keycloak_insts': keycloak_mapping,
+            'thanks': self.thanks,
+            'sorted_thanks': self.sorted_thanks,
+            'acks': self.acks,
+        }
+        ret['format_text'] = json.dumps(ret, indent=2, ensure_ascii=False)
+        ret['intro_text'] = 'JSON structured data dump'
+        return ret
 
 
 class BaseHandler(tornado.web.RequestHandler):
