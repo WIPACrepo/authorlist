@@ -30389,7 +30389,7 @@
       "last": "Mancina",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-10-29"
     },
     {
       "authname": "S. Mancina",
@@ -30404,6 +30404,38 @@
       "keycloak_username": "smancina",
       "last": "Mancina",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-10-29"
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube",
+      "email": "sarah.mancina@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2023-10-30",
+      "instnames": [
+        "madisonpac",
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube-gen2",
+      "email": "sarah.mancina@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2023-10-30",
+      "instnames": [
+        "madisonpac",
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
       "thanks": [],
       "to": ""
     },
