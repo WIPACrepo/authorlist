@@ -8,6 +8,7 @@ from collections import defaultdict
 from datetime import datetime
 import codecs
 import csv
+import json
 import re
 from io import StringIO
 
@@ -843,13 +844,19 @@ xmlns:cal="http://inspirehep.net/info/HepNames/tools/authors_xml/">\n\n"""
             keycloak_mapping = keycloak_utils.IceCube.authorlist_insts_to_groups
         elif self.collab == 'IceCube-Gen2':
             keycloak_mapping = keycloak_utils.IceCubeGen2.authorlist_insts_to_groups
-        return {
+        ret = {
             'authors': self.authors,
             'authors_by_inst': authors_by_inst,
             'insts': self.insts,
             'sorted_insts': self.sorted_insts,
             'keycloak_insts': keycloak_mapping,
+            'thanks': self.thanks,
+            'sorted_thanks': self.sorted_thanks,
+            'acks': self.acks,
         }
+        ret['format_text'] = json.dumps(ret, indent=2, ensure_ascii=False)
+        ret['intro_text'] = 'JSON structured data dump'
+        return ret
 
 
 class BaseHandler(tornado.web.RequestHandler):
