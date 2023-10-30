@@ -33367,7 +33367,7 @@
       "last": "Mukherjee",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-10-29"
     },
     {
       "authname": "T. Mukherjee",
@@ -33381,6 +33381,36 @@
       "keycloak_username": "tmukherjee",
       "last": "Mukherjee",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-10-29"
+    },
+    {
+      "authname": "T. Mukherjee",
+      "collab": "icecube",
+      "email": "tista.mukherjee@icecube.wisc.edu",
+      "first": "Tista",
+      "from": "2023-10-30",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "tmukherjee",
+      "last": "Mukherjee",
+      "orcid": "0000-0002-0962-4878",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Mukherjee",
+      "collab": "icecube-gen2",
+      "email": "tista.mukherjee@icecube.wisc.edu",
+      "first": "Tista",
+      "from": "2023-10-30",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "tmukherjee",
+      "last": "Mukherjee",
+      "orcid": "0000-0002-0962-4878",
       "thanks": [],
       "to": ""
     },
