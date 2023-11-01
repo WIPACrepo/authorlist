@@ -28998,6 +28998,22 @@
       "to": ""
     },
     {
+      "authname": "Y. Liu",
+      "collab": "icecube",
+      "email": "yml5822@psu.edu",
+      "first": "Yitong",
+      "from": "2023-11-01",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "ymliu",
+      "last": "Liu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Liubarska",
       "collab": "icecube",
       "email": "mliubars@ualberta.ca",
@@ -50718,6 +50734,22 @@
       "instnames": [
         "madisonpac"
       ],
+      "last": "Wang",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Wang",
+      "collab": "icecube",
+      "email": "ypw5466@psu.edu",
+      "first": "Yongyi",
+      "from": "2023-11-01",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "ypwang",
       "last": "Wang",
       "orcid": "",
       "thanks": [],
