@@ -32577,6 +32577,21 @@
       "to": "2012-07-22"
     },
     {
+      "authname": "A. Millsop",
+      "collab": "icecube-gen2",
+      "email": "archie.millsop@kcl.ac.uk",
+      "first": "Archie",
+      "from": "2023-11-07",
+      "instnames": [
+        "kingscollege"
+      ],
+      "keycloak_username": "millsop",
+      "last": "Millsop",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Y. Minaeva",
       "collab": "icecube",
       "first": "Y.",
