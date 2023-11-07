@@ -40203,6 +40203,21 @@
       "to": ""
     },
     {
+      "authname": "A. Rosted",
+      "collab": "icecube",
+      "email": "askerosted@gmail.com",
+      "first": "Aske",
+      "from": "2023-11-07",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "arosted",
+      "last": "Rosted",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Roth",
       "collab": "icecube",
       "email": "roth@bartol.udel.edu",
