@@ -38581,7 +38581,7 @@
       "last": "Rechav",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-09"
     },
     {
       "authname": "Z. Rechav",
@@ -38589,6 +38589,36 @@
       "email": "zoe.rechav@icecube.wisc.edu",
       "first": "Zoe",
       "from": "2021-12-02",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "zrechav",
+      "last": "Rechav",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-11-09"
+    },
+    {
+      "authname": "Z. Rechav",
+      "collab": "icecube",
+      "email": "rechav@wisc.edu",
+      "first": "Zoe",
+      "from": "2023-11-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "zrechav",
+      "last": "Rechav",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Rechav",
+      "collab": "icecube-gen2",
+      "email": "rechav@wisc.edu",
+      "first": "Zoe",
+      "from": "2023-11-10",
       "instnames": [
         "madisonpac"
       ],
