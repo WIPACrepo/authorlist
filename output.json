@@ -22685,7 +22685,7 @@
       "last": "Jones",
       "orcid": "0000-0003-3400-8986",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-16"
     },
     {
       "authname": "B. J. P. Jones",
@@ -22693,6 +22693,36 @@
       "email": "ben.jones@uta.edu",
       "first": "Ben",
       "from": "2017-03-09",
+      "instnames": [
+        "arlington"
+      ],
+      "keycloak_username": "bjones",
+      "last": "Jones",
+      "orcid": "0000-0003-3400-8986",
+      "thanks": [],
+      "to": "2023-11-16"
+    },
+    {
+      "authname": "B. J. P. Jones",
+      "collab": "icecube",
+      "email": "ben.jones@uta.edu",
+      "first": "Benjamin",
+      "from": "2023-11-17",
+      "instnames": [
+        "arlington"
+      ],
+      "keycloak_username": "bjones",
+      "last": "Jones",
+      "orcid": "0000-0003-3400-8986",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. J. P. Jones",
+      "collab": "icecube-gen2",
+      "email": "ben.jones@uta.edu",
+      "first": "Benjamin",
+      "from": "2023-11-17",
       "instnames": [
         "arlington"
       ],
