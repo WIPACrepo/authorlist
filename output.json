@@ -14902,7 +14902,7 @@
       "last": "F\u00fcrst",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-16"
     },
     {
       "authname": "P. F\u00fcrst",
@@ -14916,6 +14916,36 @@
       "keycloak_username": "pfuerst",
       "last": "F\u00fcrst",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-11-16"
+    },
+    {
+      "authname": "P. F\u00fcrst",
+      "collab": "icecube",
+      "email": "philipp.fuerst@icecube.wisc.edu",
+      "first": "Philipp",
+      "from": "2023-11-17",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pfuerst",
+      "last": "F\u00fcrst",
+      "orcid": "0000-0002-7951-8042",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. F\u00fcrst",
+      "collab": "icecube-gen2",
+      "email": "philipp.fuerst@icecube.wisc.edu",
+      "first": "Philipp",
+      "from": "2023-11-17",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pfuerst",
+      "last": "F\u00fcrst",
+      "orcid": "0000-0002-7951-8042",
       "thanks": [],
       "to": ""
     },
