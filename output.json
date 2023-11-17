@@ -21886,6 +21886,21 @@
       "to": ""
     },
     {
+      "authname": "T. Ishii",
+      "collab": "icecube-gen2",
+      "email": "a20ss001@st.osaka-cu.ac.jp",
+      "first": "Tatsuki",
+      "from": "2023-11-17",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "tishii",
+      "last": "Ishii",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Jacobi",
       "collab": "icecube",
       "email": "emanuel.jacobi@icecube.wisc.edu",
