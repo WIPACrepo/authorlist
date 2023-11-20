@@ -40620,6 +40620,21 @@
       "to": "2010-09-01"
     },
     {
+      "authname": "V. Roy",
+      "collab": "icecube-gen2",
+      "email": "pvr15@uclive.ac.nz",
+      "first": "Vagdhan",
+      "from": "2023-11-20",
+      "instnames": [
+        "christchurch"
+      ],
+      "keycloak_username": "vroy",
+      "last": "Roy",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "T. Ruhe",
       "collab": "icecube",
       "email": "tim.ruhe@icecube.wisc.edu",
@@ -50135,6 +50150,21 @@
       ],
       "keycloak_username": "mvereecken",
       "last": "Vereecken",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Vergara Carrasco",
+      "collab": "icecube-gen2",
+      "email": "snv19@uclive.ac.nz",
+      "first": "Sebastian",
+      "from": "2023-11-20",
+      "instnames": [
+        "christchurch"
+      ],
+      "keycloak_username": "svergaracarrasco",
+      "last": "Vergara Carrasco",
       "orcid": "",
       "thanks": [],
       "to": ""
