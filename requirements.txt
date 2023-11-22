@@ -1,5 +1,7 @@
 latexcodec
 pylatexenc
+pytest
+pytest-async
 requests
 tornado
 Unidecode

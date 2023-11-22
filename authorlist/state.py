@@ -108,6 +108,12 @@ class State:
         """
         Set author data to a new value.
 
+        Only updates matches based on:
+        * keycloak_username
+        * collab
+        * from
+        * instnames
+
         Args:
             author_data (list): new author information
             collabs (list): (optional) collaborations to update
