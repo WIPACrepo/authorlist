@@ -15,7 +15,7 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/cehckout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
       - name: Setup env
         run: |
@@ -28,7 +28,7 @@ jobs:
     needs: [tests]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Git config
