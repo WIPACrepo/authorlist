@@ -54,6 +54,10 @@ def make_username(author):
 def match_one(author, user):
     if 'keycloak_username' in author:
         return author['keycloak_username'] == user['username']
+    if author['email'] == user.get('email', -1):
+        return True
+    if author['email'].split('@')[0] == user['username']:
+        return True
     afirst = unidecode.unidecode(author['first'].lower())
     alast = unidecode.unidecode(author['last'].lower())
     ufirst = unidecode.unidecode(user.get('firstName','').lower())
@@ -63,13 +67,10 @@ def match_one(author, user):
         ufirst = ufirst[0]
     if afirst == ufirst and alast == ulast:
         return True
-    if author['email'] == user.get('email', -1):
-        return True
-    if author['email'].split('@')[0] == user['username']:
-        return True
-    username = make_username(author)
-    if user['username'].startswith(username):
-        return True
+    # this is dangerous, and could match similar people, since it only uses the first letter of the first name
+    #username = make_username(author)
+    #if user['username'].startswith(username):
+    #    return True
     return False
 
 def match_users(authorlist, keycloak):
@@ -81,34 +82,8 @@ def match_users(authorlist, keycloak):
                 break
     return matches
 
-def check(data):
-    for a in data['authors']:
-        if 'instnames' in a:
-            for inst in a['instnames']:
-                if inst not in data['institutions']:
-                    print(a['authname'],inst)
-                    raise Exception('bad instname')
-        if 'thanks' in a:
-            for t in a['thanks']:
-                if t not in data['thanks']:
-                    print(a['authname'],t)
-                    raise Exception('bad thanks')
-        if 'instnames' not in a and 'thanks' not in a:
-            print(a['authname'])
-            raise Exception('no instname or thanks')
 
-def save(outfile, data):
-    check(data)
-    data['authors'].sort(key=author_ordering)
-
-    if outfile:
-        with open(outfile, 'w') as f:
-            json.dump(data, f, indent=2, sort_keys=True)
-    else:
-        pprint(data)
-
-
-async def to_json(state, filename_out, experiment, dryrun=False, client=None):
+async def sync(state, filename_out, experiment, dryrun=False, client=None):
     if experiment.lower() == 'icecube':
         authorlist_insts_to_groups = IceCube.authorlist_insts_to_groups
         groups_to_authorlist_insts = IceCube.groups_to_authorlist_insts
@@ -290,7 +265,7 @@ def main():
 
     state = State(args['filename'], collab=args['experiment'].lower())
     
-    asyncio.run(to_json(state, args['filename_out'], experiment=args['experiment'], dryrun=args['dryrun'], client=keycloak_client))
+    asyncio.run(sync(state, args['filename_out'], experiment=args['experiment'], dryrun=args['dryrun'], client=keycloak_client))
 
 if __name__ == '__main__':
     main()
