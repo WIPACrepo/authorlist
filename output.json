@@ -55120,7 +55120,7 @@
       "name": "Drexel"
     },
     "edmonton": {
-      "cite": "Dept. of Physics, University of Alberta, Edmonton, Alberta, Canada T6G 2E1",
+      "cite": "Dept. of Physics, University of Alberta, Edmonton, Alberta, T6G 2E1, Canada",
       "city": "Edmonton",
       "collabs": [
         "icecube",
@@ -55291,7 +55291,7 @@
       "name": "Kansas"
     },
     "karlsruhe": {
-      "cite": "Karlsruhe Institute of Technology, Institute for Astroparticle Physics, D-76021 Karlsruhe, Germany ",
+      "cite": "Karlsruhe Institute of Technology, Institute for Astroparticle Physics, D-76021 Karlsruhe, Germany",
       "city": "Karlsruhe",
       "collabs": [
         "icecube",
@@ -55305,7 +55305,7 @@
       "name": "Karlsruhe Astro Physics"
     },
     "karlsruheexp": {
-      "cite": "Karlsruhe Institute of Technology, Institute of Experimental Particle Physics, D-76021 Karlsruhe, Germany ",
+      "cite": "Karlsruhe Institute of Technology, Institute of Experimental Particle Physics, D-76021 Karlsruhe, Germany",
       "city": "Karlsruhe",
       "collabs": [
         "icecube",
@@ -55349,21 +55349,21 @@
         "icecube-gen2"
       ],
       "keycloak_groups": [
-        "/institutions/IceCube/LasVegas/authorlist-dept-physics",
-        "/institutions/IceCube-Gen2/LasVegas/authorlist-dept-physics"
+        "/institutions/IceCube/LasVegas/authorlist-astrophysics",
+        "/institutions/IceCube-Gen2/LasVegas/authorlist-astrophysics"
       ],
       "name": "LasVegasAstro"
     },
     "lasvegasphysics": {
-      "cite": "Department of Physics & Astronomy, University of Nevada, Las Vegas, NV, 89154, USA",
+      "cite": "Department of Physics & Astronomy, University of Nevada, Las Vegas, NV 89154, USA",
       "city": "Las Vegas",
       "collabs": [
         "icecube",
         "icecube-gen2"
       ],
       "keycloak_groups": [
-        "/institutions/IceCube/LasVegas/authorlist-astrophysics",
-        "/institutions/IceCube-Gen2/LasVegas/authorlist-astrophysics"
+        "/institutions/IceCube/LasVegas/authorlist-dept-physics",
+        "/institutions/IceCube-Gen2/LasVegas/authorlist-dept-physics"
       ],
       "name": "LasVegasPhysics"
     },
@@ -55416,7 +55416,7 @@
       "name": "Loyola"
     },
     "madison": {
-      "cite": "Dept. of Physics, University of Wisconsin\u2013Madison, Madison, WI 53706, USA",
+      "cite": "Dept. of Physics, University of Wisconsin\u2014Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",
@@ -55426,7 +55426,7 @@
       "name": "Madison"
     },
     "madisonastro": {
-      "cite": "Dept. of Astronomy, University of Wisconsin\u2013Madison, Madison, WI 53706, USA",
+      "cite": "Dept. of Astronomy, University of Wisconsin\u2014Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",
@@ -55440,7 +55440,7 @@
       "name": "MadisonAstro"
     },
     "madisonpac": {
-      "cite": "Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin\u2013Madison, Madison, WI 53706, USA",
+      "cite": "Dept. of Physics and Wisconsin IceCube Particle Astrophysics Center, University of Wisconsin\u2014Madison, Madison, WI 53706, USA",
       "city": "Madison",
       "collabs": [
         "icecube",
@@ -55480,7 +55480,7 @@
       "name": "Manchester"
     },
     "marquette": {
-      "cite": "Department of Physics, Marquette University, Milwaukee, WI, 53201, USA",
+      "cite": "Department of Physics, Marquette University, Milwaukee, WI 53201, USA",
       "city": "Milwaukee",
       "collabs": [
         "icecube",
@@ -55737,7 +55737,7 @@
       "name": "Oxfordold"
     },
     "padova": {
-      "cite": "Dipartimento di Fisica e Astronomia Galileo Galilei, Universit\u00e0 Degli Studi di Padova, 35122 Padova PD, Italy",
+      "cite": "Dipartimento di Fisica e Astronomia Galileo Galilei, Universit\u00e0 Degli Studi di Padova, I-35122 Padova PD, Italy",
       "city": "Padova",
       "collabs": [
         "icecube",
@@ -55870,7 +55870,7 @@
       "name": "AcademiaSinica"
     },
     "skku": {
-      "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 16419, Korea",
+      "cite": "Dept. of Physics, Sungkyunkwan University, Suwon 16419, Republic of Korea",
       "city": "Suwon",
       "collabs": [
         "icecube",
@@ -55884,7 +55884,7 @@
       "name": "SKKU"
     },
     "skku2": {
-      "cite": "Institute of Basic Science, Sungkyunkwan University, Suwon 16419, Korea",
+      "cite": "Institute of Basic Science, Sungkyunkwan University, Suwon 16419, Republic of Korea",
       "city": "Suwon",
       "collabs": [
         "icecube",
@@ -56045,7 +56045,7 @@
       "name": "UCLouvain"
     },
     "uppsala": {
-      "cite": "Dept. of Physics and Astronomy, Uppsala University, Box 516, S-75120 Uppsala, Sweden",
+      "cite": "Dept. of Physics and Astronomy, Uppsala University, Box 516, SE-75120 Uppsala, Sweden",
       "city": "Uppsala",
       "collabs": [
         "icecube",
@@ -56121,7 +56121,7 @@
       "name": "Yale"
     },
     "zeuthen": {
-      "cite": "Deutsches Elektronen-Synchrotron DESY, Platanenallee 6, 15738 Zeuthen, Germany ",
+      "cite": "Deutsches Elektronen-Synchrotron DESY, Platanenallee 6, D-15738 Zeuthen, Germany",
       "city": "Zeuthen",
       "collabs": [
         "icecube",

@@ -189,6 +189,7 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
     def inst_sort(k):
         values = all_author_insts[k]
         return [values.get('insert_date', ''), k]
+    removed_insts = set()
     for krs_name, krs_path in krs_insts.items():
         ret = []
         for inst, inst_values in all_author_insts.items():
@@ -202,6 +203,16 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
             new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
             inst = state.add_institution(**new_inst)
             ret = [inst]
+        else:
+            new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
+            old_inst = all_author_insts[ret[-1]]
+            if new_inst['cite'] != old_inst['cite'] or new_inst['city'] != old_inst['city']:
+                logging.warning('group %s needs updating', krs_path)
+                logging.debug('%r != %r', old_inst, new_inst)
+                removed_insts.add(ret[-1])
+                old_inst['keycloak_groups'].remove(krs_path)
+                inst = state.add_institution(**new_inst)
+                ret = [inst]
         authorlist_inst_name = ret[-1]
         logging.info('keycloak group: %s = author inst: %s', krs_path, authorlist_inst_name)
         if authorlist_inst_name in authorlist_insts_to_groups:
@@ -216,7 +227,7 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
     authors = state.authors(now)
     author_insts = state.institutions(now)
     for i in author_insts:
-        if i not in authorlist_insts_to_groups:
+        if i not in authorlist_insts_to_groups and i not in removed_insts:
             logging.debug('mapping: %r', authorlist_insts_to_groups)
             raise Exception(f'inst {i} is not in authorlist->keycloak mapping')
 
