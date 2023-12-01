@@ -17561,6 +17561,36 @@
       "to": "2016-04-26"
     },
     {
+      "authname": "C. Ha",
+      "collab": "icecube",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2023-12-01",
+      "instnames": [
+        "chung-ang-2023"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube-gen2",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2023-12-01",
+      "instnames": [
+        "chung-ang-2023"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Haack",
       "collab": "icecube",
       "email": "christian.haack@icecube.wisc.edu",
@@ -19432,7 +19462,7 @@
       "last": "Hellrung",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-30"
     },
     {
       "authname": "J. Hellrung",
@@ -19446,6 +19476,36 @@
       "keycloak_username": "jhellrung",
       "last": "Hellrung",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-11-30"
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-12-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube-gen2",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-12-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
       "thanks": [],
       "to": ""
     },
@@ -43936,7 +43996,7 @@
       "last": "Seikh",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-30"
     },
     {
       "authname": "M. Seikh",
@@ -43950,6 +44010,36 @@
       "keycloak_username": "mhossain",
       "last": "Seikh",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-11-30"
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-12-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
+      "orcid": "0000-0002-4464-7354",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube-gen2",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-12-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
+      "orcid": "0000-0002-4464-7354",
       "thanks": [],
       "to": ""
     },
@@ -54940,6 +55030,19 @@
         "/institutions/IceCube-Gen2/Canterbury/authorlist"
       ],
       "name": "Christchurch"
+    },
+    "chung-ang-2023": {
+      "cite": "Dept. of Physics, Chung-Ang University, Seoul 06974, Korea",
+      "city": "Seoul",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chung-Ang/authorlist",
+        "/institutions/IceCube/Chung-Ang/authorlist"
+      ],
+      "name": "Chung-Ang"
     },
     "columbia": {
       "cite": "Columbia Astrophysics and Nevis Laboratories, Columbia University, New York, NY 10027, USA",
