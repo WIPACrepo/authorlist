@@ -660,10 +660,16 @@ async def test_sync(json_file, keycloak_fake, monkeypatch):
     list_insts.return_value = {
         '/experiments/IceCube/inst1': {
             'authorlist': 'true',
+            'cite': AUTHOR_DATA['institutions']['inst1']['cite'],
+            'city': AUTHOR_DATA['institutions']['inst1']['city'],
         },
         '/experiments/IceCube/inst2': {
             'authorlist': 'true',
-            'authorlists': ['astro', 'physics'],
+            'authorlists': {
+                'astro': AUTHOR_DATA['institutions']['inst2-astro']['cite'],
+                'physics': AUTHOR_DATA['institutions']['inst2-physics']['cite'],
+            },
+            'city': AUTHOR_DATA['institutions']['inst2-astro']['city'],
         },
     }
 
@@ -736,10 +742,16 @@ async def test_sync_new_inst(json_file, keycloak_fake, monkeypatch):
     list_insts.return_value = {
         '/experiments/IceCube/inst1': {
             'authorlist': 'true',
+            'cite': AUTHOR_DATA['institutions']['inst1']['cite'],
+            'city': AUTHOR_DATA['institutions']['inst1']['city'],
         },
         '/experiments/IceCube/inst2': {
             'authorlist': 'true',
-            'authorlists': ['astro', 'physics'],
+            'authorlists': {
+                'astro': AUTHOR_DATA['institutions']['inst2-astro']['cite'],
+                'physics': AUTHOR_DATA['institutions']['inst2-physics']['cite'],
+            },
+            'city': AUTHOR_DATA['institutions']['inst2-astro']['city'],
         },
         '/experiments/IceCube/inst3': {
             'authorlist': 'true',
@@ -787,10 +799,16 @@ async def test_sync_new_inst2(json_file, keycloak_fake, monkeypatch):
     list_insts.return_value = {
         '/experiments/IceCube/inst1': {
             'authorlist': 'true',
+            'cite': AUTHOR_DATA['institutions']['inst1']['cite'],
+            'city': AUTHOR_DATA['institutions']['inst1']['city'],
         },
         '/experiments/IceCube/inst2': {
             'authorlist': 'true',
-            'authorlists': ['astro', 'physics'],
+            'authorlists': {
+                'astro': AUTHOR_DATA['institutions']['inst2-astro']['cite'],
+                'physics': AUTHOR_DATA['institutions']['inst2-physics']['cite'],
+            },
+            'city': AUTHOR_DATA['institutions']['inst2-astro']['city'],
         },
         '/experiments/IceCube/inst3': {
             'authorlist': 'true',
@@ -817,4 +835,67 @@ async def test_sync_new_inst2(json_file, keycloak_fake, monkeypatch):
     else:
         logging.debug('%r', s._institutions)
         assert False  #: inst3 gen2 was not added
+
+
+@pytest.mark.asyncio
+async def test_sync_update_cite(json_file, keycloak_fake, monkeypatch):
+    user_info, get_group_membership, list_insts = keycloak_fake
+
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+    filename_out = filename.parent / 'sync_out.json'
+
+    kd = deepcopy(KEYCLOAK_DATA)
+    kd['users']['fbar'] = {
+        'firstName': 'Foo',
+        'lastName': 'Bar',
+        'username': 'fbar',
+        'email': 'fbar@icecube.wisc.edu',
+        'attributes': {},
+    }
+    kd['groups']['/experiments/IceCube/inst3/authorlist'] = ['fbar']
+    def members(group, **kwargs):
+         return kd['groups'][group]
+    get_group_membership.side_effect = members
+    def get_user(username, **kwargs):
+        if username in kd['users']:
+            return kd['users'][username]
+        else:
+            raise Exception('bad username:'+username)
+    user_info.side_effect = get_user
+    list_insts.return_value = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': AUTHOR_DATA['institutions']['inst1']['cite'],
+            'city': AUTHOR_DATA['institutions']['inst1']['city'],
+        },
+        '/experiments/IceCube/inst2': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'My Citation',
+                'physics': AUTHOR_DATA['institutions']['inst2-physics']['cite'],
+            },
+            'city': AUTHOR_DATA['institutions']['inst2-astro']['city'],
+        },
+    }
+
+    await import_from_keycloak.sync(s, str(filename_out), experiment='IceCube')
+
+    assert '/experiments/IceCube/inst2/authorlist-astro' not in s._institutions['inst2-astro']['keycloak_groups']
+
+    for instname, values in s._institutions.items():
+        if '/experiments/IceCube/inst2/authorlist-astro' in values.get('keycloak_groups', []):
+            break
+    else:
+        logging.debug('%r', s._institutions)
+        assert False  #: inst2 was not readded
+
+    for author in s._authors:
+        if author['keycloak_username'] == 'jdoe2' and author['to'] == '':
+            assert author['instnames'] != ['inst2-astro']
+            break
+    else:
+        logging.debug('%r', s._authors)
+        assert False  #: author wasn't updated
+        
     
