@@ -21,7 +21,7 @@ def keycloak_fake(monkeypatch):
     monkeypatch.setattr(import_from_keycloak, 'get_group_membership', get_group_membership)
 
     list_insts = AsyncMock()
-    monkeypatch.setattr(import_from_keycloak, 'list_insts', list_insts)
+    monkeypatch.setattr(import_from_keycloak, 'list_insts_cached', list_insts)
 
     yield user_info, get_group_membership, list_insts
 
