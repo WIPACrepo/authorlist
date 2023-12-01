@@ -9,8 +9,8 @@ from krs.users import user_info
 from krs.groups import get_group_membership
 from krs.institutions import list_insts
 
+from authorlist import collabs as COLLABS
 from authorlist.state import State
-from authorlist.keycloak_utils import IceCube, IceCubeGen2
 
 import unidecode
 
@@ -46,6 +46,15 @@ async def get_keycloak_users(group, rest_client=None):
             raise
     return ret
 
+inst_cache = None
+async def list_insts_cached(rest_client=None):
+    global inst_cache
+    if inst_cache:
+        return inst_cache
+    ret = await list_insts(rest_client=rest_client)
+    inst_cache = ret
+    return ret
+
 def make_username(author):
     ret = unidecode.unidecode(author['first'].lower())[0]+unidecode.unidecode(author['last'].lower())
     ret = ret.replace('"', '').replace("'", '').replace(' ', '')
@@ -54,6 +63,10 @@ def make_username(author):
 def match_one(author, user):
     if 'keycloak_username' in author:
         return author['keycloak_username'] == user['username']
+    if author['email'] == user.get('email', -1):
+        return True
+    if author['email'].split('@')[0] == user['username']:
+        return True
     afirst = unidecode.unidecode(author['first'].lower())
     alast = unidecode.unidecode(author['last'].lower())
     ufirst = unidecode.unidecode(user.get('firstName','').lower())
@@ -63,13 +76,10 @@ def match_one(author, user):
         ufirst = ufirst[0]
     if afirst == ufirst and alast == ulast:
         return True
-    if author['email'] == user.get('email', -1):
-        return True
-    if author['email'].split('@')[0] == user['username']:
-        return True
-    username = make_username(author)
-    if user['username'].startswith(username):
-        return True
+    # this is dangerous, and could match similar people, since it only uses the first letter of the first name
+    #username = make_username(author)
+    #if user['username'].startswith(username):
+    #    return True
     return False
 
 def match_users(authorlist, keycloak):
@@ -81,42 +91,123 @@ def match_users(authorlist, keycloak):
                 break
     return matches
 
-def check(data):
-    for a in data['authors']:
-        if 'instnames' in a:
-            for inst in a['instnames']:
-                if inst not in data['institutions']:
-                    print(a['authname'],inst)
-                    raise Exception('bad instname')
-        if 'thanks' in a:
-            for t in a['thanks']:
-                if t not in data['thanks']:
-                    print(a['authname'],t)
-                    raise Exception('bad thanks')
-        if 'instnames' not in a and 'thanks' not in a:
-            print(a['authname'])
-            raise Exception('no instname or thanks')
 
-def save(outfile, data):
-    check(data)
-    data['authors'].sort(key=author_ordering)
+def create_inst(krs_insts_raw, krs_path, experiment):
+    krs_inst_path = krs_path.rsplit('/', 1)[0]
+    krs_inst_name = krs_inst_path.rsplit('/', 1)[-1]
+    krs_inst_data = krs_insts_raw[krs_inst_path]
 
-    if outfile:
-        with open(outfile, 'w') as f:
-            json.dump(data, f, indent=2, sort_keys=True)
-    else:
-        pprint(data)
+    authorlist_name = None
+    if 'authorlists' in krs_inst_data:
+        authorlist_name = krs_path.rsplit('/', 1)[1].replace('authorlist-', '')
+        if authorlist_name not in krs_inst_data['authorlists']:
+            raise Exception(f'cannot load authorlist {authorlist_name} in {krs_inst_path}')
+
+    # get all valid collabs and citations from each
+    citations = {}
+    for path in krs_insts_raw:
+        if path.rsplit('/', 1)[-1] == krs_inst_name:
+            krs_data = krs_insts_raw[path]
+            if krs_data.get('authorlist', 'false') != 'true':
+                logging.info('authorlist disabled for %s', path)
+                continue
+
+            exp = path.split('/')[2]
+            c = exp.lower()
+            if c not in COLLABS:
+                logging.info('invalid collab: %s', c)
+                continue
+
+            cite = ''
+            if 'authorlists' in krs_data:
+                if (not authorlist_name) or authorlist_name not in krs_data['authorlists']:
+                    logging.info('insts differ, not combining: %s and %s', krs_inst_path, path)
+                    continue
+                cite = krs_data['authorlists'][authorlist_name]
+                if not cite:
+                    cite = krs_data.get('cite', '')
+            else:
+                if authorlist_name:
+                    logging.info('insts differ, not combining: %s and %s', krs_inst_path, path)
+                    continue
+                cite = krs_data.get('cite', '')
+            if not cite:
+                cite = krs_data.get('cite', '')
+
+            citations[exp] = cite
+
+    logging.debug('citations: %r', citations)
+    cites = set(c for c in citations.values() if c)
+    if not cites:
+        raise Exception(f'must define a citation for {krs_inst_name} authorlist {authorlist_name}')
+    if len(cites) > 1:
+        raise Exception(f'differing citations for {krs_inst_name} authorlist {authorlist_name}')
+    cite = list(cites)[0]
+
+    # get krs groups and city
+    krs_groups = [krs_path.replace(experiment, exp, 1) for exp in citations]
+    logging.debug('krs_groups: %r', krs_groups)
+    krs_inst_groups = [p.rsplit('/', 1)[0] for p in krs_groups]
+    cities = set(krs_insts_raw[p]['city'] for p in krs_inst_groups if krs_insts_raw[p].get('city',''))
+    logging.debug('cities: %r', cities)
+    if not cities:
+        raise Exception(f'must define a city on one of the {krs_inst_name} inst groups in keycloak')
+    if len(cities) > 1:
+        raise Exception(f'differing cities on the {krs_inst_name} inst groups in keycloak')
+    city = list(cities)[0]
+
+    return {
+        'name': krs_inst_name,
+        'city': city,
+        'cite': cite,
+        'collabs': [c.lower() for c in citations],
+        'keycloak_groups': krs_groups,
+    }
 
 
-async def to_json(state, filename_out, experiment, dryrun=False, client=None):
-    if experiment.lower() == 'icecube':
-        authorlist_insts_to_groups = IceCube.authorlist_insts_to_groups
-        groups_to_authorlist_insts = IceCube.groups_to_authorlist_insts
-    elif experiment.lower() == 'icecube-gen2':
-        authorlist_insts_to_groups = IceCubeGen2.authorlist_insts_to_groups
-        groups_to_authorlist_insts = IceCubeGen2.groups_to_authorlist_insts
-    else:
+async def sync(state, filename_out, experiment, dryrun=False, client=None):
+    collab = experiment.lower()
+    if collab not in COLLABS:
         raise Exception(f'invalid experiment: {experiment}')
+
+    authorlist_insts_to_groups = {}
+
+    krs_insts_raw = await list_insts_cached(rest_client=client)
+    logging.debug('krs_insts_raw: %r', krs_insts_raw)
+    krs_insts = {}
+    for k in krs_insts_raw:
+        parts = k.split('/')
+        if parts[2] == experiment and krs_insts_raw[k].get('authorlist', 'false') == 'true':
+            base_name = parts[-1].lower()
+            if 'authorlists' in krs_insts_raw[k]:
+                for name in krs_insts_raw[k]['authorlists']:
+                    krs_insts[base_name+'-'+name] = k+'/authorlist-'+name
+            else:
+                krs_insts[base_name] = k+'/authorlist'
+    logging.debug('krs_insts: %r', krs_insts)
+    all_author_insts = state.lookup_institutions()
+    def inst_sort(k):
+        values = all_author_insts[k]
+        return [values.get('insert_date', ''), k]
+    for krs_name, krs_path in krs_insts.items():
+        ret = []
+        for inst, inst_values in all_author_insts.items():
+            if collab not in inst_values.get('collabs', []):
+                continue
+            if 'keycloak_groups' in inst_values and krs_path in inst_values['keycloak_groups']:
+                ret.append(inst)
+        ret.sort(key=inst_sort)
+        if not ret:
+            logging.warning(f'group {krs_path} is not in keycloak->authorlist mapping!')
+            new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
+            inst = state.add_institution(**new_inst)
+            ret = [inst]
+        authorlist_inst_name = ret[-1]
+        logging.info('keycloak group: %s = author inst: %s', krs_path, authorlist_inst_name)
+        if authorlist_inst_name in authorlist_insts_to_groups:
+            logging.warning('existing keycloak group: %s', authorlist_insts_to_groups[authorlist_inst_name])
+            raise Exception(f'inst {authorlist_insts_to_groups} is a duplicate!')
+        authorlist_insts_to_groups[authorlist_inst_name] = krs_path
 
     # check our institution mappings
     now = datetime.utcnow().isoformat()
@@ -126,21 +217,8 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
     author_insts = state.institutions(now)
     for i in author_insts:
         if i not in authorlist_insts_to_groups:
+            logging.debug('mapping: %r', authorlist_insts_to_groups)
             raise Exception(f'inst {i} is not in authorlist->keycloak mapping')
-
-    krs_insts_raw = await list_insts(experiment, rest_client=client)
-    krs_insts = {}
-    for k in krs_insts_raw:
-        if krs_insts_raw[k].get('authorlist', 'false') == 'true':
-            base_name = k.split('/')[-1].lower()
-            if 'authorlists' in krs_insts_raw[k]:
-                for name in krs_insts_raw[k]['authorlists']:
-                    krs_insts[base_name+'-'+name] = k+'/authorlist-'+name
-            else:
-                krs_insts[base_name] = k+'/authorlist'
-    for i in krs_insts.values():
-        if i not in groups_to_authorlist_insts:
-            raise Exception(f'group {i} is not in keycloak->authorlist mapping')
 
     authors_by_username = {}
     for a in authors:
@@ -223,7 +301,7 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
                         thanks = [thanks]
                     updated_author_data[user['username']] = {
                         'authname': authname,
-                        'collab': experiment.lower(),
+                        'collab': collab,
                         'email': user['email'],
                         'first': user['firstName'],
                         'from': now_date.isoformat(),
@@ -271,7 +349,8 @@ async def to_json(state, filename_out, experiment, dryrun=False, client=None):
             logging.info(f'adding author {a["keycloak_username"]} with insts {a["instnames"]}')
             state.add_author(a)
 
-    state.save(filename_out)
+    if not dryrun:
+        state.save(filename_out)
 
 def main():
     import argparse
@@ -279,7 +358,7 @@ def main():
     parser = argparse.ArgumentParser(description='Export to Keycloak')
     parser.add_argument('filename', help='author list json filename')
     parser.add_argument('filename_out', help='author list json filename')
-    parser.add_argument('--experiment', default='IceCube', help='experiment to filter by')
+    parser.add_argument('--experiment', action='append', help='experiment to filter by')
     parser.add_argument('--log-level', default='info', choices=('debug', 'info', 'warning', 'error'), help='logging level')
     parser.add_argument('--dryrun', action='store_true', help='dry run')
     args = vars(parser.parse_args())
@@ -288,9 +367,14 @@ def main():
 
     keycloak_client = get_rest_client()
 
-    state = State(args['filename'], collab=args['experiment'].lower())
-    
-    asyncio.run(to_json(state, args['filename_out'], experiment=args['experiment'], dryrun=args['dryrun'], client=keycloak_client))
+    if not args['experiment']:
+        args['experiment'] = ['IceCube', 'IceCube-Gen2']
+
+    State(args['filename']).save(args['filename_out'])
+    for exp in args['experiment']:
+        logging.warning('Syncing for experiment %s', exp)
+        state = State(args['filename_out'], collab=exp.lower())        
+        asyncio.run(sync(state, args['filename_out'], experiment=exp, dryrun=args['dryrun'], client=keycloak_client))
 
 if __name__ == '__main__':
     main()

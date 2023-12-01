@@ -17561,6 +17561,36 @@
       "to": "2016-04-26"
     },
     {
+      "authname": "C. Ha",
+      "collab": "icecube",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2023-12-01",
+      "instnames": [
+        "chung-ang-2023"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube-gen2",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2023-12-01",
+      "instnames": [
+        "chung-ang-2023"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Haack",
       "collab": "icecube",
       "email": "christian.haack@icecube.wisc.edu",
@@ -19432,7 +19462,7 @@
       "last": "Hellrung",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-30"
     },
     {
       "authname": "J. Hellrung",
@@ -19446,6 +19476,36 @@
       "keycloak_username": "jhellrung",
       "last": "Hellrung",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-11-30"
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-12-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube-gen2",
+      "email": "jonas.hellrung@icecube.wisc.edu",
+      "first": "Jonas",
+      "from": "2023-12-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
       "thanks": [],
       "to": ""
     },
@@ -43936,7 +43996,7 @@
       "last": "Seikh",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-11-30"
     },
     {
       "authname": "M. Seikh",
@@ -43950,6 +44010,36 @@
       "keycloak_username": "mhossain",
       "last": "Seikh",
       "orcid": "",
+      "thanks": [],
+      "to": "2023-11-30"
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-12-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
+      "orcid": "0000-0002-4464-7354",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Seikh",
+      "collab": "icecube-gen2",
+      "email": "ful.hossain@icecube.wisc.edu",
+      "first": "Mohammad Ful Hossain",
+      "from": "2023-12-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "mhossain",
+      "last": "Seikh",
+      "orcid": "0000-0002-4464-7354",
       "thanks": [],
       "to": ""
     },
@@ -54641,6 +54731,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Aachen/authorlist",
+        "/institutions/IceCube-Gen2/Aachen/authorlist"
+      ],
       "name": "Aachen"
     },
     "adelaide": {
@@ -54650,6 +54744,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Adelaide/authorlist",
+        "/institutions/IceCube-Gen2/Adelaide/authorlist"
       ],
       "name": "Adelaide"
     },
@@ -54671,6 +54769,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Alabama/authorlist",
+        "/institutions/IceCube-Gen2/Alabama/authorlist"
+      ],
       "name": "Alabama"
     },
     "anchorage": {
@@ -54680,6 +54782,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Alaska-Anchorage/authorlist",
+        "/institutions/IceCube-Gen2/Alaska-Anchorage/authorlist"
       ],
       "name": "Anchorage"
     },
@@ -54691,6 +54797,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Texas-Arlington/authorlist",
+        "/institutions/IceCube-Gen2/Texas-Arlington/authorlist"
+      ],
       "name": "Arlington"
     },
     "atlanta": {
@@ -54700,6 +54810,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Clark-Atlanta/authorlist",
+        "/institutions/IceCube-Gen2/Clark-Atlanta/authorlist"
       ],
       "name": "Atlanta"
     },
@@ -54721,6 +54835,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Delaware/authorlist",
+        "/institutions/IceCube-Gen2/Delaware/authorlist"
+      ],
       "name": "Bartol"
     },
     "bartolold": {
@@ -54741,6 +54859,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UC-Berkeley/authorlist",
+        "/institutions/IceCube-Gen2/UC-Berkeley/authorlist"
+      ],
       "name": "Berkeley"
     },
     "berlin": {
@@ -54751,6 +54873,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Berlin/authorlist",
+        "/institutions/IceCube-Gen2/Berlin/authorlist"
+      ],
       "name": "Berlin"
     },
     "bochum": {
@@ -54760,6 +54886,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Bochum/authorlist",
+        "/institutions/IceCube-Gen2/Bochum/authorlist"
       ],
       "name": "Bochum"
     },
@@ -54781,6 +54911,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Brussels-ULB/authorlist",
+        "/institutions/IceCube-Gen2/Brussels-ULB/authorlist"
+      ],
       "name": "BrusselsLibre"
     },
     "brusselsvrije": {
@@ -54790,6 +54924,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Brussels-VUB/authorlist",
+        "/institutions/IceCube-Gen2/Brussels-VUB/authorlist"
       ],
       "name": "BrusselsVrije"
     },
@@ -54811,6 +54949,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Chiba/authorlist",
+        "/institutions/IceCube-Gen2/Chiba/authorlist"
+      ],
       "name": "Chiba"
     },
     "chibaold": {
@@ -54831,6 +54973,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chicago/authorlist-astro"
+      ],
       "name": "ChicagoAstro"
     },
     "chicagofermi": {
@@ -54840,6 +54985,9 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chicago/authorlist-fermi"
       ],
       "name": "ChicagoFermi"
     },
@@ -54851,6 +54999,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chicago/authorlist-kavli"
+      ],
       "name": "ChicagoKavli"
     },
     "chicagophysics": {
@@ -54860,6 +55011,9 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chicago/authorlist-physics"
       ],
       "name": "ChicagoPhysics"
     },
@@ -54871,7 +55025,24 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Canterbury/authorlist",
+        "/institutions/IceCube-Gen2/Canterbury/authorlist"
+      ],
       "name": "Christchurch"
+    },
+    "chung-ang-2023": {
+      "cite": "Dept. of Physics, Chung-Ang University, Seoul 06974, Korea",
+      "city": "Seoul",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chung-Ang/authorlist",
+        "/institutions/IceCube/Chung-Ang/authorlist"
+      ],
+      "name": "Chung-Ang"
     },
     "columbia": {
       "cite": "Columbia Astrophysics and Nevis Laboratories, Columbia University, New York, NY 10027, USA",
@@ -54880,6 +55051,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Columbia/authorlist",
+        "/institutions/IceCube-Gen2/Columbia/authorlist"
       ],
       "name": "Columbia"
     },
@@ -54890,6 +55065,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Copenhagen/authorlist",
+        "/institutions/IceCube-Gen2/Copenhagen/authorlist"
       ],
       "name": "Copenhagen"
     },
@@ -54909,6 +55088,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Dortmund/authorlist",
+        "/institutions/IceCube-Gen2/Dortmund/authorlist"
       ],
       "name": "Dortmund"
     },
@@ -54930,6 +55113,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Drexel/authorlist",
+        "/institutions/IceCube-Gen2/Drexel/authorlist"
+      ],
       "name": "Drexel"
     },
     "edmonton": {
@@ -54939,6 +55126,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Alberta/authorlist",
+        "/institutions/IceCube-Gen2/Alberta/authorlist"
       ],
       "name": "Edmonton"
     },
@@ -54959,6 +55150,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Erlangen/authorlist",
+        "/institutions/IceCube-Gen2/Erlangen/authorlist"
       ],
       "name": "Erlangen"
     },
@@ -54989,6 +55184,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Geneva/authorlist",
+        "/institutions/IceCube-Gen2/Geneva/authorlist"
+      ],
       "name": "Geneva"
     },
     "gent": {
@@ -54998,6 +55197,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Gent/authorlist",
+        "/institutions/IceCube-Gen2/Gent/authorlist"
       ],
       "name": "Gent"
     },
@@ -55019,6 +55222,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/GaTech/authorlist",
+        "/institutions/IceCube-Gen2/GaTech/authorlist"
+      ],
       "name": "Georgia"
     },
     "georgiaold": {
@@ -55038,6 +55245,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Harvard/authorlist",
+        "/institutions/IceCube-Gen2/Harvard/authorlist"
       ],
       "name": "Harvard"
     },
@@ -55059,6 +55270,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UC-Irvine/authorlist",
+        "/institutions/IceCube-Gen2/UC-Irvine/authorlist"
+      ],
       "name": "Irvine"
     },
     "kansas": {
@@ -55068,6 +55283,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Kansas/authorlist",
+        "/institutions/IceCube-Gen2/Kansas/authorlist"
       ],
       "name": "Kansas"
     },
@@ -55079,6 +55298,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Karlsruhe/authorlist-astro",
+        "/institutions/IceCube-Gen2/Karlsruhe/authorlist-astro"
+      ],
       "name": "Karlsruhe Astro Physics"
     },
     "karlsruheexp": {
@@ -55088,6 +55311,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Karlsruhe/authorlist-exp",
+        "/institutions/IceCube-Gen2/Karlsruhe/authorlist-exp"
       ],
       "name": "Karlsruhe Exp Physics"
     },
@@ -55109,6 +55336,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/KingsCollege/authorlist"
+      ],
       "name": "King's College London"
     },
     "lasvegasastro": {
@@ -55118,6 +55348,10 @@
         "icecube",
         "icecube-gen2"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/LasVegas/authorlist-dept-physics",
+        "/institutions/IceCube-Gen2/LasVegas/authorlist-dept-physics"
+      ],
       "name": "LasVegasAstro"
     },
     "lasvegasphysics": {
@@ -55126,6 +55360,10 @@
       "collabs": [
         "icecube",
         "icecube-gen2"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/LasVegas/authorlist-astrophysics",
+        "/institutions/IceCube-Gen2/LasVegas/authorlist-astrophysics"
       ],
       "name": "LasVegasPhysics"
     },
@@ -55147,6 +55385,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/LBNL/authorlist",
+        "/institutions/IceCube-Gen2/LBNL/authorlist"
+      ],
       "name": "LBNL"
     },
     "london": {
@@ -55166,6 +55408,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Loyola/authorlist",
+        "/institutions/IceCube-Gen2/Loyola/authorlist"
       ],
       "name": "Loyola"
     },
@@ -55187,6 +55433,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UW-Madison/authorlist-astro",
+        "/institutions/IceCube-Gen2/UW-Madison/authorlist-astro"
+      ],
       "name": "MadisonAstro"
     },
     "madisonpac": {
@@ -55196,6 +55446,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UW-Madison/authorlist-wipac",
+        "/institutions/IceCube-Gen2/UW-Madison/authorlist-wipac"
       ],
       "name": "MadisonPAC"
     },
@@ -55207,6 +55461,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Mainz/authorlist",
+        "/institutions/IceCube-Gen2/Mainz/authorlist"
+      ],
       "name": "Mainz"
     },
     "manchester": {
@@ -55215,6 +55473,9 @@
       "collabs": [
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Manchester/authorlist"
       ],
       "name": "Manchester"
     },
@@ -55226,6 +55487,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Marquette/authorlist",
+        "/institutions/IceCube-Gen2/Marquette/authorlist"
+      ],
       "name": "Marquette"
     },
     "maryland": {
@@ -55235,6 +55500,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Maryland/authorlist",
+        "/institutions/IceCube-Gen2/Maryland/authorlist"
       ],
       "name": "Maryland"
     },
@@ -55256,6 +55525,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Mercer/authorlist",
+        "/institutions/IceCube-Gen2/Mercer/authorlist"
+      ],
       "name": "Mercer"
     },
     "michigan": {
@@ -55266,6 +55539,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Michigan-State/authorlist",
+        "/institutions/IceCube-Gen2/Michigan-State/authorlist"
+      ],
       "name": "Michigan"
     },
     "mit": {
@@ -55275,6 +55552,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/MIT/authorlist",
+        "/institutions/IceCube-Gen2/MIT/authorlist"
       ],
       "name": "MIT"
     },
@@ -55316,6 +55597,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Munich/authorlist",
+        "/institutions/IceCube-Gen2/Munich/authorlist"
+      ],
       "name": "Munich"
     },
     "munichmpi": {
@@ -55346,6 +55631,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Munster/authorlist",
+        "/institutions/IceCube-Gen2/Munster/authorlist"
+      ],
       "name": "Munster"
     },
     "nebraska": {
@@ -55355,6 +55644,9 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Nebraska/authorlist"
       ],
       "name": "Nebraska"
     },
@@ -55366,6 +55658,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/NotreDame/authorlist"
+      ],
       "name": "NotreDame"
     },
     "ohio": {
@@ -55376,6 +55671,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Ohio-State/authorlist-physics",
+        "/institutions/IceCube-Gen2/Ohio-State/authorlist-physics"
+      ],
       "name": "Ohio"
     },
     "ohioastro": {
@@ -55385,6 +55684,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Ohio-State/authorlist-astro",
+        "/institutions/IceCube-Gen2/Ohio-State/authorlist-astro"
       ],
       "name": "OhioAstro"
     },
@@ -55404,6 +55707,9 @@
       "collabs": [
         "icecube-gen2"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Osaka/authorlist"
+      ],
       "name": "Osaka"
     },
     "oxford": {
@@ -55413,6 +55719,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Oxford/authorlist",
+        "/institutions/IceCube-Gen2/Oxford/authorlist"
       ],
       "name": "Oxford"
     },
@@ -55433,6 +55743,10 @@
         "icecube",
         "icecube-gen2"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Padova/authorlist",
+        "/institutions/IceCube-Gen2/Padova/authorlist"
+      ],
       "name": "Padova"
     },
     "pennastro": {
@@ -55442,6 +55756,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Penn-State/authorlist-astro",
+        "/institutions/IceCube-Gen2/Penn-State/authorlist-astro"
       ],
       "name": "PennAstro"
     },
@@ -55453,6 +55771,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Penn-State/authorlist-cosmos"
+      ],
       "name": "PennCosmos"
     },
     "pennphys": {
@@ -55462,6 +55783,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Penn-State/authorlist-physics",
+        "/institutions/IceCube-Gen2/Penn-State/authorlist-physics"
       ],
       "name": "PennPhys"
     },
@@ -55483,6 +55808,9 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/QMLondon/authorlist"
+      ],
       "name": "QMLondon"
     },
     "queens": {
@@ -55492,6 +55820,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Queens/authorlist",
+        "/institutions/IceCube-Gen2/Queens/authorlist"
       ],
       "name": "Queens"
     },
@@ -55503,6 +55835,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UW-River-Falls/authorlist",
+        "/institutions/IceCube-Gen2/UW-River-Falls/authorlist"
+      ],
       "name": "RiverFalls"
     },
     "rochester": {
@@ -55512,6 +55848,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Rochester/authorlist",
+        "/institutions/IceCube-Gen2/Rochester/authorlist"
       ],
       "name": "Rochester"
     },
@@ -55523,6 +55863,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/AcademiaSinica/authorlist",
+        "/institutions/IceCube-Gen2/AcademiaSinica/authorlist"
+      ],
       "name": "AcademiaSinica"
     },
     "skku": {
@@ -55533,6 +55877,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Sungkyunkwan/authorlist-physics",
+        "/institutions/IceCube-Gen2/Sungkyunkwan/authorlist-physics"
+      ],
       "name": "SKKU"
     },
     "skku2": {
@@ -55542,6 +55890,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Sungkyunkwan/authorlist-basic-science",
+        "/institutions/IceCube-Gen2/Sungkyunkwan/authorlist-basic-science"
       ],
       "name": "SKKU"
     },
@@ -55573,6 +55925,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/SD-Mines-Tech/authorlist",
+        "/institutions/IceCube-Gen2/SD-Mines-Tech/authorlist"
+      ],
       "name": "SouthDakota"
     },
     "southern": {
@@ -55582,6 +55938,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Southern/authorlist",
+        "/institutions/IceCube-Gen2/Southern/authorlist"
       ],
       "name": "Southern"
     },
@@ -55603,6 +55963,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Stockholm/authorlist",
+        "/institutions/IceCube-Gen2/Stockholm/authorlist"
+      ],
       "name": "StockholmOKC"
     },
     "stonybrook": {
@@ -55613,6 +55977,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Stony-Brook/authorlist",
+        "/institutions/IceCube-Gen2/Stony-Brook/authorlist"
+      ],
       "name": "StonyBrook"
     },
     "tata": {
@@ -55620,6 +55988,9 @@
       "city": "Mumbai",
       "collabs": [
         "icecube-gen2"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Tata-Institute/authorlist"
       ],
       "name": "TataInstitute"
     },
@@ -55629,6 +56000,9 @@
       "collabs": [
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Tokyo/authorlist"
       ],
       "name": "Tokyo"
     },
@@ -55650,6 +56024,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UCLA/authorlist",
+        "/institutions/IceCube-Gen2/UCLA/authorlist"
+      ],
       "name": "UCLA"
     },
     "uclouvain": {
@@ -55660,6 +56038,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/UCLouvain/authorlist",
+        "/institutions/IceCube-Gen2/UCLouvain/authorlist"
+      ],
       "name": "UCLouvain"
     },
     "uppsala": {
@@ -55669,6 +56051,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Uppsala/authorlist",
+        "/institutions/IceCube-Gen2/Uppsala/authorlist"
       ],
       "name": "Uppsala"
     },
@@ -55690,6 +56076,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Utah/authorlist",
+        "/institutions/IceCube-Gen2/Utah/authorlist"
+      ],
       "name": "Utah"
     },
     "utrecht": {
@@ -55710,6 +56100,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Wuppertal/authorlist",
+        "/institutions/IceCube-Gen2/Wuppertal/authorlist"
+      ],
       "name": "Wuppertal"
     },
     "yale": {
@@ -55720,6 +56114,10 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [
+        "/institutions/IceCube/Yale/authorlist",
+        "/institutions/IceCube-Gen2/Yale/authorlist"
+      ],
       "name": "Yale"
     },
     "zeuthen": {
@@ -55729,6 +56127,10 @@
         "icecube",
         "icecube-gen2",
         "pingu"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube/DESY/authorlist",
+        "/institutions/IceCube-Gen2/DESY/authorlist"
       ],
       "name": "Zeuthen"
     },
