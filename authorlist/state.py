@@ -3,13 +3,12 @@ Authorlist state.
 
 Read from json file.
 """
-from __future__ import print_function
-
 import json
 from collections import defaultdict
 import itertools
 from datetime import datetime
 import logging
+import unidecode
 
 from . import collabs as COLLABORATIONS
 from .util import validate_author, author_ordering
@@ -189,6 +188,58 @@ class State:
                         continue
                     insts[inst] = inst_data
         return insts
+
+    def add_institution(self, name, collabs, **attrs):
+        """
+        Add a new instititution.
+
+        Args:
+            name (str): institution short name
+            collabs (list): list of collaborations
+            **attrs (dict): other fields to add to the institution data, like city and cite
+
+        Returns: new instname (for use when adding authors)
+        """
+        for c in collabs:
+            if c not in COLLABORATIONS:
+                raise RuntimeError('invalid collab: '+c)
+
+        key = name
+        if len(collabs) == 1:
+            key += f'-{collabs[0]}'
+        key += f'-{datetime.utcnow().year}'
+        basekey = unidecode.unidecode(key).lower().replace("'",'').replace(' ','-')
+        key = basekey
+        i = 1
+        while key in self._institutions:
+            if i > 10:
+                raise RuntimeError('Too many institution changes this year: '+basekey)
+            i += 1
+            key = f'{basekey}-{i}'
+
+        entry = attrs.copy()
+        entry.update({
+            'collabs': collabs,
+            'name': name,
+        })
+        self._institutions[key] = entry
+        return key
+
+    def lookup_institutions(self, **attrs):
+        """
+        Get all institutions that match a set of attrs.
+
+        Args:
+            **attrs (dict): attrs to match on
+
+        Returns: dict of instname: values
+        """
+        attr_items = attrs.items()
+        ret = {}
+        for key, values in self._institutions.items():
+            if attr_items <= values.items():
+                ret[key] = values
+        return ret
 
     def thanks(self, date, **kwargs):
         """

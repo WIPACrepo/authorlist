@@ -179,6 +179,113 @@ def test_insts(json_file):
     assert insts == {}
 
 
+def test_add_inst(json_file):
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+
+    insts = s.institutions('2020-01-01')
+    assert insts == AUTHOR_DATA['institutions']
+
+    args = {
+        'name': 'inst2',
+        'collabs': ['icecube'],
+        'cite': 'foo bar',
+        'city': 'My City',
+    }
+    inst_key = s.add_institution(**args)
+
+    assert inst_key.startswith('inst2')
+
+    insts = s.institutions('2020-01-01')
+    assert insts == AUTHOR_DATA['institutions']
+
+    # now add author for that inst
+    new_author = {
+      "authname": "J. Doe",
+      "collab": "icecube",
+      "email": "jane.doe@icecube.wisc.edu",
+      "first": "Jane",
+      "from": "2020-01-01",
+      "instnames": [
+        inst_key
+      ],
+      "keycloak_username": "jane",
+      "last": "Doe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    }
+    s.add_author(new_author)
+    
+    insts = s.institutions('2020-01-01')
+    expected = list(AUTHOR_DATA['institutions'])
+    expected.append(inst_key)
+    assert list(insts) == expected
+    assert insts[inst_key] == args
+
+    # now add a dup inst
+    inst_key2 = s.add_institution(**args)
+    assert inst_key != inst_key2
+    assert inst_key2.startswith('inst2')
+    assert inst_key2.endswith('-2')
+
+    # now add a unicode inst
+    args = {
+        'name': 'Argüelle\'s Inst',
+        'collabs': ['icecube'],
+        'cite': 'foo bar',
+        'city': 'My City',
+    }
+    inst_key3 = s.add_institution(**args)
+    assert inst_key3.startswith('arguelles-inst')
+
+    # check that name is still unicode in output
+    new_author = {
+      "authname": "J. Doe",
+      "collab": "icecube",
+      "email": "jane.doe2@icecube.wisc.edu",
+      "first": "Jane",
+      "from": "2020-01-01",
+      "instnames": [
+        inst_key3
+      ],
+      "keycloak_username": "jane2",
+      "last": "Doe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    }
+    s.add_author(new_author)
+    insts = s.institutions('2020-01-01')
+    assert insts[inst_key3] == args
+
+
+def test_lookup_insts(json_file):
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+
+    insts = s.institutions('2020-01-01')
+    assert insts == AUTHOR_DATA['institutions']
+
+    args = {
+        'name': 'inst2',
+        'collabs': ['icecube'],
+        'cite': 'foo bar',
+        'city': 'My City',
+    }
+    inst_key = s.add_institution(**args)
+
+    ret = s.lookup_institutions(city='My City')
+    expected = {inst_key: args}
+    assert ret == expected
+
+    ret = s.lookup_institutions(collabs=['icecube'])
+    assert len(ret) == 2
+
+    ret = s.lookup_institutions(foo='bar')
+    assert not ret
+
+
 def test_thanks(json_file):
     filename = json_file(AUTHOR_DATA)
     s = State(filename)

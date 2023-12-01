@@ -149,7 +149,8 @@ AUTHOR_DATA = {
           "collabs": [
             "icecube",
           ],
-          "name": "Inst1"
+          "name": "Inst1",
+          "keycloak_groups": ['/experiments/IceCube/inst1/authorlist'],
         },
         "inst2-astro": {
           "cite": "Inst2, Some Place, City, Country",
@@ -157,7 +158,8 @@ AUTHOR_DATA = {
           "collabs": [
             "icecube",
           ],
-          "name": "Inst2 Astro"
+          "name": "Inst2 Astro",
+          "keycloak_groups": ['/experiments/IceCube/inst2/authorlist-astro'],
         },
         "inst2-physics": {
           "cite": "Inst2, Some Place, City, Country",
@@ -165,7 +167,8 @@ AUTHOR_DATA = {
           "collabs": [
             "icecube",
           ],
-          "name": "Inst2 Physics"
+          "name": "Inst2 Physics",
+          "keycloak_groups": ['/experiments/IceCube/inst2/authorlist-physics'],
         },
     },
     'thanks': {
@@ -204,17 +207,17 @@ KEYCLOAK_DATA = {
         },
     },
     'groups': {
-        'inst1/authorlist': ['jdoe'],
-        'inst2/authorlist-astro': ['jdoe2'],
-        'inst2/authorlist-physics': [],
+        '/experiments/IceCube/inst1/authorlist': ['jdoe'],
+        '/experiments/IceCube/inst2/authorlist-astro': ['jdoe2'],
+        '/experiments/IceCube/inst2/authorlist-physics': [],
     }
 }
 
 class IceCubeClass:
     authorlist_insts_to_groups = {
-        'inst1': 'inst1/authorlist',
-        'inst2-astro': 'inst2/authorlist-astro',
-        'inst2-physics': 'inst2/authorlist-physics',
+        'inst1': '/experiments/IceCube/inst1/authorlist',
+        'inst2-astro': '/experiments/IceCube/inst2/authorlist-astro',
+        'inst2-physics': '/experiments/IceCube/inst2/authorlist-physics',
     }
     groups_to_authorlist_insts = {v: k for k,v in authorlist_insts_to_groups.items()}
 
@@ -260,7 +263,7 @@ async def test_match_users_new(keycloak_fake):
         'email': 'fbar@icecube.wisc.edu',
         'attributes': {},
     }
-    kd['groups']['inst1/authorlist'].append('fbar')
+    kd['groups']['/experiments/IceCube/inst1/authorlist'].append('fbar')
 
     get_group_membership.return_value = KEYCLOAK_DATA['groups'][IceCubeClass.authorlist_insts_to_groups[inst]]
     def get_user(username, **kwargs):
@@ -279,7 +282,292 @@ async def test_match_users_new(keycloak_fake):
     ret = import_from_keycloak.match_users(authors, users)
     assert ret == [(authors[0], users[0])]
 
+
+def test_create_inst_bad_subpath():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {}
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist-astro'
+
+    with pytest.raises(Exception, match='cannot load authorlist'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_bad_mainpath():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {}
+        },
+    }
+    krs_path = '/experiments/IceCube/inst2/authorlist'
+
+    with pytest.raises(KeyError):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_no_authorlist():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'false',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    with pytest.raises(Exception, match='must define a citation'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_no_cite():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    with pytest.raises(Exception, match='must define a citation'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_two_cites():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+            'cite': 'Bar',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    with pytest.raises(Exception, match='differing citations'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_no_city():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    with pytest.raises(Exception, match='must define a city'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_two_cities():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+            'city': 'Foo',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+            'city': 'Bar',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    with pytest.raises(Exception, match='differing cities'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+
+
+def test_create_inst_single():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+            'city': 'Bar',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Foo'
+    assert ret['city'] == 'Bar'
+    assert ret['collabs'] == ['icecube']
+    assert ret['keycloak_groups'] == [krs_path]
+
+
+def test_create_inst_two_exps():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+            'city': 'Bar',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Foo'
+    assert ret['city'] == 'Bar'
+    assert ret['collabs'] == ['icecube', 'icecube-gen2']
+    assert ret['keycloak_groups'] == [f'{path}/authorlist' for path in krs_groups]
+
+
+def test_create_inst_skip_exp():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+            'city': 'Bar',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'false',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Foo'
+    assert ret['city'] == 'Bar'
+    assert ret['collabs'] == ['icecube']
+    assert ret['keycloak_groups'] == [krs_path]
+
+
+def test_create_inst_sublists():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'Foo',
+                'physics': 'Bar',
+            },
+            'city': 'Baz',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist-physics'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Bar'
+    assert ret['city'] == 'Baz'
+    assert ret['collabs'] == ['icecube']
+    assert ret['keycloak_groups'] == [krs_path]
+
+
+def test_create_inst_two_sublists():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'Foo',
+                'physics': 'Bar',
+            },
+            'city': 'Baz',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': '',
+                'physics': '',
+            },
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist-physics'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Bar'
+    assert ret['city'] == 'Baz'
+    assert ret['collabs'] == ['icecube', 'icecube-gen2']
+    assert ret['keycloak_groups'] == [f'{path}/authorlist-physics' for path in krs_groups]
+
+
+def test_create_inst_sublists_skip():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'Foo',
+                'physics': 'Bar',
+            },
+            'city': 'Baz',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+        },
+    }
+    krs_path = '/experiments/IceCube/inst1/authorlist-physics'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Bar'
+    assert ret['city'] == 'Baz'
+    assert ret['collabs'] == ['icecube']
+    assert ret['keycloak_groups'] == [krs_path]
+
+
+def test_create_inst_sublists_skip2_missing_cite():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'Foo',
+                'physics': 'Bar',
+            },
+            'city': 'Baz',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+        },
+    }
+    krs_path = '/experiments/IceCube-Gen2/inst1/authorlist'
+
+    with pytest.raises(Exception, match='must define a citation'):
+        import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube-Gen2')
     
+
+def test_create_inst_sublists_skip2():
+    krs_groups = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+            'authorlists': {
+                'astro': 'Foo',
+                'physics': 'Bar',
+            },
+            'city': 'Baz',
+        },
+        '/experiments/IceCube-Gen2/inst1': {
+            'authorlist': 'true',
+            'cite': 'Foo',
+            'city': 'Blah',
+        },
+    }
+    krs_path = '/experiments/IceCube-Gen2/inst1/authorlist'
+
+    ret = import_from_keycloak.create_inst(krs_groups, krs_path, 'IceCube-Gen2')
+    assert ret['name'] == 'inst1'
+    assert ret['cite'] == 'Foo'
+    assert ret['city'] == 'Blah'
+    assert ret['collabs'] == ['icecube-gen2']
+    assert ret['keycloak_groups'] == [krs_path]
+
+
+##################
+#
+# Test main sync
+#
+##################
+
+
+@pytest.mark.skip(reason="this test is old, and should be removed")
 @pytest.mark.asyncio
 async def test_sync_old(json_file, keycloak_fake, monkeypatch):
     user_info, get_group_membership, list_insts = keycloak_fake
@@ -349,4 +637,184 @@ async def test_sync_old(json_file, keycloak_fake, monkeypatch):
       "to": ""
     })
     assert ret == expected
+
+
+@pytest.mark.asyncio
+async def test_sync(json_file, keycloak_fake, monkeypatch):
+    user_info, get_group_membership, list_insts = keycloak_fake
+
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+    filename_out = filename.parent / 'sync_out.json'
+
+    kd = deepcopy(KEYCLOAK_DATA)
+    def members(group, **kwargs):
+         return kd['groups'][group]
+    get_group_membership.side_effect = members
+    def get_user(username, **kwargs):
+        if username in kd['users']:
+            return kd['users'][username]
+        else:
+            raise Exception('bad username')
+    user_info.side_effect = get_user
+    list_insts.return_value = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+        },
+        '/experiments/IceCube/inst2': {
+            'authorlist': 'true',
+            'authorlists': ['astro', 'physics'],
+        },
+    }
+
+    start = filename.open().read()
+    await import_from_keycloak.sync(s, str(filename_out), experiment='IceCube')
+    end = filename_out.open().read()
+
+    assert start == end
+    
+    kd['users']['fbar'] = {
+        'firstName': 'Foo',
+        'lastName': 'Bar',
+        'username': 'fbar',
+        'email': 'fbar@icecube.wisc.edu',
+        'attributes': {},
+    }
+    kd['groups']['/experiments/IceCube/inst1/authorlist'].append('fbar')
+    
+    await import_from_keycloak.sync(s, str(filename_out), experiment='IceCube')
+    end = filename_out.open().read()
+
+    assert start != end
+
+    today = datetime.utcnow().date().isoformat()
+    ret = s.authors(today)
+    expected  = AUTHOR_DATA['authors']
+    expected.insert(0, {
+      "authname": "F. Bar",
+      "collab": "icecube",
+      "email": "fbar@icecube.wisc.edu",
+      "first": "Foo",
+      "from": today,
+      "instnames": [
+        "inst1"
+      ],
+      "keycloak_username": "fbar",
+      "last": "Bar",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    })
+    assert ret == expected
+
+@pytest.mark.asyncio
+async def test_sync_new_inst(json_file, keycloak_fake, monkeypatch):
+    user_info, get_group_membership, list_insts = keycloak_fake
+
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+    filename_out = filename.parent / 'sync_out.json'
+
+    kd = deepcopy(KEYCLOAK_DATA)
+    kd['users']['fbar'] = {
+        'firstName': 'Foo',
+        'lastName': 'Bar',
+        'username': 'fbar',
+        'email': 'fbar@icecube.wisc.edu',
+        'attributes': {},
+    }
+    kd['groups']['/experiments/IceCube/inst3/authorlist'] = ['fbar']
+    def members(group, **kwargs):
+         return kd['groups'][group]
+    get_group_membership.side_effect = members
+    def get_user(username, **kwargs):
+        if username in kd['users']:
+            return kd['users'][username]
+        else:
+            raise Exception('bad username:'+username)
+    user_info.side_effect = get_user
+    list_insts.return_value = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+        },
+        '/experiments/IceCube/inst2': {
+            'authorlist': 'true',
+            'authorlists': ['astro', 'physics'],
+        },
+        '/experiments/IceCube/inst3': {
+            'authorlist': 'true',
+            'cite': 'My Citation',
+            'city': 'City',
+        }
+    }
+
+    await import_from_keycloak.sync(s, str(filename_out), experiment='IceCube')
+
+    for instname, values in s._institutions.items():
+        if '/experiments/IceCube/inst3/authorlist' in values.get('keycloak_groups', []):
+            break
+    else:
+        logging.debug('%r', s._institutions)
+        assert False  #: inst3 was not added
+
+
+@pytest.mark.asyncio
+async def test_sync_new_inst2(json_file, keycloak_fake, monkeypatch):
+    user_info, get_group_membership, list_insts = keycloak_fake
+
+    filename = json_file(AUTHOR_DATA)
+    s = State(filename)
+    filename_out = filename.parent / 'sync_out.json'
+
+    kd = deepcopy(KEYCLOAK_DATA)
+    kd['users']['fbar'] = {
+        'firstName': 'Foo',
+        'lastName': 'Bar',
+        'username': 'fbar',
+        'email': 'fbar@icecube.wisc.edu',
+        'attributes': {},
+    }
+    kd['groups']['/experiments/IceCube/inst3/authorlist'] = ['fbar']
+    def members(group, **kwargs):
+         return kd['groups'][group]
+    get_group_membership.side_effect = members
+    def get_user(username, **kwargs):
+        if username in kd['users']:
+            return kd['users'][username]
+        else:
+            raise Exception('bad username:'+username)
+    user_info.side_effect = get_user
+    list_insts.return_value = {
+        '/experiments/IceCube/inst1': {
+            'authorlist': 'true',
+        },
+        '/experiments/IceCube/inst2': {
+            'authorlist': 'true',
+            'authorlists': ['astro', 'physics'],
+        },
+        '/experiments/IceCube/inst3': {
+            'authorlist': 'true',
+            'cite': 'My Citation',
+            'city': 'City',
+        },
+        '/experiments/IceCube-Gen2/inst3': {
+            'authorlist': 'true',
+        }
+    }
+
+    await import_from_keycloak.sync(s, str(filename_out), experiment='IceCube')
+
+    for instname, values in s._institutions.items():
+        if '/experiments/IceCube/inst3/authorlist' in values.get('keycloak_groups', []):
+            break
+    else:
+        logging.debug('%r', s._institutions)
+        assert False  #: inst3 was not added
+
+    for instname, values in s._institutions.items():
+        if '/experiments/IceCube-Gen2/inst3/authorlist' in values.get('keycloak_groups', []):
+            break
+    else:
+        logging.debug('%r', s._institutions)
+        assert False  #: inst3 gen2 was not added
     
