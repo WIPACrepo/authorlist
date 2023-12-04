@@ -22115,7 +22115,7 @@
       "last": "Jacquart",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-03"
     },
     {
       "authname": "M. Jacquart",
@@ -22123,6 +22123,36 @@
       "email": "marc.jacquart@icecube.wisc.edu",
       "first": "Marc",
       "from": "2023-02-08",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mjacquart",
+      "last": "Jacquart",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-12-03"
+    },
+    {
+      "authname": "M. Jacquart",
+      "collab": "icecube",
+      "email": "m.jacquart@hotmail.ch",
+      "first": "Marc",
+      "from": "2023-12-04",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mjacquart",
+      "last": "Jacquart",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jacquart",
+      "collab": "icecube-gen2",
+      "email": "m.jacquart@hotmail.ch",
+      "first": "Marc",
+      "from": "2023-12-04",
       "instnames": [
         "madisonpac"
       ],
