@@ -38244,6 +38244,21 @@
       "last": "Raab",
       "orcid": "0000-0001-9921-2668",
       "thanks": [],
+      "to": "2023-12-05"
+    },
+    {
+      "authname": "C. Raab",
+      "collab": "icecube",
+      "email": "chraab@mailbox.org",
+      "first": "Christoph",
+      "from": "2023-12-06",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "chraab",
+      "last": "Raab",
+      "orcid": "0000-0001-9921-2668",
+      "thanks": [],
       "to": ""
     },
     {
