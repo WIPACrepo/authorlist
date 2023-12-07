@@ -36769,6 +36769,36 @@
       "to": ""
     },
     {
+      "authname": "T. Pernice",
+      "collab": "icecube",
+      "email": "teresa.pernice@desy.de",
+      "first": "Teresa",
+      "from": "2023-12-07",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "pernicet",
+      "last": "Pernice",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Pernice",
+      "collab": "icecube-gen2",
+      "email": "teresa.pernice@desy.de",
+      "first": "Teresa",
+      "from": "2023-12-07",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "pernicet",
+      "last": "Pernice",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Peters",
       "collab": "icecube",
       "email": "lilly.peters@icecube.wisc.edu",
@@ -37386,7 +37416,7 @@
       "last": "Plaisier",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-06"
     },
     {
       "authname": "M. Plum",
