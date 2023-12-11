@@ -12423,6 +12423,21 @@
       "to": "2018-12-16"
     },
     {
+      "authname": "L. Eidenschink",
+      "collab": "icecube-gen2",
+      "email": "leonhard.eidenschink@tum.de",
+      "first": "Leonhard",
+      "from": "2023-12-11",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "leidensc",
+      "last": "Eidenschink",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Eimer",
       "collab": "icecube",
       "email": "anna.eimer@fau.de",
@@ -15942,7 +15957,7 @@
       "last": "Glauch",
       "orcid": "0000-0003-1804-4055",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-10"
     },
     {
       "authname": "T. Glauch",
@@ -15957,7 +15972,7 @@
       "last": "Glauch",
       "orcid": "0000-0003-1804-4055",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-10"
     },
     {
       "authname": "T. Glauch",
@@ -47692,6 +47707,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-08-01"
+    },
+    {
+      "authname": "A. Terliuk",
+      "collab": "icecube",
+      "email": "andrii.terliuk@icecube.wisc.edu",
+      "first": "Andrii",
+      "from": "2023-12-11",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "terliuk",
+      "last": "Terliuk",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Terliuk",
+      "collab": "icecube-gen2",
+      "email": "andrii.terliuk@icecube.wisc.edu",
+      "first": "Andrii",
+      "from": "2023-12-11",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "terliuk",
+      "last": "Terliuk",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "C. Terranova",
