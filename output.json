@@ -28584,6 +28584,22 @@
       "last": "Leonard DeHolton",
       "orcid": "0000-0002-8795-0601",
       "thanks": [],
+      "to": "2023-12-12"
+    },
+    {
+      "authname": "K. Leonard DeHolton",
+      "collab": "icecube",
+      "email": "kayla.leonard@icecube.wisc.edu",
+      "first": "Kayla",
+      "from": "2023-12-13",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "kleonard",
+      "last": "Leonard DeHolton",
+      "orcid": "0000-0002-8795-0601",
+      "thanks": [],
       "to": ""
     },
     {
@@ -29223,7 +29239,7 @@
       "last": "Liu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-12"
     },
     {
       "authname": "M. Liubarska",
@@ -51190,7 +51206,7 @@
       "last": "Wang",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-12"
     },
     {
       "authname": "Y.-R. Wang",
@@ -51793,6 +51809,22 @@
       "first": "Jan",
       "from": "2023-04-21",
       "instnames": [
+        "pennphys"
+      ],
+      "keycloak_username": "jweldert",
+      "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": "2023-12-12"
+    },
+    {
+      "authname": "J. Weldert",
+      "collab": "icecube",
+      "email": "jan.weldert@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2023-12-13",
+      "instnames": [
+        "pennastro",
         "pennphys"
       ],
       "keycloak_username": "jweldert",
