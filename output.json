@@ -7845,6 +7845,22 @@
       "to": ""
     },
     {
+      "authname": "J. Carpio",
+      "collab": "icecube",
+      "email": "jac866@psu.edu",
+      "first": "Jose",
+      "from": "2023-12-14",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Carson",
       "collab": "icecube",
       "email": "mcarson@icecube.wisc.edu",
@@ -16539,6 +16555,38 @@
       "orcid": "",
       "thanks": [],
       "to": "2023-10-01"
+    },
+    {
+      "authname": "S. Goswami",
+      "collab": "icecube",
+      "email": "sreetama.goswami@unlv.edu",
+      "first": "Sreetama",
+      "from": "2023-12-14",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "sgoswami",
+      "last": "Goswami",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Goswami",
+      "collab": "icecube-gen2",
+      "email": "sreetama.goswami@unlv.edu",
+      "first": "Sreetama",
+      "from": "2023-12-14",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "sgoswami",
+      "last": "Goswami",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Goswami",
