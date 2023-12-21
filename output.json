@@ -44929,7 +44929,7 @@
       "last": "Skrzypek",
       "orcid": "0000-0002-0910-1057",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-20"
     },
     {
       "authname": "B. Skrzypek",
@@ -44939,6 +44939,36 @@
       "from": "2023-03-10",
       "instnames": [
         "harvard"
+      ],
+      "keycloak_username": "bskrzypek",
+      "last": "Skrzypek",
+      "orcid": "0000-0002-0910-1057",
+      "thanks": [],
+      "to": "2023-12-20"
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube",
+      "email": "bskrzypek@lbl.gov",
+      "first": "Barbara",
+      "from": "2023-12-21",
+      "instnames": [
+        "berkeley"
+      ],
+      "keycloak_username": "bskrzypek",
+      "last": "Skrzypek",
+      "orcid": "0000-0002-0910-1057",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Skrzypek",
+      "collab": "icecube-gen2",
+      "email": "bskrzypek@lbl.gov",
+      "first": "Barbara",
+      "from": "2023-12-21",
+      "instnames": [
+        "berkeley"
       ],
       "keycloak_username": "bskrzypek",
       "last": "Skrzypek",
