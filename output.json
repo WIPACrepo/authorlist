@@ -16617,6 +16617,36 @@
       "to": "2009-12-01"
     },
     {
+      "authname": "A. Granados",
+      "collab": "icecube",
+      "email": "granad27@msu.edu",
+      "first": "Alejandra",
+      "from": "2023-12-26",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "agranados",
+      "last": "Granados",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Granados",
+      "collab": "icecube-gen2",
+      "email": "granad27@msu.edu",
+      "first": "Alejandra",
+      "from": "2023-12-26",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "agranados",
+      "last": "Granados",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. T. Grandmont",
       "collab": "icecube",
       "email": "dylan.grandmont@icecube.wisc.edu",
@@ -41618,7 +41648,7 @@
       "last": "Sanchez Herrera",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-25"
     },
     {
       "authname": "S. E. Sanchez Herrera",
@@ -41633,7 +41663,7 @@
       "last": "Sanchez Herrera",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2023-12-25"
     },
     {
       "authname": "S. E. Sanchez Herrera",
