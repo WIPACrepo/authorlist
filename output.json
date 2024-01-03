@@ -7745,6 +7745,36 @@
       "to": ""
     },
     {
+      "authname": "I. Caracas",
+      "collab": "icecube",
+      "email": "i.caracas@uni-mainz.de",
+      "first": "Ioana",
+      "from": "2024-01-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "icaraca",
+      "last": "Caracas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Caracas",
+      "collab": "icecube-gen2",
+      "email": "i.caracas@uni-mainz.de",
+      "first": "Ioana",
+      "from": "2024-01-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "icaraca",
+      "last": "Caracas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "W. Carithers",
       "collab": "icecube",
       "first": "W.",
@@ -15760,6 +15790,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2016-03-14"
+    },
+    {
+      "authname": "C. Girard-Carillo",
+      "collab": "icecube",
+      "email": "girardcarillo@uni-mainz.de",
+      "first": "Cloe",
+      "from": "2024-01-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "girardcarillo",
+      "last": "Girard-Carillo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Girard-Carillo",
+      "collab": "icecube-gen2",
+      "email": "girardcarillo@uni-mainz.de",
+      "first": "Cloe",
+      "from": "2024-01-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "girardcarillo",
+      "last": "Girard-Carillo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "P. Giri",
