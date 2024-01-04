@@ -53200,6 +53200,23 @@
       "last": "Wissel",
       "orcid": "",
       "thanks": [],
+      "to": "2024-01-03"
+    },
+    {
+      "authname": "S. Wissel",
+      "collab": "icecube-gen2",
+      "email": "wissel@psu.edu",
+      "first": "Stephanie",
+      "from": "2024-01-04",
+      "instnames": [
+        "pennastro",
+        "penncosmos",
+        "pennphys"
+      ],
+      "keycloak_username": "swissel",
+      "last": "Wissel",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
