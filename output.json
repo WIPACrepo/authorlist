@@ -22159,6 +22159,21 @@
       "to": ""
     },
     {
+      "authname": "W. Iwakiri",
+      "collab": "icecube-gen2",
+      "email": "iwakiri.wataru.buz@gmail.com",
+      "first": "Wataru",
+      "from": "2024-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "buz.iwakiri",
+      "last": "Iwakiri",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Jacobi",
       "collab": "icecube",
       "email": "emanuel.jacobi@icecube.wisc.edu",
@@ -34806,6 +34821,21 @@
       ],
       "last": "Nisa",
       "orcid": "0000-0002-6859-3944",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Noda",
+      "collab": "icecube-gen2",
+      "email": "nodak5@gmail.com",
+      "first": "Koji",
+      "from": "2024-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "knoda",
+      "last": "Noda",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
