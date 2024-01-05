@@ -22144,6 +22144,21 @@
       "to": ""
     },
     {
+      "authname": "W. Iwakiri",
+      "collab": "icecube",
+      "email": "iwakiri.wataru.buz@gmail.com",
+      "first": "Wataru",
+      "from": "2024-01-05",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "buz.iwakiri",
+      "last": "Iwakiri",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Jacobi",
       "collab": "icecube",
       "email": "emanuel.jacobi@icecube.wisc.edu",
