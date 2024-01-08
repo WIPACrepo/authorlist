@@ -54659,7 +54659,7 @@
       "last": "Yu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "S. Yu",
@@ -54673,6 +54673,36 @@
       "keycloak_username": "shiqiyu",
       "last": "Yu",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-01-07"
+    },
+    {
+      "authname": "S. Yu",
+      "collab": "icecube",
+      "email": "shiqi.yu@icecube.wisc.edu",
+      "first": "Shiqi",
+      "from": "2024-01-08",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "shiqiyu",
+      "last": "Yu",
+      "orcid": "0000-0003-4811-9863",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Yu",
+      "collab": "icecube-gen2",
+      "email": "shiqi.yu@icecube.wisc.edu",
+      "first": "Shiqi",
+      "from": "2024-01-08",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "shiqiyu",
+      "last": "Yu",
+      "orcid": "0000-0003-4811-9863",
       "thanks": [],
       "to": ""
     },
