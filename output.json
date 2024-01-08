@@ -22416,7 +22416,7 @@
       "last": "Janik",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "O. Janik",
@@ -22426,6 +22426,36 @@
       "from": "2023-03-08",
       "instnames": [
         "aachen"
+      ],
+      "keycloak_username": "ojanik",
+      "last": "Janik",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-01-07"
+    },
+    {
+      "authname": "O. Janik",
+      "collab": "icecube",
+      "email": "oliver.janik@icecube.wisc.edu",
+      "first": "Oliver",
+      "from": "2024-01-08",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "ojanik",
+      "last": "Janik",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "O. Janik",
+      "collab": "icecube-gen2",
+      "email": "oliver.janik@icecube.wisc.edu",
+      "first": "Oliver",
+      "from": "2024-01-08",
+      "instnames": [
+        "erlangen"
       ],
       "keycloak_username": "ojanik",
       "last": "Janik",
@@ -42998,7 +43028,7 @@
       "last": "Schlickmann",
       "orcid": "0000-0002-9746-6872",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "L. Schlickmann",
@@ -43013,7 +43043,7 @@
       "last": "Schlickmann",
       "orcid": "0000-0002-9746-6872",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "B. Schlueter",
