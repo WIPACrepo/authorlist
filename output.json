@@ -9702,6 +9702,36 @@
       "to": ""
     },
     {
+      "authname": "R. Corley",
+      "collab": "icecube",
+      "email": "rebecca.corley@icecube.wisc.edu",
+      "first": "Rebecca",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "rcorley",
+      "last": "Corley",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Corley",
+      "collab": "icecube-gen2",
+      "email": "rebecca.corley@icecube.wisc.edu",
+      "first": "Rebecca",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "rcorley",
+      "last": "Corley",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Correa",
       "collab": "icecube-gen2",
       "email": "pablo.correa@icecube.wisc.edu",
@@ -54713,7 +54743,7 @@
       "first": "Shiqi",
       "from": "2024-01-08",
       "instnames": [
-        "michigan"
+        "utah"
       ],
       "keycloak_username": "shiqiyu",
       "last": "Yu",
@@ -54728,7 +54758,7 @@
       "first": "Shiqi",
       "from": "2024-01-08",
       "instnames": [
-        "michigan"
+        "utah"
       ],
       "keycloak_username": "shiqiyu",
       "last": "Yu",
