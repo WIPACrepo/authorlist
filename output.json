@@ -11772,6 +11772,36 @@
       "to": ""
     },
     {
+      "authname": "L. Draper",
+      "collab": "icecube",
+      "email": "lincoln.draper@utah.edu",
+      "first": "Lincoln",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "draper",
+      "last": "Draper",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Draper",
+      "collab": "icecube-gen2",
+      "email": "lincoln.draper@utah.edu",
+      "first": "Lincoln",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "draper",
+      "last": "Draper",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Dreyer",
       "collab": "icecube",
       "email": "dreyer@icecube.wisc.edu",
@@ -21898,7 +21928,7 @@
       "last": "In",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "S. In",
@@ -21913,7 +21943,7 @@
       "last": "In",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "S. In",
@@ -24623,6 +24653,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2006-10-26"
+    },
+    {
+      "authname": "M. Khanal",
+      "collab": "icecube",
+      "email": "u1421460@utah.edu",
+      "first": "Manish",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mkhan",
+      "last": "Khanal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Khanal",
+      "collab": "icecube-gen2",
+      "email": "u1421460@utah.edu",
+      "first": "Manish",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mkhan",
+      "last": "Khanal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. Khatee Zathul",
@@ -44360,6 +44420,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-05-03"
+    },
+    {
+      "authname": "M. Seo",
+      "collab": "icecube",
+      "email": "seominyeong94@gmail.com",
+      "first": "Minyeong",
+      "from": "2024-01-08",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "mseo",
+      "last": "Seo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Seo",
+      "collab": "icecube-gen2",
+      "email": "seominyeong94@gmail.com",
+      "first": "Minyeong",
+      "from": "2024-01-08",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "mseo",
+      "last": "Seo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. H. Seo",
