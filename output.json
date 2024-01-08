@@ -45695,7 +45695,7 @@
       "last": "Soldin",
       "orcid": "0000-0003-3005-7879",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-07"
     },
     {
       "authname": "D. Soldin",
@@ -45705,6 +45705,36 @@
       "from": "2023-07-11",
       "instnames": [
         "karlsruheexp"
+      ],
+      "keycloak_username": "dsoldin",
+      "last": "Soldin",
+      "orcid": "0000-0003-3005-7879",
+      "thanks": [],
+      "to": "2024-01-07"
+    },
+    {
+      "authname": "D. Soldin",
+      "collab": "icecube",
+      "email": "dennis.soldin@icecube.wisc.edu",
+      "first": "Dennis",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "dsoldin",
+      "last": "Soldin",
+      "orcid": "0000-0003-3005-7879",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Soldin",
+      "collab": "icecube-gen2",
+      "email": "dennis.soldin@icecube.wisc.edu",
+      "first": "Dennis",
+      "from": "2024-01-08",
+      "instnames": [
+        "utah"
       ],
       "keycloak_username": "dsoldin",
       "last": "Soldin",
