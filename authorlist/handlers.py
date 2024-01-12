@@ -260,8 +260,8 @@ class AuthorListRenderer:
 \\end{document}"""
 
         intro_text = """This style for European Physical Journal C.
-You will need svjour3.cls etc from
-<a href="http://www.e-publications.org/springer/support/epjc/svjour3-epjc.zip">EPJC-pages</a>
+You will need svjour3.cls and svepjc3.clo from
+<a href="/static/svjour3-epjc.zip">svjour3-epjc.zip</a>
 (zip file).
 """
 
