@@ -15446,6 +15446,21 @@
       "to": "2011-03-31"
     },
     {
+      "authname": "E. Genton",
+      "collab": "icecube",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2024-01-14",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Gerhardt",
       "collab": "icecube",
       "email": "lgerhardt@lbl.gov",
@@ -28528,6 +28543,23 @@
       "instnames": [
         "madisonpac",
         "harvard"
+      ],
+      "keycloak_username": "jlazar",
+      "last": "Lazar",
+      "orcid": "0000-0003-0928-5025",
+      "thanks": [],
+      "to": "2024-01-13"
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2024-01-14",
+      "instnames": [
+        "harvard",
+        "madisonpac",
+        "uclouvain"
       ],
       "keycloak_username": "jlazar",
       "last": "Lazar",
@@ -44735,6 +44767,21 @@
         "riverfalls"
       ],
       "last": "Seunarine",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Sevle Myhr",
+      "collab": "icecube",
+      "email": "pamyhr@stud.ntnu.no",
+      "first": "Per Arne",
+      "from": "2024-01-14",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "psevle",
+      "last": "Sevle Myhr",
       "orcid": "",
       "thanks": [],
       "to": ""
