@@ -26489,7 +26489,7 @@
       "last": "Koundal",
       "orcid": "0000-0002-5917-5230",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-14"
     },
     {
       "authname": "P. Koundal",
@@ -26497,6 +26497,36 @@
       "email": "paras.koundal@kit.edu",
       "first": "Paras",
       "from": "2020-10-01",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "pkoundal",
+      "last": "Koundal",
+      "orcid": "0000-0002-5917-5230",
+      "thanks": [],
+      "to": "2024-01-14"
+    },
+    {
+      "authname": "P. Koundal",
+      "collab": "icecube",
+      "email": "paras@udel.edu",
+      "first": "Paras",
+      "from": "2024-01-15",
+      "instnames": [
+        "karlsruhe"
+      ],
+      "keycloak_username": "pkoundal",
+      "last": "Koundal",
+      "orcid": "0000-0002-5917-5230",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Koundal",
+      "collab": "icecube-gen2",
+      "email": "paras@udel.edu",
+      "first": "Paras",
+      "from": "2024-01-15",
       "instnames": [
         "karlsruhe"
       ],
