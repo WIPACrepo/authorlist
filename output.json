@@ -28595,7 +28595,7 @@
       "last": "Lazar",
       "orcid": "0000-0003-0928-5025",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-15"
     },
     {
       "authname": "J. P. Lazar",
@@ -28606,6 +28606,21 @@
       "instnames": [
         "madisonpac",
         "harvard"
+      ],
+      "keycloak_username": "jlazar",
+      "last": "Lazar",
+      "orcid": "0000-0003-0928-5025",
+      "thanks": [],
+      "to": "2024-01-15"
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2024-01-16",
+      "instnames": [
+        "uclouvain"
       ],
       "keycloak_username": "jlazar",
       "last": "Lazar",
