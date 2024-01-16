@@ -41637,7 +41637,7 @@
       "last": "Safa",
       "orcid": "0000-0001-8737-6825",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-15"
     },
     {
       "authname": "I. Safa",
@@ -41648,6 +41648,36 @@
       "instnames": [
         "madisonpac",
         "harvard"
+      ],
+      "keycloak_username": "isafa",
+      "last": "Safa",
+      "orcid": "0000-0001-8737-6825",
+      "thanks": [],
+      "to": "2024-01-15"
+    },
+    {
+      "authname": "I. Safa",
+      "collab": "icecube",
+      "email": "ibrahim.safa@icecube.wisc.edu",
+      "first": "Ibrahim",
+      "from": "2024-01-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "isafa",
+      "last": "Safa",
+      "orcid": "0000-0001-8737-6825",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Safa",
+      "collab": "icecube-gen2",
+      "email": "ibrahim.safa@icecube.wisc.edu",
+      "first": "Ibrahim",
+      "from": "2024-01-16",
+      "instnames": [
+        "madisonpac"
       ],
       "keycloak_username": "isafa",
       "last": "Safa",
