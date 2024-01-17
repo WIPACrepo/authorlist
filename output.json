@@ -21092,6 +21092,36 @@
       "to": ""
     },
     {
+      "authname": "M. Hostert",
+      "collab": "icecube",
+      "email": "mhostert@g.harvard.edu",
+      "first": "Matheus",
+      "from": "2024-01-17",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mhostert",
+      "last": "Hostert",
+      "orcid": "0000-0002-9584-8877",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Hostert",
+      "collab": "icecube-gen2",
+      "email": "mhostert@g.harvard.edu",
+      "first": "Matheus",
+      "from": "2024-01-17",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mhostert",
+      "last": "Hostert",
+      "orcid": "0000-0002-9584-8877",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "W. Hou",
       "collab": "icecube",
       "email": "wenjie.hou@icecube.wisc.edu",
