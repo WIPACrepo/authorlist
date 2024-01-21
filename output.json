@@ -44426,7 +44426,7 @@
       "last": "Sclafani",
       "orcid": "0000-0001-9446-1219",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-20"
     },
     {
       "authname": "S. Sclafani",
@@ -44434,6 +44434,36 @@
       "email": "steve.sclafani@icecube.wisc.edu",
       "first": "Steve",
       "from": "2023-06-15",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "ssclafani",
+      "last": "Sclafani",
+      "orcid": "0000-0001-9446-1219",
+      "thanks": [],
+      "to": "2024-01-20"
+    },
+    {
+      "authname": "S. Sclafani",
+      "collab": "icecube",
+      "email": "steve.sclafani@icecube.wisc.edu",
+      "first": "Stephen",
+      "from": "2024-01-21",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "ssclafani",
+      "last": "Sclafani",
+      "orcid": "0000-0001-9446-1219",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Sclafani",
+      "collab": "icecube-gen2",
+      "email": "steve.sclafani@icecube.wisc.edu",
+      "first": "Stephen",
+      "from": "2024-01-21",
       "instnames": [
         "maryland"
       ],
