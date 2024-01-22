@@ -3593,6 +3593,36 @@
       "to": ""
     },
     {
+      "authname": "S. Bash",
+      "collab": "icecube",
+      "email": "simeon.bash@tum.de",
+      "first": "Simeon",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "sbash1",
+      "last": "Bash",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Bash",
+      "collab": "icecube-gen2",
+      "email": "simeon.bash@tum.de",
+      "first": "Simeon",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "sbash1",
+      "last": "Bash",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "B. Bastian",
       "collab": "icecube",
       "email": "bbastian@icecube.wisc.edu",
@@ -12530,6 +12560,21 @@
     },
     {
       "authname": "L. Eidenschink",
+      "collab": "icecube",
+      "email": "leonhard.eidenschink@tum.de",
+      "first": "Leonhard",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "leidensc",
+      "last": "Eidenschink",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Eidenschink",
       "collab": "icecube-gen2",
       "email": "leonhard.eidenschink@tum.de",
       "first": "Leonhard",
@@ -20864,7 +20909,7 @@
       "last": "Holzapfel",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-21"
     },
     {
       "authname": "A. Homeier",
@@ -41345,6 +41390,21 @@
       "to": ""
     },
     {
+      "authname": "L. Ruohan",
+      "collab": "icecube-gen2",
+      "email": "li.ruohan@icecube.wisc.edu",
+      "first": "Li",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "liruohan",
+      "last": "Ruohan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. Rutledge",
       "collab": "icecube",
       "email": "rutledge@icecube.wisc.edu",
@@ -42748,6 +42808,36 @@
       ],
       "keycloak_username": "psavina",
       "last": "Savina",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Schaile",
+      "collab": "icecube",
+      "email": "patrick.schaile@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "pschaile",
+      "last": "Schaile",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Schaile",
+      "collab": "icecube-gen2",
+      "email": "patrick.schaile@icecube.wisc.edu",
+      "first": "Patrick",
+      "from": "2024-01-22",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "pschaile",
+      "last": "Schaile",
       "orcid": "",
       "thanks": [],
       "to": ""
