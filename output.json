@@ -17846,7 +17846,7 @@
       "last": "Ha",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-25"
     },
     {
       "authname": "C. Ha",
@@ -17856,6 +17856,36 @@
       "from": "2023-12-01",
       "instnames": [
         "chung-ang-2023"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-01-25"
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2024-01-26",
+      "instnames": [
+        "chung-ang-2024"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube-gen2",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2024-01-26",
+      "instnames": [
+        "chung-ang-2024"
       ],
       "keycloak_username": "chha",
       "last": "Ha",
@@ -55942,6 +55972,16 @@
     },
     "chung-ang-2023": {
       "cite": "Dept. of Physics, Chung-Ang University, Seoul 06974, Korea",
+      "city": "Seoul",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
+      "keycloak_groups": [],
+      "name": "Chung-Ang"
+    },
+    "chung-ang-2024": {
+      "cite": "Dept. of Physics, Chung-Ang University, Seoul 06974, Republic of Korea",
       "city": "Seoul",
       "collabs": [
         "icecube-gen2",
