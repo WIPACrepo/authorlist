@@ -10,6 +10,8 @@ on:
     - cron: "50 2,6,10,14,18,22 * * *"
   workflow_dispatch:
 
+env:
+  PYTHON_VERSION: "3.8"
 
 jobs:
   tests:
@@ -17,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Setup env
         run: |
           pip install -r requirements.txt
@@ -36,6 +40,8 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
       - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
       - name: Setup env
         run: |
           pip install -r requirements.txt
