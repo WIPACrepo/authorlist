@@ -191,6 +191,7 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
         return [values.get('insert_date', ''), k]
     removed_insts = set()
     for krs_name, krs_path in krs_insts.items():
+        logging.debug('look up author insts for %s', krs_path)
         ret = []
         for inst, inst_values in all_author_insts.items():
             if collab not in inst_values.get('collabs', []):
@@ -198,11 +199,27 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
             if 'keycloak_groups' in inst_values and krs_path in inst_values['keycloak_groups']:
                 ret.append(inst)
         ret.sort(key=inst_sort)
+        logging.debug('matching insts: %r', ret)
         if not ret:
             logging.warning(f'group {krs_path} is not in keycloak->authorlist mapping!')
             new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
             inst = state.add_institution(**new_inst)
             ret = [inst]
+        elif len(ret) > 1:
+            new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
+            match = None
+            for k in ret:
+                old_inst = all_author_insts[k]
+                if new_inst.items() <= old_inst.items():
+                    match = k
+                    inst = old_inst
+                    break
+            else:
+                raise Exception("more than one matching inst, all old")
+            for k in ret:
+                if match != k:
+                    all_author_insts[k]['keycloak_groups'].remove(krs_path)
+                    removed_insts.add(k)
         else:
             new_inst = create_inst(krs_insts_raw, krs_path, experiment=experiment)
             old_inst = all_author_insts[ret[-1]]
@@ -211,7 +228,12 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
                 logging.debug('%r != %r', old_inst, new_inst)
                 removed_insts.add(ret[-1])
                 old_inst['keycloak_groups'].remove(krs_path)
-                inst = state.add_institution(**new_inst)
+                r = state.lookup_institutions(**new_inst)
+                if r:
+                    assert len(r) == 1
+                    inst = r.values().next()
+                else:
+                    inst = state.add_institution(**new_inst)
                 ret = [inst]
         authorlist_inst_name = ret[-1]
         logging.info('keycloak group: %s = author inst: %s', krs_path, authorlist_inst_name)
@@ -219,6 +241,8 @@ async def sync(state, filename_out, experiment, dryrun=False, client=None):
             logging.warning('existing keycloak group: %s', authorlist_insts_to_groups[authorlist_inst_name])
             raise Exception(f'inst {authorlist_insts_to_groups} is a duplicate!')
         authorlist_insts_to_groups[authorlist_inst_name] = krs_path
+
+    logging.info('removed insts: %r', removed_insts)
 
     # check our institution mappings
     now = datetime.utcnow().isoformat()
