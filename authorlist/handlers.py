@@ -907,8 +907,8 @@ class PINGUHandler(CollabHandler):
 
     def post(self):
         date = validate_date(self.get_argument('date', default=''))
-        if (not date) or date > today():
-            date = today()
+        if (not date) or date > PINGU_END_DATE:
+            date = PINGU_END_DATE
         elif date < PINGU_START_DATE:
             date = PINGU_START_DATE
         elif date >= PINGU_END_DATE:
