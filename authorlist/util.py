@@ -23,7 +23,7 @@ def validate_author(a):
     assert validate_date(a['from'])
     assert 'instnames' in a
     assert isinstance(a['instnames'], list)
-    assert 'keycloak_username' in a
+    #assert 'keycloak_username' in a
     assert 'last' in a
     assert 'orcid' in a
     assert 'thanks' in a

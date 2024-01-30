@@ -18,7 +18,7 @@ from pylatexenc.latexencode import UnicodeToLatexEncoder, UnicodeToLatexConversi
 import tornado.web
 from tornado.escape import xhtml_escape
 
-from . import ICECUBE_START_DATE, PINGU_START_DATE, GEN2_START_DATE, keycloak_utils
+from . import ICECUBE_START_DATE, PINGU_START_DATE, PINGU_END_DATE, GEN2_START_DATE, keycloak_utils
 from .util import today, validate_date, author_ordering
 
 
@@ -911,6 +911,8 @@ class PINGUHandler(CollabHandler):
             date = today()
         elif date < PINGU_START_DATE:
             date = PINGU_START_DATE
+        elif date >= PINGU_END_DATE:
+            date = PINGU_END_DATE
         return self.common(date)
 
 class Gen2Handler(CollabHandler):

@@ -14,7 +14,7 @@ import tornado.web
 from tornado.escape import json_encode, json_decode
 
 from authorlist import collabs
-from authorlist.utils import author_ordering
+from authorlist.util import author_ordering
 
 
 def check(data):
