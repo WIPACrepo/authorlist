@@ -8353,7 +8353,7 @@
       "last": "Chen",
       "orcid": "0000-0002-8139-4106",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-29"
     },
     {
       "authname": "C. Chen",
@@ -8368,7 +8368,7 @@
       "last": "Chen",
       "orcid": "0000-0002-8139-4106",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-29"
     },
     {
       "authname": "C. Chen",
@@ -29608,6 +29608,36 @@
       "to": ""
     },
     {
+      "authname": "J. Liao",
+      "collab": "icecube",
+      "email": "jliao74@gatech.edu",
+      "first": "Jiyuan",
+      "from": "2024-01-30",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "jliao",
+      "last": "Liao",
+      "orcid": "0009-0008-8086-586X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Liao",
+      "collab": "icecube-gen2",
+      "email": "jliao74@gatech.edu",
+      "first": "Jiyuan",
+      "from": "2024-01-30",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "jliao",
+      "last": "Liao",
+      "orcid": "0009-0008-8086-586X",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Lincetto",
       "collab": "icecube",
       "email": "lincetto@astro.rub.de",
@@ -49504,7 +49534,7 @@
       "last": "Tung",
       "orcid": "0000-0001-6920-7841",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-29"
     },
     {
       "authname": "C. F. Tung",
@@ -49519,7 +49549,7 @@
       "last": "Tung",
       "orcid": "0000-0001-6920-7841",
       "thanks": [],
-      "to": ""
+      "to": "2024-01-29"
     },
     {
       "authname": "C. F. Tung",
@@ -51887,6 +51917,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2018-12-20"
+    },
+    {
+      "authname": "A. Wang",
+      "collab": "icecube",
+      "email": "a.w@gatech.edu",
+      "first": "Andrew",
+      "from": "2024-01-30",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "awang",
+      "last": "Wang",
+      "orcid": "0009-0006-9420-2667",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Wang",
+      "collab": "icecube-gen2",
+      "email": "a.w@gatech.edu",
+      "first": "Andrew",
+      "from": "2024-01-30",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "awang",
+      "last": "Wang",
+      "orcid": "0009-0006-9420-2667",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "W. Wang",
