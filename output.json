@@ -13699,6 +13699,36 @@
       "last": "Farrag",
       "orcid": "",
       "thanks": [],
+      "to": "2024-02-05"
+    },
+    {
+      "authname": "K. Farrag",
+      "collab": "icecube-gen2",
+      "email": "kareem@icecube.wisc.edu",
+      "first": "Kareem",
+      "from": "2023-03-08",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "kareem",
+      "last": "Farrag",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-02-05"
+    },
+    {
+      "authname": "K. Farrag",
+      "collab": "icecube",
+      "email": "kareem.farrag@icecube.wisc.edu",
+      "first": "Kareem",
+      "from": "2024-02-06",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "kareem",
+      "last": "Farrag",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -13719,9 +13749,9 @@
     {
       "authname": "K. Farrag",
       "collab": "icecube-gen2",
-      "email": "kareem@icecube.wisc.edu",
+      "email": "kareem.farrag@icecube.wisc.edu",
       "first": "Kareem",
-      "from": "2023-03-08",
+      "from": "2024-02-06",
       "instnames": [
         "chiba2022"
       ],
