@@ -30894,6 +30894,21 @@
       "to": ""
     },
     {
+      "authname": "E. Magnus",
+      "collab": "icecube-gen2",
+      "email": "else.magnus@vub.be",
+      "first": "Else",
+      "from": "2024-02-17",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "emagnus",
+      "last": "Magnus",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. B. M. Mahn",
       "collab": "icecube-gen2",
       "email": "kendall.mahn@icecube.wisc.edu",
