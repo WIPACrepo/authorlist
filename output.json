@@ -12177,6 +12177,36 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "K. Dutta",
+      "collab": "icecube",
+      "email": "kadutta@students.uni-mainz.de",
+      "first": "Kaustav",
+      "from": "2024-02-27",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "kdutta",
+      "last": "Dutta",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Dutta",
+      "collab": "icecube-gen2",
+      "email": "kadutta@students.uni-mainz.de",
+      "first": "Kaustav",
+      "from": "2024-02-27",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "kdutta",
+      "last": "Dutta",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. A. DuVernois",
       "collab": "pingu",
       "email": "duvernois@icecube.wisc.edu",
