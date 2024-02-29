@@ -10871,7 +10871,7 @@
       "last": "Deoskar",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-02-28"
     },
     {
       "authname": "K. Deoskar",
@@ -10886,7 +10886,7 @@
       "last": "Deoskar",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-02-28"
     },
     {
       "authname": "O. Depaepe",
@@ -34973,6 +34973,36 @@
       "keycloak_username": "anelles",
       "last": "Nelles",
       "orcid": "0000-0002-1720-6350",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Neste",
+      "collab": "icecube",
+      "email": "ludwig.neste@fysik.su.se",
+      "first": "Ludwig",
+      "from": "2024-02-29",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "lneste",
+      "last": "Neste",
+      "orcid": "0000-0002-4829-3469",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Neste",
+      "collab": "icecube-gen2",
+      "email": "ludwig.neste@fysik.su.se",
+      "first": "Ludwig",
+      "from": "2024-02-29",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "lneste",
+      "last": "Neste",
+      "orcid": "0000-0002-4829-3469",
       "thanks": [],
       "to": ""
     },
