@@ -15481,6 +15481,21 @@
       "to": ""
     },
     {
+      "authname": "M. Garcia",
+      "collab": "icecube",
+      "email": "milesg@udel.edu",
+      "first": "Miles",
+      "from": "2024-03-05",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "mgarcia",
+      "last": "Garcia",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Garrappa",
       "collab": "icecube",
       "email": "simone.garrappa@icecube.wisc.edu",
