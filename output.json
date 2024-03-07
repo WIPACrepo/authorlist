@@ -15146,6 +15146,36 @@
       "to": ""
     },
     {
+      "authname": "S. Fukami",
+      "collab": "icecube",
+      "email": "satoshi.fukami@desy.de",
+      "first": "Satoshi",
+      "from": "2024-03-07",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "fukami",
+      "last": "Fukami",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Fukami",
+      "collab": "icecube-gen2",
+      "email": "satoshi.fukami@desy.de",
+      "first": "Satoshi",
+      "from": "2024-03-07",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "fukami",
+      "last": "Fukami",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. F\u00fcrst",
       "collab": "icecube",
       "email": "philipp.fuerst@icecube.wisc.edu",
