@@ -22471,7 +22471,7 @@
       "last": "Iwakiri",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-10"
     },
     {
       "authname": "W. Iwakiri",
@@ -22485,6 +22485,36 @@
       "keycloak_username": "buz.iwakiri",
       "last": "Iwakiri",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-10"
+    },
+    {
+      "authname": "W. Iwakiri",
+      "collab": "icecube",
+      "email": "iwakiri.wataru.buz@gmail.com",
+      "first": "Wataru",
+      "from": "2024-03-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "buz.iwakiri",
+      "last": "Iwakiri",
+      "orcid": "0000-0002-0207-9010",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Iwakiri",
+      "collab": "icecube-gen2",
+      "email": "iwakiri.wataru.buz@gmail.com",
+      "first": "Wataru",
+      "from": "2024-03-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "buz.iwakiri",
+      "last": "Iwakiri",
+      "orcid": "0000-0002-0207-9010",
       "thanks": [],
       "to": ""
     },
