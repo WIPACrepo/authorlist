@@ -35379,6 +35379,36 @@
       "last": "Noda",
       "orcid": "",
       "thanks": [],
+      "to": "2024-03-10"
+    },
+    {
+      "authname": "K. Noda",
+      "collab": "icecube",
+      "email": "nodak5@gmail.com",
+      "first": "Koji",
+      "from": "2024-03-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "knoda",
+      "last": "Noda",
+      "orcid": "0000-0003-1397-6478",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Noda",
+      "collab": "icecube-gen2",
+      "email": "nodak5@gmail.com",
+      "first": "Koji",
+      "from": "2024-03-11",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "knoda",
+      "last": "Noda",
+      "orcid": "0000-0003-1397-6478",
+      "thanks": [],
       "to": ""
     },
     {
