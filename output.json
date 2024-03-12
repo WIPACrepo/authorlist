@@ -45685,7 +45685,7 @@
       "last": "Shimizu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-11"
     },
     {
       "authname": "N. Shimizu",
@@ -45699,6 +45699,36 @@
       "keycloak_username": "nshimizu",
       "last": "Shimizu",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-11"
+    },
+    {
+      "authname": "N. Shimizu",
+      "collab": "icecube",
+      "email": "shimizu@hepburn.s.chiba-u.ac.jp",
+      "first": "Shimizu",
+      "from": "2024-03-12",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "nshimizu",
+      "last": "N",
+      "orcid": "0000-0001-6857-1772",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Shimizu",
+      "collab": "icecube-gen2",
+      "email": "shimizu@hepburn.s.chiba-u.ac.jp",
+      "first": "Shimizu",
+      "from": "2024-03-12",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "nshimizu",
+      "last": "N",
+      "orcid": "0000-0001-6857-1772",
       "thanks": [],
       "to": ""
     },
