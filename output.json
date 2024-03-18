@@ -3605,7 +3605,7 @@
       "last": "Bash",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-17"
     },
     {
       "authname": "S. Bash",
@@ -3619,6 +3619,36 @@
       "keycloak_username": "sbash1",
       "last": "Bash",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "S. Bash",
+      "collab": "icecube",
+      "email": "simeon.bash@tum.de",
+      "first": "Simeon",
+      "from": "2024-03-18",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "sbash1",
+      "last": "Bash",
+      "orcid": "0000-0003-2680-1271",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Bash",
+      "collab": "icecube-gen2",
+      "email": "simeon.bash@tum.de",
+      "first": "Simeon",
+      "from": "2024-03-18",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "sbash1",
+      "last": "Bash",
+      "orcid": "0000-0003-2680-1271",
       "thanks": [],
       "to": ""
     },
@@ -6000,7 +6030,7 @@
       "last": "Book",
       "orcid": "0000-0001-6687-5959",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-17"
     },
     {
       "authname": "J. Y. Book",
@@ -6013,6 +6043,36 @@
       ],
       "keycloak_username": "jbook",
       "last": "Book",
+      "orcid": "0000-0001-6687-5959",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "J. Y. Book Motzkin",
+      "collab": "icecube",
+      "email": "jbook@g.harvard.edu",
+      "first": "Julia",
+      "from": "2024-03-18",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "jbook",
+      "last": "Book Motzkin",
+      "orcid": "0000-0001-6687-5959",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Y. Book Motzkin",
+      "collab": "icecube-gen2",
+      "email": "jbook@g.harvard.edu",
+      "first": "Julia",
+      "from": "2024-03-18",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "jbook",
+      "last": "Book Motzkin",
       "orcid": "0000-0001-6687-5959",
       "thanks": [],
       "to": ""
@@ -7917,6 +7977,22 @@
       "keycloak_username": "jcarpio",
       "last": "Carpio",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "J. Carpio",
+      "collab": "icecube",
+      "email": "jac866@psu.edu",
+      "first": "Jose",
+      "from": "2024-03-18",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "0000-0003-0667-6557",
       "thanks": [],
       "to": ""
     },
@@ -21158,7 +21234,7 @@
       "last": "Hori",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-17"
     },
     {
       "authname": "S. Hori",
@@ -21172,6 +21248,36 @@
       "keycloak_username": "sahori",
       "last": "Hori",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "S. Hori",
+      "collab": "icecube",
+      "email": "sahori@wisc.edu",
+      "first": "Sam",
+      "from": "2024-03-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sahori",
+      "last": "Hori",
+      "orcid": "0009-0007-2644-5955",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Hori",
+      "collab": "icecube-gen2",
+      "email": "sahori@wisc.edu",
+      "first": "Sam",
+      "from": "2024-03-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sahori",
+      "last": "Hori",
+      "orcid": "0009-0007-2644-5955",
       "thanks": [],
       "to": ""
     },
@@ -30095,7 +30201,7 @@
       "last": "Love",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-17"
     },
     {
       "authname": "C. Love",
@@ -30103,6 +30209,36 @@
       "email": "cel94@drexel.edu",
       "first": "Christina",
       "from": "2022-07-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "clove",
+      "last": "Love",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "C. Love",
+      "collab": "icecube",
+      "email": "cel94@drexel.edu",
+      "first": "Christy",
+      "from": "2024-03-18",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "clove",
+      "last": "Love",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Love",
+      "collab": "icecube-gen2",
+      "email": "cel94@drexel.edu",
+      "first": "Christy",
+      "from": "2024-03-18",
       "instnames": [
         "drexel"
       ],
