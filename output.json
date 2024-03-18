@@ -31132,7 +31132,7 @@
       "last": "Magnus",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-17"
     },
     {
       "authname": "E. Magnus",
@@ -31146,6 +31146,36 @@
       "keycloak_username": "emagnus",
       "last": "Magnus",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-17"
+    },
+    {
+      "authname": "E. Magnus",
+      "collab": "icecube",
+      "email": "else.magnus@vub.be",
+      "first": "Else",
+      "from": "2024-03-18",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "emagnus",
+      "last": "Magnus",
+      "orcid": "0009-0008-8111-1154",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Magnus",
+      "collab": "icecube-gen2",
+      "email": "else.magnus@vub.be",
+      "first": "Else",
+      "from": "2024-03-18",
+      "instnames": [
+        "brusselsvrije"
+      ],
+      "keycloak_username": "emagnus",
+      "last": "Magnus",
+      "orcid": "0009-0008-8111-1154",
       "thanks": [],
       "to": ""
     },
