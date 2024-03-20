@@ -5632,6 +5632,36 @@
       "to": ""
     },
     {
+      "authname": "L. Bloom",
+      "collab": "icecube",
+      "email": "lbloom1@crimson.ua.edu",
+      "first": "Lucas",
+      "from": "2024-03-20",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "lbloom",
+      "last": "Bloom",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Bloom",
+      "collab": "icecube-gen2",
+      "email": "lbloom1@crimson.ua.edu",
+      "first": "Lucas",
+      "from": "2024-03-20",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "lbloom",
+      "last": "Bloom",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Blot",
       "collab": "pingu",
       "email": "summer.blot@icecube.wisc.edu",
