@@ -31828,7 +31828,7 @@
       "last": "Marka",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-20"
     },
     {
       "authname": "S. Marka",
@@ -31842,6 +31842,36 @@
       "keycloak_username": "smarka",
       "last": "Marka",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-20"
+    },
+    {
+      "authname": "S. Marka",
+      "collab": "icecube",
+      "email": "sm2375@columbia.edu",
+      "first": "Szabolcs",
+      "from": "2024-03-21",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "smarka",
+      "last": "Marka",
+      "orcid": "0000-0002-3957-1324",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Marka",
+      "collab": "icecube-gen2",
+      "email": "sm2375@columbia.edu",
+      "first": "Szabolcs",
+      "from": "2024-03-21",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "smarka",
+      "last": "Marka",
+      "orcid": "0000-0002-3957-1324",
       "thanks": [],
       "to": ""
     },
@@ -31858,7 +31888,7 @@
       "last": "Marka",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-20"
     },
     {
       "authname": "Z. Marka",
@@ -31872,6 +31902,36 @@
       "keycloak_username": "zmarka",
       "last": "Marka",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-20"
+    },
+    {
+      "authname": "Z. Marka",
+      "collab": "icecube",
+      "email": "zsuzsa.marka@icecube.wisc.edu",
+      "first": "Zsuzsa",
+      "from": "2024-03-21",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "zmarka",
+      "last": "Marka",
+      "orcid": "0000-0003-1306-5260",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Marka",
+      "collab": "icecube-gen2",
+      "email": "zsuzsa.marka@icecube.wisc.edu",
+      "first": "Zsuzsa",
+      "from": "2024-03-21",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "zmarka",
+      "last": "Marka",
+      "orcid": "0000-0003-1306-5260",
       "thanks": [],
       "to": ""
     },
