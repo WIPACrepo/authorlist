@@ -5644,7 +5644,7 @@
       "last": "Bloom",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-25"
     },
     {
       "authname": "L. Bloom",
@@ -5658,6 +5658,36 @@
       "keycloak_username": "lbloom",
       "last": "Bloom",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-25"
+    },
+    {
+      "authname": "L. Bloom",
+      "collab": "icecube",
+      "email": "lbloom1@crimson.ua.edu",
+      "first": "Lucas",
+      "from": "2024-03-26",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "lbloom",
+      "last": "Bloom",
+      "orcid": "0009-0005-9938-3164",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Bloom",
+      "collab": "icecube-gen2",
+      "email": "lbloom1@crimson.ua.edu",
+      "first": "Lucas",
+      "from": "2024-03-26",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "lbloom",
+      "last": "Bloom",
+      "orcid": "0009-0005-9938-3164",
       "thanks": [],
       "to": ""
     },
@@ -54505,7 +54535,7 @@
       "last": "Witthaus",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-25"
     },
     {
       "authname": "L. Witthaus",
@@ -54519,6 +54549,36 @@
       "keycloak_username": "lwitthaus",
       "last": "Witthaus",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-03-25"
+    },
+    {
+      "authname": "L. Witthaus",
+      "collab": "icecube",
+      "email": "lucas.witthaus@icecube.wisc.edu",
+      "first": "Lucas",
+      "from": "2024-03-26",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lwitthaus",
+      "last": "Witthaus",
+      "orcid": "0009-0000-0666-3671",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Witthaus",
+      "collab": "icecube-gen2",
+      "email": "lucas.witthaus@icecube.wisc.edu",
+      "first": "Lucas",
+      "from": "2024-03-26",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lwitthaus",
+      "last": "Witthaus",
+      "orcid": "0009-0000-0666-3671",
       "thanks": [],
       "to": ""
     },
