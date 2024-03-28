@@ -20096,7 +20096,7 @@
       "last": "Hellrung",
       "orcid": "0009-0006-7300-8961",
       "thanks": [],
-      "to": ""
+      "to": "2024-03-27"
     },
     {
       "authname": "J. Hellrung",
@@ -20104,6 +20104,36 @@
       "email": "jonas.hellrung@icecube.wisc.edu",
       "first": "Jonas",
       "from": "2023-12-01",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
+      "thanks": [],
+      "to": "2024-03-27"
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube",
+      "email": "jonas.hellrung@rub.de",
+      "first": "Jonas",
+      "from": "2024-03-28",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "jhellrung",
+      "last": "Hellrung",
+      "orcid": "0009-0006-7300-8961",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Hellrung",
+      "collab": "icecube-gen2",
+      "email": "jonas.hellrung@rub.de",
+      "first": "Jonas",
+      "from": "2024-03-28",
       "instnames": [
         "bochum"
       ],
