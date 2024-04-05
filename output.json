@@ -39798,6 +39798,36 @@
       "to": "2020-08-01"
     },
     {
+      "authname": "M. Ravn",
+      "collab": "icecube",
+      "email": "martin.ravn@physics.uu.se",
+      "first": "Martin Langg\u00e5rd",
+      "from": "2024-04-05",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "mravn",
+      "last": "Ravn",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ravn",
+      "collab": "icecube-gen2",
+      "email": "martin.ravn@physics.uu.se",
+      "first": "Martin Langg\u00e5rd",
+      "from": "2024-04-05",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "mravn",
+      "last": "Ravn",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Rawlins",
       "collab": "icecube",
       "email": "krawlins@alaska.edu",
