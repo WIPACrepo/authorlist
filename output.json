@@ -30148,6 +30148,21 @@
       "to": ""
     },
     {
+      "authname": "M. Liu",
+      "collab": "icecube-gen2",
+      "email": "martin.liu@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2024-04-08",
+      "instnames": [
+        "nebraska"
+      ],
+      "keycloak_username": "mliu",
+      "last": "Liu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Q. R. Liu",
       "collab": "icecube",
       "email": "qliu@icecube.wisc.edu",
