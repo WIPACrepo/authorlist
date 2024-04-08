@@ -11852,6 +11852,36 @@
       "to": "2011-12-31"
     },
     {
+      "authname": "P. Dierichs",
+      "collab": "icecube",
+      "email": "pierre.dierichs@rwth-aachen.de",
+      "first": "Pierre",
+      "from": "2024-04-08",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pdierichs",
+      "last": "Dierichs",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Dierichs",
+      "collab": "icecube-gen2",
+      "email": "pierre.dierichs@rwth-aachen.de",
+      "first": "Pierre",
+      "from": "2024-04-08",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pdierichs",
+      "last": "Dierichs",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "V. di Lorenzo",
       "collab": "icecube",
       "email": "vincenzo.dilorenzo@icecube.wisc.edu",
