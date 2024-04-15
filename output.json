@@ -34496,7 +34496,7 @@
       "last": "Moore",
       "orcid": "0000-0003-4160-4700",
       "thanks": [],
-      "to": ""
+      "to": "2024-04-14"
     },
     {
       "authname": "R. W. Moore",
@@ -34504,6 +34504,36 @@
       "email": "roger.moore@icecube.wisc.edu",
       "first": "Roger",
       "from": "2017-05-01",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "rwmoore",
+      "last": "Moore",
+      "orcid": "0000-0003-4160-4700",
+      "thanks": [],
+      "to": "2024-04-14"
+    },
+    {
+      "authname": "R. W. Moore",
+      "collab": "icecube",
+      "email": "rwmoore@ualberta.ca",
+      "first": "Roger",
+      "from": "2024-04-15",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "rwmoore",
+      "last": "Moore",
+      "orcid": "0000-0003-4160-4700",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. W. Moore",
+      "collab": "icecube-gen2",
+      "email": "rwmoore@ualberta.ca",
+      "first": "Roger",
+      "from": "2024-04-15",
       "instnames": [
         "edmonton"
       ],
