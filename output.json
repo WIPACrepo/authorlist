@@ -3635,22 +3635,7 @@
       "last": "Bash",
       "orcid": "0000-0003-2680-1271",
       "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "S. Bash",
-      "collab": "icecube",
-      "email": "simeon.bash@tum.de",
-      "first": "Simeon",
-      "from": "2024-04-17",
-      "instnames": [
-        "munich"
-      ],
-      "keycloak_username": "sbash",
-      "last": "Bash",
-      "orcid": "",
-      "thanks": [],
-      "to": ""
+      "to": "2024-04-17"
     },
     {
       "authname": "S. Bash",
@@ -3664,6 +3649,21 @@
       "keycloak_username": "sbash1",
       "last": "Bash",
       "orcid": "0000-0003-2680-1271",
+      "thanks": [],
+      "to": "2024-04-17"
+    },
+    {
+      "authname": "S. Bash",
+      "collab": "icecube",
+      "email": "simeon.bash@tum.de",
+      "first": "Simeon",
+      "from": "2024-04-17",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "sbash",
+      "last": "Bash",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
