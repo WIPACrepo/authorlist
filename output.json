@@ -15722,6 +15722,36 @@
       "to": ""
     },
     {
+      "authname": "G. Garg",
+      "collab": "icecube",
+      "email": "gopalgarg067@gmail.com",
+      "first": "Gopal",
+      "from": "2024-04-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "ggarg",
+      "last": "Garg",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Garg",
+      "collab": "icecube-gen2",
+      "email": "gopalgarg067@gmail.com",
+      "first": "Gopal",
+      "from": "2024-04-18",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "ggarg",
+      "last": "Garg",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Garrappa",
       "collab": "icecube",
       "email": "simone.garrappa@icecube.wisc.edu",
