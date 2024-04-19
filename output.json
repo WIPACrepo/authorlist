@@ -41636,7 +41636,7 @@
       "last": "Rodan",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-04-18"
     },
     {
       "authname": "S. Rodan",
@@ -41646,6 +41646,38 @@
       "from": "2022-06-08",
       "instnames": [
         "skku"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-04-18"
+    },
+    {
+      "authname": "S. Rodan",
+      "collab": "icecube",
+      "email": "steven.rodan@icecube.wisc.edu",
+      "first": "Steven",
+      "from": "2024-04-19",
+      "instnames": [
+        "skku",
+        "skku2"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Rodan",
+      "collab": "icecube-gen2",
+      "email": "steven.rodan@icecube.wisc.edu",
+      "first": "Steven",
+      "from": "2024-04-19",
+      "instnames": [
+        "skku",
+        "skku2"
       ],
       "keycloak_username": "srodan",
       "last": "Rodan",
