@@ -8849,7 +8849,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-04-21"
     },
     {
       "authname": "S. Choi",
@@ -8859,6 +8859,38 @@
       "from": "2022-11-25",
       "instnames": [
         "skku"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-04-21"
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2024-04-22",
+      "instnames": [
+        "skku",
+        "skku2"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube-gen2",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2024-04-22",
+      "instnames": [
+        "skku",
+        "skku2"
       ],
       "keycloak_username": "schoi1",
       "last": "Choi",
