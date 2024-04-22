@@ -15900,6 +15900,37 @@
       "last": "Genton",
       "orcid": "",
       "thanks": [],
+      "to": "2024-04-21"
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2024-04-22",
+      "instnames": [
+        "harvard",
+        "uclouvain"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube-gen2",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2024-04-22",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -46001,6 +46032,21 @@
       "email": "pamyhr@stud.ntnu.no",
       "first": "Per Arne",
       "from": "2024-01-14",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "psevle",
+      "last": "Sevle Myhr",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-04-21"
+    },
+    {
+      "authname": "P. Sevle Myhr",
+      "collab": "icecube",
+      "email": "perarnesevle@gmail.com",
+      "first": "Per Arne",
+      "from": "2024-04-22",
       "instnames": [
         "uclouvain"
       ],
