@@ -51901,7 +51901,7 @@
       "last": "Vara",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-04-25"
     },
     {
       "authname": "J. Vara",
@@ -51914,6 +51914,36 @@
       ],
       "keycloak_username": "jvara",
       "last": "Vara",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-04-25"
+    },
+    {
+      "authname": "J. Vara",
+      "collab": "icecube",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Francisco Javier",
+      "from": "2024-04-26",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara Carbonell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Vara",
+      "collab": "icecube-gen2",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Francisco Javier",
+      "from": "2024-04-26",
+      "instnames": [
+        "munster"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara Carbonell",
       "orcid": "",
       "thanks": [],
       "to": ""
