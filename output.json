@@ -56524,7 +56524,7 @@
       "last": "Zhelnin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-05-05"
     },
     {
       "authname": "P. Zhelnin",
@@ -56538,6 +56538,36 @@
       "keycloak_username": "pzhelnin",
       "last": "Zhelnin",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-05-05"
+    },
+    {
+      "authname": "P. Zhelnin",
+      "collab": "icecube",
+      "email": "pzhelnin@g.harvard.edu",
+      "first": "Pavel",
+      "from": "2024-05-06",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "pzhelnin",
+      "last": "Zhelnin",
+      "orcid": "0000-0003-1019-8375",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Zhelnin",
+      "collab": "icecube-gen2",
+      "email": "pzhelnin@g.harvard.edu",
+      "first": "Pavel",
+      "from": "2024-05-06",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "pzhelnin",
+      "last": "Zhelnin",
+      "orcid": "0000-0003-1019-8375",
       "thanks": [],
       "to": ""
     },
