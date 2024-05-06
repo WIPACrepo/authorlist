@@ -253,7 +253,7 @@ class AuthorListRenderer:
 \\twocolumn
 \\begin{acknowledgements}
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{acknowledgements}
 
@@ -305,7 +305,7 @@ You will need svjour3.cls and svepjc3.clo from
 
 \\begin{acknowledgements}
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{acknowledgements}
 
@@ -369,7 +369,7 @@ Text body goes here.
 
 \\section*{Acknowledgements}
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 
 \\end{document}"""
@@ -485,7 +485,7 @@ some other files from the
 \\maketitle
 \\begin{acknowledgements}
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{acknowledgements}
 \\end{document}"""
@@ -532,7 +532,7 @@ but also consult the journal pages for more author instructions.
 
 \\section*{acknowledgements}
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{document}"""
 
@@ -583,7 +583,7 @@ You will need elsarticle from the
 \\maketitle
 \\acknowledgments
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{document}"""
 
@@ -634,7 +634,7 @@ You will need jheppub from
 \\maketitle
 \\acknowledgments
 """
-        text += '\n'.join(utf8tolatex(a) for a in self.acks[1:])
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
         text += """
 \\end{document}"""
 
