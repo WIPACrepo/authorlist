@@ -9255,6 +9255,21 @@
       "last": "Clark",
       "orcid": "",
       "thanks": [],
+      "to": "2024-05-08"
+    },
+    {
+      "authname": "R. Clark",
+      "collab": "icecube-gen2",
+      "email": "rogan.clark@icecube.wisc.edu",
+      "first": "Rogan",
+      "from": "2024-05-09",
+      "instnames": [
+        "kingscollege"
+      ],
+      "keycloak_username": "rclark",
+      "last": "Clark",
+      "orcid": "0000-0002-1195-3101",
+      "thanks": [],
       "to": ""
     },
     {
