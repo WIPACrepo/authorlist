@@ -15635,7 +15635,7 @@
       "last": "Gallagher",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-05-14"
     },
     {
       "authname": "J. Gallagher",
@@ -15649,6 +15649,36 @@
       "keycloak_username": "jsg",
       "last": "Gallagher",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-05-14"
+    },
+    {
+      "authname": "J. Gallagher",
+      "collab": "icecube",
+      "email": "jsg@icecube.wisc.edu",
+      "first": "John",
+      "from": "2024-05-15",
+      "instnames": [
+        "madisonastro"
+      ],
+      "keycloak_username": "jsg",
+      "last": "Gallagher",
+      "orcid": "0000-0001-8608-0408",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Gallagher",
+      "collab": "icecube-gen2",
+      "email": "jsg@icecube.wisc.edu",
+      "first": "John",
+      "from": "2024-05-15",
+      "instnames": [
+        "madisonastro"
+      ],
+      "keycloak_username": "jsg",
+      "last": "Gallagher",
+      "orcid": "0000-0001-8608-0408",
       "thanks": [],
       "to": ""
     },
