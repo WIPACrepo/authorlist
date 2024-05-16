@@ -52024,6 +52024,36 @@
       "to": ""
     },
     {
+      "authname": "F. Varsi",
+      "collab": "icecube",
+      "email": "fahimwarsi89@gmail.com",
+      "first": "Fahim",
+      "from": "2024-05-16",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "fvarsi",
+      "last": "Varsi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Varsi",
+      "collab": "icecube-gen2",
+      "email": "fahimwarsi89@gmail.com",
+      "first": "Fahim",
+      "from": "2024-05-16",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "fvarsi",
+      "last": "Varsi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. Veberic",
       "collab": "icecube-gen2",
       "email": "darko.veberic@icecube.wisc.edu",
