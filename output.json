@@ -32195,7 +32195,7 @@
       "last": "Mari\u015f",
       "orcid": "0000-0002-5771-1124",
       "thanks": [],
-      "to": ""
+      "to": "2024-05-21"
     },
     {
       "authname": "I. C. Mari\u015f",
@@ -32203,6 +32203,36 @@
       "email": "ioana.maris@icecube.wisc.edu",
       "first": "Ioana",
       "from": "2018-07-03",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "imaris",
+      "last": "Mari\u015f",
+      "orcid": "0000-0002-5771-1124",
+      "thanks": [],
+      "to": "2024-05-21"
+    },
+    {
+      "authname": "I. C. Mari\u015f",
+      "collab": "icecube",
+      "email": "ioana.maris@ulb.be",
+      "first": "Ioana",
+      "from": "2024-05-22",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "imaris",
+      "last": "Mari\u015f",
+      "orcid": "0000-0002-5771-1124",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. C. Mari\u015f",
+      "collab": "icecube-gen2",
+      "email": "ioana.maris@ulb.be",
+      "first": "Ioana",
+      "from": "2024-05-22",
       "instnames": [
         "brusselslibre"
       ],
