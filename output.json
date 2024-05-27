@@ -23249,7 +23249,7 @@
       "last": "Janik",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-05-26"
     },
     {
       "authname": "O. Janik",
@@ -23257,6 +23257,36 @@
       "email": "oliver.janik@icecube.wisc.edu",
       "first": "Oliver",
       "from": "2024-01-08",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "ojanik",
+      "last": "Janik",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-05-26"
+    },
+    {
+      "authname": "O. Janik",
+      "collab": "icecube",
+      "email": "oliver.janik@fau.de",
+      "first": "Oliver",
+      "from": "2024-05-27",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "ojanik",
+      "last": "Janik",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "O. Janik",
+      "collab": "icecube-gen2",
+      "email": "oliver.janik@fau.de",
+      "first": "Oliver",
+      "from": "2024-05-27",
       "instnames": [
         "erlangen"
       ],
