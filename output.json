@@ -16152,7 +16152,7 @@
       "last": "Gernhaeuser",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-05-27"
     },
     {
       "authname": "A. Ghadimi",
@@ -31913,6 +31913,21 @@
       "email": "elena.manao@icecube.wisc.edu",
       "first": "Elena",
       "from": "2023-06-02",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "emanao",
+      "last": "Manao",
+      "orcid": "0009-0002-6197-8574",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Manao",
+      "collab": "icecube-gen2",
+      "email": "elena.manao@icecube.wisc.edu",
+      "first": "Elena",
+      "from": "2024-05-28",
       "instnames": [
         "munich"
       ],
