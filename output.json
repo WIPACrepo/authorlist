@@ -12702,6 +12702,21 @@
       "to": "2009-11-23"
     },
     {
+      "authname": "T. Egby",
+      "collab": "icecube-gen2",
+      "email": "treston.egby@sus.edu",
+      "first": "Treston",
+      "from": "2024-06-07",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "tegby",
+      "last": "Egby",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "T. Ehrhardt",
       "collab": "icecube",
       "email": "thomas.ehrhardt@icecube.wisc.edu",
