@@ -52437,6 +52437,21 @@
     },
     {
       "authname": "S. Vergara Carrasco",
+      "collab": "icecube",
+      "email": "snv19@uclive.ac.nz",
+      "first": "Sebastian",
+      "from": "2024-06-07",
+      "instnames": [
+        "christchurch"
+      ],
+      "keycloak_username": "svergaracarrasco",
+      "last": "Vergara Carrasco",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Vergara Carrasco",
       "collab": "icecube-gen2",
       "email": "snv19@uclive.ac.nz",
       "first": "Sebastian",
