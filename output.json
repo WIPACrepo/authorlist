@@ -30422,7 +30422,7 @@
       "last": "Lincetto",
       "orcid": "0000-0002-1460-3369",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-06"
     },
     {
       "authname": "M. Lincetto",
@@ -30430,6 +30430,36 @@
       "email": "lincetto@astro.rub.de",
       "first": "Massimiliano",
       "from": "2023-03-30",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "mlincetto",
+      "last": "Lincetto",
+      "orcid": "0000-0002-1460-3369",
+      "thanks": [],
+      "to": "2024-06-06"
+    },
+    {
+      "authname": "M. Lincetto",
+      "collab": "icecube",
+      "email": "massimiliano.lincetto@desy.de",
+      "first": "Massimiliano",
+      "from": "2024-06-07",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "mlincetto",
+      "last": "Lincetto",
+      "orcid": "0000-0002-1460-3369",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Lincetto",
+      "collab": "icecube-gen2",
+      "email": "massimiliano.lincetto@desy.de",
+      "first": "Massimiliano",
+      "from": "2024-06-07",
       "instnames": [
         "bochum"
       ],
