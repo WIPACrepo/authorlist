@@ -22658,7 +22658,7 @@
       "last": "Hymon",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-10"
     },
     {
       "authname": "K. Hymon",
@@ -22668,6 +22668,38 @@
       "from": "2021-10-21",
       "instnames": [
         "dortmund"
+      ],
+      "keycloak_username": "khymon",
+      "last": "Hymon",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-06-10"
+    },
+    {
+      "authname": "K. Hymon",
+      "collab": "icecube",
+      "email": "karolin.hymon@icecube.wisc.edu",
+      "first": "Karolin",
+      "from": "2024-06-11",
+      "instnames": [
+        "dortmund",
+        "sinica"
+      ],
+      "keycloak_username": "khymon",
+      "last": "Hymon",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Hymon",
+      "collab": "icecube-gen2",
+      "email": "karolin.hymon@icecube.wisc.edu",
+      "first": "Karolin",
+      "from": "2024-06-11",
+      "instnames": [
+        "dortmund",
+        "sinica"
       ],
       "keycloak_username": "khymon",
       "last": "Hymon",
