@@ -16584,7 +16584,7 @@
       "last": "Glaser",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-10"
     },
     {
       "authname": "C. Glaser",
@@ -16598,6 +16598,36 @@
       "keycloak_username": "cglaser",
       "last": "Glaser",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-06-10"
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube",
+      "email": "christian.glaser@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2024-06-11",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "0000-0001-5998-2553",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube-gen2",
+      "email": "christian.glaser@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2024-06-11",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "0000-0001-5998-2553",
       "thanks": [],
       "to": ""
     },
@@ -47859,7 +47889,7 @@
       "last": "Spiering",
       "orcid": "0000-0001-7372-0074",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-10"
     },
     {
       "authname": "C. Spiering",
@@ -47867,6 +47897,36 @@
       "email": "cspiering@icecube.wisc.edu",
       "first": "Christian",
       "from": "2022-03-21",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "cspiering",
+      "last": "Spiering",
+      "orcid": "0000-0001-7372-0074",
+      "thanks": [],
+      "to": "2024-06-10"
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube",
+      "email": "christian.spiering@desy.de",
+      "first": "Christian",
+      "from": "2024-06-11",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "cspiering",
+      "last": "Spiering",
+      "orcid": "0000-0001-7372-0074",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Spiering",
+      "collab": "icecube-gen2",
+      "email": "christian.spiering@desy.de",
+      "first": "Christian",
+      "from": "2024-06-11",
       "instnames": [
         "zeuthen"
       ],
