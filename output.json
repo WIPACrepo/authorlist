@@ -18125,6 +18125,21 @@
     },
     {
       "authname": "D. Guevel",
+      "collab": "icecube",
+      "email": "guevel@wisc.edu",
+      "first": "David",
+      "from": "2024-06-11",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Guevel",
       "collab": "icecube-gen2",
       "email": "guevel@wisc.edu",
       "first": "David",
@@ -38813,7 +38828,7 @@
       "last": "Philippen",
       "orcid": "0000-0002-0276-0092",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-10"
     },
     {
       "authname": "S. Philippen",
@@ -38828,7 +38843,7 @@
       "last": "Philippen",
       "orcid": "0000-0002-0276-0092",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-10"
     },
     {
       "authname": "A. Piegsa",
