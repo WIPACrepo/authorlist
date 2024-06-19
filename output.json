@@ -12420,6 +12420,21 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "D. Durnford",
+      "collab": "icecube",
+      "email": "ddurnfor@ualberta.ca",
+      "first": "Daniel",
+      "from": "2024-06-19",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "ddurnford",
+      "last": "Durnford",
+      "orcid": "0000-0002-6608-7650",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Dutta",
       "collab": "icecube",
       "email": "kadutta@students.uni-mainz.de",
