@@ -19788,7 +19788,7 @@
       "last": "Haugen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-19"
     },
     {
       "authname": "A. Haungs",
@@ -32218,6 +32218,21 @@
       "from": "2023-10-30",
       "instnames": [
         "madisonpac",
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [],
+      "to": "2024-06-19"
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube",
+      "email": "sarah.mancina@icecube.wisc.edu",
+      "first": "Sarah",
+      "from": "2024-06-20",
+      "instnames": [
         "padova"
       ],
       "keycloak_username": "smancina",
