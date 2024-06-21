@@ -14021,6 +14021,21 @@
     },
     {
       "authname": "K. Farrag",
+      "collab": "icecube-gen2",
+      "email": "k.r.h.farrag@chiba-u.jp",
+      "first": "Kareem",
+      "from": "2023-03-07",
+      "instnames": [
+        "qmlondon"
+      ],
+      "keycloak_username": "kfarrag",
+      "last": "Farrag",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-06-20"
+    },
+    {
+      "authname": "K. Farrag",
       "collab": "icecube",
       "email": "kareem.farrag@icecube.wisc.edu",
       "first": "Kareem",
@@ -14037,13 +14052,13 @@
     {
       "authname": "K. Farrag",
       "collab": "icecube-gen2",
-      "email": "k.r.h.farrag@chiba-u.jp",
+      "email": "kareem.farrag@icecube.wisc.edu",
       "first": "Kareem",
-      "from": "2023-03-07",
+      "from": "2024-02-06",
       "instnames": [
-        "qmlondon"
+        "chiba2022"
       ],
-      "keycloak_username": "kfarrag",
+      "keycloak_username": "kareem",
       "last": "Farrag",
       "orcid": "",
       "thanks": [],
@@ -14052,13 +14067,13 @@
     {
       "authname": "K. Farrag",
       "collab": "icecube-gen2",
-      "email": "kareem.farrag@icecube.wisc.edu",
+      "email": "kfarrag@chiba-u.jp",
       "first": "Kareem",
-      "from": "2024-02-06",
+      "from": "2024-06-21",
       "instnames": [
-        "chiba2022"
+        "qmlondon"
       ],
-      "keycloak_username": "kareem",
+      "keycloak_username": "kfarrag",
       "last": "Farrag",
       "orcid": "",
       "thanks": [],
