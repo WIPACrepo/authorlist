@@ -23505,7 +23505,7 @@
       "last": "Jansson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-26"
     },
     {
       "authname": "M. Jansson",
@@ -23515,6 +23515,36 @@
       "from": "2024-06-13",
       "instnames": [
         "stockholmokc"
+      ],
+      "keycloak_username": "mjansson",
+      "last": "Jansson",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-06-26"
+    },
+    {
+      "authname": "M. Jansson",
+      "collab": "icecube",
+      "email": "matti.jansson@gmail.com",
+      "first": "Matti",
+      "from": "2024-06-27",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "mjansson",
+      "last": "Jansson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jansson",
+      "collab": "icecube-gen2",
+      "email": "matti.jansson@gmail.com",
+      "first": "Matti",
+      "from": "2024-06-27",
+      "instnames": [
+        "skku"
       ],
       "keycloak_username": "mjansson",
       "last": "Jansson",
