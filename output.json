@@ -18337,7 +18337,7 @@
       "last": "G\u00fcnther",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-06-30"
     },
     {
       "authname": "C. G\u00fcnther",
@@ -18351,6 +18351,36 @@
       "keycloak_username": "cguenther",
       "last": "G\u00fcnther",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-06-30"
+    },
+    {
+      "authname": "C. G\u00fcnther",
+      "collab": "icecube",
+      "email": "cguenther@physik.rwth-aachen.de",
+      "first": "Christoph",
+      "from": "2024-07-01",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "cguenther",
+      "last": "G\u00fcnther",
+      "orcid": "0009-0007-5644-8559",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. G\u00fcnther",
+      "collab": "icecube-gen2",
+      "email": "cguenther@physik.rwth-aachen.de",
+      "first": "Christoph",
+      "from": "2024-07-01",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "cguenther",
+      "last": "G\u00fcnther",
+      "orcid": "0009-0007-5644-8559",
       "thanks": [],
       "to": ""
     },
