@@ -7190,6 +7190,36 @@
       "to": ""
     },
     {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube",
+      "email": "zoe.b@queensu.ca",
+      "first": "Zoe",
+      "from": "2024-07-05",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube-gen2",
+      "email": "zoe.b@queensu.ca",
+      "first": "Zoe",
+      "from": "2024-07-05",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Bron",
       "collab": "icecube",
       "email": "stephanie.bron@icecube.wisc.edu",
