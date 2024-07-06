@@ -56996,6 +56996,36 @@
       "to": "2015-06-30"
     },
     {
+      "authname": "A. Zegarelli",
+      "collab": "icecube",
+      "email": "angela.zegarelli@astro.rub.de",
+      "first": "Angela",
+      "from": "2024-07-06",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "azegarelli",
+      "last": "Zegarelli",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Zegarelli",
+      "collab": "icecube-gen2",
+      "email": "angela.zegarelli@astro.rub.de",
+      "first": "Angela",
+      "from": "2024-07-06",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "azegarelli",
+      "last": "Zegarelli",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Z. Zhang",
       "collab": "pingu",
       "email": "zelong.zhang.1@stonybrook.edu",
