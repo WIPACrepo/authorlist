@@ -10643,6 +10643,22 @@
       "last": "Deaconu",
       "orcid": "",
       "thanks": [],
+      "to": "2024-07-08"
+    },
+    {
+      "authname": "C. Deaconu",
+      "collab": "icecube-gen2",
+      "email": "cozzyd@kicp.uchicago.edu",
+      "first": "Cosmin",
+      "from": "2024-07-09",
+      "instnames": [
+        "chicagoastro",
+        "chicagokavli"
+      ],
+      "keycloak_username": "cdeaconu",
+      "last": "Deaconu",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -22449,7 +22465,7 @@
       "last": "Hughes",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-07-08"
     },
     {
       "authname": "B. Hughey",
@@ -36821,6 +36837,22 @@
       "last": "Oberla",
       "orcid": "",
       "thanks": [],
+      "to": "2024-07-08"
+    },
+    {
+      "authname": "E. Oberla",
+      "collab": "icecube-gen2",
+      "email": "eric.oberla@icecube.wisc.edu",
+      "first": "Eric",
+      "from": "2024-07-09",
+      "instnames": [
+        "chicagoastro",
+        "chicagokavli"
+      ],
+      "keycloak_username": "eoberla",
+      "last": "Oberla",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -47190,7 +47222,7 @@
       "last": "Smith",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-07-08"
     },
     {
       "authname": "M. W. E. Smith",
@@ -47832,7 +47864,7 @@
       "last": "Southall",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-07-08"
     },
     {
       "authname": "C. Spannfellner",
