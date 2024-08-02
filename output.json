@@ -23655,7 +23655,7 @@
       "last": "Japaridze",
       "orcid": "0000-0002-7000-5291",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-01"
     },
     {
       "authname": "G. S. Japaridze",
@@ -23670,7 +23670,7 @@
       "last": "Japaridze",
       "orcid": "0000-0002-7000-5291",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-01"
     },
     {
       "authname": "K. Jayakumar",
@@ -32797,7 +32797,7 @@
       "last": "Marsee",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-01"
     },
     {
       "authname": "M. Marsee",
@@ -32805,6 +32805,36 @@
       "email": "matthew.marsee@icecube.wisc.edu",
       "first": "Matthew",
       "from": "2022-07-07",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "mmarsee",
+      "last": "Marsee",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-08-01"
+    },
+    {
+      "authname": "M. Marsee",
+      "collab": "icecube",
+      "email": "mjmarsee@crimson.ua.edu",
+      "first": "Matthew",
+      "from": "2024-08-02",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "mmarsee",
+      "last": "Marsee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Marsee",
+      "collab": "icecube-gen2",
+      "email": "mjmarsee@crimson.ua.edu",
+      "first": "Matthew",
+      "from": "2024-08-02",
       "instnames": [
         "alabama"
       ],
