@@ -8114,6 +8114,22 @@
       "last": "Carpio",
       "orcid": "0000-0003-0667-6557",
       "thanks": [],
+      "to": "2024-08-01"
+    },
+    {
+      "authname": "J. Carpio",
+      "collab": "icecube",
+      "email": "jose.carpiodumler@unlv.edu",
+      "first": "Jose",
+      "from": "2024-08-02",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "0000-0003-0667-6557",
+      "thanks": [],
       "to": ""
     },
     {
