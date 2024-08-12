@@ -19264,7 +19264,7 @@
       "last": "Ha Minh",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-11"
     },
     {
       "authname": "M. Ha Minh",
@@ -19272,6 +19272,36 @@
       "email": "haminh@mpp.mpg.de",
       "first": "Martin",
       "from": "2020-09-01",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "mhaminh",
+      "last": "Ha Minh",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-08-11"
+    },
+    {
+      "authname": "M. Ha Minh",
+      "collab": "icecube",
+      "email": "martin.haminh@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2024-08-12",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "mhaminh",
+      "last": "Ha Minh",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Ha Minh",
+      "collab": "icecube-gen2",
+      "email": "martin.haminh@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2024-08-12",
       "instnames": [
         "munich"
       ],
