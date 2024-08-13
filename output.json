@@ -17562,7 +17562,7 @@
       "last": "Grant",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-12"
     },
     {
       "authname": "D. Grant",
@@ -17572,6 +17572,36 @@
       "from": "2018-12-21",
       "instnames": [
         "michigan"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-08-12"
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-08-13",
+      "instnames": [
+        "simon-fraser-2024"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube-gen2",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-08-13",
+      "instnames": [
+        "simon-fraser-2024"
       ],
       "keycloak_username": "dgrant",
       "last": "Grant",
@@ -34495,7 +34525,7 @@
       "last": "Micallef",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-12"
     },
     {
       "authname": "J. Micallef",
@@ -34510,7 +34540,7 @@
       "last": "Micallef",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-12"
     },
     {
       "authname": "E. Middell",
@@ -38362,6 +38392,21 @@
       ],
       "keycloak_username": "gparker",
       "last": "Parker",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "V. Parrish",
+      "collab": "icecube",
+      "email": "parri22v@mtholyoke.edu",
+      "first": "Victoria",
+      "from": "2024-08-13",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "vparrish",
+      "last": "Parrish",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -51501,7 +51546,7 @@
       "last": "Twagirayezu",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-12"
     },
     {
       "authname": "J. P. Twagirayezu",
@@ -57164,6 +57209,36 @@
       "to": ""
     },
     {
+      "authname": "S. Zhang",
+      "collab": "icecube",
+      "email": "zhan2214@msu.edu",
+      "first": "Shuo",
+      "from": "2024-08-13",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "szhang",
+      "last": "Zhang",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Zhang",
+      "collab": "icecube-gen2",
+      "email": "zhan2214@msu.edu",
+      "first": "Shuo",
+      "from": "2024-08-13",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "szhang",
+      "last": "Zhang",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Z. Zhang",
       "collab": "pingu",
       "email": "zelong.zhang.1@stonybrook.edu",
@@ -58738,6 +58813,19 @@
         "/institutions/IceCube-Gen2/Rochester/authorlist"
       ],
       "name": "Rochester"
+    },
+    "simon-fraser-2024": {
+      "cite": "Dept. of Physics, Simon Fraser University, Burnaby, British Columbia V5A 1S6",
+      "city": "Burnaby",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Simon-Fraser/authorlist",
+        "/institutions/IceCube/Simon-Fraser/authorlist"
+      ],
+      "name": "Simon-Fraser"
     },
     "sinica": {
       "cite": "Institute of Physics, Academia Sinica, Taipei, 11529, Taiwan",
