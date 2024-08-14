@@ -17592,7 +17592,7 @@
       "last": "Grant",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-13"
     },
     {
       "authname": "D. Grant",
@@ -17602,6 +17602,38 @@
       "from": "2024-08-13",
       "instnames": [
         "simon-fraser-2024"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-08-13"
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-08-14",
+      "instnames": [
+        "michigan",
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube-gen2",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-08-14",
+      "instnames": [
+        "michigan",
+        "simon-fraser-2024-2"
       ],
       "keycloak_username": "dgrant",
       "last": "Grant",
@@ -41155,7 +41187,7 @@
       "last": "Rehman",
       "orcid": "0000-0001-7616-5790",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-13"
     },
     {
       "authname": "A. Rehman",
@@ -41163,6 +41195,36 @@
       "email": "abdul.rehman@icecube.wisc.edu",
       "first": "Abdul",
       "from": "2019-12-20",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "arehman",
+      "last": "Rehman",
+      "orcid": "0000-0001-7616-5790",
+      "thanks": [],
+      "to": "2024-08-13"
+    },
+    {
+      "authname": "A. Rehman",
+      "collab": "icecube",
+      "email": "arehman@udel.edu",
+      "first": "Abdul",
+      "from": "2024-08-14",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "arehman",
+      "last": "Rehman",
+      "orcid": "0000-0001-7616-5790",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Rehman",
+      "collab": "icecube-gen2",
+      "email": "arehman@udel.edu",
+      "first": "Abdul",
+      "from": "2024-08-14",
       "instnames": [
         "bartol"
       ],
@@ -58816,6 +58878,16 @@
     },
     "simon-fraser-2024": {
       "cite": "Dept. of Physics, Simon Fraser University, Burnaby, British Columbia V5A 1S6",
+      "city": "Burnaby",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
+      "keycloak_groups": [],
+      "name": "Simon-Fraser"
+    },
+    "simon-fraser-2024-2": {
+      "cite": "Dept. of Physics, Simon Fraser University, Burnaby, BC V5A 1S6, Canada",
       "city": "Burnaby",
       "collabs": [
         "icecube-gen2",
