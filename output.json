@@ -29933,7 +29933,7 @@
     },
     {
       "authname": "J. W. Lee",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "dlwldnddlw@gmail.com",
       "first": "Jiwoong",
       "from": "2022-06-08",
@@ -29944,11 +29944,11 @@
       "last": "Lee",
       "orcid": "0000-0001-5681-4941",
       "thanks": [],
-      "to": ""
+      "to": "2024-08-29"
     },
     {
       "authname": "J. W. Lee",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "dlwldnddlw@gmail.com",
       "first": "Jiwoong",
       "from": "2022-06-08",
@@ -30952,6 +30952,21 @@
       "keycloak_username": "ymliu",
       "last": "Liu",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-08-29"
+    },
+    {
+      "authname": "Y. T. Liu",
+      "collab": "icecube",
+      "email": "yml5822@psu.edu",
+      "first": "Yitong",
+      "from": "2024-08-30",
+      "instnames": [
+        "pennphys"
+      ],
+      "keycloak_username": "ymliu",
+      "last": "Liu",
+      "orcid": "0009-0007-5418-1301",
       "thanks": [],
       "to": ""
     },
