@@ -29277,7 +29277,7 @@
       "last": "Lagunas Gualda",
       "orcid": "0000-0002-9040-7191",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-03"
     },
     {
       "authname": "C. Lagunas Gualda",
@@ -29285,6 +29285,36 @@
       "email": "cristina.lagunas@desy.de",
       "first": "Cristina",
       "from": "2020-06-29",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "clagunas",
+      "last": "Lagunas Gualda",
+      "orcid": "0000-0002-9040-7191",
+      "thanks": [],
+      "to": "2024-09-03"
+    },
+    {
+      "authname": "C. Lagunas Gualda",
+      "collab": "icecube",
+      "email": "cristina.lagunas@tum.de",
+      "first": "Cristina",
+      "from": "2024-09-04",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "clagunas",
+      "last": "Lagunas Gualda",
+      "orcid": "0000-0002-9040-7191",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Lagunas Gualda",
+      "collab": "icecube-gen2",
+      "email": "cristina.lagunas@tum.de",
+      "first": "Cristina",
+      "from": "2024-09-04",
       "instnames": [
         "zeuthen"
       ],
@@ -32513,7 +32543,7 @@
       "last": "Mancina",
       "orcid": "0009-0003-9879-3896",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-03"
     },
     {
       "authname": "S. Mancina",
@@ -32523,6 +32553,36 @@
       "from": "2023-10-30",
       "instnames": [
         "madisonpac",
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [],
+      "to": "2024-09-03"
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube",
+      "email": "sl.mancina@gmail.com",
+      "first": "Sarah",
+      "from": "2024-09-04",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube-gen2",
+      "email": "sl.mancina@gmail.com",
+      "first": "Sarah",
+      "from": "2024-09-04",
+      "instnames": [
         "padova"
       ],
       "keycloak_username": "smancina",
@@ -43646,7 +43706,7 @@
       "last": "Saffer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-03"
     },
     {
       "authname": "J. Saffer",
@@ -43660,6 +43720,36 @@
       "keycloak_username": "jsaffer",
       "last": "Saffer",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-03"
+    },
+    {
+      "authname": "J. Saffer",
+      "collab": "icecube",
+      "email": "julian.saffer@icecube.wisc.edu",
+      "first": "Julian",
+      "from": "2024-09-04",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "jsaffer",
+      "last": "Saffer",
+      "orcid": "0000-0002-0040-6129",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Saffer",
+      "collab": "icecube-gen2",
+      "email": "julian.saffer@icecube.wisc.edu",
+      "first": "Julian",
+      "from": "2024-09-04",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "jsaffer",
+      "last": "Saffer",
+      "orcid": "0000-0002-0040-6129",
       "thanks": [],
       "to": ""
     },
