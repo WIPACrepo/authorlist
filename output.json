@@ -11246,7 +11246,7 @@
       "last": "Desai",
       "orcid": "0000-0001-7405-9994",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-03"
     },
     {
       "authname": "A. Desai",
@@ -11254,6 +11254,36 @@
       "email": "adesai@icecube.wisc.edu",
       "first": "Abhishek",
       "from": "2020-05-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "adesai",
+      "last": "Desai",
+      "orcid": "0000-0001-7405-9994",
+      "thanks": [],
+      "to": "2024-09-03"
+    },
+    {
+      "authname": "A. Desai",
+      "collab": "icecube",
+      "email": "adesai.physics@gmail.com",
+      "first": "Abhishek",
+      "from": "2024-09-04",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "adesai",
+      "last": "Desai",
+      "orcid": "0000-0001-7405-9994",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Desai",
+      "collab": "icecube-gen2",
+      "email": "adesai.physics@gmail.com",
+      "first": "Abhishek",
+      "from": "2024-09-04",
       "instnames": [
         "madisonpac"
       ],
@@ -18290,7 +18320,7 @@
       "last": "Guevel",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-03"
     },
     {
       "authname": "D. Guevel",
@@ -18304,6 +18334,36 @@
       "keycloak_username": "dguevel",
       "last": "Guevel",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-03"
+    },
+    {
+      "authname": "D. Guevel",
+      "collab": "icecube",
+      "email": "guevel@wisc.edu",
+      "first": "David",
+      "from": "2024-09-04",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "0000-0002-0870-2328",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Guevel",
+      "collab": "icecube-gen2",
+      "email": "guevel@wisc.edu",
+      "first": "David",
+      "from": "2024-09-04",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "0000-0002-0870-2328",
       "thanks": [],
       "to": ""
     },
