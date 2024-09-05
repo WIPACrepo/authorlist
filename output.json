@@ -37665,7 +37665,7 @@
       "last": "Oeyen",
       "orcid": "0000-0003-2940-3164",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-04"
     },
     {
       "authname": "B. Oeyen",
@@ -37680,7 +37680,7 @@
       "last": "Oeyen",
       "orcid": "0000-0003-2940-3164",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-04"
     },
     {
       "authname": "H. \u00d6gelman",
@@ -48584,6 +48584,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2024-01-01"
+    },
+    {
+      "authname": "J. Stachurska",
+      "collab": "icecube",
+      "email": "juliana.stachurska@ugent.be",
+      "first": "Juliana",
+      "from": "2024-09-05",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "jstachurska",
+      "last": "Stachurska",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Stachurska",
+      "collab": "icecube-gen2",
+      "email": "juliana.stachurska@ugent.be",
+      "first": "Juliana",
+      "from": "2024-09-05",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "jstachurska",
+      "last": "Stachurska",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Stahlberg",
