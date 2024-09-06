@@ -47051,7 +47051,7 @@
       "last": "Shah",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-05"
     },
     {
       "authname": "R. Shah",
@@ -47059,6 +47059,36 @@
       "email": "riyatul10@gmail.com",
       "first": "Riya",
       "from": "2023-03-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-09-05"
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube",
+      "email": "rshah@icecube.wisc.edu",
+      "first": "Riya",
+      "from": "2024-09-06",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube-gen2",
+      "email": "rshah@icecube.wisc.edu",
+      "first": "Riya",
+      "from": "2024-09-06",
       "instnames": [
         "drexel"
       ],
