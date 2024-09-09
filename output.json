@@ -32727,6 +32727,21 @@
       "to": ""
     },
     {
+      "authname": "A. Mand",
+      "collab": "icecube",
+      "email": "aemand@wisc.edu",
+      "first": "Alicia",
+      "from": "2024-09-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "aemand",
+      "last": "Mand",
+      "orcid": "0009-0005-9697-1702",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Mandalia",
       "collab": "icecube-gen2",
       "email": "s.p.mandalia@qmul.ac.uk",
