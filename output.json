@@ -50757,6 +50757,21 @@
       "to": "2024-09-09"
     },
     {
+      "authname": "M. Thiesmeyer",
+      "collab": "icecube",
+      "email": "matthias.thiesmeyer@rwth-aachen.de",
+      "first": "Matthias",
+      "from": "2024-09-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "thiesmeyer",
+      "last": "Thiesmeyer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Thollander",
       "collab": "icecube",
       "email": "lars@icecube.wisc.edu",
