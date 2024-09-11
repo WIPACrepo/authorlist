@@ -46752,6 +46752,21 @@
       "to": ""
     },
     {
+      "authname": "L. Seen",
+      "collab": "icecube",
+      "email": "seen@wisc.edu",
+      "first": "Leo",
+      "from": "2024-09-11",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "lseen",
+      "last": "Seen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Seikh",
       "collab": "icecube",
       "email": "ful.hossain@icecube.wisc.edu",
