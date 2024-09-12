@@ -678,6 +678,21 @@
   ],
   "authors": [
     {
+      "authname": "A.Narayan",
+      "collab": "icecube-gen2",
+      "email": "ashishnar@icecube.wisc.edu",
+      "first": "Ashish",
+      "from": "2024-09-12",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "ashishnar",
+      "last": "Narayan",
+      "orcid": "0000-0001-8366-7967",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. G. Aartsen",
       "collab": "icecube",
       "email": "mark.aartsen@icecube.wisc.edu",
@@ -36311,7 +36326,7 @@
       "last": "Narayan",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-11"
     },
     {
       "authname": "U. Naumann",
