@@ -21646,6 +21646,21 @@
       "to": ""
     },
     {
+      "authname": "R. Hmaid",
+      "collab": "icecube",
+      "email": "rhmaid@chiba-u.jp",
+      "first": "Ramy",
+      "from": "2024-09-17",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "rhmaid",
+      "last": "Hmaid",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Hodges",
       "collab": "icecube",
       "email": "hodges@icecube.wisc.edu",
@@ -26881,6 +26896,36 @@
       "keycloak_username": "tkobayashi",
       "last": "Kobayashi",
       "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Kobayashi",
+      "collab": "icecube",
+      "email": "kobayashi@hepburn.s.chiba-u.ac.jp",
+      "first": "Yukiho",
+      "from": "2024-09-17",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "ykobayas",
+      "last": "Kobayashi",
+      "orcid": "0009-0005-5680-6614",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Kobayashi",
+      "collab": "icecube-gen2",
+      "email": "kobayashi@hepburn.s.chiba-u.ac.jp",
+      "first": "Yukiho",
+      "from": "2024-09-17",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "ykobayas",
+      "last": "Kobayashi",
+      "orcid": "0009-0005-5680-6614",
       "thanks": [],
       "to": ""
     },
@@ -36109,7 +36154,7 @@
       "last": "Nagai",
       "orcid": "0000-0001-7503-2777",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-16"
     },
     {
       "authname": "R. Nagai",
@@ -36124,7 +36169,7 @@
       "last": "Nagai",
       "orcid": "0000-0001-7503-2777",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-16"
     },
     {
       "authname": "R. Nahnhauer",
