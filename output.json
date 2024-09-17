@@ -48793,7 +48793,7 @@
       "last": "Stachurska",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-16"
     },
     {
       "authname": "J. Stachurska",
@@ -48807,6 +48807,36 @@
       "keycloak_username": "jstachurska",
       "last": "Stachurska",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-16"
+    },
+    {
+      "authname": "J. Stachurska",
+      "collab": "icecube",
+      "email": "juliana.stachurska@ugent.be",
+      "first": "Juliana",
+      "from": "2024-09-17",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "jstachurska",
+      "last": "Stachurska",
+      "orcid": "0000-0002-0238-5608",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Stachurska",
+      "collab": "icecube-gen2",
+      "email": "juliana.stachurska@ugent.be",
+      "first": "Juliana",
+      "from": "2024-09-17",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "jstachurska",
+      "last": "Stachurska",
+      "orcid": "0000-0002-0238-5608",
       "thanks": [],
       "to": ""
     },
