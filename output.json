@@ -2901,6 +2901,21 @@
       "to": ""
     },
     {
+      "authname": "R. Babu",
+      "collab": "icecube-gen2",
+      "email": "baburish@msu.edu",
+      "first": "Rishi",
+      "from": "2024-09-19",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "rbabu",
+      "last": "Babu",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Baccus",
       "collab": "icecube",
       "first": "J.",
