@@ -52742,7 +52742,7 @@
       "last": "Vandenbroucke",
       "orcid": "0000-0002-9867-6548",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-19"
     },
     {
       "authname": "J. Vandenbroucke",
@@ -52750,6 +52750,36 @@
       "email": "justin@icecube.wisc.edu",
       "first": "Justin",
       "from": "2014-12-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "justin",
+      "last": "Vandenbroucke",
+      "orcid": "0000-0002-9867-6548",
+      "thanks": [],
+      "to": "2024-09-19"
+    },
+    {
+      "authname": "J. Vandenbroucke",
+      "collab": "icecube",
+      "email": "justin.vandenbroucke@wisc.edu",
+      "first": "Justin",
+      "from": "2024-09-20",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "justin",
+      "last": "Vandenbroucke",
+      "orcid": "0000-0002-9867-6548",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Vandenbroucke",
+      "collab": "icecube-gen2",
+      "email": "justin.vandenbroucke@wisc.edu",
+      "first": "Justin",
+      "from": "2024-09-20",
       "instnames": [
         "madisonpac"
       ],
