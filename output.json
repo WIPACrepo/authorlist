@@ -10247,7 +10247,7 @@
       "last": "Cowen",
       "orcid": "0000-0003-4738-0787",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-22"
     },
     {
       "authname": "D. F. Cowen",
@@ -10255,6 +10255,38 @@
       "email": "cowen@phys.psu.edu",
       "first": "Doug",
       "from": "2023-04-21",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "cowen",
+      "last": "Cowen",
+      "orcid": "0000-0003-4738-0787",
+      "thanks": [],
+      "to": "2024-09-22"
+    },
+    {
+      "authname": "D. F. Cowen",
+      "collab": "icecube",
+      "email": "dfc13@psu.edu",
+      "first": "Doug",
+      "from": "2024-09-23",
+      "instnames": [
+        "pennastro",
+        "pennphys"
+      ],
+      "keycloak_username": "cowen",
+      "last": "Cowen",
+      "orcid": "0000-0003-4738-0787",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. F. Cowen",
+      "collab": "icecube-gen2",
+      "email": "dfc13@psu.edu",
+      "first": "Doug",
+      "from": "2024-09-23",
       "instnames": [
         "pennastro",
         "pennphys"
@@ -57823,7 +57855,7 @@
       "last": "Zegarelli",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-22"
     },
     {
       "authname": "A. Zegarelli",
@@ -57837,6 +57869,36 @@
       "keycloak_username": "azegarelli",
       "last": "Zegarelli",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-22"
+    },
+    {
+      "authname": "A. Zegarelli",
+      "collab": "icecube",
+      "email": "angela.zegarelli@astro.rub.de",
+      "first": "Angela",
+      "from": "2024-09-23",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "azegarelli",
+      "last": "Zegarelli",
+      "orcid": "0000-0003-1497-3826",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Zegarelli",
+      "collab": "icecube-gen2",
+      "email": "angela.zegarelli@astro.rub.de",
+      "first": "Angela",
+      "from": "2024-09-23",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "azegarelli",
+      "last": "Zegarelli",
+      "orcid": "0000-0003-1497-3826",
       "thanks": [],
       "to": ""
     },
@@ -57853,7 +57915,7 @@
       "last": "Zhang",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-22"
     },
     {
       "authname": "S. Zhang",
@@ -57867,6 +57929,36 @@
       "keycloak_username": "szhang",
       "last": "Zhang",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-22"
+    },
+    {
+      "authname": "S. Zhang",
+      "collab": "icecube",
+      "email": "zhan2214@msu.edu",
+      "first": "Shuo",
+      "from": "2024-09-23",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "szhang",
+      "last": "Zhang",
+      "orcid": "0000-0002-2967-790X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Zhang",
+      "collab": "icecube-gen2",
+      "email": "zhan2214@msu.edu",
+      "first": "Shuo",
+      "from": "2024-09-23",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "szhang",
+      "last": "Zhang",
+      "orcid": "0000-0002-2967-790X",
       "thanks": [],
       "to": ""
     },
