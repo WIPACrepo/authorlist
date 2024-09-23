@@ -24263,7 +24263,7 @@
       "last": "Jin",
       "orcid": "0000-0003-0487-5595",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-22"
     },
     {
       "authname": "M. Jin",
@@ -24271,6 +24271,36 @@
       "email": "miaochen.jin@icecube.wisc.edu",
       "first": "Miaochen",
       "from": "2021-09-22",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mjin",
+      "last": "Jin",
+      "orcid": "0000-0003-0487-5595",
+      "thanks": [],
+      "to": "2024-09-22"
+    },
+    {
+      "authname": "M. Jin",
+      "collab": "icecube",
+      "email": "miaochenjin@g.harvard.edu",
+      "first": "Miaochen",
+      "from": "2024-09-23",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mjin",
+      "last": "Jin",
+      "orcid": "0000-0003-0487-5595",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jin",
+      "collab": "icecube-gen2",
+      "email": "miaochenjin@g.harvard.edu",
+      "first": "Miaochen",
+      "from": "2024-09-23",
       "instnames": [
         "harvard"
       ],
@@ -55196,7 +55226,7 @@
       "last": "Wen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-09-22"
     },
     {
       "authname": "A. Y. Wen",
@@ -55210,6 +55240,36 @@
       "keycloak_username": "alexwen",
       "last": "Wen",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-09-22"
+    },
+    {
+      "authname": "A. Y. Wen",
+      "collab": "icecube",
+      "email": "alexwen@g.harvard.edu",
+      "first": "Alex",
+      "from": "2024-09-23",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "alexwen",
+      "last": "Wen",
+      "orcid": "0009-0009-4869-7867",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Y. Wen",
+      "collab": "icecube-gen2",
+      "email": "alexwen@g.harvard.edu",
+      "first": "Alex",
+      "from": "2024-09-23",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "alexwen",
+      "last": "Wen",
+      "orcid": "0009-0009-4869-7867",
       "thanks": [],
       "to": ""
     },
