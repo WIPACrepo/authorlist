@@ -35839,7 +35839,7 @@
       "last": "Morse",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-13"
     },
     {
       "authname": "R. Morse",
@@ -35847,6 +35847,36 @@
       "email": "morse@icecube.wisc.edu",
       "first": "Bob",
       "from": "2022-05-10",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "morse",
+      "last": "Morse",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-10-13"
+    },
+    {
+      "authname": "R. Morse",
+      "collab": "icecube",
+      "email": "april14morse@yahoo.com",
+      "first": "Bob",
+      "from": "2024-10-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "morse",
+      "last": "Morse",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Morse",
+      "collab": "icecube-gen2",
+      "email": "april14morse@yahoo.com",
+      "first": "Bob",
+      "from": "2024-10-14",
       "instnames": [
         "madisonpac"
       ],
