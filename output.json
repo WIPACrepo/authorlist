@@ -3684,7 +3684,7 @@
     },
     {
       "authname": "S. Bash",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "simeon.bash@tum.de",
       "first": "Simeon",
       "from": "2024-04-17",
@@ -3695,11 +3695,11 @@
       "last": "Bash",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-14"
     },
     {
       "authname": "S. Bash",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "simeon.bash@tum.de",
       "first": "Simeon",
       "from": "2024-04-17",
@@ -29625,6 +29625,21 @@
       "orcid": "0000-0002-9040-7191",
       "thanks": [],
       "to": "2024-10-10"
+    },
+    {
+      "authname": "C. Lagunas Gualda",
+      "collab": "icecube",
+      "email": "cristina.lagunas@tum.de",
+      "first": "Cristina",
+      "from": "2024-10-15",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "clagunas",
+      "last": "Lagunas Gualda",
+      "orcid": "0000-0002-9040-7191",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "K. Laihem",
