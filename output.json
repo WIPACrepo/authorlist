@@ -40953,6 +40953,36 @@
       "to": ""
     },
     {
+      "authname": "N. Rad",
+      "collab": "icecube",
+      "email": "navid.khandan.rad@desy.de",
+      "first": "Navid",
+      "from": "2024-10-15",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "navidkrad",
+      "last": "Rad",
+      "orcid": "0000-0002-5204-0851",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Rad",
+      "collab": "icecube-gen2",
+      "email": "navid.khandan.rad@desy.de",
+      "first": "Navid",
+      "from": "2024-10-15",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "navidkrad",
+      "last": "Rad",
+      "orcid": "0000-0002-5204-0851",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. R\u00e4del",
       "collab": "icecube",
       "first": "L.",
