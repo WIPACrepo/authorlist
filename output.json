@@ -17820,7 +17820,7 @@
       "last": "Grant",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-16"
     },
     {
       "authname": "D. Grant",
@@ -17830,6 +17830,36 @@
       "from": "2024-08-14",
       "instnames": [
         "michigan",
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-10-16"
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-10-17",
+      "instnames": [
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "dgrant",
+      "last": "Grant",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Grant",
+      "collab": "icecube-gen2",
+      "email": "darren.grant@icecube.wisc.edu",
+      "first": "Darren",
+      "from": "2024-10-17",
+      "instnames": [
         "simon-fraser-2024-2"
       ],
       "keycloak_username": "dgrant",
