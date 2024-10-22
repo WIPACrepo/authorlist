@@ -2725,7 +2725,7 @@
     },
     {
       "authname": "L. Ausborm",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "lasse.ausborm@rwth-aachen.de",
       "first": "Lasse",
       "from": "2023-09-14",
@@ -2736,11 +2736,11 @@
       "last": "Ausborm",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "L. Ausborm",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "lasse.ausborm@rwth-aachen.de",
       "first": "Lasse",
       "from": "2023-09-14",
@@ -4616,7 +4616,7 @@
       "last": "Benning",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "C. Benning",
@@ -4631,7 +4631,7 @@
       "last": "Benning",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "S. BenZvi",
@@ -13103,7 +13103,7 @@
       "last": "Eimer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "A. Eimer",
@@ -13117,6 +13117,36 @@
       "keycloak_username": "aeimer",
       "last": "Eimer",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-10-21"
+    },
+    {
+      "authname": "A. Eimer",
+      "collab": "icecube",
+      "email": "anna.eimer@fau.de",
+      "first": "Anna",
+      "from": "2024-10-22",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "aeimer",
+      "last": "Eimer",
+      "orcid": "0009-0002-6308-0258",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Eimer",
+      "collab": "icecube-gen2",
+      "email": "anna.eimer@fau.de",
+      "first": "Anna",
+      "from": "2024-10-22",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "aeimer",
+      "last": "Eimer",
+      "orcid": "0009-0002-6308-0258",
       "thanks": [],
       "to": ""
     },
