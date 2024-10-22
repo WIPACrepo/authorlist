@@ -2725,7 +2725,7 @@
     },
     {
       "authname": "L. Ausborm",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "lasse.ausborm@rwth-aachen.de",
       "first": "Lasse",
       "from": "2023-09-14",
@@ -2740,7 +2740,7 @@
     },
     {
       "authname": "L. Ausborm",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "lasse.ausborm@rwth-aachen.de",
       "first": "Lasse",
       "from": "2023-09-14",
@@ -2751,7 +2751,7 @@
       "last": "Ausborm",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "S. Axani",
@@ -18029,10 +18029,10 @@
     },
     {
       "authname": "O. Gries",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "oliver.gries@rwth-aachen.de",
       "first": "Oliver",
-      "from": "2023-04-03",
+      "from": "2023-02-16",
       "instnames": [
         "aachen"
       ],
@@ -18040,14 +18040,14 @@
       "last": "Gries",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "O. Gries",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "oliver.gries@rwth-aachen.de",
       "first": "Oliver",
-      "from": "2023-02-16",
+      "from": "2023-04-03",
       "instnames": [
         "aachen"
       ],
@@ -30114,7 +30114,7 @@
       "last": "Latseva",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "S. Latseva",
@@ -30129,7 +30129,7 @@
       "last": "Latseva",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "F. Lauber",
