@@ -18029,6 +18029,21 @@
     },
     {
       "authname": "O. Gries",
+      "collab": "icecube",
+      "email": "oliver.gries@rwth-aachen.de",
+      "first": "Oliver",
+      "from": "2023-04-03",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "ogries",
+      "last": "Gries",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-10-21"
+    },
+    {
+      "authname": "O. Gries",
       "collab": "icecube-gen2",
       "email": "oliver.gries@rwth-aachen.de",
       "first": "Oliver",
@@ -18041,21 +18056,6 @@
       "orcid": "",
       "thanks": [],
       "to": "2024-10-21"
-    },
-    {
-      "authname": "O. Gries",
-      "collab": "icecube",
-      "email": "oliver.gries@rwth-aachen.de",
-      "first": "Oliver",
-      "from": "2023-04-03",
-      "instnames": [
-        "aachen"
-      ],
-      "keycloak_username": "ogries",
-      "last": "Gries",
-      "orcid": "",
-      "thanks": [],
-      "to": ""
     },
     {
       "authname": "T. Griesel",
