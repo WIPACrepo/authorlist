@@ -47563,7 +47563,7 @@
       "last": "Shah",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-21"
     },
     {
       "authname": "R. Shah",
@@ -47577,6 +47577,36 @@
       "keycloak_username": "rshah",
       "last": "Shah",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-10-21"
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube",
+      "email": "rshah@icecube.wisc.edu",
+      "first": "Riya",
+      "from": "2024-10-22",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
+      "orcid": "0000-0003-2829-1260",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Shah",
+      "collab": "icecube-gen2",
+      "email": "rshah@icecube.wisc.edu",
+      "first": "Riya",
+      "from": "2024-10-22",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "rshah",
+      "last": "Shah",
+      "orcid": "0000-0003-2829-1260",
       "thanks": [],
       "to": ""
     },
