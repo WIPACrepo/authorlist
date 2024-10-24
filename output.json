@@ -40898,6 +40898,36 @@
       "to": "2024-09-03"
     },
     {
+      "authname": "L. Pyras",
+      "collab": "icecube",
+      "email": "pyras@posteo.de",
+      "first": "Lilly",
+      "from": "2024-10-24",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "lpyras",
+      "last": "Pyras",
+      "orcid": "0000-0003-1146-9659",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Pyras",
+      "collab": "icecube-gen2",
+      "email": "pyras@posteo.de",
+      "first": "Lilly",
+      "from": "2024-10-24",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "lpyras",
+      "last": "Pyras",
+      "orcid": "0000-0003-1146-9659",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Quinnan",
       "collab": "icecube",
       "email": "melissa.quinnan@icecube.wisc.edu",
