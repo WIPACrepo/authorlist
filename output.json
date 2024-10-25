@@ -42812,7 +42812,7 @@
       "last": "Rifaie",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-10-24"
     },
     {
       "authname": "A. Rifaie",
@@ -42822,6 +42822,38 @@
       "from": "2023-02-16",
       "instnames": [
         "aachen"
+      ],
+      "keycloak_username": "arifaie",
+      "last": "Rifaie",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-10-24"
+    },
+    {
+      "authname": "A. Rifaie",
+      "collab": "icecube",
+      "email": "arifaie@mail.icecube.wisc.edu",
+      "first": "Adam",
+      "from": "2024-10-25",
+      "instnames": [
+        "aachen",
+        "wuppertal"
+      ],
+      "keycloak_username": "arifaie",
+      "last": "Rifaie",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Rifaie",
+      "collab": "icecube-gen2",
+      "email": "arifaie@mail.icecube.wisc.edu",
+      "first": "Adam",
+      "from": "2024-10-25",
+      "instnames": [
+        "aachen",
+        "wuppertal"
       ],
       "keycloak_username": "arifaie",
       "last": "Rifaie",
