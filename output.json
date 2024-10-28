@@ -23875,6 +23875,36 @@
       "to": "2024-10-25"
     },
     {
+      "authname": "S. Jain",
+      "collab": "icecube",
+      "email": "samyak@icecube.wisc.edu",
+      "first": "Samyak",
+      "from": "2024-10-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "samyak",
+      "last": "Jain",
+      "orcid": "0009-0000-7455-782X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Jain",
+      "collab": "icecube-gen2",
+      "email": "samyak@icecube.wisc.edu",
+      "first": "Samyak",
+      "from": "2024-10-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "samyak",
+      "last": "Jain",
+      "orcid": "0009-0000-7455-782X",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "O. Janik",
       "collab": "icecube",
       "email": "oliver.janik@icecube.wisc.edu",
