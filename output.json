@@ -4297,7 +4297,7 @@
       "thanks": [
         "chalmers"
       ],
-      "to": ""
+      "to": "2024-11-04"
     },
     {
       "authname": "J. Becker Tjus",
@@ -4305,6 +4305,40 @@
       "email": "julia@icecube.wisc.edu",
       "first": "Julia",
       "from": "2023-01-11",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "julia",
+      "last": "Becker Tjus",
+      "orcid": "0000-0002-1748-7367",
+      "thanks": [
+        "chalmers"
+      ],
+      "to": "2024-11-04"
+    },
+    {
+      "authname": "J. Becker Tjus",
+      "collab": "icecube",
+      "email": "julia.tjus@rub.de",
+      "first": "Julia",
+      "from": "2024-11-05",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "julia",
+      "last": "Becker Tjus",
+      "orcid": "0000-0002-1748-7367",
+      "thanks": [
+        "chalmers"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "J. Becker Tjus",
+      "collab": "icecube-gen2",
+      "email": "julia.tjus@rub.de",
+      "first": "Julia",
+      "from": "2024-11-05",
       "instnames": [
         "bochum"
       ],
@@ -28539,6 +28573,36 @@
       "to": "2022-05-03"
     },
     {
+      "authname": "N. Krieger",
+      "collab": "icecube",
+      "email": "niclas.krieger@ruhr-uni-bochum.de",
+      "first": "Niclas",
+      "from": "2024-11-05",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "nkrieger",
+      "last": "Krieger",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Krieger",
+      "collab": "icecube-gen2",
+      "email": "niclas.krieger@ruhr-uni-bochum.de",
+      "first": "Niclas",
+      "from": "2024-11-05",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "nkrieger",
+      "last": "Krieger",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Kriesten",
       "collab": "icecube",
       "email": "akriesten@icecube.wisc.edu",
@@ -41908,7 +41972,7 @@
       "last": "Reichherzer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-11-04"
     },
     {
       "authname": "P. Reichherzer",
@@ -41923,7 +41987,7 @@
       "last": "Reichherzer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-11-04"
     },
     {
       "authname": "R. Reimann",
