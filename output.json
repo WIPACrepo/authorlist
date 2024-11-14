@@ -23185,6 +23185,36 @@
       "to": "2024-11-09"
     },
     {
+      "authname": "M. H\u00fcnnefeld",
+      "collab": "icecube",
+      "email": "huennefeld@wisc.edu",
+      "first": "Mirco",
+      "from": "2024-11-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mhuennefeld",
+      "last": "H\u00fcnnefeld",
+      "orcid": "0000-0002-2827-6522",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. H\u00fcnnefeld",
+      "collab": "icecube-gen2",
+      "email": "huennefeld@wisc.edu",
+      "first": "Mirco",
+      "from": "2024-11-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mhuennefeld",
+      "last": "H\u00fcnnefeld",
+      "orcid": "0000-0002-2827-6522",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Hussain",
       "collab": "pingu",
       "email": "raamis.hussain@icecube.wisc.edu",
