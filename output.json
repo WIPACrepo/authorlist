@@ -45543,7 +45543,7 @@
       "last": "Schaufel",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-11-17"
     },
     {
       "authname": "M. Schaufel",
@@ -45551,6 +45551,36 @@
       "email": "merlin.schaufel@icecube.wisc.edu",
       "first": "Merlin",
       "from": "2018-04-04",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mschaufel",
+      "last": "Schaufel",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-11-17"
+    },
+    {
+      "authname": "M. Schaufel",
+      "collab": "icecube",
+      "email": "merlin.schaufel@rwth-aachen.de",
+      "first": "Merlin",
+      "from": "2024-11-18",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mschaufel",
+      "last": "Schaufel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Schaufel",
+      "collab": "icecube-gen2",
+      "email": "merlin.schaufel@rwth-aachen.de",
+      "first": "Merlin",
+      "from": "2024-11-18",
       "instnames": [
         "aachen"
       ],
