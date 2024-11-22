@@ -47417,6 +47417,21 @@
       "last": "Seen",
       "orcid": "",
       "thanks": [],
+      "to": "2024-11-21"
+    },
+    {
+      "authname": "L. Seen",
+      "collab": "icecube",
+      "email": "seen@wisc.edu",
+      "first": "Leo",
+      "from": "2024-11-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "lseen",
+      "last": "Seen",
+      "orcid": "0009-0004-9204-0241",
+      "thanks": [],
       "to": ""
     },
     {
@@ -51496,6 +51511,21 @@
       "keycloak_username": "thiesmeyer",
       "last": "Thiesmeyer",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-11-21"
+    },
+    {
+      "authname": "M. Thiesmeyer",
+      "collab": "icecube",
+      "email": "matthias.thiesmeyer@rwth-aachen.de",
+      "first": "Matthias",
+      "from": "2024-11-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "thiesmeyer",
+      "last": "Thiesmeyer",
+      "orcid": "0009-0003-0005-4762",
       "thanks": [],
       "to": ""
     },
