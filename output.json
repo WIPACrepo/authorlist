@@ -12245,7 +12245,7 @@
       "last": "Dittmer",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "M. Dittmer",
@@ -12255,6 +12255,36 @@
       "from": "2021-06-23",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "mdittmer",
+      "last": "Dittmer",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "M. Dittmer",
+      "collab": "icecube",
+      "email": "markus.dittmer@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "mdittmer",
+      "last": "Dittmer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Dittmer",
+      "collab": "icecube-gen2",
+      "email": "markus.dittmer@icecube.wisc.edu",
+      "first": "Markus",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "mdittmer",
       "last": "Dittmer",
@@ -13773,7 +13803,7 @@
       "last": "Esmail",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "W. Esmail",
@@ -13783,6 +13813,36 @@
       "from": "2024-11-20",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "wesmail",
+      "last": "Esmail",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "W. Esmail",
+      "collab": "icecube",
+      "email": "waleed.esmail@uni-muenster.de",
+      "first": "Waleed",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "wesmail",
+      "last": "Esmail",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Esmail",
+      "collab": "icecube-gen2",
+      "email": "waleed.esmail@uni-muenster.de",
+      "first": "Waleed",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "wesmail",
       "last": "Esmail",
@@ -25496,7 +25556,7 @@
       "last": "Kappes",
       "orcid": "0000-0003-1315-3711",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "A. Kappes",
@@ -25506,6 +25566,36 @@
       "from": "2022-12-12",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "kappes",
+      "last": "Kappes",
+      "orcid": "0000-0003-1315-3711",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "A. Kappes",
+      "collab": "icecube",
+      "email": "alexander.kappes@uni-muenster.de",
+      "first": "Alexander",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "kappes",
+      "last": "Kappes",
+      "orcid": "0000-0003-1315-3711",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kappes",
+      "collab": "icecube-gen2",
+      "email": "alexander.kappes@uni-muenster.de",
+      "first": "Alexander",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "kappes",
       "last": "Kappes",
@@ -37049,7 +37139,7 @@
       "last": "Neumann",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "M. Neumann",
@@ -37059,6 +37149,36 @@
       "from": "2022-07-06",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "mneumann",
+      "last": "Neumann",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "M. Neumann",
+      "collab": "icecube",
+      "email": "m_neum20@uni-muenster.de",
+      "first": "Miriam",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "mneumann",
+      "last": "Neumann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Neumann",
+      "collab": "icecube-gen2",
+      "email": "m_neum20@uni-muenster.de",
+      "first": "Miriam",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "mneumann",
       "last": "Neumann",
@@ -46127,7 +46247,7 @@
       "last": "Schl\u00fcter",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "B. Schl\u00fcter",
@@ -46137,6 +46257,36 @@
       "from": "2022-12-12",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "B. Schl\u00fcter",
+      "collab": "icecube",
+      "email": "b_schl19@uni-muenster.de",
+      "first": "Berit",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "bschlueter",
+      "last": "Schl\u00fcter",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Schl\u00fcter",
+      "collab": "icecube-gen2",
+      "email": "b_schl19@uni-muenster.de",
+      "first": "Berit",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "bschlueter",
       "last": "Schl\u00fcter",
@@ -52959,7 +53109,7 @@
       "last": "Unland Elorrieta",
       "orcid": "0000-0002-6124-3255",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "M. A. Unland Elorrieta",
@@ -52969,6 +53119,36 @@
       "from": "2022-07-26",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "0000-0002-6124-3255",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "M. A. Unland Elorrieta",
+      "collab": "icecube",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "munland",
+      "last": "Unland Elorrieta",
+      "orcid": "0000-0002-6124-3255",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. A. Unland Elorrieta",
+      "collab": "icecube-gen2",
+      "email": "martin.unland@icecube.wisc.edu",
+      "first": "Martin",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "munland",
       "last": "Unland Elorrieta",
@@ -53896,7 +54076,7 @@
       "last": "Vara Carbonell",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-12"
     },
     {
       "authname": "J. Vara",
@@ -53906,6 +54086,36 @@
       "from": "2024-04-26",
       "instnames": [
         "munster"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara Carbonell",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-12-12"
+    },
+    {
+      "authname": "F. Vara Carbonell",
+      "collab": "icecube",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Francisco Javier",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "jvara",
+      "last": "Vara Carbonell",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Vara Carbonell",
+      "collab": "icecube-gen2",
+      "email": "javi.vara@icecube.wisc.edu",
+      "first": "Francisco Javier",
+      "from": "2024-12-13",
+      "instnames": [
+        "munster-2024"
       ],
       "keycloak_username": "jvara",
       "last": "Vara Carbonell",
@@ -59935,9 +60145,19 @@
         "icecube-gen2",
         "pingu"
       ],
+      "keycloak_groups": [],
+      "name": "Munster"
+    },
+    "munster-2024": {
+      "cite": "Institut f\u00fcr Kernphysik, Universit\u00e4t M\u00fcnster, D-48149 M\u00fcnster, Germany",
+      "city": "M\u00fcnster",
+      "collabs": [
+        "icecube-gen2",
+        "icecube"
+      ],
       "keycloak_groups": [
-        "/institutions/IceCube/Munster/authorlist",
-        "/institutions/IceCube-Gen2/Munster/authorlist"
+        "/institutions/IceCube-Gen2/Munster/authorlist",
+        "/institutions/IceCube/Munster/authorlist"
       ],
       "name": "Munster"
     },
