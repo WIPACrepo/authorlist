@@ -16419,7 +16419,7 @@
       "last": "Genton",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-18"
     },
     {
       "authname": "E. Genton",
@@ -16433,6 +16433,37 @@
       "keycloak_username": "egenton",
       "last": "Genton",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-12-18"
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard",
+        "uclouvain"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "0009-0003-5263-972X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube-gen2",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "0009-0003-5263-972X",
       "thanks": [],
       "to": ""
     },
@@ -25148,7 +25179,7 @@
       "last": "Kamp",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-18"
     },
     {
       "authname": "N. Kamp",
@@ -25162,6 +25193,36 @@
       "keycloak_username": "nkamp",
       "last": "Kamp",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-12-18"
+    },
+    {
+      "authname": "N. Kamp",
+      "collab": "icecube",
+      "email": "nkamp@fas.harvard.edu",
+      "first": "Nicholas",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "nkamp",
+      "last": "Kamp",
+      "orcid": "0000-0001-9232-259X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Kamp",
+      "collab": "icecube-gen2",
+      "email": "nkamp@fas.harvard.edu",
+      "first": "Nicholas",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "nkamp",
+      "last": "Kamp",
+      "orcid": "0000-0001-9232-259X",
       "thanks": [],
       "to": ""
     },
@@ -33750,7 +33811,7 @@
       "last": "Martinez-Soler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-18"
     },
     {
       "authname": "I. Martinez-Soler",
@@ -33764,6 +33825,36 @@
       "keycloak_username": "imartinez-soler",
       "last": "Martinez-Soler",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-12-18"
+    },
+    {
+      "authname": "I. Martinez-Soler",
+      "collab": "icecube",
+      "email": "ivan.martinez-soler@icecube.wisc.edu",
+      "first": "Ivan",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "imartinez-soler",
+      "last": "Martinez-Soler",
+      "orcid": "0000-0002-0308-3003",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "I. Martinez-Soler",
+      "collab": "icecube-gen2",
+      "email": "ivan.martinez-soler@icecube.wisc.edu",
+      "first": "Ivan",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "imartinez-soler",
+      "last": "Martinez-Soler",
+      "orcid": "0000-0002-0308-3003",
       "thanks": [],
       "to": ""
     },
@@ -58467,6 +58558,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2023-07-16"
+    },
+    {
+      "authname": "F. Yu",
+      "collab": "icecube",
+      "email": "felixyu@g.harvard.edu",
+      "first": "Felix",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "fy000",
+      "last": "Yu",
+      "orcid": "0000-0002-5775-2452",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "F. Yu",
