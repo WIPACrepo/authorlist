@@ -28947,6 +28947,36 @@
       "to": ""
     },
     {
+      "authname": "T. Krishnan",
+      "collab": "icecube",
+      "email": "tkrishnan@g.harvard.edu",
+      "first": "Tanvi",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "tkrishnan",
+      "last": "Krishnan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Krishnan",
+      "collab": "icecube-gen2",
+      "email": "tkrishnan@g.harvard.edu",
+      "first": "Tanvi",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "tkrishnan",
+      "last": "Krishnan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. Kroll",
       "collab": "icecube",
       "email": "goesta@icecube.wisc.edu",
