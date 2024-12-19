@@ -8087,7 +8087,7 @@
       "last": "Carloni",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2024-12-18"
     },
     {
       "authname": "K. Carloni",
@@ -8101,6 +8101,36 @@
       "keycloak_username": "kcarloni",
       "last": "Carloni",
       "orcid": "",
+      "thanks": [],
+      "to": "2024-12-18"
+    },
+    {
+      "authname": "K. Carloni",
+      "collab": "icecube",
+      "email": "kcarloni@g.harvard.edu",
+      "first": "Kiara",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "kcarloni",
+      "last": "Carloni",
+      "orcid": "0000-0003-3859-3748",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Carloni",
+      "collab": "icecube-gen2",
+      "email": "kcarloni@g.harvard.edu",
+      "first": "Kiara",
+      "from": "2024-12-19",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "kcarloni",
+      "last": "Carloni",
+      "orcid": "0000-0003-3859-3748",
       "thanks": [],
       "to": ""
     },
