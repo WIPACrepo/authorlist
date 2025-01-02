@@ -51084,7 +51084,7 @@
       "last": "Sullivan",
       "orcid": "0000-0002-2585-2352",
       "thanks": [],
-      "to": ""
+      "to": "2025-01-01"
     },
     {
       "authname": "G. W. Sullivan",
@@ -51092,6 +51092,36 @@
       "email": "sullivan@umdgrb.umd.edu",
       "first": "Greg",
       "from": "2022-05-10",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "gsullivan",
+      "last": "Sullivan",
+      "orcid": "0000-0002-2585-2352",
+      "thanks": [],
+      "to": "2025-01-01"
+    },
+    {
+      "authname": "G. W. Sullivan",
+      "collab": "icecube",
+      "email": "gws@umd.edu",
+      "first": "Greg",
+      "from": "2025-01-02",
+      "instnames": [
+        "maryland"
+      ],
+      "keycloak_username": "gsullivan",
+      "last": "Sullivan",
+      "orcid": "0000-0002-2585-2352",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. W. Sullivan",
+      "collab": "icecube-gen2",
+      "email": "gws@umd.edu",
+      "first": "Greg",
+      "from": "2025-01-02",
       "instnames": [
         "maryland"
       ],
