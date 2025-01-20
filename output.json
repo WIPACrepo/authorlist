@@ -7266,7 +7266,7 @@
       "last": "Brisson-Tsavoussis",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-01-19"
     },
     {
       "authname": "Z. Brisson-Tsavoussis",
@@ -7274,6 +7274,36 @@
       "email": "zoe.b@queensu.ca",
       "first": "Zoe",
       "from": "2024-07-05",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-01-19"
+    },
+    {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube",
+      "email": "zoe.brissontsavoussis@queensu.ca",
+      "first": "Zoe",
+      "from": "2025-01-20",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube-gen2",
+      "email": "zoe.brissontsavoussis@queensu.ca",
+      "first": "Zoe",
+      "from": "2025-01-20",
       "instnames": [
         "queens"
       ],
