@@ -502,8 +502,13 @@
     },
     {
       "from": "2020-10-05",
-      "to": "",
+      "to": "2025-01-21",
       "value": "Frontera computing project at the Texas Advanced Computing Center,"
+    },
+    {
+      "from": "2025-01-22",
+      "to": "",
+      "value": "Frontera and Ranch computing project at the Texas Advanced Computing Center,"
     },
     {
       "from": "2017-12-13",
