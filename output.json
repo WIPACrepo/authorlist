@@ -17418,7 +17418,7 @@
       "last": "Gl\u00fcsenkamp",
       "orcid": "0000-0002-2268-9297",
       "thanks": [],
-      "to": ""
+      "to": "2025-01-27"
     },
     {
       "authname": "T. Gl\u00fcsenkamp",
@@ -17428,6 +17428,36 @@
       "from": "2023-11-09",
       "instnames": [
         "erlangen",
+        "uppsala"
+      ],
+      "keycloak_username": "gluesenkamp",
+      "last": "Gl\u00fcsenkamp",
+      "orcid": "0000-0002-2268-9297",
+      "thanks": [],
+      "to": "2025-01-27"
+    },
+    {
+      "authname": "T. Gl\u00fcsenkamp",
+      "collab": "icecube",
+      "email": "thorsten.gluesenkamp@physics.uu.se",
+      "first": "Thorsten",
+      "from": "2025-01-28",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "gluesenkamp",
+      "last": "Gl\u00fcsenkamp",
+      "orcid": "0000-0002-2268-9297",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Gl\u00fcsenkamp",
+      "collab": "icecube-gen2",
+      "email": "thorsten.gluesenkamp@physics.uu.se",
+      "first": "Thorsten",
+      "from": "2025-01-28",
+      "instnames": [
         "uppsala"
       ],
       "keycloak_username": "gluesenkamp",
