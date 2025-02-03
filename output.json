@@ -48163,6 +48163,21 @@
       "to": ""
     },
     {
+      "authname": "P. A. Sevle Myhr",
+      "collab": "icecube",
+      "email": "perarnesevle@gmail.com",
+      "first": "Per Arne",
+      "from": "2025-02-03",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "psevle",
+      "last": "Sevle Myhr",
+      "orcid": "0009-0005-9103-4410",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Sevle Myhr",
       "collab": "icecube",
       "email": "pamyhr@stud.ntnu.no",
@@ -48205,7 +48220,7 @@
       "last": "Sevle Myhr",
       "orcid": "0009-0005-9103-4410",
       "thanks": [],
-      "to": ""
+      "to": "2025-02-02"
     },
     {
       "authname": "M. H. Shaevitz",
