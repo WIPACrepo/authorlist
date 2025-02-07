@@ -12257,6 +12257,36 @@
       "to": ""
     },
     {
+      "authname": "S. DiKerby",
+      "collab": "icecube",
+      "email": "dikerbys@msu.edu",
+      "first": "Stephen",
+      "from": "2025-02-07",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dikerbys",
+      "last": "DiKerby",
+      "orcid": "0000-0003-2633-2196",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. DiKerby",
+      "collab": "icecube-gen2",
+      "email": "dikerbys@msu.edu",
+      "first": "Stephen",
+      "from": "2025-02-07",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dikerbys",
+      "last": "DiKerby",
+      "orcid": "0000-0003-2633-2196",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "V. di Lorenzo",
       "collab": "icecube",
       "email": "vincenzo.dilorenzo@icecube.wisc.edu",
