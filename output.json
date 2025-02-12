@@ -19250,7 +19250,7 @@
       "last": "Ha",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-02-11"
     },
     {
       "authname": "C. Ha",
@@ -19264,6 +19264,36 @@
       "keycloak_username": "chha",
       "last": "Ha",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-02-11"
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2025-02-12",
+      "instnames": [
+        "chung-ang-2024"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "0000-0002-9598-8589",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Ha",
+      "collab": "icecube-gen2",
+      "email": "changhyon.ha@gmail.com",
+      "first": "Chang Hyon",
+      "from": "2025-02-12",
+      "instnames": [
+        "chung-ang-2024"
+      ],
+      "keycloak_username": "chha",
+      "last": "Ha",
+      "orcid": "0000-0002-9598-8589",
       "thanks": [],
       "to": ""
     },
