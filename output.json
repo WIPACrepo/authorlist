@@ -36117,6 +36117,21 @@
       "to": "2007-05-30"
     },
     {
+      "authname": "L. Molchany",
+      "collab": "icecube",
+      "email": "logan.molchany@mines.sdsmt.edu",
+      "first": "Logan",
+      "from": "2025-02-12",
+      "instnames": [
+        "southdakota"
+      ],
+      "keycloak_username": "lmolchany",
+      "last": "Molchany",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. Moment\u00e9",
       "collab": "icecube",
       "email": "giulio.momente@icecube.wisc.edu",
@@ -42550,6 +42565,21 @@
       "orcid": "0000-0002-1983-8271",
       "thanks": [],
       "to": "2024-01-01"
+    },
+    {
+      "authname": "I. Reistroffer",
+      "collab": "icecube",
+      "email": "ian.reistroffer@mines.sdsmt.edu",
+      "first": "Ian",
+      "from": "2025-02-12",
+      "instnames": [
+        "southdakota"
+      ],
+      "keycloak_username": "ireistr",
+      "last": "Reistroffer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "B. Relethford",
@@ -52001,6 +52031,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2017-12-31"
+    },
+    {
+      "authname": "A. Thakuri",
+      "collab": "icecube",
+      "email": "amar.thakuri@mines.sdsmt.edu",
+      "first": "Amar",
+      "from": "2025-02-12",
+      "instnames": [
+        "southdakota"
+      ],
+      "keycloak_username": "athakuri22",
+      "last": "Thakuri",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Thiesmeyer",
