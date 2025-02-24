@@ -43027,6 +43027,36 @@
       "to": ""
     },
     {
+      "authname": "C. Rho",
+      "collab": "icecube",
+      "email": "cdr397@skku.edu",
+      "first": "Chang Dong",
+      "from": "2025-02-24",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "cdr397",
+      "last": "Rho",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Rho",
+      "collab": "icecube-gen2",
+      "email": "cdr397@skku.edu",
+      "first": "Chang Dong",
+      "from": "2025-02-24",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "cdr397",
+      "last": "Rho",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "W. Rhode",
       "collab": "icecube",
       "email": "wolfgang.rhode@physik.uni-dortmund.de",
