@@ -58553,6 +58553,36 @@
       "to": "2021-09-02"
     },
     {
+      "authname": "J. P. Ya\\~nez",
+      "collab": "icecube",
+      "email": "jpyanez@icecube.wisc.edu",
+      "first": "Juan Pablo",
+      "from": "2025-02-27",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "jpyanez",
+      "last": "Yanez",
+      "orcid": "0000-0002-5373-2569",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. P. Ya\\~nez",
+      "collab": "icecube-gen2",
+      "email": "jpyanez@icecube.wisc.edu",
+      "first": "Juan Pablo",
+      "from": "2025-02-27",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "jpyanez",
+      "last": "Yanez",
+      "orcid": "0000-0002-5373-2569",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. P. Yanez",
       "collab": "icecube",
       "email": "jpyanez@icecube.wisc.edu",
@@ -58621,7 +58651,7 @@
       "last": "Yanez",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-02-26"
     },
     {
       "authname": "J. P. Yanez",
@@ -58636,7 +58666,7 @@
       "last": "Yanez",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-02-26"
     },
     {
       "authname": "J. Yeck",
