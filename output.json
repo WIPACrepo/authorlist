@@ -5152,7 +5152,7 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-04"
     },
     {
       "authname": "E. Bernardini",
@@ -5167,6 +5167,40 @@
       "last": "Bernardini",
       "orcid": "0000-0003-3108-1141",
       "thanks": [],
+      "to": "2025-03-04"
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        "padovainfn"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "E. Bernardini",
+      "collab": "icecube-gen2",
+      "email": "elisa.bernardini@unipd.it",
+      "first": "Elisa",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "bernardi",
+      "last": "Bernardini",
+      "orcid": "0000-0003-3108-1141",
+      "thanks": [
+        "padovainfn"
+      ],
       "to": ""
     },
     {
@@ -6377,7 +6411,7 @@
       "last": "Boscolo Meneguolo",
       "orcid": "0000-0001-8325-4329",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-04"
     },
     {
       "authname": "C. Boscolo Meneguolo",
@@ -6392,6 +6426,40 @@
       "last": "Boscolo Meneguolo",
       "orcid": "0000-0001-8325-4329",
       "thanks": [],
+      "to": "2025-03-04"
+    },
+    {
+      "authname": "C. Boscolo Meneguolo",
+      "collab": "icecube",
+      "email": "caterina.boscolomeneguolo@studenti.unipd.it",
+      "first": "Caterina",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "cboscolomeneguolo",
+      "last": "Boscolo Meneguolo",
+      "orcid": "0000-0001-8325-4329",
+      "thanks": [
+        "padovainfn"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "C. Boscolo Meneguolo",
+      "collab": "icecube-gen2",
+      "email": "caterina.boscolomeneguolo@studenti.unipd.it",
+      "first": "Caterina",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "cboscolomeneguolo",
+      "last": "Boscolo Meneguolo",
+      "orcid": "0000-0001-8325-4329",
+      "thanks": [
+        "padovainfn"
+      ],
       "to": ""
     },
     {
@@ -33548,7 +33616,7 @@
       "last": "Mancina",
       "orcid": "0009-0003-9879-3896",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-04"
     },
     {
       "authname": "S. Mancina",
@@ -33563,6 +33631,40 @@
       "last": "Mancina",
       "orcid": "0009-0003-9879-3896",
       "thanks": [],
+      "to": "2025-03-04"
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube",
+      "email": "sl.mancina@gmail.com",
+      "first": "Sarah",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [
+        "padovainfnnow"
+      ],
+      "to": ""
+    },
+    {
+      "authname": "S. Mancina",
+      "collab": "icecube-gen2",
+      "email": "sl.mancina@gmail.com",
+      "first": "Sarah",
+      "from": "2025-03-05",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "smancina",
+      "last": "Mancina",
+      "orcid": "0009-0003-9879-3896",
+      "thanks": [
+        "padovainfnnow"
+      ],
       "to": ""
     },
     {
