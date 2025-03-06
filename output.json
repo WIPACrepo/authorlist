@@ -31920,7 +31920,7 @@
       "last": "Lincetto",
       "orcid": "0000-0002-1460-3369",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-05"
     },
     {
       "authname": "M. Lincetto",
@@ -31935,7 +31935,7 @@
       "last": "Lincetto",
       "orcid": "0000-0002-1460-3369",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-05"
     },
     {
       "authname": "M. Liu",
@@ -54077,7 +54077,7 @@
       "last": "Valtonen-Mattila",
       "orcid": "0000-0002-1830-098X",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-05"
     },
     {
       "authname": "N. Valtonen-Mattila",
@@ -54086,6 +54086,38 @@
       "first": "Nora",
       "from": "2023-02-03",
       "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": "2025-03-05"
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2025-03-06",
+      "instnames": [
+        "bochum",
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube-gen2",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2025-03-06",
+      "instnames": [
+        "bochum",
         "uppsala"
       ],
       "keycloak_username": "nvaltonenmattila",
