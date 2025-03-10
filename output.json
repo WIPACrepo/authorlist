@@ -11188,7 +11188,7 @@
       "last": "Delgado L\u00f3pez",
       "orcid": "0000-0002-4306-8828",
       "thanks": [],
-      "to": ""
+      "to": "2025-03-09"
     },
     {
       "authname": "D. Delgado",
@@ -11201,6 +11201,36 @@
       ],
       "keycloak_username": "ddelgado",
       "last": "Delgado L\u00f3pez",
+      "orcid": "0000-0002-4306-8828",
+      "thanks": [],
+      "to": "2025-03-09"
+    },
+    {
+      "authname": "D. Delgado",
+      "collab": "icecube",
+      "email": "diyaselis.delgado@icecube.wisc.edu",
+      "first": "Diyaselis",
+      "from": "2025-03-10",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "ddelgado",
+      "last": "Delgado",
+      "orcid": "0000-0002-4306-8828",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Delgado",
+      "collab": "icecube-gen2",
+      "email": "diyaselis.delgado@icecube.wisc.edu",
+      "first": "Diyaselis",
+      "from": "2025-03-10",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "ddelgado",
+      "last": "Delgado",
       "orcid": "0000-0002-4306-8828",
       "thanks": [],
       "to": ""
