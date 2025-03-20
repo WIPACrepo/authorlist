@@ -120,9 +120,8 @@ class AuthorListRenderer:
         }
         kwargs.update(getattr(self, '_'+formatting.replace('-','_'))())
         if collab == 'IceCube-PINGU':
-            txt = 'The IceCube/PINGU Collaboration list is provided for historical purposes.'
-            if kwargs['intro_text']:
-                txt += '<br>' + kwargs['intro_text']
+            txt = 'The IceCube/PINGU Collaboration list is provided for historical purposes.<br>'
+            txt += kwargs['intro_text']
             kwargs['intro_text'] = txt
         return kwargs
 
