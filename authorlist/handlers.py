@@ -119,6 +119,11 @@ class AuthorListRenderer:
             'intro_text':'',
         }
         kwargs.update(getattr(self, '_'+formatting.replace('-','_'))())
+        if collab == 'pingu':
+            txt = 'The IceCube/PINGU Collaboration list is provided for historical purposes.'
+            if kwargs['intro_text']:
+                txt += '<br>' + kwargs['intro_text']
+            kwargs['intro_text'] = txt
         return kwargs
 
     def _web(self):
