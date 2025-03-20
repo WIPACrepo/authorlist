@@ -958,6 +958,8 @@ class APIAuthorHandler(tornado.web.RequestHandler):
             date = ICECUBE_START_DATE
         elif collab == 'IceCube-PINGU' and date < PINGU_START_DATE:
             date = PINGU_START_DATE
+        elif collab == 'IceCube-PINGU' and date > PINGU_END_DATE:
+            date = PINGU_END_DATE
         elif collab == 'IceCube-Gen2' and date < GEN2_START_DATE:
             date = GEN2_START_DATE
 
