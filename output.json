@@ -21493,6 +21493,21 @@
       "to": ""
     },
     {
+      "authname": "L. Hennig",
+      "collab": "icecube-gen2",
+      "email": "lukas.hennig@fau.de",
+      "first": "Lukas",
+      "from": "2025-03-20",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "lhennig",
+      "last": "Hennig",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "F. Henningsen",
       "collab": "icecube",
       "email": "felix.henningsen@icecube.wisc.edu",
@@ -27597,6 +27612,21 @@
       ],
       "keycloak_username": "mkleifges",
       "last": "Kleifges",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Klein",
+      "collab": "icecube-gen2",
+      "email": "carolin.klein@fau.de",
+      "first": "Carolin",
+      "from": "2025-03-20",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "cklein",
+      "last": "Klein",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -36776,6 +36806,36 @@
       ],
       "keycloak_username": "morse",
       "last": "Morse",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Mosbrugger",
+      "collab": "icecube",
+      "email": "anke.mosbrugger@fau.de",
+      "first": "Anke",
+      "from": "2025-03-20",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "amosbrug",
+      "last": "Mosbrugger",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Mosbrugger",
+      "collab": "icecube-gen2",
+      "email": "anke.mosbrugger@fau.de",
+      "first": "Anke",
+      "from": "2025-03-20",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "amosbrug",
+      "last": "Mosbrugger",
       "orcid": "",
       "thanks": [],
       "to": ""
