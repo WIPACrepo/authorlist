@@ -35,7 +35,7 @@ const authorlist_html = `
   <h3>Author List</h3>
   <div class="intro_text" v-if="'intro_text' in fauthors" v-html="fauthors.intro_text"></div>
   <div v-if="fauthors.formatting == 'web'">
-    <div class="authors">{{ filters.collab }} Collaboration: <span v-html="fauthors.authors"></span></div><hr>
+    <div class="authors">{{ fauthors.title }} Collaboration: <span v-html="fauthors.authors"></span></div><hr>
     <ol class="institutions">
       <li v-for="name in fauthors.sorted_insts">{{ fauthors.insts[name]['cite'] }}</li>
     </ol>
