@@ -3788,7 +3788,7 @@
       "last": "Basu",
       "orcid": "0000-0002-9528-2009",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-01"
     },
     {
       "authname": "V. Basu",
@@ -3798,6 +3798,36 @@
       "from": "2020-05-14",
       "instnames": [
         "madisonpac"
+      ],
+      "keycloak_username": "vbasu",
+      "last": "Basu",
+      "orcid": "0000-0002-9528-2009",
+      "thanks": [],
+      "to": "2025-04-01"
+    },
+    {
+      "authname": "V. Basu",
+      "collab": "icecube",
+      "email": "vedant.basu@icecube.wisc.edu",
+      "first": "Vedant",
+      "from": "2025-04-02",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "vbasu",
+      "last": "Basu",
+      "orcid": "0000-0002-9528-2009",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "V. Basu",
+      "collab": "icecube-gen2",
+      "email": "vedant.basu@icecube.wisc.edu",
+      "first": "Vedant",
+      "from": "2025-04-02",
+      "instnames": [
+        "utah"
       ],
       "keycloak_username": "vbasu",
       "last": "Basu",
