@@ -5512,7 +5512,7 @@
       "last": "Betts",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-03"
     },
     {
       "authname": "G. Binder",
@@ -11188,7 +11188,7 @@
       "last": "DeLaunay",
       "orcid": "0000-0001-5229-1995",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-03"
     },
     {
       "authname": "J. J. DeLaunay",
@@ -11198,6 +11198,36 @@
       "from": "2021-08-17",
       "instnames": [
         "alabama"
+      ],
+      "keycloak_username": "jdelaunay",
+      "last": "DeLaunay",
+      "orcid": "0000-0001-5229-1995",
+      "thanks": [],
+      "to": "2025-04-03"
+    },
+    {
+      "authname": "J. J. DeLaunay",
+      "collab": "icecube",
+      "email": "james.delaunay@icecube.wisc.edu",
+      "first": "James",
+      "from": "2025-04-04",
+      "instnames": [
+        "pennastro"
+      ],
+      "keycloak_username": "jdelaunay",
+      "last": "DeLaunay",
+      "orcid": "0000-0001-5229-1995",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. J. DeLaunay",
+      "collab": "icecube-gen2",
+      "email": "james.delaunay@icecube.wisc.edu",
+      "first": "James",
+      "from": "2025-04-04",
+      "instnames": [
+        "pennastro"
       ],
       "keycloak_username": "jdelaunay",
       "last": "DeLaunay",
@@ -34266,7 +34296,7 @@
       "last": "Marsee",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-03"
     },
     {
       "authname": "M. Marsee",
@@ -39965,7 +39995,7 @@
       "last": "Paudel",
       "orcid": "0000-0001-9276-7994",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-03"
     },
     {
       "authname": "E. N. Paudel",
@@ -39975,6 +40005,36 @@
       "from": "2020-04-28",
       "instnames": [
         "bartol"
+      ],
+      "keycloak_username": "enpaudel",
+      "last": "Paudel",
+      "orcid": "0000-0001-9276-7994",
+      "thanks": [],
+      "to": "2025-04-03"
+    },
+    {
+      "authname": "E. N. Paudel",
+      "collab": "icecube",
+      "email": "epaudel@ua.edu",
+      "first": "Ek Narayan",
+      "from": "2025-04-04",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "enpaudel",
+      "last": "Paudel",
+      "orcid": "0000-0001-9276-7994",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. N. Paudel",
+      "collab": "icecube-gen2",
+      "email": "epaudel@ua.edu",
+      "first": "Ek Narayan",
+      "from": "2025-04-04",
+      "instnames": [
+        "alabama"
       ],
       "keycloak_username": "enpaudel",
       "last": "Paudel",
@@ -41272,6 +41332,21 @@
       ],
       "keycloak_username": "axelpo",
       "last": "Pont\u00e9n",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "V. Poojyam",
+      "collab": "icecube",
+      "email": "vpoojyam@crimson.ua.edu",
+      "first": "Vaidehi",
+      "from": "2025-04-04",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "vpoojyam",
+      "last": "Poojyam",
       "orcid": "",
       "thanks": [],
       "to": ""
@@ -56072,6 +56147,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2007-12-09"
+    },
+    {
+      "authname": "E. Warrick",
+      "collab": "icecube",
+      "email": "ehwarrick@crimson.ua.edu",
+      "first": "Elizabeth",
+      "from": "2025-04-04",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "ewarrick",
+      "last": "Warrick",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. Washington",
