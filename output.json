@@ -44703,7 +44703,7 @@
       "last": "Rott",
       "orcid": "0000-0002-6958-6033",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-06"
     },
     {
       "authname": "C. Rott",
@@ -44714,6 +44714,36 @@
       "instnames": [
         "utah",
         "skku"
+      ],
+      "keycloak_username": "carott",
+      "last": "Rott",
+      "orcid": "0000-0002-6958-6033",
+      "thanks": [],
+      "to": "2025-04-06"
+    },
+    {
+      "authname": "C. Rott",
+      "collab": "icecube",
+      "email": "carsten.rott@gmail.com",
+      "first": "Carsten",
+      "from": "2025-04-07",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "carott",
+      "last": "Rott",
+      "orcid": "0000-0002-6958-6033",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Rott",
+      "collab": "icecube-gen2",
+      "email": "carsten.rott@gmail.com",
+      "first": "Carsten",
+      "from": "2025-04-07",
+      "instnames": [
+        "utah"
       ],
       "keycloak_username": "carott",
       "last": "Rott",
