@@ -39810,6 +39810,36 @@
       "to": ""
     },
     {
+      "authname": "A. Parenti",
+      "collab": "icecube",
+      "email": "andrea.parenti@ulb.be",
+      "first": "Andrea",
+      "from": "2025-04-11",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "anpar0",
+      "last": "Parenti",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Parenti",
+      "collab": "icecube-gen2",
+      "email": "andrea.parenti@ulb.be",
+      "first": "Andrea",
+      "from": "2025-04-11",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "anpar0",
+      "last": "Parenti",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "N. Park",
       "collab": "icecube",
       "email": "nahee.park@icecube.wisc.edu",
