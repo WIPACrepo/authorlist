@@ -7487,7 +7487,7 @@
       "last": "Brostean-Kaiser",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-15"
     },
     {
       "authname": "J. Brostean-Kaiser",
@@ -7502,7 +7502,7 @@
       "last": "Brostean-Kaiser",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-15"
     },
     {
       "authname": "A. M. Brown",
@@ -20097,7 +20097,7 @@
       "last": "Hamdaoui",
       "orcid": "0000-0001-5709-2100",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-15"
     },
     {
       "authname": "H. Hamdaoui",
@@ -20112,7 +20112,7 @@
       "last": "Hamdaoui",
       "orcid": "0000-0001-5709-2100",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-15"
     },
     {
       "authname": "M. Ha Minh",
@@ -54600,6 +54600,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-06-30"
+    },
+    {
+      "authname": "T. Van Eeden",
+      "collab": "icecube",
+      "email": "thijsvaneeden@gmail.com",
+      "first": "Thijs",
+      "from": "2025-04-16",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "tvaneede",
+      "last": "van Eeden",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Van Eeden",
+      "collab": "icecube-gen2",
+      "email": "thijsvaneeden@gmail.com",
+      "first": "Thijs",
+      "from": "2025-04-16",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "tvaneede",
+      "last": "van Eeden",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. van Eijk",
