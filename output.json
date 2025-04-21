@@ -54789,7 +54789,7 @@
     },
     {
       "authname": "D. Vannerom",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "vannerom@mit.edu",
       "first": "David",
       "from": "2020-05-04",
@@ -54804,7 +54804,7 @@
     },
     {
       "authname": "D. Vannerom",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "vannerom@mit.edu",
       "first": "David",
       "from": "2020-05-04",
@@ -54815,7 +54815,7 @@
       "last": "Vannerom",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-20"
     },
     {
       "authname": "A. Van Overloop",
@@ -55546,6 +55546,21 @@
       "keycloak_username": "avijai",
       "last": "Vijai",
       "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Villarreal",
+      "collab": "icecube",
+      "email": "villaj@mit.edu",
+      "first": "Joshua",
+      "from": "2025-04-21",
+      "instnames": [
+        "mit"
+      ],
+      "keycloak_username": "jvillarreal",
+      "last": "Villarreal",
+      "orcid": "0000-0001-9690-1310",
       "thanks": [],
       "to": ""
     },
