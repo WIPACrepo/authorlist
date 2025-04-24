@@ -4386,6 +4386,36 @@
       "to": ""
     },
     {
+      "authname": "P. Behrens",
+      "collab": "icecube",
+      "email": "philipp.behrens@rwth-aachen.de",
+      "first": "Philipp",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pbehrens",
+      "last": "Behrens",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. Behrens",
+      "collab": "icecube-gen2",
+      "email": "philipp.behrens@rwth-aachen.de",
+      "first": "Philipp",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "pbehrens",
+      "last": "Behrens",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Beimforde",
       "collab": "icecube",
       "first": "M.",
@@ -7699,7 +7729,7 @@
       "last": "Brusa",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "L. Brusa",
@@ -7714,7 +7744,7 @@
       "last": "Brusa",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "S. Buitink",
@@ -12397,7 +12427,7 @@
       "last": "Dierichs",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "P. Dierichs",
@@ -12412,7 +12442,7 @@
       "last": "Dierichs",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "S. DiKerby",
@@ -12677,6 +12707,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2013-01-10"
+    },
+    {
+      "authname": "L. Dueser",
+      "collab": "icecube",
+      "email": "lasse.dueser@rwth-aachen.de",
+      "first": "Lasse",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "ldueser",
+      "last": "Dueser",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Dueser",
+      "collab": "icecube-gen2",
+      "email": "lasse.dueser@rwth-aachen.de",
+      "first": "Lasse",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "ldueser",
+      "last": "Dueser",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "H. Dujmovic",
@@ -13777,7 +13837,7 @@
       "last": "El Mentawi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "S. El Mentawi",
@@ -13792,7 +13852,7 @@
       "last": "El Mentawi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "D. Els\u00e4sser",
@@ -21669,7 +21729,7 @@
       "last": "Hermannsgabner",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "J. Hermannsgabner",
@@ -21684,7 +21744,7 @@
       "last": "Hermannsgabner",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-04-23"
     },
     {
       "authname": "P. Herquet",
@@ -34309,6 +34369,36 @@
       ],
       "keycloak_username": "mmarsee",
       "last": "Marsee",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Marten",
+      "collab": "icecube",
+      "email": "lars.marten@rwth-aachen.de",
+      "first": "Lars",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lmarten",
+      "last": "Marten",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Marten",
+      "collab": "icecube-gen2",
+      "email": "lars.marten@rwth-aachen.de",
+      "first": "Lars",
+      "from": "2025-04-24",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "lmarten",
+      "last": "Marten",
       "orcid": "",
       "thanks": [],
       "to": ""
