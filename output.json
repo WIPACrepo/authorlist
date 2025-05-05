@@ -4703,6 +4703,36 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "B. Benkel",
+      "collab": "icecube",
+      "email": "bruno.benkel@desy.de",
+      "first": "Bruno",
+      "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "bbenkel",
+      "last": "Benkel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Benkel",
+      "collab": "icecube-gen2",
+      "email": "bruno.benkel@desy.de",
+      "first": "Bruno",
+      "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "bbenkel",
+      "last": "Benkel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Benning",
       "collab": "icecube",
       "email": "charlotte.benning@icecube.wisc.edu",
@@ -21018,7 +21048,7 @@
       "last": "H\u00e4u\u00dfler",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-04"
     },
     {
       "authname": "J. H\u00e4u\u00dfler",
@@ -21032,6 +21062,36 @@
       "keycloak_username": "jonashaeussler",
       "last": "H\u00e4u\u00dfler",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-05-04"
+    },
+    {
+      "authname": "J. H\u00e4u\u00dfler",
+      "collab": "icecube",
+      "email": "jonas.haeussler@rwth-aachen.de",
+      "first": "Jonas",
+      "from": "2025-05-05",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jonashaeussler",
+      "last": "H\u00e4u\u00dfler",
+      "orcid": "0009-0003-5552-4821",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. H\u00e4u\u00dfler",
+      "collab": "icecube-gen2",
+      "email": "jonas.haeussler@rwth-aachen.de",
+      "first": "Jonas",
+      "from": "2025-05-05",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "jonashaeussler",
+      "last": "H\u00e4u\u00dfler",
+      "orcid": "0009-0003-5552-4821",
       "thanks": [],
       "to": ""
     },
@@ -37121,6 +37181,36 @@
       "keycloak_username": "mmoulai",
       "last": "Moulai",
       "orcid": "0000-0001-7909-5812",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Mousadi",
+      "collab": "icecube",
+      "email": "despoina.mousadi@desy.de",
+      "first": "Despina",
+      "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "mousadid",
+      "last": "Mousadi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Mousadi",
+      "collab": "icecube-gen2",
+      "email": "despoina.mousadi@desy.de",
+      "first": "Despina",
+      "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "mousadid",
+      "last": "Mousadi",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
