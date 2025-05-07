@@ -9213,7 +9213,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "S. Choi",
@@ -9229,7 +9229,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "A. Christov",
@@ -43609,6 +43609,36 @@
       "to": ""
     },
     {
+      "authname": "C. D. Rho",
+      "collab": "icecube",
+      "email": "cdr397@skku.edu",
+      "first": "Chang Dong",
+      "from": "2025-05-07",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "cdr397",
+      "last": "Rho",
+      "orcid": "0000-0002-6524-9769",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. D. Rho",
+      "collab": "icecube-gen2",
+      "email": "cdr397@skku.edu",
+      "first": "Chang Dong",
+      "from": "2025-05-07",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "cdr397",
+      "last": "Rho",
+      "orcid": "0000-0002-6524-9769",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Rho",
       "collab": "icecube",
       "email": "cdr397@skku.edu",
@@ -43621,7 +43651,7 @@
       "last": "Rho",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "C. Rho",
@@ -43636,7 +43666,7 @@
       "last": "Rho",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "W. Rhode",
@@ -48696,7 +48726,7 @@
       "last": "Seo",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "M. Seo",
@@ -48711,7 +48741,7 @@
       "last": "Seo",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-06"
     },
     {
       "authname": "S. H. Seo",
