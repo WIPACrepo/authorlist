@@ -46186,6 +46186,36 @@
       "to": ""
     },
     {
+      "authname": "G. Sanger-Johnson",
+      "collab": "icecube",
+      "email": "sangerjo@msu.edu",
+      "first": "Grace",
+      "from": "2025-05-12",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "gsanjohn",
+      "last": "Sanger-Johnson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Sanger-Johnson",
+      "collab": "icecube-gen2",
+      "email": "sangerjo@msu.edu",
+      "first": "Grace",
+      "from": "2025-05-12",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "gsanjohn",
+      "last": "Sanger-Johnson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Santander",
       "collab": "icecube",
       "email": "marcos.santander@icecube.wisc.edu",
