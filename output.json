@@ -46198,7 +46198,7 @@
       "last": "Sanger-Johnson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-12"
     },
     {
       "authname": "G. Sanger-Johnson",
@@ -46212,6 +46212,36 @@
       "keycloak_username": "gsanjohn",
       "last": "Sanger-Johnson",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-05-12"
+    },
+    {
+      "authname": "G. Sanger-Johnson",
+      "collab": "icecube",
+      "email": "sangerjo@msu.edu",
+      "first": "Grace",
+      "from": "2025-05-13",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "gsanjohn",
+      "last": "Sanger-Johnson",
+      "orcid": "0000-0002-4463-2902",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Sanger-Johnson",
+      "collab": "icecube-gen2",
+      "email": "sangerjo@msu.edu",
+      "first": "Grace",
+      "from": "2025-05-13",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "gsanjohn",
+      "last": "Sanger-Johnson",
+      "orcid": "0000-0002-4463-2902",
       "thanks": [],
       "to": ""
     },
