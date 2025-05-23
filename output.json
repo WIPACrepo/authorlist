@@ -11400,6 +11400,36 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "T. Delmeulle",
+      "collab": "icecube",
+      "email": "thomas.delmeulle@ulb.be",
+      "first": "Thomas",
+      "from": "2025-05-23",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "tdelmeul",
+      "last": "Delmeulle",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Delmeulle",
+      "collab": "icecube-gen2",
+      "email": "thomas.delmeulle@ulb.be",
+      "first": "Thomas",
+      "from": "2025-05-23",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "tdelmeul",
+      "last": "Delmeulle",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. del Pino Rosendo",
       "collab": "icecube",
       "email": "esther.delpinorosendo@icecube.wisc.edu",
@@ -30694,6 +30724,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-09-30"
+    },
+    {
+      "authname": "L. Lallement Arnaud",
+      "collab": "icecube",
+      "email": "louise.lallement@orange.fr",
+      "first": "Louise",
+      "from": "2025-05-23",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "llalleme1",
+      "last": "Lallement Arnaud",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Lallement Arnaud",
+      "collab": "icecube-gen2",
+      "email": "louise.lallement@orange.fr",
+      "first": "Louise",
+      "from": "2025-05-23",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "llalleme1",
+      "last": "Lallement Arnaud",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Lamoureux",
