@@ -22888,6 +22888,21 @@
       "to": "2007-06-08"
     },
     {
+      "authname": "D. Hooper",
+      "collab": "icecube",
+      "email": "dwhooper@wisc.edu",
+      "first": "Dan",
+      "from": "2025-05-28",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dhooper",
+      "last": "Hooper",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Hori",
       "collab": "icecube",
       "email": "sahori@wisc.edu",
