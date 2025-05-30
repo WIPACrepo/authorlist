@@ -10810,7 +10810,7 @@
       "last": "Dasgupta",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-29"
     },
     {
       "authname": "J. Daughhetee",
@@ -32517,7 +32517,7 @@
       "last": "Lohan",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-05-29"
     },
     {
       "authname": "E. Lohfink",
@@ -52423,6 +52423,21 @@
       ],
       "keycloak_username": "taketa",
       "last": "Taketa",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Tamang",
+      "collab": "icecube-gen2",
+      "email": "tagtshen.tamang@tifr.res.in",
+      "first": "Tagtshen",
+      "from": "2025-05-30",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "ttamang",
+      "last": "Tamang",
       "orcid": "",
       "thanks": [],
       "to": ""
