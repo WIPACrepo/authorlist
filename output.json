@@ -32520,6 +32520,21 @@
       "to": "2025-05-29"
     },
     {
+      "authname": "M. Lohan",
+      "collab": "icecube-gen2",
+      "email": "manisha.lohan@tifr.res.in",
+      "first": "Manisha",
+      "from": "2025-05-31",
+      "instnames": [
+        "tata"
+      ],
+      "keycloak_username": "mmanisha1",
+      "last": "Lohan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Lohfink",
       "collab": "pingu",
       "email": "elisa.lohfink@icecube.wisc.edu",
