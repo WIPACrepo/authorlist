@@ -22903,6 +22903,21 @@
       "to": ""
     },
     {
+      "authname": "D. Hooper",
+      "collab": "icecube-gen2",
+      "email": "dwhooper@wisc.edu",
+      "first": "Dan",
+      "from": "2025-06-01",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dhooper",
+      "last": "Hooper",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Hori",
       "collab": "icecube",
       "email": "sahori@wisc.edu",
