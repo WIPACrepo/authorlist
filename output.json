@@ -13113,7 +13113,7 @@
       "last": "Dutta",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-01"
     },
     {
       "authname": "K. Dutta",
@@ -13121,6 +13121,36 @@
       "email": "kadutta@students.uni-mainz.de",
       "first": "Kaustav",
       "from": "2024-02-27",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "kdutta",
+      "last": "Dutta",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-06-01"
+    },
+    {
+      "authname": "K. Dutta",
+      "collab": "icecube",
+      "email": "kdutta@icecube.wisc.edu",
+      "first": "Kaustav",
+      "from": "2025-06-02",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "kdutta",
+      "last": "Dutta",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Dutta",
+      "collab": "icecube-gen2",
+      "email": "kdutta@icecube.wisc.edu",
+      "first": "Kaustav",
+      "from": "2025-06-02",
       "instnames": [
         "mainz"
       ],
