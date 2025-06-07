@@ -3166,6 +3166,21 @@
       "to": ""
     },
     {
+      "authname": "J. Baines-Holmes",
+      "collab": "icecube",
+      "email": "bainesholmes@wisc.edu",
+      "first": "Joe",
+      "from": "2025-06-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "bainesholmes",
+      "last": "Baines-Holmes",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Baker",
       "collab": "icecube",
       "email": "mike.baker@icecube.wisc.edu",
@@ -6043,6 +6058,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2024-01-01"
+    },
+    {
+      "authname": "I. Bodo",
+      "collab": "icecube",
+      "email": "bodo@wisc.edu",
+      "first": "Ilya",
+      "from": "2025-06-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "ibodo",
+      "last": "Bodo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. J. Boersma",
