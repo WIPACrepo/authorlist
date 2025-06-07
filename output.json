@@ -41423,7 +41423,7 @@
       "last": "Pizzuto",
       "orcid": "0000-0002-8466-8168",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-06"
     },
     {
       "authname": "A. Pizzuto",
@@ -45673,7 +45673,7 @@
       "last": "Safa",
       "orcid": "0000-0001-8737-6825",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-06"
     },
     {
       "authname": "I. Safa",
@@ -55741,7 +55741,7 @@
       "last": "Veitch-Michaelis",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-06"
     },
     {
       "authname": "J. Veitch-Michaelis",
@@ -59672,6 +59672,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2025-02-26"
+    },
+    {
+      "authname": "Y. Yao",
+      "collab": "icecube",
+      "email": "yyao255@wisc.edu",
+      "first": "Yuhua",
+      "from": "2025-06-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "yyao255",
+      "last": "Yao",
+      "orcid": "0000-0002-4611-0075",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. Yeck",
