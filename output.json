@@ -14384,6 +14384,36 @@
       "to": "2017-03-08"
     },
     {
+      "authname": "S. Eulig",
+      "collab": "icecube",
+      "email": "seulig@fas.harvard.edu",
+      "first": "Steven",
+      "from": "2025-06-09",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "syeulig",
+      "last": "Eulig",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Eulig",
+      "collab": "icecube-gen2",
+      "email": "seulig@fas.harvard.edu",
+      "first": "Steven",
+      "from": "2025-06-09",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "syeulig",
+      "last": "Eulig",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Evans",
       "collab": "pingu",
       "email": "jevans96@terpmail.umd.edu",
