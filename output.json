@@ -9262,6 +9262,36 @@
       "to": "2025-05-06"
     },
     {
+      "authname": "S. Choi",
+      "collab": "icecube",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2025-06-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube-gen2",
+      "email": "choi940927@gmail.com",
+      "first": "Seowon",
+      "from": "2025-06-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Christov",
       "collab": "icecube",
       "email": "asen.christov@icecube.wisc.edu",
@@ -53664,6 +53694,22 @@
       "email": "u6068898@utah.edu",
       "first": "Jorge",
       "from": "2025-06-06",
+      "instnames": [
+        "ohio",
+        "ohioastro"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-06-09"
+    },
+    {
+      "authname": "J. Torres",
+      "collab": "icecube-gen2",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2025-06-10",
       "instnames": [
         "ohio",
         "ohioastro"
