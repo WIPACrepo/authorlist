@@ -24719,6 +24719,37 @@
       "last": "Jacquart",
       "orcid": "",
       "thanks": [],
+      "to": "2025-06-10"
+    },
+    {
+      "authname": "M. Jacquart",
+      "collab": "icecube",
+      "email": "m.jacquart@hotmail.ch",
+      "first": "Marc",
+      "from": "2025-06-11",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "mjacquart",
+      "last": "Jacquart",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Jacquart",
+      "collab": "icecube-gen2",
+      "email": "m.jacquart@hotmail.ch",
+      "first": "Marc",
+      "from": "2025-06-11",
+      "instnames": [
+        "copenhagen",
+        "madisonpac"
+      ],
+      "keycloak_username": "mjacquart",
+      "last": "Jacquart",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -54631,7 +54662,7 @@
       "last": "Unland Elorrieta",
       "orcid": "0000-0002-6124-3255",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-10"
     },
     {
       "authname": "M. A. Unland Elorrieta",
@@ -54646,7 +54677,7 @@
       "last": "Unland Elorrieta",
       "orcid": "0000-0002-6124-3255",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-10"
     },
     {
       "authname": "A. K. Upadhyay",
