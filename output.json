@@ -55060,6 +55060,36 @@
       "to": ""
     },
     {
+      "authname": "J. Valverde",
+      "collab": "icecube",
+      "email": "janeth@umbc.edu",
+      "first": "Janeth",
+      "from": "2025-06-12",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "jvalverde",
+      "last": "Valverde",
+      "orcid": "0000-0002-8090-6528",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Valverde",
+      "collab": "icecube-gen2",
+      "email": "janeth@umbc.edu",
+      "first": "Janeth",
+      "from": "2025-06-12",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "jvalverde",
+      "last": "Valverde",
+      "orcid": "0000-0002-8090-6528",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Vandenbroucke",
       "collab": "icecube",
       "email": "justin@icecube.wisc.edu",
