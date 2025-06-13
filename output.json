@@ -55493,6 +55493,36 @@
       "to": "2014-01-09"
     },
     {
+      "authname": "L. Van Rootselaar",
+      "collab": "icecube",
+      "email": "lene.van.r@gmail.com",
+      "first": "Lene",
+      "from": "2025-06-13",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lrootsel",
+      "last": "van Rootselaar",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Van Rootselaar",
+      "collab": "icecube-gen2",
+      "email": "lene.van.r@gmail.com",
+      "first": "Lene",
+      "from": "2025-06-13",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lrootsel",
+      "last": "van Rootselaar",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. van Rossem",
       "collab": "icecube",
       "email": "mackenzie.vanrossem@icecube.wisc.edu",
