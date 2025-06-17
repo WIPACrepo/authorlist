@@ -57618,6 +57618,36 @@
       "to": "2025-04-02"
     },
     {
+      "authname": "J. Weldert",
+      "collab": "icecube",
+      "email": "jan.weldert@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2025-06-17",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jweldert",
+      "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Weldert",
+      "collab": "icecube-gen2",
+      "email": "jan.weldert@icecube.wisc.edu",
+      "first": "Jan",
+      "from": "2025-06-17",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jweldert",
+      "last": "Weldert",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Welling",
       "collab": "icecube-gen2",
       "email": "christoph.welling@icecube.wisc.edu",
