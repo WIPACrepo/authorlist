@@ -20103,6 +20103,21 @@
       "to": ""
     },
     {
+      "authname": "S. Hallmann",
+      "collab": "icecube-gen2",
+      "email": "steffen.hallmann@desy.de",
+      "first": "Steffen",
+      "from": "2025-06-18",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "shallman",
+      "last": "Hallmann",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Halve",
       "collab": "icecube",
       "email": "lhalve@icecube.wisc.edu",
