@@ -23735,6 +23735,21 @@
       "to": "2016-06-06"
     },
     {
+      "authname": "E. Huesca Santiago",
+      "collab": "icecube-gen2",
+      "email": "enrique.huesca.santiago@desy.de",
+      "first": "Enrique",
+      "from": "2025-06-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "ehuesca",
+      "last": "Huesca Santiago",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Hughes",
       "collab": "icecube-gen2",
       "email": "kaeli.hughes@icecube.wisc.edu",
@@ -24837,6 +24852,21 @@
       "keycloak_username": "samyak",
       "last": "Jain",
       "orcid": "0009-0000-7455-782X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Jaitly",
+      "collab": "icecube-gen2",
+      "email": "annanay.jaitly@desy.de",
+      "first": "Annanay",
+      "from": "2025-06-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "jaitlya",
+      "last": "Jaitly",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
@@ -49012,6 +49042,21 @@
       "keycloak_username": "mhossain",
       "last": "Seikh",
       "orcid": "0000-0002-4464-7354",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Selcuk",
+      "collab": "icecube-gen2",
+      "email": "zeynepsuselcuk@hotmail.com",
+      "first": "Zeynep Su",
+      "from": "2025-06-18",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "zeynepsu",
+      "last": "Selcuk",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
