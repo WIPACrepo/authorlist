@@ -24883,6 +24883,22 @@
       "last": "Jaitly",
       "orcid": "",
       "thanks": [],
+      "to": "2025-06-18"
+    },
+    {
+      "authname": "A. Jaitly",
+      "collab": "icecube-gen2",
+      "email": "annanay.jaitly@desy.de",
+      "first": "Annanay",
+      "from": "2025-06-19",
+      "instnames": [
+        "erlangen",
+        "zeuthen"
+      ],
+      "keycloak_username": "jaitlya",
+      "last": "Jaitly",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
@@ -37487,6 +37503,21 @@
     },
     {
       "authname": "D. Mousadi",
+      "collab": "icecube-gen2",
+      "email": "despoina.mousadi@desy.de",
+      "first": "Despina",
+      "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "mousadid",
+      "last": "Mousadi",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-06-18"
+    },
+    {
+      "authname": "D. Mousadi",
       "collab": "icecube",
       "email": "despoina.mousadi@desy.de",
       "first": "Despina",
@@ -37505,8 +37536,9 @@
       "collab": "icecube-gen2",
       "email": "despoina.mousadi@desy.de",
       "first": "Despina",
-      "from": "2025-05-05",
+      "from": "2025-06-19",
       "instnames": [
+        "erlangen",
         "zeuthen"
       ],
       "keycloak_username": "mousadid",
@@ -49067,6 +49099,22 @@
       "first": "Zeynep Su",
       "from": "2025-06-18",
       "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "zeynepsu",
+      "last": "Selcuk",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-06-18"
+    },
+    {
+      "authname": "Z. Selcuk",
+      "collab": "icecube-gen2",
+      "email": "zeynepsuselcuk@hotmail.com",
+      "first": "Zeynep Su",
+      "from": "2025-06-19",
+      "instnames": [
+        "erlangen",
         "zeuthen"
       ],
       "keycloak_username": "zeynepsu",
