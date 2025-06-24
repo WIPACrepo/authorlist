@@ -26212,6 +26212,36 @@
       "to": "2025-05-21"
     },
     {
+      "authname": "W. Kang",
+      "collab": "icecube",
+      "email": "woosik.kang@icecube.wisc.edu",
+      "first": "Woosik",
+      "from": "2025-06-24",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "wkang",
+      "last": "Kang",
+      "orcid": "0000-0003-3980-3778",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Kang",
+      "collab": "icecube-gen2",
+      "email": "woosik.kang@icecube.wisc.edu",
+      "first": "Woosik",
+      "from": "2025-06-24",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "wkang",
+      "last": "Kang",
+      "orcid": "0000-0003-3980-3778",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "X. Kang",
       "collab": "icecube",
       "email": "xk35@icecube.wisc.edu",
