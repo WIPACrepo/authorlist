@@ -3321,7 +3321,7 @@
       "last": "Balagopal V",
       "orcid": "0000-0001-5367-8876",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-26"
     },
     {
       "authname": "A. Balagopal V.",
@@ -3331,6 +3331,37 @@
       "from": "2022-05-10",
       "instnames": [
         "madisonpac"
+      ],
+      "keycloak_username": "abalagopalv",
+      "last": "Balagopal V",
+      "orcid": "0000-0001-5367-8876",
+      "thanks": [],
+      "to": "2025-06-26"
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "icecube",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2025-06-27",
+      "instnames": [
+        "bartol",
+        "madisonpac"
+      ],
+      "keycloak_username": "abalagopalv",
+      "last": "Balagopal V",
+      "orcid": "0000-0001-5367-8876",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "icecube-gen2",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2025-06-27",
+      "instnames": [
+        "bartol"
       ],
       "keycloak_username": "abalagopalv",
       "last": "Balagopal V",
@@ -21853,6 +21884,36 @@
       "to": ""
     },
     {
+      "authname": "B. Henke",
+      "collab": "icecube",
+      "email": "henkebra@msu.edu",
+      "first": "Brandon",
+      "from": "2025-06-27",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "bhenke",
+      "last": "Henke",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Henke",
+      "collab": "icecube-gen2",
+      "email": "henkebra@msu.edu",
+      "first": "Brandon",
+      "from": "2025-06-27",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "bhenke",
+      "last": "Henke",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "L. Hennig",
       "collab": "icecube",
       "email": "lukas.hennig@fau.de",
@@ -32477,6 +32538,21 @@
       "keycloak_username": "jliao",
       "last": "Liao",
       "orcid": "0009-0008-8086-586X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Lin",
+      "collab": "icecube",
+      "email": "chacelin@udel.edu",
+      "first": "Chace",
+      "from": "2025-06-27",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "clin0",
+      "last": "Lin",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
