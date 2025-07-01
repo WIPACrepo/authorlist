@@ -1580,6 +1580,36 @@
       "to": ""
     },
     {
+      "authname": "S. Ali",
+      "collab": "icecube",
+      "email": "shoukat@ku.edu",
+      "first": "Shoukat",
+      "from": "2025-07-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "ashoukat",
+      "last": "Ali",
+      "orcid": "0009-0001-2444-4162",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Ali",
+      "collab": "icecube-gen2",
+      "email": "shoukat@ku.edu",
+      "first": "Shoukat",
+      "from": "2025-07-01",
+      "instnames": [
+        "kansas"
+      ],
+      "keycloak_username": "ashoukat",
+      "last": "Ali",
+      "orcid": "0009-0001-2444-4162",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Alispach",
       "collab": "icecube",
       "email": "cyril.alispach@icecube.wisc.edu",
@@ -36635,7 +36665,7 @@
       "last": "Mikhailova",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-06-30"
     },
     {
       "authname": "N. Milke",
@@ -45676,6 +45706,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2025-01-30"
+    },
+    {
+      "authname": "D. Ryckbosch",
+      "collab": "icecube",
+      "email": "dirk.ryckbosch@ugent.be",
+      "first": "Dirk",
+      "from": "2025-07-01",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "dryckbosch",
+      "last": "Ryckbosch",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "D. Ryckbosch",
