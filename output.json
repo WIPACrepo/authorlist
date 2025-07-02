@@ -60277,6 +60277,21 @@
       "last": "Yao",
       "orcid": "0000-0002-4611-0075",
       "thanks": [],
+      "to": "2025-07-01"
+    },
+    {
+      "authname": "Y. Yao",
+      "collab": "icecube-gen2",
+      "email": "yyao255@wisc.edu",
+      "first": "Yuhua",
+      "from": "2025-07-02",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "yyao255",
+      "last": "Yao",
+      "orcid": "0000-0002-4611-0075",
+      "thanks": [],
       "to": ""
     },
     {
