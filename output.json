@@ -10211,6 +10211,36 @@
       "to": "2012-02-06"
     },
     {
+      "authname": "D. A. Coloma Borja",
+      "collab": "icecube",
+      "email": "diegoalberto.colomaborja@studenti.unipd.it",
+      "first": "Diego Alberto",
+      "from": "2025-07-02",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "dcolomab",
+      "last": "Coloma Borja",
+      "orcid": "0000-0003-0007-5793",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. A. Coloma Borja",
+      "collab": "icecube-gen2",
+      "email": "diegoalberto.colomaborja@studenti.unipd.it",
+      "first": "Diego Alberto",
+      "from": "2025-07-02",
+      "instnames": [
+        "padova"
+      ],
+      "keycloak_username": "dcolomab",
+      "last": "Coloma Borja",
+      "orcid": "0000-0003-0007-5793",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Connolly",
       "collab": "icecube-gen2",
       "email": "connolly@physics.osu.edu",
@@ -25187,6 +25217,21 @@
       "to": "2025-05-21"
     },
     {
+      "authname": "M. Jansson",
+      "collab": "icecube",
+      "email": "matti.jansson@gmail.com",
+      "first": "Matti",
+      "from": "2025-07-02",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mjansson",
+      "last": "Jansson",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. S. Japaridze",
       "collab": "pingu",
       "email": "george.japaridze@gmail.com",
@@ -35259,6 +35304,21 @@
       "to": "2020-09-30"
     },
     {
+      "authname": "J. Mauro",
+      "collab": "icecube",
+      "email": "jonathan.mauro@uclouvain.be",
+      "first": "Jonathan",
+      "from": "2025-07-02",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "jmauro",
+      "last": "Mauro",
+      "orcid": "0009-0005-9324-7970",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "F. Mayhew",
       "collab": "icecube",
       "email": "finn.mayhew@icecube.wisc.edu",
@@ -37696,6 +37756,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2012-09-30"
+    },
+    {
+      "authname": "E. Moyaux",
+      "collab": "icecube",
+      "email": "emile.moyaux@student.uclouvain.be",
+      "first": "Emile",
+      "from": "2025-07-02",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "emoyaux",
+      "last": "Moyaux",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Mukherjee",
@@ -44254,6 +44329,21 @@
       "to": "2014-04-30"
     },
     {
+      "authname": "L. Ricca",
+      "collab": "icecube",
+      "email": "leonardo.ricca@uclouvain.be",
+      "first": "Leonardo",
+      "from": "2025-07-02",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "lricca",
+      "last": "Ricca",
+      "orcid": "0009-0002-1638-0610",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Richman",
       "collab": "icecube",
       "email": "mrichman@icecube.wisc.edu",
@@ -47117,6 +47207,21 @@
       ],
       "keycloak_username": "psavina",
       "last": "Savina",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Scarnera",
+      "collab": "icecube",
+      "email": "marco.scarnera@uclouvain.be",
+      "first": "Marco",
+      "from": "2025-07-02",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mscarnera",
+      "last": "Scarnera",
       "orcid": "",
       "thanks": [],
       "to": ""
