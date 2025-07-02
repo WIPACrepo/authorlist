@@ -22048,6 +22048,36 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "F. Henningsen",
+      "collab": "icecube",
+      "email": "felix.henningsen@icecube.wisc.edu",
+      "first": "Felix",
+      "from": "2025-07-02",
+      "instnames": [
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "fhenningsen",
+      "last": "Henningsen",
+      "orcid": "0000-0002-0680-6588",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Henningsen",
+      "collab": "icecube-gen2",
+      "email": "felix.henningsen@icecube.wisc.edu",
+      "first": "Felix",
+      "from": "2025-07-02",
+      "instnames": [
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "fhenningsen",
+      "last": "Henningsen",
+      "orcid": "0000-0002-0680-6588",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Henrichs",
       "collab": "icecube-gen2",
       "email": "jakob.henrichs@desy.de",
@@ -34047,7 +34077,7 @@
       "last": "Mahn",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-01"
     },
     {
       "authname": "K. B. M. Mahn",
@@ -34062,7 +34092,7 @@
       "last": "Mahn",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-01"
     },
     {
       "authname": "P. Majumdar",
@@ -57296,6 +57326,21 @@
       "to": "2007-12-09"
     },
     {
+      "authname": "E. H. S. Warrick",
+      "collab": "icecube",
+      "email": "ehwarrick@crimson.ua.edu",
+      "first": "Elizabeth",
+      "from": "2025-07-02",
+      "instnames": [
+        "alabama"
+      ],
+      "keycloak_username": "ewarrick",
+      "last": "Warrick",
+      "orcid": "0009-0006-3975-1006",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Warrick",
       "collab": "icecube",
       "email": "ehwarrick@crimson.ua.edu",
@@ -57308,7 +57353,7 @@
       "last": "Warrick",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-01"
     },
     {
       "authname": "D. Washington",
