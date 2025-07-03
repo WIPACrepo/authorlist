@@ -49319,6 +49319,21 @@
       "to": ""
     },
     {
+      "authname": "L. Seen",
+      "collab": "icecube-gen2",
+      "email": "seen@wisc.edu",
+      "first": "Leo",
+      "from": "2025-07-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "lseen",
+      "last": "Seen",
+      "orcid": "0009-0004-9204-0241",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Seikh",
       "collab": "icecube",
       "email": "ful.hossain@icecube.wisc.edu",
@@ -60353,6 +60368,21 @@
       "orcid": "0000-0002-4611-0075",
       "thanks": [],
       "to": "2025-07-01"
+    },
+    {
+      "authname": "Y. Yao",
+      "collab": "icecube",
+      "email": "yyao255@wisc.edu",
+      "first": "Yuhua",
+      "from": "2025-07-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "yyao255",
+      "last": "Yao",
+      "orcid": "0000-0002-4611-0075",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "Y. Yao",
