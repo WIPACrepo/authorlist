@@ -54158,6 +54158,23 @@
       "last": "Torres",
       "orcid": "",
       "thanks": [],
+      "to": "2025-07-08"
+    },
+    {
+      "authname": "J. Torres",
+      "collab": "icecube-gen2",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2025-07-09",
+      "instnames": [
+        "ohio",
+        "ohioastro",
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
