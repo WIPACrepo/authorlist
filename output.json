@@ -40110,7 +40110,7 @@
       "last": "Orsoe",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-15"
     },
     {
       "authname": "R. Orsoe",
@@ -40118,6 +40118,36 @@
       "email": "rasmus.orsoe@icecube.wisc.edu",
       "first": "Rasmus",
       "from": "2022-08-01",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "rorsoe",
+      "last": "Orsoe",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-07-15"
+    },
+    {
+      "authname": "R. Orsoe",
+      "collab": "icecube",
+      "email": "rasmus.orsoe@tum.de",
+      "first": "Rasmus",
+      "from": "2025-07-16",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "rorsoe",
+      "last": "Orsoe",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Orsoe",
+      "collab": "icecube-gen2",
+      "email": "rasmus.orsoe@tum.de",
+      "first": "Rasmus",
+      "from": "2025-07-16",
       "instnames": [
         "munich"
       ],
