@@ -54143,6 +54143,23 @@
       "to": "2009-10-26"
     },
     {
+      "authname": "J. A. Torres",
+      "collab": "icecube-gen2",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2025-07-16",
+      "instnames": [
+        "ohio",
+        "ohioastro",
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Torres",
       "collab": "icecube-gen2",
       "email": "jtorresespinosa@icecube.wisc.edu",
@@ -54205,7 +54222,7 @@
       "last": "Torres",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-15"
     },
     {
       "authname": "S. Toscano",
