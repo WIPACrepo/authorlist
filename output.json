@@ -15900,6 +15900,21 @@
       "last": "Flaggs",
       "orcid": "",
       "thanks": [],
+      "to": "2025-07-27"
+    },
+    {
+      "authname": "B. Flaggs",
+      "collab": "icecube-gen2",
+      "email": "bflaggs@udel.edu",
+      "first": "Benjamin",
+      "from": "2025-07-28",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "bflaggs",
+      "last": "Flaggs",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
