@@ -16257,7 +16257,7 @@
       "last": "Franckowiak",
       "orcid": "0000-0002-5605-2219",
       "thanks": [],
-      "to": ""
+      "to": "2025-07-29"
     },
     {
       "authname": "A. Franckowiak",
@@ -16265,6 +16265,36 @@
       "email": "anna.franckowiak@desy.de",
       "first": "Anna",
       "from": "2022-08-23",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "annaf",
+      "last": "Franckowiak",
+      "orcid": "0000-0002-5605-2219",
+      "thanks": [],
+      "to": "2025-07-29"
+    },
+    {
+      "authname": "A. Franckowiak",
+      "collab": "icecube",
+      "email": "anna.franckowiak@astro.rub.de",
+      "first": "Anna",
+      "from": "2025-07-30",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "annaf",
+      "last": "Franckowiak",
+      "orcid": "0000-0002-5605-2219",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Franckowiak",
+      "collab": "icecube-gen2",
+      "email": "anna.franckowiak@astro.rub.de",
+      "first": "Anna",
+      "from": "2025-07-30",
       "instnames": [
         "bochum"
       ],
