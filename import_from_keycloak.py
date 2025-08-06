@@ -400,7 +400,7 @@ def main():
 
     logging.basicConfig(level=getattr(logging, args['log_level'].upper()))
 
-    keycloak_client = get_rest_client()
+    keycloak_client = get_rest_client(timeout=50)
 
     if not args['experiment']:
         args['experiment'] = ['IceCube', 'IceCube-Gen2']
@@ -408,7 +408,7 @@ def main():
     State(args['filename']).save(args['filename_out'])
     for exp in args['experiment']:
         logging.warning('Syncing for experiment %s', exp)
-        state = State(args['filename_out'], collab=exp.lower())        
+        state = State(args['filename_out'], collab=exp.lower())
         asyncio.run(sync(state, args['filename_out'], experiment=exp, dryrun=args['dryrun'], client=keycloak_client))
 
 if __name__ == '__main__':
