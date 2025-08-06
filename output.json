@@ -23539,6 +23539,36 @@
       "to": ""
     },
     {
+      "authname": "M. Hrywniak",
+      "collab": "icecube",
+      "email": "michael.hrywniak@gmail.com",
+      "first": "Michael",
+      "from": "2025-08-06",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "mhrywniak",
+      "last": "Hrywniak",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Hrywniak",
+      "collab": "icecube-gen2",
+      "email": "michael.hrywniak@gmail.com",
+      "first": "Michael",
+      "from": "2025-08-06",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "mhrywniak",
+      "last": "Hrywniak",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "F. Huang",
       "collab": "icecube",
       "email": "feifei.huang@icecube.wisc.edu",
@@ -39524,7 +39554,7 @@
       "last": "Pollmann",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
-      "to": ""
+      "to": "2025-08-05"
     },
     {
       "authname": "A. Obertacke Pollmann",
@@ -39537,6 +39567,36 @@
       ],
       "keycloak_username": "aobertacke",
       "last": "Pollmann",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": "2025-08-05"
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube",
+      "email": "anna@obertacke.de",
+      "first": "Anna",
+      "from": "2025-08-06",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Obertacke",
+      "orcid": "0000-0002-2492-043X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Obertacke Pollmann",
+      "collab": "icecube-gen2",
+      "email": "anna@obertacke.de",
+      "first": "Anna",
+      "from": "2025-08-06",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "aobertacke",
+      "last": "Obertacke",
       "orcid": "0000-0002-2492-043X",
       "thanks": [],
       "to": ""
