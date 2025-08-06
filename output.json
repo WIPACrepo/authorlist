@@ -39412,22 +39412,8 @@
       "first": "Anna",
       "from": "2025-08-06",
       "instnames": [
-        "chiba2022"
-      ],
-      "keycloak_username": "aobertacke",
-      "last": "Obertacke",
-      "orcid": "0000-0002-2492-043X",
-      "thanks": [],
-      "to": ""
-    },
-    {
-      "authname": "A. Obertacke",
-      "collab": "icecube-gen2",
-      "email": "anna@obertacke.de",
-      "first": "Anna",
-      "from": "2025-08-06",
-      "instnames": [
-        "chiba2022"
+        "chiba2022",
+        "stockholmokc"
       ],
       "keycloak_username": "aobertacke",
       "last": "Obertacke",
