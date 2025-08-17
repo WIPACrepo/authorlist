@@ -58556,7 +58556,7 @@
       "last": "Werthebach",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-08-16"
     },
     {
       "authname": "J. Werthebach",
@@ -58564,6 +58564,36 @@
       "email": "johannes.werthebach@icecube.wisc.edu",
       "first": "Johannes",
       "from": "2020-05-14",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "jwerthebach",
+      "last": "Werthebach",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-08-16"
+    },
+    {
+      "authname": "J. Werthebach",
+      "collab": "icecube",
+      "email": "johannes.werthebach@icecube.wisc.edu",
+      "first": "Jo",
+      "from": "2025-08-17",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "jwerthebach",
+      "last": "Werthebach",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Werthebach",
+      "collab": "icecube-gen2",
+      "email": "johannes.werthebach@icecube.wisc.edu",
+      "first": "Jo",
+      "from": "2025-08-17",
       "instnames": [
         "dortmund"
       ],
