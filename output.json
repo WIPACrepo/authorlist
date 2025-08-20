@@ -10471,7 +10471,7 @@
       "last": "Corley",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-08-19"
     },
     {
       "authname": "R. Corley",
@@ -10486,7 +10486,7 @@
       "last": "Corley",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-08-19"
     },
     {
       "authname": "P. Correa",
@@ -37282,6 +37282,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2021-01-12"
+    },
+    {
+      "authname": "S. Mondal",
+      "collab": "icecube",
+      "email": "shouvikmondal02@gmail.com",
+      "first": "Shouvik",
+      "from": "2025-08-20",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "smondal",
+      "last": "Mondal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Mondal",
+      "collab": "icecube-gen2",
+      "email": "shouvikmondal02@gmail.com",
+      "first": "Shouvik",
+      "from": "2025-08-20",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "smondal",
+      "last": "Mondal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Montaruli",
