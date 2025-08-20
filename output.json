@@ -29926,6 +29926,36 @@
       "to": ""
     },
     {
+      "authname": "A. Kravka",
+      "collab": "icecube",
+      "email": "antonin.kravka@utah.edu",
+      "first": "Anton\u00edn",
+      "from": "2025-08-20",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "akravka",
+      "last": "Kravka",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kravka",
+      "collab": "icecube-gen2",
+      "email": "antonin.kravka@utah.edu",
+      "first": "Anton\u00edn",
+      "from": "2025-08-20",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "akravka",
+      "last": "Kravka",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Krebs",
       "collab": "icecube-gen2",
       "email": "ryan.krebs@icecube.wisc.edu",
