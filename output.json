@@ -31326,6 +31326,21 @@
       "last": "Lamoureux",
       "orcid": "0000-0002-8860-5826",
       "thanks": [],
+      "to": "2025-09-11"
+    },
+    {
+      "authname": "M. Lamoureux",
+      "collab": "icecube",
+      "email": "lamoureux@apc.in2p3.fr",
+      "first": "Mathieu",
+      "from": "2025-09-12",
+      "instnames": [
+        "uclouvain"
+      ],
+      "keycloak_username": "mlamoureux",
+      "last": "Lamoureux",
+      "orcid": "0000-0002-8860-5826",
+      "thanks": [],
       "to": ""
     },
     {
