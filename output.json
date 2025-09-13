@@ -33900,6 +33900,36 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "M. Macdonald",
+      "collab": "icecube",
+      "email": "mmacdonald@college.harvard.edu",
+      "first": "Miller",
+      "from": "2025-09-13",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mymacd26",
+      "last": "MacDonald",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Macdonald",
+      "collab": "icecube-gen2",
+      "email": "mmacdonald@college.harvard.edu",
+      "first": "Miller",
+      "from": "2025-09-13",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "mymacd26",
+      "last": "MacDonald",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "O. Mac\u00edas",
       "collab": "icecube",
       "first": "O.",
