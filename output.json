@@ -61245,6 +61245,21 @@
       "to": ""
     },
     {
+      "authname": "A. Zander Jurowitzki",
+      "collab": "icecube",
+      "email": "alan_zander@hotmail.com",
+      "first": "Alan",
+      "from": "2025-09-15",
+      "instnames": [
+        "munich"
+      ],
+      "keycloak_username": "azander",
+      "last": "Zander Jurowitzki",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Zarzhitsky",
       "collab": "icecube",
       "email": "pavel.zarzhitsky@icecube.wisc.edu",
