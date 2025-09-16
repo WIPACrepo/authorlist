@@ -12728,6 +12728,22 @@
       "to": "2018-09-30"
     },
     {
+      "authname": "T. Ding",
+      "collab": "icecube",
+      "email": "dingt2@unlv.nevada.edu",
+      "first": "Tianyi",
+      "from": "2025-09-16",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "tding",
+      "last": "Ding",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Dittmer",
       "collab": "pingu",
       "email": "markus.dittmer@icecube.wisc.edu",
