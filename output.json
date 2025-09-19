@@ -35792,7 +35792,7 @@
     },
     {
       "authname": "J. V. Mead",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "james.mead@nbi.ku.dk",
       "first": "James Vincent",
       "from": "2021-06-17",
@@ -35803,11 +35803,11 @@
       "last": "Mead",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-18"
     },
     {
       "authname": "J. V. Mead",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "james.mead@nbi.ku.dk",
       "first": "James Vincent",
       "from": "2021-06-17",
@@ -41617,6 +41617,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2024-01-01"
+    },
+    {
+      "authname": "T. C. Petersen",
+      "collab": "icecube",
+      "email": "petersen@nbi.dk",
+      "first": "Troels",
+      "from": "2025-09-19",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "tpetersen",
+      "last": "Petersen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. C. Petersen",
@@ -50962,7 +50977,7 @@
     },
     {
       "authname": "A. S\u00f8gaard",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "andreas.sogaard@icecube.wisc.edu",
       "first": "Andreas",
       "from": "2022-08-23",
@@ -50973,11 +50988,11 @@
       "last": "S\u00f8gaard",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-18"
     },
     {
       "authname": "A. S\u00f8gaard",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "andreas.sogaard@icecube.wisc.edu",
       "first": "Andreas",
       "from": "2022-08-23",
