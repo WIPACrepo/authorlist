@@ -14695,7 +14695,7 @@
       "last": "Evenson",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-21"
     },
     {
       "authname": "P. A. Evenson",
@@ -14709,6 +14709,36 @@
       "keycloak_username": "evenson",
       "last": "Evenson",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-21"
+    },
+    {
+      "authname": "P. A. Evenson",
+      "collab": "icecube",
+      "email": "evenson@udel.edu",
+      "first": "Paul",
+      "from": "2025-09-22",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "evenson",
+      "last": "Evenson",
+      "orcid": "0000-0001-7929-810X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "P. A. Evenson",
+      "collab": "icecube-gen2",
+      "email": "evenson@udel.edu",
+      "first": "Paul",
+      "from": "2025-09-22",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "evenson",
+      "last": "Evenson",
+      "orcid": "0000-0001-7929-810X",
       "thanks": [],
       "to": ""
     },
@@ -30680,7 +30710,7 @@
       "last": "Kun",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-21"
     },
     {
       "authname": "E. Kun",
@@ -30688,6 +30718,36 @@
       "email": "ekun",
       "first": "Emma",
       "from": "2024-07-09",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "ekun",
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-09-21"
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube",
+      "email": "ekun@icecube.wisc.edu",
+      "first": "Emma",
+      "from": "2025-09-22",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "ekun",
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube-gen2",
+      "email": "ekun@icecube.wisc.edu",
+      "first": "Emma",
+      "from": "2025-09-22",
       "instnames": [
         "bochum"
       ],
