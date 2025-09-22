@@ -40411,7 +40411,7 @@
       "last": "Osborn",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-21"
     },
     {
       "authname": "J. Osborn",
@@ -40425,6 +40425,36 @@
       "keycloak_username": "josborn",
       "last": "Osborn",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-21"
+    },
+    {
+      "authname": "J. Osborn",
+      "collab": "icecube",
+      "email": "jesse.osborn@icecube.wisc.edu",
+      "first": "Jesse",
+      "from": "2025-09-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "josborn",
+      "last": "Osborn",
+      "orcid": "0000-0002-2924-0863",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Osborn",
+      "collab": "icecube-gen2",
+      "email": "jesse.osborn@icecube.wisc.edu",
+      "first": "Jesse",
+      "from": "2025-09-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "josborn",
+      "last": "Osborn",
+      "orcid": "0000-0002-2924-0863",
       "thanks": [],
       "to": ""
     },
@@ -43777,7 +43807,7 @@
       "last": "Rechav",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-21"
     },
     {
       "authname": "Z. Rechav",
@@ -43791,6 +43821,36 @@
       "keycloak_username": "zrechav",
       "last": "Rechav",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-21"
+    },
+    {
+      "authname": "Z. Rechav",
+      "collab": "icecube",
+      "email": "rechav@wisc.edu",
+      "first": "Zoe",
+      "from": "2025-09-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "zrechav",
+      "last": "Rechav",
+      "orcid": "0000-0002-7653-8988",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Rechav",
+      "collab": "icecube-gen2",
+      "email": "rechav@wisc.edu",
+      "first": "Zoe",
+      "from": "2025-09-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "zrechav",
+      "last": "Rechav",
+      "orcid": "0000-0002-7653-8988",
       "thanks": [],
       "to": ""
     },
@@ -55653,7 +55713,7 @@
       "last": "Vaidyanathan",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-21"
     },
     {
       "authname": "A. Vaidyanathan",
@@ -55667,6 +55727,36 @@
       "keycloak_username": "arunv",
       "last": "Vaidyanathan",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-21"
+    },
+    {
+      "authname": "A. Vaidyanathan",
+      "collab": "icecube",
+      "email": "arunneelakandaiyer@hotmail.com",
+      "first": "Arun",
+      "from": "2025-09-22",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "arunv",
+      "last": "Vaidyanathan",
+      "orcid": "0000-0001-6591-3538",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Vaidyanathan",
+      "collab": "icecube-gen2",
+      "email": "arunneelakandaiyer@hotmail.com",
+      "first": "Arun",
+      "from": "2025-09-22",
+      "instnames": [
+        "marquette"
+      ],
+      "keycloak_username": "arunv",
+      "last": "Vaidyanathan",
+      "orcid": "0000-0001-6591-3538",
       "thanks": [],
       "to": ""
     },
