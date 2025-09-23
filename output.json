@@ -14433,7 +14433,7 @@
       "last": "Esmail",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-22"
     },
     {
       "authname": "W. Esmail",
@@ -14447,6 +14447,36 @@
       "keycloak_username": "wesmail",
       "last": "Esmail",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-22"
+    },
+    {
+      "authname": "W. Esmail",
+      "collab": "icecube",
+      "email": "waleed.esmail@uni-muenster.de",
+      "first": "Waleed",
+      "from": "2025-09-23",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "wesmail",
+      "last": "Esmail",
+      "orcid": "0000-0002-0097-3668",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Esmail",
+      "collab": "icecube-gen2",
+      "email": "waleed.esmail@uni-muenster.de",
+      "first": "Waleed",
+      "from": "2025-09-23",
+      "instnames": [
+        "munster-2024"
+      ],
+      "keycloak_username": "wesmail",
+      "last": "Esmail",
+      "orcid": "0000-0002-0097-3668",
       "thanks": [],
       "to": ""
     },
