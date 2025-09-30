@@ -30014,7 +30014,7 @@
       "last": "Kravka",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-29"
     },
     {
       "authname": "A. Kravka",
@@ -30028,6 +30028,36 @@
       "keycloak_username": "akravka",
       "last": "Kravka",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-09-29"
+    },
+    {
+      "authname": "A. Kravka",
+      "collab": "icecube",
+      "email": "antonin.kravka@utah.edu",
+      "first": "Anton\u00edn",
+      "from": "2025-09-30",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "akravka",
+      "last": "Kravka",
+      "orcid": "0009-0003-2120-3130",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kravka",
+      "collab": "icecube-gen2",
+      "email": "antonin.kravka@utah.edu",
+      "first": "Anton\u00edn",
+      "from": "2025-09-30",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "akravka",
+      "last": "Kravka",
+      "orcid": "0009-0003-2120-3130",
       "thanks": [],
       "to": ""
     },
@@ -47649,10 +47679,10 @@
     },
     {
       "authname": "J. Savelberg",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "joelle.savelberg@icecube.wisc.edu",
       "first": "Joelle",
-      "from": "2022-09-26",
+      "from": "2022-07-12",
       "instnames": [
         "aachen"
       ],
@@ -47660,14 +47690,14 @@
       "last": "Savelberg",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-09-29"
     },
     {
       "authname": "J. Savelberg",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "joelle.savelberg@icecube.wisc.edu",
       "first": "Joelle",
-      "from": "2022-07-12",
+      "from": "2022-09-26",
       "instnames": [
         "aachen"
       ],
