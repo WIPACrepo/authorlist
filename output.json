@@ -19497,7 +19497,7 @@
       "last": "Guevel",
       "orcid": "0000-0002-0870-2328",
       "thanks": [],
-      "to": ""
+      "to": "2025-10-06"
     },
     {
       "authname": "D. Guevel",
@@ -19505,6 +19505,36 @@
       "email": "guevel@wisc.edu",
       "first": "David",
       "from": "2024-09-04",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "0000-0002-0870-2328",
+      "thanks": [],
+      "to": "2025-10-06"
+    },
+    {
+      "authname": "D. Guevel",
+      "collab": "icecube",
+      "email": "david.guevel@icecube.wisc.edu",
+      "first": "David",
+      "from": "2025-10-07",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "dguevel",
+      "last": "Guevel",
+      "orcid": "0000-0002-0870-2328",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Guevel",
+      "collab": "icecube-gen2",
+      "email": "david.guevel@icecube.wisc.edu",
+      "first": "David",
+      "from": "2025-10-07",
       "instnames": [
         "madisonpac"
       ],
