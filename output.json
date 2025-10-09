@@ -26675,7 +26675,7 @@
       "last": "Kang",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-10-08"
     },
     {
       "authname": "X. Kang",
@@ -50463,6 +50463,36 @@
       "to": ""
     },
     {
+      "authname": "S. Shah",
+      "collab": "icecube",
+      "email": "sshah84@ur.rochester.edu",
+      "first": "Shlok",
+      "from": "2025-10-09",
+      "instnames": [
+        "rochester"
+      ],
+      "keycloak_username": "sshah84",
+      "last": "Shah",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Shah",
+      "collab": "icecube-gen2",
+      "email": "sshah84@ur.rochester.edu",
+      "first": "Shlok",
+      "from": "2025-10-09",
+      "instnames": [
+        "rochester"
+      ],
+      "keycloak_username": "sshah84",
+      "last": "Shah",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Shanidze",
       "collab": "icecube",
       "email": "rezo.shanidze@icecube.wisc.edu",
@@ -61572,6 +61602,36 @@
       "keycloak_username": "tyuan",
       "last": "Yuan",
       "orcid": "0000-0002-7041-5872",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Yun-C\u00e1rcamo",
+      "collab": "icecube",
+      "email": "lor3yun@gmail.com",
+      "first": "Sohyoun",
+      "from": "2025-10-09",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "syuncar",
+      "last": "Yun-C\u00e1rcamo",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Yun-C\u00e1rcamo",
+      "collab": "icecube-gen2",
+      "email": "lor3yun@gmail.com",
+      "first": "Sohyoun",
+      "from": "2025-10-09",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "syuncar",
+      "last": "Yun-C\u00e1rcamo",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
