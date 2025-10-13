@@ -55053,7 +55053,7 @@
       "last": "Trettin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-10-12"
     },
     {
       "authname": "A. Trettin",
@@ -55061,6 +55061,36 @@
       "email": "alexander.trettin@icecube.wisc.edu",
       "first": "Alexandra",
       "from": "2025-05-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "atrettin",
+      "last": "Trettin",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-10-12"
+    },
+    {
+      "authname": "A. Trettin",
+      "collab": "icecube",
+      "email": "alexandra.trettin@icecube.wisc.edu",
+      "first": "Alexandra",
+      "from": "2025-10-13",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "atrettin",
+      "last": "Trettin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Trettin",
+      "collab": "icecube-gen2",
+      "email": "alexandra.trettin@icecube.wisc.edu",
+      "first": "Alexandra",
+      "from": "2025-10-13",
       "instnames": [
         "zeuthen"
       ],
