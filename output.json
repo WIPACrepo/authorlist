@@ -32847,6 +32847,36 @@
       "to": "2008-07-31"
     },
     {
+      "authname": "C. Li",
+      "collab": "icecube",
+      "email": "chenli2049@outlook.com",
+      "first": "Chen",
+      "from": "2025-10-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "chenli",
+      "last": "Li",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Li",
+      "collab": "icecube-gen2",
+      "email": "chenli2049@outlook.com",
+      "first": "Chen",
+      "from": "2025-10-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "chenli",
+      "last": "Li",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Li",
       "collab": "icecube",
       "email": "runze.li@icecube.wisc.edu",
