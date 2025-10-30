@@ -17215,6 +17215,21 @@
       "last": "Genton",
       "orcid": "0009-0003-5263-972X",
       "thanks": [],
+      "to": "2025-10-29"
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2025-10-30",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "0009-0003-5263-972X",
+      "thanks": [],
       "to": ""
     },
     {
@@ -31537,7 +31552,7 @@
       "last": "Lamoureux",
       "orcid": "0000-0002-8860-5826",
       "thanks": [],
-      "to": ""
+      "to": "2025-10-29"
     },
     {
       "authname": "H. Landsman",
@@ -57162,7 +57177,7 @@
       "last": "Vereecken",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-10-29"
     },
     {
       "authname": "S. Vergara Carrasco",
