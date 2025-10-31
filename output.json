@@ -13968,6 +13968,21 @@
       "to": "2006-04-10"
     },
     {
+      "authname": "C. Eldridge",
+      "collab": "icecube",
+      "email": "c.eldridge621@gmail.com",
+      "first": "Christopher",
+      "from": "2025-10-31",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "celdridg",
+      "last": "Eldridge",
+      "orcid": "0009-0005-8241-0832",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "P. Eller",
       "collab": "icecube",
       "email": "philipp.eller@icecube.wisc.edu",
@@ -57178,6 +57193,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2025-10-29"
+    },
+    {
+      "authname": "M. Vereecken",
+      "collab": "icecube",
+      "email": "matthias.vereecken@uclouvain.be",
+      "first": "Matthias",
+      "from": "2025-10-31",
+      "instnames": [
+        "gent"
+      ],
+      "keycloak_username": "mvereecken",
+      "last": "Vereecken",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "S. Vergara Carrasco",
