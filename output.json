@@ -4821,7 +4821,7 @@
       "last": "Benkel",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-11-04"
     },
     {
       "authname": "B. Benkel",
@@ -4835,6 +4835,36 @@
       "keycloak_username": "bbenkel",
       "last": "Benkel",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-11-04"
+    },
+    {
+      "authname": "S. Benkel",
+      "collab": "icecube",
+      "email": "bruno.benkel@desy.de",
+      "first": "Sol",
+      "from": "2025-11-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "bbenkel",
+      "last": "Benkel",
+      "orcid": "0000-0002-9783-484X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Benkel",
+      "collab": "icecube-gen2",
+      "email": "bruno.benkel@desy.de",
+      "first": "Sol",
+      "from": "2025-11-05",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "bbenkel",
+      "last": "Benkel",
+      "orcid": "0000-0002-9783-484X",
       "thanks": [],
       "to": ""
     },
