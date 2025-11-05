@@ -50749,7 +50749,7 @@
       "last": "Shefali",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-11-04"
     },
     {
       "authname": "S. Shefali",
@@ -50762,6 +50762,36 @@
       ],
       "keycloak_username": "shefali",
       "last": "Shefali",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-11-04"
+    },
+    {
+      "authname": "S. Shefali",
+      "collab": "icecube",
+      "email": "shefali.shefali@icecube.wisc.edu",
+      "first": "Shefali",
+      "from": "2025-11-05",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "shefali",
+      "last": "S",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Shefali",
+      "collab": "icecube-gen2",
+      "email": "shefali.shefali@icecube.wisc.edu",
+      "first": "Shefali",
+      "from": "2025-11-05",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "shefali",
+      "last": "S",
       "orcid": "",
       "thanks": [],
       "to": ""
