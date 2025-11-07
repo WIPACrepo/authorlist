@@ -12801,6 +12801,22 @@
       "last": "Ding",
       "orcid": "",
       "thanks": [],
+      "to": "2025-11-06"
+    },
+    {
+      "authname": "T. Ding",
+      "collab": "icecube",
+      "email": "dingt2@unlv.nevada.edu",
+      "first": "Tianyi",
+      "from": "2025-11-07",
+      "instnames": [
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "tding",
+      "last": "Ding",
+      "orcid": "0009-0004-4928-2763",
+      "thanks": [],
       "to": ""
     },
     {
