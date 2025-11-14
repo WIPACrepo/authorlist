@@ -61346,7 +61346,7 @@
       "last": "Yildizci",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-11-13"
     },
     {
       "authname": "E. Yildizci",
@@ -61360,6 +61360,36 @@
       "keycloak_username": "eyildizci",
       "last": "Yildizci",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-11-13"
+    },
+    {
+      "authname": "E. Yildizci",
+      "collab": "icecube",
+      "email": "emre.yildizci@icecube.wisc.edu",
+      "first": "Emre",
+      "from": "2025-11-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "eyildizci",
+      "last": "Yildizci",
+      "orcid": "0009-0009-8490-2055",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Yildizci",
+      "collab": "icecube-gen2",
+      "email": "emre.yildizci@icecube.wisc.edu",
+      "first": "Emre",
+      "from": "2025-11-14",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "eyildizci",
+      "last": "Yildizci",
+      "orcid": "0009-0009-8490-2055",
       "thanks": [],
       "to": ""
     },
