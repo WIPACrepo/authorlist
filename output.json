@@ -557,8 +557,13 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2025-11-16",
       "value": "Germany \u2013 Bundesministerium f\u00fcr Bildung und Forschung (BMBF),"
+    },
+    {
+      "from": "2025-11-17",
+      "to": "",
+      "value": "Germany \u2013 Bundesministerium f\u00fcr Forschung, Technologie und Raumfahrt (BMFTR),"
     },
     {
       "from": "2017-12-13",
