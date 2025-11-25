@@ -22906,7 +22906,7 @@
       "last": "Hill",
       "orcid": "0000-0003-0647-9174",
       "thanks": [],
-      "to": ""
+      "to": "2025-11-24"
     },
     {
       "authname": "C. Hill",
@@ -22916,6 +22916,21 @@
       "from": "2022-01-05",
       "instnames": [
         "chiba2022"
+      ],
+      "keycloak_username": "chill",
+      "last": "Hill",
+      "orcid": "0000-0003-0647-9174",
+      "thanks": [],
+      "to": "2025-11-24"
+    },
+    {
+      "authname": "C. Hill",
+      "collab": "icecube",
+      "email": "colton.hill@icecube.wisc.edu",
+      "first": "Colton",
+      "from": "2025-11-25",
+      "instnames": [
+        "munich"
       ],
       "keycloak_username": "chill",
       "last": "Hill",
