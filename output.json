@@ -30956,7 +30956,7 @@
       "last": "Kun",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-11-26"
     },
     {
       "authname": "E. Kun",
@@ -30964,6 +30964,36 @@
       "email": "ekun@icecube.wisc.edu",
       "first": "Emma",
       "from": "2025-09-22",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "ekun",
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-11-26"
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube",
+      "email": "ekun",
+      "first": "Emma",
+      "from": "2025-11-27",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "ekun",
+      "last": "Kun",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Kun",
+      "collab": "icecube-gen2",
+      "email": "ekun",
+      "first": "Emma",
+      "from": "2025-11-27",
       "instnames": [
         "bochum"
       ],
