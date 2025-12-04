@@ -10143,7 +10143,7 @@
       "last": "Coleman",
       "orcid": "0000-0003-1510-1712",
       "thanks": [],
-      "to": ""
+      "to": "2025-12-03"
     },
     {
       "authname": "A. Coleman",
@@ -10158,7 +10158,7 @@
       "last": "Coleman",
       "orcid": "0000-0003-1510-1712",
       "thanks": [],
-      "to": ""
+      "to": "2025-12-03"
     },
     {
       "authname": "P. Coleman",
@@ -17950,6 +17950,36 @@
       "orcid": "0000-0001-5998-2553",
       "thanks": [],
       "to": "2025-09-30"
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube",
+      "email": "christian.glaser@tu-dortmund.de",
+      "first": "Christian",
+      "from": "2025-12-04",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser2",
+      "last": "Glaser",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube-gen2",
+      "email": "christian.glaser@tu-dortmund.de",
+      "first": "Christian",
+      "from": "2025-12-04",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser1",
+      "last": "Glaser",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "T. Glauch",
@@ -56361,7 +56391,7 @@
       "last": "Valtonen-Mattila",
       "orcid": "0000-0002-1830-098X",
       "thanks": [],
-      "to": ""
+      "to": "2025-12-03"
     },
     {
       "authname": "N. Valtonen-Mattila",
@@ -56372,6 +56402,36 @@
       "instnames": [
         "bochum",
         "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": "2025-12-03"
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2025-12-04",
+      "instnames": [
+        "bochum"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube-gen2",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2025-12-04",
+      "instnames": [
+        "bochum"
       ],
       "keycloak_username": "nvaltonenmattila",
       "last": "Valtonen-Mattila",
