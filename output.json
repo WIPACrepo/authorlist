@@ -17964,7 +17964,7 @@
       "last": "Glaser",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-12-08"
     },
     {
       "authname": "C. Glaser",
@@ -17978,6 +17978,37 @@
       "keycloak_username": "cglaser1",
       "last": "Glaser",
       "orcid": "",
+      "thanks": [],
+      "to": "2025-12-08"
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube",
+      "email": "christian.glaser@tu-dortmund.de",
+      "first": "Christian",
+      "from": "2025-12-09",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "0000-0001-5998-2553",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube-gen2",
+      "email": "christian.glaser@tu-dortmund.de",
+      "first": "Christian",
+      "from": "2025-12-09",
+      "instnames": [
+        "dortmund",
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "0000-0001-5998-2553",
       "thanks": [],
       "to": ""
     },
