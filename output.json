@@ -17894,39 +17894,9 @@
     {
       "authname": "C. Glaser",
       "collab": "icecube",
-      "email": "christian.glaser@icecube.wisc.edu",
+      "email": "christian.glaser@tu-dortmund.de",
       "first": "Christian",
       "from": "2020-11-03",
-      "instnames": [
-        "uppsala"
-      ],
-      "keycloak_username": "cglaser",
-      "last": "Glaser",
-      "orcid": "",
-      "thanks": [],
-      "to": "2024-06-10"
-    },
-    {
-      "authname": "C. Glaser",
-      "collab": "icecube-gen2",
-      "email": "christian.glaser@icecube.wisc.edu",
-      "first": "Christian",
-      "from": "2020-11-03",
-      "instnames": [
-        "uppsala"
-      ],
-      "keycloak_username": "cglaser",
-      "last": "Glaser",
-      "orcid": "",
-      "thanks": [],
-      "to": "2024-06-10"
-    },
-    {
-      "authname": "C. Glaser",
-      "collab": "icecube",
-      "email": "christian.glaser@icecube.wisc.edu",
-      "first": "Christian",
-      "from": "2024-06-11",
       "instnames": [
         "uppsala"
       ],
@@ -17939,9 +17909,9 @@
     {
       "authname": "C. Glaser",
       "collab": "icecube-gen2",
-      "email": "christian.glaser@icecube.wisc.edu",
+      "email": "christian.glaser@tu-dortmund.de",
       "first": "Christian",
-      "from": "2024-06-11",
+      "from": "2020-11-03",
       "instnames": [
         "uppsala"
       ],
@@ -17956,13 +17926,14 @@
       "collab": "icecube",
       "email": "christian.glaser@tu-dortmund.de",
       "first": "Christian",
-      "from": "2025-12-04",
+      "from": "2025-10-01",
       "instnames": [
-        "uppsala"
+        "uppsala",
+        "dortmund"
       ],
-      "keycloak_username": "cglaser2",
+      "keycloak_username": "cglaser",
       "last": "Glaser",
-      "orcid": "",
+      "orcid": "0000-0001-5998-2553",
       "thanks": [],
       "to": ""
     },
@@ -17971,13 +17942,14 @@
       "collab": "icecube-gen2",
       "email": "christian.glaser@tu-dortmund.de",
       "first": "Christian",
-      "from": "2025-12-04",
+      "from": "2025-10-01",
       "instnames": [
-        "uppsala"
+        "uppsala",
+        "dortmund"
       ],
-      "keycloak_username": "cglaser1",
+      "keycloak_username": "cglaser",
       "last": "Glaser",
-      "orcid": "",
+      "orcid": "0000-0001-5998-2553",
       "thanks": [],
       "to": ""
     },
