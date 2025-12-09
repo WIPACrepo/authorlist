@@ -17894,9 +17894,39 @@
     {
       "authname": "C. Glaser",
       "collab": "icecube",
-      "email": "christian.glaser@tu-dortmund.de",
+      "email": "christian.glaser@icecube.wisc.edu",
       "first": "Christian",
       "from": "2020-11-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-06-10"
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube-gen2",
+      "email": "christian.glaser@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2020-11-03",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "cglaser",
+      "last": "Glaser",
+      "orcid": "",
+      "thanks": [],
+      "to": "2024-06-10"
+    },
+    {
+      "authname": "C. Glaser",
+      "collab": "icecube",
+      "email": "christian.glaser@icecube.wisc.edu",
+      "first": "Christian",
+      "from": "2024-06-11",
       "instnames": [
         "uppsala"
       ],
@@ -17909,9 +17939,9 @@
     {
       "authname": "C. Glaser",
       "collab": "icecube-gen2",
-      "email": "christian.glaser@tu-dortmund.de",
+      "email": "christian.glaser@icecube.wisc.edu",
       "first": "Christian",
-      "from": "2020-11-03",
+      "from": "2024-06-11",
       "instnames": [
         "uppsala"
       ],
