@@ -43070,7 +43070,7 @@
       "last": "Popovych",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2025-12-18"
     },
     {
       "authname": "Y. Popovych",
@@ -43078,6 +43078,36 @@
       "email": "popovych@astro.rub.de",
       "first": "Yuriy",
       "from": "2025-07-17",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "ypopovych",
+      "last": "Popovych",
+      "orcid": "",
+      "thanks": [],
+      "to": "2025-12-18"
+    },
+    {
+      "authname": "Y. Popovych",
+      "collab": "icecube",
+      "email": "popovych@astro.ruhr-uni-bochum.de",
+      "first": "Yuriy",
+      "from": "2025-12-19",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "ypopovych",
+      "last": "Popovych",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. Popovych",
+      "collab": "icecube-gen2",
+      "email": "popovych@astro.ruhr-uni-bochum.de",
+      "first": "Yuriy",
+      "from": "2025-12-19",
       "instnames": [
         "mainz"
       ],
