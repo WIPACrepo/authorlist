@@ -41065,6 +41065,21 @@
       "to": ""
     },
     {
+      "authname": "S. Ota",
+      "collab": "icecube-gen2",
+      "email": "se24268k@st.omu.ac.jp",
+      "first": "Shinichiro",
+      "from": "2025-12-29",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "sota0",
+      "last": "Ota",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Palazzo",
       "collab": "pingu",
       "email": "palazzo@mpp.mpg.de",
@@ -62077,6 +62092,21 @@
       "keycloak_username": "tyuan",
       "last": "Yuan",
       "orcid": "0000-0002-7041-5872",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "K. Yuasa",
+      "collab": "icecube-gen2",
+      "email": "sl22242y@st.omu.ac.jp",
+      "first": "Keita",
+      "from": "2025-12-29",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "kyuasa",
+      "last": "Yuasa",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
