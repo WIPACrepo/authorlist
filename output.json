@@ -6198,6 +6198,21 @@
       "last": "Bodo",
       "orcid": "",
       "thanks": [],
+      "to": "2026-01-04"
+    },
+    {
+      "authname": "I. Bodo",
+      "collab": "icecube",
+      "email": "ibodo@icecube.wisc.edu",
+      "first": "Ilya",
+      "from": "2026-01-05",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "ibodo",
+      "last": "Bodo",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
