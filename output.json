@@ -46014,6 +46014,36 @@
       "to": "2025-05-21"
     },
     {
+      "authname": "S. Rodan",
+      "collab": "icecube",
+      "email": "steven.rodan@icecube.wisc.edu",
+      "first": "Steven",
+      "from": "2026-01-05",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Rodan",
+      "collab": "icecube-gen2",
+      "email": "steven.rodan@icecube.wisc.edu",
+      "first": "Steven",
+      "from": "2026-01-05",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. P. Rodrigues",
       "collab": "icecube",
       "email": "jrodrigues@icecube.wisc.edu",
