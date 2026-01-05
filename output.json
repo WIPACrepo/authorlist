@@ -22770,7 +22770,7 @@
       "last": "Hidvegi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-01-04"
     },
     {
       "authname": "A. Hidvegi",
@@ -22778,6 +22778,36 @@
       "email": "attila.hidvegi@icecube.wisc.edu",
       "first": "Attila",
       "from": "2022-05-20",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "ahidvegi",
+      "last": "Hidvegi",
+      "orcid": "",
+      "thanks": [],
+      "to": "2026-01-04"
+    },
+    {
+      "authname": "A. Hidvegi",
+      "collab": "icecube",
+      "email": "attila@fysik.su.se",
+      "first": "Attila",
+      "from": "2026-01-05",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "ahidvegi",
+      "last": "Hidvegi",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Hidvegi",
+      "collab": "icecube-gen2",
+      "email": "attila@fysik.su.se",
+      "first": "Attila",
+      "from": "2026-01-05",
       "instnames": [
         "stockholmokc"
       ],
