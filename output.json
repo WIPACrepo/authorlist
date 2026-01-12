@@ -22431,7 +22431,7 @@
       "last": "Henningsen",
       "orcid": "0000-0002-0680-6588",
       "thanks": [],
-      "to": ""
+      "to": "2026-01-11"
     },
     {
       "authname": "F. Henningsen",
@@ -22440,6 +22440,38 @@
       "first": "Felix",
       "from": "2025-07-02",
       "instnames": [
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "fhenningsen",
+      "last": "Henningsen",
+      "orcid": "0000-0002-0680-6588",
+      "thanks": [],
+      "to": "2026-01-11"
+    },
+    {
+      "authname": "F. Henningsen",
+      "collab": "icecube",
+      "email": "felix.henningsen@icecube.wisc.edu",
+      "first": "Felix",
+      "from": "2026-01-12",
+      "instnames": [
+        "erlangen",
+        "simon-fraser-2024-2"
+      ],
+      "keycloak_username": "fhenningsen",
+      "last": "Henningsen",
+      "orcid": "0000-0002-0680-6588",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Henningsen",
+      "collab": "icecube-gen2",
+      "email": "felix.henningsen@icecube.wisc.edu",
+      "first": "Felix",
+      "from": "2026-01-12",
+      "instnames": [
+        "erlangen",
         "simon-fraser-2024-2"
       ],
       "keycloak_username": "fhenningsen",
