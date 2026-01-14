@@ -62670,6 +62670,21 @@
       "last": "Zierke",
       "orcid": "",
       "thanks": [],
+      "to": "2026-01-13"
+    },
+    {
+      "authname": "S. Zierke",
+      "collab": "icecube-gen2",
+      "email": "zierke@physik.rwth-aachen.de",
+      "first": "Simon",
+      "from": "2026-01-14",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "zierke",
+      "last": "Zierke",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
