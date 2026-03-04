@@ -1175,7 +1175,7 @@
     },
     {
       "authname": "S. K. Agarwalla",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "sagarwalla2@wisc.edu",
       "first": "Sanjib",
       "from": "2023-02-10",
@@ -1188,11 +1188,11 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2026-03-03"
     },
     {
       "authname": "S. K. Agarwalla",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "sagarwalla2@wisc.edu",
       "first": "Sanjib",
       "from": "2023-02-10",
@@ -35519,6 +35519,21 @@
       "email": "aemand@wisc.edu",
       "first": "Alicia",
       "from": "2024-09-09",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "aemand",
+      "last": "Mand",
+      "orcid": "0009-0005-9697-1702",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Mand",
+      "collab": "icecube-gen2",
+      "email": "aemand@wisc.edu",
+      "first": "Alicia",
+      "from": "2026-03-04",
       "instnames": [
         "madisonpac"
       ],
