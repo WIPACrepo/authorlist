@@ -522,8 +522,13 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2026-02-18",
       "value": "Institute for Cyber-Enabled Research at Michigan State University,"
+    },
+    {
+      "from": "2026-02-19",
+      "to": "",
+      "value": "Michigan State University,"
     },
     {
       "from": "2017-12-13",
@@ -657,13 +662,18 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2026-02-18",
       "value": "Japan \u2013 Japan Society for Promotion of Science (JSPS)"
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2026-02-18",
       "value": "and Institute for Global Prominent Research (IGPR) of Chiba University;"
+    },
+    {
+      "from": "2026-02-19",
+      "to": "",
+      "value": "Japan \u2013 Japan Society for Promotion of Science (JSPS), Ministry of Education, Culture, Sports, Science and Technology (MEXT), and Institute for Global Prominent Research (IGPR) of Chiba University;"
     },
     {
       "from": "2017-12-13",
