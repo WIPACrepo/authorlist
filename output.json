@@ -28596,6 +28596,36 @@
       "to": "2018-05-04"
     },
     {
+      "authname": "T. Kim",
+      "collab": "icecube",
+      "email": "monocerotis@g.skku.edu",
+      "first": "Taeyun",
+      "from": "2026-03-05",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "taeyunkim",
+      "last": "Kim",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kim",
+      "collab": "icecube-gen2",
+      "email": "monocerotis@g.skku.edu",
+      "first": "Taeyun",
+      "from": "2026-03-05",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "taeyunkim",
+      "last": "Kim",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "H. Kimku",
       "collab": "icecube",
       "email": "kimkuhani9@gmail.com",
