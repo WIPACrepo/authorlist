@@ -13071,7 +13071,7 @@
       "last": "Draper",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-03-09"
     },
     {
       "authname": "L. Draper",
@@ -13085,6 +13085,36 @@
       "keycloak_username": "draper",
       "last": "Draper",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-03-09"
+    },
+    {
+      "authname": "L. Draper",
+      "collab": "icecube",
+      "email": "lincoln.draper@utah.edu",
+      "first": "Lincoln",
+      "from": "2026-03-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "draper",
+      "last": "Draper",
+      "orcid": "0000-0002-0440-4040",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Draper",
+      "collab": "icecube-gen2",
+      "email": "lincoln.draper@utah.edu",
+      "first": "Lincoln",
+      "from": "2026-03-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "draper",
+      "last": "Draper",
+      "orcid": "0000-0002-0440-4040",
       "thanks": [],
       "to": ""
     },
@@ -40275,6 +40305,21 @@
       "to": "2025-01-29"
     },
     {
+      "authname": "W. Nuntiyakul",
+      "collab": "icecube-gen2",
+      "email": "waraporn.n@cmu.ac.th",
+      "first": "Waraporn",
+      "from": "2026-03-10",
+      "instnames": [
+        "chiang-mai-icecube-gen2-2026"
+      ],
+      "keycloak_username": "wnuntiyakul",
+      "last": "Nuntiyakul",
+      "orcid": "0000-0002-1664-5845",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "D. R. Nygren",
       "collab": "icecube",
       "email": "dnygren@icecube.wisc.edu",
@@ -63617,6 +63662,17 @@
         "/institutions/IceCube-Gen2/Brussels-VUB/authorlist"
       ],
       "name": "BrusselsVrije"
+    },
+    "chiang-mai-icecube-gen2-2026": {
+      "cite": "Dept. of Physics and Materials Science, Faculty of Science, Chiang Mai University, Chiang Mai 50200, Thailand",
+      "city": "Chiang Mai",
+      "collabs": [
+        "icecube-gen2"
+      ],
+      "keycloak_groups": [
+        "/institutions/IceCube-Gen2/Chiang-Mai/authorlist"
+      ],
+      "name": "Chiang-Mai"
     },
     "chiba": {
       "cite": "Dept. of Physics and Institute for Global Prominent Research, Chiba University, Chiba 263-8522, Japan",
