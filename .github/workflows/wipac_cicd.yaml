@@ -71,7 +71,8 @@ jobs:
             }
           ' --jq '.data.repository.issues.totalCount')"
           if [ $numOpenIssues = "0" ]; then
-            gh issue create --title "Actions failure" --assignee dsschult --label actions-failure --body $"@kuntting \nKeycloak sync action has failed. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" --repo $GITHUB_REPOSITORY
+            echo -e ""@knutting \nKeycloak sync action has failed. ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"" | \
+            gh issue create --title "Actions failure" --assignee dsschult --label actions-failure --body-file - --repo $GITHUB_REPOSITORY
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
