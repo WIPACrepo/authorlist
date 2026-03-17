@@ -29110,6 +29110,36 @@
       "last": "Klein",
       "orcid": "",
       "thanks": [],
+      "to": "2026-03-16"
+    },
+    {
+      "authname": "C. Klein",
+      "collab": "icecube",
+      "email": "carolin.klein@desy.de",
+      "first": "Carolin",
+      "from": "2026-03-17",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "cklein",
+      "last": "Klein",
+      "orcid": "0009-0006-9495-077X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Klein",
+      "collab": "icecube-gen2",
+      "email": "carolin.klein@desy.de",
+      "first": "Carolin",
+      "from": "2026-03-17",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "cklein",
+      "last": "Klein",
+      "orcid": "0009-0006-9495-077X",
+      "thanks": [],
       "to": ""
     },
     {
@@ -42892,6 +42922,36 @@
       "orcid": "0000-0002-0276-0092",
       "thanks": [],
       "to": "2024-06-10"
+    },
+    {
+      "authname": "S. Pick",
+      "collab": "icecube",
+      "email": "simon.pick@desy.de",
+      "first": "Simon",
+      "from": "2026-03-17",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "simonpick",
+      "last": "Pick",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Pick",
+      "collab": "icecube-gen2",
+      "email": "simon.pick@desy.de",
+      "first": "Simon",
+      "from": "2026-03-17",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "simonpick",
+      "last": "Pick",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "A. Piegsa",
