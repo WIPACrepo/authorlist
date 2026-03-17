@@ -22833,6 +22833,21 @@
       "to": ""
     },
     {
+      "authname": "R. Hewett",
+      "collab": "icecube-gen2",
+      "email": "rhe77@uclive.ac.nz",
+      "first": "Rhia",
+      "from": "2026-03-17",
+      "instnames": [
+        "christchurch"
+      ],
+      "keycloak_username": "rhewitt",
+      "last": "Hewett",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "N. Heyer",
       "collab": "icecube",
       "email": "nils.heyer@physics.uu.se",
