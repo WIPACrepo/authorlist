@@ -23671,6 +23671,36 @@
       "to": "2021-11-30"
     },
     {
+      "authname": "A. Hollnagel",
+      "collab": "icecube",
+      "email": "ahollnag@chiba-u.jp",
+      "first": "Annika",
+      "from": "2026-03-19",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "ahollnag",
+      "last": "Hollnagel",
+      "orcid": "0000-0003-0040-8420",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Hollnagel",
+      "collab": "icecube-gen2",
+      "email": "ahollnag@chiba-u.jp",
+      "first": "Annika",
+      "from": "2026-03-19",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "ahollnag",
+      "last": "Hollnagel",
+      "orcid": "0000-0003-0040-8420",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "K. Holzapfel",
       "collab": "icecube",
       "email": "killian.holzapfel@icecube.wisc.edu",
