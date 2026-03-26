@@ -46638,7 +46638,7 @@
       "last": "Rodan",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-03-25"
     },
     {
       "authname": "S. Rodan",
@@ -46646,6 +46646,36 @@
       "email": "steven.rodan@icecube.wisc.edu",
       "first": "Steven",
       "from": "2026-01-05",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": "2026-03-25"
+    },
+    {
+      "authname": "S. Rodan",
+      "collab": "icecube",
+      "email": "steven.rodan84@gmail.com",
+      "first": "Steven",
+      "from": "2026-03-26",
+      "instnames": [
+        "riverfalls"
+      ],
+      "keycloak_username": "srodan",
+      "last": "Rodan",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Rodan",
+      "collab": "icecube-gen2",
+      "email": "steven.rodan84@gmail.com",
+      "first": "Steven",
+      "from": "2026-03-26",
       "instnames": [
         "riverfalls"
       ],
