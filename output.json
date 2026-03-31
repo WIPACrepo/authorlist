@@ -38937,6 +38937,21 @@
     },
     {
       "authname": "M. Moulai",
+      "collab": "icecube",
+      "email": "marjon.moulai@icecube.wisc.edu",
+      "first": "Marjon",
+      "from": "2022-05-27",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mmoulai",
+      "last": "Moulai",
+      "orcid": "0000-0001-7909-5812",
+      "thanks": [],
+      "to": "2026-03-30"
+    },
+    {
+      "authname": "M. Moulai",
       "collab": "icecube-gen2",
       "email": "marjon.moulai@icecube.wisc.edu",
       "first": "Marjon",
@@ -38949,21 +38964,6 @@
       "orcid": "0000-0001-7909-5812",
       "thanks": [],
       "to": "2026-03-30"
-    },
-    {
-      "authname": "M. Moulai",
-      "collab": "icecube",
-      "email": "marjon.moulai@icecube.wisc.edu",
-      "first": "Marjon",
-      "from": "2022-05-27",
-      "instnames": [
-        "madisonpac"
-      ],
-      "keycloak_username": "mmoulai",
-      "last": "Moulai",
-      "orcid": "0000-0001-7909-5812",
-      "thanks": [],
-      "to": ""
     },
     {
       "authname": "D. Mousadi",
@@ -43887,7 +43887,7 @@
     },
     {
       "authname": "M. Prado Rodriguez",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "maria.pradorodriguez@icecube.wisc.edu",
       "first": "Maria",
       "from": "2020-05-14",
@@ -43902,7 +43902,7 @@
     },
     {
       "authname": "M. Prado Rodriguez",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "maria.pradorodriguez@icecube.wisc.edu",
       "first": "Maria",
       "from": "2020-05-14",
@@ -43913,7 +43913,7 @@
       "last": "Prado Rodriguez",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-03-30"
     },
     {
       "authname": "J. Pretz",
@@ -55417,6 +55417,22 @@
     },
     {
       "authname": "J. Thwaites",
+      "collab": "icecube",
+      "email": "jessie.thwaites@icecube.wisc.edu",
+      "first": "Jessie",
+      "from": "2026-02-16",
+      "instnames": [
+        "madisonpac",
+        "queens"
+      ],
+      "keycloak_username": "jthwaites",
+      "last": "Thwaites",
+      "orcid": "0000-0001-9179-3760",
+      "thanks": [],
+      "to": "2026-03-30"
+    },
+    {
+      "authname": "J. Thwaites",
       "collab": "icecube-gen2",
       "email": "jessie.thwaites@icecube.wisc.edu",
       "first": "Jessie",
@@ -55436,9 +55452,8 @@
       "collab": "icecube",
       "email": "jessie.thwaites@icecube.wisc.edu",
       "first": "Jessie",
-      "from": "2026-02-16",
+      "from": "2026-03-31",
       "instnames": [
-        "madisonpac",
         "queens"
       ],
       "keycloak_username": "jthwaites",
