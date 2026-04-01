@@ -3397,6 +3397,21 @@
       "last": "Balagopal V",
       "orcid": "0000-0001-5367-8876",
       "thanks": [],
+      "to": "2026-03-31"
+    },
+    {
+      "authname": "A. Balagopal V.",
+      "collab": "icecube",
+      "email": "aswathi.balagopalv@icecube.wisc.edu",
+      "first": "Aswathi",
+      "from": "2026-04-01",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "abalagopalv",
+      "last": "Balagopal V",
+      "orcid": "0000-0001-5367-8876",
+      "thanks": [],
       "to": ""
     },
     {
@@ -6253,7 +6268,7 @@
       "last": "Bodo",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-03-31"
     },
     {
       "authname": "D. J. Boersma",
@@ -17247,7 +17262,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2026-03-31"
     },
     {
       "authname": "G. Garg",
@@ -17264,7 +17279,7 @@
       "thanks": [
         "india"
       ],
-      "to": ""
+      "to": "2026-03-31"
     },
     {
       "authname": "S. Garrappa",
