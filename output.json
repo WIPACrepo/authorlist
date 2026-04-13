@@ -17456,7 +17456,7 @@
       "last": "Genton",
       "orcid": "0009-0003-5263-972X",
       "thanks": [],
-      "to": ""
+      "to": "2026-04-12"
     },
     {
       "authname": "E. Genton",
@@ -17465,6 +17465,38 @@
       "first": "Eliot",
       "from": "2024-12-19",
       "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "0009-0003-5263-972X",
+      "thanks": [],
+      "to": "2026-04-12"
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2026-04-13",
+      "instnames": [
+        "brusselslibre",
+        "harvard"
+      ],
+      "keycloak_username": "egenton",
+      "last": "Genton",
+      "orcid": "0009-0003-5263-972X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "E. Genton",
+      "collab": "icecube-gen2",
+      "email": "eliot.genton@gmail.com",
+      "first": "Eliot",
+      "from": "2026-04-13",
+      "instnames": [
+        "brusselslibre",
         "harvard"
       ],
       "keycloak_username": "egenton",
@@ -52758,6 +52790,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2008-07-31"
+    },
+    {
+      "authname": "D. Song",
+      "collab": "icecube",
+      "email": "deheng.song@ulb.be",
+      "first": "Deheng",
+      "from": "2026-04-13",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "dsong",
+      "last": "Song",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Song",
+      "collab": "icecube-gen2",
+      "email": "deheng.song@ulb.be",
+      "first": "Deheng",
+      "from": "2026-04-13",
+      "instnames": [
+        "brusselslibre"
+      ],
+      "keycloak_username": "dsong",
+      "last": "Song",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "M. Song",
