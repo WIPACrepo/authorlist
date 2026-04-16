@@ -10,16 +10,16 @@
     <section class="update">
         <h3>Retrieve archived author lists:</h3>
         <form method="post">
-            <div>Query Date: <input type="text" name="date" value="{{ date }}" /></div>
-            <div>Format:
-                <select name="formatting">
+            <div><label for="date">Query Date: </label><input type="text" id="date" name="date" value="{{ date }}" /></div>
+            <div><label for="formatting">Format:</label>
+                <select id="formatting" name="formatting">
                 {% for f in formatting_options %}
                     <option value="{{ f }}"{{ ' selected' if formatting == f else '' }}>{{ formatting_options[f] }}</option>
                 {% end %}
                 </select>
             </div>
-            {% comment <div>Legacy Authors: <input type="checkbox" name="legacy" value="yes" { if legacy }checked { end } /></div>%}
-            <input type="submit" />
+            {% comment <div><label for="legacy">Legacy Authors: </label><input type="checkbox" id="legacy" name="legacy" value="yes" { if legacy }checked { end } /></div>%}
+            <input type="submit" value="Submit" />
         </form>
     </section>
     <section>

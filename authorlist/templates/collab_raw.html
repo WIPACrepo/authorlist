@@ -8,10 +8,10 @@
     <section class="update">
         <h3>Retrieve archived author lists:</h3>
         <form method="post">
-            <div>Query Date: <input type="text" name="date" value="{{ date }}" /></div>
-            {% comment <div>Legacy Authors: <input type="checkbox" name="legacy" value="yes" { if legacy }checked { end } /></div>%}
+            <div><label for="date">Query Date: </label><input type="text" id="date" name="date" value="{{ date }}" /></div>
+            {% comment <div><label for="legacy">Legacy Authors: </label><input type="checkbox" id="legacy" name="legacy" value="yes" { if legacy }checked { end } /></div>%}
             <input type="hidden" name="formatting" value="web" />
-            <input type="submit" />
+            <input type="submit" value="Submit" />
         </form>
     </section>
     <section>
