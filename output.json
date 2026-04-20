@@ -27783,7 +27783,7 @@
       "last": "Katil",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-04-19"
     },
     {
       "authname": "A. Katil",
@@ -27791,6 +27791,36 @@
       "email": "akanksha.katil@icecube.wisc.edu",
       "first": "Akanksha",
       "from": "2025-03-26",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "akatil",
+      "last": "Katil",
+      "orcid": "",
+      "thanks": [],
+      "to": "2026-04-19"
+    },
+    {
+      "authname": "A. Katil",
+      "collab": "icecube",
+      "email": "katil@ualberta.ca",
+      "first": "Akanksha",
+      "from": "2026-04-20",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "akatil",
+      "last": "Katil",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Katil",
+      "collab": "icecube-gen2",
+      "email": "katil@ualberta.ca",
+      "first": "Akanksha",
+      "from": "2026-04-20",
       "instnames": [
         "edmonton"
       ],
