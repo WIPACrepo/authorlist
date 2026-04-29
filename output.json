@@ -7685,7 +7685,7 @@
       "last": "Brisson-Tsavoussis",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-04-28"
     },
     {
       "authname": "Z. Brisson-Tsavoussis",
@@ -7699,6 +7699,36 @@
       "keycloak_username": "zbrisson",
       "last": "Brisson-Tsavoussis",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-04-28"
+    },
+    {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube",
+      "email": "zoe.brissontsavoussis@queensu.ca",
+      "first": "Zoe",
+      "from": "2026-04-29",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "0009-0006-5748-5346",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Z. Brisson-Tsavoussis",
+      "collab": "icecube-gen2",
+      "email": "zoe.brissontsavoussis@queensu.ca",
+      "first": "Zoe",
+      "from": "2026-04-29",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "zbrisson",
+      "last": "Brisson-Tsavoussis",
+      "orcid": "0009-0006-5748-5346",
       "thanks": [],
       "to": ""
     },
