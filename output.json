@@ -9154,6 +9154,36 @@
       "to": "2006-10-15"
     },
     {
+      "authname": "Y. C. Chen",
+      "collab": "icecube",
+      "email": "yucachen@udel.edu",
+      "first": "Yuca",
+      "from": "2026-05-01",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "yucachen",
+      "last": "Chen",
+      "orcid": "0009-0004-1259-5889",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "Y. C. Chen",
+      "collab": "icecube-gen2",
+      "email": "yucachen@udel.edu",
+      "first": "Yuca",
+      "from": "2026-05-01",
+      "instnames": [
+        "bartol"
+      ],
+      "keycloak_username": "yucachen",
+      "last": "Chen",
+      "orcid": "0009-0004-1259-5889",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "Y. Chen",
       "collab": "icecube",
       "email": "yucachen@udel.edu",
@@ -9166,7 +9196,7 @@
       "last": "Chen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-04-30"
     },
     {
       "authname": "Y. Chen",
@@ -9181,7 +9211,7 @@
       "last": "Chen",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-04-30"
     },
     {
       "authname": "Z. Chen",
