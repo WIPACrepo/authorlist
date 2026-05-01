@@ -58732,6 +58732,21 @@
       "last": "Veske",
       "orcid": "",
       "thanks": [],
+      "to": "2026-04-30"
+    },
+    {
+      "authname": "D. Veske",
+      "collab": "icecube",
+      "email": "doga.veske@icecube.wisc.edu",
+      "first": "Doga",
+      "from": "2026-05-01",
+      "instnames": [
+        "columbia"
+      ],
+      "keycloak_username": "dveske",
+      "last": "Veske",
+      "orcid": "0000-0003-4225-0895",
+      "thanks": [],
       "to": ""
     },
     {
