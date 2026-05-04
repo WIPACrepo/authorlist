@@ -20829,7 +20829,7 @@
       "last": "Hallmann",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-03"
     },
     {
       "authname": "S. Hallmann",
@@ -39844,7 +39844,7 @@
       "last": "Necker",
       "orcid": "0000-0003-0280-7484",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-03"
     },
     {
       "authname": "J. Necker",
@@ -39859,7 +39859,7 @@
       "last": "Necker",
       "orcid": "0000-0003-0280-7484",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-03"
     },
     {
       "authname": "G. Neer",
@@ -45885,7 +45885,7 @@
       "last": "Reusch",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-03"
     },
     {
       "authname": "S. Reusch",
@@ -45900,7 +45900,7 @@
       "last": "Reusch",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-03"
     },
     {
       "authname": "C. D. Rho",
@@ -63672,6 +63672,36 @@
       ],
       "keycloak_username": "pzilberman",
       "last": "Zilberman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Zilleruelo Ca\u00f1as",
+      "collab": "icecube",
+      "email": "cristobal.zilleruelo.canas@desy.de",
+      "first": "Crist\u00f3bal",
+      "from": "2026-05-04",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "czilleruelo",
+      "last": "Zilleruelo Ca\u00f1as",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Zilleruelo Ca\u00f1as",
+      "collab": "icecube-gen2",
+      "email": "cristobal.zilleruelo.canas@desy.de",
+      "first": "Crist\u00f3bal",
+      "from": "2026-05-04",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "czilleruelo",
+      "last": "Zilleruelo Ca\u00f1as",
       "orcid": "",
       "thanks": [],
       "to": ""
