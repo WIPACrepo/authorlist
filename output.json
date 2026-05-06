@@ -15119,6 +15119,21 @@
       "to": ""
     },
     {
+      "authname": "E. Ewart",
+      "collab": "icecube-gen2",
+      "email": "eeewart.work@gmail.com",
+      "first": "Erin",
+      "from": "2026-05-06",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "eewart",
+      "last": "Ewart",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "O. Fadiran",
       "collab": "icecube",
       "email": "ofadiran@icecube.wisc.edu",
