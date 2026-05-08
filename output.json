@@ -22805,6 +22805,21 @@
       "last": "Henrichs",
       "orcid": "",
       "thanks": [],
+      "to": "2026-05-07"
+    },
+    {
+      "authname": "J. Henrichs",
+      "collab": "icecube-gen2",
+      "email": "jakob.henrichs@tum.de",
+      "first": "Jakob",
+      "from": "2026-05-08",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "jhenrichs",
+      "last": "Henrichs",
+      "orcid": "",
+      "thanks": [],
       "to": ""
     },
     {
