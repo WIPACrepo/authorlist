@@ -8033,6 +8033,36 @@
       "to": "2025-04-23"
     },
     {
+      "authname": "L. Brusa",
+      "collab": "icecube",
+      "email": "lukas.brusa@rwth-aachen.de",
+      "first": "Lukas",
+      "from": "2026-05-11",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "lbrusa",
+      "last": "Brusa",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "L. Brusa",
+      "collab": "icecube-gen2",
+      "email": "lukas.brusa@rwth-aachen.de",
+      "first": "Lukas",
+      "from": "2026-05-11",
+      "instnames": [
+        "erlangen"
+      ],
+      "keycloak_username": "lbrusa",
+      "last": "Brusa",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Buitink",
       "collab": "icecube",
       "email": "sbuitink@icecube.wisc.edu",
