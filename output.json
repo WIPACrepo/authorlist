@@ -48169,7 +48169,7 @@
       "last": "Salazar-Gallegos",
       "orcid": "0000-0002-9312-9684",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-10"
     },
     {
       "authname": "D. Salazar-Gallegos",
@@ -48177,6 +48177,36 @@
       "email": "daniel.salazar-gallegos@icecube.wisc.edu",
       "first": "Daniel",
       "from": "2022-04-05",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dsalazar-gallegos",
+      "last": "Salazar-Gallegos",
+      "orcid": "0000-0002-9312-9684",
+      "thanks": [],
+      "to": "2026-05-10"
+    },
+    {
+      "authname": "D. Salazar-Gallegos",
+      "collab": "icecube",
+      "email": "salaza82@msu.edu",
+      "first": "Daniel",
+      "from": "2026-05-11",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "dsalazar-gallegos",
+      "last": "Salazar-Gallegos",
+      "orcid": "0000-0002-9312-9684",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "D. Salazar-Gallegos",
+      "collab": "icecube-gen2",
+      "email": "salaza82@msu.edu",
+      "first": "Daniel",
+      "from": "2026-05-11",
       "instnames": [
         "michigan"
       ],
