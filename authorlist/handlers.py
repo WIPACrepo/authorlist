@@ -381,7 +381,7 @@ Text body goes here.
         intro_text = """This style e.g. for Astroparticle Journal.
 You will need aastex63.cls and aasjournal.bst as well as possibly
 some other files from the
-<a href="https://2modf33kux3n19iucb17y5dj-wpengine.netdna-ssl.com/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
+<a href="https://journals.aas.org/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
 """
 
         return {
