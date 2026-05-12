@@ -280,7 +280,7 @@ You will need svjour3.cls and svepjc3.clo from
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
-\\title{"""+self.collab+""" Author List for Rev{\TeX} """
+\\title{"""+self.collab+""" Author List for Rev{\\TeX} """
         text += self.date.replace('-','') + '}\n\n'
         for name in self.sorted_insts:
             text += '\\affiliation{'
@@ -333,7 +333,7 @@ some *.rtx files from the
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
-\\title{"""+self.collab+""" Author List for AAS{\TeX} """
+\\title{"""+self.collab+""" Author List for AAS{\\TeX} """
         text += self.date.replace('-','') + '}\n\n'
         for name in self.sorted_insts:
             text += '\\affiliation{'
@@ -396,7 +396,7 @@ some other files from the
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
-\\title{"""+self.collab+""" Author List for AAS{\TeX} """
+\\title{"""+self.collab+""" Author List for AAS{\\TeX} """
         text += self.date.replace('-','') + '}\n\n'
         for name in self.sorted_insts:
             text += '\\affiliation{'
@@ -510,7 +510,7 @@ Text body goes here.
 \\usepackage{txfonts}
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
-\\title{"""+self.collab+""" Author List for A \& A """
+\\title{"""+self.collab+""" Author List for A \\& A """
         text += self.date.replace('-','')
         text += """}
 \\author{
@@ -802,7 +802,7 @@ Supplementary Materials for:\\\\
                 source.extend(str(1+len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
             text += utf8tolatex(author['authname'])
             if source:
-                text += '$^{' + ',\: '.join(source) + '}$'
+                text += '$^{' + ',\\: '.join(source) + '}$'
             if i+1 < len(self.authors):
                 text += ','
             text += '\n'
