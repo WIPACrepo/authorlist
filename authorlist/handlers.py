@@ -414,9 +414,8 @@ some other files from the
             text += '}\n'
             if 'email' in author and author['email']:
                 text += '\\email{'
-                text += utf8tolatex(author['email'])
+                text += utf8tolatex(author['email'] if author.get('email') else 'analysis@icecube.wisc.edu')
                 text += '}\n'
-            else: text += '\\email{analysis@icecube.wisc.edu}\n'
             if 'thanks' in author:
                 for name in sorted(author['thanks'], key=self.sorted_thanks.index):
                     text += '\\altaffiliation{'
