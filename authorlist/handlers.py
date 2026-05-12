@@ -54,7 +54,8 @@ class AuthorListRenderer:
         'arxiv': 'arXiv',
         'epjc': 'European Physical Journal C. (EPJC)',
         'revtex4': 'Physical Review Letters (RevTex4)',
-        'aastex': 'Astrophysical Journal (AASTeX)',
+        'aastex': 'Astrophysical Journal (AASTeX v6.3)',
+        'aastex7': 'Astrophysical Journal (AASTeX v7.0.1)',
         'aascsv': 'Astrophysical Journal (csv)',
         'aa': 'Journal Astronomy & Astrophysics (A & A)',
         'elsevier': 'Astroparticle Physics (Elsevier)',
@@ -325,8 +326,73 @@ some *.rtx files from the
             'format_text': text,
             'intro_text': intro_text,
         }
+    
 
     def _aastex(self):
+        ### New ApJ 6.3 formatting
+        text = """\\documentclass[twocolumn]{aastex63}
+\\usepackage[T5,T1]{fontenc}
+\\begin{document}
+
+\\title{"""+self.collab+""" Author List for AAS{\TeX} """
+        text += self.date.replace('-','') + '}\n\n'
+        for name in self.sorted_insts:
+            text += '\\affiliation{'
+            text += utf8tolatex(self.insts[name]['cite'])
+            text += '}\n'
+        text += '\n'
+        for author in self.authors:
+            text += '\\author'
+            if 'orcid' in author and author['orcid']:
+                text += f'[{author["orcid"]}]'
+            text += '{'
+            text += utf8tolatex(author['authname'])
+            text += '}\n'
+            if 'thanks' in author:
+                for name in sorted(author['thanks'], key=self.sorted_thanks.index):
+                    text += '\\altaffiliation{'
+                    text += utf8tolatex(self.thanks[name])
+                    text += '}\n'
+            if 'instnames' in author:
+                for name in sorted(author['instnames'], key=self.sorted_insts.index):
+                    text += '\\affiliation{'
+                    text += utf8tolatex(self.insts[name]['cite'])
+                    text += '}\n'
+            text += '\n'
+        text += """\\date{\\today}
+
+\\collaboration{"""+str(len(self.authors))+"}{"+self.collab+""" Collaboration}
+
+\\begin{abstract}
+
+Abstract goes here.
+
+\\end{abstract}
+
+\\section{Introduction}
+
+Text body goes here.
+
+\\section*{Acknowledgements}
+"""
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
+        text += """
+
+\\end{document}"""
+
+        intro_text = """This style e.g. for Astroparticle Journal.
+You will need aastex63.cls and aasjournal.bst as well as possibly
+some other files from the
+<a href="https://journals.aas.org/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
+"""
+
+        return {
+            'format_text': text,
+            'intro_text': intro_text,
+        }
+
+
+    def _aastex7(self):
         ### AASTeX 7 formatting
         text = """\\documentclass[twocolumn]{aastex701}
 \\usepackage[T5,T1]{fontenc}
@@ -350,6 +416,7 @@ some *.rtx files from the
                 text += '\\email{'
                 text += utf8tolatex(author['email'])
                 text += '}\n'
+            else: text += '\\email{analysis@icecube.wisc.edu}\n'
             if 'thanks' in author:
                 for name in sorted(author['thanks'], key=self.sorted_thanks.index):
                     text += '\\altaffiliation{'
