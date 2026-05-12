@@ -327,8 +327,8 @@ some *.rtx files from the
         }
 
     def _aastex(self):
-        ### New ApJ 6.3 formatting
-        text = """\\documentclass[twocolumn]{aastex63}
+        ### AASTeX 7 formatting
+        text = """\\documentclass[twocolumn]{aastex701}
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
@@ -346,6 +346,10 @@ some *.rtx files from the
             text += '{'
             text += utf8tolatex(author['authname'])
             text += '}\n'
+            if 'email' in author and author['email']:
+                text += '\\email{'
+                text += utf8tolatex(author['email'])
+                text += '}\n'
             if 'thanks' in author:
                 for name in sorted(author['thanks'], key=self.sorted_thanks.index):
                     text += '\\altaffiliation{'
@@ -378,11 +382,10 @@ Text body goes here.
 
 \\end{document}"""
 
-        intro_text = """This style e.g. for Astroparticle Journal.
-You will need aastex63.cls and aasjournal.bst as well as possibly
-some other files from the
-<a href="https://journals.aas.org/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
-"""
+        intro_text = """This style uses AASTeX 7.0.1 formatting.
+    You will need the aastex7 class and related files from the 
+    <a href="https://journals.aas.org/wp-content/uploads/2025/05/aastex701-1.zip">AASTeX 7.0.1 Distribution files</a> on the <a href="https://journals.aas.org/aastex-package-for-manuscript-preparation/">AAS journals package page</a>.
+    """
 
         return {
             'format_text': text,
