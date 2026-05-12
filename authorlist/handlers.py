@@ -54,7 +54,8 @@ class AuthorListRenderer:
         'arxiv': 'arXiv',
         'epjc': 'European Physical Journal C. (EPJC)',
         'revtex4': 'Physical Review Letters (RevTex4)',
-        'aastex': 'Astrophysical Journal (AASTeX)',
+        'aastex': 'Astrophysical Journal (AASTeX v6.3)',
+        'aastex7': 'Astrophysical Journal (AASTeX v7.0.1)',
         'aascsv': 'Astrophysical Journal (csv)',
         'aa': 'Journal Astronomy & Astrophysics (A & A)',
         'elsevier': 'Astroparticle Physics (Elsevier)',
@@ -279,7 +280,7 @@ You will need svjour3.cls and svepjc3.clo from
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
-\\title{"""+self.collab+""" Author List for Rev{\TeX} """
+\\title{"""+self.collab+""" Author List for Rev{\\TeX} """
         text += self.date.replace('-','') + '}\n\n'
         for name in self.sorted_insts:
             text += '\\affiliation{'
@@ -332,7 +333,7 @@ some *.rtx files from the
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
 
-\\title{"""+self.collab+""" Author List for AAS{\TeX} """
+\\title{"""+self.collab+""" Author List for AAS{\\TeX} """
         text += self.date.replace('-','') + '}\n\n'
         for name in self.sorted_insts:
             text += '\\affiliation{'
@@ -383,6 +384,71 @@ You will need aastex63.cls and aasjournal.bst as well as possibly
 some other files from the
 <a href="https://journals.aas.org/wp-content/uploads/2019/06/aastexv63.tar.gz">AASTeX tarball</a>.
 """
+
+        return {
+            'format_text': text,
+            'intro_text': intro_text,
+        }
+
+    def _aastex7(self):
+        ### AASTeX 7 formatting
+        text = """\\documentclass[twocolumn]{aastex701}
+\\usepackage[T5,T1]{fontenc}
+\\begin{document}
+
+\\title{"""+self.collab+""" Author List for AAS{\\TeX} """
+        text += self.date.replace('-','') + '}\n\n'
+        for name in self.sorted_insts:
+            text += '\\affiliation{'
+            text += utf8tolatex(self.insts[name]['cite'])
+            text += '}\n'
+        text += '\n'
+        for author in self.authors:
+            text += '\\author'
+            if 'orcid' in author and author['orcid']:
+                text += f'[{author["orcid"]}]'
+            text += '{'
+            text += utf8tolatex(author['authname'])
+            text += '}\n'
+            if 'thanks' in author:
+                for name in sorted(author['thanks'], key=self.sorted_thanks.index):
+                    text += '\\altaffiliation{'
+                    text += utf8tolatex(self.thanks[name])
+                    text += '}\n'
+            if 'instnames' in author:
+                for name in sorted(author['instnames'], key=self.sorted_insts.index):
+                    text += '\\affiliation{'
+                    text += utf8tolatex(self.insts[name]['cite'])
+                    text += '}\n'
+            text += '\\email{'
+            text += utf8tolatex(author['email'] if author.get('email') else 'analysis@icecube.wisc.edu')
+            text += '}\n'
+            text += '\n'
+        text += """\\date{\\today}
+
+\\collaboration{"""+str(len(self.authors))+"}{"+self.collab+""" Collaboration}
+
+\\begin{abstract}
+
+Abstract goes here.
+
+\\end{abstract}
+
+\\section{Introduction}
+
+Text body goes here.
+
+\\section*{Acknowledgements}
+"""
+        text += '\n'.join(utf8tolatex(a) for a in self.acks)
+        text += """
+
+\\end{document}"""
+
+        intro_text = """This style uses AASTeX 7.0.1 formatting.
+    You will need the aastex7 class and related files from the 
+    <a href="https://journals.aas.org/wp-content/uploads/2025/05/aastex701-1.zip">AASTeX 7.0.1 Distribution files</a> on the <a href="https://journals.aas.org/aastex-package-for-manuscript-preparation/">AAS journals package page</a>.
+    """
 
         return {
             'format_text': text,
@@ -444,7 +510,7 @@ some other files from the
 \\usepackage{txfonts}
 \\usepackage[T5,T1]{fontenc}
 \\begin{document}
-\\title{"""+self.collab+""" Author List for A \& A """
+\\title{"""+self.collab+""" Author List for A \\& A """
         text += self.date.replace('-','')
         text += """}
 \\author{
@@ -736,7 +802,7 @@ Supplementary Materials for:\\\\
                 source.extend(str(1+len(self.sorted_insts) + self.sorted_thanks.index(t)) for t in sorted(author['thanks'], key=self.sorted_thanks.index))
             text += utf8tolatex(author['authname'])
             if source:
-                text += '$^{' + ',\: '.join(source) + '}$'
+                text += '$^{' + ',\\: '.join(source) + '}$'
             if i+1 < len(self.authors):
                 text += ','
             text += '\n'
