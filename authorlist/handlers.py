@@ -326,7 +326,6 @@ some *.rtx files from the
             'format_text': text,
             'intro_text': intro_text,
         }
-    
 
     def _aastex(self):
         ### New ApJ 6.3 formatting
@@ -391,7 +390,6 @@ some other files from the
             'intro_text': intro_text,
         }
 
-
     def _aastex7(self):
         ### AASTeX 7 formatting
         text = """\\documentclass[twocolumn]{aastex701}
@@ -412,10 +410,6 @@ some other files from the
             text += '{'
             text += utf8tolatex(author['authname'])
             text += '}\n'
-            if 'email' in author and author['email']:
-                text += '\\email{'
-                text += utf8tolatex(author['email'] if author.get('email') else 'analysis@icecube.wisc.edu')
-                text += '}\n'
             if 'thanks' in author:
                 for name in sorted(author['thanks'], key=self.sorted_thanks.index):
                     text += '\\altaffiliation{'
@@ -426,6 +420,9 @@ some other files from the
                     text += '\\affiliation{'
                     text += utf8tolatex(self.insts[name]['cite'])
                     text += '}\n'
+            text += '\\email{'
+            text += utf8tolatex(author['email'] if author.get('email') else 'analysis@icecube.wisc.edu')
+            text += '}\n'
             text += '\n'
         text += """\\date{\\today}
 
