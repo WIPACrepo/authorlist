@@ -28920,7 +28920,7 @@
       "last": "Kim",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-12"
     },
     {
       "authname": "T. Kim",
@@ -28934,6 +28934,36 @@
       "keycloak_username": "taeyunkim",
       "last": "Kim",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-05-12"
+    },
+    {
+      "authname": "T. Kim",
+      "collab": "icecube",
+      "email": "monocerotis@g.skku.edu",
+      "first": "Taeyun",
+      "from": "2026-05-13",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "taeyunkim",
+      "last": "Kim",
+      "orcid": "0009-0001-2103-7051",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Kim",
+      "collab": "icecube-gen2",
+      "email": "monocerotis@g.skku.edu",
+      "first": "Taeyun",
+      "from": "2026-05-13",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "taeyunkim",
+      "last": "Kim",
+      "orcid": "0009-0001-2103-7051",
       "thanks": [],
       "to": ""
     },
