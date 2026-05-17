@@ -39743,7 +39743,7 @@
       "last": "Nakos",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-16"
     },
     {
       "authname": "M. Nakos",
@@ -39757,6 +39757,36 @@
       "keycloak_username": "mnakos",
       "last": "Nakos",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-05-16"
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube",
+      "email": "maxwell.nakos@icecube.wisc.edu",
+      "first": "Maxwell",
+      "from": "2026-05-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "0009-0001-7767-6215",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Nakos",
+      "collab": "icecube-gen2",
+      "email": "maxwell.nakos@icecube.wisc.edu",
+      "first": "Maxwell",
+      "from": "2026-05-17",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "mnakos",
+      "last": "Nakos",
+      "orcid": "0009-0001-7767-6215",
       "thanks": [],
       "to": ""
     },
