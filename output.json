@@ -58676,6 +58676,36 @@
       "to": ""
     },
     {
+      "authname": "M. Velazquez",
+      "collab": "icecube",
+      "email": "mvelazquez9@gatech.edu",
+      "first": "Mayra",
+      "from": "2026-05-17",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "mvelazquez",
+      "last": "Velazquez",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Velazquez",
+      "collab": "icecube-gen2",
+      "email": "mvelazquez9@gatech.edu",
+      "first": "Mayra",
+      "from": "2026-05-17",
+      "instnames": [
+        "georgia"
+      ],
+      "keycloak_username": "mvelazquez",
+      "last": "Velazquez",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Venugopal",
       "collab": "icecube",
       "email": "venugopalmegha1@gmail.com",
