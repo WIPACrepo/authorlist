@@ -7625,7 +7625,7 @@
       "last": "Brinson",
       "orcid": "0000-0001-9128-1159",
       "thanks": [],
-      "to": ""
+      "to": "2026-05-18"
     },
     {
       "authname": "B. Brinson",
@@ -7635,6 +7635,21 @@
       "from": "2023-04-03",
       "instnames": [
         "georgia"
+      ],
+      "keycloak_username": "bbrinson",
+      "last": "Brinson",
+      "orcid": "0000-0001-9128-1159",
+      "thanks": [],
+      "to": "2026-05-18"
+    },
+    {
+      "authname": "B. Brinson",
+      "collab": "icecube",
+      "email": "bbrinson@umd.edu",
+      "first": "Bennett",
+      "from": "2026-05-19",
+      "instnames": [
+        "maryland"
       ],
       "keycloak_username": "bbrinson",
       "last": "Brinson",
