@@ -47044,6 +47044,21 @@
       "to": "2015-04-02"
     },
     {
+      "authname": "K. Rodriguez",
+      "collab": "icecube-gen2",
+      "email": "krodrig1@ualberta.ca",
+      "first": "Karen",
+      "from": "2026-05-26",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "krodriguez",
+      "last": "Rodriguez",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Rodr\u00edguez Martino",
       "collab": "icecube",
       "first": "J.",
@@ -55240,6 +55255,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2011-01-09"
+    },
+    {
+      "authname": "M. Tariq",
+      "collab": "icecube-gen2",
+      "email": "mtariq2@ualberta.ca",
+      "first": "Maheen",
+      "from": "2026-05-26",
+      "instnames": [
+        "edmonton"
+      ],
+      "keycloak_username": "mtariq2",
+      "last": "Tariq",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. Tatar",
