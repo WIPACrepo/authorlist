@@ -38319,6 +38319,36 @@
       "to": "2005-12-20"
     },
     {
+      "authname": "S. Minji",
+      "collab": "icecube",
+      "email": "minjishin11@naver.com",
+      "first": "Shin",
+      "from": "2026-05-26",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Minji",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Minji",
+      "collab": "icecube-gen2",
+      "email": "minjishin11@naver.com",
+      "first": "Shin",
+      "from": "2026-05-26",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Minji",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. H. Minor",
       "collab": "icecube",
       "first": "R. H.",
