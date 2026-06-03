@@ -15589,6 +15589,36 @@
       "to": ""
     },
     {
+      "authname": "A. Fattorini",
+      "collab": "icecube",
+      "email": "alicia.fattorini@tu-dortmund.de",
+      "first": "Alicia",
+      "from": "2026-06-03",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "afattorini",
+      "last": "Fattorini",
+      "orcid": "0000-0002-1056-9167",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Fattorini",
+      "collab": "icecube-gen2",
+      "email": "alicia.fattorini@tu-dortmund.de",
+      "first": "Alicia",
+      "from": "2026-06-03",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "afattorini",
+      "last": "Fattorini",
+      "orcid": "0000-0002-1056-9167",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. R. Fazely",
       "collab": "icecube",
       "email": "fazely@icecube.wisc.edu",
@@ -42324,6 +42354,36 @@
       ],
       "keycloak_username": "anpar0",
       "last": "Parenti",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Parisel",
+      "collab": "icecube",
+      "email": "cparisel@gmail.com",
+      "first": "Camille",
+      "from": "2026-06-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "cparisel",
+      "last": "Parisel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Parisel",
+      "collab": "icecube-gen2",
+      "email": "cparisel@gmail.com",
+      "first": "Camille",
+      "from": "2026-06-03",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "cparisel",
+      "last": "Parisel",
       "orcid": "",
       "thanks": [],
       "to": ""
