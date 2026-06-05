@@ -14954,7 +14954,7 @@
       "last": "Eulig",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-06-04"
     },
     {
       "authname": "S. Eulig",
@@ -14968,6 +14968,36 @@
       "keycloak_username": "syeulig",
       "last": "Eulig",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-06-04"
+    },
+    {
+      "authname": "S. Eulig",
+      "collab": "icecube",
+      "email": "seulig@fas.harvard.edu",
+      "first": "Steven",
+      "from": "2026-06-05",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "syeulig",
+      "last": "Eulig",
+      "orcid": "0009-0007-3547-2891",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Eulig",
+      "collab": "icecube-gen2",
+      "email": "seulig@fas.harvard.edu",
+      "first": "Steven",
+      "from": "2026-06-05",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "syeulig",
+      "last": "Eulig",
+      "orcid": "0009-0007-3547-2891",
       "thanks": [],
       "to": ""
     },
