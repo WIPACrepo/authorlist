@@ -2600,7 +2600,7 @@
       "last": "Ashida",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-06-09"
     },
     {
       "authname": "Y. Ashida",
@@ -2615,7 +2615,7 @@
       "last": "Ashida",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-06-09"
     },
     {
       "authname": "S. Athanasiadou",
@@ -40187,6 +40187,36 @@
       "keycloak_username": "anelles",
       "last": "Nelles",
       "orcid": "0000-0002-1720-6350",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Neshat",
+      "collab": "icecube",
+      "email": "u1477250@utah.edu",
+      "first": "Rumman",
+      "from": "2026-06-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "rneshat",
+      "last": "Neshat",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "R. Neshat",
+      "collab": "icecube-gen2",
+      "email": "u1477250@utah.edu",
+      "first": "Rumman",
+      "from": "2026-06-10",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "rneshat",
+      "last": "Neshat",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
