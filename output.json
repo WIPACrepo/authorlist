@@ -43433,7 +43433,7 @@
       "last": "Pick",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-06-11"
     },
     {
       "authname": "S. Pick",
@@ -43447,6 +43447,36 @@
       "keycloak_username": "simonpick",
       "last": "Pick",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-06-11"
+    },
+    {
+      "authname": "S. Pick",
+      "collab": "icecube",
+      "email": "simon.pick@desy.de",
+      "first": "Simon",
+      "from": "2026-06-12",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "simonpick",
+      "last": "Pick",
+      "orcid": "0009-0009-9942-1318",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Pick",
+      "collab": "icecube-gen2",
+      "email": "simon.pick@desy.de",
+      "first": "Simon",
+      "from": "2026-06-12",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "simonpick",
+      "last": "Pick",
+      "orcid": "0009-0009-9942-1318",
       "thanks": [],
       "to": ""
     },
