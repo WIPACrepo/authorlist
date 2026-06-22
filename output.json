@@ -9605,7 +9605,7 @@
       "last": "Choi",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-06-21"
     },
     {
       "authname": "S. Choi",
@@ -9619,6 +9619,36 @@
       "keycloak_username": "schoi1",
       "last": "Choi",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-06-21"
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube",
+      "email": "schoi1@icecube.wisc.edu",
+      "first": "Seo Won",
+      "from": "2026-06-22",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "0009-0000-2770-5068",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Choi",
+      "collab": "icecube-gen2",
+      "email": "schoi1@icecube.wisc.edu",
+      "first": "Seo Won",
+      "from": "2026-06-22",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "schoi1",
+      "last": "Choi",
+      "orcid": "0009-0000-2770-5068",
       "thanks": [],
       "to": ""
     },
