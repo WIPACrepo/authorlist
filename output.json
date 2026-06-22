@@ -19865,6 +19865,36 @@
       "to": "2026-03-03"
     },
     {
+      "authname": "S. Griswold",
+      "collab": "icecube",
+      "email": "spencer.griswold@icecube.wisc.edu",
+      "first": "Spencer",
+      "from": "2026-06-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriswold",
+      "last": "Griswold",
+      "orcid": "0000-0002-7321-7513",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Griswold",
+      "collab": "icecube-gen2",
+      "email": "spencer.griswold@icecube.wisc.edu",
+      "first": "Spencer",
+      "from": "2026-06-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "sgriswold",
+      "last": "Griswold",
+      "orcid": "0000-0002-7321-7513",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. C. Groh",
       "collab": "icecube",
       "email": "john.groh@icecube.wisc.edu",
