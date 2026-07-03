@@ -50393,6 +50393,21 @@
       "to": ""
     },
     {
+      "authname": "F. Schmitt",
+      "collab": "icecube-gen2",
+      "email": "schmittfrederik@proton.me",
+      "first": "Frederik",
+      "from": "2026-07-03",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "fschmitt",
+      "last": "Schmitt",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Schmitz",
       "collab": "icecube",
       "email": "martin.schmitz@icecube.wisc.edu",
