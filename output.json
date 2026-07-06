@@ -50394,6 +50394,21 @@
     },
     {
       "authname": "F. Schmitt",
+      "collab": "icecube",
+      "email": "schmittfrederik@proton.me",
+      "first": "Frederik",
+      "from": "2026-07-06",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "fschmitt",
+      "last": "Schmitt",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "F. Schmitt",
       "collab": "icecube-gen2",
       "email": "schmittfrederik@proton.me",
       "first": "Frederik",
