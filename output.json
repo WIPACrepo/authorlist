@@ -19218,7 +19218,7 @@
       "last": "Granados",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-08"
     },
     {
       "authname": "A. Granados",
@@ -19232,6 +19232,36 @@
       "keycloak_username": "agranados",
       "last": "Granados",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-07-08"
+    },
+    {
+      "authname": "A. Granados",
+      "collab": "icecube",
+      "email": "granad27@msu.edu",
+      "first": "Alejandra",
+      "from": "2026-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "agranados",
+      "last": "Granados",
+      "orcid": "0009-0001-7430-7115",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Granados",
+      "collab": "icecube-gen2",
+      "email": "granad27@msu.edu",
+      "first": "Alejandra",
+      "from": "2026-07-09",
+      "instnames": [
+        "michigan"
+      ],
+      "keycloak_username": "agranados",
+      "last": "Granados",
+      "orcid": "0009-0001-7430-7115",
       "thanks": [],
       "to": ""
     },
