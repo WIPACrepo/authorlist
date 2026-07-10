@@ -38797,6 +38797,21 @@
       "to": ""
     },
     {
+      "authname": "N. Moller",
+      "collab": "icecube-gen2",
+      "email": "nicolas.j.e.moller@gmail.com",
+      "first": "Nicolas",
+      "from": "2026-07-10",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "nmoller1",
+      "last": "Moller",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "G. Moment\u00e9",
       "collab": "icecube",
       "email": "giulio.momente@icecube.wisc.edu",
@@ -39125,7 +39140,7 @@
     },
     {
       "authname": "Y. Morii",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "morii.yasutsugu@icecube.wisc.edu",
       "first": "Yasutsugu",
       "from": "2022-11-03",
@@ -39136,11 +39151,11 @@
       "last": "Morii",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-09"
     },
     {
       "authname": "Y. Morii",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "morii.yasutsugu@icecube.wisc.edu",
       "first": "Yasutsugu",
       "from": "2022-11-03",
