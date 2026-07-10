@@ -10509,7 +10509,7 @@
       "last": "Collin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-09"
     },
     {
       "authname": "G. H. Collin",
@@ -10524,7 +10524,7 @@
       "last": "Collin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-09"
     },
     {
       "authname": "C. Colnard",
@@ -62553,6 +62553,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2020-10-22"
+    },
+    {
+      "authname": "J. Woodward",
+      "collab": "icecube",
+      "email": "julia785@mit.edu",
+      "first": "Julia",
+      "from": "2026-07-10",
+      "instnames": [
+        "mit"
+      ],
+      "keycloak_username": "jwoodward",
+      "last": "Woodward",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Woodward",
+      "collab": "icecube-gen2",
+      "email": "julia785@mit.edu",
+      "first": "Julia",
+      "from": "2026-07-10",
+      "instnames": [
+        "mit"
+      ],
+      "keycloak_username": "jwoodward",
+      "last": "Woodward",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "E. Woolsey",
