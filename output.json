@@ -12557,7 +12557,7 @@
       "last": "de Wasseige",
       "orcid": "0000-0002-1010-5100",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-14"
     },
     {
       "authname": "G. de Wasseige",
@@ -12570,6 +12570,36 @@
       ],
       "keycloak_username": "gdewasse",
       "last": "de Wasseige",
+      "orcid": "0000-0002-1010-5100",
+      "thanks": [],
+      "to": "2026-07-14"
+    },
+    {
+      "authname": "G. de Wasseige",
+      "collab": "icecube",
+      "email": "gwenhael.dewasseige@icecube.wisc.edu",
+      "first": "Gwenhael",
+      "from": "2026-07-15",
+      "instnames": [
+        "uclouvain-2026"
+      ],
+      "keycloak_username": "gdewasse",
+      "last": "Wilberts Dewasseige",
+      "orcid": "0000-0002-1010-5100",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. de Wasseige",
+      "collab": "icecube-gen2",
+      "email": "gwenhael.dewasseige@icecube.wisc.edu",
+      "first": "Gwenhael",
+      "from": "2026-07-15",
+      "instnames": [
+        "uclouvain-2026"
+      ],
+      "keycloak_username": "gdewasse",
+      "last": "Wilberts Dewasseige",
       "orcid": "0000-0002-1010-5100",
       "thanks": [],
       "to": ""
