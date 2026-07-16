@@ -56245,6 +56245,36 @@
       "to": ""
     },
     {
+      "authname": "W. Tian",
+      "collab": "icecube",
+      "email": "wtian36@wisc.edu",
+      "first": "Wei",
+      "from": "2026-07-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "wtian",
+      "last": "Tian",
+      "orcid": "0009-0006-9568-7600",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "W. Tian",
+      "collab": "icecube-gen2",
+      "email": "wtian36@wisc.edu",
+      "first": "Wei",
+      "from": "2026-07-16",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "wtian",
+      "last": "Tian",
+      "orcid": "0009-0006-9568-7600",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Tilav",
       "collab": "icecube",
       "email": "tilav@bartol.udel.edu",
