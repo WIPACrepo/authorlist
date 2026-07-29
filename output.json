@@ -38541,7 +38541,7 @@
       "last": "Minji",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-28"
     },
     {
       "authname": "S. Minji",
@@ -38554,6 +38554,36 @@
       ],
       "keycloak_username": "sminji",
       "last": "Minji",
+      "orcid": "",
+      "thanks": [],
+      "to": "2026-07-28"
+    },
+    {
+      "authname": "S. Minji",
+      "collab": "icecube",
+      "email": "minjishin11@naver.com",
+      "first": "Minji",
+      "from": "2026-07-29",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Shin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Minji",
+      "collab": "icecube-gen2",
+      "email": "minjishin11@naver.com",
+      "first": "Minji",
+      "from": "2026-07-29",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Shin",
       "orcid": "",
       "thanks": [],
       "to": ""
