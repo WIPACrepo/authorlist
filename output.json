@@ -64379,7 +64379,7 @@
       "last": "Zilleruelo Ca\u00f1as",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-29"
     },
     {
       "authname": "C. Zilleruelo Ca\u00f1as",
@@ -64393,6 +64393,36 @@
       "keycloak_username": "czilleruelo",
       "last": "Zilleruelo Ca\u00f1as",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-07-29"
+    },
+    {
+      "authname": "C. Zilleruelo Ca\u00f1as",
+      "collab": "icecube",
+      "email": "cristobal.zilleruelo.canas@desy.de",
+      "first": "Crist\u00f3bal",
+      "from": "2026-07-30",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "czilleruelo",
+      "last": "Zilleruelo Ca\u00f1as",
+      "orcid": "0009-0005-2221-3343",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "C. Zilleruelo Ca\u00f1as",
+      "collab": "icecube-gen2",
+      "email": "cristobal.zilleruelo.canas@desy.de",
+      "first": "Crist\u00f3bal",
+      "from": "2026-07-30",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "czilleruelo",
+      "last": "Zilleruelo Ca\u00f1as",
+      "orcid": "0009-0005-2221-3343",
       "thanks": [],
       "to": ""
     },
