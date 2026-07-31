@@ -38571,7 +38571,7 @@
       "last": "Shin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-30"
     },
     {
       "authname": "S. Minji",
@@ -38586,7 +38586,7 @@
       "last": "Shin",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-07-30"
     },
     {
       "authname": "R. H. Minor",
@@ -52689,6 +52689,36 @@
       "keycloak_username": "nshimizu",
       "last": "N",
       "orcid": "0000-0001-6857-1772",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Shin",
+      "collab": "icecube",
+      "email": "minjishin11@naver.com",
+      "first": "Minji",
+      "from": "2026-07-31",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Shin",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Shin",
+      "collab": "icecube-gen2",
+      "email": "minjishin23@gmail.com",
+      "first": "Minji",
+      "from": "2026-07-31",
+      "instnames": [
+        "skku"
+      ],
+      "keycloak_username": "sminji",
+      "last": "Shin",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
