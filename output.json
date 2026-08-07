@@ -607,8 +607,13 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
+      "to": "2026-08-06",
       "value": "Swedish National Infrastructure for Computing (SNIC),"
+    },
+    {
+      "from": "2026-08-07",
+      "to": "",
+      "value": "National Academic Infrastructure for Supercomputing in Sweden (NAISS),"
     },
     {
       "from": "2017-12-13",
