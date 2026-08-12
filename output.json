@@ -42281,7 +42281,7 @@
       "last": "Owens",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-08-11"
     },
     {
       "authname": "B. Owens",
@@ -42295,6 +42295,36 @@
       "keycloak_username": "bowens",
       "last": "Owens",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-08-11"
+    },
+    {
+      "authname": "B. Owens",
+      "collab": "icecube",
+      "email": "18bao3@queensu.ca",
+      "first": "Bryan",
+      "from": "2026-08-12",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "bowens",
+      "last": "Owens",
+      "orcid": "0009-0009-7013-8770",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "B. Owens",
+      "collab": "icecube-gen2",
+      "email": "18bao3@queensu.ca",
+      "first": "Bryan",
+      "from": "2026-08-12",
+      "instnames": [
+        "queens"
+      ],
+      "keycloak_username": "bowens",
+      "last": "Owens",
+      "orcid": "0009-0009-7013-8770",
       "thanks": [],
       "to": ""
     },
