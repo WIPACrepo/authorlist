@@ -60691,6 +60691,21 @@
       "to": "2026-07-05"
     },
     {
+      "authname": "P. Weigel",
+      "collab": "icecube",
+      "email": "philip.weigel@icecube.wisc.edu",
+      "first": "Philip",
+      "from": "2026-08-14",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "pweigel",
+      "last": "Weigel",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Weindl",
       "collab": "icecube",
       "email": "andreas.weindl@icecube.wisc.edu",
