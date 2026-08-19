@@ -52468,6 +52468,21 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "A. Sharma",
+      "collab": "icecube",
+      "email": "ankur2891@gmail.com",
+      "first": "Ankur",
+      "from": "2026-08-19",
+      "instnames": [
+        "christchurch"
+      ],
+      "keycloak_username": "asharma",
+      "last": "Sharma",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "S. Shefali",
       "collab": "icecube",
       "email": "shefali.shefali@icecube.wisc.edu",
