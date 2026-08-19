@@ -63694,6 +63694,21 @@
       "to": ""
     },
     {
+      "authname": "S. Yoshioka",
+      "collab": "icecube-gen2",
+      "email": "ss26049m@st.omu.ac.jp",
+      "first": "Shun-ya",
+      "from": "2026-08-19",
+      "instnames": [
+        "osaka"
+      ],
+      "keycloak_username": "syoshioka",
+      "last": "Yoshioka",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. Young",
       "collab": "icecube",
       "email": "rwyoung@ku.edu",
