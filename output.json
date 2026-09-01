@@ -21152,7 +21152,7 @@
     },
     {
       "authname": "L. Halve",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "lasse.halve@icecube.wisc.edu",
       "first": "Lasse",
       "from": "2022-05-10",
@@ -21167,7 +21167,7 @@
     },
     {
       "authname": "L. Halve",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "lasse.halve@icecube.wisc.edu",
       "first": "Lasse",
       "from": "2022-05-10",
@@ -21178,7 +21178,7 @@
       "last": "Halve",
       "orcid": "0000-0003-2237-6714",
       "thanks": [],
-      "to": ""
+      "to": "2026-08-31"
     },
     {
       "authname": "F. Halzen",
@@ -36658,7 +36658,7 @@
     },
     {
       "authname": "L. Marten",
-      "collab": "icecube-gen2",
+      "collab": "icecube",
       "email": "lars.marten@rwth-aachen.de",
       "first": "Lars",
       "from": "2025-04-24",
@@ -36673,7 +36673,7 @@
     },
     {
       "authname": "L. Marten",
-      "collab": "icecube",
+      "collab": "icecube-gen2",
       "email": "lars.marten@rwth-aachen.de",
       "first": "Lars",
       "from": "2025-04-24",
@@ -36684,7 +36684,7 @@
       "last": "Marten",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-08-31"
     },
     {
       "authname": "I. Martinez-Soler",
@@ -64741,6 +64741,21 @@
       ],
       "keycloak_username": "mzimmerman",
       "last": "Zimmerman",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Zimmermann",
+      "collab": "icecube",
+      "email": "marco.zimmermann1@rwth-aachen.de",
+      "first": "Marco",
+      "from": "2026-09-01",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mzimmerm",
+      "last": "Zimmermann",
       "orcid": "",
       "thanks": [],
       "to": ""
