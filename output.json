@@ -38679,6 +38679,36 @@
       "to": "2006-03-23"
     },
     {
+      "authname": "J. M. Mitchell",
+      "collab": "icecube",
+      "email": "justin.mitchell01@sus.edu",
+      "first": "Justin",
+      "from": "2026-09-02",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "0009-0001-0806-9489",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. M. Mitchell",
+      "collab": "icecube-gen2",
+      "email": "justin.mitchell01@sus.edu",
+      "first": "Justin",
+      "from": "2026-09-02",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "jmitchel",
+      "last": "Mitchell",
+      "orcid": "0009-0001-0806-9489",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Mitchell",
       "collab": "icecube",
       "email": "justin.mitchell@sus.edu",
@@ -38721,7 +38751,7 @@
       "last": "Mitchell",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-01"
     },
     {
       "authname": "J. Mitchell",
@@ -38736,7 +38766,7 @@
       "last": "Mitchell",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-01"
     },
     {
       "authname": "H. Miyamoto",
