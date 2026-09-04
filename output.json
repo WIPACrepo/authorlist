@@ -25610,6 +25610,21 @@
       "to": "2010-04-05"
     },
     {
+      "authname": "J. Ioannou-Nikolaides",
+      "collab": "icecube-gen2",
+      "email": "johann.nikolaides@nbi.ku.dk",
+      "first": "Johann",
+      "from": "2026-09-04",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "jnikolai",
+      "last": "Ioannou-Nikolaides",
+      "orcid": "0000-0003-2486-1588",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "N. Iovine",
       "collab": "icecube",
       "email": "nadege.iovine@icecube.wisc.edu",
@@ -31127,7 +31142,7 @@
       "last": "Kozynets",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-03"
     },
     {
       "authname": "T. Kozynets",
@@ -31142,7 +31157,7 @@
       "last": "Kozynets",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-03"
     },
     {
       "authname": "M. Krasberg",
