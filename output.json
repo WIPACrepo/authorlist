@@ -8738,6 +8738,38 @@
       "last": "Carpio",
       "orcid": "0000-0003-0667-6557",
       "thanks": [],
+      "to": "2026-09-13"
+    },
+    {
+      "authname": "J. Carpio",
+      "collab": "icecube",
+      "email": "jose.dumler@nbi.ku.dk",
+      "first": "Jose",
+      "from": "2026-09-14",
+      "instnames": [
+        "copenhagen",
+        "lasvegasastro",
+        "lasvegasphysics"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "0000-0003-0667-6557",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Carpio",
+      "collab": "icecube-gen2",
+      "email": "jose.dumler@nbi.ku.dk",
+      "first": "Jose",
+      "from": "2026-09-14",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "0000-0003-0667-6557",
+      "thanks": [],
       "to": ""
     },
     {
