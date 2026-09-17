@@ -35492,6 +35492,21 @@
       "to": ""
     },
     {
+      "authname": "F. Machingal",
+      "collab": "icecube",
+      "email": "fshifa@icecube.wisc.edu",
+      "first": "Fathima",
+      "from": "2026-09-17",
+      "instnames": [
+        "southdakota"
+      ],
+      "keycloak_username": "fshifa",
+      "last": "Machingal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "O. Mac\u00edas",
       "collab": "icecube",
       "first": "O.",
@@ -38981,7 +38996,7 @@
       "last": "Molchany",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-16"
     },
     {
       "authname": "N. Moller",
