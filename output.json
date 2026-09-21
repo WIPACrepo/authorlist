@@ -15847,7 +15847,7 @@
       "last": "Fazely",
       "orcid": "0000-0002-6907-8020",
       "thanks": [],
-      "to": ""
+      "to": "2026-09-20"
     },
     {
       "authname": "A. R. Fazely",
@@ -15855,6 +15855,36 @@
       "email": "arfazely@gmail.com",
       "first": "Ali",
       "from": "2024-02-13",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "fazely",
+      "last": "Fazely",
+      "orcid": "0000-0002-6907-8020",
+      "thanks": [],
+      "to": "2026-09-20"
+    },
+    {
+      "authname": "A. R. Fazely",
+      "collab": "icecube",
+      "email": "fazely@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2026-09-21",
+      "instnames": [
+        "southern"
+      ],
+      "keycloak_username": "fazely",
+      "last": "Fazely",
+      "orcid": "0000-0002-6907-8020",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. R. Fazely",
+      "collab": "icecube-gen2",
+      "email": "fazely@icecube.wisc.edu",
+      "first": "Ali",
+      "from": "2026-09-21",
       "instnames": [
         "southern"
       ],
