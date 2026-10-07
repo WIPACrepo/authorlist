@@ -8207,6 +8207,36 @@
       "to": "2022-02-21"
     },
     {
+      "authname": "A. Burgos Mond\u00e9jar",
+      "collab": "icecube",
+      "email": "aburgosmondejar@fas.harvard.edu",
+      "first": "Alba",
+      "from": "2026-10-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "aburgosm",
+      "last": "Burgos Mond\u00e9jar",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Burgos Mond\u00e9jar",
+      "collab": "icecube-gen2",
+      "email": "aburgosmondejar@fas.harvard.edu",
+      "first": "Alba",
+      "from": "2026-10-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "aburgosm",
+      "last": "Burgos Mond\u00e9jar",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "R. T. Burley",
       "collab": "pingu",
       "email": "ryan.burley@adelaide.edu.au",
@@ -23201,6 +23231,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2011-05-19"
+    },
+    {
+      "authname": "G. Herrera",
+      "collab": "icecube",
+      "email": "gherreramoreno@fas.harvard.edu",
+      "first": "Gonzalo",
+      "from": "2026-10-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "gherrera",
+      "last": "Herrera",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "G. Herrera",
+      "collab": "icecube-gen2",
+      "email": "gherreramoreno@fas.harvard.edu",
+      "first": "Gonzalo",
+      "from": "2026-10-07",
+      "instnames": [
+        "harvard"
+      ],
+      "keycloak_username": "gherrera",
+      "last": "Herrera",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "E. C. Hettinger",
@@ -58624,7 +58684,7 @@
       "last": "Valtonen-Mattila",
       "orcid": "0000-0002-1830-098X",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-06"
     },
     {
       "authname": "N. Valtonen-Mattila",
@@ -58639,7 +58699,7 @@
       "last": "Valtonen-Mattila",
       "orcid": "0000-0002-1830-098X",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-06"
     },
     {
       "authname": "J. Valverde",
