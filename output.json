@@ -43584,7 +43584,7 @@
       "last": "Pernice",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-07"
     },
     {
       "authname": "T. Pernice",
@@ -43598,6 +43598,36 @@
       "keycloak_username": "pernicet",
       "last": "Pernice",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-10-07"
+    },
+    {
+      "authname": "T. Pernice",
+      "collab": "icecube",
+      "email": "teresa.pernice@desy.de",
+      "first": "Teresa",
+      "from": "2026-10-08",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "pernicet",
+      "last": "Pernice",
+      "orcid": "0009-0002-1457-1712",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "T. Pernice",
+      "collab": "icecube-gen2",
+      "email": "teresa.pernice@desy.de",
+      "first": "Teresa",
+      "from": "2026-10-08",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "pernicet",
+      "last": "Pernice",
+      "orcid": "0009-0002-1457-1712",
       "thanks": [],
       "to": ""
     },
