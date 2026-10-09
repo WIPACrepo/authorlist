@@ -62584,6 +62584,21 @@
       "to": "2020-07-08"
     },
     {
+      "authname": "P. Windischhofer",
+      "collab": "icecube-gen2",
+      "email": "philipp.windischhofer@desy.de",
+      "first": "Philipp",
+      "from": "2026-10-09",
+      "instnames": [
+        "zeuthen"
+      ],
+      "keycloak_username": "windischhofer",
+      "last": "Windischhofer",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "W. Winter",
       "collab": "pingu",
       "first": "W.",
