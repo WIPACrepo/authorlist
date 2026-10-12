@@ -58732,6 +58732,36 @@
       "to": "2026-10-06"
     },
     {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2026-10-12",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Valtonen-Mattila",
+      "collab": "icecube-gen2",
+      "email": "nvalto@astro.ruhr-uni-bochum.de",
+      "first": "Nora",
+      "from": "2026-10-12",
+      "instnames": [
+        "uppsala"
+      ],
+      "keycloak_username": "nvaltonenmattila",
+      "last": "Valtonen-Mattila",
+      "orcid": "0000-0002-1830-098X",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Valverde",
       "collab": "icecube",
       "email": "janeth@umbc.edu",
