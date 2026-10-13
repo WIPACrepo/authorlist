@@ -28288,6 +28288,36 @@
       "to": ""
     },
     {
+      "authname": "A. Kastanas",
+      "collab": "icecube",
+      "email": "kastanas@fysik.su.se",
+      "first": "Alexandros",
+      "from": "2026-10-13",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "akastana",
+      "last": "Kastanas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Kastanas",
+      "collab": "icecube-gen2",
+      "email": "kastanas@fysik.su.se",
+      "first": "Alexandros",
+      "from": "2026-10-13",
+      "instnames": [
+        "stockholmokc"
+      ],
+      "keycloak_username": "akastana",
+      "last": "Kastanas",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "A. Katil",
       "collab": "icecube",
       "email": "akanksha.katil@icecube.wisc.edu",
