@@ -15758,7 +15758,7 @@
       "last": "Farrag",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-16"
     },
     {
       "authname": "K. Farrag",
@@ -15773,7 +15773,7 @@
       "last": "Farrag",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-16"
     },
     {
       "authname": "A. Fattorini",
@@ -39165,6 +39165,21 @@
     },
     {
       "authname": "N. Moller",
+      "collab": "icecube",
+      "email": "nicolas.j.e.moller@gmail.com",
+      "first": "Nicolas",
+      "from": "2026-10-17",
+      "instnames": [
+        "chiba2022"
+      ],
+      "keycloak_username": "nmoller1",
+      "last": "Moller",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "N. Moller",
       "collab": "icecube-gen2",
       "email": "nicolas.j.e.moller@gmail.com",
       "first": "Nicolas",
@@ -39533,7 +39548,7 @@
       "last": "Morii",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-16"
     },
     {
       "authname": "R. Morse",
