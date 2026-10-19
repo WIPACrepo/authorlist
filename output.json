@@ -33557,6 +33557,36 @@
       "last": "Lazar",
       "orcid": "0000-0003-0928-5025",
       "thanks": [],
+      "to": "2026-10-18"
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2026-10-19",
+      "instnames": [
+        "mit"
+      ],
+      "keycloak_username": "jlazar",
+      "last": "Lazar",
+      "orcid": "0000-0003-0928-5025",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. P. Lazar",
+      "collab": "icecube-gen2",
+      "email": "jeffrey.lazar@icecube.wisc.edu",
+      "first": "Jeffrey",
+      "from": "2026-10-19",
+      "instnames": [
+        "mit"
+      ],
+      "keycloak_username": "jlazar",
+      "last": "Lazar",
+      "orcid": "0000-0003-0928-5025",
+      "thanks": [],
       "to": ""
     },
     {
