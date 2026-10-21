@@ -49422,7 +49422,7 @@
       "last": "Sandrock",
       "orcid": "0000-0002-6779-1172",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-20"
     },
     {
       "authname": "A. Sandrock",
@@ -49430,6 +49430,36 @@
       "email": "asandrock@icecube.wisc.edu",
       "first": "Alexander",
       "from": "2023-04-12",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": "2026-10-20"
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube",
+      "email": "alexander.sandrock@tu-dortmund.de",
+      "first": "Alexander",
+      "from": "2026-10-21",
+      "instnames": [
+        "wuppertal"
+      ],
+      "keycloak_username": "asandrock",
+      "last": "Sandrock",
+      "orcid": "0000-0002-6779-1172",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "A. Sandrock",
+      "collab": "icecube-gen2",
+      "email": "alexander.sandrock@tu-dortmund.de",
+      "first": "Alexander",
+      "from": "2026-10-21",
       "instnames": [
         "wuppertal"
       ],
