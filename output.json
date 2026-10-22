@@ -51947,7 +51947,7 @@
       "last": "Schwirn",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-21"
     },
     {
       "authname": "S. Schwirn",
@@ -51961,6 +51961,36 @@
       "keycloak_username": "sschwirn",
       "last": "Schwirn",
       "orcid": "",
+      "thanks": [],
+      "to": "2026-10-21"
+    },
+    {
+      "authname": "S. Schwirn",
+      "collab": "icecube",
+      "email": "soenke.schwirn@rwth-aachen.de",
+      "first": "S\u00f6nke",
+      "from": "2026-10-22",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "sschwirn",
+      "last": "Schwirn",
+      "orcid": "0009-0000-5441-7491",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Schwirn",
+      "collab": "icecube-gen2",
+      "email": "soenke.schwirn@rwth-aachen.de",
+      "first": "S\u00f6nke",
+      "from": "2026-10-22",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "sschwirn",
+      "last": "Schwirn",
+      "orcid": "0009-0000-5441-7491",
       "thanks": [],
       "to": ""
     },
