@@ -26068,6 +26068,38 @@
       "to": ""
     },
     {
+      "authname": "J.~A.~Torres",
+      "collab": "icecube",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2026-10-28",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "0000-0003-4385-6127",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J.~A.~Torres",
+      "collab": "icecube-gen2",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2026-10-28",
+      "instnames": [
+        "ohio",
+        "ohioastro",
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "0000-0003-4385-6127",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "E. Jacobi",
       "collab": "icecube",
       "email": "emanuel.jacobi@icecube.wisc.edu",
@@ -46392,7 +46424,7 @@
       "last": "Reimann",
       "orcid": "0000-0002-1983-8271",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-27"
     },
     {
       "authname": "R. Reimann",
@@ -46407,7 +46439,7 @@
       "last": "Reimann",
       "orcid": "0000-0002-1983-8271",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-27"
     },
     {
       "authname": "I. Reistroffer",
@@ -57399,7 +57431,7 @@
       "last": "Torres",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-27"
     },
     {
       "authname": "J. A. Torres",
@@ -57416,7 +57448,7 @@
       "last": "Torres",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-10-27"
     },
     {
       "authname": "J. Torres",
