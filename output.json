@@ -46442,6 +46442,21 @@
       "to": "2026-10-27"
     },
     {
+      "authname": "R. Reimann",
+      "collab": "icecube-gen2",
+      "email": "rene.reimann@tu-dortmund.de",
+      "first": "Rene",
+      "from": "2026-11-02",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "reimann",
+      "last": "Reimann",
+      "orcid": "0000-0002-1983-8271",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "I. Reistroffer",
       "collab": "icecube",
       "email": "ian.reistroffer@mines.sdsmt.edu",
