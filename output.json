@@ -703,6 +703,36 @@
   ],
   "authors": [
     {
+      "authname": "+4915253935608",
+      "collab": "icecube",
+      "email": "jspinola@uni-mainz.de",
+      "first": "Jakob",
+      "from": "2026-11-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jspinola",
+      "last": "Spinola",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "+4915253935608",
+      "collab": "icecube-gen2",
+      "email": "jspinola@uni-mainz.de",
+      "first": "Jakob",
+      "from": "2026-11-03",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jspinola",
+      "last": "Spinola",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. G. Aartsen",
       "collab": "icecube",
       "email": "mark.aartsen@icecube.wisc.edu",
