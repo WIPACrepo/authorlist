@@ -1582,7 +1582,7 @@
       "last": "Alameddine",
       "orcid": "0000-0002-9534-9189",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-02"
     },
     {
       "authname": "J.M. Alameddine",
@@ -1597,7 +1597,7 @@
       "last": "Alameddine",
       "orcid": "0000-0002-9534-9189",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-02"
     },
     {
       "authname": "S. Ali",
@@ -28142,7 +28142,7 @@
       "last": "Kardum",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-02"
     },
     {
       "authname": "L. Kardum",
@@ -34526,6 +34526,21 @@
       "to": ""
     },
     {
+      "authname": "L. Liland",
+      "collab": "icecube-gen2",
+      "email": "lukas.liland@tu-dortmund.de",
+      "first": "Lukas",
+      "from": "2026-11-03",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lliland1",
+      "last": "Liland",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "C. Lin",
       "collab": "icecube",
       "email": "chacelin@udel.edu",
@@ -35376,6 +35391,21 @@
       "orcid": "0000-0001-9038-4375",
       "thanks": [],
       "to": "2024-01-01"
+    },
+    {
+      "authname": "Lukas Liland",
+      "collab": "icecube",
+      "email": "lukas.liland@tu-dortmund.de",
+      "first": "Lukas",
+      "from": "2026-11-03",
+      "instnames": [
+        "dortmund"
+      ],
+      "keycloak_username": "lliland",
+      "last": "Liland",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. Lundberg",
@@ -53736,7 +53766,7 @@
       "last": "Soedingrekso",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-02"
     },
     {
       "authname": "J. Soedingrekso",
