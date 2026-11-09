@@ -8815,6 +8815,21 @@
       "last": "Carpio",
       "orcid": "0000-0003-0667-6557",
       "thanks": [],
+      "to": "2026-11-08"
+    },
+    {
+      "authname": "J. Carpio",
+      "collab": "icecube",
+      "email": "jose.dumler@nbi.ku.dk",
+      "first": "Jose",
+      "from": "2026-11-09",
+      "instnames": [
+        "copenhagen"
+      ],
+      "keycloak_username": "jcarpio",
+      "last": "Carpio",
+      "orcid": "0000-0003-0667-6557",
+      "thanks": [],
       "to": ""
     },
     {
@@ -26125,7 +26140,7 @@
       "last": "Torres",
       "orcid": "0000-0003-4385-6127",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-08"
     },
     {
       "authname": "J.~A.~Torres",
@@ -26142,7 +26157,7 @@
       "last": "Torres",
       "orcid": "0000-0003-4385-6127",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-08"
     },
     {
       "authname": "E. Jacobi",
@@ -57569,6 +57584,38 @@
       "orcid": "",
       "thanks": [],
       "to": "2026-10-27"
+    },
+    {
+      "authname": "J. A. Torres",
+      "collab": "icecube",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2026-11-09",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "0000-0003-4385-6127",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. A. Torres",
+      "collab": "icecube-gen2",
+      "email": "jorge.torres@utah.edu",
+      "first": "Jorge",
+      "from": "2026-11-09",
+      "instnames": [
+        "ohio",
+        "ohioastro",
+        "utah"
+      ],
+      "keycloak_username": "jtorresespinosa",
+      "last": "Torres",
+      "orcid": "0000-0003-4385-6127",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "J. Torres",
