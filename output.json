@@ -715,7 +715,7 @@
       "last": "Spinola",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-08"
     },
     {
       "authname": "+4915253935608",
@@ -730,7 +730,7 @@
       "last": "Spinola",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-08"
     },
     {
       "authname": "M. G. Aartsen",
@@ -16645,6 +16645,21 @@
       "orcid": "",
       "thanks": [],
       "to": "2015-12-01"
+    },
+    {
+      "authname": "C. Fisher",
+      "collab": "icecube",
+      "email": "chloefisher60@gmail.com",
+      "first": "Chloe",
+      "from": "2026-11-09",
+      "instnames": [
+        "karlsruheexp"
+      ],
+      "keycloak_username": "cfisher",
+      "last": "Fisher",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "B. Flaggs",
@@ -54590,6 +54605,36 @@
       "keycloak_username": "cspiering",
       "last": "Spiering",
       "orcid": "0000-0001-7372-0074",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Spinola",
+      "collab": "icecube",
+      "email": "jaspinol@uni-mainz.de",
+      "first": "Jakob",
+      "from": "2026-11-09",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jspinola",
+      "last": "Spinola",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Spinola",
+      "collab": "icecube-gen2",
+      "email": "jaspinol@uni-mainz.de",
+      "first": "Jakob",
+      "from": "2026-11-09",
+      "instnames": [
+        "mainz"
+      ],
+      "keycloak_username": "jspinola",
+      "last": "Spinola",
+      "orcid": "",
       "thanks": [],
       "to": ""
     },
