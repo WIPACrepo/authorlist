@@ -1858,6 +1858,21 @@
     },
     {
       "authname": "O. Altug",
+      "collab": "icecube",
+      "email": "oemer.altug@rwth-aachen.de",
+      "first": "Oemer",
+      "from": "2026-11-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "oaltug",
+      "last": "Altug",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "O. Altug",
       "collab": "icecube-gen2",
       "email": "oemer.altug@rwth-aachen.de",
       "first": "Oemer",
@@ -2723,7 +2738,7 @@
       "last": "Audehm",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-11"
     },
     {
       "authname": "J. Auffenberg",
@@ -10284,6 +10299,21 @@
       "to": "2024-01-01"
     },
     {
+      "authname": "M. Clauss",
+      "collab": "icecube-gen2",
+      "email": "matthias.clauss@rwth-aachen.de",
+      "first": "Matthias",
+      "from": "2026-11-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "mclauss",
+      "last": "Clauss",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Clem",
       "collab": "icecube",
       "email": "clem@bartol.udel.edu",
@@ -13363,7 +13393,7 @@
       "last": "Do",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-11"
     },
     {
       "authname": "A. Domi",
@@ -20642,7 +20672,7 @@
       "last": "G\u00fcnther",
       "orcid": "0009-0007-5644-8559",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-11"
     },
     {
       "authname": "C. G\u00fcnther",
@@ -50461,6 +50491,36 @@
       "orcid": "",
       "thanks": [],
       "to": "2013-05-31"
+    },
+    {
+      "authname": "S. Schellok",
+      "collab": "icecube",
+      "email": "sophie.schellok@rwth-aachen.de",
+      "first": "Sophie",
+      "from": "2026-11-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "schellok",
+      "last": "Schellok",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "S. Schellok",
+      "collab": "icecube-gen2",
+      "email": "sophie.schellok@rwth-aachen.de",
+      "first": "Sophie",
+      "from": "2026-11-12",
+      "instnames": [
+        "aachen"
+      ],
+      "keycloak_username": "schellok",
+      "last": "Schellok",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
     },
     {
       "authname": "F. Scheriau",
