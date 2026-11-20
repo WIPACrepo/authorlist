@@ -532,17 +532,27 @@
     },
     {
       "from": "2017-12-13",
-      "to": "",
-      "value": "Astroparticle physics computational facility at Marquette University,"
+      "to": "2023-06-30",
+      "value": "Astroparticle physics computational facility at Marquette University;"
     },
     {
       "from": "2023-07-01",
+      "to": "2026-11-19",
+      "value": "Astroparticle physics computational facility at Marquette University,"
+    },
+    {
+      "from": "2026-11-20",
       "to": "",
+      "value": "Astroparticle physics computational facility at Marquette University;"
+    },
+    {
+      "from": "2023-07-01",
+      "to": "2026-11-19",
       "value": "NVIDIA Corporation,"
     },
     {
       "from": "2023-07-01",
-      "to": "",
+      "to": "2026-11-19",
       "value": "and Google Cloud Platform;"
     },
     {
