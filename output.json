@@ -26312,6 +26312,36 @@
       "to": "2015-04-02"
     },
     {
+      "authname": "J. Jacobsen",
+      "collab": "icecube",
+      "email": "john@johnj.com",
+      "first": "John",
+      "from": "2026-11-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "jacobsen",
+      "last": "Jacobsen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "J. Jacobsen",
+      "collab": "icecube-gen2",
+      "email": "john@johnj.com",
+      "first": "John",
+      "from": "2026-11-22",
+      "instnames": [
+        "madisonpac"
+      ],
+      "keycloak_username": "jacobsen",
+      "last": "Jacobsen",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "M. Jacquart",
       "collab": "icecube",
       "email": "marc.jacquart@icecube.wisc.edu",
