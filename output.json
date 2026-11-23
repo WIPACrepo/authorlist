@@ -29763,6 +29763,21 @@
       "to": ""
     },
     {
+      "authname": "W. Kirsch",
+      "collab": "icecube",
+      "email": "wk366@drexel.edu",
+      "first": "Willem",
+      "from": "2026-11-23",
+      "instnames": [
+        "drexel"
+      ],
+      "keycloak_username": "wkirsch",
+      "last": "Kirsch",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
       "authname": "J. Kiryluk",
       "collab": "icecube",
       "email": "joanna.kiryluk@stonybrook.edu",
