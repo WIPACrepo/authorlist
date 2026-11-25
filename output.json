@@ -29205,7 +29205,7 @@
       "last": "Khanal",
       "orcid": "",
       "thanks": [],
-      "to": ""
+      "to": "2026-11-24"
     },
     {
       "authname": "M. Khanal",
@@ -29213,6 +29213,36 @@
       "email": "u1421460@utah.edu",
       "first": "Manish",
       "from": "2024-01-08",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mkhan",
+      "last": "Khanal",
+      "orcid": "",
+      "thanks": [],
+      "to": "2026-11-24"
+    },
+    {
+      "authname": "M. Khanal",
+      "collab": "icecube",
+      "email": "mkhan@icecube.wisc.edu",
+      "first": "Manish",
+      "from": "2026-11-25",
+      "instnames": [
+        "utah"
+      ],
+      "keycloak_username": "mkhan",
+      "last": "Khanal",
+      "orcid": "",
+      "thanks": [],
+      "to": ""
+    },
+    {
+      "authname": "M. Khanal",
+      "collab": "icecube-gen2",
+      "email": "mkhan@icecube.wisc.edu",
+      "first": "Manish",
+      "from": "2026-11-25",
       "instnames": [
         "utah"
       ],
